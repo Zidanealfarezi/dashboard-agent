@@ -1,0 +1,2 @@
+# Standard Python dependencies for Vercel Serverless
+# Uses Python standard library (sqlite3, json, http.server, urllib, pathlib)
