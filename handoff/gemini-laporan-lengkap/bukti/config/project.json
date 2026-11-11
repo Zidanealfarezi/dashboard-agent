@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-05",
+  "timezone": "Asia/Jakarta",
+  "mode": "controlled_pilot",
+  "operator": "hermes",
+  "hermes_in_scope": true,
+  "generation_enabled": false,
+  "publication_enabled": false,
+  "scheduler_enabled": false,
+  "telegram_enabled": true,
+  "max_parallel_jobs": 1,
+  "trial_durations_seconds": [
+    6,
+    12
+  ],
+  "mvp_character_proposal": "nara",
+  "target_per_character_per_30_days": {
+    "videos": 20,
+    "photos": 10
+  },
+  "generation_budget_authorized_credits": 25,
+  "additional_monthly_budget_idr": null,
+  "storage_policy_proposed": {
+    "active_media_limit_gib": 5,
+    "minimum_free_gib": 10
+  },
+  "integrations": {
+    "flow": "hermes_dinda_generation_download_pilot_verified_inactive",
+    "telegram": "live_review_acc_verified_no_daemon",
+    "publishing": "codex_draft_only_sound_attachment_and_publication_pending"
+  },
+  "note": "Pilot Dinda 10/25 kredit selesai sampai ACC terverifikasi. Draf TikTok Only you berlabel AI disimpan oleh Codex. Generasi baru, publikasi, autopilot dan scheduler nonaktif; Telegram sekali panggil tanpa daemon.",
+  "builder": "codex_chat"
+}

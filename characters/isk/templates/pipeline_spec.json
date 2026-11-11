@@ -1,0 +1,17 @@
+{
+  "pipeline_name": "ISK Brand Video",
+  "version": "2.0",
+  "aspect_ratio": "9:16",
+  "flow_input_resolution": "360p",
+  "main_video_max_seconds": 15,
+  "closing_seconds": 4.07,
+  "final_max_seconds": 20,
+  "max_posts_per_day": 1,
+  "flow_outputs": 1,
+  "flow_duration": "Input Google Flow 360p durasi fleksibel hingga 15 detik pada Omni 1.2 Flash sehingga bersama outro 4.07 detik total video akhir maksimal 20 detik.",
+  "upscaler": "Varian 3 Hybrid Foto-Realistik via app/upscaler.py (wajib 360p Flow -> --upscale auto, upscayl-lite-4x + 45% tekstur asli CAS + micro grain, texture_preserve=0.45 ke 1080x1920 sebelum pembakaran subtitle).",
+  "subtitles": "Editorial TikTok 2-tier ASS hardsub via app/subtitles.py tanpa tanda koma (editorial_tiktok: Ray_Top #FFFFFF Helvetica Neue Bold 44 ALL CAPS + Ray_Bot #E8FF3B Times New Roman 126 ScaleX=72 lowercase di kanvas 1080x1920), bertiming Faster-Whisper dari ucapan dialog asli.",
+  "closing_asset": "characters/isk/assets/brand/outro_keris_isk.mp4",
+  "editor": "python3 -m app.media --character isk (app.media.assemble_character_video)",
+  "review": "Cek klip, subtitle, dan closing. Siapkan paket melalui app.autopilot finish --creative-checked untuk ACC."
+}

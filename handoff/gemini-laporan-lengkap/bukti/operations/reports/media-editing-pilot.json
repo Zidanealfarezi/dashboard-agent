@@ -1,0 +1,10 @@
+{
+  "test": "two synthetic clips joined, trimmed and decoded",
+  "success": true,
+  "duration_seconds": 1.466667,
+  "dimensions": [
+    180,
+    320
+  ],
+  "character_media_used": false
+}

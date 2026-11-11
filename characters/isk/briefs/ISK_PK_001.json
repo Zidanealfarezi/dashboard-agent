@@ -1,0 +1,41 @@
+{
+  "video_id": "ISK_PK_001",
+  "product_category": "Paku Cap Keris",
+  "target_audience": "Toko Bangunan & Tukang Kayu",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_sec": 3.0,
+      "prompt_visual": "cinematic realistic, close up shot of a bent generic nail stuck in hardwood, frustrated Indonesian carpenter wearing denim shirt looking down, dusty workshop background, natural morning sunlight, 9:16, 8k",
+      "voiceover_text": "Sering emosi gara-gara paku baru dihantam martil langsung bengkok?",
+      "overlay_text": "Paku Gampang Bengkok?"
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 5.0,
+      "prompt_visual": "cinematic realistic, top down view of a fresh brown cardboard box of Paku Cap Keris opened, pristine clean steel nails without rust or dust, digital scale showing exact 25kg, realistic warehouse lighting, 9:16",
+      "voiceover_text": "Ganti ke Paku Cap Keris dari PT Intan Suar Kartika, bersih dan timbangan pas.",
+      "overlay_text": "Paku Cap Keris: Bersih & Presisi"
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 5.0,
+      "prompt_visual": "cinematic realistic, macro dynamic shot of a sturdy steel nail driven smoothly straight into thick teak wood with a single solid hammer strike, no bending, wood dust flying, high shutter speed, 9:16",
+      "voiceover_text": "Batang kokoh standar mutu ekspor, sekali hantam langsung menancap lurus.",
+      "overlay_text": "Anti Bengkok, Standar Mutu Ekspor"
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 3.0,
+      "prompt_visual": "cinematic realistic, smiling Indonesian hardware store owner standing behind the counter pointing towards the viewer, stacks of nail boxes in background, warm commercial lighting, 9:16",
+      "voiceover_text": "Mau stok toko atau proyek kamu aman? Tulis KATALOG di komentar.",
+      "overlay_text": "Komen 'KATALOG' Sekarang"
+    }
+  ],
+  "outro": {
+    "duration_sec": 4.0,
+    "static_asset_path": "assets/brand/outro_keris_isk.mp4"
+  },
+  "cta_keyword": "KATALOG",
+  "caption": "Pekerjaan konstruksi butuh material yang presisi dan tidak gampang bengkok. Paku Cap Keris hadir dengan jaminan timbangan pas 25 kg dan standar mutu ekspor. Komentar KATALOG untuk mendapatkan tautan WhatsApp pemesanan langsung lewat DM."
+}

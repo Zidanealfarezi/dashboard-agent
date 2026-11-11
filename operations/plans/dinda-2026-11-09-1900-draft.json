@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "draft_blocked_not_submitted",
+  "character_id": "dinda",
+  "account": "@dinda.kemala_",
+  "slot": "2026-11-09-1900",
+  "target_time_wib": "19:00",
+  "trend": {
+    "id": "opt_dinda_A_1794175429",
+    "title": "Gulo Palu dan Jajanan Bingen: Rasa Tempo Dulu Saat Palembang Mulai Hujan",
+    "viral_score": 8.92,
+    "source_brief": "operations/reports/content-options-1794175429.json",
+    "why": "Topik kuliner hangat dengan bukti lokal dan belum dipakai; cocok untuk slot malam."
+  },
+  "wardrobe": {
+    "id": "outfit_dinda_chocolate_cardigan",
+    "name": "Chocolate Brown Knit Cardigan & Cream Pleated Palazzo",
+    "closeup_reference": "characters/dinda/wardrobe/outfit_chocolate_cardigan/closeup_portrait_916.jpg",
+    "fullbody_reference": "characters/dinda/wardrobe/outfit_chocolate_cardigan/fullbody_ootd_4ref_916.jpg"
+  },
+  "identity_references": [
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "characters/dinda/wardrobe/outfit_chocolate_cardigan/fullbody_ootd_4ref_916.jpg"
+  ],
+  "duration_seconds": 10,
+  "aspect_ratio": "9:16",
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "shot on smartphone vlog camera, natural clean daylight neutral white balance at 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Dinda Kemala, Indonesian woman in her twenties wearing a chocolate brown knit cardigan and cream pleated palazzo trousers with a black hijab, sits at a simple Palembang evening food stall holding a small bowl of warm gulo palu and bingen. She lifts the spoon, smiles naturally at the camera, and speaks one short sentence to the lens. Warm practical stall lights are balanced to neutral white, not orange. Handheld vertical 9:16 framing, subject centered, stable face, natural micro-expressions, real steam from the bowl, honest street-food documentary atmosphere, no text overlay, no logo."
+    }
+  ],
+  "caption": "Malam di Palembang paling pas kalau ada gulo palu dan bingen hangat. Jajanan tempo dulu yang rasanya masih akrab sampai sekarang. Kamu paling suka camilan malam apa lur? Tulis di komen peh. #palembang #kulinerpalembang #jajanantradisional #malamdipalembang #wongkito",
+  "audio": {
+    "vocal_percent": 100,
+    "lofi_music_percent": 15,
+    "genre": "chill_acoustic_vlog"
+  },
+  "policy_checks": {
+    "anti_ai_slop_terms_included": true,
+    "three_references_required_per_shot": true,
+    "no_emoji": true,
+    "one_generation_per_content": true,
+    "duration_within_native_10s_option": true
+  },
+  "blocked_reason": "production hold plus two unresolved ISK generation_jobs; no valid reservation"
+}

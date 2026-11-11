@@ -1,0 +1,145 @@
+{
+  "brief_id": "tiktok-trend-bang_ray-2026-11-10",
+  "character_id": "bang_ray",
+  "slot": "morning",
+  "collected_at": "2026-11-10T13:49:00+07:00",
+  "collected_by": "antigravity_research",
+  "note": "Riset akun dan pola konten tips/trik bangunan di TikTok Indonesia melalui halaman pencarian TikTok Search (/search?q=tukang+bangunan, /search/video?q=tips+tukang+bangunan, trik+tukang+bangunan, ilmu+tukang+bangunan, cara+pasang+keramik+cepat) serta pencarian web. Pembatasan: penelusuran langsung ke halaman profil individu (@budihome.id) memicu halaman 'Please wait...' di TikTok, sehingga pengambilan metrik dari tab profil langsung dihentikan sesuai kebijakan tanpa melewati gate.",
+  "candidates": [
+    {
+      "url": "https://www.tiktok.com/search/video?q=cara%20pasang%20keramik%20cepat",
+      "title": "TikTok Search: cara pasang keramik cepat (@disabilitas_punya_cara, @viatv1, @tukangkreatif1_real)",
+      "evidence": "Teramati di kartu hasil TikTok Search pukul 13.47 WIB: @disabilitas_punya_cara (36.9K likes, Top liked), @viatv1 (8236 likes), @teknikinfrastruktursipil (5404 likes), @tukangkreatif1_real (4168 likes), @tanganketiga (4040 likes), @hendra.nurjaman7 (1702 likes), @nakahome_ (1681 likes), @abu.nali3 (1258 likes).",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "url": "https://www.tiktok.com/search/video?q=tips%20tukang%20bangunan",
+      "title": "TikTok Search: tips, trik, & ilmu tukang bangunan (@budihome.id, @king.awi.jpro.8, @pucermanefacts)",
+      "evidence": "Teramati berulang di 3 kueri TikTok Search (tips, trik, ilmu tukang bangunan) pukul 13.47 WIB: @budihome.id (Top liked), @king.awi.jpro.8 (Top liked di trik & ilmu), @pucermanefacts (Top liked), @muhamad.rois735 (Top liked), @bang_yasofficial, @soncontractor, @sahabatkulibangunan, @ceritateknik, @mahatir_s.t, @onsitearchitect.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "url": "https://www.tiktok.com/search?q=tukang%20bangunan",
+      "title": "TikTok Search: tukang bangunan (@tukangrumah.pdg, @abiijayakontruksi, @kawansipil)",
+      "evidence": "Teramati di TikTok Search pukul 13.46 WIB: @tukangrumah.pdg mengunggah topik teknik awal plesteran dinding (159 likes) dan pengecekan pasangan pipa PVC sebelum ditimbun (359 likes), serta @kawansipil (461 likes).",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-10T13:46:41+07:00"
+    },
+    {
+      "url": "https://www.tiktok.com/@sudutsipil",
+      "title": "Riset Web Referensi Kreator Edukasi Sipil Indonesia (@sudutsipil)",
+      "evidence": "Ringkasan riset web (YouTube/IDXChannel): akun edukasi teknik sipil (@sudutsipil / Fachrurrazi, ST) konsisten membahas kesalahan pengecoran, cakar ayam, RAB sederhana, cek besi/semen, dan tips borongan vs harian sebagai format edukasi yang tinggi share/save.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-10T13:48:50+07:00"
+    }
+  ],
+  "observed_creators_and_videos": [
+    {
+      "handle": "@disabilitas_punya_cara",
+      "video_url": "https://www.tiktok.com/@disabilitas_punya_cara/video/7302977150305537286",
+      "query": "cara pasang keramik cepat",
+      "observed_badge": "Top liked",
+      "observed_likes_text": "36.9K",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@viatv1",
+      "video_url": "https://www.tiktok.com/@viatv1/video/7689042246255086869",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "8236",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@teknikinfrastruktursipil",
+      "video_url": "https://www.tiktok.com/@teknikinfrastruktursipil/video/7110175813101817115",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "5404",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@tukangkreatif1_real",
+      "video_url": "https://www.tiktok.com/@tukangkreatif1_real/video/7173913415021235482",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "4168",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@tanganketiga",
+      "video_url": "https://www.tiktok.com/@tanganketiga/video/7299435584244829446",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "4040",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@hendra.nurjaman7",
+      "video_url": "https://www.tiktok.com/@hendra.nurjaman7/video/7670736181784562964",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "1702",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@nakahome_",
+      "video_url": "https://www.tiktok.com/@nakahome_/video/7635155954106993927",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "1681",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@abu.nali3",
+      "video_url": "https://www.tiktok.com/@abu.nali3/video/7510879831169568006",
+      "query": "cara pasang keramik cepat",
+      "observed_likes_text": "1258",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@budihome.id",
+      "video_url": "https://www.tiktok.com/@budihome.id/video/7680595870135504148",
+      "query": "tips tukang bangunan",
+      "observed_badge": "Top liked",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@king.awi.jpro.8",
+      "video_url": "https://www.tiktok.com/@king.awi.jpro.8/video/7694099935666507028",
+      "query": "trik tukang bangunan & ilmu tukang bangunan",
+      "observed_badge": "Top liked",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@pucermanefacts",
+      "video_url": "https://www.tiktok.com/@pucermanefacts/video/7702776442609880341",
+      "query": "tips tukang bangunan & ilmu tukang bangunan",
+      "observed_badge": "Top liked",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@muhamad.rois735",
+      "video_url": "https://www.tiktok.com/@muhamad.rois735/video/7632989254079073557",
+      "query": "ilmu tukang bangunan",
+      "observed_badge": "Top liked",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@bang_yasofficial",
+      "video_url": "https://www.tiktok.com/@bang_yasofficial/video/7661437907319754004",
+      "query": "trik tukang bangunan & ilmu tukang bangunan",
+      "observed_at": "2026-11-10T13:47:18+07:00"
+    },
+    {
+      "handle": "@tukangrumah.pdg",
+      "video_url": "https://www.tiktok.com/@tukangrumah.pdg/video/7392144837824400645",
+      "query": "tukang bangunan",
+      "observed_likes_text": "359 (video lain 159: Teknik awal untuk plesteran dinding; pengecekan pipa PVC sebelum ditimbun)",
+      "observed_at": "2026-11-10T13:46:41+07:00"
+    },
+    {
+      "handle": "@sudutsipil",
+      "source": "web_research",
+      "observed_focus": "Edukasi teknik sipil oleh Fachrurrazi, ST: RAB sederhana, kesalahan struktur/pengecoran, cakar ayam, pilih borongan vs harian.",
+      "observed_at": "2026-11-10T13:48:50+07:00"
+    }
+  ],
+  "limitations": "Angka tayangan (views) pada grid profil individu belum teramati karena TikTok memunculkan halaman 'Please wait...' saat berpindah ke URL profil @budihome.id; data yang dicatat di sini murni berasal dari halaman hasil TikTok Search dan riset web tanpa melewati gate."
+}

@@ -1,0 +1,16 @@
+{
+  "authorized_on": "2026-11-05",
+  "scope": "controlled_pilot_not_unattended_operations",
+  "flow_total_credit_cap": 300,
+  "automatic_paid_retry": false,
+  "preferred_model_family": "Omni Flash",
+  "outputs_per_generation": 1,
+  "generation_started": true,
+  "scheduler_enabled": false,
+  "publication_requires_final_package_acc": true,
+  "note": "Batas ini adalah catatan konfigurasi. Hitung kredit tercatat dan sisa batas proyek dari generation_jobs melalui app.autopilot status. Selisih dengan laporan rekonsiliasi masih ditinjau. Publikasi wajib ACC.",
+  "historical_job_reserved_credits": 10,
+  "job_id": "253f6d629ae248a99206b92779237199",
+  "automatic_additional_generation": false,
+  "external_asset_id": "060b02c5-e2b4-4895-93e8-fe609750c54e"
+}

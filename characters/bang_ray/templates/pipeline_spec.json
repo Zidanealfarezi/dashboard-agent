@@ -1,0 +1,54 @@
+{
+  "pipeline_name": "Bang Ray Tips Bangunan Banda Aceh",
+  "version": "1.0",
+  "character_id": "bang_ray",
+  "character_name": "Bang Ray",
+  "account": "@teuku.rayyan00",
+  "aspect_ratio": "9:16",
+  "video_resolution": "360p (Native Flow 360x640) -> 1080x1920 via Varian 3 Hybrid Foto-Realistik",
+  "flow_duration_seconds": "fleksibel 3-30 detik total (Omni 1.2 Flash 360p 3-15s per klip, atau gabungan multi-klip dirakit lokal hingga maks 30 detik)",
+  "flow_duration_range_seconds": [3, 30],
+  "max_duration_seconds": 30,
+  "max_posts_per_day": 1,
+  "flow_account_id": "flow_3",
+  "flow_project_url": "https://flow.google.com/project/3d61dd46-62f0-42c0-9ff0-24c2cbf07b0d",
+  "identity_ingredients": [
+    {
+      "name": "Bang Ray Three-Expression Reference Sheet",
+      "file_path": "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+      "sha256": "c224e0bdc1b1535821a3313823121ad390f146b2c8bddc21d4ccc0bc118028f8",
+      "mandatory": true,
+      "purpose": "Konsistensi wajah asli, struktur rahang, gaya rambut, dan tiga ekspresi (NETRAL, SENYUM, SERIUS)"
+    },
+    {
+      "name": "Bang Ray Fullbody Turnaround Reference",
+      "file_path": "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+      "sha256": "5b8d656f0497d9ec13623d65199ed81c20bd28c95f9651621e2e4a69832911f5",
+      "mandatory": true,
+      "purpose": "Konsistensi postur tubuh 173 cm / 68 kg dan pakaian kerja dari sudut DEPAN, SAMPING, BELAKANG"
+    },
+    {
+      "name": "Bang Ray Portrait Close-Up Reference",
+      "file_path": "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+      "sha256": "bc52d8444210bd56a41fc56a70e60e000353959f6627cbcce7098a59a0278664",
+      "mandatory": false,
+      "purpose": "Acuan potret tunggal non-kolase dan foto profil resmi akun"
+    }
+  ],
+  "upscaler": "Varian 3 Hybrid Foto-Realistik via app/upscaler.py (wajib 360p Flow -> --upscale auto, upscayl-lite-4x + 45% tekstur asli CAS + micro grain, texture_preserve=0.45 ke 1080x1920 sebelum pembakaran subtitle).",
+  "subtitles": "Editorial TikTok 2-tier ASS hardsub via app/subtitles.py tanpa tanda koma (editorial_tiktok: Ray_Top #FFFFFF Helvetica Neue Bold 44 ALL CAPS + Ray_Bot #E8FF3B Times New Roman 126 ScaleX=72 lowercase di kanvas 1080x1920), bertiming Faster-Whisper dari ucapan dialog asli.",
+  "editor": "python3 -m app.media --character bang_ray (app.media.assemble_character_video)",
+  "visual_policy": "Frame mentah hasil generate Google Flow harus 100% bersih tanpa teks/subtitle bawaan AI; upscale Varian 3 dan subtitle editorial_tiktok hanya dibakar di tahap pasca-produksi lokal via app/media.py.",
+  "approval_gate": {
+    "channel": "telegram",
+    "chat_id": 7463982122,
+    "bot": "@ISKAGENT_BOT",
+    "requires_explicit_acc": true
+  },
+  "publisher": {
+    "platform": "TikTok Studio",
+    "target_account": "@teuku.rayyan00",
+    "engine": "scripts/tiktok_publisher.js",
+    "emoji_policy": "Strict 0% Emoji"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "plan_date": "2026-11-07",
+  "status": "draft_awaiting_owner_acc",
+  "prepared_by": "ai-influencer-pm",
+  "gates_at_preparation": {
+    "mode": "flexible_pilot",
+    "generation_enabled": false,
+    "publication_enabled": false,
+    "scheduler_enabled": false,
+    "autopilot_enabled": false,
+    "research_enabled": false,
+    "remaining_authorized_credits": 15,
+    "note": "Draf perencanaan saja. Tidak ada kredit dipakai, tidak ada media digenerate, tidak ada publikasi. Slot belum didaftarkan ke tabel daily_slots."
+  },
+  "source_note": "Konsep disusun dari content_pillars di characters/<id>/profile.json. Riset tren dan sound TIDAK dilakukan karena research_enabled=false di config/autopilot.json. trend_sources kosong dan tidak ada klaim tren.",
+  "slots": [
+    {
+      "id": "plan-2026-11-07-dinda",
+      "day": "2026-11-07",
+      "character_id": "dinda",
+      "kind": "video",
+      "duration_seconds": 8,
+      "proposed_state": "planned",
+      "title": "Kopi pagi di warung dekat rumah",
+      "role_tags": [
+        "lifestyle",
+        "kuliner",
+        "daily vlog Palembang"
+      ],
+      "role_reason": "Pilar utama Dinda: rutinitas pagi Palembang yang dekat dengan keseharian audiens lokal.",
+      "hook": "Pagi di Palembang belum mulai sebelum kopi warung.",
+      "story": "Dinda duduk di warung kopi kecil dekat rumah, menikmati kopi pagi sebelum aktivitas. Situasi harian, bukan kejadian baru dalam canon.",
+      "caption": "Pagi di Palembang rasanya belum mulai kalau belum mampir kopi di warung dekat rumah. Duduk sepuluh menit, dengar obrolan orang, lalu pulang siap berangkat. Kalian kalau pagi mampir ke mana dulu?",
+      "hashtags": [
+        "#dailyvlog",
+        "#palembang",
+        "#kopipalembang",
+        "#kulinerpalembang",
+        "#lifestyleindonesia",
+        "#coffeetime"
+      ],
+      "shots": [
+        {
+          "seconds": 8,
+          "prompt": "Use the attached verified Dinda identity reference as the only character source. Output exactly ONE woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, single continuous shot. Preserve her facial features, black hijab, red top and round pendant. Scene: small neighbourhood coffee stall (warung kopi) in Palembang in the morning, simple wooden table, a glass of black coffee in front of her, open-air stall background slightly out of focus. Over eight seconds she sits down, lifts the glass with both hands, takes a small sip, looks toward the camera and gives a relaxed natural half smile. Fixed eye-level camera with minimal handheld sway. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. No talking, no subtitles, no on-screen text, no logos, no brand labels, no extra people in focus. Do not reproduce the reference sheet layout."
+        }
+      ],
+      "new_biography_facts": [],
+      "promotional": false,
+      "trend_sources": []
+    },
+    {
+      "id": "plan-2026-11-07-nara",
+      "day": "2026-11-07",
+      "character_id": "nara",
+      "kind": "photo",
+      "duration_seconds": null,
+      "proposed_state": "planned",
+      "title": "Selfie cermin sebelum berangkat kantor",
+      "role_tags": [
+        "beauty",
+        "office look",
+        "GRWM"
+      ],
+      "role_reason": "Pilar Nara: tampilan kantor Medan dan rutinitas siap-siap yang bisa ditiru cepat.",
+      "hook": "Tampilan kantor lima menit, tanpa ribet.",
+      "story": "Nara berfoto selfie di cermin dengan setelan kantor rapi sebelum berangkat. Situasi harian, bukan kejadian baru dalam canon.",
+      "caption": "Masuk kantor jam delapan tapi bangunnya mepet, jadi ini rutinitas lima menit yang selalu aku pakai. Bedak tipis, lipstik warna aman, rambut diikat rapi. Kalian tim bangun mepet juga kan?",
+      "hashtags": [
+        "#officelook",
+        "#grwm",
+        "#makeupminimalis",
+        "#medan",
+        "#beautytips",
+        "#ootdkantor"
+      ],
+      "shots": [
+        {
+          "seconds": null,
+          "prompt": "Use the attached verified Nara identity reference as the only character source. Output exactly ONE woman, never a collage, split screen or reference-sheet layout. Vertical 9:16 photo, mirror selfie framing at chest height, phone visible in hand but screen blank. Preserve her exact facial features, hijab style and outfit colour from the reference. Scene: tidy apartment hallway in Medan, large wall mirror, neutral walls, daylight from a side window, work bag on a hook in soft background blur. Expression calm and confident, subtle smile, neat hijab, light natural makeup. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. No text, no logos, no brand labels, no extra people. Do not reproduce the reference sheet layout."
+        }
+      ],
+      "new_biography_facts": [],
+      "promotional": false,
+      "trend_sources": []
+    },
+    {
+      "id": "plan-2026-11-07-rania",
+      "day": "2026-11-07",
+      "character_id": "rania",
+      "kind": "video",
+      "duration_seconds": 8,
+      "proposed_state": "planned",
+      "title": "Detail bordir pada outer hari ini",
+      "role_tags": [
+        "budaya Aceh",
+        "modest fashion"
+      ],
+      "role_reason": "Pilar Rania: modest fashion dengan detail budaya Aceh sebagai fokus visual, bukan klaim sejarah.",
+      "hook": "Simpel dari jauh, ramai kalau dilihat dekat.",
+      "story": "Rania memperlihatkan detail bordir pada outer yang dipakainya hari itu. Fokus visual pada tekstil; tidak ada klaim sejarah baru.",
+      "caption": "Hari ini aku pilih outer bordir yang motifnya mirip ukiran pintu rumah Aceh lama. Dari jauh kelihatan simple, tapi kalau dilihat dekat detailnya ramai sekali. Kalian lebih suka warna netral atau warna berani?",
+      "hashtags": [
+        "#aceh",
+        "#modestfashion",
+        "#budayaeaceh",
+        "#ootdhijab",
+        "#bordir",
+        "#detailbudaya"
+      ],
+      "shots": [
+        {
+          "seconds": 8,
+          "prompt": "Use the attached verified Rania identity reference as the only character source. Output exactly ONE woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, single continuous shot. Preserve her exact facial features, hijab style and colour palette from the reference. Scene: bright indoor room with plain neutral wall in Aceh, daylight from a window, she wears a modest long outer with visible fine embroidery on the sleeve. Over eight seconds the camera starts at mid-shot, then she turns her forearm slightly toward the lens so the embroidered detail fills part of the frame, then she looks up at the camera with a small smile. Gentle handheld movement, shallow depth of field. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. No talking, no subtitles, no on-screen text, no logos, no brand labels, no extra people. Do not reproduce the reference sheet layout."
+        }
+      ],
+      "new_biography_facts": [],
+      "promotional": false,
+      "trend_sources": []
+    }
+  ],
+  "prepared_at": "2026-11-07T08:02:05+07:00",
+  "predecessor": "operations/plans/content-plan-2026-11-06.json",
+  "hashtag_policy_applied": {
+    "prohibit_character_self_name_tag": true,
+    "rule": "Dilarang keras menggunakan hashtag nama diri karakter (seperti #DindaKemala, #NaraAdelia, #Rania, dll). Wajib hanya menggunakan hashtag topik organik, lokasi, kuliner, dan lifestyle (misal: #DailyVlog, #Palembang, #KulinerPalembang, #CoffeeTime, #OOTDHijab, #AestheticCafe)."
+  },
+  "anti_ai_slop_policy_applied": true
+}

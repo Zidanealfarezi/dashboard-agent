@@ -1,0 +1,140 @@
+{
+  "brand": "PT Intan Suar Kartika",
+  "account": "@intansuarkartika",
+  "selection_policy": "Rotasi 4 pilar produk berdasarkan performa analitik TikTok Studio: Kawat Duri (pilar views tertinggi #1), Kereta Sorong (uji beban ekstrem), Paku Cap Keris (penetrasi kayu keras, atap seng anti-bocor, bekisting cor beton), dan Kawat Licin (konstruksi cor beton). Dilarang keras menggunakan tema timbangan 25 kg dan dilarang mengulang skenario yang sama berturut-turut. Setiap video wajib menerapkan Contextual 3-Layer Hook (Visual 0.0s, Text-on-Screen tegas, Spoken Hook spesifik) dan diakhiri Save-Bait CTA.",
+  "products": {
+    "kawat_duri_diamond": {
+      "name": "Kawat Duri Diamond",
+      "master_asset": "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg",
+      "visual_anchor": "Roll silinder kawat duri galvanis berkilau rapi, label oval kayu cap merah bertuliskan BARBED IRON WIRE dengan logo INI / DIAMOND",
+      "variations": [
+        {
+          "format": "Pagar Batas Kebun Sawit",
+          "character": "Mandor kebun sawit Indonesia memakai rompi lapangan dan topi",
+          "background": "Latar perkebunan kelapa sawit rapi berbaris di bawah sinar matahari alami",
+          "action": "Menarik bentangan kawat duri yang terpasang kokoh pada tiang kayu/beton batas lahan",
+          "hook": "Batas kebun jelas bukan untuk musuhan, tapi untuk lindungi hasil panen!",
+          "visual_hook_layer_1": "Mandor kebun menarik kencang bentangan kawat duri galvanis pada tiang batas sejak frame 0.0s, menunjukkan ketegangan baja tanpa kendor",
+          "text_on_screen_layer_2": "PAGAR BATAS KEBUN SAWIT",
+          "spoken_hook_layer_3": "Batas kebun jelas bukan untuk musuhan, tapi untuk lindungi hasil panen dari serobotan dan ternak liar.",
+          "save_bait_cta": "Simpan video ini biar batas kebun sawit kamu aman bertahun-tahun.",
+          "loop_bridge": "Makanya selalu pastikan...",
+          "audio": "Dialog tegas lugas, suara desau angin kebun sawit dan denting kawat baja"
+        },
+        {
+          "format": "Anti-Hama Lahan Pertanian",
+          "character": "Petani hortikultura di kebun cabai/buah",
+          "background": "Pagar batas kebun sayur/cabai hijau subur",
+          "action": "Memeriksa kerapatan lilitan duri baja 4 titik yang tajam dan tidak kendor",
+          "hook": "Capek rawat tanaman kalau tiap malam kebun diobrak-abrik hama liar!",
+          "visual_hook_layer_1": "Petani memeriksa kerapatan 4 titik duri baja mengkilap di pagar batas kebun cabai sejak frame 0.0s",
+          "text_on_screen_layer_2": "PAGAR KEBUN ANTI HAMA",
+          "spoken_hook_layer_3": "Capek rawat tanaman kalau tiap malam kebun diobrak-abrik hama liar.",
+          "save_bait_cta": "Simpan panduan ini buat persiapan pasang pagar kebun kamu.",
+          "loop_bridge": "Dan jangan tunggu panen rusak dulu...",
+          "audio": "Dialog santai penuh keyakinan petani lapangan"
+        }
+      ]
+    },
+    "kereta_sorong_five_star": {
+      "name": "Kereta Sorong Five Star",
+      "master_asset": "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg",
+      "secondary_asset": "characters/isk/assets/brand/kereta_sorong_five_star_top.jpg",
+      "visual_anchor": "Kereta dorong merah cerah glossy, bak plat baja press tebal, stiker FIVE STAR di handle pipa merah, roda ban angin tebal berulir",
+      "variations": [
+        {
+          "format": "Uji Beban Ekstrem 200 KG",
+          "character": "Pekerja proyek konstruksi tangguh",
+          "background": "Area proyek pembangunan dengan tumpukan batu kali dan pasir basah",
+          "action": "Memuat bongkahan batu kali penuh ke dalam bak merah, lalu mendorong melintasi tanah bergelombang tanpa oleng",
+          "hook": "Kereta dorong kaleng-kaleng baru muat batu sedikit rodanya sudah goyang!",
+          "visual_hook_layer_1": "Pekerja mengangkat bongkahan batu kali besar dan menjatuhkannya ke dalam bak merah Five Star sejak frame 0.0s, bak plat baja tebal tidak penyok",
+          "text_on_screen_layer_2": "UJI BEBAN 200 KG",
+          "spoken_hook_layer_3": "Kereta dorong kaleng-kaleng baru muat batu sedikit rodanya sudah goyang dan baknya penyok.",
+          "save_bait_cta": "Simpan tips ini biar proyek kamu gak boncos beli gerobak bolak-balik.",
+          "loop_bridge": "Kalau mau armada tahan banting di proyek...",
+          "audio": "Suara gemeretak batu kali, nafas mantap pekerja, roda melibas tanah"
+        },
+        {
+          "format": "Medan Becek Perkebunan",
+          "character": "Pekerja perkebunan sawit / kebun buah",
+          "background": "Jalan setapak tanah merah becek perkebunan",
+          "action": "Mendorong muatan tandan buah segar, ban angin berulir tebal Five Star tidak selip di lumpur",
+          "hook": "Musim hujan jalanan becek? Angkut muatan panen tetap lancar jaya!",
+          "visual_hook_layer_1": "Ban angin berulir tebal melibas jalur tanah merah becek tanpa selip sejak frame 0.0s, memuat tandan sawit berat",
+          "text_on_screen_layer_2": "ANGKUT PANEN JALUR BECEK",
+          "spoken_hook_layer_3": "Musim hujan jalanan becek begini, angkut muatan panen sawit tetap lancar jaya tanpa selip.",
+          "save_bait_cta": "Simpan video ini buat referensi alat angkut perkebunan musim hujan.",
+          "loop_bridge": "Karena kalau roda gerobak kamu selip terus...",
+          "audio": "Suara ban melibas tanah liat, suasana pagi perkebunan"
+        }
+      ]
+    },
+    "paku_cap_keris": {
+      "name": "Paku Cap Keris",
+      "master_asset": "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg",
+      "visual_anchor": "Kardus kraft cokelat persegi panjang tulisan hijau tua PAKU EXPORT QUALITY CAP KERIS, lambang keris, paku curah lepas tanpa plastik",
+      "variations": [
+        {
+          "format": "Penetrasi Balok Kayu Keras (Hardwood Penetration)",
+          "character": "Tukang kayu ahli mengerjakan balok kayu keras (ulin/kamper)",
+          "background": "Area pengerjaan struktur rangka kayu balok tebal",
+          "action": "Memukul paku Cap Keris menembus balok kayu keras tanpa melengkung atau patah di tengah serat kayu padat",
+          "hook": "Kerja kayu keras jangan pakai paku biasa kalau nggak mau patah di tengah!",
+          "visual_hook_layer_1": "Palu menghantam kepala paku Cap Keris menembus balok kayu ulin padat dalam 2 kali pukulan mantap sejak frame 0.0s tanpa bengkok",
+          "text_on_screen_layer_2": "PAKU ANTI MELEYOT",
+          "spoken_hook_layer_3": "Kerja kayu keras jangan pakai paku biasa kalau gak mau patah atau bengkok di tengah serat.",
+          "save_bait_cta": "Simpan tips ini biar kerjaan kayu dan kuda-kuda atap kamu presisi kokoh.",
+          "loop_bridge": "Rahasia paku tembus lurus tanpa bengkok ya cuma...",
+          "audio": "Denting palu berat memukul baja murni, suara serat kayu padat tertembus mantap"
+        },
+        {
+          "format": "Pemasangan Atap Seng Anti-Bocor (Roofing Security)",
+          "character": "Tukang atap profesional di rangka atap rumah",
+          "background": "Pemasangan lembaran seng/asbes gelombang pada kaso kayu atap",
+          "action": "Memasang paku berpayung rapat yang mengunci seng gelombang dengan presisi, melindungi dari terpaan angin badai dan rembesan air",
+          "hook": "Baru musim hujan pertama, atap sudah rembes gara-gara paku payung abal-abal!",
+          "visual_hook_layer_1": "Tukang atap mengunci seng gelombang dengan paku payung presisi sejak frame 0.0s, payung karet menutup rapat gelombang seng",
+          "text_on_screen_layer_2": "KUNCI ATAP ANTI REMBES",
+          "spoken_hook_layer_3": "Baru musim hujan pertama atap rumah sudah rembes gara-gara paku payung longgar dan berkarat.",
+          "save_bait_cta": "Simpan video ini sebelum mulai renovasi atap rumah musim hujan ini.",
+          "loop_bridge": "Supaya atap gak bocor pas badai angin...",
+          "audio": "Suara angin luar ruangan, denting paku mengunci seng rapat"
+        },
+        {
+          "format": "Kekuatan Bekisting Cor Tiang Beton (Anti-Jebol)",
+          "character": "Mandor bekisting proyek gedung",
+          "background": "Perakitan papan kayu bekisting tiang cor kolom",
+          "action": "Memeriksa sambungan papan cor beton yang terkunci rapat oleh paku baja Cap Keris, siap menahan tekanan ribuan kilogram semen basah",
+          "hook": "Bekisting jebol waktu semen dituang? Itu tandanya cengkeraman pakunya lemah!",
+          "visual_hook_layer_1": "Tangan mandor memeriksa sambungan papan bekisting cor kolom yang dipaku rapat sejak frame 0.0s, adukan semen basah tertahan kokoh",
+          "text_on_screen_layer_2": "BEKISTING COR ANTI JEBOL",
+          "spoken_hook_layer_3": "Bekisting jebol waktu semen cair dituang bikin rugi jutaan rupiah dalam hitungan detik.",
+          "save_bait_cta": "Simpan standar paku bekisting ini biar cor tiang proyek kamu aman rapi.",
+          "loop_bridge": "Makanya kunci sambungan papan cor itu harus...",
+          "audio": "Suara getaran molen dan adukan semen di proyek konstruksi"
+        }
+      ]
+    },
+    "kawat_licin_diamond": {
+      "name": "Kawat Licin Diamond",
+      "master_asset": "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg",
+      "visual_anchor": "Roll kawat baja galvanis halus mengkilap, lilitan padat anti-karat",
+      "variations": [
+        {
+          "format": "Ikat Tulangan Besi Cor Proyek",
+          "character": "Tukang pembesian proyek bangunan",
+          "background": "Struktur anyaman besi tiang kolom cor beton",
+          "action": "Mengikat pertemuan besi ulir menggunakan kawat licin dengan tang catut dalam satu putaran cepat tanpa putus",
+          "hook": "Kawat ikat gampang getas bikin kerjaan cor tiang molor berjam-jam!",
+          "visual_hook_layer_1": "Tang catut memelintir kawat licin mengikat pertemuan dua besi beton ulir dalam satu putaran cepat sejak frame 0.0s tanpa putus",
+          "text_on_screen_layer_2": "IKAT TULANGAN BESI CEPAT",
+          "spoken_hook_layer_3": "Kawat ikat yang gampang getas bikin kerjaan anyam besi kolom tiang molor berjam-jam.",
+          "save_bait_cta": "Simpan tips pembesian ini biar pekerjaan anyam besi tiang kamu dua kali lebih cepat.",
+          "loop_bridge": "Kalau mau anyaman besi cor kokoh anti lepas...",
+          "audio": "Denting tang catut memutar kawat, suara konstruksi nyata"
+        }
+      ]
+    }
+  }
+}

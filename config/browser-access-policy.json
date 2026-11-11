@@ -1,0 +1,69 @@
+{
+  "updated_on": "2026-11-07",
+  "protected_personal_chrome_label": "Zidane · ISK",
+  "scope": "all_hermes_profiles",
+  "policy_file": "AGENTS.md",
+  "protected_google_account_access": "deny",
+  "original_chrome_profile_copy": "deny",
+  "unscoped_chrome_autoconnect": "disabled",
+  "operational_google_accounts_require_existing_authorization": true,
+  "os_sandbox_enforced": false,
+  "changes": [
+    {
+      "profile": "default",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/.hermes/browser-isolated",
+      "autoconnect_servers_disabled": []
+    },
+    {
+      "profile": "ai-influencer-dinda",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/private/browser/ai-influencer-dinda",
+      "autoconnect_servers_disabled": [],
+      "unscoped_autoconnect_disabled": true,
+      "dedicated_mcp_browser": {
+        "endpoint": "http://127.0.0.1:9333",
+        "user_data_dir": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/private/browser/dinda-automation",
+        "verified_on": "2026-11-06",
+        "read_only": false,
+        "operational_scope": "TikTok Dinda navigation and engagement under config/engagement.json; not Google account access or Flow generation"
+      }
+    },
+    {
+      "profile": "ai-influencer-nara",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/private/browser/ai-influencer-nara",
+      "autoconnect_servers_disabled": []
+    },
+    {
+      "profile": "ai-influencer-pm",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/.hermes/profiles/ai-influencer-pm/browser-isolated",
+      "autoconnect_servers_disabled": []
+    },
+    {
+      "profile": "ai-influencer-rania",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/private/browser/ai-influencer-rania",
+      "autoconnect_servers_disabled": []
+    },
+    {
+      "profile": "ai-influencer-bang-ray",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/private/browser/ai-influencer-bang-ray",
+      "autoconnect_servers_disabled": []
+    },
+    {
+      "profile": "ai-influencer-researcher",
+      "personal_real_profile_disabled": true,
+      "isolated_browser_dir": "/Users/zidane/.hermes/profiles/ai-influencer-researcher/browser-isolated",
+      "autoconnect_servers_disabled": []
+    },
+    {
+      "profile": "sales-toko",
+      "personal_real_profile_disabled": true,
+      "browser_tool_enabled": false,
+      "autoconnect_servers_disabled": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "character_id": "dinda",
+  "review_date": "2026-11-04",
+  "image_count": 5,
+  "status": "references_catalogued_visual_selection_complete",
+  "proposed_primary": "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+  "proposed_body_reference": "FOTO_KARAKTER/Dinda/dinda.jpg",
+  "assets": [
+    {
+      "index": 1,
+      "path": "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "format": "JPEG",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "a1e87219b67a0f0a84d8d99e02c0bf1b99a82404bd490ee70a0e7ac7aa2ec8d6",
+      "roles": [
+        "face_reference_candidate",
+        "expressions_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 2,
+      "path": "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "format": "JPEG",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "c366aca1719c37f6fbdc46a2669786e7ef2584a3bf992fa081cb1bff2b2446d8",
+      "roles": [
+        "body_reference_candidate",
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 3,
+      "path": "FOTO_KARAKTER/Dinda/snaptik-app-7622957837660032277-slide-1.jpg_b841cd5b.jpg",
+      "format": "JPEG",
+      "size": [
+        1738,
+        3090
+      ],
+      "sha256": "a079df4d8a4693cd9473170cfdc0fe9381f0e9029516217e7ac6870e2080c8d2",
+      "roles": [
+        "style_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 4,
+      "path": "FOTO_KARAKTER/Dinda/snaptik-app-7622957837660032277-slide-3.jpg_c4501288.jpg",
+      "format": "JPEG",
+      "size": [
+        1620,
+        2880
+      ],
+      "sha256": "9ce82763f195109c0656b2e3fec95c61bd98545ab1ef58e1c1a444fb3610a177",
+      "roles": [
+        "style_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 5,
+      "path": "FOTO_KARAKTER/Dinda/snaptik-app-7622957837660032277-slide-4.jpg_3d952b7c.jpg",
+      "format": "JPEG",
+      "size": [
+        1206,
+        2144
+      ],
+      "sha256": "ed738c2b8c6e8d78641a4120edbe33d15956a01707606aac6fefc23f906300ca",
+      "roles": [
+        "style_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    }
+  ],
+  "notes": [
+    "Klasifikasi visual untuk penggunaan referensi; bukan verifikasi identitas orang nyata.",
+    "Foto gaya tidak otomatis dipakai sebagai wajah atau ukuran tubuh.",
+    "Outfit referensi bukan keputusan jabatan atau profesi karakter.",
+    "Tidak ada berkas asli yang diubah; belum ada unggahan/generasi."
+  ],
+  "primary_reference": "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+  "body_reference": "FOTO_KARAKTER/Dinda/dinda.jpg",
+  "selection_method": "codex_visual_review_of_user_supplied_reference_set",
+  "user_context": "Pengguna menyatakan semua foto merupakan referensi; pengaturan peran referensi dikerjakan Codex."
+}

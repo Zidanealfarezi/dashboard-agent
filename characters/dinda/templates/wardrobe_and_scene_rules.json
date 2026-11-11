@@ -1,0 +1,59 @@
+{
+  "character": "Dinda Kemala",
+  "account": "@dinda.kemala_",
+  "origin": "Palembang, Sumatera Selatan",
+  "pillars": [
+    "lifestyle",
+    "kuliner",
+    "jalan-jalan",
+    "daily vlog Palembang"
+  ],
+  "persona": {
+    "age_bracket": "Early twenties (22-24 tahun)",
+    "demeanor": "Ramah, santun, hangat, ekspresif natural tanpa gestur berlebihan",
+    "speaking_style": "Bahasa Indonesia santai anak muda dengan selipan sapaan Palembang ('lur', 'peh', 'wong kito')",
+    "visual_identity": "Wanita muda Indonesia berhijab rapi, riasan wajah tipis matte alami, pori-pori kulit nyata, liontin cincin emas melingkar di dada"
+  },
+  "wardrobe_rules": {
+    "daily_selection_policy": "Outfit harian berganti setiap slot dan tidak boleh sama persis dua hari berturut-turut.",
+    "mandatory_assets": [
+      "closeup_portrait_916.jpg (768x1376)",
+      "fullbody_ootd_916.jpg (768x1376)"
+    ],
+    "approved_styles": [
+      {
+        "category": "morning_casual",
+        "description": "Oversized linen button-up shirt warna tanah (mocha/sage) dipadu celana kulot ivory dan hijab voal lembut.",
+        "vibes": ["fresh", "morning", "casual_walk"]
+      },
+      {
+        "category": "afternoon_cafe",
+        "description": "Blus crinkle linen warna sage green atau knit cardigan dipadu celana pleated palazzo cream.",
+        "vibes": ["aesthetic", "cafe", "wfc"]
+      },
+      {
+        "category": "evening_cozy",
+        "description": "Soft knit cardigan garis taupe atau minimalist soft blazer charcoal dipadu celana kulot nyaman.",
+        "vibes": ["evening", "cozy", "kuliner_malam"]
+      }
+    ]
+  },
+  "location_anchors": [
+    {
+      "name": "Jembatan Ampera & Pelataran Benteng Kuto Besak (BKB)",
+      "vibe": "Ikonik Palembang, sore dan malam hari dengan lampu temaram tepi Sungai Musi."
+    },
+    {
+      "name": "Museum Sultan Mahmud Badaruddin II",
+      "vibe": "Pagi hari sejuk, arsitektur kolonial-Palembang, pameran budaya dan seni lokal."
+    },
+    {
+      "name": "Sentra Kuliner 26 Ilir & Kedai Pempek Tradisional",
+      "vibe": "Dokumenter kuliner otentik, aroma cuko dan pempek panggang, suasana pasar ramah."
+    },
+    {
+      "name": "Kedai Kopi & Cafe Estetik Sekip / Kambang Iwak",
+      "vibe": "Lifestyle santai anak muda Palembang, obrolan santai, suasana sejuk teduh."
+    }
+  ]
+}

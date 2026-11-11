@@ -1,0 +1,42 @@
+{
+  "status": "prepared_not_installed_not_enabled",
+  "target_profile": "ai-influencer-dinda",
+  "target_browser_label": "Mutia (FLOW)",
+  "target_project_url": "https://flow.google.com/project/3e9fe2ca-ee39-4235-81a1-9d8bfdee9603",
+  "package": "chrome-devtools-mcp",
+  "version": "1.12.0",
+  "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "registry": "https://registry.npmjs.org/chrome-devtools-mcp",
+  "native_chrome_permission_observed": "Allow remote debugging for this browser instance = off",
+  "permission_scope": "Chrome warns: full browser control and access to saved data, cookies and site data. This is broader than the single Flow tab.",
+  "cookie_snapshot_or_copy_planned": false,
+  "initial_test": "List pages, select existing Dinda Flow page, read snapshot; no input, upload or generation.",
+  "proposed_mcp_servers_entry": {
+    "flow_chrome": {
+      "command": "/opt/homebrew/bin/npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.12.0",
+        "--autoConnect",
+        "--no-usage-statistics",
+        "--no-performance-crux"
+      ],
+      "env": {
+        "CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS": "1"
+      },
+      "tools": {
+        "include": [
+          "list_pages",
+          "select_page",
+          "take_snapshot"
+        ]
+      }
+    }
+  },
+  "pending_user_decisions": [
+    "Install the official connector package",
+    "Enable Chrome remote debugging for this browser instance",
+    "Approve the incoming Chrome connection dialog"
+  ],
+  "operational_gates_unchanged": true
+}

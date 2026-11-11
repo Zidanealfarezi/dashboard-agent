@@ -1,0 +1,147 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-08-evening",
+  "character_id": "dinda",
+  "slot": "evening",
+  "collected_at": "2026-11-08T17:05:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset ulang menjelang slot malam 8 November 2026 pukul 16.17-17.05 WIB lewat browser Hermes. Halaman lagitren.id/tiktok dibaca ulang setelah diperbarui 16.17 WIB dan menampilkan perubahan nyata dibanding pagi: #musteat masuk tiga besar video viral dengan 14,4 juta tayangan, sementara pagi tadi tidak ada tagar kuliner di sepuluh teratas. Angka yang dicatat adalah yang benar-benar terlihat di halaman. TikTok Creative Center tidak dipakai karena menolak akses otomatis.",
+  "candidates": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 8 November 2026 · Lagi Tren",
+      "evidence": "Halaman bertanda 'Hari ini · 8 November 2026 · diperbarui 8 Nov, 16.17 WIB'. Sepuluh video lagi viral: #mplids18 3,2 jt tayangan, #weownthis 1,7 jt, #musteat 14,4 jt, #stuck 2,5 jt, #november 38,5 jt, #ijazahjokowi 38,0 jt, #theremarriedempress 6,2 jt, #penyadapan 13,8 jt, #zivamagnolya 8,4 jt, #loveanddeepspace 212,5 rb. Berbeda dari pagi ini, sekarang ada tagar kuliner di posisi ketiga. Tagar politik (#ijazahjokowi, #jokowidodo, #listyosigitprabowo) sengaja tidak dipakai karena bukan ranah karakter.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-08T16:17:00+07:00",
+      "metrics": {
+        "musteat_views": 14400000,
+        "musteat_rank": 3,
+        "november_views": 38500000,
+        "culinary_tags_in_top10": 1
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok/musteat",
+      "title": "#musteat — kenapa viral? | TikTok Viral Indonesia · Lagi Tren",
+      "evidence": "Halaman diperbarui 8 Nov, 16.17 WIB: '#musteat sedang viral di TikTok Indonesia dengan lebih dari 18 ribu video'. Penyebabnya peluncuran fitur Must Eat dari TikTok bersama Tokopedia, panduan kuliner berbasis komunitas pengguna; pengguna membagikan review tempat makan favorit sehingga tagar naik organik. Halaman juga menautkan empat pemberitaan peluncuran (SWA, Marketeers, Suara, Media Indonesia). Inilah satu-satunya tren kuliner yang benar-benar panas pada jam riset ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-08T16:17:00+07:00",
+      "metrics": {
+        "videos": 18000,
+        "status": "trending"
+      }
+    },
+    {
+      "url": "https://wartaekonomi.co.id/read644595/tiktok-go-by-tokopedia-luncurkan-must-eat-panduan-kuliner-jabodetabek",
+      "title": "TikTok GO by Tokopedia Luncurkan Must Eat, Panduan Kuliner Jabodetabek - Warta Ekonomi",
+      "evidence": "Terbit Jumat 30 Oktober 2026 pukul 13.40 WIB, dibaca 8 November 2026. Artikel menyebut Must Eat adalah panduan rekomendasi kuliner berbasis komunitas untuk wilayah Jabodetabek, dengan dua kategori Everyday Eats dan Elevated Dining, serta data internal TikTok semester I 2026: #kuliner 49,9 ribu unggahan, #kulinerviral 17,2 ribu, #jelajahkuliner 8,9 ribu. Penting untuk kejujuran konten: cakupan fiturnya baru Jabodetabek, belum Palembang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-08T17:02:00+07:00",
+      "published_at": "2026-10-30T13:40:00+07:00",
+      "metrics": {
+        "hashtag_kuliner_posts_h1_2026": 49900,
+        "coverage": "Jabodetabek"
+      }
+    },
+    {
+      "url": "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+      "title": "Prediksi Musim Hujan Tahun 2026/2027 – Stasiun Klimatologi Sumatera Selatan",
+      "evidence": "Siaran BMKG bertanggal 8 Oktober 2026, dibaca ulang 8 November 2026. Wilayah Palembang diprediksi memasuki musim hujan 2026/2027 pada dasarian II November 2026, yaitu 11-20 November, lebih lambat dari normal untuk sebagian besar Sumsel. Artinya hujan pertama Palembang tinggal hitungan hari, dan konten makanan berkuah masih relevan minggu ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-08T17:03:00+07:00",
+      "published_at": "2026-10-08T00:00:00+07:00",
+      "metrics": {
+        "palembang_rainy_season_start": "dasarian II November 2026"
+      }
+    },
+    {
+      "url": "https://palpos.bacakoran.co/read/27247/lakso-kuliner-tradisional-khas-palembang-yang-menggoda-selera",
+      "title": "Lakso, Kuliner Tradisional Khas Palembang yang Menggoda Selera - Koran Palpos",
+      "evidence": "Artikel lokal Sumatera Selatan, terbit 2 Mei 2025, dibaca 8 November 2026. Menjelaskan lakso sebagai mi tebal dari tepung beras dengan kuah santan kuning berbumbu, disajikan hangat dengan bawang goreng dan sambal, biasa untuk sarapan atau makan siang, dan disebut tidak seterkenal pempek. Berguna sebagai latar bahan, tetapi umurnya sudah satu setengah tahun sehingga tidak boleh dipakai sebagai bukti momentum.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-08T17:04:00+07:00",
+      "published_at": "2025-05-02T07:10:00+07:00",
+      "metrics": {
+        "article_age_days": 555
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "G",
+      "title": "Must Eat Versi Palembang: Tiga Makanan Wajib Dicoba Sebelum Musim Hujan",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Fitur Must Eat TikTok baru ada di Jabodetabek, jadi aku bikin daftar versi Palembang sendiri.",
+      "shots": [
+        "Shot 1 (8s): Dinda berdiri di depan warung lakso pagi, menunjuk mangkuk kuah kuning yang mengepul, kamera mengikuti gerakan tangannya lalu berhenti di wajahnya yang tersenyum.",
+        "Shot 2 (8s): Dinda duduk di bangku kayu mencicipi suapan pertama, mengangguk puas, lalu menoleh ke kamera dan menceritakan dua makanan lain di daftarnya sambil menunjuk ke arah jalan."
+      ],
+      "sound": "Lofi Akustik Pagi Hujan (format daftar kuliner lokal, bukan klaim angka)",
+      "outfit": "Mocha Earth-Tone Oversized Shirt & Ivory Trousers (street_market, mocha-ivory) - outfit_dinda_21618e9d",
+      "caption": "Fitur Must Eat dari TikTok baru tersedia di Jabodetabek, jadi aku bikin daftar versi Palembang sendiri. Tiga yang menurutku wajib dicoba: lakso dengan kuah kuning yang pedasnya nendang, tekwan hangat buat pagi yang mulai mendung, dan pempek panggang buat sore. Daftar ini murni dari kebiasaan makan orang Palembang sehari-hari, bukan ranking bayaran. Kalau kalian ke Palembang, mana yang mau dicoba dulu? #musteat #palembang #kulinarpalembang #kulinerpalembang #lakso #tekwan #pempek #dailyvlog",
+      "sources": [
+        "https://lagitren.id/tiktok",
+        "https://lagitren.id/tiktok/musteat",
+        "https://wartaekonomi.co.id/read644595/tiktok-go-by-tokopedia-luncurkan-must-eat-panduan-kuliner-jabodetabek",
+        "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/"
+      ],
+      "factors": {
+        "momentum": 8.5,
+        "local_relevance": 9.5,
+        "format_fit": 8.5,
+        "evidence_strength": 8.0,
+        "risk_safety": 8.5
+      },
+      "why": "Satu-satunya tagar kuliner yang masuk sepuluh besar video viral hari ini (#musteat, peringkat tiga, 14,4 juta tayangan, lebih dari 18 ribu video) dan momentumnya baru muncul sore ini setelah pagi tidak ada tagar kuliner sama sekali. Formatnya cocok untuk karakter kuliner Palembang, dengan sudut jujur bahwa fitur Must Eat baru mencakup Jabodetabek sehingga Dinda membuat daftar versi kotanya sendiri. BMKG mendukung konteks musim hujan yang mulai minggu ini."
+    },
+    {
+      "code": "H",
+      "title": "Hujan Pertama Palembang Minggu Ini, Warung Tekwan Jadi Tujuan Pertama",
+      "pillar": "Daily Vlog Palembang",
+      "hook": "BMKG bilang Palembang masuk musim hujan minggu ini, jadi warung tekwan langganan langsung penuh.",
+      "shots": [
+        "Shot 1 (8s): Dinda membuka payung di depan warung tekwan pinggir jalan, rintik hujan terlihat di terpal warung, lalu ia duduk dan menghela napas lega.",
+        "Shot 2 (8s): Dinda menyeruput kuah tekwan hangat, kamera menangkap uap di depan wajahnya, lalu ia tersenyum ke kamera."
+      ],
+      "sound": "Rainy Day Ambient (format POV hujan)",
+      "outfit": "Striped Taupe Knit Cardigan & Cream Palazzo (casual, earth-tone)",
+      "caption": "BMKG memperkirakan Palembang masuk musim hujan sekitar dasarian kedua November, jadi minggu ini aku mulai siap-siap payung lagi. Hujan pertama biasanya bikin semua orang mencari yang berkuah, dan tekwan di pinggir jalan ini yang paling dekat dari rumah. Kalian kalau hujan pertama biasanya langsung cari makanan apa? #palembang #tekwan #kulinarpalembang #musimhujan #dailyvlog #streetfood",
+      "sources": [
+        "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "momentum": 7.5,
+        "local_relevance": 9.0,
+        "format_fit": 8.0,
+        "evidence_strength": 7.5,
+        "risk_safety": 9.0
+      },
+      "why": "Momentum cuaca kuat dan lokal, tetapi tidak menempel ke tagar yang sedang naik hari ini sehingga jangkauan luar kota lebih kecil; format POV hujan juga sudah pernah dipakai di bank ide."
+    },
+    {
+      "code": "I",
+      "title": "Lakso, Mi Tebal Kuah Kuning yang Kalah Tenar dari Pempek",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Semua orang tahu pempek, tapi sarapan favorit orang Palembang justru lakso.",
+      "shots": [
+        "Shot 1 (8s): Dinda memotret mangkuk lakso dari atas, kuah kuning dan bawang goreng terlihat jelas, lalu ia menyeruput mi tebalnya.",
+        "Shot 2 (8s): Dinda berbicara ke kamera sambil menunjuk warung di belakangnya, menjelaskan kenapa lakso jarang disebut dibanding pempek."
+      ],
+      "sound": "Street Food Bounce (format kuliner, bukan klaim angka)",
+      "outfit": "Mocha Earth-Tone Oversized Shirt & Ivory Trousers (street_market, mocha-ivory) - outfit_dinda_21618e9d",
+      "caption": "Pempek selalu jadi nama pertama kalau orang luar tanya makanan Palembang, padahal pagi-pagi di sini yang paling sering dicari justru lakso. Mi tebal dari tepung beras, kuah santan kuning yang gurih dan pedas, ditabur bawang goreng. Simpel tapi ngangenin. Kalian tim lakso atau tetap setia sama pempek? #palembang #lakso #kulinarpalembang #kulinerpalembang #sarapanpalembang #dailyvlog",
+      "sources": [
+        "https://palpos.bacakoran.co/read/27247/lakso-kuliner-tradisional-khas-palembang-yang-menggoda-selera",
+        "https://lagitren.id/tiktok/musteat"
+      ],
+      "factors": {
+        "momentum": 6.0,
+        "local_relevance": 9.5,
+        "format_fit": 8.0,
+        "evidence_strength": 6.5,
+        "risk_safety": 9.0
+      },
+      "why": "Sudut lokal paling kuat dan menempel ke tagar #musteat, tetapi bukti momentum lemah: artikel latarnya terbit Mei 2025 dan tidak ada data permintaan baru untuk lakso."
+    }
+  ]
+}

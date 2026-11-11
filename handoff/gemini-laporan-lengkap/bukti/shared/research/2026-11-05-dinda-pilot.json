@@ -1,0 +1,64 @@
+{
+  "observed_at": "2026-11-05T04:48:06.493799+00:00",
+  "candidates": [
+    {
+      "url": "https://www.tiktok.com/@overtime.palembang/video/7655257362802167061",
+      "title": "BOSEN NGEDATE GITU-GITU AJA? AJAKIN DOI KESINI DEH👀🌟💘 OVERTIME PALE...",
+      "evidence": "Pada riset 5 November 2026, Asia/Jakarta, ekstraksi menampilkan judul dan tautan audio, tetapi pemutar melaporkan gagal memainkan video. Tanggal publikasi tidak terlihat. Angka 21, 0, 5, dan 10 tampil tanpa label metrik yang dapat dipastikan. Isi visual dan keterkaitannya dengan kuliner belum dapat diverifikasi; bukan bukti tren.",
+      "verification_status": "candidate_unverified",
+      "published_at": null,
+      "sound_url": "https://www.tiktok.com/music/suara-asli-Overtime-Experience-Palembang-7655257407497259794",
+      "metrics": null
+    },
+    {
+      "url": "https://www.tiktok.com/@fishinfun.plg",
+      "title": "Fish in Fun Palembang",
+      "evidence": "Hasil pencarian menampilkan profil dengan deskripsi seafood Palembang. Ini tautan profil, bukan video spesifik; halaman tidak diekstraksi. Tanggal, metrik video, dan isi video belum terverifikasi.",
+      "verification_status": "candidate_unverified",
+      "published_at": null,
+      "sound_url": null,
+      "metrics": null
+    },
+    {
+      "url": "https://sumsel.idntimes.com/food/dining-guide/selain-pempek-ini-lho-empat-makanan-khas-palembang-berkuah-kental-00-pbgds-cmgqcd",
+      "title": "4 Makanan Khas Palembang Berkuah Kental yang Cocok untuk Menu Buka Puasa",
+      "evidence": "Artikel pembanding berhasil diekstraksi pada 5 November 2026, Asia/Jakarta. Tercantum penulis Rangga Erfizal dan tanggal 10 Maret 2026 pukul 11.45 WIB. Bagian burgo menjelaskan adonan tepung beras dan sagu yang dimasak tipis, digulung, diiris, lalu disajikan dengan kuah santan. Mendukung konteks kuliner untuk ide, bukan klaim tren TikTok.",
+      "verification_status": "verified_context_source",
+      "published_at": "2026-03-10T11:45:00+07:00",
+      "sound_url": null,
+      "metrics": null
+    }
+  ],
+  "selected_urls": [
+    "https://sumsel.idntimes.com/food/dining-guide/selain-pempek-ini-lho-empat-makanan-khas-palembang-berkuah-kental-00-pbgds-cmgqcd"
+  ],
+  "idea": {
+    "title": "Burgo, Jeda Pagi Enam Detik",
+    "hook": "Gulungan burgo dan kuah santan dalam satu angkatan sendok.",
+    "story": "Draf adegan sarapan: Dinda duduk di meja sederhana dengan semangkuk burgo, lalu perlahan mengangkat satu sendok berisi irisan burgo dan sedikit kuah. Satu pengambilan gambar tanpa dialog. Ide bertumpu pada konteks makanan dalam artikel pembanding, bukan meniru video TikTok yang belum terverifikasi. Adegan belum terjadi dan bukan canon.",
+    "caption": "Jeda pagi, lihat burgo dulu, yuk. Gulungannya ketemu kuah santan, pas buat ide sarapan berikutnya. Kamu biasa menyebutnya burgo juga?",
+    "image_prompt": "Draf visual vertikal 9:16 untuk @dinda.kemala_. Gunakan hanya master identitas Dinda saat kelak tersedia dan produksi diizinkan; wajah serta hijab harus sesuai master, jangan menebak detail identitas atau menyalin orang referensi. Dinda duduk di meja sarapan sederhana tanpa logo, semangkuk burgo berupa irisan gulungan putih dengan kuah santan kuning kehijauan di depannya. Cahaya pagi lembut, tampilan makanan realistis, komposisi medium close-up yang memperlihatkan wajah dan mangkuk. Tanpa landmark, teks, merek, atau tokoh lain.",
+    "shots": [
+      {
+        "seconds": 6,
+        "prompt": "Rancangan Omni Flash x1, satu klip enam detik, satu shot vertikal 9:16 tanpa cut. Identitas dan hijab Dinda wajib mengikuti master yang disediakan kelak. Kamera tetap, medium close-up pada Dinda dan mangkuk burgo di meja. Satu aksi sederhana: Dinda perlahan mengangkat sendok berisi satu irisan burgo dan sedikit kuah dari mangkuk, lalu menahannya sebentar. Gerakan tangan natural, makanan tetap konsisten, tanpa dialog, tanpa musik referensi, tanpa teks atau logo. Jangan menyalin identitas, lokasi, atau komposisi kreator TikTok. Ini hanya prompt draf, bukan perintah menjalankan generasi."
+      }
+    ],
+    "role_tags": [
+      "kuliner_palembang",
+      "daily_vlog",
+      "lifestyle"
+    ],
+    "role_reason": "Burgo memberi sudut kuliner Palembang yang berbeda dari riwayat Ampera, es kacang merah, serta pempek/cuko. Adegan sarapan sederhana cocok untuk daily vlog Dinda tanpa menambahkan kebiasaan tetap, hubungan, pekerjaan, atau riwayat pribadi.",
+    "new_biography_facts": [],
+    "promotional": false
+  },
+  "blockers": [
+    "Contoh video TikTok kuliner Palembang yang isi visual, tanggal publikasi, dan metriknya terverifikasi belum diperoleh. Kandidat TikTok tidak boleh disebut viral, top, atau tren.",
+    "Halaman video TikTok dapat diekstraksi sebagai teks, tetapi video gagal diputar; tautan audio yang ditemukan tidak membuktikan isi atau popularitas audio.",
+    "Batas riset telah digunakan: dua panggilan pencarian, masing-masing maksimal tiga hasil, dan satu panggilan ekstraksi berisi dua URL.",
+    "Master identitas tidak diperiksa karena sesi ini dibatasi pada web_search/web_extract. Kesesuaian wajah dan hijab belum dapat diverifikasi; prompt mewajibkan master sebelum produksi kelak.",
+    "Provider gratis tidak ditampilkan dalam keluaran tool sehingga status biaya provider tidak dapat diverifikasi secara independen; tidak ada konfigurasi provider yang diubah.",
+    "Seluruh hasil adalah draf riset, belum canon dan belum diizinkan terbit. Tidak dilakukan generasi, pengiriman pesan, login, pemasangan paket, perubahan konfigurasi, scheduler, atau delegasi."
+  ]
+}

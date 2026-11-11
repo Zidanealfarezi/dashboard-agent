@@ -1,0 +1,46 @@
+{
+  "id": "rania",
+  "name": "Rania Meutia",
+  "tiktok_account": "@rania.meutia",
+  "origin": "Aceh",
+  "content_pillars": [
+    "wisata alam dan tempat estetik Aceh sekitarnya",
+    "travel vlog dan hidden gems Aceh",
+    "kuliner khas tempat wisata Aceh",
+    "keseharian santun dan modest travel look"
+  ],
+  "language": "Indonesia dengan sentuhan daerah ringan",
+  "format": "9:16",
+  "employment": null,
+  "job_title": null,
+  "age": null,
+  "birth_date": null,
+  "height_cm": null,
+  "weight_kg": null,
+  "family": null,
+  "friends": null,
+  "residence_details": null,
+  "voice_identity": null,
+  "master_image": "FOTO_KARAKTER/Rania/Editing_images_for_realistic_skin_cd1fcd30.jpg",
+  "master_voice": null,
+  "motion_reference": null,
+  "historical_appearance_note": "Hijab dalam referensi historis.",
+  "appearance_status": "reference_visually_verified",
+  "promotional_ratio": null,
+  "flow_account_id": null,
+  "reference_inbox": "FOTO_KARAKTER/Rania",
+  "reference_catalog": "characters/rania/identity/reference_catalog.json",
+  "master_selection_status": "selected_from_user_references",
+  "master_image_sha256": "257bf6ee54b25db506b5bc7689aeab85c91fd0ffd579cff76d98f1082c1d8bab",
+  "body_reference": "FOTO_KARAKTER/Rania/Edit_images_for_realistic_skin_8aed6aeb.jpg_ace3bdd2.jpg",
+  "body_reference_sha256": "dd5c3719af21474edc005ae8d6fa9be686ee7679c2c57657e78fd942584da206",
+  "master_selection_source": "codex_visual_review",
+  "reference_review_date": "2026-11-04",
+  "expression_references": [
+    "FOTO_KARAKTER/Rania/Editing_images_for_realistic_skin_cd1fcd30.jpg",
+    "FOTO_KARAKTER/Rania/Person_portrait_in_daylight_c71f9940.jpg"
+  ],
+  "style_references": [
+    "FOTO_KARAKTER/Rania/snaptik-app-7545951719977520440-slide-5.jpg_63f783fa.jpg"
+  ]
+}

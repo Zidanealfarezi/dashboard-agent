@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-05T05:08:41.110558+00:00",
+  "executor": "codex_native_chrome",
+  "account": "@dinda.kemala_",
+  "uploaded_test_file": "characters/dinda/content/dinda-technical-pilot-2026-11-05/v1.mp4",
+  "draft_saved_confirmed": true,
+  "draft_page": "https://www.tiktok.com/tiktokstudio/content?tab=draft",
+  "caption": "TES TEKNIS — Konsistensi wajah dan gerak Dinda, 6 detik. Belum untuk publikasi.",
+  "visibility_selected": "Only you",
+  "ai_label_selected": true,
+  "sound_catalog_search_available": true,
+  "sound_queries_tested": [
+    "LEU",
+    "original sound - LEU"
+  ],
+  "exact_reference_sound_found": false,
+  "reference_sound_id": "7671150180729932552",
+  "sound_selected_or_saved": false,
+  "post_clicked": false,
+  "publication_confirmed": false,
+  "hermes_publishing_tested": false,
+  "limitations": [
+    "Observed search results did not establish an exact match for the reference sound; this does not prove global unavailability.",
+    "Sound attachment and segment selection have not been tested.",
+    "No public post or publication adapter verified; native UI preparation was performed by Codex, not Hermes."
+  ]
+}

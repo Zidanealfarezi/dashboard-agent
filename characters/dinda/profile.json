@@ -1,0 +1,52 @@
+{
+  "id": "dinda",
+  "name": "Dinda Kemala",
+  "tiktok_account": "@dinda.kemala_",
+  "origin": "Palembang",
+  "content_pillars": [
+    "lifestyle",
+    "kuliner",
+    "jalan-jalan",
+    "daily vlog Palembang"
+  ],
+  "language": "Indonesia dengan sentuhan daerah ringan",
+  "format": "9:16",
+  "employment": null,
+  "job_title": null,
+  "age": null,
+  "birth_date": null,
+  "height_cm": null,
+  "weight_kg": null,
+  "family": null,
+  "friends": null,
+  "residence_details": null,
+  "voice_identity": null,
+  "master_image": "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+  "master_voice": null,
+  "motion_reference": "shared/motion_references/reference_motion_2.mp4",
+  "historical_appearance_note": "Hijab dalam referensi historis.",
+  "appearance_status": "reference_visually_verified",
+  "promotional_ratio": null,
+  "flow_account_id": "flow_1",
+  "reference_inbox": "FOTO_KARAKTER/Dinda",
+  "reference_catalog": "characters/dinda/identity/reference_catalog.json",
+  "master_selection_status": "selected_from_user_references",
+  "master_image_sha256": "a1e87219b67a0f0a84d8d99e02c0bf1b99a82404bd490ee70a0e7ac7aa2ec8d6",
+  "body_reference": "FOTO_KARAKTER/Dinda/dinda.jpg",
+  "body_reference_sha256": "c366aca1719c37f6fbdc46a2669786e7ef2584a3bf992fa081cb1bff2b2446d8",
+  "master_selection_source": "codex_visual_review",
+  "reference_review_date": "2026-11-04",
+  "expression_references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg"
+  ],
+  "style_references": [
+    "FOTO_KARAKTER/Dinda/snaptik-app-7622957837660032277-slide-1.jpg_b841cd5b.jpg",
+    "FOTO_KARAKTER/Dinda/snaptik-app-7622957837660032277-slide-3.jpg_c4501288.jpg",
+    "FOTO_KARAKTER/Dinda/snaptik-app-7622957837660032277-slide-4.jpg_3d952b7c.jpg"
+  ],
+  "flow_project_url": "https://flow.google.com/project/3e9fe2ca-ee39-4235-81a1-9d8bfdee9603",
+  "motion_reference_note": "talking-head countdown, 10s trim, Owner 6 Nov 2026",
+  "upscale_policy": "Standar terpadu Varian 3 Hybrid Foto-Realistik via app/upscaler.py: input Google Flow wajib 360p lalu Real-ESRGAN NCNN Vulkan Apple M4 (upscayl-lite-4x, texture_preserve=0.45: 55% AI detail + 45% tekstur asli Lanczos CAS + micro grain) menuju kanvas 1080x1920.",
+  "subtitle_policy": "Standar terpadu editorial_tiktok via app/subtitles.py: 2-tier ASS di kanvas 1080x1920 (Ray_Top putih #FFFFFF Helvetica Neue Bold 44 ALL CAPS + Ray_Bot kuning limau #E8FF3B Times New Roman 126 ScaleX=72 lowercase), bebas tanda koma (0% koma), alignment Faster-Whisper.",
+  "production_formula": "Video vlog Google Flow 360p (maksimal 20 detik, 1x/hari; bisa 1 atau 2 klip dirakit lokal) bebas teks AI -> upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x + 45% tekstur asli CAS + grain ke 1080x1920) -> ekstraksi audio vokal mentah Faster-Whisper -> hardsub 2-tier editorial_tiktok tanpa koma + audio mixing musik lo-fi akustik 15% via app/media.assemble_character_video (tanpa outro brand)."
+}

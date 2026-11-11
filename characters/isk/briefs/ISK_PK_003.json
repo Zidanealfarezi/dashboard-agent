@@ -1,0 +1,39 @@
+{
+  "title": "Kenali Kardus Paku Cap Keris",
+  "body_seconds": 9,
+  "closing_seconds": 3,
+  "character": "tanpa talent",
+  "background": "Kanvas vertikal 9:16 dengan latar studio abu terang dan panel kertas kraft di tengah. Foto kemasan horizontal dipasang utuh tanpa dipotong, bayangan lembut di bawah kardus, ruang kosong di atas untuk judul dan di bawah untuk subtitle, cahaya netral dari kiri, tanpa orang dan tanpa objek lain.",
+  "concept_options": [
+    "Demo statis: foto kemasan utuh di panel kraft, kamera digital dorong pelan ke area tulisan PAKU, satu teks pembuka muncul di frame pertama.",
+    "Sorotan berurutan: foto kemasan tampil utuh dan diam, tiga sorotan tipis muncul berurutan pada tulisan PAKU, simbol keris, lalu nama PT Intan Suar Kartika, kamera hanya bergeser sangat halus.",
+    "Tanya-jawab teks: frame pertama berisi pertanyaan audiens, jawabannya berupa pan digital pelan dari kiri ke kanan melintasi foto kemasan yang tetap utuh."
+  ],
+  "selected_concept": "Sorotan berurutan: foto kemasan tampil utuh dan diam, tiga sorotan tipis muncul berurutan pada tulisan PAKU, simbol keris, lalu nama PT Intan Suar Kartika, kamera hanya bergeser sangat halus.",
+  "selection_reason": "Pertanyaan audiens toko bangunan dan tukang adalah cara mengenali kemasan, dan hanya ada satu foto diam tanpa isi kardus, orang, atau uji material. Sorotan berurutan menjawab pengenalan secara langsung memakai tiga tanda yang benar-benar terlihat di foto, menjaga foto asli utuh tanpa gerakan yang mengarang adegan. Riwayat posting akun tidak diperiksa pada sesi lokal ini. Tanpa dialog, 9 detik cukup untuk tiga penanda ditambah jeda sebelum closing resmi 3 detik.",
+  "subtitles": [
+    {
+      "start": 0.4,
+      "end": 3.2,
+      "text": "Tulisan PAKU berwarna hijau tua"
+    },
+    {
+      "start": 3.4,
+      "end": 6.2,
+      "text": "Simbol keris di sisi kanan"
+    },
+    {
+      "start": 6.4,
+      "end": 8.6,
+      "text": "Nama PT Intan Suar Kartika di depan"
+    }
+  ],
+  "caption": "Kenali kemasan Paku Cap Keris dari tulisan PAKU hijau tua, simbol keris, dan nama PT Intan Suar Kartika di bagian depan.",
+  "production_method": "Konsep PM Intan, edit lokal dari foto master dan penutup resmi",
+  "publication_status": "local_review_draft",
+  "flow_credits_used": 0,
+  "video_id": "ISK_PK_003",
+  "media_path": "characters/isk/content/ISK_PK_003/ISK_PK_003_kenali_kardus_paku_cap_keris.mp4",
+  "media_sha256": "563c439ac4a798312fb87a46ea8f6c3e5639db4d2fd15f6f5cd84d72c09b8eaa",
+  "final_duration_seconds": 12
+}

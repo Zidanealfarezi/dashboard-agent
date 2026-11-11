@@ -1,0 +1,45 @@
+{
+  "character_id": "dinda",
+  "account": "@dinda.kemala_",
+  "kind": "dm_training_correction",
+  "recipient_handle": "@zidane_alfarezi",
+  "recipient_name": "Zidane alfa rezi",
+  "reply_text": "Maaf kak tadi ada kesalahan saat mengirim balasan",
+  "reply_sha256": "a20bf02a90d78305a60a0cefe902ceca28ea8a65cc068572237e65a17bb00c30",
+  "status": "confirmed",
+  "send_attempts": 1,
+  "max_send_attempts": 1,
+  "guard_verified": true,
+  "character_count": 49,
+  "authorization": "Bounded corrective reply during user-authorized DM training, after prior mismatch; not a resend of the failed greeting. Guard verification required.",
+  "pre_send_guard": {
+    "own_account_verified": true,
+    "recipient_verified": true,
+    "exact_match": true,
+    "editor_healthy": true,
+    "editor_count": 1,
+    "character_count": 49,
+    "expected_character_count": 49,
+    "sent": false
+  },
+  "cleared_preexisting_draft": {
+    "text": "Halo kak makasi sudah menyapa",
+    "character_count": 29,
+    "cleared": true,
+    "post_clear_inspect_exact_match_empty": true,
+    "editor_healthy": true
+  },
+  "delivery_evidence": {
+    "page_id": 4,
+    "tab_url": "https://www.tiktok.com/@dinda.kemala_",
+    "conversation_header": "Zidane alfa rezi",
+    "recipient_profile_link": "https://www.tiktok.com/@zidane_alfarezi",
+    "outgoing_bubble_uid": "5_4",
+    "outgoing_bubble_text": "Maaf kak tadi ada kesalahan saat mengirim balasan",
+    "conversation_timestamp": "14:06",
+    "failure_indicator_present": false,
+    "composer_empty_after_send": true,
+    "send_method": "single click on Send button uid=4_2, no Enter, no retry",
+    "confirmed_on": "2026-11-06"
+  }
+}

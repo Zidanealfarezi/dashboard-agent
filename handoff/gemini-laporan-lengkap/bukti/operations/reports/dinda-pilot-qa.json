@@ -1,0 +1,23 @@
+{
+  "path": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/characters/dinda/content/dinda-technical-pilot-2026-11-05/v1.mp4",
+  "duration_seconds": 5.966667,
+  "width": 720,
+  "height": 1280,
+  "audio_removed": true,
+  "qa_status": "basic_sampled_visual_checks_passed",
+  "sampled_times_seconds": [
+    0.25,
+    2.75,
+    5.5
+  ],
+  "single_subject": true,
+  "reference_layout_not_reproduced": true,
+  "visible_clothing_consistent": true,
+  "visible_expression_progression": "neutral, small head tilt, smile",
+  "hands_checked": false,
+  "hands_note": "Hands are outside the frame",
+  "identity_assessment": "Visually broadly consistent with the supplied Dinda reference; not a guarantee of exact identity fidelity",
+  "not_a_publication_approval": true,
+  "media_sha256": "bc2d75b0afe4d54ef180bfe977fa9cd00966ece0faeb9ac4c2ef689042acde1d",
+  "external_asset_id": "060b02c5-e2b4-4895-93e8-fe609750c54e"
+}

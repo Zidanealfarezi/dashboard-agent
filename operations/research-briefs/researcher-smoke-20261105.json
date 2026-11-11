@@ -1,0 +1,23 @@
+{
+  "character_id": null,
+  "observed_at": "2026-11-05T16:25:54+07:00",
+  "sources": [
+    {
+      "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "title": "Models & Pricing | DeepSeek API Docs",
+      "accessed_at": "2026-11-05T16:25:44+07:00",
+      "evidence": "HTTP GET berhasil (200; 27.549 byte). Tabel memuat model Flash dan Pro, batas konteks/output, serta tarif token menurut waktu dan penggunaan cache. Ada bagian biaya Search/Fetch.",
+      "verified_fact": "Pada halaman pricing resmi DeepSeek per 5 Nov 2026 (16:25 WIB), model deepseek-flash dicantumkan dengan context length 1M dan max output 384K, serta tarif 1M output token sebesar $0.6 off-peak dan $1.2 peak; API Search dan Fetch ditagih $0.75 per 1.000 permintaan sukses."
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/profiles",
+      "title": "Profiles: Running Multiple Agents | Hermes Agent",
+      "accessed_at": "2026-11-05T16:25:44+07:00",
+      "evidence": "HTTP GET berhasil (200; 95.111 byte). Dokumentasi menjelaskan pemisahan konfigurasi, credential, sesi, memori dan state tiap profil, syarat pengenalan direktori profil, serta perbedaan membuat profil baru dan cloning.",
+      "verified_fact": "Dokumentasi resmi Hermes Agent menyatakan profil adalah direktori home Hermes terpisah yang memuat config.yaml, .env, SOUL.md, memori, sesi, skills, cron job, dan state database; direktori di bawah ~/.hermes/profiles/ hanya diakui sebagai profil jika memuat salah satu identity file tersebut (config.yaml, .env, SOUL.md, profile.yaml, auth.json, state.db)."
+    }
+  ],
+  "trend_signals": [],
+  "caption_draft": null,
+  "limitations": "Tes keterbacaan sumber; bukan bukti tren dan tidak mewakili kondisi produksi."
+}

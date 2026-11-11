@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-05T05:19:06.350164+00:00",
+  "document_and_card_sent": true,
+  "delivery": {
+    "id": "f76c83d5f3ba4bb9a6f624bc900c570c",
+    "version_id": "3a3e5d8413474077813a3d39dca8a04b",
+    "state": "decided",
+    "decision": "approved",
+    "media_message_id": 3,
+    "card_message_id": 4
+  },
+  "package_bytes_revalidated": true,
+  "media_sha256": "bc2d75b0afe4d54ef180bfe977fa9cd00966ece0faeb9ac4c2ef689042acde1d",
+  "caption_sha256": "e9ff7cb41e661f9592662699367b7f284386a2033aa3b763085bd5053cbce2e2",
+  "callback_verified": true,
+  "visible_card_updated": true,
+  "decision_buttons_removed": true,
+  "approval_count": 1,
+  "publication_triggered": false
+}

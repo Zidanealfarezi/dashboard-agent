@@ -1,0 +1,176 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-11",
+ "character_id": "dinda",
+ "slot": "morning",
+ "collected_at": "2026-11-11T08:31:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Riset slot pagi 11 November 2026 pukul 08.28-08.31 WIB (job terjadwal berjalan terlambat dari slot 05.00). Semua halaman dibaca langsung lewat browser Hermes dan curl: lagitren.id (halaman TikTok hari ini, diperbarui 11 Nov 07.17 WIB), halaman tagar #musteatinmycity, prakiraan cuaca BMKG per kecamatan Kota Palembang, artikel Detik Sumsel tentang pernyataan Kepala BMKG soal pergeseran puncak musim hujan, artikel Ameera/Republika soal hasil Bright Gas Cooking Competition 2026, dan pengumuman Pesona Budaya Sehat di ExtraNews. Temuan utama: daftar tren TikTok hari ini kembali didominasi politik, drama, dan esports tanpa satu pun tagar kuliner atau tagar Palembang, sementara #musteatinmycity sudah ditandai tidak aktif sejak 7 November 2026. Ceruk kuliner lokal karena itu tetap terbuka, dan pemicu paling segar adalah burgo khas Palembang yang masuk hidangan juara kompetisi masak nasional akhir pekan lalu. Angka yang dicatat hanya yang benar-benar terlihat di halaman.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 11 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 11 November 2026 · diperbarui 11 Nov, 07.17 WIB'. Sepuluh video lagi viral: #ijazahjokowi 19,8 jt tayangan, #roysuryo 11,0 jt, #soj1stanniversary 201,0 rb, #jokowi 19,8 jt, #bambamxswordofjustice 766,8 rb, #ffesportsid 1,1 jt, #penyadapan 14,2 jt, #ffwsgf2026 974,0 rb, #stormarena 4,3 jt, #theremarriedempress 7,8 jt. Daftar hashtag tren berisi 14 tagar (#ijazahjokowi, #roysuryo, #soj1stanniversary, #jokowi, #bambamxswordofjustice, #ffesportsid, #penyadapan, #ffwsgf2026, #stormarena, #theremarriedempress, #swordofjustice, #listyosigitprabowo, #loveanddeepspace, #leejongsuk) dan seluruhnya politik, drama, atau esports. Tidak ada tagar kuliner dan tidak ada tagar lokal Palembang, jadi tidak ada tren makanan nasional yang bisa ditumpangi pagi ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-11T08:29:00+07:00",
+   "metrics": {
+    "top_trend": "#ijazahjokowi",
+    "top_trend_views": 19800000,
+    "roysuryo_views": 11000000,
+    "hashtags_listed": 14,
+    "culinary_tags_in_top10": 0,
+    "palembang_tags_in_top10": 0
+   }
+  },
+  {
+   "url": "https://lagitren.id/tiktok/musteatinmycity",
+   "title": "TikTok Viral #musteatinmycity · Lagi Tren",
+   "evidence": "Halaman hashtag bertanda 'Diperbarui 7 Nov, 19.19 WIB' dan menampilkan status 'Tren ini sudah tidak aktif — terakhir tren pada 7 November 2026'. Disebutkan hashtag ini mengumpulkan lebih dari 1,4 juta video dan formatnya berupa rekomendasi makanan wajib dicoba per daerah. Artinya format kuliner daerah yang sebelumnya jadi pintu masuk konten makanan di TikTok sudah kehilangan momentum, sehingga topik kuliner lokal perlu pemicu lain (berita atau event) dan tidak bisa sekadar menumpang tagar ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-11T08:29:00+07:00",
+   "published_at": "2026-11-07T19:19:00+07:00",
+   "metrics": {
+    "trend_status": "inactive",
+    "last_trending_date": "2026-11-07",
+    "total_videos_claimed": 1400000
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 11 November 2026 pukul 08.30 WIB. Tabel prakiraan per kecamatan untuk Rabu, 11 November 2026 menunjukkan 'Hujan Ringan' dengan suhu 25-31 derajat Celsius dan kelembapan 63-96 persen di Ilir Barat Dua, Seberang Ulu Satu, Seberang Ulu Dua, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, Sako, Kemuning, dan Kalidoni, sedangkan Sukarami tercatat 'Hujan Petir' 25-31 derajat Celsius. Hujan hari ini sudah diprakirakan BMKG, bukan asumsi, sehingga pengambilan gambar di luar ruangan sebaiknya pagi dan menyiapkan pelindung kamera.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-11T08:30:00+07:00",
+   "metrics": {
+    "forecast_date": "2026-11-11",
+    "condition": "Hujan Ringan di kecamatan yang tercantum, Hujan Petir di Sukarami",
+    "temperature_c": "25-31",
+    "humidity_percent": "63-96"
+   }
+  },
+  {
+   "url": "https://www.detiksumsel.com/pemerintahan/97417883998/puncak-musim-hujan-bergeser-bmkg-aktifkan-peringatan-dini-cuaca-ekstrem-hingga-tingkat-kecamatan",
+   "title": "Puncak Musim Hujan Bergeser, BMKG Aktifkan Peringatan Dini Cuaca Ekstrem Hingga Tingkat Kecamatan - Detik Sumsel",
+   "evidence": "Terbit Selasa, 10 November 2026 pukul 17.00 WIB, dibaca 11 November 2026. Kepala BMKG Teuku Faisal Fathani menyatakan masuknya musim hujan tahun ini mundur 20-30 hari dan puncak musim hujan berlangsung Desember 2026, Januari, dan Februari 2027. BMKG menyiapkan peringatan dini yang memetakan status Waspada, Siaga, dan Awas hingga tingkat kecamatan, dipadukan dengan peta potensi banjir dan longsor; pemerintah juga menyiapkan Operasi Modifikasi Cuaca bersama BNPB. Ini pernyataan resmi pejabat BMKG, bukan interpretasi media lokal.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-11T08:30:00+07:00",
+   "published_at": "2026-11-10T17:00:00+07:00",
+   "metrics": {
+    "monsoon_onset_delay_days": "20-30",
+    "peak_months": "2026-12..2027-02",
+    "warning_levels": "Waspada, Siaga, Awas",
+    "warning_granularity": "kecamatan"
+   }
+  },
+  {
+   "url": "https://ameera.republika.co.id/berita/to6bzn522/bright-gas-cooking-competition-2026-lahirkan-juara-baru-endri-supriatna-bawa-pulang-gelar-juara-1",
+   "title": "Bright Gas Cooking Competition 2026 Lahirkan Juara Baru, Endri Supriatna Bawa Pulang Gelar Juara 1 - Ameera Republika",
+   "evidence": "Terbit Ahad, 8 November 2026 pukul 15.09 WIB, dibaca 11 November 2026. Grand final Bright Gas Cooking Competition (BGCC) 2026 digelar di Bintaro Jaya Xchange Mall Park, Tangerang Selatan, Sabtu 7 November 2026. Juara 1 Endri Supriatna (Bogor) menang lewat hidangan 'Gulai Lampung' yang memadukan gulai taboh, burgo khas Palembang, dan sambal goang Jawa Barat. Sembilan finalis dipilih dari 2.891 peserta lewat seleksi di Tegal, Palembang, dan Yogyakarta; Endri sebelumnya meraih Juara 3 pada babak semifinal di Palembang. Juri: Chef Yuda Bustara, Chef Firhan Ashari, dan kreator konten kuliner Magdalena Fridawati. Tema kompetisi 'Warisan Rasa Nusantara dari Hati'.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-11T08:31:00+07:00",
+   "published_at": "2026-11-08T15:09:00+07:00",
+   "metrics": {
+    "participants_total": 2891,
+    "finalists": 9,
+    "selection_cities": "Tegal, Palembang, Yogyakarta",
+    "winning_dish_contains": "burgo khas Palembang",
+    "grand_final_date": "2026-11-07"
+   }
+  },
+  {
+   "url": "https://extranews.id/ayo-datang-dan-ramaikan-pesona-budaya-sehat-bernostalgia-lewat-permainan-tradisional-palembang-bingen/",
+   "title": "Ayo! Datang dan Ramaikan Pesona Budaya Sehat; Bernostalgia Lewat Permainan Tradisional Palembang Bingen - ExtraNews",
+   "evidence": "Dibaca ulang 11 November 2026, terbit Rabu 4 November 2026. Pengumuman event Pesona Budaya Sehat di Museum Sultan Mahmud Badaruddin II Palembang pada 11-12 November 2026, jadi hari ini adalah hari pertama. Isi yang disebut: nostalgia permainan tradisional Palembang bingen, lomba dari tingkat SD sampai umum, live music, doorprize, health check, museum tour, dan 50+ tenant UMKM Kota Palembang. Verifikasi silang hari ini hanya menemukan unggahan Instagram museum dan TikTok kreator yang mengulang tanggal serta lokasi yang sama; tidak ada halaman resmi museum atau Pemkot yang bisa dibaca, jadi jumlah tenant tetap klaim penyelenggara.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-11T08:31:00+07:00",
+   "published_at": "2026-11-04T00:00:00+07:00",
+   "metrics": {
+    "event_dates": "2026-11-11..2026-11-12",
+    "venue": "Museum Sultan Mahmud Badaruddin II, Palembang",
+    "umkm_tenants_claimed": "50+",
+    "official_page_found": 0
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "A",
+   "title": "Burgo Palembang Ikut Bawa Juara di Final Kompetisi Masak Nasional",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Burgo yang biasa kita santap pagi itu ternyata ikut bikin masakan Palembang menang di final kompetisi masak nasional.",
+   "shots": [
+    "Shot 1 (8s): Dinda duduk di bangku warung burgo pagi, mangkuk burgo berkuah putih mengepul, ia menyendok burgo lalu menoleh ke kamera dan menyebut burgo ini baru saja masuk hidangan juara kompetisi masak nasional akhir pekan lalu.",
+    "Shot 2 (8s): Dinda menunjuk rintik hujan di luar terpal warung, lalu menutup dengan pertanyaan ke penonton: burgo kuah santan atau tekwan yang lebih mereka pilih saat pagi hujan begini."
+   ],
+   "sound": "Suara asli warung pagi dengan ambience hujan, tanpa musik penuh",
+   "outfit": "Minimalist Sage Linen Blouse & Sand Trousers",
+   "caption": "Burgo Palembang baru saja ikut mengantar hidangan juara di final Bright Gas Cooking Competition 2026 di Tangerang, Sabtu lalu. Menurut laporan Ameera Republika, kompetisi itu diikuti 2.891 peserta dan sembilan finalis dari seleksi Tegal, Palembang, dan Yogyakarta, dan hidangan pemenangnya disebut memadukan gulai taboh, burgo khas Palembang, serta sambal goang. Pagi ini Palembang masih hujan ringan, jadi mangkuk burgo berkuah hangat terasa pas banget. Kalian tim burgo kuah santan atau tekwan? #palembang #kulinerpalembang #burgo #sarapanpalembang #kulinerkhasdaerah #dailyvlog",
+   "sources": [
+    "https://ameera.republika.co.id/berita/to6bzn522/bright-gas-cooking-competition-2026-lahirkan-juara-baru-endri-supriatna-bawa-pulang-gelar-juara-1",
+    "https://lagitren.id/tiktok",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://www.detiksumsel.com/pemerintahan/97417883998/puncak-musim-hujan-bergeser-bmkg-aktifkan-peringatan-dini-cuaca-ekstrem-hingga-tingkat-kecamatan"
+   ],
+   "factors": {
+    "momentum": 8.0,
+    "local_relevance": 9.5,
+    "format_fit": 9.0,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.5
+   },
+   "why": "Satu-satunya pemicu kuliner lokal yang benar-benar baru minggu ini: burgo Palembang masuk hidangan juara kompetisi masak nasional 7 November 2026, diliput media nasional 8 November. Daftar tren TikTok hari ini kosong dari tagar kuliner, jadi ceruk kuliner lokal terbuka, dan hujan ringan yang diprakirakan BMKG pagi ini membuat konten sarapan berkuah relevan secara harian. Burgo juga belum pernah jadi topik utama di bank ide Dinda meski tekwan dan mie celor sudah beberapa kali dipakai.",
+   "claim_note": "Angka 2.891 peserta dan menu pemenang berasal dari satu artikel (Ameera Republika, 8 Nov 2026); caption diberi atribusi, bukan diklaim sebagai data resmi."
+  },
+  {
+   "code": "B",
+   "title": "Hari Ini Pesona Budaya Sehat Dibuka di Museum SMB II, Jajanan 50 UMKM",
+   "pillar": "Budaya dan Kuliner Palembang",
+   "hook": "Hari ini Museum SMB II mulai ramai permainan tradisional bingen dan puluhan lapak jajanan UMKM Palembang.",
+   "shots": [
+    "Shot 1 (8s): Dinda berjalan di pelataran Museum Sultan Mahmud Badaruddin II pagi hari, kamera mengikuti dari belakang lalu berputar ke wajahnya saat ia menyebut event Pesona Budaya Sehat dibuka hari ini.",
+    "Shot 2 (8s): Dinda berdiri di depan deretan lapak UMKM, menunjuk satu jajanan, lalu bertanya ke penonton jajanan mana yang paling mereka cari kalau datang ke event museum."
+   ],
+   "sound": "Ambience pelataran museum dengan live music samar, suara asli",
+   "outfit": "Minimalist Sage Linen Blouse & Sand Trousers",
+   "caption": "Hari ini Pesona Budaya Sehat mulai dibuka di Museum Sultan Mahmud Badaruddin II Palembang dan berlangsung sampai 12 November. Isinya permainan tradisional bingen, lomba dari tingkat SD sampai umum, live music, health check, museum tour, dan lebih dari 50 tenant UMKM jajanan kota ini. Aku sengaja datang pagi biar belum terlalu ramai dan bisa keliling lapak dulu. Kalau ke event museum begini, kalian langsung ke permainannya atau jajan dulu? #palembang #museumsmb2 #jajananbingen #kulinerpalembang #eventpalembang #dailyvlog",
+   "sources": [
+    "https://extranews.id/ayo-datang-dan-ramaikan-pesona-budaya-sehat-bernostalgia-lewat-permainan-tradisional-palembang-bingen/",
+    "https://lagitren.id/tiktok",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 9.5,
+    "format_fit": 8.5,
+    "evidence_strength": 7.0,
+    "risk_safety": 8.5
+   },
+   "why": "Relevansi lokal paling tinggi karena eventnya benar-benar berlangsung hari ini, tetapi kekuatan buktinya sedang: hanya satu artikel media yang bisa dibaca penuh, sementara konfirmasi lain cuma unggahan media sosial tanpa halaman resmi museum atau Pemkot. Topik ini juga hampir sama dengan topik yang sudah diproduksi untuk slot 10 November sehingga nilai kebaruannya turun."
+  },
+  {
+   "code": "C",
+   "title": "Musim Hujan Tahun Ini Mundur 20-30 Hari, Sarapan Berkuah Masih Andalan",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "BMKG bilang musim hujan tahun ini mundur sampai sebulan, tapi pagi ini Palembang sudah hujan ringan juga.",
+   "shots": [
+    "Shot 1 (8s): Dinda berdiri di teras warung dengan payung basah di sampingnya, menjelaskan bahwa BMKG menyebut puncak musim hujan baru Desember sampai Februari.",
+    "Shot 2 (8s): Dinda menyeruput kuah tekwan, lalu menutup dengan pertanyaan menu berkuah favorit penonton saat hujan datang tidak sesuai jadwal."
+   ],
+   "sound": "Ambience hujan dan sendok mangkuk, tanpa musik",
+   "outfit": "Minimalist Sage Linen Blouse & Sand Trousers",
+   "caption": "Kepala BMKG menyebut masuknya musim hujan tahun ini mundur 20 sampai 30 hari dan puncaknya baru Desember 2026 sampai Februari 2027, lengkap dengan peringatan dini sampai tingkat kecamatan. Tapi pagi ini Palembang sudah hujan ringan menurut prakiraan BMKG, jadi tetap saja yang dicari sarapan berkuah. Kalau hujan datang tidak sesuai jadwal begini, kalian pilih tekwan, burgo, atau mie celor? #palembang #kulinerpalembang #musimhujan #sarapanpalembang #cuacapalembang #dailyvlog",
+   "sources": [
+    "https://www.detiksumsel.com/pemerintahan/97417883998/puncak-musim-hujan-bergeser-bmkg-aktifkan-peringatan-dini-cuaca-ekstrem-hingga-tingkat-kecamatan",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 8.0,
+    "format_fit": 7.5,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.0
+   },
+   "why": "Informasi resmi BMKG-nya kuat dan baru (10 November), tetapi sudut ceritanya bersinggungan dengan beberapa topik hujan yang sudah ada di bank ide seperti tekwan saat hujan dan mie celor pertama musim hujan, sehingga nilai kebaruannya lebih rendah dibanding burgo."
+  }
+ ]
+}

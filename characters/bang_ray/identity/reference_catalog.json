@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "character_id": "bang_ray",
+  "review_date": "2026-11-10",
+  "image_count": 3,
+  "status": "references_catalogued_visual_selection_complete",
+  "proposed_primary": "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+  "proposed_body_reference": "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+  "proposed_profile_avatar": "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+  "assets": [
+    {
+      "index": 1,
+      "path": "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "c224e0bdc1b1535821a3313823121ad390f146b2c8bddc21d4ccc0bc118028f8",
+      "roles": [
+        "face_reference_primary",
+        "expressions_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "generated_master_verified"
+    },
+    {
+      "index": 2,
+      "path": "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "5b8d656f0497d9ec13623d65199ed81c20bd28c95f9651621e2e4a69832911f5",
+      "roles": [
+        "body_reference_primary",
+        "turnaround_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "generated_master_verified"
+    },
+    {
+      "index": 3,
+      "path": "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+      "format": "JPEG",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "bc52d8444210bd56a41fc56a70e60e000353959f6627cbcce7098a59a0278664",
+      "roles": [
+        "profile_avatar",
+        "portrait_closeup"
+      ],
+      "visual_inspected": true,
+      "provenance": "generated_master_verified"
+    }
+  ]
+}

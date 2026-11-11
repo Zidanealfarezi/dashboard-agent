@@ -1,0 +1,49 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-07",
+  "character_id": "dinda",
+  "collected_at": "2026-11-07T16:20:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Sumber dibaca langsung lewat browser Hermes pada 7 November 2026. TikTok Creative Center menolak akses (HTTP 403) dan Google Trends mengembalikan 429, jadi bukti diambil dari halaman publik yang bisa dibaca. Angka yang tercatat adalah yang benar-benar terlihat di halaman, bukan estimasi.",
+  "candidates": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 7 November 2026 · Lagi Tren",
+      "evidence": "Halaman bertanda 'diperbarui 7 Nov, 16.20 WIB'. Tiga hashtag lagi tren: #november 52K video, #mplids18 36K video, #weownthis 34K video. Tidak ada tagar kuliner maupun tagar lokal Palembang di tiga teratas, sehingga tidak ada tren kuliner nasional yang sedang panas hari ini.",
+      "verification_status": "source_read",
+      "published_at": "2026-11-07T16:20:00+07:00",
+      "metrics": {"november_videos": 52000, "mplids18_videos": 36000, "weownthis_videos": 34000}
+    },
+    {
+      "url": "https://lagitren.id/tiktok/musteatinmycity",
+      "title": "#musteatinmycity — kenapa viral? | TikTok Viral Indonesia · Lagi Tren",
+      "evidence": "Tercatat 1,4 juta video, tetapi halaman menyatakan 'Tren ini sudah tidak aktif — terakhir tren pada 6 November 2026'. Formatnya tetap terbukti: creator membagikan makanan wajib dicoba di kotanya dan memicu partisipasi lintas daerah. Artinya formatnya masih bisa dipakai, momentum tagarnya sendiri sedang turun.",
+      "verification_status": "source_read",
+      "published_at": "2026-11-07T01:20:00+07:00",
+      "metrics": {"videos": 1400000, "last_trending": "2026-11-06"}
+    },
+    {
+      "url": "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+      "title": "Prediksi Musim Hujan Tahun 2026/2027 – Stasiun Klimatologi Sumatera Selatan",
+      "evidence": "Siaran BMKG (unggahan 8 Oktober 2026) menyebut wilayah Palembang diprediksi masuk musim hujan 2026/2027 pada dasarian II November 2026. Halaman dibaca 7 November 2026, jadi periode hujan pertama Palembang jatuh sekitar 11-20 November 2026, atau minggu depan.",
+      "verification_status": "source_read",
+      "published_at": "2026-10-08T00:00:00+07:00",
+      "metrics": {"palembang_rainy_season_start": "dasarian II November 2026"}
+    },
+    {
+      "url": "https://rri.co.id/palembang/regional/2562968/viral-di-tiktok-asinan-padat-raya-raup-omzet-rp8-juta-sehari",
+      "title": "Viral di TikTok, Asinan Padat Raya Raup Omzet Rp8 Juta Sehari - RRI.co.id",
+      "evidence": "Terbit 12 Juli 2026. Asinan Padat Raya viral di TikTok dan pembeli mengaku datang setelah melihat review di FYP; omzet harian saat ramai sekitar Rp8 juta, ada 10 varian rasa, dan sudah membuka cabang di Lubuklinggau, Jambi, dan Lahat. Bukti bahwa review kuliner lokal Palembang di TikTok benar-benar menggerakkan kunjungan, tetapi artikelnya berumur empat bulan.",
+      "verification_status": "source_read",
+      "published_at": "2026-07-12T21:20:00+07:00",
+      "metrics": {"daily_revenue_idr_peak": 8000000, "variants": 10}
+    },
+    {
+      "url": "https://kompas.com/food/read/2026/11/01/075200375/cara-pakai-fitur-must-eat-tiktok-mudah-temukan-tempat-makan-viral-dan-fine",
+      "title": "Cara Pakai Fitur Must Eat TikTok, Mudah Temukan Tempat Makan Viral dan Fine Dining",
+      "evidence": "Terbit 1 November 2026. Kompas mencatat tagar #kuliner 49,9 ribu unggahan, #kulinerviral 17,2 ribu unggahan, dan #jelajahkuliner 8,9 ribu unggahan pada semester I 2026, serta peluncuran fitur Must Eat TikTok pada 29 Oktober 2026. Platform sedang mendorong penemuan tempat makan lokal, jadi konten review kuliner masih mendapat distribusi.",
+      "verification_status": "source_read",
+      "published_at": "2026-11-01T07:52:00+07:00",
+      "metrics": {"hashtag_kuliner_posts_h1_2026": 49900, "hashtag_kulinerviral_posts_h1_2026": 17200}
+    }
+  ]
+}

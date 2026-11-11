@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "research_enabled": false,
+  "cycle_start_date": null,
+  "daily_start_hour_wib": 8,
+  "trend_max_age_hours": 72,
+  "minimum_trend_sources": 2,
+  "character_ids": [
+    "nara",
+    "dinda",
+    "rania"
+  ],
+  "cadence_30_days": "video, video, photo; repeat 10 times",
+  "trial_video_durations_seconds": [
+    6,
+    12
+  ],
+  "promotion_policy": "No forced promotion; ratio awaits user decision",
+  "daily_user_input_required": false,
+  "flow_browser_access": "codex_native_chrome_verified_hermes_attachment_pending",
+  "automation_id": "ai-influencer-tren-dan-produksi",
+  "flow_account_budget_caps": {
+    "flow_1": 25,
+    "flow_2": 0,
+    "flow_3": 0
+  },
+  "note": "Hermes menyiapkan konten saat diaktifkan kelak; Codex membangun setup. Jadwal Codex lama tetap PAUSED; belum ada scheduler Hermes.",
+  "automation_status": "PAUSED",
+  "execution_engine": "hermes",
+  "generation_preferences": {
+    "preferred_model_family": "Omni Flash",
+    "outputs_per_generation": 1,
+    "duration_policy": "adapt_to_available_native_model_options",
+    "automatic_paid_retry": false,
+    "fallback_model_requires_user_decision": true,
+    "user_requested": "Prioritaskan Omni Flash, 1x generate, durasi menyesuaikan.",
+    "max_generation_requests_per_content": 1,
+    "default_native_duration_seconds": 8,
+    "verified_native_duration_options_seconds": [
+      4,
+      6,
+      8,
+      10
+    ]
+  }
+}

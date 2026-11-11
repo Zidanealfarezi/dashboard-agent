@@ -1,0 +1,55 @@
+{
+  "note": "Ekspor baca-saja untuk laporan. Kredensial dan ID pribadi penerima tidak disertakan. Bukan screenshot Telegram.",
+  "generation_jobs": [
+    {
+      "id": "253f6d629ae248a99206b92779237199",
+      "character_id": "dinda",
+      "flow_account_id": "flow_1",
+      "idempotency_key": "dinda-technical-pilot-2026-11-05",
+      "state": "completed",
+      "model": "Omni 1.1 Flash",
+      "duration_seconds": 6,
+      "output_count": 1,
+      "authorized_credits": 10,
+      "actual_credits": 10,
+      "external_job_id": "060b02c5-e2b4-4895-93e8-fe609750c54e",
+      "created_at": "2026-11-05T04:59:01.109864+00:00"
+    }
+  ],
+  "versions": [
+    {
+      "id": "3a3e5d8413474077813a3d39dca8a04b",
+      "content_id": "dinda-technical-pilot-2026-11-05",
+      "revision": 1,
+      "media_path": "characters/dinda/content/dinda-technical-pilot-2026-11-05/v1.mp4",
+      "media_sha256": "bc2d75b0afe4d54ef180bfe977fa9cd00966ece0faeb9ac4c2ef689042acde1d",
+      "caption": "TES TEKNIS — Konsistensi wajah dan gerak Dinda, 6 detik. Belum untuk publikasi.",
+      "caption_sha256": "e9ff7cb41e661f9592662699367b7f284386a2033aa3b763085bd5053cbce2e2",
+      "destination_account": "@dinda.kemala_",
+      "created_at": "2026-11-05T05:04:48.021333+00:00"
+    }
+  ],
+  "review_deliveries": [
+    {
+      "id": "f76c83d5f3ba4bb9a6f624bc900c570c",
+      "version_id": "3a3e5d8413474077813a3d39dca8a04b",
+      "state": "decided",
+      "media_message_id": 3,
+      "card_message_id": 4,
+      "decision": "approved",
+      "created_at": "2026-11-05T05:04:48.023248+00:00",
+      "expires_at": "2026-11-12T05:04:48.023241+00:00"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "3a4dc83c67f14d0383ed021c8eba08e4",
+      "version_id": "3a3e5d8413474077813a3d39dca8a04b",
+      "decision": "approved",
+      "channel": "telegram",
+      "created_at": "2026-11-05T05:15:20.319025+00:00"
+    }
+  ],
+  "publications": [],
+  "story_events": []
+}

@@ -1,0 +1,10 @@
+Latihan perbaikan INPUT TANPA KIRIM pada browser khusus Dinda. Baca docs/dinda-engagement.md. Pengiriman rutin masih diblokir live_sending_ready=false. Tidak boleh kirim, click Send/Post, Enter, submitKey, Accept, hapus, ubah file/config. Jangan buka tab Studio/Flow/Google.
+
+Tool baru mcp dinda_editor_guard.inspect_dm_draft telah dipasang. Discover tool itu. Profil @dinda.kemala_ dan percakapan Zidane alfa rezi @zidane_alfarezi sudah terbuka, composer telah direset dan diperiksa kosong oleh primary. Jangan pakai fill. Browser flow_chrome sekarang hanya menyediakan type_text untuk ketikan.
+
+Langkah latihan:
+1. Panggil inspect_dm_draft expected_recipient_handle=@zidane_alfarezi expected_recipient_name=Zidane alfa rezi expected_text kosong. Wajib akun/recipient benar, editor_healthy true, exact_match true. Jika tidak, STOP tanpa mengetik.
+2. Uji negatif panggil inspect_dm_draft dengan handle @akun_yang_salah dan nama Akun yang salah, expected_text kosong. Harus ditolak; jangan berpindah akun/percakapan untuk memenuhi uji itu.
+3. Pilih hanya tab TikTok biasa https://www.tiktok.com/@dinda.kemala_ yang memiliki chat ini. Snapshot, klik textbox Send a message, lalu type_text PERSIS Halo kak makasih sudah menyapa SATU KALI tanpa submitKey. Jangan pakai fill, Enter, Send. Panggil guard expected_text teks persis itu untuk membuktikan seluruh editor cocok dan sehat. Jangan ketik ulang jika hasil tidak cocok.
+4. Jika tepat, bersihkan draft tanpa mengirim: klik/fokus editor itu, press_key Meta+A, press_key Backspace, lalu panggil guard expected_text kosong. Jika tidak kosong, STOP tanpa input tambahan dan laporkan; jangan mengulang type_text/fill.
+5. Laporkan hasil empat bukti: validasi kosong, penolakan penerima salah, teks satu kali cocok, draft akhir bersih. DILARANG mengklaim pesan terkirim pada run ini; tidak ada send dilakukan. Maksimal 14 tool calls browser/guard.

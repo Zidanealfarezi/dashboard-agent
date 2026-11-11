@@ -1,0 +1,263 @@
+{
+  "schema_version": 2,
+  "enabled": true,
+  "research_enabled": true,
+  "continuous_learning_engine": {
+    "enabled": true,
+    "database": "operations/production.sqlite",
+    "tables": [
+      "trend_memory",
+      "content_learning_log"
+    ],
+    "rule": "Agen riset wajib secara aktif mengumpulkan dan menyimpan bank data tren, serta mengevaluasi riwayat konten sebelumnya agar kualitas naskah dan hook terus meningkat dari waktu ke waktu."
+  },
+  "cycle_start_date": "2026-11-07",
+  "daily_start_hour_wib": 8,
+  "trend_max_age_hours": 72,
+  "minimum_trend_sources": 2,
+  "character_ids": [
+    "isk",
+    "dinda",
+    "bang_ray",
+    "pak_vincent"
+  ],
+  "content_format_distribution": {
+    "video_max_16s": 0.5,
+    "photo_selfie": 0.25,
+    "photo_supermarket_lifestyle": 0.25
+  },
+  "photo_policy": {
+    "aspect_ratio": "9:16",
+    "mandatory": true,
+    "rule": "Wajib 100% rasio vertikal 9:16 untuk semua foto talent (TikTok / Reels / Shorts full-screen), dilarang keras menghasilkan foto format landscape 16:9 atau rasio kotak 1:1.",
+    "standard_dimensions": "768x1376"
+  },
+  "daily_outfit_policy": {
+    "outfits_per_day": 1,
+    "destination": "internal_sqlite_wardrobe_only",
+    "send_to_telegram": false,
+    "auto_stylist_selection": true,
+    "photos_per_outfit": [
+      "master_closeup_portrait_9_16",
+      "master_fullbody_ootd_9_16"
+    ],
+    "total_daily_outfit_photos": 2,
+    "rule": "Setiap hari meriset tren OOTD hijab dan men-generate 1 set baju baru sesuai slot 1 posting per hari dengan 2 foto master: Close-Up dan Full Body (9:16). Seluruh foto baju HANYA disimpan ke database SQLite (character_wardrobe). DILARANG mengirim foto baju mentah ke Telegram.",
+    "character_physical_specs": {
+      "character_id": "dinda",
+      "height_cm": 165,
+      "weight_kg": 52,
+      "body_type": "slender, proporsional semampai, anggun, modest"
+    },
+    "pinterest_source": {
+      "enabled": true,
+      "mode": "autonomous_keyword_search",
+      "crawler_script": "scripts/pinterest_wardrobe_crawler.mjs",
+      "curated_queries": [
+        "hijab ootd aesthetic minimalist",
+        "modest outfit earth tone hijab casual",
+        "cafe ootd hijab pastel minimalist",
+        "cardigan rajut hijab aesthetic ootd",
+        "kulot linen hijab style casual aesthetic",
+        "korean modest hijab outfit chic",
+        "sage green hijab outfit aesthetic",
+        "blazer casual hijab aesthetic chic"
+      ],
+      "inbox_directory": "characters/dinda/wardrobe/inbox"
+    },
+    "reference_attachments_policy": {
+      "mandatory": true,
+      "closeup_step": {
+        "required_references_count": 3,
+        "references": [
+          "2 Foto Utama Dinda (Three-Expression Sheet + Turnaround Sheet)",
+          "1 Foto Referensi Outfit Baru (Inspirasi Baju dari User/Tren)"
+        ],
+        "output": "master_closeup_portrait_9_16"
+      },
+      "fullbody_step": {
+        "required_references_count": 4,
+        "references": [
+          "2 Foto Utama Dinda (Three-Expression Sheet + Turnaround Sheet)",
+          "1 Foto Referensi Outfit Baru",
+          "1 FOTO CLOSE-UP TERBARU (Hasil Sukses dari Tahap 1)"
+        ],
+        "character_constraints": "TB 165 cm, BB 52 kg, proporsi semampai, wajah 100% terkunci dari foto close-up terbaru",
+        "output": "master_fullbody_ootd_9_16"
+      },
+      "rule": "Generasi outfit dilakukan 2 tahap berurutan: (1) Generate Close-Up dengan 3 referensi. (2) Setelah sukses, gunakan foto Close-Up terbaru tersebut + 2 foto utama Dinda + foto outfit baru sebagai 4 referensi untuk men-generate Full-Body (TB 165 cm, BB 52 kg). DILARANG generate Full-Body tanpa menyertakan foto Close-Up terbarunya agar wajah konsisten 100%."
+    },
+    "execution_flow": "Saat memproduksi video, agen Auto-Stylist secara otonom memilih baju dari database wardrobe yang paling cocok dengan konsep/suasana konten. Telegram Owner HANYA menerima video final siap tayang untuk di-ACC."
+  },
+  "video_policy": {
+    "flow_input_resolution": "360p",
+    "max_duration_seconds": 20,
+    "max_duration_by_character": {
+      "bang_ray": 30,
+      "dinda": 20,
+      "isk": 20,
+      "pak_vincent": 20
+    },
+    "supported_durations_seconds": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20,
+      24,
+      30
+    ],
+    "default_duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "anti_ai_slop_policy": {
+      "mandatory": true,
+      "rule_name": "Standard Visual Realisme Alami (Anti-AI Slop)",
+      "color_temperature": "Neutral daylight white balance (5500K), strictly no yellow, orange, or golden color cast",
+      "skin_texture": "Natural human matte skin with visible fine pores and realistic micro-texture, strictly no waxy, plastic, or glossy glass skin",
+      "camera_aesthetic": "Authentic smartphone vlog camera (iPhone 15 Pro natural camera 24fps), real daylight documentary look",
+      "prohibited_prompt_terms": [
+        "golden hour",
+        "golden glow",
+        "bathed in golden sunlight",
+        "warm golden glow",
+        "cinematic lighting",
+        "dramatic lighting",
+        "4k photorealistic skin texture",
+        "glass skin",
+        "flawless shiny skin"
+      ],
+      "mandatory_prompt_clauses": [
+        "shot on smartphone vlog camera",
+        "natural clean daylight neutral white balance",
+        "true-to-life colors",
+        "realistic matte human skin with visible fine pores",
+        "no plastic shine",
+        "no waxy skin",
+        "no glass skin",
+        "no yellow or orange tint",
+        "no artificial golden glow",
+        "zero CGI",
+        "authentic non-AI documentary look"
+      ]
+    },
+    "motion_reference_policy": {
+      "mandatory_for_mimic_videos": true,
+      "engine": "Google Flow (Gemini Omni Flash)",
+      "preferred_model": "Omni Flash",
+      "prohibited_models": [
+        "Veo 3.1 - Fast"
+      ],
+      "method": "Motion Reference Video Transfer",
+      "video_prompt_template": "Animate the character in @[character_image] by precisely replicating the movement, gestures, expressions, tempo, framing, angles, and camera movements of the reference video. Preserve the character's identity, background, lighting, and all details of the appearance and clothing in @[character_image] including hairstyle or headwear, tops, bottoms, footwear, accessories, colors, patterns, and textures—without alteration. Ensure stable, natural, and consistent results in every frame, without deformation, flicker, or changes to the face, body, clothing, hair, or background.",
+      "affiliate_outfit_swap_prompt": "Using the first image, replace the outfit with the clothes from the second image while keeping the pose and composition exactly the same. Do not change the face or look of the pose/model in the first image. if the first image is only showing the top half of the body, only include any garments like shirts, tops, jewelry, ties, scarves, handbags or any outfit piece that would be worn from the waist up. if the first image is a full body composition, include all outfit pieces."
+    }
+  },
+  "publishing_policy": {
+    "mode": "verified_manual_submission",
+    "automation_level": "semi_autonomous_telegram_acc_gate",
+    "audio_mixing_policy": {
+      "auto_mix_music": true,
+      "character_vocal_volume_percent": 100,
+      "background_music_volume_percent": 15,
+      "audio_fade_in_seconds": 0.5,
+      "audio_fade_out_seconds": 1.0,
+      "genre_by_character": {
+        "dinda": "chill_acoustic_vlog",
+        "nara": "upbeat_aesthetic_beauty",
+        "rania": "ambient_travel_modest"
+      }
+    },
+    "note": "Alur semi-otonom dengan verifikasi ACC Owner via Telegram (@PM_INTAN_BOT) sebelum pengunggahan."
+  },
+  "caption_policy": {
+    "no_emoji": true,
+    "rule": "Wajib 100% teks alfabet murni, dilarang keras menggunakan emoji atau emotikon apa pun.",
+    "hashtag_policy": {
+      "prohibit_character_self_name_tag": true,
+      "rule": "Dilarang keras menggunakan hashtag nama diri karakter (seperti #DindaKemala, #NaraAdelia, #Rania, dll). Wajib hanya menggunakan hashtag topik organik, lokasi, kuliner, dan lifestyle (misal: #DailyVlog, #Palembang, #KulinerPalembang, #CoffeeTime, #OOTDHijab, #AestheticCafe)."
+    }
+  },
+  "weekly_evaluator": {
+    "enabled": false,
+    "schedule": "every_sunday_at_20_wib",
+    "delivery": "local_report_only",
+    "metrics_tracked": [
+      "views_per_character",
+      "likes_and_comments",
+      "flow_credits_efficiency",
+      "best_performing_format",
+      "recommended_action_next_week"
+    ]
+  },
+  "cadence_30_days": "fleksibel: video 6-16s, selfie cermin, belanja supermarket bergantian",
+  "daily_user_input_required": false,
+  "flow_browser_access": "codex_native_chrome_verified_hermes_attachment_pending",
+  "automation_id": "ai-influencer-tren-dan-produksi",
+  "flow_account_budget_caps": {
+    "flow_1": 300,
+    "flow_2": 880,
+    "flow_3": 1050,
+    "flow_4": 880
+  },
+  "automation_status": "ACTIVE",
+  "execution_engine": "hermes",
+  "generation_preferences": {
+    "preferred_model_family": "Omni 1.2 Flash",
+    "preferred_resolution": "360p",
+    "outputs_per_generation": 1,
+    "duration_policy": "per_character_cap",
+    "max_duration_by_character": {
+      "bang_ray": 30,
+      "dinda": 20,
+      "isk": 20,
+      "pak_vincent": 20
+    },
+    "automatic_paid_retry": false,
+    "fallback_model_requires_user_decision": true,
+    "user_requested": "Input Flow wajib 360p untuk semua akun (upscale Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma); maksimal 1 kali posting per hari; batas durasi Bang Ray maks 30 detik, Dinda, ISK, dan Pak Vincent maks 20 detik.",
+    "max_generation_requests_per_content": 1,
+    "default_native_duration_seconds": 8,
+    "verified_native_duration_options_seconds": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      20,
+      24,
+      30
+    ]
+  },
+  "posting_hours_wib": [
+    11,
+    13,
+    16
+  ],
+  "daily_posting_cadence": "one_video_daily_per_character",
+  "content_selection_mode": "100% autonomous by PM and AI",
+  "owner_selection_required": false,
+  "owner_telegram_delivery": "single_final_video_only",
+  "max_daily_videos": 1,
+  "allowed_posting_windows": [
+    "Dinda 11:30 WIB",
+    "ISK 13:00 WIB",
+    "Bang Ray 16:00 WIB"
+  ]
+}

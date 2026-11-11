@@ -1,0 +1,53 @@
+{
+  "id": "bang_ray",
+  "name": "Bang Ray",
+  "full_name": "Teuku Rayyan",
+  "tiktok_account": "@teuku.rayyan00",
+  "origin": "Banda Aceh",
+  "content_pillars": [
+    "tips dan trik tukang dan kerja bangunan praktis",
+    "solusi masalah konstruksi harian dan perawatan rumah",
+    "edukasi teknik dasar bangunan yang rapi dan hemat biaya",
+    "keseharian pekerja dan praktisi bangunan Banda Aceh"
+  ],
+  "language": "Indonesia santai dengan sapaan akrab Banda Aceh (Rakan, Bang)",
+  "format": "9:16",
+  "employment": "Praktisi & Kreator Edukasi Konstruksi",
+  "job_title": "Praktisi Bangunan",
+  "age": 26,
+  "birth_date": null,
+  "height_cm": 173,
+  "weight_kg": 68,
+  "family": null,
+  "friends": null,
+  "residence_details": "Banda Aceh, Aceh",
+  "voice_identity": "Suara pria Indonesia tenang, lugas, tegas namun ramah dengan aksen ringan Banda Aceh",
+  "master_image": "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+  "master_image_sha256": "c224e0bdc1b1535821a3313823121ad390f146b2c8bddc21d4ccc0bc118028f8",
+  "body_reference": "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+  "body_reference_sha256": "5b8d656f0497d9ec13623d65199ed81c20bd28c95f9651621e2e4a69832911f5",
+  "profile_avatar": "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+  "profile_avatar_sha256": "bc52d8444210bd56a41fc56a70e60e000353959f6627cbcce7098a59a0278664",
+  "master_voice": null,
+  "motion_reference": null,
+  "appearance_status": "reference_visually_verified",
+  "promotional_ratio": null,
+  "flow_account_id": "flow_3",
+  "flow_project_url": "https://flow.google.com/project/3d61dd46-62f0-42c0-9ff0-24c2cbf07b0d",
+  "reference_inbox": "FOTO_KARAKTER/BangRay",
+  "reference_catalog": "characters/bang_ray/identity/reference_catalog.json",
+  "master_selection_status": "selected_from_user_references",
+  "master_selection_source": "antigravity_visual_review",
+  "reference_review_date": "2026-11-10",
+  "expression_references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg"
+  ],
+  "style_references": [
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg"
+  ],
+  "signature_wardrobe": "Kemeja kerja lengan pendek biru dongker (navy) berkancing saku dada di atas kaus dalam putih bersih, celana kerja chino/canvas warna khaki, jam tangan lapangan hitam di pergelangan kiri, sepatu bot kerja kulit cokelat tua.",
+  "upscale_policy": "Standar terpadu Varian 3 Hybrid Foto-Realistik via app/upscaler.py: input Google Flow wajib 360p lalu Real-ESRGAN NCNN Vulkan Apple M4 (upscayl-lite-4x, texture_preserve=0.45: 55% AI detail + 45% tekstur asli Lanczos CAS + micro grain) menuju kanvas 1080x1920.",
+  "subtitle_policy": "Standar terpadu editorial_tiktok via app/subtitles.py: 2-tier ASS di kanvas 1080x1920 (Ray_Top putih #FFFFFF Helvetica Neue Bold 44 ALL CAPS + Ray_Bot kuning limau #E8FF3B Times New Roman 126 ScaleX=72 lowercase), bebas tanda koma (0% koma), alignment Faster-Whisper.",
+  "production_formula": "Video edukasi bangunan Google Flow 360p fleksibel hingga maksimal 30 detik (1x/hari; 1 klip 3-15s atau gabungan multi-klip dirakit lokal via app/media.py) bebas teks AI -> upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x + 45% tekstur asli CAS + grain ke 1080x1920) -> ekstraksi audio Faster-Whisper -> hardsub 2-tier editorial_tiktok tanpa koma."
+}

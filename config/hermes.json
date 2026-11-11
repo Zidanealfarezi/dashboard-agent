@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "execution_enabled": true,
+  "operator": "hermes",
+  "model": {
+    "provider": "deepseek",
+    "default": "deepseek-flash"
+  },
+  "reasoning_effort": "medium",
+  "brain_test_status": "passed_all_five_deepseek_sessions",
+  "brain_test_date": "2026-11-05",
+  "credential_mode": "deepseek_api_key_in_private_profile_env_no_repository_copy",
+  "review_transport": "existing_project_adapter",
+  "native_telegram_gateway_used": false,
+  "profile_smoke_tests": "dinda_model_browser_generate_download_passed_nara_rania_pending",
+  "profiles": {
+    "pm": {
+      "name": "ai-influencer-pm",
+      "role": "project_manager",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-pm",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "active": true,
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "model_updated_on": "2026-11-05",
+      "latest_verified_session_id": "local-a5562ec3ce85b76b58b414a4341495a474136d4ff6236c2fa51e49f3fddd3b54"
+    },
+    "nara": {
+      "name": "ai-influencer-nara",
+      "role": "talent_social_media",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-nara",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/nara/profile.json",
+      "cli_toolsets_enabled": true,
+      "browser_tested": false,
+      "active": false,
+      "coordination_toolsets": [
+        "file",
+        "memory",
+        "kanban"
+      ],
+      "coordination_test_status": "passed_local_read_task",
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "model_updated_on": "2026-11-05",
+      "latest_verified_session_id": "local-e0ea439e526edfd7ec1c9b331ed20964c91b80d99a01e6f796155317c97f466c"
+    },
+    "dinda": {
+      "name": "ai-influencer-dinda",
+      "role": "talent_social_media",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-dinda",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/dinda/profile.json",
+      "cli_toolsets_enabled": true,
+      "browser_tested": true,
+      "active": false,
+      "connector_read_tested": true,
+      "browser_read_model_verified_at": "2026-11-05T04:48:06.394842+00:00",
+      "browser_write_tested": true,
+      "generation_download_tested": true,
+      "coordination_toolsets": [
+        "file",
+        "memory",
+        "kanban"
+      ],
+      "coordination_test_status": "passed_local_read_task",
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "model_updated_on": "2026-11-05",
+      "latest_verified_session_id": "local-a096c96ed195cd0e0480e3342c18ba57613a16e9dea59874193e85e852e3a4aa",
+      "engagement_test_status": "passed_dm_and_threaded_comment_manual"
+    },
+    "rania": {
+      "name": "ai-influencer-rania",
+      "role": "talent_social_media",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-rania",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/rania/profile.json",
+      "cli_toolsets_enabled": true,
+      "browser_tested": false,
+      "active": false,
+      "coordination_toolsets": [
+        "file",
+        "memory",
+        "kanban"
+      ],
+      "coordination_test_status": "passed_local_read_task",
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "model_updated_on": "2026-11-05",
+      "latest_verified_session_id": "local-b08cf542df35bd74ec55e34ef2cefc54694ed6f20d632f7987f006c360f0d787"
+    },
+    "bang_ray": {
+      "name": "ai-influencer-bang-ray",
+      "role": "talent_social_media",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-bang-ray",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/bang_ray/profile.json",
+      "cli_toolsets_enabled": true,
+      "browser_tested": false,
+      "active": false,
+      "coordination_toolsets": [
+        "file",
+        "memory",
+        "kanban"
+      ],
+      "coordination_test_status": "not_run",
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "model_updated_on": "2026-11-10",
+      "latest_verified_session_id": "local-6d86749cc3fbc877226d5c8ac3784abbf7a0e730d8082ba7d367fa8d660d9e92"
+    },
+    "pak_vincent": {
+      "name": "ai-influencer-pak-vincent",
+      "role": "talent_social_media",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-pak-vincent",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/pak_vincent/profile.json",
+      "cli_toolsets_enabled": true,
+      "browser_tested": false,
+      "active": false,
+      "coordination_toolsets": [
+        "file",
+        "memory",
+        "kanban"
+      ],
+      "coordination_test_status": "configured",
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "model_updated_on": "2026-11-11"
+    },
+    "researcher": {
+      "name": "ai-influencer-researcher",
+      "role": "trend_researcher_copywriter",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-researcher",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "active": true,
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-flash",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "skills_installed": [
+        "grounded-citations",
+        "competitor-news-monitor",
+        "humanizer",
+        "blocked-page-recovery",
+        "creative-ideation",
+        "social-media-content-calendar"
+      ],
+      "coordination_toolsets": [
+        "file",
+        "terminal",
+        "browser",
+        "skills",
+        "memory",
+        "todo",
+        "kanban"
+      ],
+      "model_test_status": "passed_deepseek_flash_session_verified",
+      "coordination_test_status": "passed_two_public_sources_and_pm_readback",
+      "production_enabled": false,
+      "latest_verified_session_id": "local-a084bfd9bd4837ddeac17fd736ed70a400a96073ae3de8368bf08401c7446c54",
+      "test_report": "operations/reports/hermes-researcher-test.json"
+    },
+    "sales": {
+      "name": "sales-toko",
+      "display_name": "Agent Sales",
+      "role": "store_sales",
+      "home": "/Users/zidane/.hermes/profiles/sales-toko",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "workspace": "/Users/zidane/.hermes/profiles/sales-toko/workspace",
+      "role_file": "roles/sales.md",
+      "settings_file": "config/sales.json",
+      "skills_installed": [
+        "sales-konsultatif"
+      ],
+      "active": false,
+      "setup_status": "whatsapp_allowlisted_text_only_test",
+      "model": {
+        "provider": "deepseek",
+        "default": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "model_test_status": "not_run",
+      "coordination_test_status": "local_setup_validated_no_dispatch",
+      "coordination_toolsets": [
+        "file",
+        "memory",
+        "kanban"
+      ],
+      "production_enabled": false,
+      "whatsapp_enabled": true,
+      "scheduler_enabled": false,
+      "registered_on": "2026-11-07",
+      "setup_report": "operations/reports/sales-agent-setup-2026-11-07.json"
+    }
+  },
+  "skills_installed": [
+    "agent-browser",
+    "computer-use",
+    "creative-ideation",
+    "find-skills",
+    "grill-me",
+    "humanizer",
+    "hyperframes",
+    "hyperframes-cli",
+    "social-media-content-calendar"
+  ],
+  "skills_installation_verified": true,
+  "skills_runtime_tested": false,
+  "skills_manifest": "operations/reports/hermes-skills/installation-verified.json",
+  "chrome_connection_proposal": "config/hermes-chrome-connection.proposed.json",
+  "chrome_connector": {
+    "package": "chrome-devtools-mcp",
+    "version": "1.12.0",
+    "installed": true,
+    "configured_profile": "ai-influencer-dinda",
+    "read_test_passed": true,
+    "read_test_executor": "codex",
+    "hermes_model_browser_tested": true,
+    "report": "operations/reports/hermes-flow-connection-test.json",
+    "hermes_model_input_tested": true,
+    "hermes_model_generation_download_tested": true,
+    "pilot_report": "operations/reports/hermes-flow-download-pilot.json",
+    "enabled": true,
+    "connection_mode": "explicit_browser_url",
+    "browser_url": "http://127.0.0.1:9333",
+    "dedicated_user_data_dir": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER/private/browser/dinda-automation",
+    "allowed_tools": [
+      "list_pages",
+      "select_page",
+      "take_snapshot",
+      "new_page",
+      "navigate_page",
+      "click",
+      "hover",
+      "type_text",
+      "press_key",
+      "wait_for"
+    ],
+    "dedicated_connection_verified_on": "2026-11-06",
+    "dedicated_connection_report": "operations/reports/dinda-dedicated-browser-connection.json",
+    "dm_sending_enabled": true,
+    "comment_reply_enabled": true,
+    "engagement_policy": "config/engagement.json",
+    "engagement_status": "passed_dm_and_threaded_comment_after_input_fix",
+    "editor_guard_server": "dinda_editor_guard"
+  },
+  "coordination": {
+    "type": "hermes_kanban",
+    "board": "ai-influencer",
+    "mode": "existing_gateway_or_manual_once",
+    "daemon_enabled": false,
+    "runtime_test": "passed_three_talent_tasks_and_pm_readback",
+    "production_authorized": false,
+    "existing_gateway_can_dispatch": true,
+    "report": "operations/reports/hermes-team-coordination-test.json"
+  },
+  "browser_access_policy": "config/browser-access-policy.json",
+  "tiktok_adapter": {
+    "server": "dinda_tiktok_adapter",
+    "profile": "ai-influencer-dinda",
+    "default_cli_enabled": true,
+    "status": "live_scan_and_input_verified_send_unit_tested",
+    "report": "operations/reports/dinda-tiktok-adapter-2026-11-06.json",
+    "documentation": "docs/tiktok-adapter.md",
+    "live_adapter_send_verified": false
+  }
+}

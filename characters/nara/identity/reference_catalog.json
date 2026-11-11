@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "character_id": "nara",
+  "review_date": "2026-11-04",
+  "image_count": 6,
+  "status": "references_catalogued_visual_selection_complete",
+  "proposed_primary": "FOTO_KARAKTER/Nara/Photorealistic_four-view_character_reference_sheet.png_e3d7c474.jpg",
+  "proposed_body_reference": "FOTO_KARAKTER/Nara/Photorealistic_four-view_character_reference_sheet.png_e3d7c474.jpg",
+  "assets": [
+    {
+      "index": 1,
+      "path": "FOTO_KARAKTER/Nara/Archaeology_lab_researcher_character_sheet.png_e79f80bb.jpg",
+      "format": "JPEG",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "f7d0c29b962bae9f6ddec476d163e96d3d8a786d00a9606d1581ee60cd819fe3",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 2,
+      "path": "FOTO_KARAKTER/Nara/Change_clothing_to_office_wear_3fbc6f84.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        1376
+      ],
+      "sha256": "0cc2fc200b73af4a6080bda01d6d25124514fb3d7b98bcc367bb782b16aff493",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 3,
+      "path": "FOTO_KARAKTER/Nara/Changing_clothing_for_camera_ae1156a3.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        1376
+      ],
+      "sha256": "e0c3924913c38d7f8c22860f2f9c169e912e812ab99eed3bbce22a5b0f249c96",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 4,
+      "path": "FOTO_KARAKTER/Nara/Changing_outfit_for_camera_e18ca70d.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        1376
+      ],
+      "sha256": "c819946bb0b76f43cbd7694695e86a00a8129394b881a2dc9367fbbbb9bcd04a",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 5,
+      "path": "FOTO_KARAKTER/Nara/ChatGPT_Image_Oct_23,_2026,_28094b93.jpg",
+      "format": "JPEG",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "59b4cf774e79f1e53f8e4a7290d792f1d6366de106848a2d24ef8c6513319678",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 6,
+      "path": "FOTO_KARAKTER/Nara/Photorealistic_four-view_character_reference_sheet.png_e3d7c474.jpg",
+      "format": "JPEG",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a2a2189c9eb51347c731529211979e518f62fb2adc7becba829325578e2fafcc",
+      "roles": [
+        "face_reference_candidate",
+        "body_reference_candidate"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    }
+  ],
+  "notes": [
+    "Klasifikasi visual untuk penggunaan referensi; bukan verifikasi identitas orang nyata.",
+    "Foto gaya tidak otomatis dipakai sebagai wajah atau ukuran tubuh.",
+    "Outfit referensi bukan keputusan jabatan atau profesi karakter.",
+    "Tidak ada berkas asli yang diubah; belum ada unggahan/generasi."
+  ],
+  "primary_reference": "FOTO_KARAKTER/Nara/Photorealistic_four-view_character_reference_sheet.png_e3d7c474.jpg",
+  "body_reference": "FOTO_KARAKTER/Nara/Photorealistic_four-view_character_reference_sheet.png_e3d7c474.jpg",
+  "selection_method": "codex_visual_review_of_user_supplied_reference_set",
+  "user_context": "Pengguna menyatakan semua foto merupakan referensi; pengaturan peran referensi dikerjakan Codex."
+}

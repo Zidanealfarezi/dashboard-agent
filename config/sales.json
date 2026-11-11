@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-07",
+  "profile": "sales-toko",
+  "display_name": "Agent Sales",
+  "role": "store_sales",
+  "manager_profile": "ai-influencer-pm",
+  "role_file": "roles/sales.md",
+  "skills_installed": [
+    "sales-konsultatif"
+  ],
+  "training": {
+    "guide_file": "roles/sales-training/README.md",
+    "scenarios_file": "roles/sales-training/skenario.md",
+    "status": "materials_prepared_model_not_tested"
+  },
+  "setup_status": "whatsapp_allowlisted_text_only_test",
+  "execution_mode": "manual_whatsapp_allowlisted_test",
+  "model": {
+    "provider": "deepseek",
+    "default": "deepseek-flash",
+    "base_url": "https://api.deepseek.com/v1"
+  },
+  "cli_toolsets": [
+    "file",
+    "memory",
+    "kanban"
+  ],
+  "whatsapp": {
+    "bot_phone_e164": "+6282177428908",
+    "connection_mode": "hermes_baileys_qr",
+    "pairing_status": "paired_verified",
+    "pairing_enabled": false,
+    "gateway_enabled": true,
+    "customer_replies_enabled": true,
+    "group_replies_enabled": false,
+    "allow_all_users": false,
+    "test_sender_numbers": [
+      "+6282283234250"
+    ],
+    "proactive_messages_enabled": false,
+    "broadcast_enabled": false,
+    "pairing_verified_at": "2026-11-07T04:08:16.628579+00:00",
+    "text_only": true
+  },
+  "production_enabled": false,
+  "scheduler_enabled": false,
+  "daemon_enabled": false,
+  "paid_actions_enabled": false,
+  "store_data": {
+    "status": "needs_store_data",
+    "store_name": null,
+    "catalog_sources": [],
+    "price_source": null,
+    "stock_source": null,
+    "promotion_source": null,
+    "shipping_policy_source": null,
+    "payment_policy_source": null,
+    "return_policy_source": null,
+    "human_handoff_contact": null
+  },
+  "customer_data_location": "private_hermes_sales_profile_workspace_only",
+  "customer_data_in_repository_allowed": false,
+  "character_story_access_required": false,
+  "model_test_status": "not_run",
+  "channel_test_status": "gateway_connected_attachment_rejection_verified"
+}

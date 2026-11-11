@@ -1,0 +1,25 @@
+{
+  "purpose": "technical_identity_test",
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 6,
+  "title": "Uji teknis konsistensi wajah Dinda",
+  "hook": "Senyum natural dalam satu shot",
+  "story": "Draf uji teknis saja; bukan kejadian canon dan bukan konten terverifikasi tren.",
+  "caption": "TES TEKNIS — Konsistensi wajah dan gerak Dinda, 6 detik. Belum untuk publikasi.",
+  "image_prompt": "Use the existing verified Dinda master ingredient. No separate image generation.",
+  "role_tags": [
+    "lifestyle"
+  ],
+  "role_reason": "Kalibrasi identitas sebelum produksi lifestyle.",
+  "shots": [
+    {
+      "seconds": 6,
+      "prompt": "Technical identity-consistency test. Create one single-person vertical 9:16 close-up selfie video using the attached Dinda identity reference. The reference sheet shows three expressions of the SAME woman: output exactly ONE woman, never a collage or split screen. Preserve her facial features, black hijab, red top and round pendant. Plain neutral background, soft natural light, fixed camera. Over six seconds, she looks calmly into the camera, gently tilts her head a little, then gives a small natural smile and holds it. Minimal movement, realistic skin and eyes. No talking, no music, no text, no labels, no logos, no extra people. Do not reproduce the reference sheet layout."
+    }
+  ],
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [],
+  "source_note": "Pilot teknis eksplisit, terpisah dari alur konten harian yang ditahan karena bukti tren belum cukup."
+}

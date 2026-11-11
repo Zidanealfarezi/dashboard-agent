@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-05T05:19:06.350828+00:00",
+  "flow_actual_credits": 10,
+  "flow_pilot_credit_cap": 25,
+  "flow_remaining_authorized_credits": 15,
+  "flow_account_balance_after": 458,
+  "hermes_generate_download_verified": true,
+  "local_media_qa_and_edit_verified": true,
+  "telegram_review_acc_verified": true,
+  "tiktok_draft_saved_by_codex": true,
+  "publication_confirmed": false,
+  "scheduler_enabled": false,
+  "local_unit_tests_passed": 44,
+  "remaining": [
+    "stronger trend evidence and reduced model context overhead",
+    "exact sound availability, attachment and segment selection",
+    "Hermes publishing route and final package validation after platform edits",
+    "Nara/Rania profile and other Flow account tests",
+    "routine scheduler and continuous Telegram receiver are not active"
+  ]
+}

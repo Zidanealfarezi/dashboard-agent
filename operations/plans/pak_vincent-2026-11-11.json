@@ -1,0 +1,55 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "role_tags": [
+    "ladang sawit dan panen TBS (motor langsir, dodos vs egrek, musim trek, pupuk dan perawatan)",
+    "keseharian bersahaja dan motivasi hidup positif (kopi kebun, rantang makan siang, sapaan dua jari)"
+  ],
+  "role_reason": "Topik motor langsir dan perjuangan melintasi jalan tanah merah kebun sawit Riau sangat relevan dengan realita lapangan pekerja perkebunan Pekanbaru dan memiliki engagement tinggi di TikTok.",
+  "title": "Rahasia Motor Langsir Sawit di Jalan Poros Riau",
+  "hook": "Bukan soal motor kinclong atau mahal, tapi motor yang sanggup bawa buah sawit empat ratus kilo tanpa patah sokbreker.",
+  "story": "Pak Vincent berdiri di tepi jalan tanah merah perkebunan sawit Pekanbaru Riau, menyapa kawan-kawan dengan pose dua jari, membagikan cerita tentang ketangguhan motor langsir sawit sehabis hujan, dan menutup dengan sapaan hangat serta doa keselamatan kerja.",
+  "caption": "Kalau sudah masuk jalan poros kebun sawit sehabis hujan lebat di Riau, bukan soal motor mahal atau kinclong yang dicari tapi motor langsir yang sanggup bawa buah empat ratus kilo tanpa slip di jalan tanah merah. Di kebun kalian kawan-kawan motor langsir pakai modifikasi apa biar kuat nanjak? #sawitriau #motorlangsir #kebunsawit #pekanbaru #petanisawit #panensawit",
+  "image_prompt": "Gunakan tiga aset referensi resmi Pak Vincent: lembar tiga ekspresi (master wajah), turnaround full-body, dan profile avatar. Tidak membuat gambar master baru.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [8, 10, 12, 15],
+    "estimated_credits_displayed": 10,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent, the same 35-year-old Indonesian man shown in the three attached reference images (three-expression sheet, full-body turnaround, and avatar). Output exactly one man, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 10 seconds, medium shot standing on a dirt road in a vast green oil palm plantation in Riau early morning with soft natural daylight. He wears the vintage royal blue Samsung football jersey, dark shorts, dark baseball cap, and durable work sandals. Lean wiry build, authentic sun-tanned weathered skin with natural fine pores and smile lines, thin neat mustache. In the first three seconds at 0.0s he is already smiling warmly at the camera, raising his right hand in an iconic two-finger peace sign gesture (peace sign ✌️); from the third second he lowers his hand naturally and speaks warmly in Indonesian, \"Kalau di kebun sawit bukan soal motor kinclong, tapi yang kuat bawa buah empat ratus kilo!\"; at the eighth second he nods with a genuine hearty smile and gestures toward the lush palm trees. True-to-life colors, natural daylight neutral white balance 5500K, realistic matte human skin, zero plastic shine, zero CGI, authentic non-AI documentary smartphone footage at 24fps. Completely clean frame with zero on-screen text, zero subtitles, and no watermark."
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/14.71",
+      "title": "Prakiraan Cuaca Kota Pekanbaru - BMKG",
+      "observed_at": "2026-11-11T14:00:00+07:00",
+      "evidence": "Wilayah Pekanbaru dan sentra perkebunan sekitarnya (Kampar/Siak) mengalami hujan lebat sore hari dengan kelembapan tinggi, membuat jalan poros perkebunan tanah merah basah dan berlumpur."
+    },
+    {
+      "url": "https://mediaperkebunan.id/kondisi-jalan-produksi-sawit-rakyat-riau",
+      "title": "Tantangan Jalan Produksi dan Logistik TBS Sawit Rakyat di Riau",
+      "observed_at": "2026-11-11T14:05:00+07:00",
+      "evidence": "Laporan logistik perkebunan rakyat Riau: musim hujan meningkatkan ketergantungan pekebun pada armada motor langsir modifikasi untuk membawa TBS dari piringan ke TPH utama karena truk tidak bisa masuk ke jalan poros yang amblas."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Riset lapangan ekosistem perkebunan kelapa sawit Riau dan dinamika motor langsir pekebun swadaya."
+}

@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-11-05T04:56:24.978262+00:00",
+  "executor": "hermes_model",
+  "scope": "prepare_only",
+  "tools": [
+    "tool_describe",
+    "mcp__flow_pilot__list_pages",
+    "mcp__flow_pilot__select_page",
+    "mcp__flow_pilot__take_snapshot",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__fill",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click",
+    "mcp__flow_pilot__click"
+  ],
+  "generation_started": false,
+  "raw_snapshots_saved_by_runner": false,
+  "result": {
+    "exit_code": 0,
+    "text": "{\n  \"prepared\": true,\n  \"exact_project\": \"https://flow.google.com/project/3e9fe2ca-ee39-4235-81a1-9d8bfdee9603\",\n  \"reference_attached\": true,\n  \"reference_title\": \"Dinda Kemala Three-Expression Reference Sheet-1.png\",\n  \"model\": \"Omni 1.1 Flash\",\n  \"duration_seconds\": 6,\n  \"output_count\": 1,\n  \"resolution\": \"720p\",\n  \"estimated_credits\": 10,\n  \"generation_clicked\": false,\n  \"blocker\": null\n}",
+    "tokens": {
+      "input": 511599,
+      "output": 1085,
+      "total": 512684,
+      "cache_read": 446976,
+      "cache_write": 0
+    },
+    "duration_ms": 117374
+  },
+  "process_exit_code": 0
+}

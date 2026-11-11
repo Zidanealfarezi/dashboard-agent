@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f3ec">
+  <meta name="description" content="Kantor Intan — ruang kerja tim Hermes.">
+  <title>Kantor Intan — Studio 3D</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%238b4c35'/%3E%3Ctext x='15' y='30' fill='%23f5f3ec' font-family='Georgia' font-size='34'%3Ei%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/studio.css?v=20261109-3d-2">
+  <script src="/assets/three.min.js" defer></script>
+  <script src="/assets/OrbitControls.js" defer></script>
+  <script src="/office-3d.js?v=20261109-2" defer></script>
+  <script src="/studio.js?v=20261109-3d-2" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke ruang kerja</a>
+  <section class="access-screen" id="access-screen" aria-labelledby="access-title">
+    <div class="access-brand"><span class="wordmark">intan<span>.</span></span><span class="brand-label">KANTOR TIM</span></div>
+    <div class="access-layout">
+      <div class="access-intro"><span class="eyebrow">RUANG KERJA BERSAMA</span><h1>Tempat tim<br>menjalankan ide.</h1><p>Satu ruang untuk melihat tim, mengikuti pekerjaan, dan memeriksa hasil.</p><div class="access-drawing" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div></div>
+      <form class="access-form" id="access-form">
+        <span class="eyebrow">AKSES PEMILIK</span><h2>Selamat datang.</h2><p>Masuk untuk membuka kantor Anda.</p>
+        <label for="access-password">PIN atau kata sandi</label>
+        <div class="password-field"><input id="access-password" name="password" type="password" autocomplete="current-password" required aria-describedby="access-error"><button type="button" id="toggle-password" aria-label="Tampilkan kata sandi" aria-pressed="false">Lihat</button></div>
+        <label class="remember-control"><input type="checkbox" id="remember-access"> Ingat akses di perangkat ini</label>
+        <p class="form-error" id="access-error" role="alert"></p>
+        <button class="button primary" type="submit" id="access-submit"><span>Buka kantor</span><span aria-hidden="true">↗</span></button>
+        <span class="access-note">Ruang kerja privat · Kantor Intan</span>
+      </form>
+    </div>
+    <span class="access-footer">TIM YANG JELAS. PEKERJAAN YANG TERLIHAT.</span>
+  </section>
+
+  <div class="office-app is-3d" id="office-app" hidden>
+    <header class="masthead">
+      <a class="brand" href="#denah" aria-label="Kantor Intan"><span class="wordmark">intan<span>.</span></span><span class="brand-divider"></span><span class="brand-label">KANTOR<br>TIM HERMES</span></a>
+      <nav class="primary-nav" role="tablist" aria-label="Tampilan kantor">
+        <button type="button" role="tab" id="tab-denah" aria-controls="panel-denah" aria-selected="true" data-view="denah">Kantor 3D</button>
+        <button type="button" role="tab" id="tab-tim" aria-controls="panel-tim" aria-selected="false" data-view="tim">Tim & peran</button>
+        <button type="button" role="tab" id="tab-aktivitas" aria-controls="panel-aktivitas" aria-selected="false" data-view="aktivitas">Aktivitas</button>
+      </nav>
+      <div class="header-actions"><a href="/" class="quiet-button" style="text-decoration:none;display:inline-flex;align-items:center;gap:4px;" title="Kembali ke Kantor 3D Cyber & Lounge">🏢 3D Lounge</a><span class="connection" id="connection" role="status"><span class="status-dot"></span><span id="connection-label">Menghubungkan</span></span><button type="button" class="icon-button" id="refresh" aria-label="Perbarui data" title="Perbarui data"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 7a7 7 0 0 1 12-1l2 6M4 12l2 6a7 7 0 0 0 12-1"/></svg></button><button type="button" class="quiet-button" id="lock-office">Keluar</button></div>
+    </header>
+
+    <main id="main">
+      <section class="page-heading"><div><div class="eyebrow breadcrumb">KANTOR INTAN <span>/</span> RUANG KERJA</div><h1>Ruang kerja tim.</h1><p class="heading-copy">Tim, pekerjaan, dan ruang untuk bergerak maju.</p></div><div class="date-block"><span id="today">—</span><span class="operation-mode" id="operation-mode">Operasi manual</span></div></section>
+      <section class="overview-strip" aria-label="Ringkasan kantor"><div class="overview-item"><span class="metric-label">Anggota tim</span><span class="metric-value" id="metric-agents">—</span></div><div class="overview-item"><span class="metric-label">Agen mengerjakan tugas</span><span class="metric-value" id="metric-active">—</span></div><div class="overview-item"><span class="metric-label">Paket menunggu ACC</span><span class="metric-value" id="metric-pending">—</span></div><div class="overview-note" id="overview-note">Memeriksa status kantor.</div></section>
+      <div class="notice" id="data-notice" role="status" hidden></div>
+      <section id="panel-denah" role="tabpanel" aria-labelledby="tab-denah">
+        <div class="workspace-layout scene-layout"><section class="studio" aria-labelledby="studio-title">
+          <header class="section-heading"><div><span class="eyebrow">KANTOR VIRTUAL</span><h2 id="studio-title">Denah kantor.</h2></div><span class="plan-index" id="scene-view">Lantai 1 · Operasional</span></header>
+          <div class="scene-frame" id="scene-frame"><div class="office-viewport" id="office-viewport" aria-label="Kantor 3D interaktif"><div class="scene-loading" role="status">Menyiapkan kantor 3D…</div><div class="scene-labels" role="group" aria-label="Meja agen di lantai ini"></div><div class="scene-tooltip" hidden></div></div>
+            <div class="scene-toolbar">
+              <div class="scene-switches">
+                <div class="scene-segments" role="group" aria-label="Lantai kantor"><button type="button" data-office-floor="1" aria-pressed="true">Lantai 1</button><button type="button" data-office-floor="2" aria-pressed="false">Lantai 2</button></div>
+                <div class="scene-segments" role="group" aria-label="Sudut pandang"><button type="button" data-office-view="top" aria-pressed="false">Atas</button><button type="button" data-office-view="3d" aria-pressed="true">3D</button></div>
+              </div>
+              <div class="scene-actions"><button type="button" id="scene-home" aria-label="Lihat seluruh lantai">Seluruh lantai</button><button type="button" id="scene-zoom-out" aria-label="Perkecil kantor">−</button><button type="button" id="scene-zoom-in" aria-label="Perbesar kantor">+</button><button type="button" id="scene-fullscreen" aria-label="Tampilkan kantor dalam layar penuh">↗</button></div>
+            </div>
+          </div>
+          <div class="floorplan agent-rail" id="floorplan" aria-label="Pilih ruang agen"></div>
+          <div class="plan-legend"><span><i class="legend-dot available"></i>Siap internal</span><span><i class="legend-dot paused"></i>Ditunda</span><span class="plan-footnote">Geser untuk memutar · pilih nama untuk lihat agen</span></div>
+        </section><aside class="inspector" id="inspector" aria-live="polite" aria-label="Detail agen"></aside></div>
+      </section>
+      <section id="panel-tim" role="tabpanel" aria-labelledby="tab-tim" hidden><div class="section-heading team-heading"><div><span class="eyebrow">ORANG & PERAN</span><h2>Satu tim, tugas berbeda.</h2></div><span class="section-caption">Pilih anggota untuk melihat ruangnya</span></div><div class="team-table-wrap"><table class="team-table"><thead><tr><th scope="col">Anggota</th><th scope="col">Peran</th><th scope="col">Status gateway</th><th scope="col">Tahap pengujian</th><th scope="col"><span class="sr-only">Detail</span></th></tr></thead><tbody id="team-body"></tbody></table></div></section>
+      <section id="panel-aktivitas" role="tabpanel" aria-labelledby="tab-aktivitas" hidden><div class="activity-layout"><section><header class="section-heading"><div><span class="eyebrow">CATATAN PEKERJAAN</span><h2>Yang sudah berlangsung.</h2></div><span class="section-caption">Riwayat tercatat</span></header><ol class="activity-list" id="activity-list"></ol></section><aside class="activity-summary"><span class="eyebrow">CATATAN OPERASI</span><h3>Langkah berikutnya<br>tetap terukur.</h3><dl id="operation-details"></dl><div class="evaluation-note" id="evaluation-note"></div></aside></div></section>
+      <section class="bottom-strip" aria-label="Ringkasan sumber daya"><div><span class="eyebrow">FLOW · SALDO TERAKHIR</span><div class="resource-value"><span id="flow-balance">—</span><span>kredit</span></div><p id="flow-as-of">Tanggal verifikasi belum tersedia</p></div><div><span class="eyebrow">PILOT TERKONTROL</span><div class="resource-value"><span id="pilot-used">—</span><span id="pilot-cap">kredit terpakai</span></div><p>Generasi baru mengikuti izin biaya.</p></div><div class="production-note"><span class="eyebrow">PUBLIKASI</span><h3 id="publication-state">Memeriksa status</h3><p>Paket final dan ACC diperiksa sebelum tayang.</p></div></section>
+    </main>
+    <footer class="site-footer"><span>Kantor Intan <span class="footer-slash">/</span> Studio tim Hermes</span><span id="last-updated" aria-live="polite">Belum tersinkron</span></footer>
+  </div>
+</body>
+</html>

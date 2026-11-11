@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "character_id": "rania",
+  "review_date": "2026-11-04",
+  "image_count": 22,
+  "status": "references_catalogued_visual_selection_complete",
+  "proposed_primary": "FOTO_KARAKTER/Rania/Editing_images_for_realistic_skin_cd1fcd30.jpg",
+  "proposed_body_reference": "FOTO_KARAKTER/Rania/Edit_images_for_realistic_skin_8aed6aeb.jpg_ace3bdd2.jpg",
+  "assets": [
+    {
+      "index": 1,
+      "path": "FOTO_KARAKTER/Rania/Candid_portrait_of_person_918a20e4.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "13df0be2ee4d2a5f134a328c54cc98550ef39a7952b904139b95bc59b8b95279",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 2,
+      "path": "FOTO_KARAKTER/Rania/Candid_portrait_of_person_a41bdede.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "8b25e057d5d5efce261f5fc0c8084c6b5f8bc1f8af899ca2b11b80bf204cdca6",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 3,
+      "path": "FOTO_KARAKTER/Rania/Edit_images_for_realistic_skin_8aed6aeb.jpg_ace3bdd2.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "dd5c3719af21474edc005ae8d6fa9be686ee7679c2c57657e78fd942584da206",
+      "roles": [
+        "body_reference_candidate"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 4,
+      "path": "FOTO_KARAKTER/Rania/Edit_photo_into_selfie_50c1020e.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        1376
+      ],
+      "sha256": "6b06cdb5c8f4898f41334c8f001038ee8ad570d180f2cb7f1eb5c27aea04c214",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 5,
+      "path": "FOTO_KARAKTER/Rania/Editing_images_for_realistic_skin_cd1fcd30.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "257bf6ee54b25db506b5bc7689aeab85c91fd0ffd579cff76d98f1082c1d8bab",
+      "roles": [
+        "face_reference_candidate",
+        "expressions_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 6,
+      "path": "FOTO_KARAKTER/Rania/Eliminating_glossy_skin_texture_…_ea4aa7cf.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "a1957e587911278b5ce04eb1893b789167cb3e13602c55ef369924405d5b016e",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 7,
+      "path": "FOTO_KARAKTER/Rania/Person_portrait_in_daylight_7d1c74a0.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "63b45054a9977882b4b9f2bed8c9b830ca6cefd3f1c6f68eb0ab83ecf819b14f",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 8,
+      "path": "FOTO_KARAKTER/Rania/Person_portrait_in_daylight_9356939a.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "f5cf0077929492f1a1f89f6fec289d937a4601556344be6ccdfd764cdb4b4edf",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 9,
+      "path": "FOTO_KARAKTER/Rania/Person_portrait_in_daylight_c71f9940.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "b5a534a527951867c5939c68a7b52c3092626d0fe22f6a929688f4bf2aa51569",
+      "roles": [
+        "expressions_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 10,
+      "path": "FOTO_KARAKTER/Rania/Person_portrait_in_natural_light_9cb4b459.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "bf45318adb17d3afe9b8ae8ca0004012fdcebc93b20d437e9903c62ac7e9a6f7",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 11,
+      "path": "FOTO_KARAKTER/Rania/Person_portrait_in_natural_light_a467b5c6.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "6e8cf98a8d3d37ac61984bfc73a55c260ea894b28eaff76a0b2ee432d4cf76e6",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 12,
+      "path": "FOTO_KARAKTER/Rania/Portrait_of_a_person_70ae058f.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "30c065a7735cae3056f11973d0d41feb39ec9ff992269a9a579d714653bde6c5",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 13,
+      "path": "FOTO_KARAKTER/Rania/Portrait_of_person_35049a94.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "4c1770fb83f12f0c2657a623bfa20c3f5e84888159f49b44355388b1308ede05",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 14,
+      "path": "FOTO_KARAKTER/Rania/Portrait_of_person_5422159d.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "83f2bbdddd922fd60c7297c60b9b07914ad6c710c29ee21c854c45771e0b1aec",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 15,
+      "path": "FOTO_KARAKTER/Rania/Portrait_of_person_5fb92eb4.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "fea69380aa28d70cc3b84d5060dd3ed05d8916262dde16d2a6070d44ad061d40",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 16,
+      "path": "FOTO_KARAKTER/Rania/Prompt_guide_for_matte_skin_f3774cdd.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "add56c84380b3878ceb5a4117029e82c63fe39dc1dcc0856ef4bd2f93aca7340",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 17,
+      "path": "FOTO_KARAKTER/Rania/Replacing_character_outfit_with_…_3ead533a.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "2be5e078b015acbcce4a9eedd3d3d22ec28dd30956b72e4a047d89589e569dde",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 18,
+      "path": "FOTO_KARAKTER/Rania/Replacing_outfit_on_character_body_939fbc5d.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "baf04dc95ccffda52e25dcdee498cfb7c9fef170da85753696b9dff4166bb9f8",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 19,
+      "path": "FOTO_KARAKTER/Rania/Woman_posing_for_mirror_selfie_20ccdded.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        1376
+      ],
+      "sha256": "83b47968be7beeac224710151016353b2ca37f12ccc1428aa03e61b026dca698",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 20,
+      "path": "FOTO_KARAKTER/Rania/Woman_posing_in_different_outfits_d32a9580.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "sha256": "ca60e14a61f331310913929ca503a5dacf97126f555e80ee237cd65bcaa46b8f",
+      "roles": [
+        "outfits_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 21,
+      "path": "FOTO_KARAKTER/Rania/Woman_taking_mirror_selfie_7dbd801c.jpg",
+      "format": "JPEG",
+      "size": [
+        768,
+        1376
+      ],
+      "sha256": "4b3afded74125088c9f52df749121cb395d9521c46db61793f923a547f634ca5",
+      "roles": [
+        "scene_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    },
+    {
+      "index": 22,
+      "path": "FOTO_KARAKTER/Rania/snaptik-app-7545951719977520440-slide-5.jpg_63f783fa.jpg",
+      "format": "JPEG",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "9c35ea943a02d434a7687549dbd718fc7646d17df119b8c50c89754f4842661f",
+      "roles": [
+        "style_reference"
+      ],
+      "visual_inspected": true,
+      "provenance": "user_supplied_not_independently_verified"
+    }
+  ],
+  "notes": [
+    "Klasifikasi visual untuk penggunaan referensi; bukan verifikasi identitas orang nyata.",
+    "Foto gaya tidak otomatis dipakai sebagai wajah atau ukuran tubuh.",
+    "Outfit referensi bukan keputusan jabatan atau profesi karakter.",
+    "Tidak ada berkas asli yang diubah; belum ada unggahan/generasi."
+  ],
+  "primary_reference": "FOTO_KARAKTER/Rania/Editing_images_for_realistic_skin_cd1fcd30.jpg",
+  "body_reference": "FOTO_KARAKTER/Rania/Edit_images_for_realistic_skin_8aed6aeb.jpg_ace3bdd2.jpg",
+  "selection_method": "codex_visual_review_of_user_supplied_reference_set",
+  "user_context": "Pengguna menyatakan semua foto merupakan referensi; pengaturan peran referensi dikerjakan Codex."
+}

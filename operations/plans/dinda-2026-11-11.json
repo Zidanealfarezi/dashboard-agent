@@ -1,0 +1,59 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "role_tags": ["kuliner", "lifestyle"],
+  "role_reason": "Topik burgo Palembang masuk hidangan juara Bright Gas Cooking Competition 2026 persis di pilar kuliner Dinda, dan hujan ringan yang diprakirakan BMKG pagi ini membuat konten sarapan berkuah relevan harian.",
+  "title": "Burgo Palembang Ikut Bawa Juara di Final Kompetisi Masak Nasional",
+  "hook": "Burgo yang biasa kita santap pagi itu ternyata ikut bikin masakan Palembang menang di final kompetisi masak nasional.",
+  "story": "Dinda sarapan burgo di warung langganannya saat hujan ringan turun di Palembang, lalu memberi tahu penonton bahwa burgo khas Palembang disebut sebagai salah satu isi hidangan juara Bright Gas Cooking Competition 2026 di Tangerang akhir pekan lalu, dan menutup dengan pertanyaan menu berkuah favorit penonton. Belum canon.",
+  "caption": "Burgo Palembang baru saja ikut mengantar hidangan juara di final Bright Gas Cooking Competition 2026 di Tangerang, Sabtu lalu. Menurut laporan Ameera Republika, kompetisi itu diikuti 2.891 peserta dan sembilan finalis dari seleksi Tegal, Palembang, dan Yogyakarta, dan hidangan pemenangnya disebut memadukan gulai taboh, burgo khas Palembang, serta sambal goang. Pagi ini Palembang masih hujan ringan, jadi mangkuk burgo berkuah hangat terasa pas banget. Kalian tim burgo kuah santan atau tekwan? #palembang #kulinerpalembang #burgo #sarapanpalembang #kulinerkhasdaerah #dailyvlog",
+  "image_prompt": "Gunakan tiga aset referensi terverifikasi Dinda: lembar tiga ekspresi (master wajah), turnaround full-body, dan foto full-body OOTD outfit_dinda_pagi_20261111. Tidak membuat gambar master baru.",
+  "outfit": {
+    "wardrobe_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "category": "morning_casual",
+    "source": "character_wardrobe (SQLite), belum dipakai hari ini",
+    "flow_ingredient_upload": "dinda_outfit_20261111_fullbody.jpg"
+  },
+  "flow": {
+    "model": "Omni 1.1 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10],
+    "estimated_credits_displayed": 7,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the same Indonesian woman shown in the three attached reference images (three-expression face sheet, full-body turnaround, and today's outfit photo). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 10 seconds, medium close-up at a small burgo stall in Palembang early in the morning while light rain falls outside the tarp. She wears the cream oversized linen button-up shirt over a chocolate brown inner top, chocolate brown high-waisted wide-leg palazzo trousers, and a neat soft beige voal hijab with a small gold ring necklace. On the worn wooden table in front of her sits a white bowl of burgo, rice cake in creamy coconut broth, with visible steam rising. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps. In the first three seconds her hand lifts the spoon from the bowl and the steam drifts; she takes one small sip, then looks up into the lens and says warmly in Indonesian, \"Burgo Palembang sekarang ikut bawa juara di final masak nasional!\"; from the fifth second she tilts her head toward the rain outside the stall, gestures once with two fingers and smiles at the camera while the ambient rain and quiet stall sounds continue. Keep her face, clothing, hijab and background consistent, stable and undeformed in every frame. Completely clean frame with zero on-screen text, zero subtitles, zero logos and no signage."
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://ameera.republika.co.id/berita/to6bzn522/bright-gas-cooking-competition-2026-lahirkan-juara-baru-endri-supriatna-bawa-pulang-gelar-juara-1",
+      "title": "Bright Gas Cooking Competition 2026 Lahirkan Juara Baru, Endri Supriatna Bawa Pulang Gelar Juara 1 - Ameera Republika",
+      "observed_at": "2026-11-11T08:31:00+07:00",
+      "evidence": "Terbit 8 November 2026 15.09 WIB. Grand final BGCC 2026 di Bintaro Jaya Xchange Mall Park, Sabtu 7 November 2026. Juara 1 Endri Supriatna menang lewat hidangan yang memadukan gulai taboh, burgo khas Palembang, dan sambal goang. Sembilan finalis dari 2.891 peserta dengan seleksi Tegal, Palembang, Yogyakarta."
+    },
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+      "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+      "observed_at": "2026-11-11T08:30:00+07:00",
+      "evidence": "Dibaca 11 November 2026 08.30 WIB. Tabel per kecamatan untuk Rabu 11 November 2026 menunjukkan Hujan Ringan 25-31 derajat Celsius di Ilir Barat Dua, Seberang Ulu Satu dan Dua, Ilir Barat Satu, Ilir Timur Satu dan Dua, Sako, Kemuning, Kalidoni; Sukarami Hujan Petir."
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini - 11 November 2026 - Lagi Tren",
+      "observed_at": "2026-11-11T08:29:00+07:00",
+      "evidence": "Halaman diperbarui 11 Nov 07.17 WIB. Sepuluh hashtag tren hari ini seluruhnya politik, drama, atau esports dan tidak memuat satu pun tagar kuliner atau tagar Palembang, sehingga ceruk kuliner lokal terbuka."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Bukti tren dari operations/research-briefs/tiktok-trend-dinda-2026-11-11.json; angka peserta dan menu pemenang diatribusikan ke Ameera Republika, bukan diklaim data resmi."
+}

@@ -1,0 +1,53 @@
+{
+  "brand": "PT Intan Suar Kartika",
+  "account": "@intansuarkartika",
+  "whatsapp_contact": "https://wa.me/62819889350",
+  "negative_prompt": "cartoon, 3d render, illustration, blurry, low resolution, bad anatomy, deformed fingers, extra limbs, plastic skin, oversaturated, text watermark, fake studio lighting",
+  "products": {
+    "paku_cap_keris": {
+      "name": "Paku Cap Keris",
+      "category": "Paku Kayu & Konstruksi",
+      "anchor_prompt": "Cinematic photo of an Indonesian construction worker hammering a clean galvanized steel nail straight into heavy timber framing, high detail, realistic skin texture, sawdust particles in the air, natural midday sunlight, shot on 35mm lens, f/2.8, vertical aspect ratio 9:16, photorealistic --no cartoon, 3d render, illustration",
+      "default_cta_keyword": "KATALOG",
+      "key_features": [
+        "Jaminan timbangan pas 25 kg",
+        "Baja bersih tanpa karat",
+        "Standar mutu ekspor",
+        "Anti bengkok sekali hantam"
+      ]
+    },
+    "kawat_licin_diamond": {
+      "name": "Kawat Licin Diamond",
+      "category": "Kawat Galvanis & Pertanian",
+      "anchor_prompt": "Cinematic close-up of shiny galvanized steel wire tied firmly around bamboo scaffolding on a lush Indonesian farm, glistening metallic finish, morning dew, sharp focus on wire twist, realistic outdoor lighting, vertical 9:16, photorealistic",
+      "default_cta_keyword": "KAWAT",
+      "key_features": [
+        "Lapisan seng galvanis tebal anti-karat",
+        "Ulet dan mudah ditekuk tanpa patah",
+        "Kekuatan tarik tinggi untuk pertanian dan konstruksi"
+      ]
+    },
+    "kereta_sorong_five_star": {
+      "name": "Kereta Sorong Five Star",
+      "category": "Alat Angkut Proyek & Perkebunan",
+      "anchor_prompt": "Medium wide shot of an Indonesian field worker pushing a heavy-duty bright orange Five Star wheelbarrow fully loaded with wet concrete on a rough gravel path, muscular effort, dusty construction site background, dynamic low angle, 9:16, photorealistic",
+      "default_cta_keyword": "GEROBAK",
+      "key_features": [
+        "Bak plat tebal anti penyok",
+        "Rangka pipa kokoh dan ban heavy duty",
+        "Kapasitas angkut maksimal pasir dan adukan semen"
+      ]
+    },
+    "kawat_duri_diamond": {
+      "name": "Kawat Duri Diamond",
+      "category": "Pengaman Pagar & Perkebunan Sawit",
+      "anchor_prompt": "Extreme close up of sharp galvanized barbed wire fence protecting an oil palm plantation perimeter in Sumatra, weathered wooden post, dense tropical trees in background, deep depth of field, 9:16, photorealistic",
+      "default_cta_keyword": "PAGAR",
+      "key_features": [
+        "Duri tajam 4 titik simetris",
+        "Galvanis tahan cuaca ekstrem tropis",
+        "Solusi proteksi kebun sawit dan lahan properti"
+      ]
+    }
+  }
+}

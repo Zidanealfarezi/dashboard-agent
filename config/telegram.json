@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "connected": true,
+  "bot_username": "ISKAGENT_BOT",
+  "allowed_user_ids": [
+    7463982122
+  ],
+  "allowed_chat_ids": [
+    7463982122
+  ],
+  "credential_reference": "private/credentials/telegram.json",
+  "approval_binding": [
+    "character_id",
+    "content_id",
+    "version_id",
+    "media_sha256",
+    "caption_sha256",
+    "destination_account"
+  ],
+  "note": "Pilot 5 November 2026 lulus: file, kartu, callback ACC dan pembaruan status kartu. Adapter tetap sekali panggil tanpa daemon.",
+  "bot_id": 9159288377,
+  "token_verified": true,
+  "token_verified_date": "2026-11-04",
+  "recipient_paired": true,
+  "pairing_source_update_id": 943627308,
+  "review_adapter_implemented": true,
+  "review_adapter_test_status": "live_document_card_callback_and_visible_decision_passed"
+}

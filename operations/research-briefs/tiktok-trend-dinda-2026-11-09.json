@@ -1,0 +1,176 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-09",
+ "character_id": "dinda",
+ "collected_at": "2026-11-09T05:03:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Sumber dibaca langsung lewat browser Hermes pada 9 November 2026 pukul 05.01-05.03 WIB. TikTok Creative Center tidak dipakai karena menolak akses otomatis; bukti diambil dari halaman publik yang benar-benar terbaca. Angka yang dicatat adalah yang terlihat di halaman, bukan estimasi. Tren politik (#ijazahjokowi, #jokowidodo, #pakjokowi, #penyadapan, #listyosigitprabowo) sengaja tidak dijadikan kandidat karena di luar pilar Dinda (lifestyle/kuliner/Palembang) dan berisiko.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 9 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 9 November 2026 · diperbarui 9 Nov, 01.17 WIB'. Sepuluh video teratas: #ijazahjokowi 38,7 jt tayangan, #theremarriedempress 4,8 jt, #penyadapan 10,3 jt, #zivamagnolya 8,8 jt, #loveanddeepspace 105,6 rb, #roysuryo 20,3 jt, #livefest2026 766,4 rb, #jokowidodo 42,6 jt, #pakjokowi 31,7 jt, #listyosigitprabowo 13,9 jt. Daftar hashtag tren juga memuat #novemberrain dan #stuckonyou. Tidak ada tagar kuliner maupun tagar lokal Palembang di sepuluh teratas, jadi tidak ada tren kuliner nasional yang panas pagi ini; ceruk kuliner lokal masih terbuka.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:02:00+07:00",
+   "metrics": {
+    "top_trend": "#jokowidodo",
+    "top_trend_views": 42600000,
+    "culinary_tags_in_top10": 0,
+    "palembang_tags_in_top10": 0
+   }
+  },
+  {
+   "url": "https://lagitren.id/tiktok/novemberrain",
+   "title": "#novemberrain — kenapa viral? | TikTok Viral Indonesia · Lagi Tren",
+   "evidence": "Halaman diperbarui 9 Nov, 01.17 WIB. Penjelasan redaksi: tagar ini ramai karena konten beresonansi dengan suasana hujan dan perubahan cuaca November, berisi video aesthetic musim hujan, refleksi pribadi, dan soundtrack bermood sendu. Pada pengamatan 8 November 2026 tagar ini tercatat 11,5 juta tayangan; hari ini turun dari sepuluh besar video tetapi masih ada di daftar hashtag tren. Artinya format 'hujan + mood' masih hidup, meski momentumnya tidak sekuat tren politik hari ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:02:00+07:00",
+   "metrics": {
+    "views_observed_8_nov": 11500000,
+    "status_today": "hashtag tren, di luar top 10 video"
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 9 November 2026 pukul 05.02 WIB. Tabel prakiraan per kecamatan untuk Senin, 9 November 2026 menunjukkan 'Hujan Ringan' di Ilir Barat Dua, Seberang Ulu Satu, Seberang Ulu Dua, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, dan Sukarami, dengan suhu 24-33 derajat Celsius dan kelembapan sampai 97-99 persen. Palembang hari ini benar-benar hujan, bukan asumsi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:02:00+07:00",
+   "metrics": {
+    "forecast_day": "2026-11-09",
+    "weather": "Hujan Ringan",
+    "humidity_max_pct": 99
+   }
+  },
+  {
+   "url": "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+   "title": "Prediksi Musim Hujan Tahun 2026/2027 – Stasiun Klimatologi Sumatera Selatan",
+   "evidence": "Siaran BMKG bertanggal 8 Oktober 2026, dibaca ulang 9 November 2026. Wilayah Palembang diprediksi memasuki musim hujan 2026/2027 pada dasarian II November 2026, yaitu 11-20 November, dan sebagian besar Sumsel masuk lebih lambat tiga dasarian dari normal. Puncak musim hujan Sumsel diprediksi Desember 2026. Jadi awal musim hujan resmi tinggal dua hari lagi; konten bertema hujan relevan minggu ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:02:00+07:00",
+   "published_at": "2026-10-08T00:00:00+07:00",
+   "metrics": {
+    "palembang_rainy_season_start": "dasarian II November 2026",
+    "peak": "Desember 2026"
+   }
+  },
+  {
+   "url": "https://rri.co.id/palembang/budaya/2862185/festival-jajanan-bingen-2026-upaya-kenalkan-kuliner-lama-ke-generasi-muda",
+   "title": "Festival Jajanan Bingen 2026, Upaya Kenalkan Kuliner Lama ke Generasi Muda",
+   "evidence": "Terbit 2 November 2026 pukul 11.39 WIB, dibaca 9 November 2026. Festival digelar di OPI Mall pada 31 Oktober-1 November 2026 oleh Sriwijaya Post dalam rangka HUT ke-39, menghadirkan kuliner tradisional dari sejumlah kabupaten/kota Sumsel. Kota Palembang membawa gulo palu, kipau, kumbu, serikaya, dan gunjing. Ketua TP PKK Palembang Dewi Sastrani menyebut tujuan festival agar generasi muda mengenal, menikmati, dan menyukai jajanan zaman dulu karena rasanya tidak kalah dari jajanan modern.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:03:00+07:00",
+   "published_at": "2026-11-02T11:39:00+07:00",
+   "metrics": {
+    "event_dates": "2026-10-31..2026-11-01",
+    "venue": "OPI Mall Palembang",
+    "snacks": ["gulo palu", "kipau", "kumbu", "serikaya", "gunjing"]
+   }
+  },
+  {
+   "url": "https://palembang.go.id/berita/berita-745",
+   "title": "Nostalgia di Festival Jajanan Bingen 2026, Dewi Sastrani Ajak Gen-Z Cintai Kuliner Tempo Dulu",
+   "evidence": "Terbit Sabtu, 31 Oktober 2026 di situs resmi Pemkot Palembang, dibaca 9 November 2026. Menyebut gulo palu sebagai primadona festival dan menjelaskan proses pembuatannya dari adonan lembut sampai mengeras butuh ketelatenan tinggi yang melatih kesabaran. Ketua TP PKK Sumsel Febrita Lustia menyebut gulo palu mengingatkan masa kecil. Bukti bahwa cerita di balik jajanan ini kuat untuk narasi, bukan sekadar daftar makanan.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:03:00+07:00",
+   "published_at": "2026-10-31T00:00:00+07:00",
+   "metrics": {
+    "highlight": "gulo palu, proses manis yang mengeras"
+   }
+  },
+  {
+   "url": "https://akurat.co/trend/905268/7-sound-tiktok-viral-november-2026-bisa-bikin-konten-makin-menarik",
+   "title": "7 Sound TikTok Viral November 2026, Bisa Bikin Konten Makin Menarik!",
+   "evidence": "Terbit 8 November 2026 pukul 23.13 WIB, dibaca 9 November 2026. Menyebut sound 'Negoro Angin' dari Wahyu DTX populer November 2026, 'onty onty' dari Zia Devita mengalami peningkatan penggunaan 86,9 persen, dan 'Pesta Tanpa Henti' dari Jummalik naik 73,1 persen. Rekomendasi pemakaiannya untuk konten hiburan, daily vlog, dan aktivitas sehari-hari. Angka pertumbuhan adalah yang tertulis di artikel, bukan pengukuran sendiri.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-09T05:03:00+07:00",
+   "published_at": "2026-11-08T23:13:00+07:00",
+   "metrics": {
+    "sound_growth_pct": {"onty onty": 86.9, "Pesta Tanpa Henti": 73.1}
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "A",
+   "title": "Gulo Palu dan Jajanan Bingen: Rasa Tempo Dulu Saat Palembang Mulai Hujan",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Palembang sudah hujan tiap sore. Jajanan yang paling pas ternyata bukan yang viral, tapi yang resepnya sudah ada jauh sebelum TikTok.",
+   "shots": [
+    "Shot 1 (8s): Dinda berdiri di depan meja jajanan pasar di dalam mal, menunjuk gulo palu, kipau, dan kumbu yang ditata di atas daun, lalu mengangkat satu potong ke arah kamera.",
+    "Shot 2 (8s): Dinda menggigit gulo palu, matanya membelalak karena keras dan manisnya, lalu tertawa dan bertanya jajanan tempo dulu apa yang masih dia cari sampai sekarang."
+   ],
+   "sound": "onty onty - Zia Devita (dangdut ringan, pertumbuhan pemakaian 86,9% per 8 Nov 2026)",
+   "outfit": "Mocha Earth-Tone Oversized Shirt & Ivory Trousers (street_market)",
+   "caption": "Palembang mulai masuk musim hujan, dan itu jadi alasan buat berburu jajanan tempo dulu. Di Festival Jajanan Bingen 2026 di OPI Mall, Kota Palembang membawa gulo palu, kipau, kumbu, serikaya, dan gunjing, jajanan yang jarang muncul di beranda. Gulo palunya keras, manisnya nempel, dan proses bikinnya katanya benar-benar butuh sabar. Sekarang aku cari versi yang masih dijual harian. Kalian hafal rasa gulo palu atau baru tahu sekarang? #palembang #jajanantempodulu #gulopalu #jajananbingen #kulinerpalembang #musimhujan #fypindonesia",
+   "sources": [
+    "https://rri.co.id/palembang/budaya/2862185/festival-jajanan-bingen-2026-upaya-kenalkan-kuliner-lama-ke-generasi-muda",
+    "https://palembang.go.id/berita/berita-745",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+    "https://lagitren.id/tiktok",
+    "https://akurat.co/trend/905268/7-sound-tiktok-viral-november-2026-bisa-bikin-konten-makin-menarik"
+   ],
+   "factors": {
+    "momentum": 8.5,
+    "local_relevance": 9.5,
+    "format_fit": 9.0,
+    "evidence_strength": 8.5,
+    "risk_safety": 9.5
+   },
+   "why": "Hujan sudah turun di Palembang hari ini (BMKG: hujan ringan di tujuh kecamatan) dan musim hujan resmi mulai dasarian II November, jadi tema hujan punya timing kuat. Jajanan bingen punya bukti lokal konkret dari dua sumber yang berbeda (RRI dan situs Pemkot) plus cerita proses gulo palu yang bisa jadi narasi, sementara sepuluh tren TikTok hari ini didominasi politik dan tidak menyentuh kuliner lokal sama sekali. Topik ini juga belum pernah dipakai di bank memori."
+  },
+  {
+   "code": "B",
+   "title": "#novemberrain Versi Palembang: Playlist Hujan dan Satu Jajanan Hangat",
+   "pillar": "Lifestyle Palembang",
+   "hook": "Semua orang bikin video november rain. Versi Palembangku: hujan sore, satu jajanan hangat, dan playlist yang bikin betah di rumah.",
+   "shots": [
+    "Shot 1 (8s): Dinda duduk di beranda rumah sambil menatap hujan, ponsel di tangan menampilkan daftar lagu, lalu kamera bergeser ke jendela yang berembun.",
+    "Shot 2 (8s): Dinda menyeruput kuah hangat dari mangkuk kecil, menghela napas lega, lalu menoleh ke kamera dan menyebut satu lagu wajib saat hujan."
+   ],
+   "sound": "November Rain (tagar #novemberrain, 11,5 juta tayangan per 8 Nov 2026)",
+   "outfit": "Striped Taupe Knit Cardigan & Cream Palazzo (casual_aesthetic)",
+   "caption": "Hujan sore di Palembang akhirnya datang juga. Aku bukan orang yang bikin playlist berdasarkan mood, tapi kalau hujan begini ada satu lagu yang selalu balik. Ditambah jajanan hangat dari warung dekat rumah, sore jadi jauh lebih pelan. Kalian kalau hujan paling sering dengar lagu apa? #novemberrain #palembang #dailyvlog #playlistmusimhujan #vlogharian #lifestylepalembang",
+   "sources": [
+    "https://lagitren.id/tiktok/novemberrain",
+    "https://lagitren.id/tiktok",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/"
+   ],
+   "factors": {
+    "momentum": 9.0,
+    "local_relevance": 8.0,
+    "format_fit": 8.5,
+    "evidence_strength": 7.5,
+    "risk_safety": 9.0
+   },
+   "why": "Momentum tagar #novemberrain paling tinggi di antara tren yang masih aman untuk brand Dinda, dan BMKG memastikan hujan hari ini mendukung visualnya. Skornya kalah karena topiknya generik: relevansi Palembang cuma datang dari lokasi dan jajanan, bukan dari fakta lokal yang khas."
+  },
+  {
+   "code": "C",
+   "title": "Musim Hujan Datang: Tekwan Hangat di Warung Pinggir Jalan Palembang",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Musim hujan resmi mulai minggu ini, dan warung tekwan pinggir jalan jadi tempat paling jujur untuk menunggu hujan reda.",
+   "shots": [
+    "Shot 1 (8s): Dinda berteduh di terpal warung tekwan saat hujan, uap mangkuk mengepul, lalu ia duduk dan menyeruput kuahnya.",
+    "Shot 2 (8s): Dinda menunjuk rintik hujan di jalan, lalu mengangkat mangkuk kosong ke kamera sambil tersenyum."
+   ],
+   "sound": "Rainy Day Ambient (format vlog hujan, bukan klaim angka)",
+   "outfit": "Casual earth-tone outer & cream palazzo",
+   "caption": "Musim hujan Palembang sebentar lagi resmi datang, dan warung tekwan pinggir jalan selalu jadi penyelamat. Kuahnya hangat, harganya ramah, dan hujan di luar malah bikin suasananya lebih enak. Kalian tim tekwan kuah bening atau yang pakai cabai? #palembang #tekwan #kulinerpalembang #musimhujan #streetfood #vlogharian",
+   "sources": [
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 8.5,
+    "format_fit": 7.5,
+    "evidence_strength": 7.0,
+    "risk_safety": 9.0
+   },
+   "why": "Kombinasi hujan dan tekwan tetap relevan, tetapi format ini sudah dipakai berulang di bank ide (POV kehujanan dan tekwan) sehingga kebaruannya turun. Bukti permintaan spesifik untuk tekwan juga tidak ada; hanya bukti cuaca."
+  }
+ ]
+}

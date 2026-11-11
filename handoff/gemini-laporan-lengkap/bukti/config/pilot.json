@@ -1,0 +1,18 @@
+{
+  "authorized_on": "2026-11-05",
+  "scope": "controlled_pilot_not_unattended_operations",
+  "flow_total_credit_cap": 25,
+  "automatic_paid_retry": false,
+  "preferred_model_family": "Omni Flash",
+  "outputs_per_generation": 1,
+  "generation_started": true,
+  "scheduler_enabled": false,
+  "publication_requires_final_package_acc": true,
+  "note": "Pengguna meminta mengerjakan seluruh tahap dan Codex memeriksa hasil; batas pilot Flow total 25 kredit dikonfirmasi terpisah. File ini catatan otorisasi, bukan pengganti reservasi dan pemeriksaan gate operasional.",
+  "reserved_credits": 10,
+  "job_id": "253f6d629ae248a99206b92779237199",
+  "actual_credits": 10,
+  "remaining_authorized_credits": 15,
+  "automatic_additional_generation": false,
+  "external_asset_id": "060b02c5-e2b4-4895-93e8-fe609750c54e"
+}

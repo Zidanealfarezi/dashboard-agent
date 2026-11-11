@@ -1,0 +1,180 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-10-evening",
+  "character_id": "dinda",
+  "slot": "evening",
+  "collected_at": "2026-11-09T17:20:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot malam 9 November 2026 pukul 16.17-17.20 WIB lewat browser Hermes, untuk keputusan slot 10 November 2026. Halaman lagitren.id/tiktok dibaca ulang setelah pembaruan 16.17 WIB: sepuluh video viral didominasi politik dan hiburan, tidak ada tagar kuliner di sepuluh teratas, #musteat hanya muncul di daftar 14 hashtag (posisi 14) dengan 18K video. Tagar politik (#jokowidodo, #jokowi, #penyadapan, #roysuryo) sengaja tidak dipakai karena di luar pilar Dinda dan berisiko. Artikel Tribun Sumsel soal harga beras di Pasar Lemabang (9 November 2026) terlihat di hasil pencarian tetapi halamannya menolak akses otomatis (403), jadi tidak dipakai sebagai bukti. Angka yang dicatat adalah yang benar-benar terlihat di halaman, bukan estimasi.",
+  "candidates": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 9 November 2026 · Lagi Tren",
+      "evidence": "Halaman bertanda 'Hari ini · 9 November 2026 · diperbarui 9 Nov, 16.17 WIB'. Sepuluh video lagi viral: #soj1stanniversary 283,4 rb tayangan, #jokowidodo 43,6 jt, #bambamxswordofjustice 275,0 rb, #theremarriedempress 7,0 jt, #stuck 3,4 jt, #roysuryo 20,7 jt, #bareface 4,6 jt, #jokowi 43,6 jt, #penyadapan 14,0 jt, #swordofjustice 219,9 rb. Daftar hashtag tren berisi 14 tagar; #musteat ada di posisi 14, bersama #loveanddeepspace, #stuckonyou, dan #ffesportsid. Tidak ada tagar kuliner di sepuluh besar maupun tagar lokal Palembang, jadi tidak ada tren kuliner nasional yang panas sore ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T16:17:00+07:00",
+      "metrics": {
+        "top_trend": "#jokowidodo",
+        "top_trend_views": 43600000,
+        "bareface_views": 4600000,
+        "musteat_hashtag_rank": 14,
+        "culinary_tags_in_top10": 0,
+        "palembang_tags_in_top10": 0
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok/bareface",
+      "title": "#bareface — kenapa viral? | TikTok Viral Indonesia · Lagi Tren",
+      "evidence": "Halaman diperbarui 9 Nov, 16.17 WIB. Redaksi menjelaskan #bareface ramai karena pengguna dan selebriti memamerkan wajah alami tanpa makeup, memicu percakapan soal standar kecantikan yang tidak realistis. Pada daftar video viral hari ini tagar ini tercatat 4,6 juta tayangan, peringkat tujuh. Ini satu-satunya tren besar hari ini yang masih aman dan bisa dipakai karakter lifestyle tanpa masuk ranah politik.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T16:17:00+07:00",
+      "metrics": {
+        "views": 4600000,
+        "rank": 7
+      }
+    },
+    {
+      "url": "https://indonesiakaya.com/event/pempek-rasa-yang-menari-oleh-dams-dance-studio-palembang/",
+      "title": "PEMPEK: Rasa yang Menari oleh Dams Dance Studio (Palembang) - Indonesia Kaya",
+      "evidence": "Halaman resmi agenda Galeri Indonesia Kaya, dibaca 9 November 2026. Pertunjukan digelar 8 November 2026 pukul 15.00 dan 19.00 WIB, gratis, semua umur. Deskripsi resmi: karya tari kontemporer yang mengolah pempek sebagai sumber gagasan untuk membaca hubungan antara rasa, tubuh, tradisi, dan keberagaman budaya Palembang; melalui enam penari, proses pembuatan dan penyajian pempek diterjemahkan menjadi gerak, ritme, visual, dan energi tubuh. Sorotan visualnya adalah gerakan memeras jeruk nipis dengan tubuh sebagai metafora rasa asam dan segar. Karya ini juga mempertemukan karakter Melayu Palembang dan pengaruh budaya Tionghoa.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T17:10:00+07:00",
+      "published_at": "2026-11-08T00:00:00+07:00",
+      "metrics": {
+        "event_date": "2026-11-08",
+        "venue": "Galeri Indonesia Kaya, Jakarta",
+        "price": "gratis",
+        "dancers_according_to_official_page": 6
+      }
+    },
+    {
+      "url": "https://sinarpaginews.com/pempek-palembang-jadi-inspirasi-tari-ini-kata-kadisbudpar-sumsel-rudi-irawan/",
+      "title": "Pempek Palembang Jadi Inspirasi Tari, Ini Kata Kadisbudpar Sumsel Rudi Irawan - Sinar Pagi News",
+      "evidence": "Terbit 8 November 2026, dibaca 9 November 2026. Kepala Dinas Kebudayaan dan Pariwisata Sumsel Rudi Irawan menyebut pempek bukan cuma makanan sehari-hari tetapi warisan turun-temurun, dan variannya kini berkembang termasuk isian keju. Ia menilai pengemasan kuliner ke seni tari adalah cara kreatif memperkenalkan budaya ke generasi muda, didukung fasilitas latihan di Taman Budaya Sumsel, dan berpotensi mendorong pariwisata Palembang. Pernyataan ini bisa dikutip sebagai dukungan resmi, bukan klaim Dinda.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T17:12:00+07:00",
+      "published_at": "2026-11-08T00:00:00+07:00",
+      "metrics": {
+        "source_type": "berita lokal Sumsel"
+      }
+    },
+    {
+      "url": "https://popers.id/2026/11/09/h-41459/ruang-kreatif-seni-pertunjukan-2026-hadirkan-tari-pempek-dari-dams-dance-studio-palembang",
+      "title": "Ruang Kreatif Seni Pertunjukan 2026 Hadirkan Tari Pempek dari Dams Dance Studio Palembang - Popers.id",
+      "evidence": "Terbit 9 November 2026, dibaca 9 November 2026. Menyebut pertunjukan berlangsung 8 November 2026 di Galeri Indonesia Kaya sebagai bagian Ruang Kreatif Seni Pertunjukan 2026 yang melibatkan 13 kelompok seni dari November sampai Desember 2026. Detail proses: adonan, air mendidih, sampai penyajian cuko diterjemahkan menjadi gerak; salah satu metafora visualnya penari memeras jeruk nipis dengan tubuh. Produser Damri Aprizal menyebut tujuan karya mengangkat pempek sebagai identitas budaya Palembang, bukan sekadar kuliner. Catatan verifikasi: artikel ini menulis delapan penari, sedangkan halaman resmi Indonesia Kaya menulis enam penari; jumlah penari tidak dipakai dalam konten.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T17:14:00+07:00",
+      "published_at": "2026-11-09T00:00:00+07:00",
+      "metrics": {
+        "program": "Ruang Kreatif Seni Pertunjukan 2026",
+        "groups": 13,
+        "dancers_according_to_article": 8
+      }
+    },
+    {
+      "url": "https://www.cimutnews.co.id/festival-rempah-sumsel-2026-digelar-di-palembang-libatkan-17-daerah-dan-ratusan-pelaku-umkm/",
+      "title": "Festival Rempah Sumsel 2026 Digelar di Palembang, Libatkan 17 Daerah dan Ratusan Pelaku UMKM - Cimut News",
+      "evidence": "Terbit 5 November 2026, dibaca 9 November 2026. Festival Rempah Sumatera Selatan 2026 dijadwalkan 20-22 November 2026 di halaman PTC Mall Palembang, melibatkan 17 kabupaten/kota, pelaku UMKM, komunitas, dan Indonesian Council for Small Business. Ketua TP PKK Sumsel Feby Deru menyebut tahun ini konsepnya diperluas dari sekadar pameran rempah menjadi ruang promosi produk daerah. Acara masih sepuluh hari lagi, jadi ini bahan antisipasi, bukan momentum hari ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T17:16:00+07:00",
+      "published_at": "2026-11-05T15:00:00+07:00",
+      "metrics": {
+        "event_dates": "2026-11-20..2026-11-22",
+        "venue": "PTC Mall Palembang",
+        "districts": 17
+      }
+    },
+    {
+      "url": "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+      "title": "Prediksi Musim Hujan Tahun 2026/2027 – Stasiun Klimatologi Sumatera Selatan",
+      "evidence": "Siaran BMKG bertanggal 8 Oktober 2026, dibaca ulang 9 November 2026. Palembang diprediksi memasuki musim hujan 2026/2027 pada dasarian II November 2026, yaitu 11-20 November, dan sebagian besar Sumsel masuk lebih lambat tiga dasarian dari normal. Puncak musim hujan Sumsel diprediksi Desember 2026. Artinya musim hujan resmi mulai dalam hitungan hari, tetapi tema hujan sudah dipakai berulang di bank ide sehingga hanya jadi konteks, bukan sudut utama.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-09T17:08:00+07:00",
+      "published_at": "2026-10-08T00:00:00+07:00",
+      "metrics": {
+        "palembang_rainy_season_start": "dasarian II November 2026",
+        "peak": "Desember 2026"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "J",
+      "title": "Pempek Palembang Naik Panggung: Dari Adonan Dapur ke Tari Kontemporer Jakarta",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek kita baru saja jadi tarian di Jakarta, dan gerakan memeras jeruk nipisnya yang paling kena.",
+      "shots": [
+        "Shot 1 (8s): Dinda di dapur rumah menguleni adonan pempek di mangkuk besar, tangan bekerja cepat, lalu ia mengangkat satu lenjer pempek mentah ke arah kamera sambil tersenyum.",
+        "Shot 2 (8s): Dinda menyiram pempek yang baru diangkat dari air mendidih, memeras jeruk nipis di atasnya, mencelup ke cuko, lalu makan satu suapan dan mengangguk puas ke kamera."
+      ],
+      "sound": "Instrumen Melayu modern bertempo sedang (format budaya-kuliner, bukan klaim angka)",
+      "outfit": "OOTD pagi 10 November 2026 dari character_wardrobe (slot pagi)",
+      "caption": "Pempek Palembang sekarang bukan cuma makanan, tapi sudah jadi karya tari kontemporer berjudul Pempek: Rasa yang Menari. Dams Dance Studio dari Palembang membawanya ke Galeri Indonesia Kaya Jakarta pada 8 November, dan proses dari adonan, air mendidih, sampai cuko diterjemahkan jadi gerakan. Bagian yang paling kena buat aku justru gerakan memeras jeruk nipis, karena itu memang rasa pempek yang kita kenal sehari-hari. Jadi di dapur ini aku coba versi sendiri: adonan diuleni, pempek direbus, jeruk nipis diperas, cuko disiapkan. Kalau pempek jadi tarian, gerakan mana yang paling kalian hafal? #pempek #palembang #kulinerpalembang #senibudaya #tari #fypindonesia",
+      "sources": [
+        "https://indonesiakaya.com/event/pempek-rasa-yang-menari-oleh-dams-dance-studio-palembang/",
+        "https://sinarpaginews.com/pempek-palembang-jadi-inspirasi-tari-ini-kata-kadisbudpar-sumsel-rudi-irawan/",
+        "https://popers.id/2026/11/09/h-41459/ruang-kreatif-seni-pertunjukan-2026-hadirkan-tari-pempek-dari-dams-dance-studio-palembang",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "momentum": 7.0,
+        "local_relevance": 9.5,
+        "format_fit": 8.5,
+        "evidence_strength": 8.5,
+        "risk_safety": 9.0
+      },
+      "why": "Berita baru 24 jam terakhir dengan tiga sumber saling melengkapi termasuk halaman resmi penyelenggara, dan sudutnya khas Palembang tanpa mengulang tema hujan atau tekwan yang sudah dipakai berulang. Formatnya sangat cocok untuk TikTok: ada aksi dapur yang mudah ditiru dan satu gerakan ikonik memeras jeruk nipis yang bisa memancing duet atau komentar. Momentum diberi 7,0 karena liputan media kuat tetapi belum ada tagar TikTok khusus untuk pertunjukan ini."
+    },
+    {
+      "code": "K",
+      "title": "Bareface ke Pasar Pagi Palembang: Wajah Apa Adanya, Sarapan Tetap Jajan",
+      "pillar": "Lifestyle Palembang",
+      "hook": "Lagi ramai bareface, jadi aku coba ke pasar pagi tanpa makeup, cuma pakai pelembab.",
+      "shots": [
+        "Shot 1 (8s): Dinda berjalan masuk pasar pagi Palembang tanpa makeup, menyapa pedagang, lalu berhenti di depan lapak jajanan dan menunjuk beberapa pilihan.",
+        "Shot 2 (8s): Dinda duduk di bangku warung, wajah natural menghadap kamera, menyeruput sarapan hangat lalu tertawa kecil sambil menyebut alasannya berani tampil apa adanya."
+      ],
+      "sound": "Akustik ringan pagi (format lifestyle jujur, bukan klaim angka)",
+      "outfit": "OOTD pagi 10 November 2026 dari character_wardrobe (slot pagi)",
+      "caption": "Tagar bareface lagi ramai, isinya orang-orang menunjukkan wajah asli tanpa makeup. Aku coba bawa ke versi Palembang: pagi-pagi ke pasar, cuma pakai pelembab dan sunblock, tanpa foundation. Awalnya agak canggung karena biasa tampil rapi di kamera, tapi justru jadi percakapan seru sama pedagang. Sarapannya tetap jajan, karena pasar pagi memang tempat paling jujur buat mulai hari. Kalian berani keluar rumah tanpa makeup? #bareface #palembang #pasartradisional #sarapanpagi #dailyvlog #lifestylepalembang",
+      "sources": [
+        "https://lagitren.id/tiktok/bareface",
+        "https://lagitren.id/tiktok",
+        "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/"
+      ],
+      "factors": {
+        "momentum": 8.5,
+        "local_relevance": 7.5,
+        "format_fit": 8.5,
+        "evidence_strength": 7.0,
+        "risk_safety": 8.0
+      },
+      "why": "Menempel ke tren yang benar-benar panas hari ini (4,6 juta tayangan) dan sangat mudah ditiru audiens, tetapi relevansinya ke Palembang hanya dari lokasi pasar sehingga tidak sekhas topik budaya lokal. Risiko komentar soal penampilan juga lebih tinggi untuk karakter hijab, jadi skor keamanannya lebih rendah."
+    },
+    {
+      "code": "L",
+      "title": "Festival Rempah Sumsel 20 November: Rempah Lokal di Balik Rasa Cuko",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Festival Rempah Sumsel tinggal sepuluh hari lagi, dan bahan cuko pempek kita asalnya dari rempah-rempah ini.",
+      "shots": [
+        "Shot 1 (8s): Dinda menata cabai, bawang putih, dan gula aren di atas meja kayu, lalu menunjuk satu per satu sambil menjelaskan perannya untuk cuko.",
+        "Shot 2 (8s): Dinda merebus bahan cuko di panci kecil, mengaduk dan mencium uapnya, lalu menuangkannya ke mangkuk pempek dan tersenyum ke kamera."
+      ],
+      "sound": "Dangdut Melayu akustik (format kuliner lokal, bukan klaim angka)",
+      "outfit": "OOTD pagi 10 November 2026 dari character_wardrobe (slot pagi)",
+      "caption": "Festival Rempah Sumatera Selatan 2026 digelar 20 sampai 22 November di PTC Mall Palembang, melibatkan 17 kabupaten dan kota. Buat aku yang hampir tiap hari makan pempek, ini pengingat kalau rasa cuko yang kita tuang tanpa mikir itu asalnya dari rempah lokal: cabai, bawang, gula aren, dan asam. Jadi sebelum festivalnya ramai, aku coba bikin cuko sendiri di rumah dan bandingkan rasanya. Kalian tim cuko pedas atau cuko manis? #festivalrempah #palembang #cuko #pempek #kulinerpalembang #rempahlokal",
+      "sources": [
+        "https://www.cimutnews.co.id/festival-rempah-sumsel-2026-digelar-di-palembang-libatkan-17-daerah-dan-ratusan-pelaku-umkm/",
+        "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "momentum": 5.5,
+        "local_relevance": 9.5,
+        "format_fit": 8.0,
+        "evidence_strength": 8.0,
+        "risk_safety": 9.0
+      },
+      "why": "Sangat lokal dan punya tanggal acara yang jelas, tetapi masih sepuluh hari lagi sehingga momentumnya belum ada; menayangkan sekarang berisiko terasa seperti pengumuman acara ketimbang konten yang relevan hari ini. Skor momentum paling rendah di antara tiga kandidat."
+    }
+  ]
+}

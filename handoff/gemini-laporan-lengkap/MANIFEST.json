@@ -1,0 +1,207 @@
+[
+  {
+    "path": "bukti/README.md",
+    "bytes": 5392,
+    "sha256": "5de1a69a2e6f719a3b5ba4bba5551968663a79cbcce7a05bbecffcf6d97962f2"
+  },
+  {
+    "path": "bukti/AGENTS.md",
+    "bytes": 5564,
+    "sha256": "0b904e1bbb02969fc648fd994100a39b8f490607091e4331568679c946a07808"
+  },
+  {
+    "path": "bukti/docs/pilot-2026-11-05.md",
+    "bytes": 6278,
+    "sha256": "1be9c76f5d5b01c342a97b40b3d8df2e9d915af6817b0b44815a43bb0f4c7375"
+  },
+  {
+    "path": "bukti/docs/decisions.md",
+    "bytes": 6189,
+    "sha256": "2aa6a96a60ccfe2db70a993595a617e3cc6badc4001cee1ec67ea8b19c79cd45"
+  },
+  {
+    "path": "bukti/docs/hermes-setup.md",
+    "bytes": 6477,
+    "sha256": "1b5042d6b67a1e857528d62a09bd96cc877f2d04f942c0c7167b40463b7330ef"
+  },
+  {
+    "path": "bukti/docs/autopilot-runbook.md",
+    "bytes": 12028,
+    "sha256": "48acdbba425a5d60f326d128daf48179bf3ec8e62e0f368787240b9b5bcc0c6d"
+  },
+  {
+    "path": "bukti/docs/telegram-review.md",
+    "bytes": 5911,
+    "sha256": "1551215684d922233c9ae90c999a930cdc405bd7359176d34078b376f025e769"
+  },
+  {
+    "path": "bukti/docs/hermes-skills.md",
+    "bytes": 2702,
+    "sha256": "d82176a965064d3c74800d08608275bafaad061633d96b73fd8742d70728beee"
+  },
+  {
+    "path": "bukti/config/project.json",
+    "bytes": 1143,
+    "sha256": "ff1aa603cdfbb3910bdb0aae015fc8d24e8bd6cd0bb732e8b0ab88072620e62d"
+  },
+  {
+    "path": "bukti/config/pilot.json",
+    "bytes": 810,
+    "sha256": "af5558f63c3c6e5c6c0e5405179d0f641760ee4cf76d61153dbaf2b586ff222a"
+  },
+  {
+    "path": "bukti/config/hermes.json",
+    "bytes": 2727,
+    "sha256": "6f56b650d2d0fef6cf6b1641ee0b8827357dc5817043aa2636ab4f9764647db1"
+  },
+  {
+    "path": "bukti/config/autopilot.json",
+    "bytes": 1444,
+    "sha256": "7c6df4cfb3da7ba75c1f6750a3faf2177521a8b8e2ab429c90c3be060140be63"
+  },
+  {
+    "path": "bukti/characters/dinda/profile.json",
+    "bytes": 1849,
+    "sha256": "59f6b57d0c2414dc1d695dcb507c0a4b83c4f8d9c84febc712e41f82298eaa8e"
+  },
+  {
+    "path": "bukti/operations/plans/dinda-technical-pilot-2026-11-05.json",
+    "bytes": 1555,
+    "sha256": "789172906b808cd8a0a11cb49d47e9c07eeba399a205b968fa80bde0f87c2cfa"
+  },
+  {
+    "path": "bukti/shared/research/2026-11-05-dinda-pilot.json",
+    "bytes": 5580,
+    "sha256": "7a4a15e1e4cbdce76a185c119773af1dd33a10f7337688b24c2b966a173d9786"
+  },
+  {
+    "path": "bukti/operations/reports/pilot-final-summary.json",
+    "bytes": 822,
+    "sha256": "8936da568119d03e6ce8832675994485e8d589df4967f77547947fd99dde5b45"
+  },
+  {
+    "path": "bukti/operations/reports/hermes-model-browser-read-pilot.json",
+    "bytes": 797,
+    "sha256": "aede18e343e3998b487ecdabbf5d9f1b3053bbb90af1178aa6be10857e3b13bc"
+  },
+  {
+    "path": "bukti/operations/reports/hermes-research-pilot.json",
+    "bytes": 6223,
+    "sha256": "7f59103d23d63c2c25291179d52662af598b6c05aa9d2c0faacb09f54c90127c"
+  },
+  {
+    "path": "bukti/operations/reports/hermes-flow-prepare-pilot-v3.json",
+    "bytes": 1377,
+    "sha256": "7efb0f19dfdaa6c0f601ed1be9e918f5afc83da79da2bff7e66b5c1961c770eb"
+  },
+  {
+    "path": "bukti/operations/reports/hermes-flow-submit-pilot.json",
+    "bytes": 1208,
+    "sha256": "12b2d247dec2fc0aed797508c5a8f26d2375975b49f5da35ad19e0b8af6f25df"
+  },
+  {
+    "path": "bukti/operations/reports/hermes-flow-download-pilot.json",
+    "bytes": 1077,
+    "sha256": "10c5d3eb1802164c995dd92a2e653516a9a1bc84931dc382f55208075d49c1ee"
+  },
+  {
+    "path": "bukti/operations/reports/dinda-pilot-qa.json",
+    "bytes": 906,
+    "sha256": "60e0c83942401f2ca423655d4ce8fcff710d19e2b1cfeb0772e0a12156603f94"
+  },
+  {
+    "path": "bukti/operations/reports/media-editing-pilot.json",
+    "bytes": 188,
+    "sha256": "47495dfe564575e108a83f7ae2a39bb7f5cb69fe8755849cb30338081dccb717"
+  },
+  {
+    "path": "bukti/operations/reports/telegram-live-pilot.json",
+    "bytes": 212,
+    "sha256": "8e2c90233c4c61ebc1f305e62b038686f17031e3bccac1bbb2365a5bb9a97232"
+  },
+  {
+    "path": "bukti/operations/reports/telegram-review-pilot-status.json",
+    "bytes": 679,
+    "sha256": "d9a36815da9ab68d3e041d4dd8c6ff979d2ab17d65d8bacb789162b613ebc44f"
+  },
+  {
+    "path": "bukti/operations/reports/tiktok-draft-pilot.json",
+    "bytes": 1153,
+    "sha256": "6085eb2d13341deb8fe100fe994dc871f76455f6630d799c7a5997e0552f0681"
+  },
+  {
+    "path": "bukti/operations/tasks/dinda-browser-read-pilot.txt",
+    "bytes": 1226,
+    "sha256": "3c76aeb0cfb840fb59e691b0557818ac208cd8725d2921f4d5c41b1b7aaf4546"
+  },
+  {
+    "path": "bukti/operations/tasks/dinda-research-pilot.txt",
+    "bytes": 1954,
+    "sha256": "37f03fdd7c7e80c1592de1d89329bd88e35a1fe27aff73c3096ee007b8bfddd3"
+  },
+  {
+    "path": "bukti/operations/tasks/dinda-flow-prepare-pilot.txt",
+    "bytes": 2644,
+    "sha256": "d90fe093e97bdc6a42536ef40f7d21dbd0fd5fe47e4078ae4807a41af51a1013"
+  },
+  {
+    "path": "bukti/operations/tasks/dinda-flow-submit-pilot.txt",
+    "bytes": 1825,
+    "sha256": "ae2fe31e6e4e188d63d838a72d990ed2cbe62d5b9c674d657d68bad39803186c"
+  },
+  {
+    "path": "bukti/operations/tasks/dinda-flow-download-pilot.txt",
+    "bytes": 1180,
+    "sha256": "de46ab843d54ad12f8674fcab5ac603a6782c0c5e86ebd08704ad8e22dbfa13b"
+  },
+  {
+    "path": "bukti/characters/dinda/content/dinda-technical-pilot-2026-11-05/original.mp4",
+    "bytes": 2362499,
+    "sha256": "116e8cba19defebb651372ce9bd93c2e160702027c110a9b64589de7efa211bf"
+  },
+  {
+    "path": "bukti/characters/dinda/content/dinda-technical-pilot-2026-11-05/v1.mp4",
+    "bytes": 2478168,
+    "sha256": "bc2d75b0afe4d54ef180bfe977fa9cd00966ece0faeb9ac4c2ef689042acde1d"
+  },
+  {
+    "path": "bukti/FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "bytes": 496285,
+    "sha256": "a1e87219b67a0f0a84d8d99e02c0bf1b99a82404bd490ee70a0e7ac7aa2ec8d6"
+  },
+  {
+    "path": "bukti/operations/reports/dinda-pilot-frames/frame-1.jpg",
+    "bytes": 36492,
+    "sha256": "9b007208ccfcb1bf5872b84625a492d67f558effb1c7f781c6df7b22dda6c78e"
+  },
+  {
+    "path": "bukti/operations/reports/dinda-pilot-frames/frame-2.jpg",
+    "bytes": 35623,
+    "sha256": "754cb7c7e54c81ef29bd490c34af41f1acdb40b71442c60f2f4b36272f02630a"
+  },
+  {
+    "path": "bukti/operations/reports/dinda-pilot-frames/frame-3.jpg",
+    "bytes": 36868,
+    "sha256": "2e1e0844b8d8997cc13f9f9b9006fb0154b3e8d453f990e3af6d690fdc056616"
+  },
+  {
+    "path": "bukti/tmp/pdfs/screenshots/flow-result.png",
+    "bytes": 161724,
+    "sha256": "469f01e453e9f1896993e23e0094adc66a8fc30f92b300581a25590b08809d24"
+  },
+  {
+    "path": "bukti/tmp/pdfs/screenshots/tiktok-draft.png",
+    "bytes": 188835,
+    "sha256": "d7ce307e0850fbd255f507277d56397d8d70aff6dfc8a844388c3cef649380a0"
+  },
+  {
+    "path": "bukti/output/pdf/Laporan_Pilot_AI_Influencer_2026-11-05.pdf",
+    "bytes": 517738,
+    "sha256": "3e7ee6c54e1b023e46c5d53401a6474642dc6ace4d8f83bb4c9a20d1b9af0a8a"
+  },
+  {
+    "path": "BUKTI_DATABASE.json",
+    "bytes": 1936,
+    "sha256": "d9b3b6fd0f774a920bd51bb5bb3cfae9aeeb71ae5b9200eadd16c7d9c31491a0"
+  }
+]

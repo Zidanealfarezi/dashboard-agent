@@ -1,0 +1,58 @@
+{
+  "id": "isk",
+  "name": "PT Intan Suar Kartika",
+  "tiktok_account": "@intansuarkartika",
+  "origin": "Medan, Sumatera Utara",
+  "content_pillars": [
+    "manufaktur bahan bangunan",
+    "paku cap keris",
+    "kawat licin diamond",
+    "kawat duri diamond",
+    "kereta sorong five star",
+    "uji ketahanan material",
+    "edukasi toko bangunan dan tukang proyek"
+  ],
+  "language": "Indonesia lugas, profesional, tanpa emoji",
+  "format": "9:16",
+  "reference_inbox": "characters/isk/assets/brand",
+  "master_selection_status": "selected_from_user_references",
+  "appearance_status": "reference_visually_verified",
+  "master_image": "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg",
+  "master_image_sha256": "c20a68b25346c7ae9712526bdcda1fef50395d8158ee379d2f58e9a03d665818",
+  "flow_account_id": "flow_2",
+  "flow_project_url": "https://flow.google.com/project/33b10f02-20fa-4df2-87c3-ca4696d342c6",
+  "official_outro_bumper": "characters/isk/assets/brand/closing_isk_official.mp4",
+  "official_outro_sha256": "61afac20cbdbae4f73b1dfdf27f0fe679c66dab606f83a97ca6374a3580e9635",
+  "cta_whatsapp": "wa.me/62819889350",
+  "packaging_anchor": {
+    "box_shape": "horizontal rectangular brown kraft cardboard",
+    "branding_print": "dark green typography PAKU EXPORT QUALITY, keris illustration, CAP KERIS, SNI No. 0194 - 78, PRODUKSI P.T. INTAN SUAR KARTIKA MEDAN-INDONESIA",
+    "nail_condition": "paku curah lepas langsung di dalam kardus tanpa bungkus plastik"
+  },
+  "product_catalog_references": {
+    "paku_cap_keris": {
+      "image_path": "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg",
+      "sha256": "c20a68b25346c7ae9712526bdcda1fef50395d8158ee379d2f58e9a03d665818",
+      "visual_anchor": "Kardus kraft cokelat persegi panjang, tulisan hijau tua PAKU EXPORT QUALITY, CAP KERIS, lambang keris, paku curah lepas"
+    },
+    "kawat_duri_diamond": {
+      "image_path": "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg",
+      "sha256": "160f63c962f08a7c2690a2a4b87cb5d2e7e7a5c88b39868ba39c63a51052dfcb",
+      "visual_anchor": "Roll silinder kawat duri galvanis lilitan rapi, label oval kayu/karton bertuliskan BARBED IRON WIRE cap merah logo INI roda gigi dan DIAMOND"
+    },
+    "kawat_licin_diamond": {
+      "image_path": "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg",
+      "sha256": "f3eca82cbe4051a700147983ea4beffea2661d4b68482b8a071d2b826b52c009",
+      "visual_anchor": "Roll kawat baja galvanis licin mengkilap anti-karat untuk ikat beton dan anyaman"
+    },
+    "kereta_sorong_five_star": {
+      "image_path": "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg",
+      "top_view_path": "characters/isk/assets/brand/kereta_sorong_five_star_top.jpg",
+      "sha256": "769fd1e1e05b6ec2a52479fec4a8ecbe24ca54e793dd535eb0179979b9ae69d7",
+      "visual_anchor": "Kereta dorong merah cerah glossy, bak plat baja press tebal, stiker FIVE STAR di handle kiri, grip karet hitam, roda tunggal ban angin tebal berulir"
+    }
+  },
+  "upscale_policy": "Standar terpadu Varian 3 Hybrid Foto-Realistik via app/upscaler.py: input Google Flow wajib 360p lalu Real-ESRGAN NCNN Vulkan Apple M4 (upscayl-lite-4x, texture_preserve=0.45: 55% AI detail + 45% tekstur asli Lanczos CAS + micro grain) menuju kanvas 1080x1920.",
+  "subtitle_policy": "Standar terpadu editorial_tiktok via app/subtitles.py: 2-tier ASS di kanvas 1080x1920 (Ray_Top putih #FFFFFF Helvetica Neue Bold 44 ALL CAPS + Ray_Bot kuning limau #E8FF3B Times New Roman 126 ScaleX=72 lowercase), bebas tanda koma (0% koma), alignment Faster-Whisper.",
+  "production_formula": "Video AI live-action Google Flow 360p (klip utama hingga 15s agar bersama outro 4.07s total maksimal 20 detik, 1x/hari) bebas teks AI -> upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x + 45% tekstur asli CAS + grain ke 1080x1920) -> ekstraksi audio Faster-Whisper -> hardsub 2-tier editorial_tiktok tanpa koma -> visual anchor produk resmi sesuai foto katalog -> outro resmi penuh 4.07 detik outro_keris_isk.mp4 (total akhir maksimal 20 detik)."
+}

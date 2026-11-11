@@ -1,0 +1,162 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-11-07",
+  "timezone": "Asia/Jakarta",
+  "mode": "flexible_pilot",
+  "operator": "hermes",
+  "hermes_in_scope": true,
+  "generation_enabled": true,
+  "publication_enabled": true,
+  "scheduler_enabled": true,
+  "telegram_enabled": true,
+  "max_parallel_jobs": 1,
+  "video_policy": {
+    "max_duration_seconds": 20,
+    "max_duration_by_character": {
+      "bang_ray": 30,
+      "dinda": 20,
+      "isk": 20,
+      "nara": 20,
+      "rania": 20,
+      "pak_vincent": 20
+    },
+    "flow_input_resolution": "360p",
+    "allowed_durations_seconds": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20,
+      24,
+      30
+    ],
+    "default_duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "subtitle_policy": {
+      "mandatory": true,
+      "characters": [
+        "isk",
+        "dinda",
+        "bang_ray",
+        "pak_vincent"
+      ],
+      "engine": "app/subtitles.py (Faster-Whisper small + FFmpeg libass)",
+      "assembler": "app.media.assemble_character_video",
+      "default_style": "editorial_tiktok",
+      "style_name": "editorial_tiktok",
+      "top_style": "Ray_Top",
+      "top_color": "#FFFFFF",
+      "top_font_name": "Helvetica Neue",
+      "top_font_size": 44,
+      "top_bold": true,
+      "top_case": "upper",
+      "top_y": 1502,
+      "bot_style": "Ray_Bot",
+      "bot_color": "#E8FF3B",
+      "bot_font_name": "Times New Roman",
+      "bot_font_size": 126,
+      "bot_scale_x": 72,
+      "bot_case": "lower",
+      "bot_y": 1595,
+      "legacy_style": "ISK_Yellow",
+      "play_res": "1080x1920",
+      "comma_free": true,
+      "phrase_grouping": "editorial_two_tier_top_and_bot",
+      "raw_flow_frame_rule": "Video mentah hasil Flow wajib bebas teks/subtitle bawaan AI; subtitle editorial_tiktok tanpa tanda koma dibakar lokal di tahap pasca-produksi pada kanvas 1080x1920."
+    },
+    "upscale_policy": {
+      "mandatory_for_sub_720p": true,
+      "raw_input_resolution": "360p",
+      "engine": "app/upscaler.py (Real-ESRGAN NCNN Vulkan Apple M4 + Hybrid Lanczos CAS)",
+      "variant": "Varian 3 Hybrid Foto-Realistik",
+      "mode": "auto",
+      "model": "upscayl-lite-4x",
+      "texture_preserve": 0.45,
+      "ai_weight": 0.55,
+      "blend_formula": "55% upscayl-lite-4x + 45% Lanczos CAS + micro sensor grain",
+      "target_canvas": "1080x1920"
+    }
+  },
+  "caption_policy": {
+    "no_emoji": true,
+    "rule": "Wajib 100% teks alfabet murni, dilarang keras menggunakan emoji atau emotikon apa pun.",
+    "tone": "Natural, santai, percakapan asli manusia daerah setempat."
+  },
+  "content_format_mix": {
+    "video_flow_ai": {
+      "enabled": true,
+      "flow_input_resolution": "360p",
+      "max_duration_seconds": 20,
+      "max_duration_bang_ray_seconds": 30,
+      "description": "Video Flow 360p di-upscale Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma; maks 20 detik (Dinda/ISK) dan 30 detik (Bang Ray)"
+    },
+    "photo_selfie": {
+      "enabled": true,
+      "description": "Foto selfie cermin / kamera depan natural, OOTD harian"
+    },
+    "photo_lifestyle_kasual": {
+      "enabled": true,
+      "description": "Foto candid aktivitas sehari-hari: belanja di supermarket, ngopi di cafe, jajan kuliner"
+    }
+  },
+  "team_agents": {
+    "pm": "PM Intan (@PM_INTAN_BOT) - Dapur Produksi, riset brief, Flow spend & gate ACC",
+    "dinda": "Dinda Kemala (@dinda.kemala_) - Talent Medsos Palembang (Vlog & Kuliner)",
+    "bang_ray": "Bang Ray (@teuku.rayyan00) - Kreator Edukasi Konstruksi & Tips Bangunan Banda Aceh",
+    "pak_vincent": "Pak Vincent (@pakvincent.riau) - Sosok Bersahaja & Keseharian Kebun Sawit Pekanbaru Riau",
+    "nara": "Nara Adelia (@nara.adelia_) - Talent Medsos Medan (Beauty & Office Style)",
+    "rania": "Rania Meutia (@rania.meutia) - Talent Medsos Aceh (Budaya & Modest Fashion)",
+    "evaluator": "Executive Performance Evaluator - Analisis mingguan, metrik engagement, efisiensi kredit Flow & report mingguan ke Owner",
+    "sales": "Agent Sales - Konsultasi produk, draf penawaran/pesanan, ringkasan prospek dan eskalasi manusia; WhatsApp ditunda"
+  },
+  "mvp_character_proposal": "nara",
+  "target_per_character_per_30_days": {
+    "videos": 15,
+    "photos": 15
+  },
+  "generation_budget_authorized_credits": 1180,
+  "storage_policy_proposed": {
+    "active_media_limit_gib": 5,
+    "minimum_free_gib": 5
+  },
+  "integrations": {
+    "flow": "hermes_flexible_video_and_photo_generation",
+    "telegram": "live_review_acc_and_weekly_report",
+    "publishing": "publisher_with_mandatory_owner_acc_gate"
+  },
+  "note": "Alur operasional baku: Researcher riset tren (05:00 & 17:00), PM mengunci brief, Operator render via gerbang reservasi, Owner memberi ACC di Telegram, Publisher mengirim ke TikTok Studio dan memverifikasi ID video.",
+  "posts_per_day": 1,
+  "content_selection_mode": "100% autonomous by PM and AI based on research",
+  "owner_selection_required": false,
+  "schedule_window": "standard_slots",
+  "schedule_policy": "Jadwal operasional harian siang-sore (tidak terlalu pagi; maks 1 kali posting per hari, input Flow wajib 360p -> Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma; durasi maks 20s Dinda/ISK/Pak Vincent dan 30s Bang Ray): Riset 08.00 WIB; Dinda produksi 09.00 WIB tayang 11.30 WIB; ISK produksi 10.00 WIB tayang 13.00 WIB; Bang Ray produksi 14.00 WIB tayang 16.00 WIB; Pak Vincent produksi 15.00 WIB tayang 18.00 WIB setelah ACC Telegram Owner.",
+  "publication_schedules": {
+    "dinda": {
+      "production_time_wib": "09:00",
+      "publish_time_wib": "11:30",
+      "allowed_publish_window_minutes": 180
+    },
+    "isk": {
+      "production_time_wib": "10:00",
+      "publish_time_wib": "13:00",
+      "allowed_publish_window_minutes": 180
+    },
+    "bang_ray": {
+      "production_time_wib": "14:00",
+      "publish_time_wib": "16:00",
+      "allowed_publish_window_minutes": 180
+    },
+    "pak_vincent": {
+      "production_time_wib": "15:00",
+      "publish_time_wib": "18:00",
+      "allowed_publish_window_minutes": 180
+    }
+  }
+}

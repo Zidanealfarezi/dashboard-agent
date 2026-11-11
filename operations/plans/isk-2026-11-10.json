@@ -1,0 +1,50 @@
+{
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "character_id": "isk",
+  "kind": "video",
+  "title": "Uji Paku Kayu Keras & Buka Kardus Paku Cap Keris",
+  "hook": "Paku murahan baru dihantam sekali langsung bengkok",
+  "story": "Tukang kayu di bengkel menunjukkan paku murahan yang bengkok saat memaku kayu keras, lalu merekomendasikan Paku Cap Keris dari PT Intan Suar Kartika yang berstandar mutu ekspor dan anti bengkok.",
+  "caption": "Pekerjaan konstruksi butuh material yang presisi dan tidak gampang bengkok. Paku Cap Keris hadir dengan jaminan timbangan pas 25 kg dan standar mutu ekspor. Komentar KATALOG untuk mendapatkan tautan WhatsApp pemesanan langsung lewat DM. #pakucapkeris #intansuarkartika #bahanbangunan #tukangkayu #proyekkonstruksi",
+  "image_prompt": "Use existing verified Paku Cap Keris box reference asset. No separate image generation.",
+  "role_tags": ["paku cap keris", "uji ketahanan material"],
+  "role_reason": "Uji ketahanan material dan paku cap keris sesuai pilar konten ISK.",
+  "creative": {
+    "character": "Tukang kayu senior di workshop",
+    "background": "Bengkel kayu, cahaya alami pagi hari",
+    "action": "Menunjukkan paku bengkok lalu mengambil paku kokoh dari kardus Paku Cap Keris",
+    "selection_reason": "Menjawab keluhan nyata tukang proyek soal paku murahan gampang bengkok, membuktikan keunggulan baja mutu ekspor Paku Cap Keris PT Intan Suar Kartika.",
+    "dialogue": "Paku murahan baru dihantam sekali langsung bengkok? Waktunya beralih ke Paku Cap Keris dari PT Intan Suar Kartika! Baja murni standar mutu ekspor, dijamin lurus dan kokoh!",
+    "dialogue_start_seconds": 0.5,
+    "dialogue_read_seconds": 8.0,
+    "action_end_seconds": 9.5
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "duration_options_seconds": [4, 6, 8, 10]
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 10 seconds, one continuous shot. Medium shot in a woodworking workshop in bright morning natural daylight. An Indonesian male carpenter in a navy work shirt stands at his wooden workbench. On the workbench sits an open brown cardboard box of Paku Cap Keris matching the attached reference image, with clean bulk steel nails loose inside without plastic wrapping. In the first 3 seconds, he holds up a bent low-quality nail with a disappointed look, shakes his head and says, \"Paku murahan baru dihantam sekali langsung bengkok? Waktunya beralih ke Paku Cap Keris dari PT Intan Suar Kartika! Baja murni standar mutu ekspor, dijamin lurus dan kokoh!\" From 4 to 8 seconds, he tosses the bent nail away, picks up a sturdy straight steel nail from the Paku Cap Keris box, shows it confidently to the camera, points at its solid shank, and smiles with pride. From 8 to 10 seconds, he holds the clean nail ready against a thick wooden plank with his hammer raised. Natural Indonesian dialogue with clear lip sync and authentic workshop sound. Completely clean visual frame with zero on-screen text, zero subtitles, and zero logos."
+    }
+  ],
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 10 November 2026",
+      "evidence": "Tagar tren konstruksi dan pertukangan stabil; ruang konten edukasi material terbuka lebar.",
+      "observed_at": "2026-11-10T07:50:00+07:00"
+    },
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+      "title": "Prakiraan Cuaca BMKG - 10 November 2026",
+      "evidence": "Kondisi cuaca Sumatera dan sekitarnya terpantau cerah berawan hingga hujan ringan.",
+      "observed_at": "2026-11-10T07:50:00+07:00"
+    }
+  ],
+  "source_note": "SOP Resmi Paku Cap Keris PT Intan Suar Kartika 10 November 2026."
+}

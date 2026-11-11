@@ -1,0 +1,24 @@
+{
+  "repo": "https://github.com/xinntao/Real-ESRGAN",
+  "engine": "https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan",
+  "release_tag": "v0.2.5.0",
+  "asset": "realesrgan-ncnn-vulkan-20220424-macos.zip",
+  "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesrgan-ncnn-vulkan-20220424-macos.zip",
+  "additional_models_source": "https://github.com/upscayl/upscayl/tree/main/resources/models",
+  "binary": "tools/realesrgan-runtime/realesrgan-ncnn-vulkan",
+  "models_dir": "tools/realesrgan-runtime/models",
+  "default_model": "upscayl-lite-4x",
+  "default_texture_preserve": 0.45,
+  "default_preset_name": "Varian 3 Hybrid Foto-Realistik (55% upscayl-lite-4x + 45% Tekstur Asli CAS + Grain)",
+  "supported_models": [
+    "ffmpeg-natural",
+    "realesr-animevideov3",
+    "upscayl-lite-4x",
+    "high-fidelity-4x",
+    "ultrasharp-4x",
+    "realesrgan-x4plus",
+    "realesrgan-x4plus-anime"
+  ],
+  "architecture": "universal2 (arm64 + x86_64)",
+  "gpu_backend": "Vulkan via MoltenVK (Apple Silicon GPU)"
+}

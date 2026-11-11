@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "execution_enabled": false,
+  "operator": "hermes",
+  "model": {
+    "provider": "openai-codex",
+    "default": "gpt-6.1-sol"
+  },
+  "reasoning_effort": "medium",
+  "brain_test_status": "passed_reported_by_user",
+  "brain_test_date": "2026-11-04",
+  "credential_mode": "native_root_oauth_fallback_no_token_copy",
+  "review_transport": "existing_project_adapter",
+  "native_telegram_gateway_used": false,
+  "profile_smoke_tests": "dinda_model_browser_generate_download_passed_nara_rania_pending",
+  "profiles": {
+    "nara": {
+      "name": "ai-influencer-nara",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-nara",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/nara/profile.json",
+      "cli_toolsets_enabled": false,
+      "browser_tested": false,
+      "active": false
+    },
+    "dinda": {
+      "name": "ai-influencer-dinda",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-dinda",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/dinda/profile.json",
+      "cli_toolsets_enabled": false,
+      "browser_tested": true,
+      "active": false,
+      "connector_read_tested": true,
+      "browser_read_model_verified_at": "2026-11-05T04:48:06.394842+00:00",
+      "browser_write_tested": true,
+      "generation_download_tested": true
+    },
+    "rania": {
+      "name": "ai-influencer-rania",
+      "home": "/Users/zidane/.hermes/profiles/ai-influencer-rania",
+      "project": "/Users/zidane/Documents/ChatGPT/AI INFLUENCER",
+      "character_profile": "characters/rania/profile.json",
+      "cli_toolsets_enabled": false,
+      "browser_tested": false,
+      "active": false
+    }
+  },
+  "skills_installed": [
+    "agent-browser",
+    "computer-use",
+    "creative-ideation",
+    "find-skills",
+    "grill-me",
+    "humanizer",
+    "hyperframes",
+    "hyperframes-cli",
+    "social-media-content-calendar"
+  ],
+  "skills_installation_verified": true,
+  "skills_runtime_tested": false,
+  "skills_manifest": "operations/reports/hermes-skills/installation-verified.json",
+  "chrome_connection_proposal": "config/hermes-chrome-connection.proposed.json",
+  "chrome_connector": {
+    "package": "chrome-devtools-mcp",
+    "version": "1.12.0",
+    "installed": true,
+    "configured_profile": "ai-influencer-dinda",
+    "read_test_passed": true,
+    "read_test_executor": "codex",
+    "hermes_model_browser_tested": true,
+    "report": "operations/reports/hermes-flow-connection-test.json",
+    "hermes_model_input_tested": true,
+    "hermes_model_generation_download_tested": true,
+    "pilot_report": "operations/reports/hermes-flow-download-pilot.json"
+  }
+}

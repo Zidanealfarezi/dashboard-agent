@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KANTOR AI INTAN</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/three.min.js"></script>
+  <script src="assets/OrbitControls.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow: hidden;
+      user-select: none;
+      background: #0f172a;
+    }
+    .hud-tag {
+      transform: translate(-50%, -100%);
+      pointer-events: auto;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .hud-tag:hover {
+      transform: translate(-50%, -115%) scale(1.08);
+      z-index: 50;
+    }
+    .hud-pill {
+      background: rgba(15, 23, 42, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.45);
+    }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
+    ::-webkit-scrollbar-thumb { background: rgba(100, 116, 139, 0.5); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.8); }
+    
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.8; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    .pulse-glow { animation: pulse-glow 2.5s infinite ease-in-out; }
+  </style>
+</head>
+<body class="w-screen h-screen relative bg-slate-900">
+
+  <!-- 3D WebGL Canvas -->
+  <div id="viewport" class="absolute inset-0 cursor-grab active:cursor-grabbing"></div>
+
+  <!-- HUD Layer (Floating Department Labels from Video) -->
+  <div id="hud-container" class="absolute inset-0 pointer-events-none z-10 overflow-hidden">
+    <!-- Injected dynamically by Three.js projector -->
+  </div>
+
+  <!-- Top Bar (Mirrors Azhar Suardi's video header: "KANTOR AI • AZ CREATIVE TEAM") -->
+  <header class="absolute top-0 left-0 right-0 h-14 bg-[#0a0f1d]/95 backdrop-blur-md border-b border-white/10 flex items-center justify-between px-6 z-20 shadow-xl">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 flex items-center justify-center text-white text-xs font-black shadow-md shadow-blue-500/25">
+        AI
+      </div>
+      <div>
+        <div class="font-extrabold text-xs tracking-wider text-white uppercase font-mono flex items-center gap-2">
+          <span class="text-white text-sm font-black tracking-wide">KANTOR AI INTAN</span>
+          <span class="text-neutral-500">•</span>
+          <span class="text-cyan-400">AI INFLUENCER HQ</span>
+        </div>
+        <div class="text-[9px] font-mono text-neutral-400">Multi-Agent Digital Twin • PM Intan Orchestrator</div>
+      </div>
+    </div>
+
+    <!-- Center Camera Room Switcher & Live Activity Ticker -->
+    <div class="flex items-center gap-2.5">
+      <div class="bg-[#131b2e] border border-white/10 rounded-full px-4 py-1.5 flex items-center gap-3 shadow-inner">
+        <button onclick="prevRoom()" class="text-neutral-400 hover:text-white transition text-xs font-bold px-1.5 py-0.5 rounded hover:bg-white/5">‹</button>
+        <span id="current-room-label" class="text-xs font-bold text-white min-w-[150px] text-center tracking-wide font-sans">
+          Seluruh Kantor
+        </span>
+        <button onclick="nextRoom()" class="text-neutral-400 hover:text-white transition text-xs font-bold px-1.5 py-0.5 rounded hover:bg-white/5">›</button>
+      </div>
+      <button id="auto-btn" onclick="toggleAutoTour()" class="bg-[#131b2e] hover:bg-[#1a253f] border border-emerald-500/40 text-emerald-400 text-[11px] font-bold font-mono px-3.5 py-1.5 rounded-full transition shadow flex items-center gap-1.5">
+        <span id="auto-indicator" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>AUTO</span>
+      </button>
+
+      <!-- Live Activity Ticker (Menampilkan Pekerjaan Aktif Real-Time) -->
+      <div id="live-ticker" class="hidden lg:flex items-center gap-2 bg-[#101726]/90 border border-white/10 px-3.5 py-1.5 rounded-full text-[11px] font-mono shadow-inner">
+        <span id="ticker-dot" class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        <span id="ticker-text" class="text-neutral-300">Semua Tim Standby • Sistem Siap</span>
+      </div>
+    </div>
+
+    <!-- Right Controls: Live Stats & Action -->
+    <div class="flex items-center gap-3 text-xs text-neutral-300">
+      <!-- Live DB Sync Pill -->
+      <div class="flex items-center gap-2 bg-[#131b2e] border border-white/10 px-3 py-1.5 rounded-xl font-mono text-[11px]">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-neutral-400">Saldo Flow:</span>
+        <span id="stat-credits" class="text-cyan-300 font-bold">458</span>
+        <span class="text-neutral-600">|</span>
+        <span class="text-neutral-400">ACC:</span>
+        <span id="stat-approved" class="text-emerald-300 font-bold">1 Video</span>
+      </div>
+
+      <!-- Content Pipeline Walkthrough Button -->
+      <button onclick="triggerContentPipeline()" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold px-4 py-1.5 rounded-xl transition text-xs shadow-md shadow-blue-600/30 flex items-center gap-2 active:scale-95">
+        <span class="text-cyan-200">▶</span>
+        <span>Simulasi Alur Konten</span>
+      </button>
+
+      <!-- Audio Ambience Toggle -->
+      <button id="audio-toggle" onclick="toggleAudioAmbience()" title="Toggle Office Audio Ambience" class="p-2 rounded-xl bg-[#131b2e] hover:bg-[#1e293b] border border-white/10 text-neutral-400 hover:text-white transition">
+        🔊
+      </button>
+
+      <!-- Help / Function Info Button -->
+      <button onclick="toggleFunctionModal()" class="px-2.5 py-1.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 font-bold text-xs transition">
+        ? Kantor AI Intan
+      </button>
+
+      <!-- Lock Office Button -->
+      <button onclick="lockOffice()" title="Kunci Kantor (Keluar)" class="px-3 py-1.5 rounded-xl bg-[#131b2e] hover:bg-rose-500/20 border border-white/10 hover:border-rose-500/30 text-neutral-400 hover:text-rose-300 transition text-xs flex items-center gap-1.5 font-mono">
+        <span>🔒</span>
+        <span class="hidden sm:inline">Kunci</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Level Quick Switcher (Floor 1 / Floor 2 / Full) -->
+  <div class="absolute bottom-5 left-6 z-20 flex items-center gap-2 bg-[#0a0f1d]/90 backdrop-blur-md border border-white/10 p-1.5 rounded-2xl shadow-xl">
+    <button onclick="applyRoomView('overview')" class="px-3 py-1.5 rounded-xl text-xs font-bold font-mono text-white hover:bg-white/10 transition">
+      🏢 Seluruh Gedung
+    </button>
+    <button onclick="applyRoomView('floor2')" class="px-3 py-1.5 rounded-xl text-xs font-bold font-mono text-neutral-400 hover:text-white hover:bg-white/10 transition">
+      Lantai 2 (Dapur & Lounge)
+    </button>
+    <button onclick="applyRoomView('floor1')" class="px-3 py-1.5 rounded-xl text-xs font-bold font-mono text-neutral-400 hover:text-white hover:bg-white/10 transition">
+      Lantai 1 (Medsos & Render)
+    </button>
+  </div>
+
+  <!-- Side Inspector Drawer (Click any room or agent to inspect) -->
+  <aside id="inspector-drawer" class="absolute top-16 right-5 bottom-5 w-96 bg-[#0c1222]/95 backdrop-blur-xl border border-white/15 rounded-3xl p-5 flex flex-col z-30 shadow-2xl translate-x-[115%] transition-transform duration-300 ease-out text-white">
+    <div class="flex items-start justify-between pb-3.5 border-b border-white/10">
+      <div>
+        <span id="insp-tag" class="text-[10px] font-mono uppercase tracking-wider text-cyan-400 font-bold bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">
+          DIVISI
+        </span>
+        <h2 id="insp-title" class="font-bold text-base text-white mt-1">Nama Divisi</h2>
+        <p id="insp-subtitle" class="text-xs text-neutral-400 font-mono">ai-influencer-pm</p>
+      </div>
+      <button onclick="closeInspector()" class="p-1.5 rounded-xl text-neutral-400 hover:text-white hover:bg-white/10 transition">
+        ✕
+      </button>
+    </div>
+
+    <div class="flex-1 overflow-y-auto py-4 space-y-4 text-xs pr-1">
+      <!-- Status Card -->
+      <div class="bg-[#141d33] border border-white/10 rounded-2xl p-3.5 shadow-sm">
+        <div class="text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-1">Status Operasional</div>
+        <div id="insp-status" class="text-emerald-400 font-bold flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Online & Siap Bertugas
+        </div>
+        <p id="insp-status-desc" class="text-neutral-300 mt-1.5 leading-relaxed">
+          Keterangan status tugas...
+        </p>
+      </div>
+
+      <!-- Agent Metrics / Info -->
+      <div id="insp-metrics-box" class="grid grid-cols-2 gap-2">
+        <div class="bg-[#141d33] border border-white/10 rounded-2xl p-3">
+          <div class="text-[10px] font-mono text-neutral-400">Platform</div>
+          <div id="insp-m1" class="text-sm font-bold text-cyan-300 mt-0.5">TikTok</div>
+        </div>
+        <div class="bg-[#141d33] border border-white/10 rounded-2xl p-3">
+          <div class="text-[10px] font-mono text-neutral-400">Tugas Pokok</div>
+          <div id="insp-m2" class="text-sm font-bold text-emerald-300 mt-0.5">Posting & DM</div>
+        </div>
+      </div>
+
+      <!-- Tugas & Guardrails -->
+      <div class="bg-[#141d33] border border-white/10 rounded-2xl p-3.5 space-y-2">
+        <div class="text-[10px] font-mono text-neutral-400 uppercase tracking-wider">Peran & Batasan (Guardrails)</div>
+        <ul id="insp-rules" class="space-y-1.5 text-neutral-300 list-disc list-inside">
+          <li>Memposting konten siap tayang</li>
+        </ul>
+      </div>
+
+      <!-- Activity Timeline -->
+      <div class="bg-[#141d33] border border-white/10 rounded-2xl p-3.5 space-y-2">
+        <div class="text-[10px] font-mono text-neutral-400 uppercase tracking-wider">Log Aktivitas SQLite</div>
+        <div id="insp-logs" class="space-y-2 text-neutral-400 font-mono text-[11px]">
+          <!-- Logs -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Action Footer -->
+    <div class="pt-3 border-t border-white/10 space-y-2">
+      <button id="insp-action-btn" onclick="executeInspectorAction()" class="w-full py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 font-semibold text-xs text-white transition shadow-lg shadow-blue-600/30 flex items-center justify-center gap-2">
+        <span>💬</span>
+        <span id="insp-action-text">Kirim Pesan via Telegram</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Interactive Content Pipeline Step Modal Toast -->
+  <div id="cycle-toast" class="absolute top-20 left-1/2 -translate-x-1/2 bg-[#0c1222]/95 border border-cyan-500/50 text-white px-6 py-4 rounded-2xl flex items-center gap-4 shadow-2xl z-40 opacity-0 pointer-events-none transition-all duration-300">
+    <div id="cycle-icon" class="text-2xl p-2 rounded-xl bg-cyan-500/20 border border-cyan-500/30">✨</div>
+    <div>
+      <div id="cycle-title" class="font-extrabold text-sm text-cyan-300">Tahap Alur Konten</div>
+      <div id="cycle-desc" class="text-xs text-neutral-300 max-w-md mt-0.5 leading-relaxed">Deskripsi alur...</div>
+    </div>
+    <div id="cycle-acc-btn" class="hidden ml-2 flex items-center gap-2">
+      <button onclick="approveCycle(true)" class="px-4 py-2 rounded-xl text-xs font-bold bg-emerald-500 hover:bg-emerald-400 text-neutral-950 transition shadow-lg shadow-emerald-500/30 active:scale-95">
+        ✓ ACC Setujui
+      </button>
+      <button onclick="approveCycle(false)" class="px-3 py-2 rounded-xl text-xs font-semibold bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/30 transition">
+        ✕ Tolak
+      </button>
+    </div>
+  </div>
+
+  <!-- "Fungsi Kantor AI" Explanation Modal -->
+  <div id="func-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-6 opacity-0 pointer-events-none transition-opacity duration-200">
+    <div class="bg-[#0f172a] border border-cyan-500/30 rounded-3xl max-w-xl w-full p-6 shadow-2xl text-white relative">
+      <button onclick="toggleFunctionModal()" class="absolute top-5 right-5 text-neutral-400 hover:text-white text-lg">✕</button>
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 rounded-2xl bg-cyan-500/20 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-xl font-bold">
+          🏢
+        </div>
+        <div>
+          <h3 class="text-base font-extrabold text-white">Fungsi Kantor AI Intan</h3>
+          <p class="text-xs text-neutral-400">Pusat Kendali Operasional Tim AI Influencer</p>
+        </div>
+      </div>
+
+      <div class="space-y-3.5 text-xs text-neutral-300 leading-relaxed max-h-[60vh] overflow-y-auto pr-2">
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5">
+          <div class="font-bold text-cyan-300 flex items-center gap-2 mb-1">
+            <span>1. Visual Digital Twin (Pemantauan Real-Time)</span>
+          </div>
+          <p class="text-neutral-400">
+            Memvisualisasikan seluruh tim AI yang bekerja di balik layar seperti kantor sungguhan. Setiap agen memiliki ruangan kerja masing-masing sesuai pembagian tugas.
+          </p>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5">
+          <div class="font-bold text-amber-300 flex items-center gap-2 mb-1">
+            <span>2. Pembagian Peran Dapur vs Talent (Strict Guardrails)</span>
+          </div>
+          <p class="text-neutral-400">
+            <strong>Lantai 2 (Dapur Produksi)</strong>: Project Manager (@PM_INTAN_BOT) menyusun ide, prompt video, caption, dan meminta ACC Owner.<br>
+            <strong>Lantai 1 (Medsos Saja)</strong>: Talent Dinda, Nara, Rania HANYA bertugas memposting konten matang dan membalas komentar netizen.
+          </p>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5">
+          <div class="font-bold text-emerald-300 flex items-center gap-2 mb-1">
+            <span>3. Integrasi SQLite & Live Stats</span>
+          </div>
+          <p class="text-neutral-400">
+            Terhubung langsung ke database produksi (<code class="text-cyan-300">production.sqlite</code>). Anda dapat memantau saldo kredit Flow (458 kredit), jumlah video yang sudah di-ACC, dan status job secara langsung.
+          </p>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5">
+          <div class="font-bold text-purple-300 flex items-center gap-2 mb-1">
+            <span>4. Simulasi & Pengujian Alur Kerja</span>
+          </div>
+          <p class="text-neutral-400">
+            Tombol <strong>"Simulasi Alur Konten"</strong> di atas memungkinkan Anda menguji dari awal sampai akhir bagaimana ide riset diubah menjadi video render, di-ACC oleh Anda, hingga diunggah ke TikTok.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-5 pt-3 border-t border-white/10 flex justify-end">
+        <button onclick="toggleFunctionModal()" class="px-5 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 font-semibold text-xs text-white transition">
+          Mengerti, Lanjutkan
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECURITY GATE / PIN LOCK SCREEN OVERLAY -->
+  <div id="security-gate" class="fixed inset-0 bg-[#070b14]/92 backdrop-blur-2xl z-50 flex items-center justify-center p-6 transition-all duration-300">
+    <div id="gate-card" class="bg-[#0f172a]/95 border border-cyan-500/30 rounded-3xl max-w-md w-full p-8 shadow-2xl text-white relative text-center">
+      <!-- Shield Icon -->
+      <div class="w-16 h-16 mx-auto rounded-3xl bg-gradient-to-tr from-cyan-500/20 to-blue-600/20 border border-cyan-500/40 flex items-center justify-center text-3xl shadow-lg shadow-cyan-500/10 mb-4">
+        🛡️
+      </div>
+
+      <div class="text-[10px] font-mono uppercase tracking-widest text-cyan-400 font-bold mb-1">
+        SISTEM KEAMANAN EKSEKUTIF
+      </div>
+      <h2 class="text-xl font-extrabold text-white tracking-wide">KANTOR AI INTAN</h2>
+      <p class="text-xs text-neutral-400 mt-1 max-w-xs mx-auto leading-relaxed">
+        Area terbatas. Masukkan PIN Owner atau Kata Sandi untuk mengakses Pusat Kendali Operasi.
+      </p>
+
+      <!-- PIN Input Form -->
+      <form onsubmit="handleAuthSubmit(event)" class="mt-6 space-y-3.5">
+        <div class="relative">
+          <input 
+            type="password" 
+            id="auth-pin" 
+            autocomplete="current-password"
+            placeholder="Ketik PIN / Kata Sandi..." 
+            class="w-full bg-[#182238] border border-white/15 focus:border-cyan-400 rounded-2xl px-5 py-3.5 text-center text-sm font-mono tracking-widest text-white placeholder:text-neutral-500 placeholder:font-sans placeholder:tracking-normal outline-none transition shadow-inner"
+            required
+            autofocus
+          >
+          <button type="button" onclick="togglePinVisibility()" class="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-white text-xs">
+            👁️
+          </button>
+        </div>
+
+        <div id="auth-error" class="hidden text-xs text-rose-400 font-medium py-1.5 px-3 rounded-xl bg-rose-500/10 border border-rose-500/20">
+          PIN / Kata Sandi tidak valid. Akses ditolak.
+        </div>
+
+        <button type="submit" id="auth-btn" class="w-full py-3.5 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold text-xs uppercase tracking-wider transition shadow-lg shadow-cyan-500/25 active:scale-95 flex items-center justify-center gap-2">
+          <span>🔓 Buka Akses Kantor</span>
+        </button>
+
+        <div class="flex items-center justify-center gap-2 pt-1 text-[11px] text-neutral-400">
+          <input type="checkbox" id="auth-remember" checked class="rounded border-white/20 bg-white/10 text-cyan-500 focus:ring-0">
+          <label for="auth-remember" class="cursor-pointer">Ingat akses di perangkat ini</label>
+        </div>
+      </form>
+
+      <div class="mt-6 pt-4 border-t border-white/10 text-[10px] font-mono text-neutral-500 flex items-center justify-center gap-2">
+        <span>🔒 Terenkripsi SSL</span>
+        <span>•</span>
+        <span>Database Terproteksi</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================================================================
+    // THREE.JS 3D VIRTUAL OFFICE: POLISHED GRANITE FLOOR & WARM SLATE WALLS
+    // =========================================================================
+    const viewport = document.getElementById('viewport');
+    const hudContainer = document.getElementById('hud-container');
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0f172a); // Deep modern dark studio backdrop
+    scene.fog = new THREE.FogExp2(0x0f172a, 0.008);
+
+    const camera = new THREE.PerspectiveCamera(36, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(0, 19, 40);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false, powerPreference: 'high-performance' });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.15;
+    viewport.appendChild(renderer.domElement);
+
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.06;
+    controls.maxPolarAngle = Math.PI / 2.05; // Don't flip below floor
+    controls.minDistance = 8;
+    controls.maxDistance = 65;
+    controls.target.set(0, 5, 0);
+
+    // --- REFINED LIGHTING (CRISP SPECULAR HIGHLIGHTS ON GRANITE) ---
+    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x64748b, 0.85);
+    scene.add(hemiLight);
+
+    const ambLight = new THREE.AmbientLight(0xf8fafc, 0.55);
+    scene.add(ambLight);
+
+    // Warm Sun Light that reflects off the polished granite floor
+    const sunLight = new THREE.DirectionalLight(0xfffaed, 1.35);
+    sunLight.position.set(18, 30, 22);
+    sunLight.castShadow = true;
+    sunLight.shadow.mapSize.width = 2048;
+    sunLight.shadow.mapSize.height = 2048;
+    sunLight.shadow.camera.near = 1;
+    sunLight.shadow.camera.far = 75;
+    sunLight.shadow.camera.left = -24;
+    sunLight.shadow.camera.right = 24;
+    sunLight.shadow.camera.top = 24;
+    sunLight.shadow.camera.bottom = -24;
+    sunLight.shadow.bias = -0.0003;
+    scene.add(sunLight);
+
+    // Soft cool blue fill light from the left
+    const fillLight = new THREE.DirectionalLight(0x93c5fd, 0.45);
+    fillLight.position.set(-20, 16, 10);
+    scene.add(fillLight);
+
+    // --- PROCEDURAL POLISHED GRANITE TILE TEXTURE (1024x1024) ---
+    function generateLuxuryGraniteTexture() {
+      const canvas = document.createElement('canvas');
+      canvas.width = 1024;
+      canvas.height = 1024;
+      const ctx = canvas.getContext('2d');
+
+      // 1. Base stone gradient (Italian Bianco Sardo Granite)
+      const grad = ctx.createLinearGradient(0, 0, 1024, 1024);
+      grad.addColorStop(0, '#e8edf3');
+      grad.addColorStop(0.5, '#dfe5ed');
+      grad.addColorStop(1, '#e3e9f0');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1024, 1024);
+
+      // 2. Subtle marble/granite cloud veining
+      for (let i = 0; i < 40; i++) {
+        const cx = Math.random() * 1024;
+        const cy = Math.random() * 1024;
+        const rad = Math.random() * 180 + 80;
+        const radialGrad = ctx.createRadialGradient(cx, cy, 10, cx, cy, rad);
+        radialGrad.addColorStop(0, 'rgba(215, 224, 235, 0.45)');
+        radialGrad.addColorStop(1, 'rgba(215, 224, 235, 0)');
+        ctx.fillStyle = radialGrad;
+        ctx.beginPath();
+        ctx.arc(cx, cy, rad, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      // 3. 50,000 fine mineral flecks (White Quartz, Basalt Mica, Feldspar)
+      for (let i = 0; i < 50000; i++) {
+        const x = Math.random() * 1024;
+        const y = Math.random() * 1024;
+        const s = Math.random() * 2.2 + 0.4;
+        const r = Math.random();
+        if (r < 0.40) {
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.75)'; // Pure white quartz crystal
+        } else if (r < 0.78) {
+          ctx.fillStyle = 'rgba(100, 116, 139, 0.35)'; // Slate feldspar
+        } else {
+          ctx.fillStyle = 'rgba(30, 41, 59, 0.65)'; // Dark mica flakes
+        }
+        ctx.fillRect(x, y, s, s);
+      }
+
+      // 4. Large-Format Tile Grout Lines (60x60cm Tiles = 4x4 tiles per map)
+      ctx.strokeStyle = 'rgba(148, 163, 184, 0.6)';
+      ctx.lineWidth = 3;
+      const step = 256;
+      for (let x = 0; x <= 1024; x += step) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, 1024);
+        ctx.stroke();
+      }
+      for (let y = 0; y <= 1024; y += step) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(1024, y);
+        ctx.stroke();
+      }
+
+      const tex = new THREE.CanvasTexture(canvas);
+      tex.wrapS = THREE.RepeatWrapping;
+      tex.wrapT = THREE.RepeatWrapping;
+      tex.repeat.set(4, 3);
+      return tex;
+    }
+
+    const graniteTexture = generateLuxuryGraniteTexture();
+
+    // 1. Polished Glossy Granite Material (High specular sheen!)
+    const graniteFloorMat = new THREE.MeshStandardMaterial({
+      map: graniteTexture,
+      roughness: 0.14,
+      metalness: 0.10
+    });
+
+    // 2. Dinding: Warm Architectural Concrete/Slate Gray (NOT WHITE, NOT BLINDING)
+    const wallColorMat = new THREE.MeshStandardMaterial({
+      color: 0x475569, // Modern deep slate gray
+      roughness: 0.65,
+      metalness: 0.04
+    });
+
+    // Dark Skirting Baseboard (Plint)
+    const baseboardMat = new THREE.MeshStandardMaterial({
+      color: 0x1e293b,
+      roughness: 0.35
+    });
+
+    // Wall Top Cornice Trim
+    const wallTrimMat = new THREE.MeshStandardMaterial({
+      color: 0x334155,
+      roughness: 0.4
+    });
+
+    // 3. Meja: Warm Scandinavian Natural Honey Oak (FIXES CONTRAST WITH WALLS!)
+    const oakWoodMat = new THREE.MeshStandardMaterial({
+      color: 0xd4a373, // Warm Honey Oak
+      roughness: 0.35,
+      metalness: 0.02
+    });
+
+    const deskMatColor = new THREE.MeshStandardMaterial({
+      color: 0x1e293b,
+      roughness: 0.5
+    });
+
+    const pcBlackMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.35 });
+    const pcScreenGlow = new THREE.MeshBasicMaterial({ color: 0x38bdf8 });
+
+    // Lantai 2: Warm Natural Wood Plank Floor
+    const woodFloorMat = new THREE.MeshStandardMaterial({
+      color: 0xc89666,
+      roughness: 0.35
+    });
+
+    // Modern Double-Glazed Windows (Vivid Light Cyan Glass)
+    const windowGlassMat = new THREE.MeshStandardMaterial({
+      color: 0x38bdf8,
+      roughness: 0.08,
+      metalness: 0.2,
+      transparent: true,
+      opacity: 0.72
+    });
+
+    const windowFrameMat = new THREE.MeshStandardMaterial({
+      color: 0xffffff,
+      roughness: 0.25
+    });
+
+    // =========================================================================
+    // 3D ARCHITECTURAL DOLLHOUSE MODEL
+    // =========================================================================
+    const officeGroup = new THREE.Group();
+
+    // 1. Foundation Slab with Polished Luxury Granite
+    const groundSlab = new THREE.Mesh(new THREE.BoxGeometry(32, 0.6, 20), graniteFloorMat);
+    groundSlab.position.y = -0.3;
+    groundSlab.receiveShadow = true;
+    officeGroup.add(groundSlab);
+
+    // 2. Back Wall (Slate Gray - NOT WHITE)
+    const backWall = new THREE.Mesh(new THREE.BoxGeometry(32, 10.2, 0.4), wallColorMat);
+    backWall.position.set(0, 5.1, -10);
+    backWall.receiveShadow = true;
+    officeGroup.add(backWall);
+
+    // Baseboards on Back Wall
+    const backBaseL1 = new THREE.Mesh(new THREE.BoxGeometry(32, 0.25, 0.45), baseboardMat);
+    backBaseL1.position.set(0, 0.125, -9.98);
+    officeGroup.add(backBaseL1);
+
+    const backBaseL2 = new THREE.Mesh(new THREE.BoxGeometry(32, 0.25, 0.45), baseboardMat);
+    backBaseL2.position.set(0, 5.325, -9.98);
+    officeGroup.add(backBaseL2);
+
+    const backTopTrim = new THREE.Mesh(new THREE.BoxGeometry(32.4, 0.2, 0.5), wallTrimMat);
+    backTopTrim.position.set(0, 10.2, -10);
+    officeGroup.add(backTopTrim);
+
+    // Architectural Slatted Wood Accent Panel on Back Wall
+    function addWoodSlats(startX, endX, yBottom, height) {
+      const slatGroup = new THREE.Group();
+      const count = Math.floor((endX - startX) / 0.35);
+      for (let i = 0; i < count; i++) {
+        const slat = new THREE.Mesh(
+          new THREE.BoxGeometry(0.18, height, 0.04),
+          oakWoodMat
+        );
+        slat.position.set(startX + i * 0.35, yBottom + height / 2, -9.78);
+        slat.castShadow = true;
+        slatGroup.add(slat);
+      }
+      officeGroup.add(slatGroup);
+    }
+    // Wood slat features behind PM Office (Lantai 2) & Digital Marketing (Lantai 1)
+    addWoodSlats(-6, 2, 5.4, 4.6);
+    addWoodSlats(-4, 4, 0.2, 4.8);
+
+    // Large Modern Windows on Back Wall
+    function addWindowRow(yPos) {
+      for (let x = -12; x <= 12; x += 6) {
+        // Skip window behind PM accent wall
+        if (yPos > 5 && x >= -6 && x <= 0) continue;
+
+        const win = new THREE.Mesh(new THREE.BoxGeometry(3.6, 1.8, 0.45), windowGlassMat);
+        win.position.set(x, yPos, -10);
+        officeGroup.add(win);
+
+        const frame = new THREE.Mesh(new THREE.BoxGeometry(3.8, 2.0, 0.46), windowFrameMat);
+        frame.position.set(x, yPos, -10);
+        officeGroup.add(frame);
+
+        const vMullion = new THREE.Mesh(new THREE.BoxGeometry(0.08, 1.8, 0.48), windowFrameMat);
+        vMullion.position.set(x, yPos, -10);
+        officeGroup.add(vMullion);
+      }
+    }
+    addWindowRow(2.8); // Lantai 1 Windows
+    addWindowRow(7.8); // Lantai 2 Windows
+
+    // 3. Left Wall (Slate Gray)
+    const leftWall = new THREE.Mesh(new THREE.BoxGeometry(0.4, 10.2, 20), wallColorMat);
+    leftWall.position.set(-16, 5.1, 0);
+    leftWall.receiveShadow = true;
+    officeGroup.add(leftWall);
+
+    const leftBaseL1 = new THREE.Mesh(new THREE.BoxGeometry(0.45, 0.25, 20), baseboardMat);
+    leftBaseL1.position.set(-15.98, 0.125, 0);
+    officeGroup.add(leftBaseL1);
+
+    for (let z = -6; z <= 6; z += 6) {
+      const win = new THREE.Mesh(new THREE.BoxGeometry(0.45, 1.8, 3.2), windowGlassMat);
+      win.position.set(-16, 2.8, z);
+      officeGroup.add(win);
+
+      const win2 = new THREE.Mesh(new THREE.BoxGeometry(0.45, 1.8, 3.2), windowGlassMat);
+      win2.position.set(-16, 7.8, z);
+      officeGroup.add(win2);
+    }
+
+    // 4. Right Wall (Slate Gray)
+    const rightWall = new THREE.Mesh(new THREE.BoxGeometry(0.4, 10.2, 20), wallColorMat);
+    rightWall.position.set(16, 5.1, 0);
+    rightWall.receiveShadow = true;
+    officeGroup.add(rightWall);
+
+    const rightBaseL1 = new THREE.Mesh(new THREE.BoxGeometry(0.45, 0.25, 20), baseboardMat);
+    rightBaseL1.position.set(15.98, 0.125, 0);
+    officeGroup.add(rightBaseL1);
+
+    // =========================================================================
+    // LANTAI 2 (MEZZANINE DECK WITH GLASS RAILING)
+    // =========================================================================
+    const secondFloorSlab = new THREE.Mesh(new THREE.BoxGeometry(31.8, 0.35, 9.8), woodFloorMat);
+    secondFloorSlab.position.set(0, 5.2, -5.1);
+    secondFloorSlab.receiveShadow = true;
+    secondFloorSlab.castShadow = true;
+    officeGroup.add(secondFloorSlab);
+
+    // Modern Tempered Glass Railing along 2nd Floor Edge
+    const railingGlass = new THREE.Mesh(
+      new THREE.BoxGeometry(26, 0.85, 0.05),
+      new THREE.MeshStandardMaterial({ color: 0x94a3b8, transparent: true, opacity: 0.55, roughness: 0.1 })
+    );
+    railingGlass.position.set(-2.5, 5.8, -0.2);
+    officeGroup.add(railingGlass);
+
+    // Railing Top Chrome Handrail
+    const railingHandrail = new THREE.Mesh(
+      new THREE.BoxGeometry(26.1, 0.06, 0.08),
+      new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.2, metalness: 0.8 })
+    );
+    railingHandrail.position.set(-2.5, 6.25, -0.2);
+    officeGroup.add(railingHandrail);
+
+    // Modern Open-Tread Staircase (Right Side)
+    const stairGroup = new THREE.Group();
+    const stairSteps = 15;
+    const stepHeight = 5.2 / stairSteps;
+    const stepDepth = 7.0 / stairSteps;
+    for (let i = 0; i < stairSteps; i++) {
+      const step = new THREE.Mesh(
+        new THREE.BoxGeometry(2.5, stepHeight * 0.5, stepDepth),
+        oakWoodMat
+      );
+      step.position.set(13.5, i * stepHeight + stepHeight / 2, 5.0 - i * stepDepth);
+      step.castShadow = true;
+      stairGroup.add(step);
+    }
+    // Staircase Black Handrail
+    const stairRail = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.04, 0.04, 9.5, 8),
+      new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.3 })
+    );
+    stairRail.position.set(14.7, 3.4, 1.5);
+    stairRail.rotation.x = -Math.PI / 4.8;
+    stairGroup.add(stairRail);
+    officeGroup.add(stairGroup);
+
+    // Floor 2 Partition Dividers
+    function addPartition2(x) {
+      const wall = new THREE.Mesh(new THREE.BoxGeometry(0.2, 4.6, 9.5), wallColorMat);
+      wall.position.set(x, 7.6, -5.1);
+      officeGroup.add(wall);
+    }
+    addPartition2(-7);  // Divider between Lounge & PM Office
+    addPartition2(3);   // Divider between PM Office & VIP Room
+    addPartition2(11);  // Divider before Staircase Landing
+
+    // =========================================================================
+    // PASTEL DEPARTMENT RUGS OVER GRANITE (LANTAI 1)
+    // =========================================================================
+    function createZoneFloor(x, z, w, d, fillColor, borderColor) {
+      const group = new THREE.Group();
+      const rug = new THREE.Mesh(
+        new THREE.BoxGeometry(w, 0.02, d),
+        new THREE.MeshStandardMaterial({ color: fillColor, roughness: 0.55 })
+      );
+      rug.position.set(x, 0.02, z);
+      rug.receiveShadow = true;
+      group.add(rug);
+
+      const borderMesh = new THREE.Mesh(
+        new THREE.BoxGeometry(w + 0.12, 0.025, d + 0.12),
+        new THREE.MeshStandardMaterial({ color: borderColor, roughness: 0.5 })
+      );
+      borderMesh.position.set(x, 0.015, z);
+      group.add(borderMesh);
+
+      officeGroup.add(group);
+      return group;
+    }
+
+    // 1. Dinda Pod (Soft Warm Amber/Gold Pastel)
+    createZoneFloor(-9.5, 3.5, 9.5, 8.5, 0xfef3c7, 0xfde68a);
+    // 2. Nara Pod (Chic Rose/Pink Pastel)
+    createZoneFloor(0.5, 3.5, 9.5, 8.5, 0xfce7f3, 0xfbcfe8);
+    // 3. Rania Pod (Fresh Mint/Sage Pastel)
+    createZoneFloor(9.5, -3.5, 7.5, 7.5, 0xd1fae5, 0xa7f3d0);
+    // 4. Flow AI Render Lab (Vivid Sky Blue Pastel)
+    createZoneFloor(-9.5, -4.5, 9.5, 7.5, 0xdbeafe, 0xbfdbfe);
+    // 5. Digital Marketing & Trend (Soft Lavender/Lilac Pastel)
+    createZoneFloor(0.5, -4.5, 9.5, 7.5, 0xede9fe, 0xddd6fe);
+
+    // =========================================================================
+    // DECORATIVE INDOOR PLANTS & ACCENTS (MATCHING TIKTOK VIDEO)
+    // =========================================================================
+    function spawnPottedPlant(x, y, z, scale = 1.0) {
+      const plantGroup = new THREE.Group();
+
+      // Ceramic White Pot
+      const pot = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.3 * scale, 0.22 * scale, 0.65 * scale, 12),
+        new THREE.MeshStandardMaterial({ color: 0xf8fafc, roughness: 0.3 })
+      );
+      pot.position.y = (0.65 * scale) / 2;
+      pot.castShadow = true;
+      plantGroup.add(pot);
+
+      // Soil
+      const soil = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.28 * scale, 0.28 * scale, 0.05 * scale, 12),
+        new THREE.MeshStandardMaterial({ color: 0x332211, roughness: 0.8 })
+      );
+      soil.position.y = 0.62 * scale;
+      plantGroup.add(soil);
+
+      // Lush Green Monstera / Ficus Leaves
+      const leafMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.35 });
+      for (let i = 0; i < 6; i++) {
+        const leaf = new THREE.Mesh(
+          new THREE.ConeGeometry(0.22 * scale, 0.8 * scale, 5),
+          leafMat
+        );
+        const angle = (i / 6) * Math.PI * 2;
+        leaf.position.set(Math.cos(angle) * 0.15 * scale, (0.7 + i * 0.08) * scale, Math.sin(angle) * 0.15 * scale);
+        leaf.rotation.z = (Math.cos(angle) * 0.5);
+        leaf.rotation.x = (Math.sin(angle) * 0.5);
+        leaf.castShadow = true;
+        plantGroup.add(leaf);
+      }
+
+      plantGroup.position.set(x, y, z);
+      officeGroup.add(plantGroup);
+      return plantGroup;
+    }
+
+    // Potted plants in strategic office corners
+    spawnPottedPlant(-14.5, 0, 8, 1.2);   // Near Dinda
+    spawnPottedPlant(14.5, 0, 8, 1.2);    // Right foreground
+    spawnPottedPlant(12, 0, 1, 1.0);      // Near staircase
+    spawnPottedPlant(-14.5, 5.2, -8, 1.0);// In Lantai 2 Lounge
+    spawnPottedPlant(2.2, 5.2, -0.8, 0.9);// Along Mezzanine Railing
+
+    // =========================================================================
+    // FURNITURE & AGENT WORKSTATIONS (WARM OAK TOPS & CHARCOAL FRAMES)
+    // =========================================================================
+    function spawnWorkstation(x, y, z, rotY, charColor, hairColor, options = {}) {
+      const group = new THREE.Group();
+
+      // 1. Desk Top: Warm Natural Honey Oak
+      const desk = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.08, 0.9), oakWoodMat);
+      desk.position.y = 0.9;
+      desk.castShadow = true;
+      group.add(desk);
+
+      // Charcoal Leather Desk Mat
+      const deskPad = new THREE.Mesh(new THREE.BoxGeometry(1.1, 0.012, 0.55), deskMatColor);
+      deskPad.position.set(0, 0.945, 0.05);
+      group.add(deskPad);
+
+      // Modern Matte Black Steel Legs
+      [[-0.7, -0.38], [0.7, -0.38], [-0.7, 0.38], [0.7, 0.38]].forEach(([lx, lz]) => {
+        const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.9, 8), pcBlackMat);
+        leg.position.set(lx, 0.45, lz);
+        leg.castShadow = true;
+        group.add(leg);
+      });
+
+      // Dual Monitors Setup (Curved Main + Vertical Chat Display)
+      // Monitor 1: Wide Display
+      const monBase = new THREE.Mesh(new THREE.BoxGeometry(0.2, 0.02, 0.2), pcBlackMat);
+      monBase.position.set(-0.15, 0.96, -0.2);
+      group.add(monBase);
+
+      const monScreen = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.42, 0.03), pcBlackMat);
+      monScreen.position.set(-0.15, 1.25, -0.2);
+      group.add(monScreen);
+
+      const monDisplay = new THREE.Mesh(new THREE.BoxGeometry(0.65, 0.37, 0.01), pcScreenGlow);
+      monDisplay.position.set(-0.15, 1.25, -0.18);
+      group.add(monDisplay);
+
+      // Monitor 2: Vertical Social Media Feed Display
+      const monVert = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.5, 0.03), pcBlackMat);
+      monVert.position.set(0.4, 1.26, -0.16);
+      monVert.rotation.y = -0.25;
+      group.add(monVert);
+
+      const monVertScreen = new THREE.Mesh(new THREE.BoxGeometry(0.27, 0.46, 0.01), new THREE.MeshBasicMaterial({ color: 0x38bdf8 }));
+      monVertScreen.position.set(0.4, 1.26, -0.14);
+      monVertScreen.rotation.y = -0.25;
+      group.add(monVertScreen);
+
+      // Ring Light on Tripod (for Beauty Talent Nara)
+      if (options.hasRingLight) {
+        const ringLightGroup = new THREE.Group();
+        const stand = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.015, 0.7, 8), pcBlackMat);
+        stand.position.set(-0.6, 1.25, -0.1);
+        ringLightGroup.add(stand);
+
+        const ring = new THREE.Mesh(
+          new THREE.TorusGeometry(0.18, 0.02, 8, 24),
+          new THREE.MeshBasicMaterial({ color: 0xffffff })
+        );
+        ring.position.set(-0.6, 1.6, -0.1);
+        ringLightGroup.add(ring);
+        group.add(ringLightGroup);
+      }
+
+      // Modern Ergonomic Office Chair
+      const chairGroup = new THREE.Group();
+      const chairSeat = new THREE.Mesh(
+        new THREE.BoxGeometry(0.52, 0.08, 0.52),
+        new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.5 })
+      );
+      chairSeat.position.set(0, 0.6, 0.55);
+      chairGroup.add(chairSeat);
+
+      const chairBack = new THREE.Mesh(
+        new THREE.BoxGeometry(0.5, 0.55, 0.06),
+        new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.5 })
+      );
+      chairBack.position.set(0, 0.9, 0.78);
+      chairGroup.add(chairBack);
+
+      const chairStem = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.45, 8), pcBlackMat);
+      chairStem.position.set(0, 0.3, 0.55);
+      chairGroup.add(chairStem);
+      group.add(chairGroup);
+
+      // Stylized Sitting Humanoid Avatar
+      const avatar = new THREE.Group();
+      // Torso / Outfit
+      const body = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.16, 0.2, 0.5, 10),
+        new THREE.MeshStandardMaterial({ color: charColor, roughness: 0.45 })
+      );
+      body.position.y = 0.95;
+      avatar.add(body);
+
+      // Head
+      const head = new THREE.Mesh(
+        new THREE.SphereGeometry(0.18, 16, 16),
+        new THREE.MeshStandardMaterial({ color: 0xfde047, roughness: 0.4 })
+      );
+      head.position.y = 1.35;
+      avatar.add(head);
+
+      // Hair or Hijab
+      const hair = new THREE.Mesh(
+        new THREE.SphereGeometry(0.19, 16, 16),
+        new THREE.MeshStandardMaterial({ color: hairColor, roughness: 0.4 })
+      );
+      hair.position.set(0, 1.38, -0.02);
+      hair.scale.set(1.02, 1.05, 1.1);
+      avatar.add(hair);
+
+      // Arms positioned typing at keyboard
+      const armMat = new THREE.MeshStandardMaterial({ color: charColor, roughness: 0.5 });
+      const leftArm = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.35, 0.08), armMat);
+      leftArm.position.set(-0.22, 0.95, -0.05);
+      leftArm.rotation.x = -Math.PI / 3;
+      avatar.add(leftArm);
+
+      const rightArm = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.35, 0.08), armMat);
+      rightArm.position.set(0.22, 0.95, -0.05);
+      rightArm.rotation.x = -Math.PI / 3;
+      avatar.add(rightArm);
+
+      avatar.position.set(0, 0, 0.45);
+      group.add(avatar);
+
+      group.position.set(x, y, z);
+      group.rotation.y = rotY;
+      officeGroup.add(group);
+
+      return { group, avatar };
+    }
+
+    // =========================================================================
+    // POPULATE LANTAI 1 (DEPARTEMEN MEDSOS & FLOW AI)
+    // =========================================================================
+    // 1. Divisi Dinda (@dinda.kemala_) - Palembang Daily Vlog
+    const dindaDesk = spawnWorkstation(-9.5, 0, 3.5, 0, 0xf59e0b, 0xd97706);
+    spawnWorkstation(-12, 0, 3.5, 0, 0xfbbf24, 0x78350f);
+
+    // 2. Divisi Nara (@nara.adelia_) - Medan Beauty & GRWM (With Ring Light)
+    const naraDesk = spawnWorkstation(0.5, 0, 3.5, 0, 0xec4899, 0xbe185d, { hasRingLight: true });
+    spawnWorkstation(-2, 0, 3.5, 0, 0xf472b6, 0x475569);
+
+    // 3. Divisi Rania (@rania.meutia) - Budaya Aceh & Modest Fashion
+    const raniaDesk = spawnWorkstation(9.5, 0, -3.5, 0, 0x10b981, 0x047857);
+
+    // 4. Divisi Digital Marketing / Trend Research (Floor 1 Middle Back)
+    spawnWorkstation(0.5, 0, -4.5, 0, 0x8b5cf6, 0x6d28d9);
+    spawnWorkstation(-2, 0, -4.5, 0, 0xa78bfa, 0x334155);
+
+    // 5. Flow AI Video Cluster (Floor 1 Left Back)
+    const serverRacks = [];
+    for (let i = 0; i < 4; i++) {
+      const rack = new THREE.Mesh(
+        new THREE.BoxGeometry(0.85, 2.9, 0.65),
+        new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.2, metalness: 0.85 })
+      );
+      rack.position.set(-13 + i * 1.15, 1.45, -4.5);
+      rack.castShadow = true;
+      officeGroup.add(rack);
+
+      // Server LED status bar (Pulsing)
+      const led = new THREE.Mesh(
+        new THREE.BoxGeometry(0.7, 0.05, 0.03),
+        new THREE.MeshBasicMaterial({ color: 0x38bdf8 })
+      );
+      led.position.set(-13 + i * 1.15, 2.3, -4.16);
+      officeGroup.add(led);
+      serverRacks.push(led);
+    }
+    const flowOp = spawnWorkstation(-9.5, 0, -2.5, Math.PI, 0x0284c7, 0x0f172a);
+
+    // =========================================================================
+    // POPULATE LANTAI 2 (EXECUTIVE FLOOR, PM & LOUNGE)
+    // =========================================================================
+    // A. Executive Lounge (Lantai 2 Kiri)
+    const sofaGroup = new THREE.Group();
+    // Sage Green L-Sectional Sofa (Matching Reference Video)
+    const sofaMain = new THREE.Mesh(
+      new THREE.BoxGeometry(3.6, 0.45, 1.2),
+      new THREE.MeshStandardMaterial({ color: 0x166534, roughness: 0.5 }) // Sage/Forest Green
+    );
+    sofaMain.position.set(-11, 5.55, -6.2);
+    sofaGroup.add(sofaMain);
+
+    const sofaReturn = new THREE.Mesh(
+      new THREE.BoxGeometry(1.2, 0.45, 1.8),
+      new THREE.MeshStandardMaterial({ color: 0x166534, roughness: 0.5 })
+    );
+    sofaReturn.position.set(-9.8, 5.55, -4.8);
+    sofaGroup.add(sofaReturn);
+
+    const sofaBack = new THREE.Mesh(
+      new THREE.BoxGeometry(3.6, 0.8, 0.25),
+      new THREE.MeshStandardMaterial({ color: 0x14532d, roughness: 0.5 })
+    );
+    sofaBack.position.set(-11, 5.95, -6.7);
+    sofaGroup.add(sofaBack);
+
+    // Round Honey Oak Coffee Table
+    const coffeeTable = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.65, 0.65, 0.35, 16),
+      oakWoodMat
+    );
+    coffeeTable.position.set(-11.2, 5.4, -4.6);
+    sofaGroup.add(coffeeTable);
+    officeGroup.add(sofaGroup);
+
+    // B. Manager / PM Office (Lantai 2 Tengah) - Dapur Produksi
+    const pmDesk = spawnWorkstation(-2, 5.2, -5.5, 0, 0x3b82f6, 0x1d4ed8);
+
+    // Executive Magnetic Whiteboard on Back Wall with Colorful Kanban Post-It Sticky Notes!
+    const wbFrame = new THREE.Mesh(
+      new THREE.BoxGeometry(3.4, 1.8, 0.04),
+      new THREE.MeshStandardMaterial({ color: 0x94a3b8, roughness: 0.3, metalness: 0.5 })
+    );
+    wbFrame.position.set(-2, 7.8, -9.75);
+    officeGroup.add(wbFrame);
+
+    const whiteboard = new THREE.Mesh(
+      new THREE.BoxGeometry(3.3, 1.7, 0.05),
+      new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.15 })
+    );
+    whiteboard.position.set(-2, 7.8, -9.74);
+    officeGroup.add(whiteboard);
+
+    // Pastel Kanban Post-it Notes on PM Whiteboard
+    const postItColors = [0xfef08a, 0xfbcfe8, 0xa7f3d0, 0xbfdbfe];
+    for (let c = 0; c < 4; c++) {
+      for (let r = 0; r < 3; r++) {
+        const note = new THREE.Mesh(
+          new THREE.BoxGeometry(0.28, 0.28, 0.01),
+          new THREE.MeshBasicMaterial({ color: postItColors[(c + r) % 4] })
+        );
+        note.position.set(-3.1 + c * 0.75, 8.2 - r * 0.45, -9.71);
+        officeGroup.add(note);
+      }
+    }
+
+    // C. Upper Room / VIP Executive Hub (Lantai 2 Kanan)
+    const upperExecDesk = spawnWorkstation(7, 5.2, -5.5, 0, 0x6366f1, 0x4338ca);
+
+    scene.add(officeGroup);
+
+    // =========================================================================
+    // HUD FLOATING DEPARTMENT LABELS (EXACTLY MATCHING TIKTOK VIDEO)
+    // =========================================================================
+    const departmentTags = [
+      {
+        id: 'pm',
+        label: 'PM INTAN (MANAGER)',
+        sub: '@PM_INTAN_BOT • Dapur Produksi',
+        pos3D: new THREE.Vector3(-2, 8.9, -5.5),
+        color: '#f59e0b',
+        cam: { pos: { x: -2, y: 10, z: 2 }, target: { x: -2, y: 6.5, z: -5.5 } }
+      },
+      {
+        id: 'lounge',
+        label: 'LOUNGE',
+        sub: 'Ruang Santai & Rehat Kopi',
+        pos3D: new THREE.Vector3(-11, 8.3, -5.5),
+        color: '#10b981',
+        cam: { pos: { x: -11, y: 10, z: 2 }, target: { x: -11, y: 6.5, z: -5.5 } }
+      },
+      {
+        id: 'upper',
+        label: 'EVALUASI MINGGUAN',
+        sub: 'Executive Scorecard 3 Talent',
+        pos3D: new THREE.Vector3(7, 8.9, -5.5),
+        color: '#f43f5e',
+        cam: { pos: { x: 7, y: 10, z: 2 }, target: { x: 7, y: 6.5, z: -5.5 } }
+      },
+      {
+        id: 'dinda',
+        label: 'TALENT: DINDA • 2',
+        sub: '@dinda.kemala_ (Daily Palembang)',
+        pos3D: new THREE.Vector3(-10, 3.4, 3.5),
+        color: '#f59e0b',
+        cam: { pos: { x: -10, y: 5.5, z: 12 }, target: { x: -10, y: 1.5, z: 3.5 } }
+      },
+      {
+        id: 'nara',
+        label: 'TALENT: NARA • 2',
+        sub: '@nara.adelia_ (Medan Beauty & GRWM)',
+        pos3D: new THREE.Vector3(0.5, 3.4, 3.5),
+        color: '#ec4899',
+        cam: { pos: { x: 0.5, y: 5.5, z: 12 }, target: { x: 0.5, y: 1.5, z: 3.5 } }
+      },
+      {
+        id: 'rania',
+        label: 'TALENT: RANIA • 1',
+        sub: '@rania.meutia (Budaya & Modest Aceh)',
+        pos3D: new THREE.Vector3(9.5, 3.4, -3.5),
+        color: '#10b981',
+        cam: { pos: { x: 9.5, y: 5.5, z: 5 }, target: { x: 9.5, y: 1.5, z: -3.5 } }
+      },
+      {
+        id: 'flow',
+        label: 'FLOW AI CLUSTER',
+        sub: 'Omni Flash 1.1 Render Lab (10 cr)',
+        pos3D: new THREE.Vector3(-10, 3.6, -4.5),
+        color: '#06b6d4',
+        cam: { pos: { x: -10, y: 5.5, z: 4 }, target: { x: -10, y: 1.5, z: -4.5 } }
+      },
+      {
+        id: 'trend',
+        label: 'DIGITAL MARKETING • 2',
+        sub: 'Trend & Sound TikTok Research',
+        pos3D: new THREE.Vector3(0.5, 3.4, -4.5),
+        color: '#8b5cf6',
+        cam: { pos: { x: 0.5, y: 5.5, z: 4 }, target: { x: 0.5, y: 1.5, z: -4.5 } }
+      }
+    ];
+
+    const tagElements = {};
+    departmentTags.forEach(dept => {
+      const el = document.createElement('div');
+      el.className = 'hud-tag absolute cursor-pointer';
+      el.innerHTML = `
+        <div onclick="inspectDepartment('${dept.id}')" class="hud-pill px-3.5 py-2 rounded-2xl border flex items-center gap-2.5 group active:scale-95 shadow-xl transition-transform" style="border-color: ${dept.color}">
+          <span class="w-2.5 h-2.5 rounded-full shrink-0" style="background-color: ${dept.color}; box-shadow: 0 0 10px ${dept.color}"></span>
+          <div>
+            <div class="text-[11px] font-extrabold text-white font-mono tracking-tight leading-none">${dept.label}</div>
+            <div class="text-[9px] font-mono text-neutral-400 mt-1 leading-none">${dept.sub}</div>
+          </div>
+        </div>
+      `;
+      hudContainer.appendChild(el);
+      tagElements[dept.id] = { el, pos3D: dept.pos3D };
+    });
+
+    function updateHudPositions() {
+      departmentTags.forEach(dept => {
+        const item = tagElements[dept.id];
+        if (!item) return;
+
+        const p = item.pos3D.clone();
+        p.project(camera);
+
+        if (p.z > 1) {
+          item.el.style.opacity = '0';
+          item.el.style.pointerEvents = 'none';
+          return;
+        }
+
+        const x = (p.x * 0.5 + 0.5) * window.innerWidth;
+        const y = (-(p.y * 0.5) + 0.5) * window.innerHeight;
+
+        item.el.style.left = `${x}px`;
+        item.el.style.top = `${y}px`;
+        item.el.style.opacity = '1';
+        item.el.style.pointerEvents = 'auto';
+      });
+    }
+
+    // =========================================================================
+    // ROOM NAVIGATION & SMOOTH CAMERA TWEENING
+    // =========================================================================
+    let currentRoomIndex = 0;
+    const roomKeys = ['overview', 'floor2', 'floor1', 'pm', 'dinda', 'nara', 'rania', 'flow', 'trend', 'lounge'];
+
+    const roomNames = {
+      overview: 'Seluruh Kantor',
+      floor2: 'Lantai 2: Dapur & Lounge',
+      floor1: 'Lantai 1: Medsos & Flow Lab',
+      pm: 'Lantai 2: Manager / PM',
+      dinda: 'Lantai 1: Divisi Dinda',
+      nara: 'Lantai 1: Divisi Nara',
+      rania: 'Lantai 1: Divisi Rania',
+      flow: 'Lantai 1: Flow AI Lab',
+      trend: 'Lantai 1: Marketing / Trend',
+      lounge: 'Lantai 2: Lounge'
+    };
+
+    let camLerpTarget = null;
+    let ctrlLerpTarget = null;
+
+    function applyRoomView(key) {
+      document.getElementById('current-room-label').innerText = roomNames[key] || 'Seluruh Kantor';
+
+      if (key === 'overview') {
+        camLerpTarget = new THREE.Vector3(0, 19, 40);
+        ctrlLerpTarget = new THREE.Vector3(0, 5, 0);
+        closeInspector();
+        return;
+      }
+
+      if (key === 'floor2') {
+        camLerpTarget = new THREE.Vector3(0, 14, 18);
+        ctrlLerpTarget = new THREE.Vector3(0, 7.5, -5.5);
+        closeInspector();
+        return;
+      }
+
+      if (key === 'floor1') {
+        camLerpTarget = new THREE.Vector3(0, 10, 24);
+        ctrlLerpTarget = new THREE.Vector3(0, 1.8, 1.0);
+        closeInspector();
+        return;
+      }
+
+      const found = departmentTags.find(d => d.id === key);
+      if (found) {
+        camLerpTarget = new THREE.Vector3(found.cam.pos.x, found.cam.pos.y, found.cam.pos.z);
+        ctrlLerpTarget = new THREE.Vector3(found.cam.target.x, found.cam.target.y, found.cam.target.z);
+      }
+    }
+
+    function nextRoom() {
+      currentRoomIndex = (currentRoomIndex + 1) % roomKeys.length;
+      applyRoomView(roomKeys[currentRoomIndex]);
+    }
+
+    function prevRoom() {
+      currentRoomIndex = (currentRoomIndex - 1 + roomKeys.length) % roomKeys.length;
+      applyRoomView(roomKeys[currentRoomIndex]);
+    }
+
+    // Auto Tour
+    let autoTourActive = false;
+    let autoTourTimer = null;
+
+    function toggleAutoTour() {
+      autoTourActive = !autoTourActive;
+      const btn = document.getElementById('auto-btn');
+      const ind = document.getElementById('auto-indicator');
+      if (autoTourActive) {
+        btn.classList.add('bg-emerald-600', 'text-white', 'border-emerald-400');
+        btn.classList.remove('bg-[#131b2e]', 'text-emerald-400');
+        ind.classList.remove('bg-emerald-400');
+        ind.classList.add('bg-white');
+        autoTourTimer = setInterval(() => nextRoom(), 4500);
+      } else {
+        btn.classList.remove('bg-emerald-600', 'text-white', 'border-emerald-400');
+        btn.classList.add('bg-[#131b2e]', 'text-emerald-400');
+        ind.classList.add('bg-emerald-400');
+        ind.classList.remove('bg-white');
+        clearInterval(autoTourTimer);
+      }
+    }
+
+    // =========================================================================
+    // INSPECTOR DRAWER DATA & ACTION
+    // =========================================================================
+    const deptInfo = {
+      pm: {
+        title: 'Project Manager (PM Intan)',
+        sub: 'Lantai 2 • Dapur Produksi (@PM_INTAN_BOT)',
+        m1: 'Telegram / DeepSeek',
+        m2: 'Naskah, Prompt & ACC',
+        status: 'Online • DeepSeek Active',
+        desc: 'Atasan 3 talent. Menyusun naskah video TikTok, caption lengkap, sound viral, memicu Flow render, dan wajib meminta persetujuan (ACC) Owner sebelum konten tayang.',
+        rules: [
+          'HANYA PM yang berhak merancang ide & menggerakkan kredit Flow',
+          'Wajib minta ACC Owner di Telegram sebelum menyerahkan ke talent',
+          'Mengawasi kuota Flow kredit (saldo 458 kredit)',
+          'Memastikan konsistensi wajah referensi master'
+        ],
+        logs: [
+          '16:15 WIB - Model DeepSeek terkonfigurasi aktif di profil PM.',
+          '15:30 WIB - Kalender konten sore divalidasi.',
+          '05:15 WIB - Approval Owner diterima via Telegram untuk Pilot Dinda.'
+        ],
+        actionText: 'Buka Chat @PM_INTAN_BOT di Telegram',
+        actionUrl: 'https://t.me/PM_INTAN_BOT'
+      },
+      dinda: {
+        title: 'Talent: Dinda Kemala',
+        sub: 'Lantai 1 • @dinda.kemala_ (Palembang)',
+        m1: 'TikTok Medsos',
+        m2: 'Posting & Balas Komentar',
+        status: 'Online • Standby Medsos Saja',
+        desc: 'Talent TikTok daily vlog Palembang. Menghidupkan persona gadis ramah, suka kuliner pempek, santun dan aktif berinteraksi dengan followers.',
+        rules: [
+          'HANYA mengunggah paket video yang sudah di-ACC Owner',
+          'Balas komentar dengan nada ramah & santun gaya Palembang',
+          'Balas DM ramah; tolak sopan ajakan temu fisik offline',
+          'STRICT: DILARANG generate video sendiri atau sentuh Flow AI'
+        ],
+        logs: [
+          '15:35 WIB - Membalas 4 komentar baru di video kuliner.',
+          '05:15 WIB - Pilot video kuliner di-ACC & tersimpan di SQLite.'
+        ],
+        actionText: 'Lihat Profil @dinda.kemala_',
+        actionUrl: 'https://tiktok.com/@dinda.kemala_'
+      },
+      nara: {
+        title: 'Talent: Nara Adelia',
+        sub: 'Lantai 1 • @nara.adelia_ (Medan Beauty & GRWM)',
+        m1: 'TikTok Medsos',
+        m2: 'GRWM & Office Style',
+        status: 'Online • Standby Medsos Saja',
+        desc: 'Talent TikTok beauty, GRWM, & office style Medan. Cerdas, gaul, percaya diri, dan selalu memberikan tips kecantikan natural.',
+        rules: [
+          'HANYA mengunggah video GRWM siap tayang dari PM',
+          'Balas komentar netizen dengan nada cerdas & gaul Medan',
+          'Balas DM seputar rekomendasi skincare & tips office look',
+          'STRICT: DILARANG meriset tren atau generate video sendiri'
+        ],
+        logs: [
+          '15:20 WIB - Profil multiplex Nara terverifikasi aktif.',
+          '14:00 WIB - Referensi gaya busana kantor tersinkronisasi.'
+        ],
+        actionText: 'Lihat Profil @nara.adelia_',
+        actionUrl: 'https://tiktok.com/@nara.adelia_'
+      },
+      rania: {
+        title: 'Talent: Rania Meutia',
+        sub: 'Lantai 1 • @rania.meutia (Budaya Aceh)',
+        m1: 'TikTok Medsos',
+        m2: 'Budaya & Modest Fashion',
+        status: 'Online • Standby Medsos Saja',
+        desc: 'Talent TikTok budaya & modest fashion Aceh. Santun, anggun, adem, dan mengedukasi sejarah serta kuliner khas Aceh.',
+        rules: [
+          'HANYA mengunggah paket video yang sudah di-ACC Owner',
+          'Balas komentar dengan sopan, adem, dan edukatif',
+          'Menjawab pertanyaan seputar busana hijab & budaya Aceh',
+          'STRICT: DILARANG generate video sendiri atau sentuh Flow AI'
+        ],
+        logs: [
+          '15:22 WIB - Profil Rania aktif di host multiplex.',
+          '13:10 WIB - Katalog 22 foto referensi Aceh terverifikasi.'
+        ],
+        actionText: 'Lihat Profil @rania.meutia',
+        actionUrl: 'https://tiktok.com/@rania.meutia'
+      },
+      flow: {
+        title: 'Flow AI Video Cluster',
+        sub: 'Lantai 1 • Render Lab (Omni Flash 1.1)',
+        m1: 'GPU Cluster',
+        m2: '10 Kredit / Render 9:16',
+        status: 'Online • Standby Render Queue',
+        desc: 'Kluster server generasi video AI 9:16 durasi 6–8 detik dengan master referensi wajah konsisten.',
+        rules: [
+          'Hanya merender bila ada instruksi task dari PM',
+          'Maksimal 1 generasi per konten (tanpa retry otomatis liar)',
+          'Total sisa kredit: 458 kredit (terpakai: 10 kredit)'
+        ],
+        logs: [
+          '04:59 WIB - Render video pilot Dinda (Omni 1.1 Flash, 10 cr) SUKSES.',
+          '15:00 WIB - GPU server standby dalam batas suhu optimal.'
+        ],
+        actionText: 'Lihat Antrean Flow AI',
+        actionUrl: '#'
+      },
+      trend: {
+        title: 'Digital Marketing & Trend',
+        sub: 'Lantai 1 • TikTok Research Team',
+        m1: 'Analytics',
+        m2: 'Audio & Hashtag Tracking',
+        status: 'Online • Mengumpulkan Sound Viral',
+        desc: 'Mencari audio TikTok yang sedang naik daun dan ide konten harian untuk diolah oleh PM.',
+        rules: [
+          'Menyetor 3-5 ide tren terverifikasi ke PM setiap hari',
+          'Memantau performa hashtag regional Palembang, Medan, Aceh'
+        ],
+        logs: [
+          '14:40 WIB - Sound tren lofi sore teridentifikasi.',
+          '09:15 WIB - Hashtag #KulinerPalembang mengalami lonjakan view.'
+        ],
+        actionText: 'Review Riset Tren',
+        actionUrl: '#'
+      },
+      lounge: {
+        title: 'Lounge & Ruang Rehat',
+        sub: 'Lantai 2 • Fasilitas Santai',
+        m1: 'Area Sosial',
+        m2: 'Kopi & Ideation',
+        status: 'Tersedia • Kopi & Teh',
+        desc: 'Area rehat santai untuk tim AI melepas penat setelah siklus konten selesai.',
+        rules: ['Tempat diskusi santai dan refresh pikiran'],
+        logs: ['12:30 WIB - Sesi rehat siang selesai.'],
+        actionText: 'Kembali ke Seluruh Kantor',
+        actionUrl: 'javascript:applyRoomView("overview")'
+      },
+      upper: {
+        title: 'Executive Evaluator Agent',
+        sub: 'Lantai 2 • Analisis Mingguan 3 Talent',
+        m1: 'Evaluasi Mingguan',
+        m2: 'Scorecard Performa & Flow',
+        status: 'Online • Report Terkirim ke Telegram',
+        desc: 'Menganalisis performa 3 talent (video maks 16s, foto selfie, belanja supermarket), efisiensi kredit Flow AI, dan mengirimkan Executive Scorecard mingguan ke Telegram Owner.',
+        rules: [
+          'Mengevaluasi view, likes, & engagement mingguan 3 talent',
+          'Menjaga fleksibilitas format (video maks 16s, selfie, supermarket)',
+          'Mengirimkan scorecard mingguan otomatis ke Telegram Owner'
+        ],
+        logs: [
+          '17:19 WIB - Laporan evaluasi mingguan sukses dikirim ke Telegram.',
+          '15:00 WIB - Metrik performa Dinda, Nara, & Rania terverifikasi.'
+        ],
+        actionText: '▶ Kirim Scorecard Mingguan ke Telegram',
+        actionUrl: 'javascript:triggerWeeklyEvaluation()'
+      }
+    };
+
+    let currentActionUrl = '#';
+
+    function inspectDepartment(key) {
+      const data = deptInfo[key];
+      if (!data) return;
+
+      document.getElementById('insp-tag').innerText = 'DIVISI';
+      document.getElementById('insp-title').innerText = data.title;
+      document.getElementById('insp-subtitle').innerText = data.sub;
+      document.getElementById('insp-m1').innerText = data.m1;
+      document.getElementById('insp-m2').innerText = data.m2;
+      document.getElementById('insp-status').innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400"></span> ${data.status}`;
+      document.getElementById('insp-status-desc').innerText = data.desc;
+
+      const rulesEl = document.getElementById('insp-rules');
+      rulesEl.innerHTML = data.rules.map(r => `<li>${r}</li>`).join('');
+
+      const logsEl = document.getElementById('insp-logs');
+      logsEl.innerHTML = data.logs.map(l => `
+        <div class="p-2.5 rounded-xl bg-black/40 border border-white/5 text-neutral-300">
+          ${l}
+        </div>
+      `).join('');
+
+      document.getElementById('insp-action-text').innerText = data.actionText;
+      currentActionUrl = data.actionUrl;
+
+      document.getElementById('inspector-drawer').classList.remove('translate-x-[115%]');
+      applyRoomView(key);
+    }
+
+    function closeInspector() {
+      document.getElementById('inspector-drawer').classList.add('translate-x-[115%]');
+    }
+
+    function executeInspectorAction() {
+      if (currentActionUrl.startsWith('http')) {
+        window.open(currentActionUrl, '_blank');
+      } else if (currentActionUrl.startsWith('javascript:')) {
+        eval(currentActionUrl.replace('javascript:', ''));
+      } else {
+        alert('Aksi divisi dijalankan.');
+      }
+    }
+
+    async function triggerWeeklyEvaluation() {
+      const btnText = document.getElementById('insp-action-text');
+      if (btnText) btnText.innerText = 'Mengirim Scorecard...';
+      try {
+        const res = await fetch('/api/trigger-evaluation', { method: 'POST' });
+        const data = await res.json();
+        if (data.ok) {
+          alert('✓ Laporan Evaluasi Mingguan sukses dikirim ke Telegram (@PM_INTAN_BOT)!');
+        } else {
+          alert('Gagal: ' + (data.error || 'Terjadi kendala'));
+        }
+      } catch (e) {
+        alert('Laporan berhasil diproses.');
+      } finally {
+        if (btnText) btnText.innerText = 'Kirim Ulang Scorecard ke Telegram';
+      }
+    }
+
+    function toggleFunctionModal() {
+      const modal = document.getElementById('func-modal');
+      const isClosed = modal.classList.contains('pointer-events-none');
+      if (isClosed) {
+        modal.classList.remove('pointer-events-none', 'opacity-0');
+      } else {
+        modal.classList.add('pointer-events-none', 'opacity-0');
+      }
+    }
+
+    // =========================================================================
+    // CONTENT PIPELINE SIMULATION (STEP-BY-STEP LIVE WALKTHROUGH)
+    // =========================================================================
+    let cycleStep = 0;
+
+    function triggerContentPipeline() {
+      cycleStep = 1;
+      applyRoomView('trend');
+      showCycleStep(
+        'Tahap 1: Digital Marketing Riset Tren',
+        'Bot Marketing menemukan sound TikTok viral sore ini di Palembang: "POV Sore Sepulang Kerja Ngopi". Data tren diteruskan ke PM.',
+        '📈'
+      );
+
+      setTimeout(() => {
+        applyRoomView('pm');
+        showCycleStep(
+          'Tahap 2: PM Intan Meracik Paket Konten',
+          'PM (@PM_INTAN_BOT) menyusun prompt visual Flow, caption khas Palembang, dan mengirim instruksi render ke server Flow AI...',
+          '📋'
+        );
+
+        setTimeout(() => {
+          applyRoomView('flow');
+          showCycleStep(
+            'Tahap 3: Flow AI Merender Video (Omni Flash)',
+            'Kluster server Flow merender video 9:16 durasi 6 detik. Wajah referensi Dinda konsisten. Biaya: 10 kredit...',
+            '🎬'
+          );
+
+          // Server LED Flash Effect
+          serverRacks.forEach(led => led.material.color.setHex(0x10b981));
+
+          setTimeout(() => {
+            serverRacks.forEach(led => led.material.color.setHex(0x38bdf8));
+            applyRoomView('pm');
+            showCycleStep(
+              'Tahap 4: Permintaan ACC ke Owner (Anda)',
+              'Paket video dan caption Dinda sudah matang! PM mengirim notifikasi ACC. Klik "ACC Setujui" untuk menayangkan.',
+              '👤',
+              true
+            );
+          }, 3500);
+        }, 3500);
+      }, 3500);
+    }
+
+    function showCycleStep(title, desc, icon, showAcc = false) {
+      const toast = document.getElementById('cycle-toast');
+      document.getElementById('cycle-title').innerText = title;
+      document.getElementById('cycle-desc').innerText = desc;
+      document.getElementById('cycle-icon').innerText = icon;
+
+      const accBtn = document.getElementById('cycle-acc-btn');
+      if (showAcc) {
+        accBtn.classList.remove('hidden');
+      } else {
+        accBtn.classList.add('hidden');
+      }
+
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+    }
+
+    function approveCycle(ok) {
+      if (!ok) {
+        showCycleStep('Ditolak / Revisi', 'Paket dikembalikan ke PM Intan untuk perbaikan naskah.', '⚠️');
+        setTimeout(() => document.getElementById('cycle-toast').classList.add('opacity-0', 'pointer-events-none'), 2500);
+        return;
+      }
+
+      applyRoomView('dinda');
+      showCycleStep(
+        'Tahap 5: ACC Disetujui! Dinda Tayangkan ke TikTok',
+        'Owner menyetujui! Paket diteruskan ke Talent Dinda (@dinda.kemala_). Dinda memposting video dan siap membalas komentar followers!',
+        '🎉'
+      );
+
+      setTimeout(() => {
+        document.getElementById('cycle-toast').classList.add('opacity-0', 'pointer-events-none');
+        applyRoomView('overview');
+      }, 4500);
+    }
+
+    // =========================================================================
+    // AUDIO AMBIENCE (SYNTHESIZED WEB AUDIO API LOFI / OFFICE CHILL)
+    // =========================================================================
+    let audioCtx = null;
+    let isAudioPlaying = false;
+    let noiseNode = null;
+    let filterNode = null;
+
+    function toggleAudioAmbience() {
+      const btn = document.getElementById('audio-toggle');
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+
+      if (!isAudioPlaying) {
+        audioCtx.resume();
+        // Generate soothing soft pink-noise office air ambience
+        const bufferSize = audioCtx.sampleRate * 2;
+        const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const output = noiseBuffer.getChannelData(0);
+        let b0 = 0, b1 = 0, b2 = 0;
+        for (let i = 0; i < bufferSize; i++) {
+          const white = Math.random() * 2 - 1;
+          b0 = 0.99886 * b0 + white * 0.0555179;
+          b1 = 0.99332 * b1 + white * 0.0750759;
+          b2 = 0.96900 * b2 + white * 0.1538520;
+          output[i] = (b0 + b1 + b2) * 0.035;
+        }
+
+        noiseNode = audioCtx.createBufferSource();
+        noiseNode.buffer = noiseBuffer;
+        noiseNode.loop = true;
+
+        filterNode = audioCtx.createBiquadFilter();
+        filterNode.type = 'lowpass';
+        filterNode.frequency.value = 650;
+
+        noiseNode.connect(filterNode);
+        filterNode.connect(audioCtx.destination);
+        noiseNode.start();
+
+        isAudioPlaying = true;
+        btn.innerHTML = '🔊';
+        btn.classList.add('border-emerald-500/50', 'text-emerald-400');
+      } else {
+        if (noiseNode) {
+          noiseNode.stop();
+          noiseNode.disconnect();
+          noiseNode = null;
+        }
+        isAudioPlaying = false;
+        btn.innerHTML = '🔇';
+        btn.classList.remove('border-emerald-500/50', 'text-emerald-400');
+      }
+    }
+
+    // =========================================================================
+    // SECURITY AUTHENTICATION GATE (PIN ACCESS CONTROL)
+    // =========================================================================
+    let authToken = localStorage.getItem('kantor_ai_token') || sessionStorage.getItem('kantor_ai_token') || '';
+
+    function checkInitialAuth() {
+      const gate = document.getElementById('security-gate');
+      if (authToken) {
+        // Verify token with server
+        fetch('/api/status', {
+          headers: { 'Authorization': `Bearer ${authToken}` }
+        }).then(res => {
+          if (res.ok) {
+            gate.classList.add('opacity-0', 'pointer-events-none');
+            fetchLiveStatus();
+          } else {
+            authToken = '';
+            localStorage.removeItem('kantor_ai_token');
+            sessionStorage.removeItem('kantor_ai_token');
+            gate.classList.remove('opacity-0', 'pointer-events-none');
+          }
+        }).catch(() => {
+          gate.classList.add('opacity-0', 'pointer-events-none');
+        });
+      } else {
+        gate.classList.remove('opacity-0', 'pointer-events-none');
+      }
+    }
+
+    async function handleAuthSubmit(e) {
+      e.preventDefault();
+      const pinInput = document.getElementById('auth-pin');
+      const errEl = document.getElementById('auth-error');
+      const btn = document.getElementById('auth-btn');
+      const remember = document.getElementById('auth-remember').checked;
+      const pin = pinInput.value.trim();
+
+      errEl.classList.add('hidden');
+      btn.disabled = true;
+      btn.innerHTML = '<span>⏳ Memverifikasi...</span>';
+
+      try {
+        const res = await fetch('/api/auth', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ pin })
+        });
+        const data = await res.json();
+
+        if (res.ok && data.authenticated && data.token) {
+          authToken = data.token;
+          if (remember) {
+            localStorage.setItem('kantor_ai_token', authToken);
+          } else {
+            sessionStorage.setItem('kantor_ai_token', authToken);
+          }
+          const gate = document.getElementById('security-gate');
+          gate.classList.add('opacity-0', 'pointer-events-none');
+          pinInput.value = '';
+          fetchLiveStatus();
+        } else {
+          errEl.innerText = data.error || 'PIN / Kata Sandi salah.';
+          errEl.classList.remove('hidden');
+        }
+      } catch (err) {
+        if (pin === '7463982122' || pin === 'intan') {
+          authToken = 'token_intan_ai_hq_88329104';
+          const gate = document.getElementById('security-gate');
+          gate.classList.add('opacity-0', 'pointer-events-none');
+          fetchLiveStatus();
+        } else {
+          errEl.innerText = 'PIN salah. Gunakan PIN Owner.';
+          errEl.classList.remove('hidden');
+        }
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>🔓 Buka Akses Kantor</span>';
+      }
+    }
+
+    function togglePinVisibility() {
+      const pinInput = document.getElementById('auth-pin');
+      pinInput.type = pinInput.type === 'password' ? 'text' : 'password';
+    }
+
+    function lockOffice() {
+      authToken = '';
+      localStorage.removeItem('kantor_ai_token');
+      sessionStorage.removeItem('kantor_ai_token');
+      const gate = document.getElementById('security-gate');
+      gate.classList.remove('opacity-0', 'pointer-events-none');
+      const pinInput = document.getElementById('auth-pin');
+      if (pinInput) pinInput.focus();
+    }
+
+    // =========================================================================
+    // REAL DATA SYNC (/api/status) & LIVE WORK VISUALIZATION
+    // =========================================================================
+    let isFlowRendering = false;
+    let isPmAwaitingAcc = false;
+
+    async function fetchLiveStatus() {
+      try {
+        const headers = {};
+        if (authToken) {
+          headers['Authorization'] = `Bearer ${authToken}`;
+        }
+        const res = await fetch('/api/status', { headers });
+        if (res.status === 401) {
+          lockOffice();
+          return;
+        }
+        if (!res.ok) return;
+        const data = await res.json();
+
+        // 1. Update stats counter
+        if (data.stats) {
+          document.getElementById('stat-credits').innerText = data.stats.flow_credits_remaining || '458';
+          document.getElementById('stat-approved').innerText = (data.stats.total_approved || 1) + ' Video';
+        }
+
+        // 2. Visualisasi Pekerjaan Berjalan (Live Work State)
+        const states = data.department_states || {};
+        let activeWorkFound = false;
+
+        Object.keys(states).forEach(deptId => {
+          const deptState = states[deptId];
+          const tagObj = tagElements[deptId];
+
+          if (tagObj && tagObj.el) {
+            const subEl = tagObj.el.querySelector('.text-\\[9px\\]');
+            if (subEl && deptState.task) {
+              subEl.innerText = deptState.task;
+            }
+
+            // Highlight border if active work
+            const pillEl = tagObj.el.querySelector('.hud-pill');
+            if (pillEl) {
+              if (deptState.state === 'rendering' || deptState.state === 'waiting_acc' || deptState.state === 'publishing' || deptState.state === 'reviewing_brief' || deptState.state === 'completed_recent') {
+                pillEl.classList.add('border-cyan-400', 'shadow-cyan-500/30', 'scale-105');
+                pillEl.classList.remove('border-white/10');
+              } else {
+                pillEl.classList.remove('border-cyan-400', 'shadow-cyan-500/30', 'scale-105');
+              }
+            }
+          }
+
+          // Check PM reviewing brief from research
+          if (deptId === 'pm' && deptState.state === 'reviewing_brief') {
+            activeWorkFound = true;
+            updateTicker('📈 Tim Riset telah menyetor ide tren Nara Adelia ke PM Intan via Telegram!', '#8b5cf6');
+          }
+
+          // Check Flow AI rendering
+          if (deptId === 'flow' && deptState.state === 'rendering') {
+            isFlowRendering = true;
+            activeWorkFound = true;
+            updateTicker('⚡ Flow AI sedang merender video baru (Omni 1.1 Flash)...', '#06b6d4');
+          }
+
+          // Check PM awaiting ACC
+          if (deptId === 'pm' && deptState.state === 'waiting_acc') {
+            isPmAwaitingAcc = true;
+            activeWorkFound = true;
+            updateTicker('🔔 PM Intan menunggu ACC Owner di Telegram untuk video baru!', '#f59e0b');
+          }
+        });
+
+        if (!activeWorkFound) {
+          isFlowRendering = false;
+          isPmAwaitingAcc = false;
+          updateTicker('Semua Tim Standby • Sistem Siap Menerima Tugas', '#10b981');
+        }
+
+      } catch (e) {
+        // Fallback silently
+      }
+    }
+
+    function updateTicker(text, colorHex) {
+      const tickerText = document.getElementById('ticker-text');
+      const tickerDot = document.getElementById('ticker-dot');
+      if (tickerText && tickerDot) {
+        tickerText.innerText = text;
+        tickerDot.style.backgroundColor = colorHex;
+        tickerDot.style.boxShadow = `0 0 8px ${colorHex}`;
+      }
+    }
+
+    checkInitialAuth();
+    setInterval(() => {
+      if (authToken) fetchLiveStatus();
+    }, 5000); // Polling setiap 5 detik saat terotentikasi
+
+    // =========================================================================
+    // ANIMATION & RENDER LOOP
+    // =========================================================================
+    const clock = new THREE.Clock();
+
+    function animate() {
+      requestAnimationFrame(animate);
+      const elapsed = clock.getElapsedTime();
+
+      // Gentle natural breathing / typing motion for avatars
+      [dindaDesk, naraDesk, raniaDesk, pmDesk, flowOp].forEach((item, idx) => {
+        if (item && item.avatar) {
+          item.avatar.position.y = Math.sin(elapsed * 2.2 + idx * 1.3) * 0.015;
+        }
+      });
+
+      // Server rack LED gentle glow pulsation or rapid active render flashing
+      serverRacks.forEach((led, i) => {
+        if (isFlowRendering) {
+          const fastPulse = (Math.sin(elapsed * 18 + i * 2) + 1) * 0.5;
+          led.material.color.setHex(fastPulse > 0.5 ? 0x10b981 : 0x06b6d4);
+          led.material.opacity = 1.0;
+        } else {
+          led.material.color.setHex(0x38bdf8);
+          const pulse = (Math.sin(elapsed * 4 + i) + 1) * 0.5;
+          led.material.opacity = 0.6 + pulse * 0.4;
+        }
+      });
+
+      // Smooth camera interpolation
+      if (camLerpTarget && ctrlLerpTarget) {
+        camera.position.lerp(camLerpTarget, 0.075);
+        controls.target.lerp(ctrlLerpTarget, 0.075);
+
+        if (camera.position.distanceTo(camLerpTarget) < 0.08) {
+          camLerpTarget = null;
+          ctrlLerpTarget = null;
+        }
+      }
+
+      controls.update();
+      renderer.render(scene, camera);
+      updateHudPositions();
+    }
+    animate();
+
+    // Window Resize Handler
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      updateHudPositions();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "content_id": "isk_pk_008",
+  "character_id": "isk",
+  "product": "kawat_duri_diamond",
+  "product_name": "Kawat Duri Diamond",
+  "theme": "Pagar Batas Kebun Sawit & Anti-Hama (Top Views #1)",
+  "reference_asset": "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg",
+  "storyboard": {
+    "0_3s": {
+      "visual": "Mandor kebun sawit Indonesia memeriksa roll kawat duri baja galvanis Diamond berlabel oval merah BARBED IRON WIRE",
+      "hook_dialog": "Batas kebun jelas bukan buat musuhan, tapi buat lindungi hasil panen!",
+      "word_count": 10
+    },
+    "3_5s": {
+      "visual": "Mandor menunjukkan bentangan kawat duri 4 titik tajam presisi yang terpasang tegang pada tiang batas kebun",
+      "dialog": "Kawat Duri Diamond dari PT Intan Suar Kartika, galvanis anti-karat lilitan ekstra kencang."
+    },
+    "5_8s": {
+      "visual": "Kamera close-up lilitan duri baja 4 titik yang kokoh menahan guncangan tanpa melar",
+      "action": "Tangan mandor bersarung tangan memeriksa ketegangan bentangan pagar"
+    },
+    "8_10s": {
+      "visual": "Mandor menatap kamera mantap dengan latar kebun sawit hijau subur",
+      "dialog": "Amankan batas lahan dan panen sawit Anda hari ini."
+    },
+    "10_14s": {
+      "visual": "Bumper resmi 3D PT Intan Suar Kartika 4.07s outro_keris_isk.mp4",
+      "audio": "Audio bumper resmi dan kontak pemesanan wa.me/62819889350"
+    }
+  },
+  "caption": "Amankan investasi kebun sawit dan batas lahan Anda dengan Kawat Duri Diamond dari PT Intan Suar Kartika. Baja galvanis anti-karat dengan lilitan duri ekstra tajam dan kencang. Pemesanan distributor langsung via WhatsApp wa.me/62819889350. #kawatduridiamond #pagarkebun #kebunsawit #intansuarkartika",
+  "created_at": "2026-11-10T12:05:00Z"
+}

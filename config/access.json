@@ -1,0 +1,7 @@
+{
+  "pin": "7463982122",
+  "passphrase": "intan",
+  "secret_token": "token_intan_ai_hq_88329104",
+  "max_failed_attempts": 5,
+  "description": "Kredensial keamanan akses Kantor AI Intan Virtual Office. PIN utama adalah Telegram ID Owner."
+}

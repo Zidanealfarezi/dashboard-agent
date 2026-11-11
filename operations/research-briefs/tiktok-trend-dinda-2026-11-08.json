@@ -1,0 +1,143 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-08",
+ "character_id": "dinda",
+ "collected_at": "2026-11-08T05:02:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Sumber dibaca langsung lewat browser Hermes pada 8 November 2026 pukul 05.00-05.02 WIB. TikTok Creative Center tetap tidak dipakai karena menolak akses otomatis; bukti diambil dari halaman publik yang benar-benar terbaca. Angka yang dicatat adalah yang terlihat di halaman, bukan estimasi.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 8 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 8 November 2026 · diperbarui 8 Nov, 01.17 WIB'. Sepuluh tren teratas: #stuck 3,4 jt tayangan, #saraswati 596,7 rb, #lany 8,1 jt, #loveanddeepspace 172,0 rb, #novemberrain 11,5 jt, #zivamagnolya 8,0 jt, #penyadapan 13,6 jt, #theremarriedempress 5,6 jt, #listyosigitprabowo 13,6 jt, #welcomenovember 38,1 jt. Tidak ada tagar kuliner maupun tagar lokal Palembang di sepuluh teratas, jadi tidak ada tren kuliner nasional yang sedang panas pagi ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-08T01:17:00+07:00",
+   "metrics": {
+    "top_trend": "#welcomenovember",
+    "top_trend_views": 38100000,
+    "culinary_tags_in_top10": 0
+   }
+  },
+  {
+   "url": "https://lagitren.id/tiktok/musteatinmycity",
+   "title": "#musteatinmycity — kenapa viral? | TikTok Viral Indonesia · Lagi Tren",
+   "evidence": "Halaman diperbarui 7 Nov, 19.19 WIB dan kini menyatakan 'Tren ini sudah tidak aktif — terakhir tren pada 7 November 2026'. Tercatat lebih dari 1,4 juta video. Formatnya tetap terbukti menggerakkan partisipasi lintas daerah karena creator membanggakan kuliner kotanya, tetapi momentum tagarnya sendiri sudah berhenti sejak kemarin.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-07T19:19:00+07:00",
+   "metrics": {
+    "videos": 1400000,
+    "last_trending": "2026-11-07",
+    "status": "inactive"
+   }
+  },
+  {
+   "url": "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+   "title": "Prediksi Musim Hujan Tahun 2026/2027 – Stasiun Klimatologi Sumatera Selatan",
+   "evidence": "Siaran BMKG bertanggal 8 Oktober 2026, dibaca ulang 8 November 2026. Wilayah Palembang diprediksi memasuki musim hujan 2026/2027 pada dasarian II November 2026, yaitu 11-20 November, sementara sebagian besar Sumsel masuk lebih lambat tiga dasarian dari normal. Artinya hujan pertama Palembang tinggal beberapa hari lagi dan kebutuhan konten berkuah/hujan relevan minggu ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-08T05:01:00+07:00",
+   "published_at": "2026-10-08T00:00:00+07:00",
+   "metrics": {
+    "palembang_rainy_season_start": "dasarian II November 2026"
+   }
+  },
+  {
+   "url": "https://rri.co.id/palembang/regional/2562968/viral-di-tiktok-asinan-padat-raya-raup-omzet-rp8-juta-sehari",
+   "title": "Viral di TikTok, Asinan Padat Raya Raup Omzet Rp8 Juta Sehari - RRI.co.id",
+   "evidence": "Terbit 12 Juli 2026, dibaca ulang 8 November 2026. Pemilik Asinan Padat Raya menyebut omzet harian saat ramai sekitar Rp8 juta dan omzet bulanan Rp10-15 juta; banyak pembeli datang setelah melihat ulasan TikTok, termasuk dari luar daerah. Usaha punya 10 varian rasa dan cabang di Lubuklinggau, Jambi, serta Lahat. Bukti nyata review kuliner Palembang di TikTok menggerakkan kunjungan, tetapi artikelnya berumur hampir empat bulan.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-08T05:01:30+07:00",
+   "published_at": "2026-07-12T21:20:00+07:00",
+   "metrics": {
+    "daily_revenue_idr_peak": 8000000,
+    "variants": 10
+   }
+  },
+  {
+   "url": "https://kompas.com/food/read/2026/11/01/075200375/cara-pakai-fitur-must-eat-tiktok-mudah-temukan-tempat-makan-viral-dan-fine",
+   "title": "Cara Pakai Fitur Must Eat TikTok, Mudah Temukan Tempat Makan Viral dan Fine Dining",
+   "evidence": "Terbit 1 November 2026, dibaca ulang 8 November 2026. Kompas memberitakan fitur Must Eat di TikTok GO by Tokopedia sebagai panduan kuliner berbasis komunitas yang merangkum ulasan makanan dari TikTok, dengan kutipan bahwa orang kini mencari inspirasi makan lewat TikTok. Platform masih mendorong penemuan tempat makan lokal, jadi format review kuliner tetap mendapat distribusi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-08T05:02:00+07:00",
+   "published_at": "2026-11-01T07:52:00+07:00",
+   "metrics": {
+    "feature": "Must Eat TikTok GO by Tokopedia",
+    "launch_context": "panduan kuliner komunitas"
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "D",
+   "title": "#welcomenovember Versi Palembang: Resolusi Kecil yang Realistis",
+   "pillar": "Lifestyle Palembang",
+   "hook": "Awal November semua orang bikin resolusi besar. Ini versi Palembang yang benar-benar bisa dijalankan.",
+   "shots": [
+    "Shot 1 (8s): Dinda menulis tiga resolusi kecil di notes ponsel sambil sarapan di dapur rumah, cahaya pagi dari jendela.",
+    "Shot 2 (8s): Dinda mencentang resolusi pertama di depan warung kopi langganan, lalu menoleh ke kamera dan bertanya resolusi kecil penonton."
+   ],
+   "sound": "Lofi Akustik Pagi Hujan (format vlog harian, bukan klaim angka)",
+   "caption": "Awal November jadi momen semua orang bikin resolusi besar. Aku coba versi yang lebih realistis: tiga hal kecil yang benar-benar bisa dijalani, mulai dari sarapan tepat waktu. Kalian sendiri bikin resolusi apa bulan ini? #welcomenovember #palembang #dailyvlog #lifestylepalembang #resolusinovember #vlogharian",
+   "sources": [
+    "https://lagitren.id/tiktok",
+    "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/"
+   ],
+   "factors": {
+    "momentum": 8.0,
+    "local_relevance": 8.0,
+    "format_fit": 9.0,
+    "evidence_strength": 7.5,
+    "risk_safety": 8.5
+   },
+   "why": "Tagar #welcomenovember tercatat di 10 tren teratas hari ini (38,1 juta tayangan), dan BMKG menyebut Palembang masuk musim hujan minggu ini sehingga aktivitas pagi ikut berubah."
+  },
+  {
+   "code": "E",
+   "title": "Cari Warung Legendaris Palembang Lewat Fitur Must Eat TikTok",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Aku coba fitur Must Eat TikTok buat cari warung yang belum pernah aku datangi di Palembang.",
+   "shots": [
+    "Shot 1 (8s): Dinda membuka aplikasi di depan warung, menunjuk daftar tempat di layar, lalu berjalan masuk.",
+    "Shot 2 (8s): Dinda menyeruput kuah, mengangguk, lalu menunjukkan piring kosong ke kamera."
+   ],
+   "sound": "Street Food Bounce (format kuliner, bukan klaim angka)",
+   "caption": "Hari ini aku sengaja coba fitur Must Eat TikTok buat mencari warung yang belum pernah aku datangi di Palembang. Ternyata yang muncul justru tempat langganan orang sekitar, bukan yang ramai di beranda. Kalian pernah pakai fitur ini? #musteatinmycity #palembang #kulinerviral #kulinerpalembang #fypindonesia #streetfoodpalembang",
+   "sources": [
+    "https://kompas.com/food/read/2026/11/01/075200375/cara-pakai-fitur-must-eat-tiktok-mudah-temukan-tempat-makan-viral-dan-fine",
+    "https://lagitren.id/tiktok/musteatinmycity",
+    "https://rri.co.id/palembang/regional/2562968/viral-di-tiktok-asinan-padat-raya-raup-omzet-rp8-juta-sehari"
+   ],
+   "factors": {
+    "momentum": 7.0,
+    "local_relevance": 9.0,
+    "format_fit": 8.5,
+    "evidence_strength": 8.0,
+    "risk_safety": 8.0
+   },
+   "why": "Kompas Food mencatat fitur Must Eat TikTok GO masih didorong platform, dan RRI Palembang membuktikan review kuliner lokal menggerakkan kunjungan nyata."
+  },
+  {
+   "code": "F",
+   "title": "Hujan Tertunda: Warung Es Kacang Merah Masih Ramai di Palembang",
+   "pillar": "Daily Vlog Palembang",
+   "hook": "Katanya musim hujan mulai minggu ini, tapi siang ini masih terik. Warung es kacang merah tetap penuh.",
+   "shots": [
+    "Shot 1 (8s): Dinda mengipas dengan tangan di warung es kacang merah, lalu menyeruput esnya.",
+    "Shot 2 (8s): Dinda menunjuk langit cerah di balik tenda warung, lalu tertawa ke kamera."
+   ],
+   "sound": "Siang Terik Acoustic (format vlog, bukan klaim angka)",
+   "caption": "BMKG bilang Palembang masuk musim hujan minggu ini, tapi siang tadi masih terik juga. Jadi warung es kacang merah di dekat pasar tetap penuh, dan aku ikut nimbrung. Kalian lebih milih es atau yang hangat di cuaca begini? #palembang #esbuah #kulinerpalembang #dailyvlog #cuacapanas #streetfood",
+   "sources": [
+    "https://staklim-sumsel.bmkg.go.id/prediksi-musim-hujan-tahun-2026-2027/",
+    "https://rri.co.id/palembang/regional/2562968/viral-di-tiktok-asinan-padat-raya-raup-omzet-rp8-juta-sehari"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 9.0,
+    "format_fit": 8.5,
+    "evidence_strength": 7.0,
+    "risk_safety": 8.5
+   },
+   "why": "BMKG memperkirakan musim hujan datang lebih lambat dari normal, sehingga kontras cuaca masih relevan untuk konten kuliner dingin lokal."
+  }
+ ]
+}

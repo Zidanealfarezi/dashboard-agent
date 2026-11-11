@@ -1,0 +1,5 @@
+Foto referensi karakter sudah dicatat di folder masing-masing.
+Sistem mengatur acuan wajah, tubuh, ekspresi dan gaya; tidak perlu mengganti nama.
+Jika ingin memilih acuan baru secara eksplisit, nama utama.jpg/png/webp boleh digunakan.
+Foto ini bahan identitas sekali di awal. Media dan caption harian dibuat Codex.
+Menaruh foto tidak memulai generasi atau menggunakan kredit.

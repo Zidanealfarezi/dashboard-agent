@@ -1,0 +1,52 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": ["tips dan trik tukang dan kerja bangunan praktis"],
+  "role_reason": "Tiga konsep disiapkan; yang dipilih adalah demo sambungan pipa PVC karena berbeda total dari satu-satunya video terverifikasi akun ini (plesteran dinding) dan bisa dibuktikan dalam satu aksi tangan yang terlihat.",
+  "title": "Cara Lem Pipa PVC yang Benar Biar Sambungan Tidak Rembes",
+  "hook": "Sambungan pipa sudah dilem tebal tapi tetap rembes? Masalahnya bukan di lemnya, tapi di cara pasangnya.",
+  "story": "Bang Ray jongkok di depan meja kerja kayu pendek dengan dua potong pipa PVC dan satu kaleng lem sudah ada di meja sejak frame pertama. Ia mengelap ujung pipa dengan kain, mengoles lem tipis di kedua sisi, menekan sambil memutar seperempat, lalu menahan sambungan itu dan menutup dengan ajakan komentar. Belum canon.",
+  "caption": "Sambungan pipa sudah dilem tebal tapi tetap rembes juga? Rakan, masalahnya biasanya bukan di lemnya, tapi di cara pasangnya. Kuncinya cuma tiga: bersihkan dulu ujung pipa dari air dan minyak, oles lem tipis merata di dua sisi yang mau disambung, lalu tekan sambil diputar seperempat dan tahan kira-kira tiga puluh detik sampai lem mengikat. Setelah itu diamkan minimal satu jam sebelum dialiri air. Simpan video ini buat waktu pasang saluran rumah nanti. Kalian biasanya langsung dialiri air atau ditunggu dulu? #tipskonstruksi #pipapvc #saluranair #renovasirumah #bandaaceh",
+  "image_prompt": "Pakai tiga aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah), bangray_fullbody_turnaround.jpg (postur dan pakaian kerja), bangray_profile_avatar.jpg. Tidak membuat master baru.",
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [3, 4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 20,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of Bang Ray, the same Indonesian man shown in the three attached reference images (three-expression face sheet, full-body turnaround sheet, and profile avatar). Output exactly one man, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 15 seconds. Camera is low and close, resting on a wooden workbench at knee height in a shaded home workshop in Banda Aceh, framing his hands and forearms in the lower half and his face in the upper third. He wears a navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki canvas work trousers, a black field watch on his left wrist. On the bench since frame zero there are exactly two props: two short pieces of grey 2-inch PVC pipe with one elbow fitting, and one open PVC glue tin with its small brush. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps. In the first three seconds his right hand already holds one pipe end and his left hand wipes the rim dry with a rag while he says in Indonesian, \"Sambungan pipa sudah dilem tebal tapi tetap rembes? Masalahnya bukan di lemnya, tapi di cara pasangnya.\" From second four to second ten he dips the brush and spreads a thin even coat of glue around the pipe end and inside the elbow, then pushes the elbow onto the pipe and twists it a quarter turn with both hands and holds it firmly. From second eleven to the end he keeps steady pressure on the joint, looks up into the lens and says in Indonesian, \"Tekan sambil diputar seperempat, tahan tiga puluh detik, baru dialiri air.\" The two pipe pieces, elbow and glue tin stay in frame and unchanged from start to finish; no other tool, object or person appears or disappears mid-shot. Keep his face, clothing, hands and background consistent, stable and undeformed in every frame. Completely clean frame with zero on-screen text, zero subtitles, zero logos, no signage and no watermark."
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.tiktok.com/search/video?q=tips%20tukang%20bangunan",
+      "title": "TikTok Search: tips dan trik tukang bangunan (@budihome.id, @king.awi.jpro.8, @pucermanefacts)",
+      "observed_at": "2026-11-10T13:47:18+07:00",
+      "evidence": "Kartu hasil TikTok Search pukul 13.47 WIB: @budihome.id Top liked, @king.awi.jpro.8 Top liked di kueri trik dan ilmu, @pucermanefacts Top liked, ditambah @muhamad.rois735, @bang_yasofficial, @soncontractor, @sahabatkulibangunan. Format demo satu aksi tangan mendominasi."
+    },
+    {
+      "url": "https://www.tiktok.com/@tukangrumah.pdg/video/7392144837824400645",
+      "title": "TikTok: @tukangrumah.pdg - pengecekan pasangan pipa PVC sebelum ditimbun",
+      "observed_at": "2026-11-10T13:46:41+07:00",
+      "evidence": "Teramati di TikTok Search 'tukang bangunan' pukul 13.46 WIB, video pengecekan pasangan pipa PVC sebelum ditimbun (359 likes) dan teknik awal plesteran dinding (159 likes) di akun yang sama."
+    },
+    {
+      "url": "https://www.tiktok.com/@teuku.rayyan00/video/7706480683396664597",
+      "title": "Video terverifikasi terakhir akun @teuku.rayyan00 - plesteran retak rambut",
+      "observed_at": "2026-11-10T17:05:00+07:00",
+      "evidence": "Satu-satunya video terverifikasi di akun ini: 15 detik, satu take kamera setinggi mata pada dinding plesteran. Konsep hari ini memakai sudut rendah dekat meja kerja dan topik pipa PVC agar format dan topik tidak berulang."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Riwayat akun hanya satu video terverifikasi; dicatat sebagai keterbatasan, bukan dikarang. Klaim teknis dibatasi pada praktik pemasangan lem PVC umum, tanpa angka uji atau testimoni."
+}

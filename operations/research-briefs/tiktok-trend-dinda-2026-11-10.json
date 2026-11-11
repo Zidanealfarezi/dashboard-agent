@@ -1,0 +1,154 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-10",
+ "character_id": "dinda",
+ "slot": "morning",
+ "collected_at": "2026-11-10T05:20:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Riset slot pagi 10 November 2026 pukul 05.00-05.20 WIB lewat browser Hermes (lagitren.id, BMKG, ExtraNews, Detik Sumsel, RRI Palembang). Halaman lagitren.id/tiktok bertanda diperbarui 10 Nov 01.17 WIB: sepuluh video viral didominasi politik dan hiburan, tidak ada tagar kuliner maupun tagar Palembang di daftar. BMKG memprakirakan hujan ringan di seluruh kecamatan Kota Palembang hari ini, jadi syuting outdoor pagi perlu antisipasi. Kandidat utama adalah event Pesona Budaya Sehat 11-12 November 2026 di Museum Sultan Mahmud Badaruddin II, tetapi bukti event ini baru satu artikel media (ExtraNews, 4 November 2026) dan belum dikonfirmasi halaman resmi museum atau Pemkot, sehingga kekuatan buktinya dinilai sedang dan bukan tinggi. Angka yang dicatat hanya yang benar-benar terlihat di halaman.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 10 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 10 November 2026 · diperbarui 10 Nov, 01.17 WIB'. Sepuluh video lagi viral: #jokowidodo 44,5 jt tayangan, #theremarriedempress 7,3 jt, #soj1stanniversary 274,0 rb, #roysuryo 21,1 jt, #bambamxswordofjustice 455,6 rb, #jokowi 44,5 jt, #penyadapan 11,9 jt, #ffesportsid 21,3 jt, #ffwsgf2026 556,6 rb, #stuckonyou 9,3 jt. Daftar hashtag tren berisi 14 tagar dan didominasi politik, drama, serta esports; tidak ada tagar kuliner dan tidak ada tagar lokal Palembang. Artinya tidak ada tren kuliner nasional yang bisa ditumpangi pagi ini, sehingga ceruk kuliner lokal tetap terbuka.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-10T05:03:00+07:00",
+   "metrics": {
+    "top_trend": "#jokowidodo",
+    "top_trend_views": 44500000,
+    "stuckonyou_views": 9300000,
+    "culinary_tags_in_top10": 0,
+    "palembang_tags_in_top10": 0
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 10 November 2026 pukul 05.05 WIB. Tabel prakiraan per kecamatan untuk Selasa, 10 November 2026 menunjukkan 'Hujan Ringan' di Ilir Barat Dua, Seberang Ulu Satu, Seberang Ulu Dua, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, dan Sukarami, dengan suhu 24-32 derajat Celsius dan kelembapan 60-99 persen. Hujan hari ini sudah diprakirakan, bukan asumsi, sehingga pengambilan gambar di luar ruangan sebaiknya pagi dan menyiapkan pelindung kamera.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-10T05:05:00+07:00",
+   "metrics": {
+    "forecast_date": "2026-11-10",
+    "condition": "Hujan Ringan di seluruh kecamatan yang tercantum",
+    "temperature_c": "24-32",
+    "humidity_percent": "60-99"
+   }
+  },
+  {
+   "url": "https://extranews.id/ayo-datang-dan-ramaikan-pesona-budaya-sehat-bernostalgia-lewat-permainan-tradisional-palembang-bingen/",
+   "title": "Ayo! Datang dan Ramaikan Pesona Budaya Sehat; Bernostalgia Lewat Permainan Tradisional Palembang Bingen - ExtraNews",
+   "evidence": "Terbit Rabu, 4 November 2026, dibaca 10 November 2026. Pengumuman event Pesona Budaya Sehat di Museum Sultan Mahmud Badaruddin II Palembang pada 11-12 November 2026. Isi yang disebut: nostalgia permainan tradisional Palembang bingen, lomba dari tingkat SD sampai umum, live music, doorprize, health check, museum tour, dan 50+ tenant UMKM Kota Palembang. Catatan verifikasi: ini satu-satunya halaman yang ditemukan memuat event tersebut; belum ada konfirmasi dari halaman resmi museum atau Pemkot, jadi tanggal dan jumlah tenant dipakai sebagai klaim penyelenggara, bukan fakta terverifikasi silang.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-10T05:08:00+07:00",
+   "published_at": "2026-11-04T00:00:00+07:00",
+   "metrics": {
+    "event_dates": "2026-11-11..2026-11-12",
+    "venue": "Museum Sultan Mahmud Badaruddin II, Palembang",
+    "umkm_tenants_claimed": "50+",
+    "source_count_for_event": 1
+   }
+  },
+  {
+   "url": "https://www.detiksumsel.com/pemerintahan/97417849808/festival-rempah-sumsel-2026-bidik-pasar-timur-tengah-ada-pesta-durian-sepuasnya-cuma-rp50-ribu",
+   "title": "Festival Rempah Sumsel 2026 Bidik Pasar Timur Tengah, Ada Pesta Durian Sepuasnya Cuma Rp50 Ribu - Detik Sumsel",
+   "evidence": "Terbit Selasa, 3 November 2026 pukul 10.21 WIB, dibaca 10 November 2026. Festival Rempah Sumatera Selatan 2026 berlangsung 20-22 November 2026 di PTC Mall Palembang. Panitia menggandeng komunitas durian untuk bazar durian; pengunjung membayar Rp50.000 untuk makan durian khas Sumsel sepuasnya selama 30 menit pada sesi tertentu. Agenda lain: pameran rempah 17 kabupaten/kota, bazar kuliner, dan penjajakan pasar ekspor Timur Tengah. Eventnya masih sepuluh hari lagi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-10T05:11:00+07:00",
+   "published_at": "2026-11-03T10:21:00+07:00",
+   "metrics": {
+    "event_dates": "2026-11-20..2026-11-22",
+    "venue": "PTC Mall Palembang",
+    "durian_price_idr": 50000,
+    "durian_session_minutes": 30
+   }
+  },
+  {
+   "url": "https://rri.co.id/palembang",
+   "title": "Berita Palembang Terkini Hari Ini - RRI Palembang",
+   "evidence": "Dibaca 10 November 2026 pukul 05.14 WIB. Headline dan berita terbaru kanal ini berisi pendangkalan alur Pelabuhan Tanjung Api-api, penundaan rapat reses Komisi VII DPR di Sumsel, subsidi LRT Sumsel, pajak digital, serta berita kriminal dan pemerintahan daerah. Tidak ada satu pun berita kuliner atau jajanan pada halaman depan pagi ini, jadi tidak ada momentum kuliner lokal dari media arus utama yang bisa langsung ditumpangi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-10T05:14:00+07:00",
+   "metrics": {
+    "culinary_stories_on_front_page": 0
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "M",
+   "title": "Besok Mainan Tradisional Palembang Ramai di Museum SMB II, Jajanannya 50 UMKM",
+   "pillar": "Budaya dan Kuliner Palembang",
+   "hook": "Besok Museum SMB II bakal ramai permainan tradisional Palembang, dan puluhan UMKM jajanan ikut buka lapak.",
+   "shots": [
+    "Shot 1 (8s): Dinda berdiri di halaman Museum Sultan Mahmud Badaruddin II pagi hari, menunjuk pintu masuk museum, lalu berjalan ke arah deretan tenda UMKM yang terlihat dari kejauhan.",
+    "Shot 2 (8s): Dinda duduk di bangku kayu memegang sepiring jajanan bingen, mencicipi satu potong, lalu menoleh ke kamera dan mengajak penonton datang besok."
+   ],
+   "sound": "Instrumen Melayu ringan bertempo sedang (format budaya-kuliner, bukan klaim angka)",
+   "outfit": "OOTD pagi 10 November 2026 dari character_wardrobe (slot pagi)",
+   "caption": "Besok 11 sampai 12 November, Museum Sultan Mahmud Badaruddin II Palembang bakal ramai event Pesona Budaya Sehat. Isinya nostalgia permainan tradisional Palembang, lomba dari tingkat SD sampai umum, live music, health check, museum tour, dan yang paling bikin aku tertarik tentu puluhan tenant UMKM jajanan khas kota ini. Rencananya besok pagi aku ke sana, sekalian jajan dan lihat permainannya. Kalau ke museum, kalian langsung ke koleksi atau jajan dulu? #palembang #museumsmb2 #jajananbingen #kulinerpalembang #eventpalembang #dailyvlog",
+   "sources": [
+    "https://extranews.id/ayo-datang-dan-ramaikan-pesona-budaya-sehat-bernostalgia-lewat-permainan-tradisional-palembang-bingen/",
+    "https://lagitren.id/tiktok",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71"
+   ],
+   "factors": {
+    "momentum": 8.0,
+    "local_relevance": 9.5,
+    "format_fit": 9.0,
+    "evidence_strength": 7.0,
+    "risk_safety": 9.5
+   },
+   "why": "Eventnya dimulai besok, jadi konten yang tayang hari ini tepat waktu sebagai ajakan datang, bukan pengumuman basi. Isinya cocok sekali dengan pilar Dinda: jajanan UMKM Palembang plus permainan tradisional yang gampang diperagakan di kamera dan memancing komentar nostalgia. Kekuatan bukti sengaja ditahan di 7,0 karena event ini baru satu artikel media dan belum dikonfirmasi halaman resmi museum atau Pemkot, sehingga naskah tidak boleh menyebut angka tenant sebagai fakta resmi.",
+   "claim_note": "Angka \"50 lebih tenant\" dari satu artikel media (ExtraNews, 4 Nov) belum dikonfirmasi museum/Pemkot; caption memakai \"puluhan tenant\" sesuai catatan risiko."
+  },
+  {
+   "code": "N",
+   "title": "Musim Durian Sumsel: Pesta Durian Rp50 Ribu di Festival Rempah 20 November",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Musim durian Sumsel sudah datang, dan Festival Rempah menawarkan makan durian sepuasnya lima puluh ribu.",
+   "shots": [
+    "Shot 1 (8s): Dinda memilih durian di lapak pinggir jalan Palembang, mengetuk kulitnya dan mengangkat satu buah ke arah kamera.",
+    "Shot 2 (8s): Dinda membuka durian di meja kayu, mengangkat satu ulas, mencicipinya, lalu tersenyum dan menyebut teksturnya."
+   ],
+   "sound": "Dangdut Melayu akustik ringan (format kuliner lokal, bukan klaim angka)",
+   "outfit": "OOTD pagi 10 November 2026 dari character_wardrobe (slot pagi)",
+   "caption": "Festival Rempah Sumatera Selatan 2026 digelar 20 sampai 22 November di PTC Mall Palembang, dan tahun ini ada bazar durian. Cukup bayar lima puluh ribu, pengunjung bisa makan durian khas Sumsel sepuasnya selama tiga puluh menit di sesi tertentu. Karena sekarang memang musim durian di Sumsel, aku mulai cari lapak durian di sekitar kota buat pembanding rasanya. Kalian tim durian manis atau yang agak pahit? #durian #palembang #festivalrempah #kulinerpalembang #musimdurian #dailyvlog",
+   "sources": [
+    "https://www.detiksumsel.com/pemerintahan/97417849808/festival-rempah-sumsel-2026-bidik-pasar-timur-tengah-ada-pesta-durian-sepuasnya-cuma-rp50-ribu",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 6.0,
+    "local_relevance": 9.5,
+    "format_fit": 8.5,
+    "evidence_strength": 8.0,
+    "risk_safety": 9.0
+   },
+   "why": "Sudut musim durian belum pernah dipakai dan sangat lokal, tetapi festivalnya baru 20 November sehingga konten hari ini berisiko terasa sebagai pengumuman acara. Bukti harga dan durasi sesi jelas dari satu artikel, tanpa foto atau konfirmasi panitia lain."
+  },
+  {
+   "code": "O",
+   "title": "Hujan Pagi di Palembang: Sarapan Hangat Sebelum Jalan",
+   "pillar": "Daily Vlog Palembang",
+   "hook": "Hujan sudah turun dari subuh di Palembang, jadi sarapan paling masuk akal ya yang hangat dan dekat rumah.",
+   "shots": [
+    "Shot 1 (8s): Dinda berdiri di teras rumah melihat hujan, memegang payung, lalu berjalan ke warung sarapan di ujung gang.",
+    "Shot 2 (8s): Dinda menyeruput sarapan berkuah di bangku warung, uapnya terlihat, lalu ia tersenyum ke kamera sambil menunjuk hujan di luar."
+   ],
+   "sound": "Rainy Day Ambient (format pagi hujan)",
+   "outfit": "OOTD pagi 10 November 2026 dari character_wardrobe (slot pagi)",
+   "caption": "Hujan sudah turun dari subuh di Palembang, dan BMKG memang memprakirakan hujan ringan hampir di semua kecamatan hari ini. Jadi rencana jogging dibatalkan dan aku pindah ke warung sarapan dekat rumah. Kuahnya hangat, porsinya pas, dan harganya tetap ramah buat sarapan hari kerja. Kalian kalau hujan pagi begini paling sering sarapan apa? #palembang #sarapanpagi #dailyvlog #kulinerpalembang #hujanpagi #streetfood",
+   "sources": [
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 9.0,
+    "format_fit": 8.0,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.5
+   },
+   "why": "Bukti cuacanya paling kuat karena langsung dari BMKG, tetapi tema hujan sudah dipakai berulang di bank topik (mie celor musim hujan, gulo palu saat Palembang mulai hujan), jadi nilai kebaruannya rendah dan berisiko terasa mengulang konten yang sudah tayang."
+  }
+ ]
+}

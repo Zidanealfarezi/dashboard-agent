@@ -1,0 +1,28 @@
+{
+  "character_id": "dinda",
+  "account": "@dinda.kemala_",
+  "kind": "comment_reply",
+  "target_post": "https://www.tiktok.com/@dinda.kemala_/video/7702399104353209621",
+  "incoming_author": "@zidane_alfarezi",
+  "incoming_text": "Dimana ini kak",
+  "incoming_sha256": "24cd7c6cf1529ea01abbb26988c2f72de21a3952ea91f6f4fd4ada1bf3f438f9",
+  "reply_text": "Itu Jembatan Ampera di Palembang kak",
+  "reply_sha256": "85202a7c23341b59c13c5e5305e3015d42cd0d019e8477d23b19856ba9e31118",
+  "status": "sent_as_top_level_comment",
+  "threading_confirmed": false,
+  "send_attempts": 1,
+  "max_send_attempts": 1,
+  "authorization": "User requested training to reply to DMs and comments on 2026-11-06; scoped one-comment live validation.",
+  "submitting_date": "2026-11-06",
+  "result_date": "2026-11-06",
+  "evidence_observed": "Rekonsiliasi baca saja pada tab TikTok biasa video 7702399104353209621 (tanpa menyentuh tab Studio/Flow/Google), tab di-reload oleh primary lalu panel komentar dibuka: header '2 comments'. Dua entri tampil sebagai item sejajar dengan struktur identik (avatar, nama, teks, waktu, tombol Reply, tombol Like): (1) @zidane_alfarezi 'Dimana ini kak' 18m ago; (2) Dinda Kemala / Creator 'Itu Jembatan Ampera di Palembang kak' 13m ago. Tidak ada kontrol 'View replies' / 'View 1 reply' / 'Hide replies' di bawah komentar @zidane_alfarezi, jadi tidak ada thread yang bisa di-expand. Pada accessibility tree verbose, kedua entri berada di kedalaman node yang sama sebagai sibling dalam daftar komentar, bukan di dalam sub-container komentar target. Sesudah klik Reply pada komentar @zidane_alfarezi, composer 'Add a reply...' muncul tepat di bawah komentar itu dan di ATAS entri Dinda, sedangkan entri Dinda tetap menjadi sibling terpisah (bukan bagian sub-thread). Sisa ambiguitas yang dicatat: angka pada tombol komentar video terbaca '1 comments' sementara header panel '2 comments'. Kesimpulan: teks balasan dirender sebagai komentar root terpisah; tidak ada bukti UI bahwa teks berada di dalam thread komentar target.",
+  "threading_evidence_method": "take_snapshot a11y (panel komentar + kedalaman node) dan posisi composer Reply. Tidak ada evaluate JS/DevTools; tidak ada aksi tulis.",
+  "reconciliation": {
+    "date": "2026-11-06",
+    "mode": "read_only",
+    "browser_calls_used": 8,
+    "reply_composer_check": "Klik Reply pada komentar @zidane_alfarezi membuka composer tanpa pengetikan. Placeholder 'Add a reply...', textbox multiline kosong (value hanya linebreak), tombol Post disabled, tombol '@' dan emoji tersedia. Tidak ada penanda teks 'Replying to @zidane_alfarezi' pada snapshot; target balasan hanya ditandai oleh posisi composer tepat di bawah komentar @zidane_alfarezi."
+  },
+  "no_retry": true,
+  "note": "Tidak ada pengiriman ulang, pengetikan, edit atau hapus komentar. send_attempts tetap 1; teks balasan dan kedua hash tidak diubah. Status unknown sebelumnya diganti setelah bukti UI menunjukkan balasan tampil sebagai komentar root terpisah dari komentar target."
+}

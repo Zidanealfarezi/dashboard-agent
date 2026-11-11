@@ -1,0 +1,53 @@
+{
+  "id": "pak_vincent",
+  "name": "Pak Vincent",
+  "full_name": "Vincentius (Pak Vinsen)",
+  "tiktok_account": "@pakvincent.riau",
+  "origin": "Pekanbaru, Riau",
+  "content_pillars": [
+    "ladang sawit dan panen TBS (motor langsir, dodos vs egrek, musim trek, pupuk dan perawatan)",
+    "dinamika PKS dan timbangan RAM (sortir buah, potongan tangkai panjang, harga TBS Disbun Riau)",
+    "tanaman karet vs sawit (nostalgia deres getah subuh, alih fungsi lahan, perbandingan ekonomi)",
+    "keseharian bersahaja dan motivasi hidup positif (kopi kebun, rantang makan siang, sapaan dua jari)"
+  ],
+  "language": "Indonesia santai bersahaja dengan tutur kata ramah khas Riau/Sumatera (Wak, Kawan-kawan, Sehat-sehat ya)",
+  "format": "9:16",
+  "employment": "Praktisi & Pekerja Perkebunan Sawit",
+  "job_title": "Pekebun Sawit Bersahaja",
+  "age": 35,
+  "birth_date": null,
+  "height_cm": 168,
+  "weight_kg": 58,
+  "family": null,
+  "friends": null,
+  "residence_details": "Lingkungan perkebunan kelapa sawit, pinggiran Pekanbaru, Riau",
+  "voice_identity": "Suara pria Indonesia matang 35 tahun, hangat, bersahaja, tulus, bicaranya lugas dan santai dengan intonasi ramah khas Riau",
+  "master_image": "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+  "master_image_sha256": "1111a91eb8cf2a48d5ced3471cf81c0fb29e05c14bf65ce3dad68eceef65a825",
+  "body_reference": "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+  "body_reference_sha256": "dae828d0c62b2848e1a3276cd931467916b6863de731d15839494aaf293e5107",
+  "profile_avatar": "FOTO_KARAKTER/PakVincent/pakvincent_profile_avatar.jpg",
+  "profile_avatar_sha256": "848af5df15f71bc1ebf0afebf9b462cf50e5496b8b2099a52bbda6a442ee176c",
+  "master_voice": null,
+  "motion_reference": null,
+  "appearance_status": "reference_visually_verified",
+  "promotional_ratio": null,
+  "flow_account_id": "flow_5",
+  "flow_project_url": "https://flow.google.com/project/9805121c-6c21-4562-aa46-390ad95e5a98",
+  "reference_inbox": "FOTO_KARAKTER/PakVincent",
+  "reference_catalog": "characters/pak_vincent/identity/reference_catalog.json",
+  "master_selection_status": "selected_from_user_references",
+  "master_selection_source": "generated_master_verified",
+  "reference_review_date": "2026-11-11",
+  "expression_references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg"
+  ],
+  "style_references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_profile_avatar.jpg"
+  ],
+  "signature_wardrobe": "Jersey bola vintage biru Samsung Chelsea, celana pendek santai abu-abu gelap, sandal karet kebun, topi baseball cap gelap, kulit sawo matang gelap terbakar matahari khas pekerja kebun, perawakan kurus ramping liat (lean wiry build 168 cm / 58 kg), kumis tipis, senyuman bersahaja dan pose dua jari (peace sign).",
+  "upscale_policy": "Standar terpadu Varian 3 Hybrid Foto-Realistik via app/upscaler.py: input Google Flow wajib 360p lalu Real-ESRGAN NCNN Vulkan Apple M4 (upscayl-lite-4x, texture_preserve=0.45: 55% AI detail + 45% tekstur asli Lanczos CAS + micro grain) menuju kanvas 1080x1920.",
+  "subtitle_policy": "Standar terpadu editorial_tiktok via app/subtitles.py: 2-tier ASS di kanvas 1080x1920 (Ray_Top putih #FFFFFF Helvetica Neue Bold 44 ALL CAPS + Ray_Bot kuning limau #E8FF3B Times New Roman 126 ScaleX=72 lowercase), bebas tanda koma (0% koma), alignment Faster-Whisper.",
+  "production_formula": "Video keseharian kebun sawit Google Flow 360p fleksibel hingga maksimal 20 detik (1x/hari; 1 klip 8-15s) bebas teks AI -> upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x + 45% tekstur asli CAS + grain ke 1080x1920) -> ekstraksi audio Faster-Whisper -> hardsub 2-tier editorial_tiktok tanpa koma."
+}
