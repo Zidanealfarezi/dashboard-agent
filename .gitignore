@@ -24,3 +24,5 @@ __pycache__/
 shared/research/*.sqlite*
 tools/ffmpeg-runtime/*
 !tools/ffmpeg-runtime/SOURCE.json
+.vercel
+.env*

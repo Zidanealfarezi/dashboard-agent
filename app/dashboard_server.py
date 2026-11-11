@@ -24,7 +24,10 @@ FOTO_DIR = BASE_DIR / "FOTO_KARAKTER"
 PORT = 8080
 
 def get_db():
-    conn = sqlite3.connect(DB_PATH)
+    try:
+        conn = sqlite3.connect(f"file:{DB_PATH.resolve()}?mode=ro", uri=True)
+    except Exception:
+        conn = sqlite3.connect(str(DB_PATH))
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -43,6 +46,16 @@ class DashboardHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         sys.stderr.write(f"[{self.log_date_time_string()}] {self.command} {self.path} -> {args[1] if len(args) > 1 else ''}\n")
 
+    def _resolve_request(self):
+        # Resolve path safely (handling Vercel rewrites where self.path might be /api/index.py)
+        raw = self.path
+        if raw in ('/api/index.py', '/api', '/api/'):
+            fwd = self.headers.get('x-forwarded-uri') or self.headers.get('x-matched-path')
+            if fwd:
+                raw = fwd
+        parsed = urllib.parse.urlparse(raw)
+        return parsed.path, urllib.parse.parse_qs(parsed.query)
+
     def send_json(self, data, status=200):
         body = json.dumps(data, ensure_ascii=False, default=str).encode('utf-8')
         self.send_response(status)
@@ -55,17 +68,32 @@ class DashboardHandler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):
         self.send_response(200)
         self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, HEAD')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
         self.end_headers()
 
-    def do_GET(self):
-        parsed = urllib.parse.urlparse(self.path)
-        path = parsed.path
-        query = urllib.parse.parse_qs(parsed.query)
+    def do_HEAD(self):
+        path, _ = self._resolve_request()
+        if path.startswith('/assets/'):
+            target = (BASE_DIR / path[8:]).resolve()
+            if str(target).startswith(str(BASE_DIR)) and target.exists() and target.is_file():
+                mime_type, _ = mimetypes.guess_type(str(target))
+                self.send_response(200)
+                self.send_header('Content-Type', mime_type or 'application/octet-stream')
+                self.send_header('Content-Length', str(target.stat().st_size))
+                self.end_headers()
+                return
+        self.send_response(200)
+        self.end_headers()
 
-        if path == '/' or path == '/index.html':
+    def do_GET(self):
+        path, query = self._resolve_request()
+
+        if path in ('', '/', '/index.html'):
             self.serve_html()
+        elif path == '/favicon.ico':
+            self.send_response(204)
+            self.end_headers()
         elif path.startswith('/assets/'):
             self.serve_asset(path[8:])
         elif path == '/api/overview':
@@ -85,8 +113,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
             self.send_error(404, "Not Found")
 
     def do_POST(self):
-        parsed = urllib.parse.urlparse(self.path)
-        if parsed.path == '/api/query':
+        path, _ = self._resolve_request()
+        if path == '/api/query':
             content_length = int(self.headers.get('Content-Length', 0))
             post_body = self.rfile.read(content_length)
             try:

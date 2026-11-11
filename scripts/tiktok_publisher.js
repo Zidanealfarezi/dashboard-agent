@@ -172,6 +172,9 @@ async function publishApprovedVersion(versionId) {
 
   const destinationAccount = version.destination_account;
   const caption = version.caption;
+  // Percobaan yang dilanjutkan (--publication) bukan post baru; jangan dihitung ganda pada batas harian.
+  const resumeFlagIdx = process.argv.indexOf('--publication');
+  const resumePubId = resumeFlagIdx > -1 ? process.argv[resumeFlagIdx + 1] : null;
 
   console.log(`[TikTok Publisher] Target Akun: ${destinationAccount}`);
   console.log(`[TikTok Publisher] Berkas Media: ${absMediaPath}`);
@@ -200,12 +203,13 @@ async function publishApprovedVersion(versionId) {
   const maxVideoSeconds = Number(byCharCaps[version.character_id] || videoPolicy.max_duration_seconds || 20);
   const todayWib = new Date(Date.now() + 7 * 3600 * 1000).toISOString().slice(0, 10);
   const dailyRows = querySqlite(`
-    SELECT p.state, p.confirmed_at, v.created_at FROM publications p
+    SELECT p.id AS id, p.state, p.confirmed_at, v.created_at FROM publications p
     JOIN versions v ON v.id = p.version_id
     JOIN content c ON c.id = v.content_id
     WHERE c.character_id = '${version.character_id}' AND p.state IN ('submitted', 'confirmed', 'unknown');
   `);
   const todayPubCount = dailyRows.filter(r => {
+    if (resumePubId && r.id === resumePubId) return false;
     const raw = r.state === 'confirmed' && r.confirmed_at ? r.confirmed_at : r.created_at;
     if (!raw) return false;
     const ms = Date.parse(raw);
@@ -231,20 +235,46 @@ async function publishApprovedVersion(versionId) {
   }
 
   // Buka percobaan resmi via app.publication begin (Single-Gatekeeper ACC & Schedule Enforcement)
+  // --publication <id> hanya MELANJUTKAN percobaan yang sudah lolos gerbang dan belum memposting apa pun.
   let pubId;
   const ignoreSchedule = process.argv.includes('--ignore-schedule');
   const scheduleFlag = ignoreSchedule ? '' : ' --enforce-schedule';
-  try {
-    const beginOut = execSync(
-      `python3 -m app.publication begin --version "${versionId}" --account "${destinationAccount}"${scheduleFlag}`,
-      { cwd: PROJECT_ROOT, encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }
-    );
-    const pubRecord = JSON.parse(beginOut);
-    pubId = pubRecord.publication_id;
-    console.log(`[TikTok Publisher] Gerbang ACC Telegram tervalidasi resmi (ID Percobaan: ${pubId})`);
-  } catch (err) {
-    const errMsg = err.stderr ? err.stderr.toString().trim() : err.message;
-    throw new Error(`[Gerbang ACC Ditolak] ${errMsg}`);
+  const resumeIdx = process.argv.indexOf('--publication');
+  const resumePublicationId = resumeIdx > -1 ? process.argv[resumeIdx + 1] : null;
+  if (resumePublicationId) {
+    const rows = querySqlite(`
+      SELECT p.id, p.state, p.version_id, v.destination_account AS account
+      FROM publications p JOIN versions v ON v.id = p.version_id
+      WHERE p.id = '${resumePublicationId}';
+    `);
+    if (!rows || rows.length === 0) {
+      throw new Error(`Percobaan publikasi '${resumePublicationId}' tidak ditemukan.`);
+    }
+    const attempt = rows[0];
+    if (attempt.version_id !== versionId) {
+      throw new Error('Percobaan publikasi bukan untuk versi ACC ini.');
+    }
+    if (attempt.account !== destinationAccount) {
+      throw new Error('Akun tujuan percobaan publikasi tidak cocok dengan ACC.');
+    }
+    if (!['submitted', 'unknown'].includes(attempt.state)) {
+      throw new Error(`Percobaan publikasi tidak dapat dilanjutkan (status ${attempt.state}).`);
+    }
+    pubId = attempt.id;
+    console.log(`[TikTok Publisher] Melanjutkan percobaan publikasi ${pubId} (status awal ${attempt.state})`);
+  } else {
+    try {
+      const beginOut = execSync(
+        `python3 -m app.publication begin --version "${versionId}" --account "${destinationAccount}"${scheduleFlag}`,
+        { cwd: PROJECT_ROOT, encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }
+      );
+      const pubRecord = JSON.parse(beginOut);
+      pubId = pubRecord.publication_id;
+      console.log(`[TikTok Publisher] Gerbang ACC Telegram tervalidasi resmi (ID Percobaan: ${pubId})`);
+    } catch (err) {
+      const errMsg = err.stderr ? err.stderr.toString().trim() : err.message;
+      throw new Error(`[Gerbang ACC Ditolak] ${errMsg}`);
+    }
   }
 
   console.log(`[TikTok Publisher] Percobaan publikasi dicatat (ID: ${pubId}, Status: submitted)`);
@@ -361,18 +391,41 @@ async function publishApprovedVersion(versionId) {
     // 4. Tunggu upload selesai diproses di form hingga kolom editor muncul
     console.log('[TikTok Publisher] Menunggu proses upload di form TikTok hingga editor siap...');
     let uploadReady = false;
-    for (let i = 0; i < 30; i++) {
+    let uploadRetries = 0;
+    for (let i = 0; i < 45; i++) {
       await new Promise(r => setTimeout(r, 2000));
       const status = await send('Runtime.evaluate', {
         expression: `(() => {
           const edit = document.querySelector('.public-DraftEditor-content, [contenteditable="true"]');
-          return !!edit;
+          const body = document.body.innerText || '';
+          return {
+            ready: !!edit && !body.includes('Select video to upload'),
+            failed: body.includes('Something went wrong') || body.includes('Terjadi kesalahan')
+          };
         })()`,
         returnByValue: true
       });
-      if (status.result && status.result.value) {
+      const s = status.result && status.result.value;
+      if (!s) continue;
+      if (s.ready) {
         uploadReady = true;
         break;
+      }
+      if (s.failed && uploadRetries < 2) {
+        uploadRetries += 1;
+        console.log(`[TikTok Publisher] TikTok melaporkan gagal unggah; mencoba ulang (${uploadRetries}/2)...`);
+        await send('Runtime.evaluate', {
+          expression: `(() => {
+            const btn = Array.from(document.querySelectorAll('button')).find(b => (b.innerText || '').trim() === 'Retry');
+            if (btn) btn.click();
+          })()`
+        });
+        await new Promise(r => setTimeout(r, 3000));
+        const retryDoc = await send('DOM.getDocument');
+        const retryInput = await send('DOM.querySelector', { nodeId: retryDoc.root.nodeId, selector: 'input[type="file"]' });
+        if (retryInput && retryInput.nodeId) {
+          await send('DOM.setFileInputFiles', { files: [absMediaPath], nodeId: retryInput.nodeId });
+        }
       }
     }
 
@@ -383,17 +436,33 @@ async function publishApprovedVersion(versionId) {
 
     await new Promise(r => setTimeout(r, 2500));
 
-    // Dismiss modal "Turn on automatic content checks?" jika muncul agar tidak menghalangi fokus editor
-    await send('Runtime.evaluate', {
+    // Catat modal yang muncul; jangan menekan Cancel karena bisa membatalkan pemrosesan unggahan.
+    const modalInfo = await send('Runtime.evaluate', {
       expression: `(() => {
-        const dialog = document.body.innerText.includes('automatic content checks');
-        if (dialog) {
-          const btn = Array.from(document.querySelectorAll('button')).find(b => ['Cancel', 'Batal'].includes((b.innerText || '').trim()));
-          if (btn) btn.click();
-        }
-      })()`
+        const body = document.body.innerText || '';
+        return {
+          contentChecks: body.includes('automatic content checks'),
+          buttons: Array.from(document.querySelectorAll('button')).map(b => (b.innerText || '').trim()).filter(t => t && t.length < 24).slice(0, 12)
+        };
+      })()`,
+      returnByValue: true
     });
+    console.log('[TikTok Publisher] Status modal setelah unggah:', JSON.stringify(modalInfo.result && modalInfo.result.value));
     await new Promise(r => setTimeout(r, 800));
+
+    // Pastikan editor benar-benar siap tepat sebelum mengetik caption (hindari race saat upload selesai)
+    for (let i = 0; i < 6; i++) {
+      const ready = await send('Runtime.evaluate', {
+        expression: `(() => {
+          const edit = document.querySelector('.public-DraftEditor-content, [contenteditable="true"]');
+          const body = document.body.innerText || '';
+          return !!edit && !body.includes('Select video to upload');
+        })()`,
+        returnByValue: true
+      });
+      if (ready.result && ready.result.value) break;
+      await new Promise(r => setTimeout(r, 2000));
+    }
 
     // 5. Masukkan Caption dengan Pure CDP Keyboard Simulation (tanpa execCommand agar React Draft.js tidak crash)
     console.log('[TikTok Publisher] Memasukkan caption teks...');
@@ -414,21 +483,25 @@ async function publishApprovedVersion(versionId) {
       throw new Error('Kolom caption contenteditable tidak ditemukan di halaman upload');
     }
 
-    const { x, y } = focusEditor.result.value;
-    await send('Input.dispatchMouseEvent', { type: 'mousePressed', x, y, button: 'left', clickCount: 1 });
-    await send('Input.dispatchMouseEvent', { type: 'mouseReleased', x, y, button: 'left', clickCount: 1 });
+    const focusState = focusEditor.result.value;
+    console.log('[TikTok Publisher] Fokus editor:', JSON.stringify(focusState));
+    // Klik mouse sengaja dilewati: el.focus() sudah mengaktifkan editor, sedangkan klik
+    // pada koordinat editor terbukti bisa menutup form unggahan (11 Nov 2026).
     await new Promise(r => setTimeout(r, 400));
 
-    // Clear default filename placeholder safely via native Select All + Backspace
-    // Modifiers: 8 = Meta (macOS Cmd), 4 = Control (Windows/Linux)
+    // Bersihkan placeholder nama file dengan seleksi terbatas di dalam editor saja
+    // (hindari document.execCommand('selectAll') yang bisa memilih seluruh halaman).
     await send('Runtime.evaluate', {
       expression: `(() => {
         const el = document.querySelector('.public-DraftEditor-content, [contenteditable="true"]');
-        if (el) {
-          el.focus();
-          document.execCommand('selectAll', false, null);
-          document.execCommand('delete', false, null);
-        }
+        if (!el) return false;
+        el.focus();
+        const sel = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(el);
+        sel.removeAllRanges();
+        sel.addRange(range);
+        return true;
       })()`
     });
     await new Promise(r => setTimeout(r, 200));
@@ -462,7 +535,11 @@ async function publishApprovedVersion(versionId) {
         const expected = ${JSON.stringify(caption)};
         if (norm(el.innerText) !== norm(expected)) {
           el.focus();
-          document.execCommand('selectAll', false, null);
+          const sel = window.getSelection();
+          const range = document.createRange();
+          range.selectNodeContents(el);
+          sel.removeAllRanges();
+          sel.addRange(range);
           document.execCommand('insertText', false, expected);
           el.dispatchEvent(new Event('input', { bubbles: true }));
           el.dispatchEvent(new Event('change', { bubbles: true }));
@@ -471,10 +548,17 @@ async function publishApprovedVersion(versionId) {
     });
     await new Promise(r => setTimeout(r, 1000));
 
-    // Tutup autocomplete hashtag jika terbuka
-    await send('Input.dispatchKeyEvent', { type: 'rawKeyDown', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
-    await send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
-    await new Promise(r => setTimeout(r, 800));
+    // Tutup autocomplete hashtag jika benar-benar terbuka (jangan kirim Escape saat form normal,
+    // karena Escape pada TikTok Studio dapat menutup form upload yang sedang terisi).
+    const suggestionOpen = await send('Runtime.evaluate', {
+      expression: `(() => !!document.querySelector('[role="listbox"], .suggestion-list, .hashtag-suggestion'))()`,
+      returnByValue: true
+    });
+    if (suggestionOpen.result && suggestionOpen.result.value) {
+      await send('Input.dispatchKeyEvent', { type: 'rawKeyDown', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
+      await send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
+      await new Promise(r => setTimeout(r, 800));
+    }
 
     // Gerbang Asersi Validasi Caption: Exact Match & Anti-Placeholder Guard
     const verifyCaption = await send('Runtime.evaluate', {
@@ -500,7 +584,7 @@ async function publishApprovedVersion(versionId) {
     if (!verifyCaption.result.value.ok) {
       execSqlite(`UPDATE publications SET state = 'unknown' WHERE id = '${pubId}';`);
       const r = verifyCaption.result.value;
-      throw new Error(`Asersi gagal: Teks caption di editor TikTok tidak cocok 100% dengan naskah ACC Telegram!\nIsi editor: "${r.text}"\nNaskah ACC: "${r.expected}"\nPlaceholder terdeteksi: ${r.isBadPlaceholder}`);
+      throw new Error(`Asersi gagal: Teks caption di editor TikTok tidak cocok 100% dengan naskah ACC Telegram!\nAlasan: ${r.reason || '-'}\nIsi editor: "${r.text}"\nNaskah ACC: "${r.expected}"\nPlaceholder terdeteksi: ${r.isBadPlaceholder}`);
     }
 
     // 6. Pastikan visibilitas Everyone / Semua orang
