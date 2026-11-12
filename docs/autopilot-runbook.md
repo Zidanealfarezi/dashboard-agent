@@ -225,3 +225,12 @@ Tanggal divalidasi `YYYY-MM-DD`; format lain ditolak (`STOP: --day tidak valid`)
 Catatan pembukuan 8 Nov: job generasi 6c89301d… menggantung `running` dan publikasi
 9c959bd6… menunjuk versi yang tidak ada — lihat
 `operations/reports/incident-2026-11-08-production-bookkeeping.md`.
+
+## Slot: koreksi jenis lewat jalur resmi
+
+`plan-day` sekarang punya `--kind photo|video` dan `--character <id>` (boleh diulang).
+Slot yang masih `needs_plan` boleh dikoreksi jenis/durasinya lewat perintah itu; slot yang sudah
+`planned`/`reserved` tidak pernah diubah. Jangan lagi memakai `UPDATE daily_slots SET kind=...`
+manual — jalur resmi sudah tersedia dan teruji (`tests/test_autopilot.py`).
+
+Contoh: `python3 -m app.autopilot plan-day --date 2026-11-12 --kind video --character dinda`

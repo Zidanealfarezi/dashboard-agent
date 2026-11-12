@@ -185,7 +185,9 @@ Pagi dan malam dijamin 100% berbeda pakaian & anti-monoton. Dapur produksi siap 
   try {
     const credPath = path.join(PROJECT_ROOT, 'private/credentials/telegram.json');
     const cfgPath = path.join(PROJECT_ROOT, 'config/telegram.json');
-    if (fs.existsSync(credPath) && fs.existsSync(cfgPath)) {
+    if (process.env.WARDROBE_NO_TELEGRAM === '1') {
+      console.log('[Wardrobe 05:00] WARDROBE_NO_TELEGRAM=1: laporan tidak dikirim ke Telegram (hanya log).');
+    } else if (fs.existsSync(credPath) && fs.existsSync(cfgPath)) {
       const cfg = JSON.parse(fs.readFileSync(cfgPath, 'utf8'));
       if (cfg.enabled && cfg.allowed_chat_ids && cfg.allowed_chat_ids.length > 0) {
         const cred = JSON.parse(fs.readFileSync(credPath, 'utf8'));

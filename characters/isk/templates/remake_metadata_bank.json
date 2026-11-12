@@ -1,0 +1,125 @@
+{
+  "character_id": "isk",
+  "brand": "PT Intan Suar Kartika",
+  "account": "@intansuarkartika",
+  "whatsapp_cta": "wa.me/62819889350",
+  "voice_persona": {
+    "archetype": "Mandor Senior & Ahli Material Konstruksi",
+    "tone": "Lugas, praktis, realistis, percaya diri, tanpa basa-basi",
+    "strict_rule": "0% emoji di seluruh caption dan naskah"
+  },
+  "framework": {
+    "total_duration_seconds": "14 - 19",
+    "hook_layer_1_visual": "0.0s physical torture test / real product action",
+    "hook_layer_2_tos": "3-5 words all-caps bold on-screen headline",
+    "hook_layer_3_spoken": "7-12 words direct problem-focused spoken hook",
+    "outro_asset": "characters/isk/assets/brand/outro_keris_isk.mp4",
+    "outro_duration_seconds": 4.07
+  },
+  "remake_themes": [
+    {
+      "id": "isk_remake_001",
+      "pillar": "Kawat Duri Diamond",
+      "topic": "Uji Tarik Beban Sapi & Hewan Liar (Anti-Melar)",
+      "target_audience": "Pemilik kebun sawit, petani hortikultura, peternak",
+      "visual_anchor": "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg",
+      "hook_visual_0s": "Mandor menarik kencang bentangan kawat duri baja dengan tuas katrol pada tiang batas kebun, lilitan 4 titik duri tetap simetris tegak tanpa melar atau bergeser",
+      "text_on_screen": "UJI TARIK ANTI MELAR",
+      "spoken_hook": "Kawat duri abal-abal baru diseruduk ternak sekali langsung melar dan kendor!",
+      "core_action_3_10s": "Mandor menunjukkan sambungan kawat galvanis Diamond yang tahan tarikan ekstrem ratusan kilogram, melindungi perimeter lahan dari serobotan ternak dan hama babi hutan.",
+      "save_bait_cta": "Simpan video ini biar batas kebun sawit dan lahan kamu aman bertahun-tahun.",
+      "caption": "Pagar batas kebun jangan asal pasang kalau gak mau boncos benerin kawat melar tiap bulan. Kawat Duri Diamond dari PT Intan Suar Kartika, lilitan duri 4 titik presisi dan galvanis anti karat tahan cuaca ekstrem. Pemesanan distributor langsung via WhatsApp wa.me/62819889350. #kawatduridiamond #pagarkebun #kebunsawit #intansuarkartika #petaniindonesia"
+    },
+    {
+      "id": "isk_remake_002",
+      "pillar": "Kawat Duri Diamond",
+      "topic": "Proteksi Panen Sawit Malam Hari (Anti-Maling TBS)",
+      "target_audience": "Pekebun sawit mandiri, pengelola perkebunan Riau & Sumut",
+      "visual_anchor": "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg",
+      "hook_visual_0s": "Sorot senter malam hari menampakkan kilau tajam 4 titik duri galvanis Diamond di sepanjang perbatasan kebun sawit lebat",
+      "text_on_screen": "PENGAMAN PANEN SAWIT",
+      "spoken_hook": "Jangan sampai kerja keras setahun di kebun sawit dipanen gratis sama maling di malam hari!",
+      "core_action_3_10s": "Mandor memperlihatkan kerapatan jarak duri yang dipasang bertingkat pada tiang beton cor, mustahil dipanjat atau diterobos tanpa alat pemotong baja berat.",
+      "save_bait_cta": "Simpan panduan jarak pasang pagar duri ini buat persiapan pagar kebun kamu.",
+      "caption": "Investasi kebun sawit puluhan juta bisa raib kalau perbatasan lahan tidak dikunci rapat. Amankan perimeter kebun Anda dengan Kawat Duri Diamond dari PT Intan Suar Kartika. Baja galvanis anti-karat dengan lilitan duri ekstra tajam dan kokoh. Hubungi distributor via WhatsApp wa.me/62819889350. #kawatduridiamond #sawitindonesia #kebunsawit #keamanankebun #intansuarkartika"
+    },
+    {
+      "id": "isk_remake_003",
+      "pillar": "Paku Cap Keris",
+      "topic": "Adu Hantam Palu: Paku Curah vs Paku Cap Keris di Balok Ulin",
+      "target_audience": "Tukang kayu, mandor struktur atap, pemborong bangunan",
+      "visual_anchor": "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg",
+      "hook_visual_0s": "Split visual palu menghantam paku murah yang langsung meleyot bengkok huruf L di pukulan pertama, disusul Paku Cap Keris yang menembus serat balok kayu ulin padat dengan sekali hantam lurus",
+      "text_on_screen": "ADU PAKU DI BALOK ULIN",
+      "spoken_hook": "Ini alasan kenapa tukang kayu senior gak pernah mau disodorin paku curah murahan!",
+      "core_action_3_10s": "Tukang menunjukkan batang paku Cap Keris yang lurus sempurna menembus kayu keras tanpa cacat, terbuat dari baja murni standar mutu ekspor SNI.",
+      "save_bait_cta": "Simpan video ini biar belanja material kuda-kuda atap kamu gak salah pilih paku.",
+      "caption": "Kerja kayu keras jangan pertaruhkan keselamatan rangka atap dengan paku murah yang gampang meleyot. Paku Cap Keris dari PT Intan Suar Kartika, batang baja kokoh mutu ekspor tembus lurus tanpa bengkok. Pasokan resmi toko bangunan via WhatsApp wa.me/62819889350. #pakucapkeris #tukangkayu #proyekkonstruksi #bahankonstruksi #intansuarkartika"
+    },
+    {
+      "id": "isk_remake_004",
+      "pillar": "Paku Cap Keris",
+      "topic": "Bongkar Trik Timbangan Kardus: Curang 3 Kilo Tiap Dus",
+      "target_audience": "Pemilik toko bangunan, kontraktor proyek, mandor belanja",
+      "visual_anchor": "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg",
+      "hook_visual_0s": "Kardus paku diletakkan di atas timbangan digital besar, angka langsung mengunci pada angka pas 25.00 KG murni tanpa kurang",
+      "text_on_screen": "BONGKAR TRIK TIMBANGAN",
+      "spoken_hook": "Beli paku murah satu dus katanya dua puluh lima kilo, pas ditimbang cuma dua puluh dua kilo!",
+      "core_action_3_10s": "Pemilik toko material menjelaskan selisih 3 kg dari kardus curah yang merugikan jutaan rupiah, menegaskan komitmen Paku Cap Keris yang menjamin timbangan bersih pas 25 kg netto.",
+      "save_bait_cta": "Simpan tips ini dan selalu timbang dus paku sebelum bayar di toko material.",
+      "caption": "Jangan tergiur harga paku dus murah kalau isinya disunat 2 sampai 3 kilogram. Paku Cap Keris dari PT Intan Suar Kartika selalu memberikan jaminan timbangan pas 25 kg murni dengan mutu baja ekspor bersertifikasi SNI. Pemesanan partai besar via WhatsApp wa.me/62819889350. #pakucapkeris #tokobangunan #kontraktor #kejujurantimbangan #intansuarkartika"
+    },
+    {
+      "id": "isk_remake_005",
+      "pillar": "Paku Cap Keris",
+      "topic": "Kunci Atap Seng Anti-Rembes Badai Musim Hujan",
+      "target_audience": "Tukang atap, renovasi rumah, pemilik gudang",
+      "visual_anchor": "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg",
+      "hook_visual_0s": "Tukang atap memalu paku payung Cap Keris di atas seng gelombang, piringan payung dan seal karet mengunci rapat gelombang seng tanpa merobek plat seng",
+      "text_on_screen": "KUNCI ATAP ANTI REMBES",
+      "spoken_hook": "Baru hujan angin pertama atap rumah sudah bocor gara-gara paku seng mekar karatan!",
+      "core_action_3_10s": "Menunjukkan detail piringan payung presisi Cap Keris yang menahan tarikan angin badai dan mencegah celah rembesan air hujan masuk ke plafon rumah.",
+      "save_bait_cta": "Simpan video ini sebelum mulai pasang seng atau asbes rumah musim hujan ini.",
+      "caption": "Pasang atap seng dan asbes wajib pakai paku payung presisi agar tidak bocor saat diterpa angin kencang. Paku Cap Keris dari PT Intan Suar Kartika mengunci rapat gelombang atap dengan batang baja anti-karat yang kokoh. Pemesanan distributor langsung via WhatsApp wa.me/62819889350. #pakucapkeris #ataprumah #tukangatap #renovasirumah #intansuarkartika"
+    },
+    {
+      "id": "isk_remake_006",
+      "pillar": "Kereta Sorong Five Star",
+      "topic": "Uji Jatuh Batu Kali 200 KG (Torture Test Bak Baja)",
+      "target_audience": "Pekerja proyek sipil, mandor galian, pemborong jembatan",
+      "visual_anchor": "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg",
+      "hook_visual_0s": "Dua kuli proyek mengangkat sebongkah batu kali tajam seberat puluhan kilo dan membantingnya langsung ke dalam bak merah Five Star; plat baja tebal hanya berdentang tanpa penyok melengkung",
+      "text_on_screen": "UJI JATUH BATU KALI",
+      "spoken_hook": "Gerobak kaleng-kaleng dijatuhin batu kali langsung tembus penyok, tapi lihat Five Star!",
+      "core_action_3_10s": "Kamera menyorot plat baja press tebal hidrolik dan pipa penopang merah kokoh, lalu pekerja mendorong muatan batu penuh melintasi jalan berkerikil tajam.",
+      "save_bait_cta": "Simpan video ini biar proyek kamu gak boncos beli gerobak bolak-balik.",
+      "caption": "Kerja kasar angkut batu kali dan adukan cor butuh armada yang tahan banting. Kereta Sorong Five Star dari PT Intan Suar Kartika dirancang dengan bak plat baja press tebal anti-penyok dan roda ban angin kokoh di segala medan proyek. Pemesanan distributor via WhatsApp wa.me/62819889350. #keretasorongfivestar #alatproyek #materialbangunan #kontraktor #intansuarkartika"
+    },
+    {
+      "id": "isk_remake_007",
+      "pillar": "Kereta Sorong Five Star",
+      "topic": "Melibas Jalur Lumpur Becek Kebun Sawit (Anti-Kepater)",
+      "target_audience": "Pekerja panen sawit, mandor perkebunan kelapa sawit",
+      "visual_anchor": "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg",
+      "hook_visual_0s": "Roda ban angin berulir tebal Five Star melibas kubangan tanah merah becek perkebunan sawit bermuatan tandan buah segar penuh tanpa selip atau tergelincir",
+      "text_on_screen": "LIBAS LUMPUR BECEK",
+      "spoken_hook": "Musim hujan bikin armada angkut buah sawit mandek kepater di jalan becek!",
+      "core_action_3_10s": "Pekerja kebun mendorong santai muatan TBS sawit 150 kg melewati papan titian licin, membuktikan kestabilan as roda tunggal dan cengkeraman ban angin Five Star.",
+      "save_bait_cta": "Simpan video ini buat rekomendasi armada angkut panen sawit musim penghujan.",
+      "caption": "Jalur becek perkebunan bukan halangan untuk kelancaran panen sawit Anda. Kereta Sorong Five Star dari PT Intan Suar Kartika dilengkapi ban angin tebal berulir traktor yang tetap mencengkeram stabil di tanah berlumpur. Hubungi distributor resmi via WhatsApp wa.me/62819889350. #keretasorongfivestar #sawitriau #kebunsawit #alatperkebunan #intansuarkartika"
+    },
+    {
+      "id": "isk_remake_008",
+      "pillar": "Kawat Licin Diamond",
+      "topic": "Tes Pintal Tang Catut 360 Derajat Tulangan Besi Cor (Anti-Getas)",
+      "target_audience": "Tukang pembesian, mandor struktur kolom, kontraktor gedung",
+      "visual_anchor": "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg",
+      "hook_visual_0s": "Tang catut memelintir kawat licin Diamond mengikat pertemuan dua besi beton ulir berputar 3 kali tarikan super kencang dalam satu detik tanpa putus",
+      "text_on_screen": "TES PINTAL TANG CATUT",
+      "spoken_hook": "Kawat ikat murahan dipelintir sekali langsung putus, bikin kerjaan anyam besi molor seharian!",
+      "core_action_3_10s": "Tukang besi memperlihatkan kuncian ikatan kawat yang kencang mengikat tulangan kolom beton, membuktikan keuletan kawat baja galvanis Diamond yang lentur dan bebas getas.",
+      "save_bait_cta": "Simpan tips pembesian ini biar kerjaan anyam besi kolom kamu dua kali lebih cepat.",
+      "caption": "Pekerjaan anyam besi tulangan kolom cor beton lebih cepat dan kokoh dengan Kawat Licin Diamond dari PT Intan Suar Kartika. Ulet, lentur, dan tidak gampang putus saat ditarik kencang dengan tang catut. Pasokan toko bangunan dan proyek via WhatsApp wa.me/62819889350. #kawatlicindiamond #kawatikat #besicor #proyekbangunan #intansuarkartika"
+    }
+  ]
+}

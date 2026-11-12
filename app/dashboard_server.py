@@ -504,8 +504,9 @@ class DashboardHandler(BaseHTTPRequestHandler):
         <h4 class="text-xs font-bold text-slate-900">Operations Status</h4>
         <p class="text-[10.5px] text-slate-600 leading-snug mt-0.5">Semua pipeline AI Influencer & TikTok Studio aktif normal.</p>
       </div>
-      <button onclick="refreshData()" class="w-full py-1.5 px-3 bg-white text-slate-900 hover:bg-slate-50 rounded-xl text-xs font-bold shadow-sm transition-all border border-slate-200/50">
-        Sync Database
+      <button onclick="triggerManualRefresh()" class="w-full py-1.5 px-3 bg-white text-slate-900 hover:bg-slate-50 rounded-xl text-xs font-bold shadow-sm transition-all border border-slate-200/50 flex items-center justify-center space-x-1.5">
+        <i data-lucide="refresh-cw" class="w-3.5 h-3.5 text-purple-600"></i>
+        <span>Sync Database Sekarang</span>
       </button>
     </div>
   </aside>
@@ -523,7 +524,21 @@ class DashboardHandler(BaseHTTPRequestHandler):
         </div>
 
         <!-- Top Right Action Links & User Profile -->
-        <div class="flex items-center space-x-6 text-xs font-medium">
+        <div class="flex items-center space-x-4 md:space-x-6 text-xs font-medium">
+          <!-- Live Auto-Sync Status & Refresh Controls (Cara 3) -->
+          <div class="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/20 text-xs shadow-sm">
+            <span class="relative flex h-2.5 w-2.5">
+              <span id="live-pulse" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span id="live-dot" class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
+            </span>
+            <span id="live-status-text" class="text-white font-medium text-[11px] whitespace-nowrap">Auto-Sync 15s</span>
+            <button id="btn-toggle-autosync" onclick="toggleAutoSync()" class="px-2 py-0.5 text-[10px] bg-white/20 hover:bg-white/30 rounded text-white font-semibold transition-colors" title="Nyalakan/matikan auto refresh">Jeda</button>
+            <button id="btn-manual-refresh" onclick="triggerManualRefresh()" class="p-1 hover:bg-white/20 rounded text-white transition-colors" title="Segarkan sekarang">
+              <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5"></i>
+            </button>
+            <span id="last-updated-text" class="text-[10px] text-purple-200 hidden sm:inline ml-1 font-mono">Memuat...</span>
+          </div>
+
           <div class="hidden md:flex items-center space-x-4 text-purple-100">
             <span class="hover:text-white cursor-pointer transition-colors" onclick="switchTab('overview')">Ringkasan</span>
             <span class="hover:text-white cursor-pointer transition-colors" onclick="switchTab('publications')">Publikasi Live</span>
@@ -1017,9 +1032,89 @@ class DashboardHandler(BaseHTTPRequestHandler):
     let tableSearchTimer = null;
     let sqlExportData = [];
 
+    // AUTO-SYNC & LIVE POLLING CONFIGURATION (CARA 3)
+    let autoSyncInterval = 15000; // polling setiap 15 detik
+    let autoSyncTimer = null;
+    let isAutoSyncEnabled = true;
+    let isRefreshing = false;
+
+    function setLastUpdated() {
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      const el = document.getElementById('last-updated-text');
+      if (el) el.innerText = timeStr;
+    }
+
+    async function triggerManualRefresh() {
+      const icon = document.getElementById('icon-refresh');
+      if (icon) icon.classList.add('animate-spin');
+      await performRefresh();
+      setTimeout(() => {
+        if (icon) icon.classList.remove('animate-spin');
+      }, 700);
+    }
+
+    async function performRefresh() {
+      if (isRefreshing) return;
+      isRefreshing = true;
+      try {
+        await refreshData();
+        if (activeTab === 'characters') await loadCreators();
+        else if (activeTab === 'publications') await loadFullPublications();
+        else if (activeTab === 'approvals') await loadFullApprovals();
+        else if (activeTab === 'tables') {
+          // Hanya refresh tabel jika input search tidak sedang difokuskan pengguna
+          const searchInput = document.getElementById('table-search-input');
+          if (document.activeElement !== searchInput) {
+            await loadSelectedTable();
+          }
+        }
+        setLastUpdated();
+      } catch (err) {
+        console.error("Auto-sync performRefresh error:", err);
+      } finally {
+        isRefreshing = false;
+      }
+    }
+
+    function startAutoSync() {
+      if (autoSyncTimer) clearInterval(autoSyncTimer);
+      if (!isAutoSyncEnabled) return;
+      autoSyncTimer = setInterval(async () => {
+        // Hanya fetch jika tab browser sedang aktif/dilihat
+        if (!document.hidden) {
+          await performRefresh();
+        }
+      }, autoSyncInterval);
+    }
+
+    function toggleAutoSync() {
+      isAutoSyncEnabled = !isAutoSyncEnabled;
+      const pulse = document.getElementById('live-pulse');
+      const dot = document.getElementById('live-dot');
+      const statusText = document.getElementById('live-status-text');
+      const btnToggle = document.getElementById('btn-toggle-autosync');
+
+      if (isAutoSyncEnabled) {
+        if (pulse) pulse.classList.remove('hidden');
+        if (dot) { dot.classList.remove('bg-slate-400'); dot.classList.add('bg-emerald-400'); }
+        if (statusText) statusText.innerText = 'Auto-Sync 15s';
+        if (btnToggle) btnToggle.innerText = 'Jeda';
+        startAutoSync();
+        performRefresh();
+      } else {
+        if (pulse) pulse.classList.add('hidden');
+        if (dot) { dot.classList.remove('bg-emerald-400'); dot.classList.add('bg-slate-400'); }
+        if (statusText) statusText.innerText = 'Auto-Sync: Jeda';
+        if (btnToggle) btnToggle.innerText = 'Mulai';
+        if (autoSyncTimer) clearInterval(autoSyncTimer);
+      }
+    }
+
     async function initApp() {
-      await refreshData();
+      await performRefresh();
       await loadTableDropdownOptions();
+      startAutoSync();
       lucide.createIcons();
     }
 
@@ -1057,9 +1152,10 @@ class DashboardHandler(BaseHTTPRequestHandler):
 
         // Render transactions list
         const txContainer = document.getElementById('overview-transactions-list');
+        const todayDateStr = new Date().toLocaleDateString('id-ID', { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' });
         txContainer.innerHTML = `
           <div>
-            <span class="text-[11px] font-bold text-slate-400 block mb-2">Rabu, 11 Nov 2026</span>
+            <span class="text-[11px] font-bold text-slate-400 block mb-2">${todayDateStr}</span>
             <div class="space-y-2">
               ${data.recent_publications.slice(0, 5).map(p => `
                 <div class="flex items-center justify-between p-3 rounded-2xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100">

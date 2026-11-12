@@ -87,6 +87,27 @@ class AutopilotTests(unittest.TestCase):
                                           'https://labs.google/test-project', 'Test model',
                                           6, 1, credits, self.clock)
 
+    def test_omni_12_policy_blocks_old_model_at_both_gates(self):
+        self.enable_generation()
+        args = self.db, self.root, self.slot, 'flow_1'
+        autopilot.reserve(*args, 'Omni 1.1 Flash', 20, self.clock)
+        self.settings['generation_preferences'] = {
+            'preferred_model_family': 'Omni 1.2 Flash',
+            'fallback_model_requires_user_decision': True,
+        }
+        self.write('config/autopilot.json', self.settings)
+        with self.assertRaisesRegex(review.ReviewError, 'Omni 1.2 Flash'):
+            autopilot.begin_submission(*args, 'https://labs.google/test-project',
+                                       'Omni 1.1 Flash', 6, 1, 20, self.clock)
+        self.db.execute('UPDATE daily_slots SET state=\'planned\', job_id=NULL WHERE id=?', (self.slot,))
+        self.db.execute('DELETE FROM generation_jobs')
+        self.db.commit()
+        with self.assertRaisesRegex(review.ReviewError, 'Omni 1.2 Flash'):
+            autopilot.reserve(*args, 'Omni 1.1 Flash', 20, self.clock)
+        job = autopilot.reserve(*args, 'Omni Flash 1.2', 20, self.clock)
+        self.assertEqual(autopilot.begin_submission(*args, 'https://labs.google/test-project',
+                                                    'Omni Flash 1.2', 6, 1, 20, self.clock), job)
+
     def plan_isk_video(self):
         profile = autopilot.load(autopilot.ROOT, 'characters/isk/profile.json')
         self.write('characters/isk/profile.json', profile)
@@ -406,6 +427,27 @@ class AutopilotTests(unittest.TestCase):
                        flow={'model': 'Omni Flash 1.2', 'duration_options_seconds': [15, 17]})
         with self.assertRaisesRegex(review.ReviewError, 'maksimal 20 detik'):
             autopilot.save_plan(self.db, self.root, self.slot, bad_isk, self.clock)
+
+
+    def test_plan_day_kind_override_and_character_filter(self):
+        # 2026-11-06 = indeks 2 -> rotasi foto; override resmi ke video untuk satu karakter.
+        slots = autopilot.plan_day(self.db, self.root, '2026-11-06',
+                                   kind='video', character_ids=['dinda'])
+        self.assertEqual(len(slots), 1)
+        self.assertEqual(slots[0]['character_id'], 'dinda')
+        self.assertEqual(slots[0]['kind'], 'video')
+        self.assertIn(slots[0]['duration_seconds'], (4, 6, 8, 10))
+        # Tanpa override, rotasi tetap menghasilkan foto untuk ketiga karakter.
+        plain = autopilot.plan_day(self.db, self.root, '2026-11-09')
+        self.assertEqual(len(plain), 3)
+        self.assertEqual({s['kind'] for s in plain}, {'photo'})
+        self.assertEqual({s['duration_seconds'] for s in plain}, {None})
+
+    def test_plan_day_rejects_unknown_kind_and_character(self):
+        with self.assertRaisesRegex(review.ReviewError, 'photo atau video'):
+            autopilot.plan_day(self.db, self.root, '2026-11-07', kind='audio')
+        with self.assertRaisesRegex(review.ReviewError, 'tidak ada di siklus'):
+            autopilot.plan_day(self.db, self.root, '2026-11-07', character_ids=['bang_ray'])
 
 
 if __name__ == '__main__':

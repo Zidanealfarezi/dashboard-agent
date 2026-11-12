@@ -1,0 +1,74 @@
+{
+ "character_id": "dinda",
+ "kind": "video",
+ "duration_seconds": 10,
+ "role_tags": [
+  "kuliner",
+  "lifestyle"
+ ],
+ "role_reason": "Harga cabai rawit Rp98.000/kg adalah pemicu kuliner paling konkret hari ini dan langsung menyentuh cuko pempek yang jadi pilar kuliner Dinda; prakiraan hujan ringan BMKG membuat adegan makan berkuah di dalam warung tetap masuk akal.",
+ "title": "Cabai Rawit Rp98 Ribu per Kilo, Cuko Pempek Ikut Pedas di Kantong",
+ "hook": "Cabai rawit merah sekarang Rp98 ribu per kilo. Cuko pempek yang biasanya bikin keringetan itu masih sanggup dibeli tiap hari?",
+ "story": "Dinda duduk di warung pempek langganan saat hujan ringan Palembang. Ia memegang mangkuk cuko, menyebut harga cabai rawit merah dari data PIHPS 11 November 2026, lalu menyendok cuko ke pempek sambil bertanya ke penonton apakah porsi atau harga pempek langganan mereka ikut berubah. Cerita ini belum canon.",
+ "caption": "Data PIHPS Nasional yang dikutip Detik Sumsel dan ANTARA pada 11 November 2026 mencatat cabai rawit merah Rp98.000 per kilogram, cabai merah keriting Rp85.650, dan cabai merah besar Rp67.350 per kilogram. Itu harga eceran nasional, bukan harga khusus Palembang, tapi cuko pempek dan tekwan kita hampir selalu bertumpu pada cabai. Kalau harga cabai bertahan di level ini, warung langganan kalian pilih naikkan harga atau kurangi pedasnya? #pempek #cuko #hargapangan #kulinerpalembang #palembang #dailyvlog",
+ "image_prompt": "Vertical 9:16 smartphone vlog frame, 360p source. Dinda Kemala, 165 cm slender modest Indonesian woman wearing a light beige pashmina hijab, taupe-khaki striped knit button cardigan and cream pleated palazzo trousers, small gold ring and thin gold necklace. She sits at a simple wooden table inside a modest Palembang pempek warung, a ceramic bowl of dark cuko sauce in her hands and a plate of pempek in front of her. Background: warung interior with steam, hanging bulbs and rain visible through the open doorway. Shot on smartphone vlog camera, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Identity locked to the attached three-expression face sheet, body turnaround and outfit reference; keep hijab, cardigan, palazzo, accessories, colors and textures unchanged. Completely clean frame: no text, no captions, no subtitles, no HUD, no camera metadata overlay, no timestamps, no watermark, no logos.",
+ "shots": [
+  {
+   "seconds": 10,
+   "prompt": "Vertical 9:16, 360p, single continuous take, shot on smartphone vlog camera, handheld smartphone vlog framing at chest height with slight natural sway. Dinda sits at the pempek warung table, lifts the cuko bowl slightly, looks into the lens and speaks in natural Indonesian with accurate lip-sync: \"Cabai rawit merah sekarang sembilan puluh delapan ribu sekilo. Cuko pempek tetap pedas, tapi dompet yang kena.\" She smiles wryly, then spoons cuko over a piece of pempek and glances back to camera. Ambient warung sound only: spoon against ceramic, rain outside, distant chatter, no music. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Identity and outfit locked to the attached face sheet, body turnaround and outfit reference. Clean raw frame: no text, no subtitles, no captions, no HUD, no camera metadata overlay, no timestamps, no watermark."
+  }
+ ],
+ "trend_sources": [
+  {
+   "url": "https://www.detiksumsel.com/ekonomi/97417887595/pihps-catat-harga-cabai-rawit-merah-rp98-ribu-ini-daftar-harga-pangan-terbaru",
+   "title": "PIHPS Catat Harga Cabai Rawit Merah Rp98 Ribu, Ini Daftar Harga Pangan Terbaru - Detik Sumsel",
+   "observed_at": "2026-11-12T09:02:00+07:00",
+   "evidence": "Terbit 11 November 2026 12.41 WIB. Data PIHPS Nasional: cabai rawit merah Rp98.000/kg, cabai merah keriting Rp85.650/kg, cabai merah besar Rp67.350/kg. Artikel menyebut ini harga eceran nasional, bukan harga satu kota."
+  },
+  {
+   "url": "https://www.antaranews.com/berita/5845759/pihps-mencatat-harga-cabai-rawit-rp98000-kg-telur-ayam-rp28400-kg",
+   "title": "PIHPS mencatat harga cabai rawit Rp98.000/kg, telur ayam Rp28.400/kg - ANTARA News",
+   "observed_at": "2026-11-12T09:03:00+07:00",
+   "evidence": "Terbit 11 November 2026 10.30 WIB dengan angka identik: cabai rawit merah Rp98.000/kg dan cabai merah keriting Rp85.650/kg untuk pengambilan data PIHPS 11 November 10.16 WIB."
+  },
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini - 12 November 2026 - Lagi Tren",
+   "observed_at": "2026-11-12T08:58:00+07:00",
+   "evidence": "Halaman diperbarui 12 Nov 07.17 WIB. Sepuluh tren didominasi politik dan esports; nol tagar kuliner dan nol tagar Palembang di daftar 14 hashtag, jadi ceruk kuliner lokal terbuka."
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "observed_at": "2026-11-12T09:00:00+07:00",
+   "evidence": "Kolom Thu 12 Nov: 14 dari 15 kecamatan Palembang diprakirakan Hujan Ringan, suhu 25-31 derajat Celsius, kelembapan 70-98 persen. Mendukung adegan makan berkuah di dalam warung."
+  }
+ ],
+ "historical_fact_sources": [],
+ "new_biography_facts": [],
+ "promotional": false,
+ "flow": {
+  "account_id": "flow_1",
+  "model": "Omni 1.1 Flash",
+  "resolution": "360p",
+  "aspect_ratio": "9:16",
+  "outputs": 1,
+  "duration_seconds": 10,
+  "estimated_credits": 7,
+  "verified_from": "generation_jobs 1fdab76208ca476a96413e672937d364 (Dinda 10s, 11 Nov 2026, 7 kredit aktual)"
+ },
+ "wardrobe": {
+  "outfit_id": "outfit_dinda_5144187e",
+  "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+  "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+  "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png",
+  "selection_reason": "Satu-satunya busana berstatus active yang belum pernah dipakai (times_used 0) dan punya foto close-up serta full-body 9:16 768x1376; palet taupe-krem cocok dengan interior warung dan tidak bentrok dengan cahaya siang netral."
+ },
+ "references": [
+  "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+  "FOTO_KARAKTER/Dinda/dinda.jpg",
+  "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+  "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+ ],
+ "production_note": "Satu permintaan generasi 10 detik di Flow flow_1 (360p, output 1). Frame mentah harus bersih dari teks/HUD; subtitle editorial_tiktok dua tingkat dibakar lokal di app.media.assemble_character_video setelah upscale Varian 3 Hybrid ke 1080x1920, lalu audio lo-fi akustik 15 persen dengan vokal 100 persen."
+}

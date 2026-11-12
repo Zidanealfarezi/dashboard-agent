@@ -1,0 +1,218 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-12",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-12T09:05:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 12 November 2026 pukul 08:57-09:05 WIB. Halaman yang benar-benar dibaca: lagitren.id (daftar TikTok viral hari ini, diperbarui 12 Nov 07.17 WIB), halaman tagar #dahlia dan #haripahlawanindonesia di situs yang sama, prakiraan cuaca BMKG per kecamatan Kota Palembang untuk Thu 12 Nov, artikel PIHPS Detik Sumsel 11 Nov 12.41 WIB, artikel PIHPS ANTARA 11 Nov 10.30 WIB sebagai pembanding angka, artikel Tribun Sumsel 12 Nov 08.53 WIB tentang pembukaan lomba permainan tradisional Pemkot Palembang, dan rilis Setneg 10 Nov soal 19 pahlawan nasional baru. Temuan: sepuluh tren TikTok hari ini masih didominasi politik dan esports (#pakjokowi, #jokowidodo, #ijazahjokowi, #roysuryo) plus satu tagar budaya baru #dahlia; tidak ada tagar kuliner. Pemicu kuliner paling konkret justru harga pangan: PIHPS mencatat cabai rawit merah Rp98.000/kg pada 11 November 2026, dan Palembang diprakirakan hujan ringan hampir di semua kecamatan hari ini. Angka yang dicatat hanya yang terlihat langsung di halaman yang dibaca.",
+  "candidates": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 12 November 2026 · Lagi Tren",
+      "evidence": "Halaman bertanda 'Hari ini · 12 November 2026 · diperbarui 12 Nov, 07.17 WIB'. Sepuluh video lagi viral: #pakjokowi 8,2 jt tayangan, #jokowidodo 11,0 jt, #ijazahjokowi 10,2 jt, #roysuryo 13,3 jt, #soj1stanniversary 288,4 rb, #haripahlawanindonesia 764,8 rb, #jokowi 8,2 jt, #stormarena 2,1 jt, #bambamxswordofjustice 769,1 rb, #ffesportsid 932,1 rb. Daftar 14 hashtag tren: #pakjokowi, #jokowidodo, #ijazahjokowi, #roysuryo, #soj1stanniversary, #haripahlawanindonesia, #jokowi, #stormarena, #bambamxswordofjustice, #ffesportsid, #ffwsgf2026, #dahlia, #swordofjustice, #jokowidodopresidenkita. Tidak ada satu pun tagar kuliner atau tagar lokal Palembang di daftar ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T08:58:00+07:00",
+      "metrics": {
+        "top_trend": "#roysuryo",
+        "top_trend_views": 13300000,
+        "hashtags_listed": 14,
+        "culinary_tags_in_top10": 0,
+        "palembang_tags_in_top10": 0
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok/dahlia",
+      "title": "TikTok Viral #dahlia · Lagi Tren",
+      "evidence": "Halaman tagar bertanda 'Diperbarui 12 Nov, 07.17 WIB'. Penjelasan redaksi: '#dahlia sedang viral di TikTok Indonesia, kemungkinan terkait dengan bunga dahlia yang populer untuk konten estetika, dekorasi, atau hobi berkebun', dengan pengguna membagikan video merawat, memanen, atau memamerkan bunga dahlia. Kata 'kemungkinan' dipakai penulis halaman itu sendiri, jadi alasan tren ini belum terverifikasi independen dan tidak boleh ditulis sebagai fakta. Halaman juga menampilkan daftar tren lain hari ini dengan urutan yang sama seperti halaman utama.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T08:59:00+07:00",
+      "metrics": {
+        "hashtag": "#dahlia",
+        "hashtag_rank_today": 12,
+        "reason_verified_independently": 0
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok/haripahlawanindonesia",
+      "title": "TikTok Viral #haripahlawanindonesia · Lagi Tren",
+      "evidence": "Halaman tagar bertanda 'Diperbarui 12 Nov, 07.17 WIB'. Redaksi menulis tagar ini ramai menjelang dan saat Hari Pahlawan untuk konten bernuansa nasionalis dan edukasi sejarah, serta menautkan empat berita terkait termasuk artikel tentang 19 pahlawan nasional baru. Halaman tidak mencantumkan angka tayangan khusus, hanya menampilkan tagar itu di peringkat 6 daftar tren hari ini dengan 764,8 rb tayangan pada bagian video.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T08:59:00+07:00",
+      "metrics": {
+        "hashtag": "#haripahlawanindonesia",
+        "hashtag_rank_today": 6,
+        "views_listed": 764800
+      }
+    },
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+      "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+      "evidence": "Dibaca 12 November 2026 pukul 09.00 WIB. Kolom pertama tabel adalah Thu, 12 Nov. Hampir semua kecamatan yang tercantum diprakirakan 'Hujan Ringan' hari ini: Ilir Barat Dua 26-30 derajat Celsius kelembapan 72-97 persen, Seberang Ulu Satu 26-30/72-97, Seberang Ulu Dua 25-31/71-97, Ilir Barat Satu 25-30/72-97, Ilir Timur Satu 26-30/72-97, Ilir Timur Dua 25-31/71-97, Sukarami 25-30/72-98, Kemuning 26-30/71-97, Kalidoni 25-31/70-97, Gandus 25-30/72-97, Kertapati 25-31/70-97, Plaju 25-31/70-97, Jakabaring 25-31/71-97, Ilir Timur Tiga 26-30/71-97. Sako satu-satunya yang tercatat 'Udara Kabur' 26-30/71-97. Hujan ini prakiraan resmi BMKG, bukan asumsi.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T09:00:00+07:00",
+      "metrics": {
+        "forecast_date": "2026-11-12",
+        "kecamatan_with_hujan_ringan": 14,
+        "kecamatan_listed_today": 15,
+        "temperature_range_c": "25-31",
+        "humidity_range_percent": "70-98"
+      }
+    },
+    {
+      "url": "https://www.detiksumsel.com/ekonomi/97417887595/pihps-catat-harga-cabai-rawit-merah-rp98-ribu-ini-daftar-harga-pangan-terbaru",
+      "title": "PIHPS Catat Harga Cabai Rawit Merah Rp98 Ribu, Ini Daftar Harga Pangan Terbaru - Detik Sumsel",
+      "evidence": "Terbit Rabu 11 November 2026 pukul 12.41 WIB, dibaca 12 November 2026. Mengutip data PIHPS Nasional yang dikelola Bank Indonesia per Rabu 10.16 WIB: cabai rawit merah Rp98.000/kg, cabai merah keriting Rp85.650/kg, cabai merah besar Rp67.350/kg, cabai rawit hijau Rp70.400/kg, bawang merah Rp37.950/kg, bawang putih Rp37.000/kg, telur ayam ras Rp28.400/kg, daging ayam ras segar Rp37.400/kg, gula pasir lokal Rp19.400/kg, minyak goreng curah Rp19.850/liter. Artikel menyebut ini harga eceran nasional, bukan harga satu kota, dan tidak memuat harga khusus Palembang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T09:02:00+07:00",
+      "published_at": "2026-11-11T12:41:00+07:00",
+      "metrics": {
+        "cabai_rawit_merah_per_kg": 98000,
+        "cabai_merah_keriting_per_kg": 85650,
+        "cabai_merah_besar_per_kg": 67350,
+        "scope": "harga eceran nasional PIHPS"
+      }
+    },
+    {
+      "url": "https://www.antaranews.com/berita/5845759/pihps-mencatat-harga-cabai-rawit-rp98000-kg-telur-ayam-rp28400-kg",
+      "title": "PIHPS mencatat harga cabai rawit Rp98.000/kg, telur ayam Rp28.400/kg - ANTARA News",
+      "evidence": "Terbit Rabu 11 November 2026 pukul 10.30 WIB, dibaca 12 November 2026. ANTARA mengutip data PIHPS per Rabu pukul 10.16 WIB dengan angka yang identik: cabai rawit merah Rp98.000/kg, telur ayam ras Rp28.400/kg, cabai merah besar Rp67.350/kg, cabai merah keriting Rp85.650/kg, cabai rawit hijau Rp70.400/kg, bawang merah Rp37.950/kg, bawang putih Rp37.000/kg. Dipakai sebagai pembanding silang: dua media berbeda menulis angka PIHPS yang sama untuk waktu pengambilan data yang sama.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T09:03:00+07:00",
+      "published_at": "2026-11-11T10:30:00+07:00",
+      "metrics": {
+        "cabai_rawit_merah_per_kg": 98000,
+        "data_timestamp": "2026-11-11 10.16 WIB",
+        "cross_check_match": 1
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang-berdaya-sejahtera/1035255/pemkot-palembang-gelar-lomba-permainan-tradisional-untuk-anak-muda-lestarikan-warisan-budaya-daerah",
+      "title": "Pemkot Palembang Gelar Lomba Permainan Tradisional untuk Anak Muda, Lestarikan Warisan Budaya Daerah - Tribun Sumsel",
+      "evidence": "Tayang Kamis 12 November 2026 pukul 08.53 WIB, dibaca 12 November 2026. Lomba Permainan Tradisional bertajuk 'Pesona Budaya Sehat Permainan Tradisional Palembang Bingen' dibuka Asisten I Bidang Pemerintahan dan Kesra Setda Kota Palembang, Kgs. H. Sulaiman Amin, dan dihadiri Ketua DWP Kota Palembang Ida Royani Aprizal. Sulaiman menyebut permainan tradisional punya nilai sejarah dan sosial serta mendorong anak muda bergerak aktif dan mengurangi ketergantungan gawai. Artikel tidak menyebut lokasi persis, jumlah peserta, atau jam acara, jadi detail itu tidak boleh dikarang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T09:04:00+07:00",
+      "published_at": "2026-11-12T08:53:00+07:00",
+      "metrics": {
+        "event_name": "Pesona Budaya Sehat Permainan Tradisional Palembang Bingen",
+        "opened_by": "Asisten I Setda Kota Palembang Kgs. H. Sulaiman Amin",
+        "participant_count_published": 0
+      }
+    },
+    {
+      "url": "https://setneg.go.id/baca/index/pemerintah_anugerahkan_gelar_pahlawan_nasional_kepada_19_tokoh_bertepatan_dengan_hari_pahlawan",
+      "title": "Pemerintah Anugerahkan Gelar Pahlawan Nasional kepada 19 Tokoh Bertepatan dengan Hari Pahlawan - Kementerian Sekretariat Negara",
+      "evidence": "Terbit Selasa 10 November 2026, dibaca 12 November 2026. Mensesneg Prasetyo Hadi menyampaikan pemerintah menganugerahkan gelar Pahlawan Nasional kepada 19 tokoh dari berbagai daerah dan profesi bertepatan dengan Hari Pahlawan. Penetapan melalui proses berjenjang dari usulan daerah lalu difinalisasi Dewan Gelar dan Tanda Jasa Kehormatan. Rilis ini tidak memuat nama ke-19 tokoh maupun asal daerahnya.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-12T09:01:00+07:00",
+      "published_at": "2026-11-10T00:00:00+07:00",
+      "metrics": {
+        "heroes_awarded": 19,
+        "names_listed": 0
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Cabai Rawit Rp98 Ribu per Kilo, Cuko Pempek Ikut Pedas di Kantong",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Cabai rawit merah sekarang Rp98 ribu per kilo. Cuko pempek yang biasanya bikin keringetan itu masih sanggup dibeli tiap hari?",
+      "shots": [
+        "Shot 1 (8s): Dinda duduk di meja warung pempek, memegang mangkuk cuko, menoleh ke kamera dan menyebut harga cabai rawit merah di data PIHPS 11 November 2026 sudah Rp98.000 per kilogram dan cabai merah keriting Rp85.650 per kilogram.",
+        "Shot 2 (8s): Dinda menyendok cuko ke pempek, menjelaskan cuko bergantung pada cabai, lalu bertanya ke penonton berapa harga pempek favorit mereka sekarang dan apakah porsinya ikut mengecil."
+      ],
+      "sound": "Suara asli warung pempek dengan sendok mangkuk, tanpa musik penuh",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Data PIHPS Nasional yang dikutip Detik Sumsel dan ANTARA pada 11 November 2026 mencatat cabai rawit merah Rp98.000 per kilogram. Cabai merah keriting Rp85.650 dan cabai merah besar Rp67.350 per kilogram. Itu harga eceran nasional, bukan harga khusus Palembang, tapi cuko pempek dan tekwan kita hampir selalu bertumpu pada cabai. Kalau harga cabai bertahan di level ini, menurut kalian warung langganan akan naikkan harga atau kurangi pedasnya? #pempek #cuko #hargapangan #kulinerpalembang #palembang #dailyvlog",
+      "sources": [
+        "https://www.detiksumsel.com/ekonomi/97417887595/pihps-catat-harga-cabai-rawit-merah-rp98-ribu-ini-daftar-harga-pangan-terbaru",
+        "https://www.antaranews.com/berita/5845759/pihps-mencatat-harga-cabai-rawit-rp98000-kg-telur-ayam-rp28400-kg",
+        "https://lagitren.id/tiktok",
+        "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71"
+      ],
+      "factors": {
+        "momentum": 7.0,
+        "local_relevance": 9.5,
+        "format_fit": 9.0,
+        "evidence_strength": 9.0,
+        "risk_safety": 9.5
+      },
+      "why": "Harga cabai rawit merah Rp98.000 per kilogram adalah pemicu kuliner paling konkret hari ini dan angkanya tercatat identik di dua media yang dibaca langsung dari data PIHPS. Bagi Dinda ini bukan berita ekonomi jauh di Jakarta: cuko pempek dan tekwan bergantung pada cabai, jadi topiknya menyentuh dompet penonton Palembang dan memancing komentar harga. Sepuluh tren TikTok hari ini kosong dari tagar kuliner sehingga ceruk ini terbuka, dan prakiraan hujan ringan BMKG hari ini membuat konten makan berkuah di dalam warung tetap masuk akal untuk syuting. Topik harga cabai belum pernah muncul di bank ide Dinda."
+    },
+    {
+      "code": "B",
+      "title": "Bunga Dahlia Jadi Tagar Baru di TikTok, Konten Estetika yang Bisa Dicoba di Rumah",
+      "pillar": "Lifestyle",
+      "hook": "Tagar dahlia masuk empat belas besar tren TikTok hari ini. Bunga yang satu ini ternyata gampang dirawat di pot kecil depan rumah.",
+      "shots": [
+        "Shot 1 (8s): Dinda memegang pot bunga dahlia di teras rumah, menyebut tagar dahlia masuk daftar hashtag tren TikTok hari ini dan menjelaskan bahwa halaman tren menyebut konten merawat serta memamerkan bunga sebagai pemicunya.",
+        "Shot 2 (8s): Dinda memangkas daun kering dan bertanya ke penonton bunga apa yang sedang hidup di teras rumah mereka."
+      ],
+      "sound": "Musik lo-fi akustik pelan dengan suara asli gunting tanaman",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Tagar dahlia masuk daftar empat belas hashtag yang sedang tren di TikTok Indonesia hari ini menurut halaman tren lagitren.id yang diperbarui 12 November 2026 pukul 07.17 WIB. Halaman itu menduga trennya soal konten estetika bunga dan hobi berkebun, jadi alasan pastinya belum terverifikasi. Buat yang di Palembang dan cuma punya teras kecil, dahlia bisa jadi pilihan pot yang tidak butuh banyak tempat. Kalian pelihara bunga apa di rumah? #tanamanhias #dahlia #berkebundirumah #lifestyle #palembang #dailyvlog",
+      "sources": [
+        "https://lagitren.id/tiktok/dahlia",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "momentum": 8.5,
+        "local_relevance": 5.5,
+        "format_fit": 8.0,
+        "evidence_strength": 7.0,
+        "risk_safety": 9.5
+      },
+      "why": "Satu-satunya tren gaya hidup baru di daftar hari ini dan momentumnya paling segar, tetapi alasan trennya masih dugaan redaksi halaman sumber sehingga bukti harus dinilai rendah. Kaitan dengan Palembang juga lemah, jadi topik ini hanya kuat bila dikemas sebagai konten estetika rumah."
+    },
+    {
+      "code": "C",
+      "title": "Lomba Permainan Tradisional Palembang Dibuka Hari Ini, Bingen Kembali Ramai",
+      "pillar": "Daily Vlog Palembang",
+      "hook": "Pemkot Palembang membuka lomba permainan tradisional bingen pagi ini. Anak muda diajak turun main, bukan cuma pegang gawai.",
+      "shots": [
+        "Shot 1 (8s): Dinda berdiri di depan lokasi acara dan menyebut lomba permainan tradisional bertajuk Pesona Budaya Sehat Permainan Tradisional Palembang Bingen dibuka hari ini oleh Asisten I Setda Kota Palembang Kgs. H. Sulaiman Amin.",
+        "Shot 2 (8s): Dinda menirukan satu gerakan permainan bingen lalu bertanya permainan tradisional apa yang paling diingat penonton."
+      ],
+      "sound": "Suara asli keramaian acara tanpa musik penuh",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Lomba Permainan Tradisional bertajuk Pesona Budaya Sehat Permainan Tradisional Palembang Bingen dibuka hari ini Kamis 12 November 2026 oleh Asisten I Bidang Pemerintahan dan Kesra Setda Kota Palembang Kgs. H. Sulaiman Amin menurut Tribun Sumsel. Dalam artikel itu Sulaiman menyebut permainan tradisional punya nilai sejarah dan sosial serta bisa mengurangi ketergantungan anak pada gawai. Detail lokasi dan jumlah peserta tidak disebut di artikel, jadi cek dulu sebelum datang. #bing #permainantradisional #palembang #budayapalembang #dailyvlog",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang-berdaya-sejahtera/1035255/pemkot-palembang-gelar-lomba-permainan-tradisional-untuk-anak-muda-lestarikan-warisan-budaya-daerah",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "momentum": 6.5,
+        "local_relevance": 9.5,
+        "format_fit": 8.5,
+        "evidence_strength": 8.5,
+        "risk_safety": 9.5
+      },
+      "why": "Beritanya benar-benar segar pagi ini dan sangat lokal, tetapi topik ini masih bersinggungan dengan pilihan 10 November soal Pesona Budaya Sehat di Museum SMB II. Artikelnya juga tidak menyebut lokasi dan jumlah peserta sehingga kru harus memastikan lapangan dulu."
+    },
+    {
+      "code": "D",
+      "title": "19 Pahlawan Nasional Baru Diumumkan, Refleksi Hari Pahlawan di Feed Palembang",
+      "pillar": "Daily Vlog Palembang",
+      "hook": "Pemerintah baru mengumumkan 19 pahlawan nasional. Di Palembang, momentum Hari Pahlawan masih terasa sampai pekan ini.",
+      "shots": [
+        "Shot 1 (8s): Dinda berjalan di area terbuka dan menyebut pemerintah menganugerahkan gelar Pahlawan Nasional kepada 19 tokoh bertepatan dengan Hari Pahlawan 10 November 2026.",
+        "Shot 2 (8s): Dinda menyampaikan bahwa rilis resmi belum memuat nama ke-19 tokoh, lalu bertanya pahlawan daerah mana yang menurut penonton layak diusulkan."
+      ],
+      "sound": "Musik instrumental lembut tanpa vokal",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Menteri Sekretaris Negara Prasetyo Hadi mengumumkan pemerintah menganugerahkan gelar Pahlawan Nasional kepada 19 tokoh bertepatan dengan Hari Pahlawan 10 November 2026 menurut rilis Kementerian Sekretariat Negara. Rilis resmi itu belum mencantumkan nama dan asal daerah ke-19 tokoh, jadi daftar namanya belum bisa dipakai. Tagar haripahlawanindonesia juga masih ada di daftar tren TikTok hari ini. Menurut kalian tokoh Palembang siapa yang paling layak diusulkan? #haripahlawan #pahlawannasional #palembang #sejarahindonesia #dailyvlog",
+      "sources": [
+        "https://setneg.go.id/baca/index/pemerintah_anugerahkan_gelar_pahlawan_nasional_kepada_19_tokoh_bertepatan_dengan_hari_pahlawan",
+        "https://lagitren.id/tiktok/haripahlawanindonesia"
+      ],
+      "factors": {
+        "momentum": 7.5,
+        "local_relevance": 6.0,
+        "format_fit": 7.0,
+        "evidence_strength": 8.5,
+        "risk_safety": 8.5
+      },
+      "why": "Tagarnya masih tren hari ini dan sumbernya rilis resmi pemerintah, tetapi peristiwanya sudah dua hari lalu, tidak ada daftar nama tokoh yang bisa dibahas, dan kaitannya dengan pilar kuliner serta jalan-jalan Dinda tipis."
+    }
+  ]
+}

@@ -13,8 +13,8 @@
       "display_name": "Mutia",
       "chrome_profile_label": "Mutia (FLOW)",
       "subscription_tier_observed": "PRO",
-      "balance_verified_at": "2026-11-11T09:09:11+07:00",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-11T09:09:11+07:00: 316 kredit Google Flow (dinda).",
+      "balance_verified_at": "2026-11-12T09:47:41+07:00",
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-12T09:47:41+07:00: 316 kredit Google Flow (dinda).",
       "credits_reset_label_as_displayed": "28 Nov at 14:46",
       "reset_display_timezone_verified": false,
       "character_mapping_basis": "Observed existing project named dinda with Dinda reference assets",
@@ -49,7 +49,7 @@
       "id": "flow_2",
       "reported_monthly_credits": 1000,
       "balance_verified": true,
-      "verified_balance": 710,
+      "verified_balance": 760,
       "assigned_character": "isk",
       "target_resolution": "360p",
       "project_url": "https://flow.google.com/project/33b10f02-20fa-4df2-87c3-ca4696d342c6",
@@ -59,9 +59,9 @@
       "email": "coralgaming88@gmail.com",
       "chrome_profile_label": "Coral Gaming (FLOW)",
       "subscription_tier_observed": "PRO",
-      "balance_verified_at": "2026-11-11T10:24:18+07:00",
+      "balance_verified_at": "2026-11-12T10:01:43+07:00",
       "project_title": "intansuarkartika",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-11T10:24:18+07:00: 710 kredit Google Flow (intansuarkartika)."
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-12T10:01:43+07:00: 760 kredit Google Flow (intansuarkartika)."
     },
     {
       "id": "flow_3",

@@ -39,6 +39,7 @@ atau keputusan eksplisit pengguna. Simpan sumber dan tanggal riset; bedakan fakt
 
 Target 30 hari per karakter: 20 video + 10 foto (maksimal 1 posting per hari per karakter). Preferensi aktif: Omni Flash resolusi **360p** di Google Flow, lalu upscale lokal Varian 3 Hybrid Foto-Realistik (`upscayl-lite-4x` + `45%` tekstur asli CAS + grain ke `1080x1920`) dan hardsub `editorial_tiktok` bebas tanda koma; batas durasi final maksimal **20 detik** untuk Dinda, ISK, dan Pak Vincent (boleh multi-klip bila >10s) serta maksimal **30 detik** untuk Bang Ray (boleh multi-klip). Tidak ada fallback/retry berbayar otomatis.
 Untuk video yang meniru/mengikuti gerakan orang lain, WAJIB menggunakan metode Motion Reference Omni Flash (Google Flow) dengan prompt replikasi gerakan baku sesuai config/autopilot.json dan docs/workflow.md.
+Semua rencana, reservasi, dan pengajuan video Flow baru wajib memakai Omni 1.2 Flash, termasuk Motion Reference. Jika versi 1.2 tidak tersedia di akun operasional, tahan pengajuan dan laporkan.
 Tiga akun Flow masing-masing 1.000 kredit adalah laporan kuota langganan pengguna.
 Chrome Mutia (FLOW) telah diperiksa: PRO, sisa 468 kredit, proyek dinda; dipetakan ke flow_1.
 Akses UI Codex dan uji baca konektor MCP Dinda sudah lulus. Model Hermes belum diuji
@@ -70,6 +71,13 @@ Flow kelak memakai browser Hermes yang belum diuji oleh model. Akses native Chro
 Codex kini berhasil dan login/proyek/saldo telah terlihat; browser Hermes/generasi belum
 terverifikasi. Tidak ada adapter API Flow atau publikasi. Jangan mengklaim alur live
 sudah berhasil. Revisi generasi otomatis slot yang sama belum didukung CLI autopilot.
+
+## Caption pendek — preferensi pengguna 12 November 2026
+
+- Tulis 1–2 kalimat pendek sebelum hashtag. Ambil satu ide yang paling relevan dengan video atau foto. Gunakan kalimat kedua untuk pertanyaan ringan atau ajakan singkat bila sesuai.
+- Pakai bahasa percakapan yang sesuai dengan karakter dan bebas emoji atau emotikon. Untuk Dinda, gunakan gaya obrolan Palembang yang ringan. Untuk ISK, sebut produk dan satu manfaat praktis, lalu ajakan ke WhatsApp resmi bila sesuai dengan paket.
+- Simpan daftar sumber dan rincian pendukung di brief riset. Masukkan angka atau konteks penting ke caption bila dibutuhkan agar klaimnya tetap akurat.
+- Taruh hashtag relevan dan unik di baris terakhir. Pilih tagar yang langsung terkait isi dan hindari hashtag nama diri karakter.
 
 ## Akun Google pribadi dilindungi — 5 November 2026
 

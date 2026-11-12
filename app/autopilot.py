@@ -70,28 +70,59 @@ def slot_spec(day_index):
     return 'video', (6, 12)[video_index % 2]
 
 
-def plan_day(db, root, day):
+def plan_day(db, root, day, kind=None, character_ids=None):
     settings = load(root, 'config/autopilot.json')
     if not settings['enabled'] or not settings['research_enabled']:
         raise review.ReviewError('Autopilot/riset belum aktif; tidak membuat pekerjaan harian.')
     if not settings['cycle_start_date']:
         raise review.ReviewError('Tanggal awal siklus belum ditetapkan.')
     day = date.fromisoformat(day)
-    kind, duration = slot_spec((day - date.fromisoformat(settings['cycle_start_date'])).days)
     preferences = settings.get('generation_preferences', {})
+    day_index = (day - date.fromisoformat(settings['cycle_start_date'])).days
+    slot_kind, slot_duration = slot_spec(day_index)
+    if kind is not None:
+        if kind not in ('photo', 'video'):
+            raise review.ReviewError('Jenis slot harus photo atau video.')
+        slot_kind = kind
+        slot_duration = None if kind == 'photo' else preferences.get('default_native_duration_seconds', 8)
+        if slot_kind == 'video' and slot_duration not in project_native_options(preferences):
+            raise review.ReviewError('Durasi native belum diverifikasi; periksa pilihan model Flow.')
+    kind, duration = slot_kind, slot_duration
     if kind == 'video' and preferences.get('duration_policy') == 'adapt_to_available_native_model_options':
         duration = preferences.get('default_native_duration_seconds', 8)
         if duration not in preferences.get('verified_native_duration_options_seconds', [4, 6, 8, 10]):
             raise review.ReviewError('Durasi native belum diverifikasi; periksa pilihan model Flow.')
+    targets = list(character_ids or settings['character_ids'])
+    unknown = [c for c in targets if c not in settings['character_ids']]
+    if unknown:
+        raise review.ReviewError('Karakter tidak ada di siklus aktif: ' + ', '.join(unknown))
     with db:
         db.execute('BEGIN IMMEDIATE')
-        for cid in settings['character_ids']:
+        for cid in targets:
             slot_id = cid + '-' + day.isoformat()
-            db.execute('''INSERT OR IGNORE INTO daily_slots
-                (id,day,character_id,kind,duration_seconds,state,created_at)
-                VALUES (?,?,?,?,?,'needs_plan',?)''',
-                (slot_id, day.isoformat(), cid, kind, duration, review.now()))
-    return [dict(r) for r in db.execute('SELECT id,character_id,kind,duration_seconds,state FROM daily_slots WHERE day=?', (day.isoformat(),))]
+            existing = db.execute(
+                'SELECT kind,duration_seconds,state FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
+            if existing is None:
+                db.execute('''INSERT INTO daily_slots
+                    (id,day,character_id,kind,duration_seconds,state,created_at)
+                    VALUES (?,?,?,?,?,'needs_plan',?)''',
+                    (slot_id, day.isoformat(), cid, kind, duration, review.now()))
+            elif existing['state'] == 'needs_plan' and (
+                    existing['kind'] != kind or existing['duration_seconds'] != duration):
+                # Slot yang belum direncanakan boleh dikoreksi lewat jalur resmi ini;
+                # slot yang sudah planned/reserved tidak pernah diubah.
+                db.execute('UPDATE daily_slots SET kind=?,duration_seconds=? WHERE id=?',
+                           (kind, duration, slot_id))
+    placeholders = ','.join('?' for _ in targets)
+    return [dict(r) for r in db.execute(
+        f'SELECT id,character_id,kind,duration_seconds,state FROM daily_slots '
+        f'WHERE day=? AND character_id IN ({placeholders})', (day.isoformat(), *targets))]
+
+
+def project_native_options(preferences):
+    return (preferences.get('verified_native_duration_options_seconds')
+            or preferences.get('supported_durations_seconds')
+            or [4, 6, 8, 10])
 
 
 def max_video_duration_for(project_config, character_id):
@@ -308,22 +339,34 @@ def check_isk_submission(slot, plan, model):
             raise review.ReviewError('Model atau durasi tidak cocok dengan brief ISK yang dikunci.')
 
 
+def check_video_model(slot, settings, model):
+    preferences = settings.get('generation_preferences', {})
+    if slot['kind'] != 'video' or not preferences.get('fallback_model_requires_user_decision'):
+        return
+    preferred = preferences.get('preferred_model_family', '')
+    actual = ' '.join(model.casefold().split())
+    if preferred == 'Omni Flash':
+        matches = 'omni' in actual and 'flash' in actual
+    elif preferred == 'Omni 1.2 Flash':
+        matches = actual in ('omni 1.2 flash', 'omni flash 1.2')
+    else:
+        matches = not preferred or actual == preferred.casefold()
+    if not matches:
+        raise review.ReviewError(f'Video Flow wajib memakai {preferred}.')
+
+
 def reserve(db, root, slot_id, account_id, model, credits, clock=None):
     """Reserve budget for one slot. Claim it separately immediately before UI submission."""
     clock = clock or datetime.now(timezone.utc)
     if type(credits) is not int or credits < 0 or not model.strip():
         raise review.ReviewError('Model dan estimasi total kredit wajib diisi.')
     project, settings, account = generation_account(root, account_id, clock)
-    preferences = settings.get('generation_preferences', {})
     with db:
         db.execute('BEGIN IMMEDIATE')
         slot = db.execute('SELECT * FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
         if not slot or slot['state'] != 'planned' or slot['job_id']:
             raise review.ReviewError('Slot sudah diproses atau belum memiliki rencana.')
-        if (slot['kind'] == 'video' and preferences.get('preferred_model_family') == 'Omni Flash'
-                and preferences.get('fallback_model_requires_user_decision')
-                and not ('omni' in model.lower() and 'flash' in model.lower())):
-            raise review.ReviewError('Prioritas Omni Flash; pergantian model memerlukan keputusan pengguna.')
+        check_video_model(slot, settings, model)
         if slot['kind'] == 'video' and credits == 0:
             raise review.ReviewError('Biaya video belum terbukti nol; verifikasi biaya dan anggaran.')
         plan = json.loads(slot['plan_json'])
@@ -352,6 +395,7 @@ def begin_submission(db, root, slot_id, account_id, project_url, model, duration
                if slot and slot['state'] == 'reserved' else None)
         if not job or job['state'] != 'planned':
             raise review.ReviewError('Reservasi tidak tersedia atau sudah pernah dipakai. Periksa Flow sebelum percobaan lain.')
+        check_video_model(slot, settings, model)
         expected = (job['flow_account_id'], account['project_url'], job['model'], job['duration_seconds'],
                     job['output_count'], job['authorized_credits'])
         if (account_id, project_url, model, duration, outputs, credits) != expected:
@@ -468,6 +512,11 @@ def main():
     commands.add_parser('sync-references')
     work = commands.add_parser('work'); work.add_argument('--slot', required=True)
     day = commands.add_parser('plan-day'); day.add_argument('--date', required=True)
+    day.add_argument('--kind', choices=['photo', 'video'],
+                     help='Override jenis slot untuk tanggal ini (default: rotasi slot_spec).')
+    day.add_argument('--character', action='append', dest='characters',
+                     help='Batasi pembuatan slot ke karakter tertentu; boleh diulang.')
+
     plan = commands.add_parser('save-plan'); plan.add_argument('--slot', required=True); plan.add_argument('--file', required=True)
     reserve_cmd = commands.add_parser('reserve'); reserve_cmd.add_argument('--slot', required=True)
     reserve_cmd.add_argument('--account', required=True); reserve_cmd.add_argument('--model', required=True)
@@ -489,7 +538,8 @@ def main():
         with review.connect(ROOT) as db:
             if args.command == 'status': result = status(db, ROOT)
             elif args.command == 'sync-references': result = sync_references(ROOT)
-            elif args.command == 'plan-day': result = plan_day(db, ROOT, args.date)
+            elif args.command == 'plan-day':
+                result = plan_day(db, ROOT, args.date, kind=args.kind, character_ids=args.characters)
             elif args.command == 'work': result = work_packet(db, ROOT, args.slot)
             elif args.command == 'save-plan':
                 save_plan(db, ROOT, args.slot, load(ROOT, args.file)); result = {'saved': True}

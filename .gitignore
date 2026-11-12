@@ -26,3 +26,9 @@ tools/ffmpeg-runtime/*
 !tools/ffmpeg-runtime/SOURCE.json
 .vercel
 .env*
+*.log
+*.pid
+operations/*.log
+operations/*.pid
+output/
+operations/research-raw/

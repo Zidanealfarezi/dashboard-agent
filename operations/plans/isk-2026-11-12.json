@@ -1,0 +1,58 @@
+{
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "character_id": "isk",
+  "kind": "video",
+  "title": "Kawat Licin Diamond Ikat Tulangan Besi Cor Satu Putaran",
+  "hook": "Kawat ikat gampang putus bikin kerjaan cor tiang jadi lambat",
+  "story": "Tukang pembesian di proyek kolom cor beton mengikat pertemuan dua besi ulir memakai tang catut. Kawat Licin Diamond dari PT Intan Suar Kartika diputar satu kali dan tetap utuh, lalu ia menunjukkan rollnya ke kamera dan mengajak menyimpan video.",
+  "caption": "Rangka tulangan tiang cor beton lebih kokoh dan cepat selesai dengan Kawat Licin Diamond dari PT Intan Suar Kartika. Ulet, lentur, dan tidak mudah putus saat ditarik kencang. Pemesanan distributor langsung via WhatsApp wa.me/62819889350. #kawatlicindiamond #kawatikat #besicor #intansuarkartika",
+  "image_prompt": "Use the existing verified Kawat Licin Diamond roll reference asset. No separate image generation.",
+  "role_tags": [
+    "kawat licin diamond",
+    "uji ketahanan material"
+  ],
+  "role_reason": "Pilar Kawat Licin Diamond adalah satu-satunya dari empat pilar produk ISK yang belum dipakai pada slot 9 sampai 11 November, sehingga rotasi pilar terpenuhi tanpa mengulang tema berturut-turut.",
+  "creative": {
+    "character": "Tukang pembesian proyek bangunan",
+    "background": "Struktur anyaman besi tiang kolom cor beton di proyek bangunan, pagi hari",
+    "action": "Memutar kawat licin mengikat pertemuan dua besi ulir dengan tang catut satu putaran tanpa putus, lalu menunjukkan roll kawat ke kamera",
+    "selection_reason": "Menjawab keluhan nyata tukang bahwa kawat ikat murah getas dan putus saat diputar tang, sekaligus memperlihatkan kekuatan nyata Kawat Licin Diamond PT Intan Suar Kartika.",
+    "dialogue": "Kawat ikat gampang putus bikin kerjaan cor tiang jadi lambat. Kawat Licin Diamond ulet diputar catut tetap utuh. Simpan video ini buat acuan beli kawat proyek kamu.",
+    "dialogue_start_seconds": 0.5,
+    "dialogue_read_seconds": 8.0,
+    "action_end_seconds": 9.5
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "duration_options_seconds": [
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Photorealistic live-action video, vertical 9:16, one continuous 10 second shot, chest-height medium close camera that stays steady with a slight natural handheld sway. An Indonesian male construction worker in a dark blue work shirt and white safety helmet stands beside a rebar cage of a concrete column at a small Indonesian building site in the morning. Two ribbed steel rebar bars, one pair of steel pliers in his right hand, and an open roll of shiny smooth galvanized binding wire matching the attached Kawat Licin Diamond reference image are all visible in frame from 0.0s and stay visible until the last frame. From 0.0s to 3s he wraps the smooth binding wire around the crossing point of the two rebar bars and twists it with the pliers in one quick firm turn while speaking Indonesian with accurate lip sync: \"Kawat ikat gampang putus bikin kerjaan cor tiang jadi lambat. Kawat Licin Diamond ulet diputar catut tetap utuh. Simpan video ini buat acuan beli kawat proyek kamu.\" From 3s to 7s he keeps the twisted wire knot taut so the joint holds, taps the knot once with the plier handle, then pulls the wire roll slightly forward so its tight even coils read clearly on camera without the wire breaking or stretching. From 7s to 9.5s he stops, looks at the camera, gives one short confident nod, and sets the pliers down beside the wire roll. The last 0.5s holds on the tied rebar joint and the wire roll. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame with zero on-screen text, zero subtitles, zero captions and zero logos. Keep face, clothing, helmet, rebar, pliers and wire roll consistent in every frame with no object appearing or disappearing."
+    }
+  ],
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 12 November 2026 · Lagi Tren",
+      "evidence": "Dibaca 12 November 2026 pukul 10.00 WIB. Sepuluh video lagi viral saat ini: #ijazahjokowi 10,2 jt tayangan, #roysuryo 13,2 jt, #jokowi 15,7 jt, #penyadapan 6,5 jt, #theremarriedempress 4,1 jt, #stormarena 1,9 jt, #ffesportsid 1,1 jt, #ffwsgf2026 1,0 jt, #bambamxswordofjustice 768,5 rb, #soj1stanniversary 204,0 rb. Daftar 14 hashtag tren tidak memuat tagar konstruksi maupun material bangunan, jadi konten ISK diposisikan sebagai edukasi praktis niche, bukan pengejaran tagar viral.",
+      "observed_at": "2026-11-12T10:00:30+07:00"
+    },
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/12.71",
+      "title": "Prakiraan Cuaca Kota Medan - BMKG",
+      "evidence": "Dibaca 12 November 2026 pukul 10.01 WIB. Kolom Kam, 12 Nov untuk wilayah Kota Medan tercatat Hujan Petir di Medan Kota 24-29 derajat Celsius kelembapan 75-99 persen, Medan Denai 24-29/76-99, Medan Barat 24-29/75-99, Medan Tuntungan 24-30/72-98, sedangkan Medan Belawan Berawan 24-29/75-97. Prakiraan hujan ini dipakai sebagai alasan praktis pengecoran dan pengikatan tulangan sebaiknya tidak menunggu cuaca memburuk.",
+      "observed_at": "2026-11-12T10:01:00+07:00"
+    }
+  ],
+  "source_note": "Panduan kreatif multi-produk ISK (Skenario 4 Kawat Licin Diamond) dan referensi resmi characters/isk/assets/brand/kawat_licin_diamond_reference.jpg, 12 November 2026."
+}
