@@ -456,6 +456,22 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
             """, (cid,)).fetchone()
         pub_dict = dict(publication) if publication else None
 
+        # 6. Specific approval & publication for THIS slot's version
+        slot_version_id = slot_dict.get("version_id") if slot_dict else None
+        slot_approval = None
+        slot_pub = None
+        if slot_version_id:
+            slot_approval = cur.execute(
+                "SELECT * FROM approvals WHERE version_id = ? ORDER BY created_at DESC LIMIT 1",
+                (slot_version_id,)
+            ).fetchone()
+            slot_pub = cur.execute(
+                "SELECT * FROM publications WHERE version_id = ? ORDER BY confirmed_at DESC LIMIT 1",
+                (slot_version_id,)
+            ).fetchone()
+        slot_approval_dict = dict(slot_approval) if slot_approval else None
+        slot_pub_dict = dict(slot_pub) if slot_pub else None
+
         # Determine 5 Stages State
         # Stage 1: Riset & Topik Tren (10s-18s)
         # Stage 2: Generasi Google Flow
@@ -478,27 +494,26 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
         color_theme = "purple"
 
         if is_today_slot:
-            if slot_state == "needs_plan":
-                stages[0]["status"] = "active"
-                active_step = 1
-                progress_percent = 20
-                headline_status = f"Menunggu Riset & Perencanaan Jadwal ({talent['slot_time']})"
-                status_tag = "standby"
-            elif slot_state == "planned":
+            if slot_pub_dict and slot_pub_dict.get("state") == "confirmed":
+                for s in stages:
+                    s["status"] = "done"
+                active_step = 5
+                progress_percent = 100
+                headline_status = f"Selesai & Live di TikTok (@{talent['account'].lstrip('@')})"
+                status_tag = "published"
+                slot_state = "published"
+            elif slot_approval_dict and slot_approval_dict.get("decision") == "approved":
                 stages[0]["status"] = "done"
-                stages[1]["status"] = "waiting"
-                active_step = 2
-                progress_percent = 40
-                headline_status = f"Naskah & Brief Siap ({duration}s). Menunggu render di Google Flow"
+                stages[1]["status"] = "done"
+                stages[2]["status"] = "done"
+                stages[3]["status"] = "done"
+                stages[4]["status"] = "active"
+                active_step = 5
+                progress_percent = 90
+                headline_status = f"ACC Disetujui! Siap tayang di slot {talent['slot_time']}"
                 status_tag = "running"
-            elif slot_state == "reserved" or (job_dict and job_dict.get("state") in ("submitted", "running")):
-                stages[0]["status"] = "done"
-                stages[1]["status"] = "active"
-                active_step = 2
-                progress_percent = 60
-                headline_status = f"Sedang render di Google Flow ({talent['flow_account']}) - {duration}s"
-                status_tag = "running"
-            elif slot_state in ("review_ready", "awaiting_review") or (approval_dict and approval_dict.get("decision") != "approved"):
+                slot_state = "approved"
+            elif slot_state in ("review_ready", "awaiting_review") or (slot_approval_dict and slot_approval_dict.get("decision") != "approved"):
                 stages[0]["status"] = "done"
                 stages[1]["status"] = "done"
                 stages[2]["status"] = "done"
@@ -507,23 +522,26 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
                 progress_percent = 80
                 headline_status = "Render & Upscale M4 selesai! Menunggu otorisasi Telegram Owner"
                 status_tag = "review"
-            elif approval_dict and approval_dict.get("decision") == "approved":
+            elif slot_state == "reserved" or (job_dict and job_dict.get("state") in ("submitted", "running")):
                 stages[0]["status"] = "done"
-                stages[1]["status"] = "done"
-                stages[2]["status"] = "done"
-                stages[3]["status"] = "done"
-                if pub_dict and pub_dict.get("state") == "confirmed":
-                    stages[4]["status"] = "done"
-                    active_step = 5
-                    progress_percent = 100
-                    headline_status = f"Selesai & Live di TikTok (@{talent['account'].lstrip('@')})"
-                    status_tag = "published"
-                else:
-                    stages[4]["status"] = "active"
-                    active_step = 5
-                    progress_percent = 90
-                    headline_status = f"ACC Disetujui! Siap tayang di slot {talent['slot_time']}"
-                    status_tag = "running"
+                stages[1]["status"] = "active"
+                active_step = 2
+                progress_percent = 60
+                headline_status = f"Sedang render di Google Flow ({talent['flow_account']}) - {duration}s"
+                status_tag = "running"
+            elif slot_state == "planned":
+                stages[0]["status"] = "done"
+                stages[1]["status"] = "waiting"
+                active_step = 2
+                progress_percent = 40
+                headline_status = f"Naskah & Brief Siap ({duration}s). Menunggu render di Google Flow"
+                status_tag = "running"
+            elif slot_state == "needs_plan":
+                stages[0]["status"] = "active"
+                active_step = 1
+                progress_percent = 20
+                headline_status = f"Menunggu Riset & Perencanaan Jadwal ({talent['slot_time']})"
+                status_tag = "standby"
         else:
             # Historical / recent status
             if pub_dict and pub_dict.get("state") == "confirmed":
@@ -533,6 +551,7 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
                 progress_percent = 100
                 headline_status = f"Publikasi Terakhir Selesai ({pub_dict.get('platform_post_id', '-')})"
                 status_tag = "published"
+                slot_state = "published"
             else:
                 stages[0]["status"] = "done"
                 active_step = 2
@@ -561,9 +580,9 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
             "job_id": job_dict.get("id") if job_dict else None,
             "job_state": job_dict.get("state") if job_dict else None,
             "version_id": version_dict.get("id") if version_dict else None,
-            "approval_decision": approval_dict.get("decision") if approval_dict else None,
-            "post_id": pub_dict.get("platform_post_id") if pub_dict else None,
-            "post_url": pub_dict.get("post_url") if pub_dict else None,
+            "approval_decision": slot_approval_dict.get("decision") if slot_approval_dict else (approval_dict.get("decision") if approval_dict else None),
+            "post_id": slot_pub_dict.get("platform_post_id") if slot_pub_dict else (pub_dict.get("platform_post_id") if not is_today_slot and pub_dict else None),
+            "post_url": slot_pub_dict.get("post_url") if slot_pub_dict else (pub_dict.get("post_url") if not is_today_slot and pub_dict else None),
             "caption": version_dict.get("caption") if version_dict else None,
             "cutoff_time_wib": win.get("cutoff_time_wib"),
             "is_within_retry_window": win.get("is_within_retry_window", False),
