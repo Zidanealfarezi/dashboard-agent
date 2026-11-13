@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-13",
+  "characters": {
+    "dinda": {
+      "attempts": 0,
+      "last_attempt_at": null,
+      "last_error": null,
+      "alerted_critical": false,
+      "skipped_due_to_cutoff": false,
+      "completed": true
+    },
+    "isk": {
+      "attempts": 0,
+      "last_attempt_at": null,
+      "last_error": null,
+      "alerted_critical": false,
+      "skipped_due_to_cutoff": false,
+      "completed": true
+    },
+    "bang_ray": {
+      "attempts": 0,
+      "last_attempt_at": null,
+      "last_error": null,
+      "alerted_critical": false,
+      "skipped_due_to_cutoff": false
+    },
+    "pak_vincent": {
+      "attempts": 0,
+      "last_attempt_at": null,
+      "last_error": null,
+      "alerted_critical": false,
+      "skipped_due_to_cutoff": false
+    }
+  }
+}

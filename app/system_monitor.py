@@ -23,6 +23,8 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 OPERATIONS_DIR = BASE_DIR / "operations"
 DB_PATH = OPERATIONS_DIR / "production.sqlite"
 SNAPSHOT_PATH = OPERATIONS_DIR / "host_agent_status.json"
@@ -287,6 +289,21 @@ def probe_local_services() -> list:
         "details": "Super Finti Operations Hub & REST API"
     })
 
+    # Service 7: Flexible Pipeline Reconciler (H-1 Jam Cutoff & Auto-Recovery)
+    rec_pid = read_pid_file(OPERATIONS_DIR / "flexible_reconciler.pid")
+    rec_alive = check_pid_alive(rec_pid)
+    services.append({
+        "id": "flexible_reconciler",
+        "name": "Flexible Pipeline Reconciler",
+        "type": "reconciler daemon",
+        "label": "scripts/run_flexible_reconciler.py",
+        "pid": rec_pid if rec_alive else None,
+        "status": "online" if rec_alive else "standby",
+        "port": None,
+        "badge_color": "emerald" if rec_alive else "slate",
+        "details": "Auto-recovery tab Flow & toleransi cutoff H-1 jam"
+    })
+
     return services
 
 def get_host_services_status() -> dict:
@@ -357,9 +374,15 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
 
     cur = conn.cursor()
     pipeline_items = []
+    
+    # Toleransi Waktu & Jendela Fleksibel (Option A: Cutoff H-1 Jam)
+    from app import flexible_reconciler
+    root_dir = Path(__file__).resolve().parent.parent
+    windows = flexible_reconciler.get_schedule_windows(root_dir)
 
     for talent in SCHEDULED_TALENTS:
         cid = talent["id"]
+        win = windows.get(cid, {})
         
         # 1. Slot for today
         slot = cur.execute(
@@ -541,7 +564,12 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
             "approval_decision": approval_dict.get("decision") if approval_dict else None,
             "post_id": pub_dict.get("platform_post_id") if pub_dict else None,
             "post_url": pub_dict.get("post_url") if pub_dict else None,
-            "caption": version_dict.get("caption") if version_dict else None
+            "caption": version_dict.get("caption") if version_dict else None,
+            "cutoff_time_wib": win.get("cutoff_time_wib"),
+            "is_within_retry_window": win.get("is_within_retry_window", False),
+            "is_past_cutoff": win.get("is_past_cutoff", False),
+            "minutes_to_cutoff": win.get("minutes_to_cutoff", 0),
+            "flexible_policy": "Option A (H-1 Jam Cutoff)"
         })
 
     return pipeline_items

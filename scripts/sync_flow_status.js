@@ -109,9 +109,30 @@ async function syncOneAccount(account, tabs, options) {
   if (!projectId) {
     return { id: account.id, character: account.assigned_character, ok: false, reason: 'No project_url UUID' };
   }
-  const tab = tabs.find(t => t.url.includes(projectId));
+  let tab = tabs.find(t => t.url && t.url.includes(projectId));
   if (!tab) {
-    return { id: account.id, character: account.assigned_character, ok: false, reason: `Flow tab ${projectId} not open` };
+    // Auto-Recovery Proaktif: Buka tab baru di browser otomasi via CDP
+    console.log(`[Auto-Recovery] Tab Flow ${projectId} (${account.assigned_character}) belum terbuka. Membuka otomatis via CDP...`);
+    for (const port of CDP_PORTS) {
+      try {
+        const createRes = await fetch(`http://127.0.0.1:${port}/json/new?${encodeURIComponent(account.project_url)}`, { method: 'PUT' });
+        if (createRes.ok) {
+          await new Promise(r => setTimeout(r, 6500));
+          const freshRes = await fetch(`http://127.0.0.1:${port}/json/list`);
+          if (freshRes.ok) {
+            const freshTabs = await freshRes.json();
+            const matched = freshTabs.find(t => t.url && t.url.includes(projectId));
+            if (matched) {
+              tab = { port, ...matched };
+              break;
+            }
+          }
+        }
+      } catch (_) {}
+    }
+  }
+  if (!tab) {
+    return { id: account.id, character: account.assigned_character, ok: false, reason: `Flow tab ${projectId} not open and auto-open failed` };
   }
 
   return await evalOnTab(tab, async (send) => {

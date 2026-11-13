@@ -2,13 +2,13 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-13 10:33:52 WIB",
+    "timestamp_wib": "2026-11-13 10:41:09 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      4.16,
-      3.78,
-      3.98
+      5.15,
+      4.41,
+      4.16
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
@@ -78,11 +78,22 @@
       "name": "Dashboard Web Server",
       "type": "http server",
       "label": "app/dashboard_server.py",
-      "pid": 16587,
+      "pid": 17526,
       "status": "online",
       "port": 8080,
       "badge_color": "emerald",
       "details": "Super Finti Operations Hub & REST API"
+    },
+    {
+      "id": "flexible_reconciler",
+      "name": "Flexible Pipeline Reconciler",
+      "type": "reconciler daemon",
+      "label": "scripts/run_flexible_reconciler.py",
+      "pid": 17355,
+      "status": "online",
+      "port": null,
+      "badge_color": "emerald",
+      "details": "Auto-recovery tab Flow & toleransi cutoff H-1 jam"
     }
   ]
 }

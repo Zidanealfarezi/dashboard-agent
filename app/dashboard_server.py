@@ -1561,6 +1561,11 @@ class DashboardHandler(BaseHTTPRequestHandler):
                     <span class="px-2.5 py-1 rounded-xl bg-purple-100 text-purple-800 font-mono font-bold text-[11px]">
                       Slot ${t.slot_time}
                     </span>
+                    ${t.cutoff_time_wib ? `
+                      <span class="px-2.5 py-1 rounded-xl ${t.is_past_cutoff ? 'bg-rose-100 text-rose-800' : (t.is_within_retry_window ? 'bg-amber-100 text-amber-800 animate-pulse' : 'bg-indigo-50 text-indigo-700 border border-indigo-200')} font-mono font-bold text-[11px]" title="Batas toleransi retry H-1 jam sebelum tayang">
+                        Cutoff: ${t.cutoff_time_wib} WIB
+                      </span>
+                    ` : ''}
                     <span class="px-2.5 py-1 rounded-xl bg-slate-100 text-slate-700 font-mono font-bold text-[11px]">
                       ${t.target_duration}s &bull; ${t.slot_policy}
                     </span>
