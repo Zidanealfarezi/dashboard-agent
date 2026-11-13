@@ -1,0 +1,55 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "edukasi teknik dasar bangunan yang rapi dan hemat biaya"
+  ],
+  "title": "Jarak Kuda-Kuda Baja Ringan 1,2 Meter Biar Atap Tidak Melintir",
+  "hook": "Rangka atap baja ringan gampang melintir kena angin kalau jarak kuda-kudanya asal pasang.",
+  "story": "Bang Ray berjongkok di lantai beton carport rumah yang sedang dibangun di Banda Aceh. Sejak frame pertama tangan kanannya sudah memegang badan meteran dan tangan kirinya menarik pita meteran ke arah kanal kedua. Dua potong kanal C75 galvanized tergelar sejajar di lantai dan tidak pernah keluar dari frame. Ia mengaitkan ujung pita di kanal pertama lalu membentangkan pita melintasi celah sampai angka bacaan jatuh tepat di kanal kedua, menekan pita dengan jari kiri, lalu menatap kamera untuk penutup. Belum canon.",
+  "caption": "Jarak kuda-kuda yang asal pasang bikin rangka atap gampang melintir kena angin. Ukur dari as ke as, patokannya satu koma dua meter, Rakan. #tipsbangunan #bajaringan #kudakuda #tukangbangunan #bandaaceh",
+  "image_prompt": "Pakai tiga aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah), bangray_fullbody_turnaround.jpg (postur dan pakaian kerja), bangray_profile_avatar.jpg. Tidak membuat master baru.",
+  "role_reason": "Tiga konsep disiapkan: (A) demo ukur jarak kuda-kuda dari kamera rendah setinggi lutut dengan meteran dan dua kanal C75, (B) konsep salah-benar sekrup atap di lembah gelombang spandek, (C) POV tukang memeriksa urutan sebelum plafon gypsum. Dipilih A karena hanya butuh dua properti yang sudah tergelar sejak 0.0s, satu aksi tangan terukur, dan topik atap belum pernah dipakai empat paket terverifikasi akun ini (keramik kopong 10 November, plesteran retak 10 November, lem pipa PVC 11 November, takaran air cor beton 12 November).",
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://fumira.co.id/fumiratruss-1",
+      "title": "Fumira Truss - sistem rangka atap baja ringan dan komponennya",
+      "evidence": "Halaman resmi Fumira menjelaskan sistem truss baja ringan beserta komponen kanal C dan pengaku. Dipakai sebagai dasar istilah teknis kanal C dan bracing. Jarak kuda-kuda tetap dinyatakan sebagai patokan umum 1,2 meter yang mengikuti perencana dan bentang, bukan angka mutlak untuk semua rumah.",
+      "observed_at": "2026-11-13T13:55:00+07:00"
+    },
+    {
+      "url": "https://www.tokopedia.com/tb-cahaya-pelangi/baja-ringan-c75-kanal-c-usuk-0-75-0-75-mm-rangka-atap-galvalum-1731454799847655232-1735136648510211904",
+      "title": "Daftar produk kanal C75 0,75 mm untuk rangka atap",
+      "evidence": "Halaman produk menunjukkan kanal C75 tebal 0,75 mm memang dipakai sebagai usuk atau kuda-kuda rangka atap, sehingga properti yang dipakai di video sesuai benda nyata di pasaran.",
+      "observed_at": "2026-11-13T13:56:00+07:00"
+    }
+  ],
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "estimated_credits_displayed": 20,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of Bang Ray, the exact same Indonesian man shown in the two attached reference images: image one is his portrait for FACE IDENTITY (match his face shape, nose, eyebrows, hairline, skin tone and apparent age exactly, do not age him, do not change his facial structure), image two is his full-body turnaround for POSTURE and OUTFIT (navy short-sleeve work shirt with two chest pockets over white undershirt, khaki canvas trousers, black field watch). Output exactly one man, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 15 seconds. Camera is low, at knee height on the concrete floor of a shaded carport in Banda Aceh, framing two steel channels and his hands in the lower half and his face in the upper third. He wears a navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki canvas work trousers, and a black field watch on his left wrist. Since frame zero his right hand already holds a yellow steel tape measure and two bare galvanized C75 steel channels already lie parallel on the floor about one meter apart, one nearer the lens and one farther; those are the only props and they stay in frame unchanged from 0.0s to the end. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps. First three seconds he crouches lower and says in Indonesian, \"Rangka atap baja ringan gampang melintir kena angin kalau jarak kuda-kudanya asal pasang.\" while his left hand pulls the tape blade out across the gap. From second four to second ten he hooks the tape end on the near channel edge, lays the blade flat across the gap so the printed numbers sit right at the far channel, and presses the blade down with his left index finger. From second eleven to the end he keeps the blade pressed in place, looks up into the lens and says in Indonesian, \"Ukur dari as ke as, patokannya satu koma dua meter. Simpan video ini sebelum pasang rangka.\" The meter and the two channels stay present and consistent for the whole shot; no other tool, saw, drill, ladder, person or object appears or disappears mid-shot, no cut, no text overlay, no watermark. Keep his face, clothing, hands and background consistent throughout."
+    }
+  ],
+  "identity_lock": "2 references: portrait face + fullbody posture; face must match portrait exactly"
+}
