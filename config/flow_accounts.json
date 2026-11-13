@@ -58,7 +58,7 @@
       "id": "flow_2",
       "reported_monthly_credits": 1000,
       "balance_verified": true,
-      "verified_balance": 760,
+      "verified_balance": 750,
       "assigned_character": "isk",
       "target_resolution": "360p",
       "project_url": "https://flow.google.com/project/33b10f02-20fa-4df2-87c3-ca4696d342c6",
@@ -68,9 +68,9 @@
       "email": "coralgaming88@gmail.com",
       "chrome_profile_label": "Coral Gaming (FLOW)",
       "subscription_tier_observed": "PRO",
-      "balance_verified_at": "2026-11-13T10:13:25+07:00",
+      "balance_verified_at": "2026-11-13T10:23:07+07:00",
       "project_title": "intansuarkartika",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-13T10:13:25+07:00: 760 kredit Google Flow (intansuarkartika)."
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-13T10:23:07+07:00: 750 kredit Google Flow (intansuarkartika)."
     },
     {
       "id": "flow_3",
