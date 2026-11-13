@@ -39,6 +39,14 @@ def load_json(path):
             return None
     return None
 
+try:
+    from app.system_monitor import get_combined_agent_status
+except Exception:
+    try:
+        from system_monitor import get_combined_agent_status
+    except Exception:
+        get_combined_agent_status = None
+
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
     daemon_threads = True
 
@@ -98,6 +106,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
             self.serve_asset(path[8:])
         elif path == '/api/overview':
             self.handle_api_overview()
+        elif path == '/api/agents_status':
+            self.handle_api_agents_status()
         elif path == '/api/characters':
             self.handle_api_characters()
         elif path == '/api/publications':
@@ -191,14 +201,25 @@ class DashboardHandler(BaseHTTPRequestHandler):
 
             project_cfg = load_json(CONFIG_DIR / "project.json") or {}
 
+            agents_status = get_combined_agent_status(conn) if get_combined_agent_status else {}
+
             self.send_json({
                 'counts': counts,
                 'total_credits': total_credits,
                 'flow_accounts': flow_accounts,
                 'recent_publications': [dict(r) for r in recent_pubs],
                 'recent_approvals': [dict(r) for r in recent_acc],
-                'schedules': project_cfg.get('publication_schedules', {})
+                'schedules': project_cfg.get('publication_schedules', {}),
+                'agents_status': agents_status
             })
+
+    def handle_api_agents_status(self):
+        with get_db() as conn:
+            if get_combined_agent_status:
+                data = get_combined_agent_status(conn)
+            else:
+                data = {'status': 'error', 'error': 'System monitor unavailable'}
+            self.send_json(data)
 
     def handle_api_characters(self):
         with get_db() as conn:
@@ -446,6 +467,17 @@ class DashboardHandler(BaseHTTPRequestHandler):
             <span>Dashboard</span>
           </div>
           <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-purple-400"></i>
+        </button>
+
+        <button onclick="switchTab('agents')" id="nav-btn-agents" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-medium text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all">
+          <div class="flex items-center space-x-3">
+            <i data-lucide="activity" class="w-4 h-4 text-slate-400"></i>
+            <span>Agent & Host Monitor</span>
+          </div>
+          <span class="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-bold flex items-center space-x-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Live</span>
+          </span>
         </button>
 
         <button onclick="switchTab('publications')" id="nav-btn-publications" class="nav-item w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-medium text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all">
@@ -696,6 +728,47 @@ class DashboardHandler(BaseHTTPRequestHandler):
 
       <!-- ================= TAB 1: OVERVIEW ================= -->
       <div id="tab-overview" class="tab-content space-y-6">
+        
+        <!-- COMBINED AGENT HEARTBEAT & HOST HEALTH SUMMARY CARD -->
+        <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/70 space-y-4">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+            <div class="flex items-center space-x-3.5">
+              <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-md shadow-purple-500/20">
+                <i data-lucide="activity" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <div class="flex items-center space-x-2">
+                  <h3 class="text-base font-extrabold text-slate-900 tracking-tight">Status Agen & Pipeline Produksi Aktif</h3>
+                  <span id="overview-host-mode-badge" class="inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <span>Host Online</span>
+                  </span>
+                </div>
+                <p class="text-xs text-slate-400">Kombinasi Heartbeat Tugas Karakter (Application Level) & Host Daemon Mac mini (System Level).</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2">
+              <button onclick="switchTab('agents')" class="px-3.5 py-1.5 bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-bold rounded-xl transition-all flex items-center space-x-1.5 border border-purple-200/60 shadow-sm">
+                <span>Buka Detail Monitor</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- HOST SERVICE STATUS PILLS -->
+          <div class="flex flex-wrap items-center gap-2 pt-1 text-xs" id="overview-host-services-pills">
+            <div class="text-xs text-slate-400 flex items-center space-x-1.5 py-1">
+              <i data-lucide="loader" class="w-3.5 h-3.5 animate-spin text-purple-600"></i>
+              <span>Memuat status daemon...</span>
+            </div>
+          </div>
+
+          <!-- 4 TALENT PIPELINE PROGRESS MINI CARDS -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-1" id="overview-talent-pipeline-grid">
+            <!-- Dynamically populated from JS -->
+          </div>
+        </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
           <!-- LEFT COLUMN (2/3): LATEST TRANSACTIONS / TIKTOK POSTS -->
@@ -818,6 +891,95 @@ class DashboardHandler(BaseHTTPRequestHandler):
           </div>
 
         </div>
+      </div>
+
+      <!-- ================= TAB: AGENT & HOST MONITOR (COMBINED APPROACH 1 & 2) ================= -->
+      <div id="tab-agents" class="tab-content hidden space-y-6">
+
+        <!-- 1. SYSTEM LEVEL: HOST SERVER & DAEMON HEALTH (APPROACH 2) -->
+        <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/70 space-y-5">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+            <div class="flex items-center space-x-3.5">
+              <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-md shadow-purple-500/20">
+                <i data-lucide="cpu" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <div class="flex items-center space-x-2">
+                  <h3 class="text-base font-extrabold text-slate-900 tracking-tight">Host Server & Daemon Health</h3>
+                  <span id="agents-env-badge" class="text-[10px] font-mono px-2 py-0.5 rounded-md bg-purple-100 text-purple-800 font-bold uppercase">Local Host</span>
+                </div>
+                <p class="text-xs text-slate-400">Monitoring level sistem untuk daemon latar belakang Mac mini Apple M4 & sinkronisasi cloud.</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-3 text-xs">
+              <span id="agents-server-time" class="text-slate-500 font-mono text-[11px] bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-xl">-</span>
+              <button onclick="loadAgentsStatus(true)" class="p-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl transition-colors flex items-center space-x-1 font-bold" title="Segarkan status host">
+                <i data-lucide="refresh-cw" id="icon-refresh-agents" class="w-3.5 h-3.5 text-purple-600"></i>
+                <span class="text-xs">Segarkan</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- HARDWARE METRICS SUMMARY -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3.5" id="agents-hardware-metrics">
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100/80 space-y-1">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block">Chipset & OS</span>
+              <span class="text-xs font-bold text-slate-900 block truncate" id="hw-chip">Apple M4 Mac mini</span>
+              <span class="text-[10px] text-slate-500 block truncate" id="hw-plat">Darwin arm64</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100/80 space-y-1">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block">CPU Load (1m, 5m, 15m)</span>
+              <span class="text-xs font-bold text-slate-900 block font-mono" id="hw-cpu">-</span>
+              <span class="text-[10px] text-emerald-600 font-semibold block">Multi-core Optimal</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100/80 space-y-1">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block">Memori Sistem</span>
+              <span class="text-xs font-bold text-slate-900 block font-mono" id="hw-ram">16.0 GB RAM</span>
+              <span class="text-[10px] text-slate-500 block">Unified Architecture</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100/80 space-y-1">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block">Ruang Disk Rendisi</span>
+              <span class="text-xs font-bold text-slate-900 block font-mono" id="hw-disk">- GB Bebas</span>
+              <span class="text-[10px] text-slate-500 block" id="hw-disk-pct">Kapasitas Aman</span>
+            </div>
+          </div>
+
+          <!-- SERVICES GRID -->
+          <div class="space-y-3 pt-2">
+            <div class="flex items-center justify-between">
+              <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider">Layanan Host & Daemon Latar Belakang (Mac mini)</h4>
+              <span class="text-[10px] text-slate-400">6 Layanan Terpantau</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5" id="agents-services-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. APPLICATION LEVEL: CHARACTER TASK HEARTBEAT & PIPELINE (APPROACH 1) -->
+        <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/70 space-y-5">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+            <div class="flex items-center space-x-3.5">
+              <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-600 text-white flex items-center justify-center shadow-md shadow-emerald-500/20">
+                <i data-lucide="git-commit" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h3 class="text-base font-extrabold text-slate-900 tracking-tight">Heartbeat Pipeline Produksi Karakter</h3>
+                <p class="text-xs text-slate-400">Status aktual 5 tahapan produksi video tiap talent dari perencanaan hingga tayang TikTok.</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2 text-xs">
+              <span class="px-3 py-1 rounded-xl bg-purple-50 text-purple-700 font-bold border border-purple-200/60 font-mono">Durasi: 10s - 18s</span>
+              <span class="px-3 py-1 rounded-xl bg-emerald-50 text-emerald-700 font-bold border border-emerald-200/60 font-mono">4 Slot Baku Harian</span>
+            </div>
+          </div>
+
+          <!-- 4 DETAILED PIPELINE CARDS -->
+          <div class="space-y-4" id="agents-pipeline-detailed-list">
+            <!-- Dynamically populated from JS -->
+          </div>
+        </div>
+
       </div>
 
       <!-- ================= TAB 2: TALENT & CREATORS ================= -->
@@ -1059,7 +1221,8 @@ class DashboardHandler(BaseHTTPRequestHandler):
       isRefreshing = true;
       try {
         await refreshData();
-        if (activeTab === 'characters') await loadCreators();
+        if (activeTab === 'agents') await loadAgentsStatus();
+        else if (activeTab === 'characters') await loadCreators();
         else if (activeTab === 'publications') await loadFullPublications();
         else if (activeTab === 'approvals') await loadFullApprovals();
         else if (activeTab === 'tables') {
@@ -1134,6 +1297,7 @@ class DashboardHandler(BaseHTTPRequestHandler):
       }
       activeTab = tabId;
 
+      if (tabId === 'agents') loadAgentsStatus();
       if (tabId === 'characters') loadCreators();
       if (tabId === 'publications') loadFullPublications();
       if (tabId === 'approvals') loadFullApprovals();
@@ -1149,6 +1313,11 @@ class DashboardHandler(BaseHTTPRequestHandler):
         // Hero credits
         document.getElementById('hero-total-credits').innerHTML = `${Number(data.total_credits).toLocaleString()} <span class="text-sm font-semibold">KREDIT</span>`;
         document.getElementById('badge-nav-pubs').innerText = data.counts.publications || 0;
+
+        // Render agents status in overview if available
+        if (data.agents_status) {
+          renderOverviewAgents(data.agents_status);
+        }
 
         // Render transactions list
         const txContainer = document.getElementById('overview-transactions-list');
@@ -1187,6 +1356,291 @@ class DashboardHandler(BaseHTTPRequestHandler):
         lucide.createIcons();
       } catch (e) {
         console.error("Failed to load overview:", e);
+      }
+    }
+
+    function renderOverviewAgents(data) {
+      if (!data || !data.host_status) return;
+
+      // 1. Host Mode Badge
+      const hostModeEl = document.getElementById('overview-host-mode-badge');
+      if (hostModeEl) {
+        if (data.host_status.is_cloud) {
+          hostModeEl.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse"></span><span>Vercel Cloud Mirror</span>`;
+          hostModeEl.className = 'inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200';
+        } else {
+          hostModeEl.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span><span>Mac mini Host Live</span>`;
+          hostModeEl.className = 'inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200';
+        }
+      }
+
+      // 2. Host Services Pills
+      const pillsContainer = document.getElementById('overview-host-services-pills');
+      if (pillsContainer && data.host_status.services) {
+        pillsContainer.innerHTML = data.host_status.services.map(s => {
+          const isOnline = s.status === 'online';
+          const dotColor = isOnline ? 'bg-emerald-500 animate-pulse' : (s.status === 'standby' ? 'bg-slate-400' : 'bg-rose-500');
+          const badgeBg = isOnline ? 'bg-emerald-50 text-emerald-800 border-emerald-200/70' : (s.status === 'standby' ? 'bg-slate-50 text-slate-700 border-slate-200' : 'bg-rose-50 text-rose-700 border-rose-200');
+          return `
+            <span class="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-xl text-[11px] font-semibold ${badgeBg} border shadow-xs" title="${escapeHtml(s.details || '')}">
+              <span class="w-2 h-2 rounded-full ${dotColor}"></span>
+              <span class="font-bold">${s.name}:</span>
+              <span class="font-mono text-[10px]">${s.status.toUpperCase()} ${s.port ? `(:${s.port})` : (s.pid ? `(PID ${s.pid})` : '')}</span>
+            </span>
+          `;
+        }).join('');
+      }
+
+      // 3. 4-Talent Mini Cards
+      const talentGrid = document.getElementById('overview-talent-pipeline-grid');
+      if (talentGrid && data.pipeline_tasks) {
+        talentGrid.innerHTML = data.pipeline_tasks.map(t => {
+          const isDone = t.progress_percent === 100;
+          const isRunning = t.status_tag === 'running';
+          const isReview = t.status_tag === 'review';
+          const borderStyle = isDone ? 'border-emerald-200 bg-emerald-50/40' : (isRunning ? 'border-purple-200 bg-purple-50/40' : (isReview ? 'border-amber-200 bg-amber-50/40' : 'border-slate-100 bg-slate-50/70'));
+          const badgeStyle = isDone ? 'bg-emerald-100 text-emerald-800' : (isRunning ? 'bg-purple-100 text-purple-800' : (isReview ? 'bg-amber-100 text-amber-800' : 'bg-slate-100 text-slate-600'));
+          
+          return `
+            <div onclick="switchTab('agents')" class="p-3.5 rounded-2xl border ${borderStyle} hover:shadow-md transition-all cursor-pointer flex flex-col justify-between space-y-2">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  ${t.avatar_url ? `
+                    <img src="${t.avatar_url}" class="w-7 h-7 rounded-lg object-cover border border-white shadow-xs">
+                  ` : `
+                    <div class="w-7 h-7 rounded-lg bg-purple-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">
+                      ${t.character_name[0]}
+                    </div>
+                  `}
+                  <div>
+                    <h5 class="font-bold text-slate-900 text-xs">${t.character_name.split(' ')[0]}</h5>
+                    <span class="text-[10px] text-slate-500 font-mono">${t.slot_time}</span>
+                  </div>
+                </div>
+                <span class="text-[9.5px] font-bold px-2 py-0.5 rounded-md ${badgeStyle}">
+                  ${t.stages[t.active_step - 1]?.short || 'Step ' + t.active_step}
+                </span>
+              </div>
+
+              <div>
+                <p class="text-[11px] text-slate-700 font-medium leading-snug line-clamp-2">${t.headline_status}</p>
+              </div>
+
+              <div class="space-y-1 pt-1 border-t border-slate-200/50">
+                <div class="flex items-center justify-between text-[10px] font-mono text-slate-500">
+                  <span>Step ${t.active_step}/5</span>
+                  <span class="font-bold text-slate-700">${t.progress_percent}%</span>
+                </div>
+                <div class="w-full bg-slate-200/80 rounded-full h-1.5 overflow-hidden">
+                  <div class="h-full bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full transition-all duration-500" style="width: ${t.progress_percent}%"></div>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+      lucide.createIcons();
+    }
+
+    async function loadAgentsStatus(isManual = false) {
+      const icon = document.getElementById('icon-refresh-agents');
+      if (icon) icon.classList.add('animate-spin');
+      try {
+        const res = await fetch('/api/agents_status');
+        const data = await res.json();
+        if (data.status !== 'success') return;
+
+        // Render Overview mini summary
+        renderOverviewAgents(data);
+
+        // Hardware & Platform
+        const host = data.host_status;
+        const metrics = host?.host_metrics || {};
+        const envBadge = document.getElementById('agents-env-badge');
+        if (envBadge) {
+          envBadge.innerText = host.is_cloud ? 'Vercel Cloud Mirror' : 'Local Mac mini Host';
+          envBadge.className = `text-[10px] font-mono px-2.5 py-0.5 rounded-md font-bold uppercase ${host.is_cloud ? 'bg-indigo-100 text-indigo-800' : 'bg-emerald-100 text-emerald-800'}`;
+        }
+
+        const serverTimeEl = document.getElementById('agents-server-time');
+        if (serverTimeEl) {
+          serverTimeEl.innerText = data.server_time_wib || metrics.timestamp_wib || '-';
+        }
+
+        const hwChip = document.getElementById('hw-chip');
+        if (hwChip) hwChip.innerText = metrics.chip || 'Apple M4 Mac mini';
+
+        const hwPlat = document.getElementById('hw-plat');
+        if (hwPlat) hwPlat.innerText = metrics.platform || 'Darwin arm64';
+
+        const hwCpu = document.getElementById('hw-cpu');
+        if (hwCpu && metrics.cpu_load_1m_5m_15m) {
+          hwCpu.innerText = metrics.cpu_load_1m_5m_15m.join(', ');
+        }
+
+        const hwRam = document.getElementById('hw-ram');
+        if (hwRam) hwRam.innerText = metrics.ram_summary || '16.0 GB RAM';
+
+        const hwDisk = document.getElementById('hw-disk');
+        if (hwDisk) hwDisk.innerText = `${metrics.disk_free_gb || 0} GB Bebas`;
+
+        const hwDiskPct = document.getElementById('hw-disk-pct');
+        if (hwDiskPct) hwDiskPct.innerText = `${metrics.disk_used_percent || 0}% Digunakan (${metrics.disk_total_gb || 0} GB Total)`;
+
+        // Services Grid
+        const servicesGrid = document.getElementById('agents-services-grid');
+        if (servicesGrid && host.services) {
+          servicesGrid.innerHTML = host.services.map(s => {
+            const isOnline = s.status === 'online';
+            const statusBg = isOnline ? 'bg-emerald-50 text-emerald-700 border-emerald-200' : (s.status === 'standby' ? 'bg-slate-100 text-slate-700 border-slate-200' : 'bg-rose-50 text-rose-700 border-rose-200');
+            const dotClass = isOnline ? 'bg-emerald-500 animate-pulse' : (s.status === 'standby' ? 'bg-slate-400' : 'bg-rose-500');
+            const iconName = s.id.includes('chrome') ? 'globe' : (s.id.includes('router') ? 'shuffle' : (s.id.includes('telegram') ? 'send' : (s.id.includes('sync') ? 'cloud' : 'server')));
+
+            return `
+              <div class="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2.5 hover:shadow-sm transition-all">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-2.5">
+                    <div class="w-8 h-8 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center font-bold text-xs">
+                      <i data-lucide="${iconName}" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <h5 class="font-bold text-slate-900 text-xs">${s.name}</h5>
+                      <span class="text-[10px] text-slate-400 font-mono block">${s.label || s.type}</span>
+                    </div>
+                  </div>
+                  <span class="inline-flex items-center space-x-1 px-2 py-0.5 rounded-full text-[10px] font-bold border ${statusBg}">
+                    <span class="w-1.5 h-1.5 rounded-full ${dotClass}"></span>
+                    <span>${s.status.toUpperCase()}</span>
+                  </span>
+                </div>
+
+                <p class="text-[11px] text-slate-600 leading-snug">${s.details || '-'}</p>
+
+                <div class="pt-2 border-t border-slate-100 flex items-center justify-between text-[10.5px] font-mono text-slate-500">
+                  <span>${s.pid ? `PID: <strong class="text-slate-800">${s.pid}</strong>` : 'PID: -'}</span>
+                  <span>${s.port ? `PORT: <strong class="text-purple-700">:${s.port}</strong>` : (s.browser_info ? `<span class="text-slate-700">${s.browser_info}</span>` : '')}</span>
+                </div>
+              </div>
+            `;
+          }).join('');
+        }
+
+        // Detailed Character Pipeline Tasks
+        const pipelineContainer = document.getElementById('agents-pipeline-detailed-list');
+        if (pipelineContainer && data.pipeline_tasks) {
+          pipelineContainer.innerHTML = data.pipeline_tasks.map(t => {
+            const isDone = t.progress_percent === 100;
+            const isRunning = t.status_tag === 'running';
+            const isReview = t.status_tag === 'review';
+            const cardBg = isDone ? 'bg-emerald-50/20 border-emerald-200/80' : (isRunning ? 'bg-purple-50/20 border-purple-200/80' : (isReview ? 'bg-amber-50/20 border-amber-200/80' : 'bg-slate-50/50 border-slate-200/80'));
+
+            return `
+              <div class="p-5 rounded-3xl border ${cardBg} shadow-xs space-y-4 hover:shadow-md transition-all">
+                <!-- Top Row: Talent Profile & Status -->
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/60 pb-3.5">
+                  <div class="flex items-center space-x-3.5">
+                    ${t.avatar_url ? `
+                      <img src="${t.avatar_url}" class="w-12 h-12 rounded-2xl object-cover border-2 border-white shadow-sm">
+                    ` : `
+                      <div class="w-12 h-12 rounded-2xl bg-purple-600 text-white font-black flex items-center justify-center text-lg shadow-sm">
+                        ${t.character_name[0]}
+                      </div>
+                    `}
+                    <div>
+                      <div class="flex items-center space-x-2">
+                        <h4 class="font-extrabold text-slate-900 text-sm tracking-tight">${t.character_name}</h4>
+                        <a href="https://www.tiktok.com/${t.account}" target="_blank" class="text-purple-600 hover:underline text-xs font-mono font-medium">
+                          ${t.account}
+                        </a>
+                      </div>
+                      <p class="text-[11px] text-slate-500 mt-0.5">${t.niche} &bull; Flow: <code class="font-bold text-slate-700">${t.flow_account}</code></p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center space-x-2 text-xs">
+                    <span class="px-2.5 py-1 rounded-xl bg-purple-100 text-purple-800 font-mono font-bold text-[11px]">
+                      Slot ${t.slot_time}
+                    </span>
+                    <span class="px-2.5 py-1 rounded-xl bg-slate-100 text-slate-700 font-mono font-bold text-[11px]">
+                      ${t.target_duration}s &bull; ${t.slot_policy}
+                    </span>
+                    <span class="px-2.5 py-1 rounded-xl ${isDone ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800'} font-bold text-[11px]">
+                      ${t.slot_state}
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Headline Status & Progress Bar -->
+                <div class="space-y-2">
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between text-xs gap-1">
+                    <div class="flex items-center space-x-2">
+                      <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full ${isDone ? 'bg-emerald-400' : 'bg-purple-400'} opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 ${isDone ? 'bg-emerald-500' : 'bg-purple-600'}"></span>
+                      </span>
+                      <span class="font-bold text-slate-900 text-xs">${t.headline_status}</span>
+                    </div>
+                    <span class="font-mono font-extrabold text-purple-700 text-xs">${t.progress_percent}% Progress</span>
+                  </div>
+
+                  <div class="w-full bg-slate-200/80 rounded-full h-2.5 overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-purple-600 via-indigo-600 to-emerald-500 rounded-full transition-all duration-700" style="width: ${t.progress_percent}%"></div>
+                  </div>
+                </div>
+
+                <!-- 5-Step Stepper -->
+                <div class="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-1 text-xs">
+                  ${t.stages.map(st => {
+                    const isStDone = st.status === 'done';
+                    const isStActive = st.status === 'active';
+                    const stBorder = isStDone ? 'border-emerald-300 bg-emerald-50/80 text-emerald-900' : (isStActive ? 'border-purple-300 bg-purple-50/80 text-purple-900' : 'border-slate-200 bg-white text-slate-400');
+                    const numBadge = isStDone ? 'bg-emerald-600 text-white' : (isStActive ? 'bg-purple-600 text-white animate-pulse' : 'bg-slate-200 text-slate-600');
+                    return `
+                      <div class="p-2.5 rounded-2xl border ${stBorder} flex flex-col justify-between space-y-1">
+                        <div class="flex items-center space-x-1.5">
+                          <span class="w-4 h-4 rounded-full ${numBadge} text-[9px] font-bold flex items-center justify-center">${isStDone ? '✓' : st.num}</span>
+                          <span class="font-bold text-[11px] truncate">${st.short}</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 leading-tight truncate" title="${escapeHtml(st.desc)}">${st.desc}</p>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+
+                <!-- Meta & Action Links -->
+                <div class="pt-3 border-t border-slate-200/60 flex flex-wrap items-center justify-between text-xs text-slate-500 gap-2">
+                  <div class="flex flex-wrap items-center space-x-3 font-mono text-[11px]">
+                    ${t.job_id ? `<span>Job: <code class="text-slate-700">${t.job_id.slice(0, 8)}... (${t.job_state})</code></span>` : ''}
+                    ${t.version_id ? `<span>Versi: <code class="text-slate-700">${t.version_id.slice(0, 8)}...</code></span>` : ''}
+                    ${t.approval_decision ? `<span class="px-2 py-0.5 rounded-full ${t.approval_decision === 'approved' ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'} font-bold text-[10px]">ACC: ${t.approval_decision.toUpperCase()}</span>` : ''}
+                  </div>
+
+                  <div class="flex items-center space-x-2">
+                    ${t.post_url ? `
+                      <a href="${t.post_url}" target="_blank" class="px-3 py-1 bg-purple-50 hover:bg-purple-100 text-purple-700 rounded-xl text-xs font-bold transition-colors flex items-center space-x-1 border border-purple-200">
+                        <span>Lihat di TikTok (${t.post_id || 'Live'})</span>
+                        <i data-lucide="external-link" class="w-3 h-3 ml-1"></i>
+                      </a>
+                    ` : ''}
+                    ${t.caption ? `
+                      <button onclick='openCaptionModal("${escapeJs(t.character_name)}", "${escapeJs(t.caption)}")' class="px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold transition-colors">
+                        Buka Naskah
+                      </button>
+                    ` : ''}
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('');
+        }
+
+        lucide.createIcons();
+      } catch (err) {
+        console.error("Failed to load agents status:", err);
+      } finally {
+        if (icon) {
+          setTimeout(() => icon.classList.remove('animate-spin'), 600);
+        }
       }
     }
 

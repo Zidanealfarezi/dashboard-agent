@@ -18,7 +18,10 @@
       "isk": 20,
       "nara": 20,
       "rania": 20,
-      "pak_vincent": 20
+      "pak_vincent": 18
+    },
+    "min_duration_by_character": {
+      "pak_vincent": 10
     },
     "flow_input_resolution": "360p",
     "allowed_durations_seconds": [
@@ -95,7 +98,9 @@
       "flow_input_resolution": "360p",
       "max_duration_seconds": 20,
       "max_duration_bang_ray_seconds": 30,
-      "description": "Video Flow 360p di-upscale Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma; maks 20 detik (Dinda/ISK) dan 30 detik (Bang Ray)"
+      "max_duration_pak_vincent_seconds": 18,
+      "min_duration_pak_vincent_seconds": 10,
+      "description": "Video Flow 360p di-upscale Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma; maks 20 detik (Dinda/ISK), 10-18 detik (Pak Vincent), dan 30 detik (Bang Ray)"
     },
     "photo_selfie": {
       "enabled": true,
@@ -121,7 +126,7 @@
     "videos": 15,
     "photos": 15
   },
-  "generation_budget_authorized_credits": 1180,
+  "generation_budget_authorized_credits": 2500,
   "storage_policy_proposed": {
     "active_media_limit_gib": 5,
     "minimum_free_gib": 5

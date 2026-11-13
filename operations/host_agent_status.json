@@ -1,0 +1,88 @@
+{
+  "environment": "local_mac_mini",
+  "is_cloud": false,
+  "host_metrics": {
+    "timestamp_wib": "2026-11-13 09:29:05 WIB",
+    "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
+    "chip": "Apple M4 / Darwin 26.6.2",
+    "cpu_load_1m_5m_15m": [
+      5.88,
+      6.31,
+      6.03
+    ],
+    "ram_summary": "16.0 GB Unified Memory",
+    "ram_total_gb": 16.0,
+    "disk_free_gb": 67.1,
+    "disk_total_gb": 228.3,
+    "disk_used_percent": 70.6
+  },
+  "services": [
+    {
+      "id": "hermes_gateway",
+      "name": "Hermes Gateway",
+      "type": "launchd daemon",
+      "label": "ai.hermes.gateway",
+      "pid": 1004,
+      "status": "online",
+      "port": null,
+      "badge_color": "emerald",
+      "details": "Gateway orkestrasi agen lokal & bridge IPC"
+    },
+    {
+      "id": "chrome_cdp",
+      "name": "Agent Chrome CDP",
+      "type": "browser automation",
+      "label": "local.ai-influencer.dinda-chrome",
+      "pid": 1059,
+      "status": "online",
+      "port": 9333,
+      "browser_info": "Chrome/152.0.7977.76",
+      "badge_color": "emerald",
+      "details": "Endpoint remote debugging Google Flow & TikTok Studio"
+    },
+    {
+      "id": "hermes_9router",
+      "name": "Hermes 9Router",
+      "type": "routing proxy",
+      "label": "local.hermes.9router",
+      "pid": 1058,
+      "status": "online",
+      "port": 20128,
+      "badge_color": "emerald",
+      "details": "Reverse proxy port 20128 Next-Server"
+    },
+    {
+      "id": "telegram_watcher",
+      "name": "Telegram ACC Watcher",
+      "type": "polling daemon",
+      "label": "scripts/telegram_review_watcher.py",
+      "pid": 1334,
+      "status": "online",
+      "port": null,
+      "badge_color": "emerald",
+      "details": "Polling callback otorisasi Owner 3s"
+    },
+    {
+      "id": "auto_sync_vercel",
+      "name": "Auto-Sync Vercel Daemon",
+      "type": "sync daemon",
+      "label": "scripts/auto_sync_vercel.py",
+      "pid": null,
+      "status": "standby",
+      "port": null,
+      "badge_color": "slate",
+      "details": "Pusher snapshot DB ke GitHub & Vercel deployment"
+    },
+    {
+      "id": "dashboard_server",
+      "name": "Dashboard Web Server",
+      "type": "http server",
+      "label": "app/dashboard_server.py",
+      "pid": 12306,
+      "status": "online",
+      "port": 8080,
+      "badge_color": "emerald",
+      "details": "Super Finti Operations Hub & REST API"
+    }
+  ]
+}

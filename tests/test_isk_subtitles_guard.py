@@ -121,7 +121,7 @@ class TestUnifiedSubtitlesGuard(unittest.TestCase):
         self.assertEqual(video_policy["max_duration_by_character"]["bang_ray"], 30)
         self.assertEqual(video_policy["max_duration_by_character"]["dinda"], 20)
         self.assertEqual(video_policy["max_duration_by_character"]["isk"], 20)
-        self.assertEqual(video_policy["max_duration_by_character"]["pak_vincent"], 20)
+        self.assertEqual(video_policy["max_duration_by_character"]["pak_vincent"], 18)
 
         up_policy = project["video_policy"]["upscale_policy"]
         self.assertTrue(up_policy["mandatory_for_sub_720p"])

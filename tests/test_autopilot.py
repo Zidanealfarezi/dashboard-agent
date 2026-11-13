@@ -450,5 +450,26 @@ class AutopilotTests(unittest.TestCase):
             autopilot.plan_day(self.db, self.root, '2026-11-07', character_ids=['bang_ray'])
 
 
+    def test_pak_vincent_video_duration_and_slot(self):
+        # Pak Vincent wajib otomatis mendapat slot video dengan durasi 10-18 detik, bahkan di hari rotasi foto
+        self.db.execute('INSERT INTO characters VALUES (?,?,?)', ('pak_vincent', 'Pak Vincent', '@pakvincent.riau'))
+        self.settings['character_ids'].append('pak_vincent')
+        self.settings['character_slot_policy'] = {
+            'pak_vincent': {
+                'mode': 'video_only',
+                'min_duration_seconds': 10,
+                'max_duration_seconds': 18,
+                'default_duration_seconds': 10
+            }
+        }
+        self.write('config/autopilot.json', self.settings)
+        # 2026-11-06 = indeks 2 -> hari rotasi foto; Pak Vincent tetap otomatis video 10-18s
+        slots = autopilot.plan_day(self.db, self.root, '2026-11-06', character_ids=['pak_vincent'])
+        self.assertEqual(len(slots), 1)
+        self.assertEqual(slots[0]['character_id'], 'pak_vincent')
+        self.assertEqual(slots[0]['kind'], 'video')
+        self.assertTrue(10 <= slots[0]['duration_seconds'] <= 18)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -38,6 +38,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("auto_sync_vercel")
 
+try:
+    from app.system_monitor import get_host_services_status
+except Exception:
+    get_host_services_status = None
+
 def get_file_hash(path: Path) -> str:
     if not path.exists():
         return "not_found"
@@ -85,10 +90,19 @@ def run_cmd(cmd: list, cwd: Path = BASE_DIR) -> tuple[int, str, str]:
 def perform_sync(reason: str = "data modification") -> bool:
     """Stages operational data, commits, and pushes to origin/main."""
     logger.info(f"🔄 Triggering sync to Vercel (Reason: {reason})...")
+
+    # Refresh host agent snapshot
+    if get_host_services_status:
+        try:
+            get_host_services_status()
+            logger.info("📡 Refreshed host agent status snapshot.")
+        except Exception as e:
+            logger.warning(f"Failed to refresh host status snapshot: {e}")
     
     # Files to stage
     paths_to_stage = [
         "operations/production.sqlite",
+        "operations/host_agent_status.json",
         "operations/plans",
         "operations/research-briefs",
         "config/flow_accounts.json",

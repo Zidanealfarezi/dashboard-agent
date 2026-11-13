@@ -160,6 +160,10 @@ def validate(path: Path) -> list[str]:
                     validate_isk_video_plan(slot, max_final_duration=char_max)
                 except ReviewError as exc:
                     errors.append(f"{label}: {exc}")
+            elif character_id == "pak_vincent" and (type(duration) is not int or not 10 <= duration <= char_max):
+                errors.append(
+                    f"{label}: durasi {duration}s Pak Vincent harus antara 10 sampai {char_max}s (minimal 10s, maksimal {char_max}s)"
+                )
             elif type(duration) is not int or duration > char_max:
                 errors.append(
                     f"{label}: durasi {duration}s melebihi batas maksimal karakter ({char_max}s)"

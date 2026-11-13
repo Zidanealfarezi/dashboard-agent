@@ -93,10 +93,16 @@
     "flow_input_resolution": "360p",
     "max_duration_seconds": 20,
     "max_duration_by_character": {
-      "bang_ray": 30,
-      "dinda": 20,
-      "isk": 20,
-      "pak_vincent": 20
+      "bang_ray": 18,
+      "dinda": 18,
+      "isk": 18,
+      "pak_vincent": 18
+    },
+    "min_duration_by_character": {
+      "bang_ray": 10,
+      "dinda": 10,
+      "isk": 10,
+      "pak_vincent": 10
     },
     "supported_durations_seconds": [
       3,
@@ -117,7 +123,7 @@
       24,
       30
     ],
-    "default_duration_seconds": 8,
+    "default_duration_seconds": 12,
     "aspect_ratio": "9:16",
     "anti_ai_slop_policy": {
       "mandatory": true,
@@ -207,7 +213,34 @@
     "flow_1": 300,
     "flow_2": 880,
     "flow_3": 1050,
-    "flow_4": 880
+    "flow_4": 880,
+    "flow_5": 1000
+  },
+  "character_slot_policy": {
+    "isk": {
+      "mode": "video_only",
+      "min_duration_seconds": 10,
+      "max_duration_seconds": 18,
+      "default_duration_seconds": 12
+    },
+    "bang_ray": {
+      "mode": "video_only",
+      "min_duration_seconds": 10,
+      "max_duration_seconds": 18,
+      "default_duration_seconds": 12
+    },
+    "pak_vincent": {
+      "mode": "video_only",
+      "min_duration_seconds": 10,
+      "max_duration_seconds": 18,
+      "default_duration_seconds": 12
+    },
+    "dinda": {
+      "mode": "photo_and_video",
+      "min_duration_seconds": 10,
+      "max_duration_seconds": 18,
+      "default_duration_seconds": 12
+    }
   },
   "automation_status": "ACTIVE",
   "execution_engine": "hermes",
@@ -217,16 +250,22 @@
     "outputs_per_generation": 1,
     "duration_policy": "per_character_cap",
     "max_duration_by_character": {
-      "bang_ray": 30,
-      "dinda": 20,
-      "isk": 20,
-      "pak_vincent": 20
+      "bang_ray": 18,
+      "dinda": 18,
+      "isk": 18,
+      "pak_vincent": 18
+    },
+    "min_duration_by_character": {
+      "bang_ray": 10,
+      "dinda": 10,
+      "isk": 10,
+      "pak_vincent": 10
     },
     "automatic_paid_retry": false,
     "fallback_model_requires_user_decision": true,
-    "user_requested": "Input Flow wajib 360p untuk semua akun (upscale Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma); maksimal 1 kali posting per hari; batas durasi Bang Ray maks 30 detik, Dinda, ISK, dan Pak Vincent maks 20 detik.",
+    "user_requested": "Semua video talent (Dinda, ISK, Bang Ray, Pak Vincent) berdurasi antara 10 sampai 18 detik (minimal 10 detik, maksimal 18 detik). Input Flow wajib 360p (upscale Varian 3 ke 1080x1920 + subtitle editorial_tiktok tanpa koma); maksimal 1 kali posting per hari.",
     "max_generation_requests_per_content": 1,
-    "default_native_duration_seconds": 8,
+    "default_native_duration_seconds": 12,
     "verified_native_duration_options_seconds": [
       3,
       4,
@@ -248,7 +287,8 @@
   "posting_hours_wib": [
     11,
     13,
-    16
+    16,
+    18
   ],
   "daily_posting_cadence": "one_video_daily_per_character",
   "content_selection_mode": "100% autonomous by PM and AI",
@@ -258,6 +298,7 @@
   "allowed_posting_windows": [
     "Dinda 11:30 WIB",
     "ISK 13:00 WIB",
-    "Bang Ray 16:00 WIB"
+    "Bang Ray 16:00 WIB",
+    "Pak Vincent 18:00 WIB"
   ]
 }

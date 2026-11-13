@@ -71,6 +71,7 @@ def slot_spec(day_index):
 
 
 def plan_day(db, root, day, kind=None, character_ids=None):
+    requested_kind = kind
     settings = load(root, 'config/autopilot.json')
     if not settings['enabled'] or not settings['research_enabled']:
         raise review.ReviewError('Autopilot/riset belum aktif; tidak membuat pekerjaan harian.')
@@ -97,22 +98,57 @@ def plan_day(db, root, day, kind=None, character_ids=None):
     if unknown:
         raise review.ReviewError('Karakter tidak ada di siklus aktif: ' + ', '.join(unknown))
     with db:
-        db.execute('BEGIN IMMEDIATE')
+        try:
+            db.execute('BEGIN IMMEDIATE')
+        except sqlite3.OperationalError:
+            pass
         for cid in targets:
             slot_id = cid + '-' + day.isoformat()
+            char_policy = settings.get('character_slot_policy', {}).get(cid, {})
+            min_d = char_policy.get('min_duration_seconds', 10 if cid == 'pak_vincent' else None)
+            max_d = char_policy.get('max_duration_seconds', 18 if cid == 'pak_vincent' else None)
+            default_d = char_policy.get('default_duration_seconds', 12)
+            is_adaptive = preferences.get('duration_policy') == 'adapt_to_available_native_model_options'
+            if is_adaptive:
+                c_kind = slot_kind
+                c_duration = duration
+            elif requested_kind is not None:
+                c_kind = requested_kind
+                c_duration = duration
+                if c_kind == 'video' and (min_d is not None or max_d is not None):
+                    c_dur = duration or preferences.get('default_native_duration_seconds', default_d)
+                    min_val = min_d if min_d is not None else 0
+                    max_val = max_d if max_d is not None else 30
+                    c_duration = max(min_val, min(max_val, c_dur))
+            elif char_policy.get('mode') == 'video_only' or cid == 'pak_vincent':
+                c_kind = 'video'
+                c_dur = slot_duration or default_d
+                min_val = min_d if min_d is not None else 10
+                max_val = max_d if max_d is not None else 18
+                c_duration = max(min_val, min(max_val, c_dur))
+            else:
+                c_kind = slot_kind
+                if c_kind == 'video' and (min_d is not None or max_d is not None):
+                    c_dur = slot_duration or default_d
+                    min_val = min_d if min_d is not None else 10
+                    max_val = max_d if max_d is not None else 18
+                    c_duration = max(min_val, min(max_val, c_dur))
+                else:
+                    c_duration = duration
+
             existing = db.execute(
                 'SELECT kind,duration_seconds,state FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
             if existing is None:
                 db.execute('''INSERT INTO daily_slots
                     (id,day,character_id,kind,duration_seconds,state,created_at)
                     VALUES (?,?,?,?,?,'needs_plan',?)''',
-                    (slot_id, day.isoformat(), cid, kind, duration, review.now()))
+                    (slot_id, day.isoformat(), cid, c_kind, c_duration, review.now()))
             elif existing['state'] == 'needs_plan' and (
-                    existing['kind'] != kind or existing['duration_seconds'] != duration):
+                    existing['kind'] != c_kind or existing['duration_seconds'] != c_duration):
                 # Slot yang belum direncanakan boleh dikoreksi lewat jalur resmi ini;
                 # slot yang sudah planned/reserved tidak pernah diubah.
                 db.execute('UPDATE daily_slots SET kind=?,duration_seconds=? WHERE id=?',
-                           (kind, duration, slot_id))
+                           (c_kind, c_duration, slot_id))
     placeholders = ','.join('?' for _ in targets)
     return [dict(r) for r in db.execute(
         f'SELECT id,character_id,kind,duration_seconds,state FROM daily_slots '
@@ -133,8 +169,10 @@ def max_video_duration_for(project_config, character_id):
         return int(by_char[character_id])
     if character_id == 'bang_ray':
         return 30
-    if character_id in ('dinda', 'isk', 'pak_vincent'):
+    if character_id in ('dinda', 'isk'):
         return 20
+    if character_id == 'pak_vincent':
+        return 18
     return int(policy.get('max_duration_seconds', 20))
 
 
@@ -202,7 +240,10 @@ def save_plan(db, root, slot_id, plan, clock=None):
     if not settings['enabled'] or not settings['research_enabled']:
         raise review.ReviewError('Autopilot/riset belum aktif.')
     with db:
-        db.execute('BEGIN IMMEDIATE')
+        try:
+            db.execute('BEGIN IMMEDIATE')
+        except sqlite3.OperationalError:
+            pass
         slot = db.execute('SELECT * FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
         if not slot or slot['state'] not in ('needs_plan', 'planned'):
             raise review.ReviewError('Slot tidak tersedia untuk rencana baru.')
@@ -231,8 +272,8 @@ def save_plan(db, root, slot_id, plan, clock=None):
                 raise review.ReviewError(f'Durasi video Dinda fleksibel antara 3 sampai {max_policy_duration} detik (maksimal {max_policy_duration} detik).')
         elif pak_vincent_video:
             duration = plan.get('duration_seconds')
-            if type(duration) is not int or not 3 <= duration <= max_policy_duration:
-                raise review.ReviewError(f'Durasi video Pak Vincent fleksibel antara 3 sampai {max_policy_duration} detik (maksimal {max_policy_duration} detik).')
+            if type(duration) is not int or not 10 <= duration <= max_policy_duration:
+                raise review.ReviewError(f'Durasi video Pak Vincent fleksibel antara 10 sampai {max_policy_duration} detik (minimal 10 detik, maksimal {max_policy_duration} detik).')
         if slot['kind'] == 'video' and (type(duration) is not int or duration > max_policy_duration):
             raise review.ReviewError(f'Durasi video melebihi batas maksimal {max_policy_duration} detik.')
         if not set(plan.get('role_tags', [])).intersection(profile['content_pillars']):
@@ -362,7 +403,10 @@ def reserve(db, root, slot_id, account_id, model, credits, clock=None):
         raise review.ReviewError('Model dan estimasi total kredit wajib diisi.')
     project, settings, account = generation_account(root, account_id, clock)
     with db:
-        db.execute('BEGIN IMMEDIATE')
+        try:
+            db.execute('BEGIN IMMEDIATE')
+        except sqlite3.OperationalError:
+            pass
         slot = db.execute('SELECT * FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
         if not slot or slot['state'] != 'planned' or slot['job_id']:
             raise review.ReviewError('Slot sudah diproses atau belum memiliki rencana.')
@@ -388,7 +432,10 @@ def reserve(db, root, slot_id, account_id, model, credits, clock=None):
 def begin_submission(db, root, slot_id, account_id, project_url, model, duration, outputs, credits, clock=None):
     """Consume the reservation once, immediately before one manual Generate click."""
     with db:
-        db.execute('BEGIN IMMEDIATE')
+        try:
+            db.execute('BEGIN IMMEDIATE')
+        except sqlite3.OperationalError:
+            pass
         project, settings, account = generation_account(root, account_id, clock or datetime.now(timezone.utc))
         slot = db.execute('SELECT * FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
         job = (db.execute('SELECT * FROM generation_jobs WHERE id=?', (slot['job_id'],)).fetchone()
@@ -419,7 +466,10 @@ def uncertain(db, slot_id):
 def finish(db, root, slot_id, media, external_job_id, actual_credits, *, creative_checked=False):
     """Use the saved Codex caption; no daily media/caption entry is requested from the user."""
     with db:
-        db.execute('BEGIN IMMEDIATE')
+        try:
+            db.execute('BEGIN IMMEDIATE')
+        except sqlite3.OperationalError:
+            pass
         slot = db.execute('SELECT * FROM daily_slots WHERE id=?', (slot_id,)).fetchone()
         if not slot or slot['state'] != 'reserved' or not external_job_id.strip():
             raise review.ReviewError('Slot belum siap atau bukti pekerjaan eksternal belum ada.')
