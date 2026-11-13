@@ -1,0 +1,60 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "role_tags": [
+    "dinamika PKS dan timbangan RAM (sortir buah, potongan tangkai panjang, harga TBS Disbun Riau)"
+  ],
+  "role_reason": "Pilar kedua Pak Vincent: praktik nyata di timbangan RAM, khususnya potongan harga karena tangkai panjang.",
+  "title": "Tangkai Panjang Bikin TBS Kena Potong di Timbangan RAM",
+  "hook": "Buah matang bukan jaminan harga penuh, kalau tangkainya panjang tetap kena potong.",
+  "story": "Pak Vincent menunjukkan tandan sawit dengan tangkai panjang, lalu memangkasnya pendek sebelum dibawa ke timbangan. Situasi harian di kebun, bukan kejadian baru dalam canon.",
+  "caption": "Buah sawit matang belum tentu dibayar penuh. Di timbangan RAM, tangkai yang panjang ikut dihitung dan biasanya kena potong, jadi lebih baik dirapikan dari kebun. Kawan-kawan di kebun biasa potong tangkai pakai dodos atau egrek?",
+  "image_prompt": "Pakai tiga aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah), pakvincent_fullbody_turnaround.jpg (postur dan pakaian kebun), pakvincent_profile_avatar.jpg. Tidak membuat master baru.",
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "estimated_credits_displayed": 10,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent, the exact same Indonesian man shown in the three attached reference images (three-expression sheet, full-body turnaround and profile avatar). Output exactly ONE man, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, chest-height framing with slight natural handheld sway. Location: dirt yard in front of a small palm oil collection point in Riau, wooden plank and stacked fruit bunches in the background, overcast morning light. Over ten seconds he lifts a palm fruit bunch with a long stalk toward the camera, points at the stalk, says one short sentence in natural Indonesian to the lens about the trimmed stalk affecting the price, then cuts the stalk short with a dodos chisel and shows the shortened bunch. Shot on smartphone vlog camera, natural clean daylight neutral white balance at 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, no text overlay, no camera information bar, no fps or color-temperature readout, no location label, no timestamps, no watermarks, no logo, no subtitles burned in, no extra people in focus."
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://riauonline.co.id/bisnis/read/2026/11/10/turun-lagi-harga-tbs-sawit-mitra-swadaya-jadi-rp3.719-per-kilogram",
+      "title": "Turun Lagi, Harga TBS Sawit Mitra Swadaya Jadi Rp3.719 per Kilogram (Riau Online, 10 Nov 2026)",
+      "evidence": "Harga TBS mitra swadaya Riau periode 11-17 November 2026 ditetapkan Rp3.719,99/kg untuk kelompok umur 9 tahun; Disbun Riau menyebut penurunan dipengaruhi harga CPO.",
+      "observed_at": "2026-11-13T15:56:38+07:00"
+    },
+    {
+      "url": "https://riau.antaranews.com/berita/457471/harga-tbs-kelapa-sawit-di-riau-kembali-turun-tertinggi-rp372947-per-kg",
+      "title": "Harga TBS kelapa sawit di Riau kembali turun (ANTARA Riau)",
+      "evidence": "Penetapan harga TBS mingguan Disbun Riau per kelompok umur tanaman, dengan harga CPO dan kernel sebagai komponen penentu.",
+      "observed_at": "2026-11-13T15:56:38+07:00"
+    },
+    {
+      "url": "https://riau.suara.com/read/2026/11/10/143816/harga-sawit-riau-periode-11-17-november-turun-terungkap-penyebabnya",
+      "title": "Harga Sawit Riau Periode 11-17 November Turun (Suara Riau, 10 Nov 2026)",
+      "evidence": "Penurunan tertinggi pada kelompok umur 9 tahun Rp9,49/kg (0,25%), indeks K 93,76%, harga cangkang Rp21,49/kg.",
+      "observed_at": "2026-11-13T15:56:38+07:00"
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Harga TBS per 11-17 Nov 2026 dari Disbun Riau via Riau Online, Suara Riau, dan ANTARA Riau. Video TIDAK menyebut angka harga; sumber dipakai sebagai konteks mengapa mutu buah dan tangkai mempengaruhi nilai jual."
+}
