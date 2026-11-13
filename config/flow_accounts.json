@@ -139,7 +139,7 @@
       "id": "flow_5",
       "reported_monthly_credits": 1000,
       "balance_verified": true,
-      "verified_balance": 870,
+      "verified_balance": 906,
       "assigned_character": "pak_vincent",
       "target_resolution": "360p",
       "project_url": "https://flow.google.com/project/9805121c-6c21-4562-aa46-390ad95e5a98",
@@ -150,8 +150,8 @@
       "chrome_profile_label": "Pemuda (FLOW)",
       "subscription_tier_observed": "PRO",
       "project_title": "pak_vincent",
-      "balance_verified_at": "2026-11-12T17:26:51+07:00",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-12T17:26:51+07:00: 870 kredit Google Flow (pak_vincent)."
+      "balance_verified_at": "2026-11-13T15:01:38+07:00",
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-13T15:01:38+07:00: 906 kredit Google Flow (pak_vincent)."
     }
   ],
   "pooled_balance": false,
