@@ -2,13 +2,13 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-13 09:29:05 WIB",
+    "timestamp_wib": "2026-11-13 09:33:29 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      5.88,
-      6.31,
-      6.03
+      7.02,
+      6.44,
+      6.12
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
@@ -67,10 +67,10 @@
       "name": "Auto-Sync Vercel Daemon",
       "type": "sync daemon",
       "label": "scripts/auto_sync_vercel.py",
-      "pid": null,
-      "status": "standby",
+      "pid": 12543,
+      "status": "online",
       "port": null,
-      "badge_color": "slate",
+      "badge_color": "emerald",
       "details": "Pusher snapshot DB ke GitHub & Vercel deployment"
     },
     {
@@ -78,7 +78,7 @@
       "name": "Dashboard Web Server",
       "type": "http server",
       "label": "app/dashboard_server.py",
-      "pid": 12306,
+      "pid": 12561,
       "status": "online",
       "port": 8080,
       "badge_color": "emerald",
