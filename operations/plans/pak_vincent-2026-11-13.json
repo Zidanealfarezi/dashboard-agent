@@ -6,31 +6,66 @@
   "role_tags": [
     "dinamika PKS dan timbangan RAM (sortir buah, potongan tangkai panjang, harga TBS Disbun Riau)"
   ],
-  "role_reason": "Pilar kedua Pak Vincent: praktik nyata di timbangan RAM, khususnya potongan harga karena tangkai panjang.",
+  "role_reason": "Pilar kedua dipakai karena dua video sebelumnya (11 Nov motor langsir, 12 Nov bekal dan stamina) masih di pilar pertama. Pembuka juga diganti dari pose dua jari di kebun menjadi objek masalah langsung di tangan supaya tidak mengulang pola pembuka.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Demo tangan dekat satu momen",
+      "opening": "Tandan bertangkai panjang dan dodos sudah di tangan sejak 0.0s",
+      "camera": "Medium close-up dada handheld smartphone latar halaman TPH",
+      "core_action": "Satu kalimat pendek lalu pangkas tangkai dengan satu ayunan dodos",
+      "closing": "Tandan rapi diangkat ke kamera dengan senyum bersahaja",
+      "risk": "Dua properti inti harus hadir sejak frame pertama"
+    },
+    {
+      "id": "B",
+      "format": "POV menyusuri bak truk menuju timbangan RAM",
+      "opening": "Kamera bergerak di atas tumpukan tandan",
+      "camera": "Handheld bergerak sudut rendah",
+      "core_action": "Menunjuk beberapa tangkai panjang sambil bicara",
+      "closing": "Pandangan ke arah pabrik",
+      "risk": "Gerak kamera tinggi rawan cacat dan wajah sulit konsisten"
+    },
+    {
+      "id": "C",
+      "format": "Ngobrol di kedai kopi poros kebun",
+      "opening": "Menyeruput kopi lalu bicara ke kamera",
+      "camera": "Statis tripod medium shot",
+      "core_action": "Menjelaskan tangkai panjang tanpa memperlihatkan tandan",
+      "closing": "Doa keselamatan kerja",
+      "risk": "Klaim tanpa bukti visual dan mirip pembuka 12 Nov"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Pembuka langsung memperlihatkan benda yang dibicarakan sehingga hook 0-3 detik terbukti secara visual dan hanya butuh satu lokasi satu take.",
+    "history_checked": "2 video terverifikasi milik akun ini yaitu 11 Nov motor langsir dan 12 Nov bekal serta stamina. Riwayat lebih panjang tidak tersedia sehingga dicatat seadanya."
+  },
   "title": "Tangkai Panjang Bikin TBS Kena Potong di Timbangan RAM",
-  "hook": "Buah matang bukan jaminan harga penuh, kalau tangkainya panjang tetap kena potong.",
-  "story": "Pak Vincent menunjukkan tandan sawit dengan tangkai panjang, lalu memangkasnya pendek sebelum dibawa ke timbangan. Situasi harian di kebun, bukan kejadian baru dalam canon.",
-  "caption": "Buah sawit matang belum tentu dibayar penuh. Di timbangan RAM, tangkai yang panjang ikut dihitung dan biasanya kena potong, jadi lebih baik dirapikan dari kebun. Kawan-kawan di kebun biasa potong tangkai pakai dodos atau egrek?",
-  "image_prompt": "Pakai tiga aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah), pakvincent_fullbody_turnaround.jpg (postur dan pakaian kebun), pakvincent_profile_avatar.jpg. Tidak membuat master baru.",
+  "hook": "Tandan matang belum tentu dibayar penuh kalau tangkainya masih panjang.",
+  "story": "Pak Vincent memegang tandan sawit bertangkai panjang di tangan kiri dan dodos di tangan kanan sejak detik 0.0s. Ia bicara satu kalimat pendek soal tangkai panjang yang kena potong di timbangan RAM lalu memangkas tangkai itu dengan satu ayunan dodos dan mengangkat tandan rapi ke arah kamera. Situasi harian di kebun bukan kejadian baru dalam canon.",
+  "caption": "Tandan sawit matang belum tentu dibayar penuh kalau tangkainya masih panjang. Di timbangan RAM tangkai ikut dihitung dan biasanya kena potong jadi lebih baik dirapikan dari kebun. Kawan-kawan biasa potong tangkai pakai dodos atau egrek? #sawitriau #tbs #timbanganram #kebunsawit #pekanbaru #petanisawit #panensawit",
+  "image_prompt": "Pakai aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah) dan pakvincent_fullbody_turnaround.jpg (postur serta pakaian kebun). Tidak membuat master baru.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
   "flow": {
     "model": "Omni 1.2 Flash",
     "resolution": "360p",
     "aspect_ratio": "9:16",
     "outputs": 1,
-    "duration_options_seconds": [
-      4,
-      6,
-      8,
-      10,
-      12
-    ],
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 10,
     "estimated_credits_displayed": 10,
-    "references_attached": 3
+    "references_attached": 2
   },
   "shots": [
     {
       "seconds": 10,
-      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent, the exact same Indonesian man shown in the three attached reference images (three-expression sheet, full-body turnaround and profile avatar). Output exactly ONE man, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, chest-height framing with slight natural handheld sway. Location: dirt yard in front of a small palm oil collection point in Riau, wooden plank and stacked fruit bunches in the background, overcast morning light. Over ten seconds he lifts a palm fruit bunch with a long stalk toward the camera, points at the stalk, says one short sentence in natural Indonesian to the lens about the trimmed stalk affecting the price, then cuts the stalk short with a dodos chisel and shows the shortened bunch. Shot on smartphone vlog camera, natural clean daylight neutral white balance at 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, no text overlay, no camera information bar, no fps or color-temperature readout, no location label, no timestamps, no watermarks, no logo, no subtitles burned in, no extra people in focus."
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent the exact same Indonesian man shown in the two attached reference photos (three-expression sheet and full-body turnaround). Output exactly ONE man in ONE continuous shot never a collage split screen or reference-sheet layout. Vertical 9:16 10 seconds chest-height framing with slight natural handheld sway. Location: packed dirt yard in front of a small palm oil collection point in Riau with a wooden plank platform and stacked palm fruit bunches behind him under soft overcast late-afternoon light. He wears the vintage royal blue Samsung football jersey dark shorts dark baseball cap and rubber work sandals with lean wiry build sun-tanned weathered skin fine pores and smile lines and a thin mustache. PROP CONTINUITY: from 0.0s until the end of the clip he already holds one palm fruit bunch with a long uncut stalk in his left hand and one dodos chisel in his right hand and both objects stay in frame the whole time with nothing appearing or disappearing mid-take. At 0.0s he looks straight at the lens and lifts the bunch slightly so the long stalk is clearly visible then speaks one short sentence in natural Indonesian about a long stalk being trimmed at the weighbridge. Around the fifth second he lowers the bunch onto the plank and cuts the long stalk short with one firm dodos stroke. At the eighth second he raises the trimmed bunch toward the lens with a modest friendly smile and a small nod. Shot on a smartphone vlog camera neutral white balance 5500K true-to-life colors realistic matte human skin with visible fine pores no plastic shine no waxy or glass skin no yellow or orange tint no artificial golden glow zero CGI authentic documentary look. Clean frame with no baked-in text no subtitles no camera information bar no fps or color-temperature readout no location label no timestamps no watermark no logo and no extra people in focus."
     }
   ],
   "trend_sources": [
