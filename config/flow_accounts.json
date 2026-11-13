@@ -67,7 +67,7 @@
       "id": "flow_3",
       "reported_monthly_credits": 1000,
       "balance_verified": true,
-      "verified_balance": 1026,
+      "verified_balance": 1006,
       "assigned_character": "bang_ray",
       "target_resolution": "360p",
       "project_url": "https://flow.google.com/project/3d61dd46-62f0-42c0-9ff0-24c2cbf07b0d",
@@ -77,10 +77,10 @@
       "email": "pemuda112200@gmail.com",
       "chrome_profile_label": "Pemuda (FLOW)",
       "subscription_tier_observed": "PRO",
-      "balance_verified_at": "2026-11-11T14:01:41+07:00",
+      "balance_verified_at": "2026-11-12T15:36:50+07:00",
       "credits_reset_label_as_displayed": "3 Des pukul 20.43",
       "project_title": "bang_ray",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-11T14:01:41+07:00: 1026 kredit Google Flow (bang_ray).",
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-12T15:36:50+07:00: 1006 kredit Google Flow (bang_ray).",
       "observed_generation_settings": {
         "model_family": "Omni 1.2 Flash",
         "mode": "video",
@@ -129,8 +129,8 @@
     {
       "id": "flow_5",
       "reported_monthly_credits": 1000,
-      "balance_verified": false,
-      "verified_balance": 1000,
+      "balance_verified": true,
+      "verified_balance": 870,
       "assigned_character": "pak_vincent",
       "target_resolution": "360p",
       "project_url": "https://flow.google.com/project/9805121c-6c21-4562-aa46-390ad95e5a98",
@@ -140,7 +140,9 @@
       "email": "pemuda008899@gmail.com",
       "chrome_profile_label": "Pemuda (FLOW)",
       "subscription_tier_observed": "PRO",
-      "project_title": "pak_vincent"
+      "project_title": "pak_vincent",
+      "balance_verified_at": "2026-11-12T17:26:51+07:00",
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-12T17:26:51+07:00: 870 kredit Google Flow (pak_vincent)."
     }
   ],
   "pooled_balance": false,

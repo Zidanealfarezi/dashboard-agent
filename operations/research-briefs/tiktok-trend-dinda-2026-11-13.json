@@ -1,0 +1,190 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-13",
+ "character_id": "dinda",
+ "slot": "morning",
+ "collected_at": "2026-11-13T08:05:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Riset slot pagi 13 November 2026 pukul 08:00-08:25 WIB. Halaman yang benar-benar dibaca: lagitren.id (daftar TikTok viral hari ini, diperbarui 13 Nov 07.17 WIB), halaman tagar #hariayah di situs yang sama, prakiraan cuaca BMKG per kecamatan Kota Palembang untuk Fri 13 Nov, artikel Tribun Sumsel tentang harga beras premium di Pasar Lemabang (terbit 9 Nov 10.33 WIB, pengamatan pedagang Senin 9/11/2026), artikel ANTARA 11 Nov 19.34 WIB tentang operasi pasar beras Pemprov Sumsel, artikel Detik Sumsel 12 Nov 11.51 WIB tentang rakor stok dan harga pangan di Mapolda Sumsel, serta artikel ANTARA Sumsel 5 Nov 09.10 WIB tentang harga beras SPHP Rp12.500 per kilogram. Temuan: sepuluh video TikTok yang viral hari ini masih didominasi politik (#ijazahjokowi, #roysuryo, #jokowi) dan esports (#ffesportsid, #stormarena, #ffwsgf2026), tanpa satu pun tagar kuliner atau tagar lokal Palembang; dua tagar gaya hidup yang muncul adalah #hariayah (peringkat 12) dan #dahlia (peringkat 14). Pemicu lokal paling konkret justru pangan: beras premium di Pasar Lemabang Palembang dilaporkan Rp17.500-Rp19.000 per kilogram sementara harga SPHP Rp12.500 per kilogram, dan Pemprov Sumsel menyiapkan operasi pasar setelah rakor lintas instansi di Mapolda Sumsel 12 November. BMKG memprakirakan hujan ringan di seluruh 18 kecamatan Kota Palembang hari ini. Angka yang dicatat hanya yang terlihat langsung di halaman yang dibaca.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 13 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 13 November 2026 · diperbarui 13 Nov, 07.17 WIB'. Sepuluh video lagi viral beserta tayangannya: #ijazahjokowi 21,5 jt, #stormarena 5,6 jt, #haripahlawanindonesia 1,9 jt, #roysuryo 15,3 jt, #soj1stanniversary 152,5 rb, #ffesportsid 47,7 jt, #ffwsgf2026 520,5 rb, #bambamxswordofjustice 209,6 rb, #jokowi 21,5 jt, #swordofjustice 308,9 rb. Daftar 14 hashtag tren hari ini: #ijazahjokowi, #stormarena, #haripahlawanindonesia, #roysuryo, #soj1stanniversary, #ffesportsid, #ffwsgf2026, #bambamxswordofjustice, #jokowi, #swordofjustice, #jokowidodopresidenkita, #hariayah, #ijazah, #dahlia. Tidak ada satu pun tagar kuliner atau tagar lokal Palembang di daftar ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:05:00+07:00",
+   "metrics": {
+    "top_trend": "#ffesportsid",
+    "top_trend_views": 47700000,
+    "hashtags_listed": 14,
+    "culinary_tags_in_list": 0,
+    "palembang_tags_in_list": 0
+   }
+  },
+  {
+   "url": "https://lagitren.id/tiktok/hariayah",
+   "title": "TikTok Viral #hariayah · Lagi Tren",
+   "evidence": "Halaman tagar bertanda 'Diperbarui 13 Nov, 07.17 WIB'. Penjelasan redaksi: '#hariayah sedang ramai di TikTok Indonesia karena pengguna membuat dan membagikan konten terkait momen atau perayaan yang mereka namakan Hari Ayah', dan lonjakan video menunjukkan banyak orang ingin mengabadikan momen bersama ayah mereka. Halaman tidak mencantumkan angka tayangan khusus maupun tanggal perayaan resmi, jadi alasan tren ini hanya versi redaksi halaman tersebut dan tidak boleh ditulis sebagai perayaan resmi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:08:00+07:00",
+   "metrics": {
+    "hashtag": "#hariayah",
+    "hashtag_rank_today": 12,
+    "views_listed": 0
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 13 November 2026 pukul 08:10 WIB. Kolom pertama tabel adalah Fri, 13 Nov. Seluruh 18 kecamatan yang tercantum diprakirakan 'Hujan Ringan' hari ini dengan suhu 25-30 derajat Celsius dan kelembapan 75-99 persen: Ilir Barat Dua, Seberang Ulu Satu, Seberang Ulu Dua, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, Sukarami, Sako, Kemuning, Kalidoni, Bukitkecil, Gandus, Kertapati, Plaju, Alang-alang Lebar, Sematangborang, Jakabaring, Ilir Timur Tiga. Hujan ini prakiraan resmi BMKG, bukan asumsi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:10:00+07:00",
+   "metrics": {
+    "forecast_date": "2026-11-13",
+    "kecamatan_with_hujan_ringan": 18,
+    "kecamatan_listed_today": 18,
+    "temperature_range_c": "25-30",
+    "humidity_range_percent": "75-99"
+   }
+  },
+  {
+   "url": "https://sumsel.tribunnews.com/palembang/1034919/padahal-sumsel-lumbung-beras-warga-palembang-keluhkan-harga-beras-premium-naik-sphp-jadi-buruan",
+   "title": "Padahal Sumsel Lumbung Beras, Warga Palembang Keluhkan Harga Beras Premium Naik, SPHP Jadi Buruan - Tribun Sumsel",
+   "evidence": "Terbit Senin 9 November 2026 pukul 10.33 WIB, dibaca 13 November 2026. Di Pasar Lemabang Kota Palembang, pedagang bernama Aini menyebut beras premium eceran yang sebelumnya sekitar Rp17.000 per kilogram kini Rp17.500 sampai Rp19.000 per kilogram tergantung jenis dan merek. Kemasan 20 kilogram naik dari Rp320.000 menjadi Rp328.000-Rp340.000, kemasan 10 kilogram naik dari Rp165.000 menjadi Rp168.000-Rp170.000. Aini menduga penyebabnya kekeringan akibat kemarau panjang di daerah produksi padi sehingga panen berkurang, dan artikel menyebut warga mulai beralih ke beras SPHP. Artikel tidak memuat data resmi dinas, jadi angka ini adalah keterangan pedagang, bukan harga rata-rata kota.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:14:00+07:00",
+   "published_at": "2026-11-09T10:33:00+07:00",
+   "metrics": {
+    "location": "Pasar Lemabang, Palembang",
+    "premium_per_kg_before": 17000,
+    "premium_per_kg_now_low": 17500,
+    "premium_per_kg_now_high": 19000,
+    "sak_20kg_before": 320000,
+    "sak_20kg_now_high": 340000,
+    "price_source": "keterangan pedagang, bukan data dinas"
+   }
+  },
+  {
+   "url": "https://www.antaranews.com/berita/5847403/sumsel-siapkan-operasi-pasar-untuk-stabilkan-harga-beras",
+   "title": "Sumsel siapkan operasi pasar untuk stabilkan harga beras - ANTARA News",
+   "evidence": "Terbit Rabu 11 November 2026 pukul 19.34 WIB, dibaca 13 November 2026. Gubernur Sumatera Selatan Herman Deru di Palembang menyatakan 'Terapi awal yang kita lakukan adalah operasi pasar' dan akan memanggil Perum Bulog, distributor, pelaku usaha bahan pokok, serta Forkopimda termasuk aparat penegak hukum untuk menelusuri penyebab kelangkaan beras premium. Deru menyebut produktivitas beras Sumsel masih stabil sehingga ada 'penyumbat' yang harus diselesaikan, dan tidak menutup kemungkinan menata tata niaga lewat regulasi atau diskresi berdasarkan hasil rapat.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:16:00+07:00",
+   "published_at": "2026-11-11T19:34:00+07:00",
+   "metrics": {
+    "policy": "operasi pasar beras",
+    "announced_by": "Gubernur Sumsel Herman Deru",
+    "institutions_summoned": 5,
+    "regulation_option": 1
+   }
+  },
+  {
+   "url": "https://www.detiksumsel.com/palembang/97417892395/kapolda-sumsel-pimpin-rakor-pengawasan-stok-dan-stabilitas-harga-pangan-di-sumsel",
+   "title": "Kapolda Sumsel Pimpin Rakor Pengawasan Stok dan Stabilitas Harga Pangan di Sumsel - Detik Sumsel",
+   "evidence": "Terbit Kamis 12 November 2026 pukul 11.51 WIB, dibaca 13 November 2026. Kapolda Sumsel Irjen Pol. Rony Samtana memimpin rapat koordinasi lintas instansi di Ruang Rapat Serbaguna Lantai 2 Gedung Presisi Mapolda Sumsel pada Kamis 12 November 2026, dihadiri Dinas Ketahanan Pangan, Dinas Pertanian, Dinas Perdagangan, dan Wakil Pemimpin Wilayah Perum Bulog Sumselbabel Renato Horison. Kapolda menyatakan komitmen mengawal kelancaran distribusi dan menindak tegas upaya penimbunan yang mengganggu stabilitas harga.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:18:00+07:00",
+   "published_at": "2026-11-12T11:51:00+07:00",
+   "metrics": {
+    "event_date": "2026-11-12",
+    "location": "Mapolda Sumsel",
+    "agencies_present": 5,
+    "penimbunan_stance": "ditindak tegas"
+   }
+  },
+  {
+   "url": "https://sumsel.antaranews.com/berita/827571/menko-pangan-pemerintah-siapkan-1-juta-ton-antisipasi-lonjakan-harga",
+   "title": "Menko Pangan: Pemerintah siapkan 1 juta ton antisipasi lonjakan harga - ANTARA News Sumatera Selatan",
+   "evidence": "Terbit Kamis 5 November 2026 pukul 09.10 WIB, dibaca 13 November 2026. Menko Bidang Pangan Zulkifli Hasan di Palembang menyebut pemerintah menyiapkan satu juta ton beras melalui program Stabilisasi Pasokan dan Harga Pangan (SPHP) untuk mengantisipasi kenaikan harga akibat kemarau panjang. Beras SPHP dijual Rp12.500 per kilogram, lebih rendah dibanding harga pasar yang disebutnya Rp15.000-Rp17.000 per kilogram, dan bisa diperoleh di kantor Perum Bulog maupun pasar tradisional jaringan pemasaran beras subsidi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-13T08:20:00+07:00",
+   "published_at": "2026-11-05T09:10:00+07:00",
+   "metrics": {
+    "program": "SPHP",
+    "price_per_kg": 12500,
+    "market_reference_per_kg": "15000-17000",
+    "volume_ton": 1000000
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "A",
+   "title": "Beras Premium di Pasar Lemabang Tembus Rp19 Ribu, Warga Beralih ke SPHP Rp12.500",
+   "pillar": "Daily Vlog Palembang",
+   "hook": "Beras premium di Pasar Lemabang sekarang Rp17.500 sampai Rp19.000 sekilo. SPHP dijual Rp12.500, jadi wajar kalau pembeli pindah ke sana.",
+   "shots": [
+    "Shot 1 (8s): Dinda berdiri di lorong Pasar Lemabang sambil memegang karung beras kecil, menyebut beras premium eceran di pasar ini kini Rp17.500 sampai Rp19.000 per kilogram menurut pedagang yang diwawancarai Tribun Sumsel pada 9 November 2026.",
+    "Shot 2 (8s): Dinda menunjuk karung beras SPHP bertanda Bulog dan menyebut harganya Rp12.500 per kilogram sesuai keterangan Menko Pangan, lalu bertanya ke penonton apakah di rumah mereka sudah pindah ke SPHP atau masih setia beras premium."
+   ],
+   "sound": "Suara asli pasar: tawar-menawar, karung beras, tanpa musik penuh",
+   "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+   "caption": "Pedagang di Pasar Lemabang menyebut beras premium Rp17.500 sampai Rp19.000 sekilo, sementara SPHP Rp12.500. Itu catatan harga awal pekan ini, bukan angka tetap tiap hari. Kalau di rumah kalian masih setia beras premium atau sudah pindah ke SPHP? #beraspremium #sphp #hargapangan #pasarlemabang #palembang #dailyvlog",
+   "sources": [
+    "https://sumsel.tribunnews.com/palembang/1034919/padahal-sumsel-lumbung-beras-warga-palembang-keluhkan-harga-beras-premium-naik-sphp-jadi-buruan",
+    "https://sumsel.antaranews.com/berita/827571/menko-pangan-pemerintah-siapkan-1-juta-ton-antisipasi-lonjakan-harga",
+    "https://www.antaranews.com/berita/5847403/sumsel-siapkan-operasi-pasar-untuk-stabilkan-harga-beras",
+    "https://www.detiksumsel.com/palembang/97417892395/kapolda-sumsel-pimpin-rakor-pengawasan-stok-dan-stabilitas-harga-pangan-di-sumsel",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 8.5,
+    "local_relevance": 9.5,
+    "format_fit": 9.0,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.0
+   },
+   "why": "Harga beras premium Rp17.500-Rp19.000 di Pasar Lemabang adalah angka Palembang langsung dari pedagang, bukan harga nasional, dan topiknya bergerak tiga hari terakhir: Pemprov menyiapkan operasi pasar 11 November lalu rakor lintas instansi dipimpin Kapolda 12 November. Selisih dengan SPHP Rp12.500 membuat topik ini bisa dibahas tanpa menghakimi siapa pun, cukup dari sisi belanja harian, dan lokasi pasar tradisional cocok dengan pilar kuliner serta daily vlog Dinda. Sepuluh tren TikTok hari ini kosong dari tagar kuliner sehingga ceruk ini terbuka, dan hujan ringan sepanjang hari di Palembang membuat syuting di dalam pasar tetap masuk akal.",
+   "claim_note": "Harga dari Tribun Sumsel (9 Nov, keterangan pedagang) dan ANTARA Sumsel (5 Nov, SPHP Rp12.500). Caption diberi atribusi pedagang dan penanda waktu, tidak diklaim sebagai harga resmi hari ini."
+  },
+  {
+   "code": "B",
+   "title": "Tagar #hariayah Masuk Tren TikTok Hari Ini, Ide Konten Sederhana Bareng Ayah",
+   "pillar": "Lifestyle",
+   "hook": "Tagar hariayah masuk empat belas besar tren TikTok hari ini. Kontennya sederhana saja, bukan yang mahal.",
+   "shots": [
+    "Shot 1 (8s): Dinda duduk di teras rumah sambil memegang ponsel, menyebut tagar hariayah ada di peringkat 12 daftar hashtag tren TikTok hari ini menurut halaman tren lagitren.id yang diperbarui 13 November 2026 pukul 07.17 WIB.",
+    "Shot 2 (8s): Dinda menyebut contoh konten sederhana yang bisa direkam siapa saja, misalnya video makan bareng atau menelepon ayah, lalu bertanya momen kecil apa yang paling diingat penonton."
+   ],
+   "sound": "Musik akustik pelan dengan suara asli ruangan",
+   "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+   "caption": "Tagar hariayah masuk daftar hashtag tren TikTok Indonesia hari ini menurut halaman lagitren.id yang diperbarui 13 November 2026 pukul 07.17 WIB. Kontennya cukup momen kecil bareng ayah, tidak perlu yang mahal. Kalian paling sering ngapain kalau lagi sama ayah? #hariayah #keluarga #lifestyle #contentideas #palembang #dailyvlog",
+   "sources": [
+    "https://lagitren.id/tiktok/hariayah",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 8.0,
+    "local_relevance": 4.0,
+    "format_fit": 7.0,
+    "evidence_strength": 6.5,
+    "risk_safety": 7.5
+   },
+   "why": "Momentumnya segar karena tagar ini baru muncul di daftar hari ini, tetapi halaman sumber hanya menduga alasan trennya dan tidak memuat angka tayangan, jadi buktinya lemah. Profil Dinda juga tidak mendefinisikan keluarga secara rinci sehingga konten ini harus tetap umum, tidak boleh mengarang cerita pribadi, dan kaitannya dengan pilar kuliner serta jalan-jalan hampir tidak ada."
+  },
+  {
+   "code": "C",
+   "title": "Hujan Ringan Sepanjang Hari di Palembang, Waktunya Balik ke Makanan Berkuah",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "BMKG prakirakan hujan ringan di semua kecamatan Palembang hari ini. Sarapan berkuah jadi pilihan paling masuk akal.",
+   "shots": [
+    "Shot 1 (8s): Dinda membuka jendela rumah dan menyebut BMKG memprakirakan hujan ringan di seluruh 18 kecamatan Kota Palembang hari ini dengan suhu 25-30 derajat Celsius.",
+    "Shot 2 (8s): Dinda duduk di warung dan menyeruput kuah, lalu bertanya makanan berkuah apa yang paling dicari penonton saat hujan."
+   ],
+   "sound": "Suara hujan dan ambient warung, musik lo-fi pelan",
+   "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+   "caption": "BMKG prakirakan hujan ringan di semua kecamatan Palembang hari ini, suhunya 25 sampai 30 derajat. Kalau cuaca begini kalian paling pengen mie celor, tekwan, atau celimpungan? #hujan #kulinerpalembang #miecelor #tekwan #palembang #dailyvlog",
+   "sources": [
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 4.5,
+    "local_relevance": 8.5,
+    "format_fit": 8.5,
+    "evidence_strength": 8.5,
+    "risk_safety": 9.5
+   },
+   "why": "Prakiraan BMKG-nya kuat dan mudah diverifikasi, tetapi sudut hujan plus makanan berkuah sudah dipakai beberapa kali dalam sepekan terakhir sehingga daya tarik barunya rendah dan topik ini lebih tepat jadi cadangan."
+  }
+ ]
+}

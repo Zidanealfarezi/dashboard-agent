@@ -1,0 +1,55 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "ladang sawit dan panen TBS (motor langsir, dodos vs egrek, musim trek, pupuk dan perawatan)",
+    "keseharian bersahaja dan motivasi hidup positif (kopi kebun, rantang makan siang, sapaan dua jari)"
+  ],
+  "role_reason": "Dinamika panen TBS sawit di Pekanbaru Riau dan tips menjaga kebugaran saat melangsir buah sangat diminati audiens perkebunan.",
+  "title": "Kunci Tenaga Melangsir Sawit Saat Musim Panen Riau",
+  "hook": "Bukan cuma mesin motor yang harus sehat, badan kita yang melangsir TBS juga wajib dijaga staminanya kawan-kawan.",
+  "story": "Pak Vincent menyapa hangat di kebun sawit Pekanbaru dengan pose dua jari khasnya, membagikan rahasia sarapan kopi hitam dan bekal rantang sederhana sebelum berangkat melangsir buah sawit agar tetap bertenaga seharian, lalu mendoakan keselamatan kerja untuk seluruh kawan pekebun.",
+  "caption": "Melangsir buah sawit di jalan kebun yang licin bukan cuma butuh motor yang prima tapi fisik yang bugar dan sarapan cukup sebelum masuk blok panen. Kawan-kawan di kebun biasa bawa bekal apa dari rumah untuk makan siang? Salam dua jari sehat selalu #sawitriau #kebunsawit #pekanbaru #petanisawit #panensawit #pekerjakebun",
+  "image_prompt": "Gunakan tiga aset referensi resmi Pak Vincent: lembar tiga ekspresi (master wajah), turnaround full-body, dan profile avatar. Tidak membuat gambar master baru.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [10, 12, 15, 18],
+    "estimated_credits_displayed": 12,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent, the same 35-year-old Indonesian man shown in the three attached reference images (three-expression sheet, full-body turnaround, and avatar). Output exactly one man, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, medium shot standing beside a lush oil palm tree in Pekanbaru Riau morning daylight. He wears the vintage royal blue Samsung football jersey, dark shorts, dark baseball cap, and durable work sandals. Lean wiry build, authentic sun-tanned weathered skin with natural fine pores and smile lines, thin neat mustache. In the first three seconds at 0.0s he is smiling warmly at the camera, raising his right hand in his iconic two-finger peace sign gesture (peace sign ✌️); from the third second he lowers his hand naturally and speaks warmly in Indonesian, \"Semangat pagi kawan-kawan di kebun, sebelum melangsir TBS jangan lupa isi tenaga dulu biar badan tetap bugar!\"; at the ninth second he gives an encouraging nod and warm smile while gesturing toward the palm trees. True-to-life colors, natural daylight neutral white balance 5500K, realistic matte human skin, zero plastic shine, zero CGI, authentic non-AI documentary smartphone footage at 24fps. Completely clean frame with zero on-screen text, zero subtitles, and no watermark."
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/14.71",
+      "title": "Prakiraan Cuaca Kota Pekanbaru - BMKG",
+      "observed_at": "2026-11-12T08:00:00+07:00",
+      "evidence": "Kondisi cuaca cerah berawan di sentra perkebunan Riau mendukung aktivitas panen dan pengangkutan TBS dari kebun ke RAM penimbangan."
+    },
+    {
+      "url": "https://mediaperkebunan.id/kondisi-jalan-produksi-sawit-rakyat-riau",
+      "title": "Tantangan Jalan Produksi dan Logistik TBS Sawit Rakyat di Riau",
+      "observed_at": "2026-11-12T08:30:00+07:00",
+      "evidence": "Aktivitas langsir TBS petani swadaya Riau meningkat di awal pekan dengan fokus pada kesiapan fisik operator dan keandalan motor angkut."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Riset lapangan ekosistem perkebunan kelapa sawit Riau dan dinamika kerja harian pekebun."
+}
