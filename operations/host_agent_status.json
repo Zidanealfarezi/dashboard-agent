@@ -2,19 +2,19 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-13 09:33:29 WIB",
+    "timestamp_wib": "2026-11-13 10:33:52 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      7.02,
-      6.44,
-      6.12
+      4.16,
+      3.78,
+      3.98
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
-    "disk_free_gb": 67.1,
+    "disk_free_gb": 65.9,
     "disk_total_gb": 228.3,
-    "disk_used_percent": 70.6
+    "disk_used_percent": 71.1
   },
   "services": [
     {
@@ -78,7 +78,7 @@
       "name": "Dashboard Web Server",
       "type": "http server",
       "label": "app/dashboard_server.py",
-      "pid": 12561,
+      "pid": 16587,
       "status": "online",
       "port": 8080,
       "badge_color": "emerald",
