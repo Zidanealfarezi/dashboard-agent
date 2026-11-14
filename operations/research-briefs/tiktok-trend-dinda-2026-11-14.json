@@ -1,0 +1,190 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-14",
+ "character_id": "dinda",
+ "slot": "morning",
+ "collected_at": "2026-11-14T08:12:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Riset slot pagi 14 November 2026 pukul 08:00-08:20 WIB. Halaman yang benar-benar dibaca: lagitren.id (daftar TikTok viral hari ini, diperbarui 14 Nov 07.17 WIB), halaman tagar #haripahlawan di situs yang sama, prakiraan cuaca BMKG per kecamatan Kota Palembang (kolom Sat, 14 Nov), artikel Tribun Palembang tentang launching Charming Events of Palembang 2027 di Kampung Wisata Kapitan (tayang 14 Nov 07.30 WIB), artikel Sumeks Disway tentang acara yang sama (terbit 13 Nov 23.07 WIB), artikel Tribun Palembang tentang ISPU PM2,5 Palembang 104 (tayang 13 Nov 10.29 WIB), dan artikel Tribun Sumsel tentang hotspot karhutla Sumsel turun ke 13 titik (tayang 13 Nov 10.36 WIB). Temuan: daftar tren TikTok hari ini masih didominasi politik (#haripahlawan, #pakjokowi, #jokowidodo, #ijazahjokowi, #roysuryo) dan esports (#stormarena, #ffesportsid), tanpa satu pun tagar kuliner atau tagar wisata Palembang; #haripahlawan kini peringkat 1 dengan 81 ribu video. Pemicu lokal paling konkret justru agenda kota: Launching Charming Events of Palembang 2027 dibuka Wali Kota Ratu Dewa di Kampung Wisata Kapitan, Kelurahan 7 Ulu, pada Jumat 13 November dan berlangsung tiga hari sampai 15 November 2026, dengan pertunjukan seni budaya Palembang, barongsai, fashion show, dan bazar kuliner. Sabtu 14 November adalah hari kedua acara itu. BMKG memprakirakan hujan ringan di seluruh kecamatan Kota Palembang hari ini dengan suhu 26-33 derajat Celsius. Catatan lingkungan: ISPU PM2,5 Palembang pada Jumat 13 November pukul 05.00 WIB tercatat 104 (kategori tidak sehat) sementara hotspot Sumsel turun ke 13 titik. Semua angka yang dicatat hanya yang terlihat langsung di halaman yang dibaca.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 14 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 14 November 2026 · diperbarui 14 Nov, 07.17 WIB'. Sepuluh video lagi viral beserta tayangannya: #haripahlawan 5,4 jt, #livefest2026 22,4 rb, #10november 7,5 jt, #pakjokowi 22,2 jt, #jokowidodo 22,2 jt, #ijazahjokowi 22,2 jt, #stormarena 5,9 jt, #haripahlawanindonesia 2,0 jt, #roysuryo 9,7 jt, #soj1stanniversary 162,2 rb. Daftar 20 hashtag tren hari ini: #haripahlawan (81 rb video), #livefest2026 (36 rb), #10november (20 rb), #pakjokowi (20 rb), #jokowidodo (47 rb), #ijazahjokowi (18 rb), #stormarena (53 rb), #haripahlawanindonesia (14 rb), #roysuryo (15 rb), #soj1stanniversary (80 rb), #ffesportsid (53 rb), #ffwsgf2026 (55 rb), #bambamxswordofjustice (72 rb), #jokowi (94 rb), #swordofjustice (81 rb), #jokowidodopresidenkita (8 rb), #hariayah (7 rb), #ijazah (15 rb), #dahlia (9 rb), #pahlawan (11 rb). Tidak ada satu pun tagar kuliner, tagar jalan-jalan, atau tagar lokal Palembang di daftar ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:05:00+07:00",
+   "metrics": {
+    "top_trend": "#haripahlawan",
+    "top_trend_videos": 81000,
+    "hashtags_listed": 20,
+    "culinary_tags_in_list": 0,
+    "palembang_tags_in_list": 0
+   }
+  },
+  {
+   "url": "https://lagitren.id/tiktok/haripahlawan",
+   "title": "TikTok Viral #haripahlawan · Lagi Tren",
+   "evidence": "Halaman tagar bertanda '81K video'. Penjelasan redaksi: '#haripahlawan sedang viral di TikTok Indonesia dengan lebih dari 72 ribu video', berisi momen peringatan Hari Pahlawan 2026 mulai dari upacara resmi hingga refleksi pribadi. Halaman juga menyebut Hari Pahlawan diperingati setiap 10 November. Angka di judul (81 ribu) dan di badan teks (lebih dari 72 ribu) berbeda karena keduanya angka halaman itu sendiri, jadi yang dicatat adalah rentang 72-81 ribu video, bukan angka resmi platform.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:07:00+07:00",
+   "metrics": {
+    "hashtag": "#haripahlawan",
+    "hashtag_rank_today": 1,
+    "videos_listed": 81000
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 14 November 2026 pukul 08:09 WIB. Kolom pertama tabel adalah Sat, 14 Nov. Seluruh kecamatan yang tercantum diprakirakan 'Hujan Ringan' hari ini dengan suhu 26-33 derajat Celsius dan kelembapan 75-96 persen: Ilir Barat Dua, Seberang Ulu Satu, Seberang Ulu Dua, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, Sukarami, Sako, Kemuning, Kalidoni, Bukitkecil, Gandus, Kertapati, Plaju, Alang-alang Lebar, Sematangborang, Jakabaring, Ilir Timur Tiga. Hujan ini prakiraan resmi BMKG, bukan asumsi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:09:00+07:00",
+   "metrics": {
+    "forecast_date": "2026-11-14",
+    "kecamatan_with_hujan_ringan": 18,
+    "temperature_range_c": "26-33",
+    "humidity_range_percent": "75-96"
+   }
+  },
+  {
+   "url": "https://palembang.tribunnews.com/palembang-berdaya-sejahtera/1334941/dorong-kunjungan-wisatawan-wali-kota-ratu-dewa-luncurkan-charming-events-of-palembang-2027",
+   "title": "Dorong Kunjungan Wisatawan, Wali Kota Ratu Dewa Luncurkan Charming Events of Palembang 2027 - Sripoku.com",
+   "evidence": "Tayang Sabtu 14 November 2026 pukul 07.30 WIB, dibaca 14 November 2026. Wali Kota Palembang Ratu Dewa membuka Launching Charming Events of Palembang 2027 yang dipusatkan di Kampung Wisata Kapitan, Kelurahan 7 Ulu, Palembang, pada Jumat 13 November 2026. Kegiatan berlangsung tiga hari, 13-15 November 2026, dan menghadirkan pertunjukan seni budaya khas Palembang, barongsai, peragaan busana (fashion show), bazar kuliner, serta kegiatan lain. Ratu Dewa menyebut publikasi-promosi wisata, keamanan dan kenyamanan wisatawan, infrastruktur, serta keterlibatan UMKM sebagai hal yang perlu dioptimalkan. Artikel tidak mencantumkan jam acara, harga tiket, atau jumlah pengunjung.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:11:00+07:00",
+   "published_at": "2026-11-14T07:30:00+07:00",
+   "metrics": {
+    "event": "Launching Charming Events of Palembang 2027",
+    "location": "Kampung Wisata Kapitan, Kelurahan 7 Ulu",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-15",
+    "duration_days": 3,
+    "opened_by": "Wali Kota Palembang Ratu Dewa"
+   }
+  },
+  {
+   "url": "https://sumeks.disway.id/palembang-update/read/801344/ratu-dewa-resmi-buka-launching-charming-events-of-palembang-2027-di-kampung-wisata-kapitan",
+   "title": "Ratu Dewa Resmi Buka Launching Charming Events Of Palembang 2027 Di Kampung Wisata Kapitan - Sumeks",
+   "evidence": "Terbit Jumat 13 November 2026 pukul 23.07 WIB (meta datePublished 2026-11-13 23:07:01), dibaca 14 November 2026. Menyebut hal yang sama: pembukaan Launching Charming Events of Palembang 2027 di Kampung Wisata Kapitan, Kelurahan 7 Ulu, pada Jumat 13 November 2026; kegiatan tiga hari 13-15 November 2026 dengan pertunjukan seni budaya khas Palembang, barongsai, fashion show, dan bazar kuliner. Artikel ini jadi sumber kedua yang independen untuk tanggal dan lokasi acara.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:13:00+07:00",
+   "published_at": "2026-11-13T23:07:00+07:00",
+   "metrics": {
+    "event": "Launching Charming Events of Palembang 2027",
+    "location": "Kampung Wisata Kapitan, Kelurahan 7 Ulu",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-15"
+   }
+  },
+  {
+   "url": "https://palembang.tribunnews.com/metro/1334865/hotspot-karhutla-sumsel-turun-tapi-udara-palembang-masih-tidak-sehat-ispu-pm25-tembus-104",
+   "title": "Hotspot Karhutla Sumsel Turun, Tapi Udara Palembang Masih Tidak Sehat, ISPU PM2,5 Tembus 104 - Sripoku.com",
+   "evidence": "Tayang Jumat 13 November 2026 pukul 10.29 WIB, dibaca 14 November 2026. Kabid Penanganan Darurat BPBD Sumsel Sudirman menyebut data Pusdalops hingga Jumat 13 November 2026 pukul 05.00 WIB mendeteksi 13 titik hotspot dalam 24 jam terakhir, terbanyak di OKI (5 titik), lalu Lahat 3, Banyuasin 2, Musi Banyuasin 2, OKU 1. ISPU parameter PM2,5 Kota Palembang pada waktu yang sama tercatat 104 atau kategori tidak sehat, PALI 113. BPBD mencatat 16 kejadian kebakaran pada 12 November dengan estimasi 31 hektare terbakar, 14 hektare sudah ditangani dan sekitar 17 hektare belum berhasil dipadamkan.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:14:00+07:00",
+   "published_at": "2026-11-13T10:29:00+07:00",
+   "metrics": {
+    "ispu_pm25_palembang": 104,
+    "ispu_category": "tidak sehat",
+    "hotspot_sumsel": 13,
+    "kebakaran_12_nov": 16,
+    "luas_terbakar_ha": 31
+   }
+  },
+  {
+   "url": "https://sumsel.tribunnews.com/palembang/1035392/hotspot-karhutla-di-sumsel-turun-jadi-tersisa-13-titik-kualitas-udara-palembang-masih-tidak-sehat",
+   "title": "Hotspot Karhutla di Sumsel Turun Jadi Tersisa 13 Titik, Kualitas Udara Palembang Masih Tidak Sehat - Tribun Sumsel",
+   "evidence": "Tayang Jumat 13 November 2026 pukul 10.36 WIB, dibaca 14 November 2026. Artikel kedua yang melaporkan angka yang sama: 13 titik hotspot per Jumat 13 November 2026 pukul 05.00 WIB, ISPU PM2,5 Palembang 104 (tidak sehat), PALI 113, Ogan Ilir 57, Musi Banyuasin 64, Muara Enim 57, Lahat 98, OKU Selatan 72, Musi Rawas 34. Disebut juga tren hotspot sepekan: 178 titik (6 Nov), 164 (7 Nov), 176 (8 Nov), 83 (9 Nov), 115 (10 Nov), 113 (11 Nov), 40 (12 Nov).",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-14T08:15:00+07:00",
+   "published_at": "2026-11-13T10:36:00+07:00",
+   "metrics": {
+    "ispu_pm25_palembang": 104,
+    "hotspot_sumsel": 13,
+    "hotspot_trend_7d": "178,164,176,83,115,113,40"
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "A",
+   "title": "Hari Kedua Charming Events Palembang 2027 di Kampung Kapitan: Bazar Kuliner dan Fashion Show",
+   "pillar": "Jalan-jalan",
+   "hook": "Charming Events of Palembang 2027 sudah dibuka di Kampung Wisata Kapitan dan berlangsung sampai 15 November. Ada bazar kuliner, barongsai, sampai fashion show.",
+   "shots": [
+    "Shot 1 (8s): Dinda berjalan masuk gapura Kampung Wisata Kapitan, 7 Ulu, sambil menyebut launching Charming Events of Palembang 2027 dibuka Wali Kota Ratu Dewa pada 13 November dan acaranya berlangsung tiga hari sampai 15 November 2026.",
+    "Shot 2 (8s): Dinda menunjuk deretan stan bazar kuliner dan panggung pertunjukan, menyebut isi acaranya pertunjukan seni budaya khas Palembang, barongsai, fashion show, dan bazar kuliner, lalu bertanya ke penonton stan mana yang harus dicoba lebih dulu."
+   ],
+   "sound": "Musik khas Palembang ringan dengan ambience keramaian acara",
+   "outfit": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+   "caption": "Charming Events of Palembang 2027 dibuka di Kampung Wisata Kapitan, 7 Ulu, dan acaranya jalan sampai 15 November. Isinya bazar kuliner, barongsai, sampai fashion show, jadi pas buat akhir pekan. Kalian paling mau mampir ke stan apa dulu? #palembang #charmingevents #kampungkapitan #wisatapalembang #kulinertradisional #dailyvlog",
+   "sources": [
+    "https://palembang.tribunnews.com/palembang-berdaya-sejahtera/1334941/dorong-kunjungan-wisatawan-wali-kota-ratu-dewa-luncurkan-charming-events-of-palembang-2027",
+    "https://sumeks.disway.id/palembang-update/read/801344/ratu-dewa-resmi-buka-launching-charming-events-of-palembang-2027-di-kampung-wisata-kapitan",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 8.5,
+    "local_relevance": 9.5,
+    "format_fit": 9.0,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.5
+   },
+   "why": "Acaranya sedang berjalan hari ini dan besok, jadi topik ini bisa dipakai langsung tanpa menunggu. Dua media berbeda (Tribun Palembang tayang 14 November 07.30 WIB dan Sumeks 13 November 23.07 WIB) menyebut tanggal, lokasi, dan isi acara yang sama, sehingga buktinya kuat. Lokasinya Kampung Wisata Kapitan di 7 Ulu, kawasan wisata sejarah Palembang, dan isinya bazar kuliner plus fashion show, jadi cocok dengan pilar jalan-jalan, kuliner, dan gaya busana Dinda sekaligus. Daftar tren TikTok hari ini kosong dari tagar kuliner dan tagar wisata Palembang, jadi ceruk lokal ini terbuka. Prakiraan BMKG hujan ringan 26-33 derajat Celsius berarti syuting di area beratap atau membawa payung tetap masuk akal.",
+   "claim_note": "Tanggal dan lokasi acara dari dua artikel berbeda. Artikel tidak menyebut jam acara, harga tiket, jumlah pengunjung, atau daftar stan, jadi caption tidak mengarang angka tersebut."
+  },
+  {
+   "code": "B",
+   "title": "Udara Palembang Masih Tidak Sehat, ISPU 104: Rutinitas Pagi yang Perlu Diubah",
+   "pillar": "Daily Vlog Palembang",
+   "hook": "Udara Palembang kemarin masih tidak sehat dengan ISPU 104. Kalau mau keluar rumah akhir pekan ini, masker jangan ketinggalan.",
+   "shots": [
+    "Shot 1 (8s): Dinda berdiri di depan jendela rumah, menyebut data BPBD Sumsel bahwa ISPU PM2,5 Kota Palembang pada Jumat 13 November 2026 pukul 05.00 WIB tercatat 104 atau kategori tidak sehat.",
+    "Shot 2 (8s): Dinda memakai masker dan menyiapkan bekal minum di meja, lalu menyebut hotspot Sumsel sudah turun ke 13 titik tetapi kualitas udara masih perlu diwaspadai, dan bertanya apa yang penonton ubah dari rutinitas paginya."
+   ],
+   "sound": "Ambience pagi kota dengan musik lo-fi pelan",
+   "outfit": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+   "caption": "BPBD Sumsel mencatat ISPU PM2,5 Palembang 104 atau tidak sehat pada Jumat pagi, meski hotspot sudah turun ke 13 titik. Akhir pekan ini paling aman tetap bawa masker kalau keluar rumah. Kalian biasanya ngapain kalau udara lagi begini? #kualitasudara #ispu #palembang #karhutla #dailyvlog #kesehatan",
+   "sources": [
+    "https://palembang.tribunnews.com/metro/1334865/hotspot-karhutla-sumsel-turun-tapi-udara-palembang-masih-tidak-sehat-ispu-pm25-tembus-104",
+    "https://sumsel.tribunnews.com/palembang/1035392/hotspot-karhutla-di-sumsel-turun-jadi-tersisa-13-titik-kualitas-udara-palembang-masih-tidak-sehat",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 9.5,
+    "format_fit": 7.0,
+    "evidence_strength": 9.0,
+    "risk_safety": 7.5
+   },
+   "why": "Angkanya resmi dari BPBD Sumsel dan dilaporkan dua media, jadi buktinya kuat dan sangat lokal. Namun topik asap dan karhutla sudah muncul berulang di Palembang sejak September, sudutnya rawan jadi keluhan yang sama, dan acara wisata kota hari ini lebih positif untuk diangkat. Topik ini juga berisiko memancing komentar politik soal perusahaan pembakar lahan, jadi lebih aman disimpan sebagai cadangan yang hanya menyebut data resmi.",
+   "claim_note": "Angka ISPU 104 adalah pemantauan Jumat 13 November 2026 pukul 05.00 WIB menurut BPBD Sumsel, bukan angka hari ini; caption menyebut waktunya."
+  },
+  {
+   "code": "C",
+   "title": "#haripahlawan Masih Peringkat Satu Tren TikTok, 81 Ribu Video",
+   "pillar": "Lifestyle",
+   "hook": "Tagar haripahlawan masih nomor satu di daftar tren TikTok hari ini, dengan 81 ribu video.",
+   "shots": [
+    "Shot 1 (8s): Dinda duduk di teras rumah sambil memegang ponsel, menyebut tagar haripahlawan ada di peringkat pertama daftar hashtag tren TikTok Indonesia hari ini menurut lagitren.id yang diperbarui 14 November 2026 pukul 07.17 WIB.",
+    "Shot 2 (8s): Dinda menyebut isi video yang ramai adalah momen peringatan Hari Pahlawan 10 November, lalu bertanya sosok pahlawan sehari-hari versi penonton."
+   ],
+   "sound": "Musik akustik pelan dengan suara asli ruangan",
+   "outfit": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+   "caption": "Tagar haripahlawan masih peringkat satu tren TikTok Indonesia pagi ini dengan 81 ribu video, isinya momen peringatan Hari Pahlawan 10 November. Versi kalian, siapa pahlawan sehari-hari yang paling berjasa? #haripahlawan #haripahlawan2026 #refleksi #lifestyle #dailyvlog",
+   "sources": [
+    "https://lagitren.id/tiktok/haripahlawan",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 8.5,
+    "local_relevance": 3.0,
+    "format_fit": 6.0,
+    "evidence_strength": 6.5,
+    "risk_safety": 7.0
+   },
+   "why": "Momentumnya paling tinggi di daftar hari ini, tetapi ini tren nasional yang sudah berjalan empat hari setelah 10 November dan sama sekali tidak menyentuh Palembang maupun pilar kuliner serta jalan-jalan Dinda. Halaman sumber juga memuat dua angka berbeda untuk jumlah video (81 ribu di judul, lebih dari 72 ribu di badan teks), sehingga buktinya tidak sekuat dua kandidat lain.",
+   "claim_note": "Jumlah video ditulis sebagai angka halaman lagitren.id, dengan rentang 72-81 ribu karena halaman itu sendiri memuat dua angka."
+  }
+ ]
+}
