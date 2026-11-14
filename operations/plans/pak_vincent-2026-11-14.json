@@ -1,0 +1,95 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "role_tags": [
+    "tanaman karet vs sawit (nostalgia deres getah subuh, alih fungsi lahan, perbandingan ekonomi)"
+  ],
+  "role_reason": "Pilar ketiga belum pernah dipakai pada tiga video terverifikasi sebelumnya (11 Nov motor langsir, 12 Nov bekal dan stamina, 13 Nov tangkai panjang di timbangan RAM) sehingga rotasi pilar terjaga. Pembuka juga diganti dari pose dua jari di kebun dan dari demo dodos menjadi benda karet di tangan supaya pola hook tidak berulang.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Demo tangan dekat satu momen di batas dua kebun",
+      "opening": "Mangkuk getah berisi lapisan lateks kering sudah di tangan kiri sejak 0.0s lalu diketuk sekali jari kanan",
+      "camera": "Medium shot setinggi mata handheld smartphone sedikit bergoyang, pohon karet tua di kiri dan blok sawit di kanan masuk frame",
+      "core_action": "Satu kalimat pendek soal pabrik getah yang makin sedikit lalu ia menoleh ke arah blok sawit",
+      "closing": "Kembali menatap lensa, mengangkat mangkuk sedikit, senyum tenang dan angguk kecil",
+      "risk": "Mangkuk dan pohon karet wajib terlihat sejak frame pertama agar hook terbukti secara visual"
+    },
+    {
+      "id": "B",
+      "format": "Wide shot statis di poros jalan antara dua kebun",
+      "opening": "Pak Vincent berjalan tiga langkah dari sisi karet ke sisi sawit",
+      "camera": "Wide statis tripod, tubuh penuh dari jarak jauh",
+      "core_action": "Berhenti di batas lalu bicara sambil menunjuk dua arah",
+      "closing": "Berdiri diam di garis batas kebun",
+      "risk": "Wajah kecil pada wide shot membuat konsistensi identitas sulit diperiksa dan gerak jalan rawan cacat"
+    },
+    {
+      "id": "C",
+      "format": "Ngobrol sore duduk di bangku pondok kebun",
+      "opening": "Duduk sambil memutar mangkuk getah kering di tangan",
+      "camera": "Statis tripod medium shot di dalam pondok",
+      "core_action": "Menjelaskan karet dan sawit tanpa memperlihatkan kebunnya",
+      "closing": "Doa dan senyum hangat",
+      "risk": "Tidak ada bukti visual karet vs sawit dan pola pembuka duduk mirip vlog 12 November"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Pembuka memperlihatkan langsung benda yang dibicarakan plus dua tanaman di latar sehingga hook 0-3 detik terbukti tanpa caption, dan hanya butuh satu lokasi satu take.",
+    "history_checked": "3 video terverifikasi milik akun ini lewat tabel publications yaitu 11 Nov motor langsir, 12 Nov bekal dan stamina, 13 Nov tangkai panjang di timbangan RAM. Riwayat lebih panjang tidak tersedia sehingga dicatat seadanya."
+  },
+  "title": "Karet Ditinggal Bukan Karena Malas",
+  "hook": "Karet di Riau makin ditinggal bukan karena petaninya malas tapi karena pabrik getah yang mau nerima makin sedikit.",
+  "story": "Pak Vincent berdiri di garis batas kebun di Riau, pohon karet tua dengan bekas sadapan di sisi kiri dan blok sawit muda di sisi kanan. Sejak detik 0.0s ia memegang mangkuk getah berisi lapisan lateks kering lalu mengetuknya sekali dengan jari kanan dan bicara satu kalimat pendek soal getah yang makin sulit dijual karena pabrik karet banyak yang tutup. Ia menoleh ke arah blok sawit di kanannya, mengangguk sekali, lalu kembali ke lensa sambil mengangkat mangkuk sedikit dan tersenyum tenang. Situasi harian di kebun, bukan kejadian baru dalam canon.",
+  "caption": "Karet di Riau makin banyak ditinggal bukan karena petaninya malas tapi karena pabrik getah yang mau menerima makin sedikit. Di kampung kawan-kawan masih ada yang bertahan di karet atau sudah pindah ke sawit?\n#sawitriau #karetriau #petaniri #kebunkaret #pekanbaru #petanisawit",
+  "image_prompt": "Pakai aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah) dan pakvincent_fullbody_turnaround.jpg (postur serta pakaian kebun). Tidak membuat master baru.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 10,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent the exact same Indonesian man shown in the two attached reference photos (three-expression sheet and full-body turnaround). Output exactly ONE man in ONE continuous shot never a collage split screen or reference-sheet layout. Vertical 9:16 10 seconds medium shot chest-up framing at eye level with slight natural handheld sway. Location: the boundary line of a smallholding in Riau with one old rubber tree carrying a visible diagonal tapping scar on his left side and a young oil palm block on his right side under soft overcast late-afternoon light. He wears the vintage royal blue Samsung football jersey dark shorts dark baseball cap and rubber work sandals with lean wiry build sun-tanned weathered skin fine pores smile lines and a thin mustache. PROP CONTINUITY: from 0.0s until the end of the clip he already holds one small rubber latex collection cup with a thin dried latex film inside at chest height in his left hand and the cup plus the scarred rubber tree stay clearly visible in frame the entire time with nothing appearing or disappearing mid-take and no other tools entering the shot. At 0.0s he looks straight at the lens and taps the inside of the cup once with his right index finger then speaks one short sentence in natural friendly Indonesian about rubber latex getting harder to sell because fewer collecting factories still buy it. Around the fifth second he turns his eyes and chin toward the oil palm block on his right and nods once. At the eighth second he looks back at the lens lifts the cup slightly with a modest calm smile and a small nod. Shot on a smartphone vlog camera natural clean daylight neutral white balance 5500K true-to-life colors realistic matte human skin with visible fine pores no plastic shine no waxy skin no glass skin no yellow or orange tint no artificial golden glow zero CGI authentic non-AI documentary look. Clean frame with no baked-in text no subtitles no camera information bar no fps or color-temperature readout no location label no timestamps no watermark no logo and no extra people in focus."
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://riauaktual.com/news/detail/113360/perkebunan-karet-terus-tergerus-ekspansi-sawit-ini-tantangan-dan-harapan-pemprov-riau",
+      "title": "Perkebunan Karet Terus Tergerus Ekspansi Sawit, Ini Tantangan dan Harapan Pemprov Riau (Riau Aktual)",
+      "evidence": "Plt Kepala Dinas Perkebunan Riau Supriadi menyatakan kebun karet Riau menyusut tiap tahun karena alih fungsi ke sawit, masih sekitar 400 ribu hektare bertahan, banyak pabrik karet tutup sehingga petani bertanya mau dijual ke mana, dan Riau masih produsen karet nomor tiga nasional.",
+      "observed_at": "2026-11-14T16:20:00+07:00"
+    },
+    {
+      "url": "https://doi.org/10.13057/asianjagric/g100178",
+      "title": "Land-use conversion and rural income dynamics in rubber to oil palm transition in Riau Province, Indonesia, using a PSM-DID approach (Asian J Agric 10(1), 2026)",
+      "evidence": "Survei 206 petani di Kampar dan Rokan Hulu 2023-2024 dengan PSM-DID menemukan pendapatan rumah tangga naik sekitar 38,5 persen setelah konversi karet ke sawit, didorong harga karet yang menurun lama dan pendapatan TBS yang relatif lebih stabil.",
+      "observed_at": "2026-11-14T16:20:00+07:00"
+    },
+    {
+      "url": "https://bgnnews.co.id/detail/2811/petani-karet-riau-berharap-pemerintah-dukung-konversi-10140-hektare-lahan-ke-sawit",
+      "title": "Petani Karet Riau Berharap Pemerintah Dukung Konversi 10.140 Hektare Lahan ke Sawit (BGN News)",
+      "evidence": "Kelompok petani karet Riau mendorong konversi 10.140 hektare kebun karet tidak produktif di Rokan Hulu, Indragiri Hulu dan Kampar ke sawit karena pohon karet berumur 35-40 tahun, pabrik karet jauh, dan harga getah tidak stabil.",
+      "observed_at": "2026-11-14T16:20:00+07:00"
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video TIDAK menyebut angka harga atau persentase. Sumber dipakai sebagai konteks mengapa karet di Riau makin ditinggal: pabrik getah berkurang (Disbun Riau), pendapatan rumah tangga naik setelah konversi (Asian J Agric 2026), dan permintaan konversi lahan karet tua (BGN News)."
+}
