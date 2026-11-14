@@ -1,0 +1,61 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "edukasi teknik dasar bangunan yang rapi dan hemat biaya"
+  ],
+  "title": "Kamprotan Adukan Semen Sebelum Plester Kolom Beton",
+  "hook": "Plester di atas kolom beton gampang lepas bukan karena semennya, tapi karena permukaan beton licin dan kering.",
+  "story": "Bang Ray berdiri di samping kolom beton mentah di dalam rumah setengah jadi di Banda Aceh. Sejak frame pertama tangan kanannya sudah memegang kuas semen dan ember kecil berisi adukan semen encer sudah berdiri di lantai sebelah kolom. Ia mencelup kuas lalu menyapu permukaan kolom beton dengan lapisan semen tipis merata, menjelaskan bahwa beton harus dikasarkan dan dibasahi dulu sebelum plester, lalu menutup dengan ajakan menyimpan video. Hanya kuas, ember, dan kolom yang ada di frame sejak 0.0s sampai akhir.",
+  "caption": "Plester di atas kolom beton gampang lepas bukan karena semennya, tapi karena permukaannya licin dan kering. Kasarkan dulu, basahi, lalu kamprot adukan semen tipis sebelum plester. #tipsbangunan #plester #tukangbangunan #kolombeton #bandaaceh",
+  "image_prompt": "Pakai aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah), bangray_fullbody_turnaround.jpg (postur dan pakaian kerja), bangray_profile_avatar.jpg. Tidak membuat master baru.",
+  "role_reason": "Tiga konsep disiapkan: (A) demo kamprotan adukan semen pada kolom beton, kamera diam setinggi dada, medium shot, kuas dan ember sudah di frame sejak 0.0s; (B) uji ketuk keramik kopong close-up lantai; (C) banding takaran pasir dan semen 1:5 versus 1:3 dengan dua ember. Dipilih A karena teknik kamprotan belum pernah dipakai di paket terverifikasi akun ini (kuda-kuda 13 November, takaran air cor 12 November, lem pipa PVC 11 November, plester retak 10 November, keramik kopong 10 November), hanya butuh dua properti yang hadir sejak frame pertama, dan sudut kamera setinggi dada berbeda dari shot lantai rendah sebelumnya.",
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://ppid.unhas.ac.id/wp-content/uploads/2024/10/3.-Spesifikasi-Teknis-Pengembangan-RSGMP-Unhas-1.pdf",
+      "title": "Spesifikasi Teknis Universitas Hasanuddin - Plesteran Permukaan Beton",
+      "evidence": "Dokumen menyebut permukaan beton yang akan diberi plesteran harus dikasarkan, dibersihkan dari bagian yang lepas, dan dibasahi air sebelum diplester, serta menyebut penggunaan bonding agent pada sambungan beton.",
+      "observed_at": "2026-11-14T14:03:00+07:00"
+    },
+    {
+      "url": "https://ppid.unsoed.ac.id/pbj/doc/mipa2023/II.3.%20Spesifikasi%20Teknis-Pemb%20Gd%20Pend%20Fak%20MIPA2023.pdf",
+      "title": "Metode Pelaksanaan Pekerjaan Universitas Jenderal Soedirman",
+      "evidence": "Bagian persiapan dinding menyebut untuk pekerjaan plesteran pada dinding beton, bidang beton harus dikasarkan terlebih dahulu sebelum plesteran dimulai, dan permukaan dibersihkan serta disiram air.",
+      "observed_at": "2026-11-14T14:04:00+07:00"
+    },
+    {
+      "url": "https://dcktrp.jakarta.go.id/bangunjakarta/contentwebinar/dokumen/content_webinar/1757922746_00PembekalanK3,Material,Peralatan,Pasangan,PlesterandanAcian.pdf",
+      "title": "Pembekalan Tenaga Terampil Konstruksi - Pekerjaan Plesteran dan Acian",
+      "evidence": "Materi pelatihan Dinas Cipta Karya DKI mencantumkan urutan pekerjaan plesteran dengan lapisan dasar atau kamprotan sebelum aplikasi plesteran, serta menyebut tambahan obat perekat untuk acian di atas beton.",
+      "observed_at": "2026-11-14T14:05:00+07:00"
+    }
+  ],
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "estimated_credits_displayed": 20,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of Bang Ray, the exact same Indonesian man shown in the attached personal character reference and two attached master images: image one is his three-expression portrait for FACE IDENTITY (match his face shape, nose, eyebrows, hairline, skin tone and apparent age exactly; do not age him; do not change his facial structure), image two is his full-body turnaround for POSTURE and OUTFIT (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki canvas work trousers, black field watch on his left wrist, dark brown leather work boots). Output exactly one man, never a collage, split screen, grid or reference-sheet layout. Vertical 9:16, one continuous shot, 15 seconds, camera static at chest height about one and a half meters away, slightly to his right, framing a raw grey concrete column in the middle of the frame and him standing beside it. Location is a half-finished house interior in Banda Aceh at midday: bare concrete column and unfinished red brick wall behind him, no decoration. Since frame zero his right hand already holds a short black-bristle cement brush and a small black rubber bucket of thin grey cement slurry already stands on the floor beside the column; brush, bucket and concrete column are the only props and they stay in frame unchanged from 0.0s to the end. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps, slight natural handheld micro-shake, clean audio of his voice with quiet room ambience. No on-screen text, no captions, no subtitles, no watermark, no logo. First three seconds he looks at the camera and says in Indonesian, \"Plester di atas kolom beton gampang lepas? Jangan salahkan semennya dulu, Rakan.\" while his right hand dips the brush into the bucket. From second four to second ten he turns slightly toward the column, drags the brush across the dry grey concrete in short overlapping strokes so a thin wet grey slurry film covers the surface, and says in Indonesian, \"Beton licin ini harus dikasarkan dan dibasahi dulu, baru saya kamprot adukan semen tipis sebelum plester.\" From second eleven to the end he keeps brushing the lower part of the same column, glances back at the camera and says in Indonesian, \"Simpan dulu biar plester baru nempel kuat. Kalian kamprot dulu atau langsung plester?\" His hand, the brush, the bucket and the column stay fully visible and consistent to the last frame; his shirt, hair and the lighting do not change."
+    }
+  ],
+  "identity_lock": "3 references: Flow personal character chip + three-expression portrait (face) + fullbody turnaround (posture and outfit); face must match portrait exactly"
+}
