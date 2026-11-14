@@ -1,0 +1,66 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": ["jalan-jalan", "kuliner", "daily vlog Palembang"],
+  "title": "Hari Kedua Charming Events Palembang 2027 di Kampung Kapitan",
+  "hook": "Charming Events of Palembang 2027 sudah dibuka di Kampung Wisata Kapitan dan acaranya jalan sampai 15 November.",
+  "story": "Dinda berdiri di lorong Kampung Wisata Kapitan, 7 Ulu, Palembang, pada pagi berawan hari kedua Launching Charming Events of Palembang 2027. Sejak frame pertama tangan kanannya sudah menunjuk ke arah deretan stan bazar kuliner di belakangnya. Ia menyebut acara dibuka Wali Kota Ratu Dewa pada 13 November dan berlangsung sampai 15 November, menyebut isinya bazar kuliner, barongsai, dan fashion show, lalu menutup dengan pertanyaan ringan ke penonton soal stan mana yang harus dicoba lebih dulu. Cerita ini belum canon.",
+  "caption": "Charming Events of Palembang 2027 sudah dibuka di Kampung Wisata Kapitan 7 Ulu dan acaranya jalan sampai 15 November. Ada bazar kuliner barongsai sampai fashion show jadi pas buat akhir pekan. Kalian paling mau mampir ke stan apa dulu?\n#palembang #charmingevents #kampungkapitan #wisatapalembang #kulinertradisional #dailyvlog",
+  "image_prompt": "Vertical 9:16 smartphone vlog frame, sumber 360p. Dinda Kemala, perempuan Indonesia modest 165 cm, pashmina krem beige rapi, cardigan rajut kancing motif garis taupe-khaki dan broken white, celana palazzo krem high-waisted pleats, kalung cincin emas kecil, berdiri di lorong Kampung Wisata Kapitan 7 Ulu Palembang dengan rumah tua bergaya Tionghoa, umbul-umbul, dan deretan tenda bazar kuliner di latar belakang, cahaya pagi berawan 5500K, pori-pori kulit terlihat, tanpa plastic atau waxy skin, tanpa teks di frame.",
+  "role_reason": "Acara berjalan hari ini dan besok sehingga bisa dipakai langsung. Dua media berbeda (Tribun Palembang tayang 14 November 07.30 WIB dan Sumeks 13 November 23.07 WIB) menyebut tanggal, lokasi, dan isi acara yang sama. Lokasinya kawasan wisata sejarah Kampung Kapitan 7 Ulu dan isinya bazar kuliner plus fashion show sehingga cocok dengan pilar jalan-jalan, kuliner, dan daily vlog Dinda. Daftar tren TikTok hari ini kosong dari tagar kuliner dan wisata Palembang sehingga ceruk lokal terbuka. Satu klip 12 detik dipilih karena aturan satu permintaan generasi per konten dan batas 20 detik total.",
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://palembang.tribunnews.com/palembang-berdaya-sejahtera/1334941/dorong-kunjungan-wisatawan-wali-kota-ratu-dewa-luncurkan-charming-events-of-palembang-2027",
+      "title": "Dorong Kunjungan Wisatawan, Wali Kota Ratu Dewa Luncurkan Charming Events of Palembang 2027 - Sripoku.com",
+      "evidence": "Tayang Sabtu 14 November 2026 pukul 07.30 WIB, dibaca 14 November 2026. Wali Kota Palembang Ratu Dewa membuka Launching Charming Events of Palembang 2027 yang dipusatkan di Kampung Wisata Kapitan, Kelurahan 7 Ulu, Palembang, pada Jumat 13 November 2026. Kegiatan berlangsung tiga hari 13-15 November 2026 dan menghadirkan pertunjukan seni budaya khas Palembang, barongsai, peragaan busana, dan bazar kuliner.",
+      "observed_at": "2026-11-14T08:10:00+07:00"
+    },
+    {
+      "url": "https://sumeks.disway.id/palembang-update/read/801344/ratu-dewa-resmi-buka-launching-charming-events-of-palembang-2027-di-kampung-wisata-kapitan",
+      "title": "Ratu Dewa Resmi Buka Launching Charming Events Of Palembang 2027 Di Kampung Wisata Kapitan - Sumeks",
+      "evidence": "Terbit Jumat 13 November 2026 pukul 23.07 WIB (meta datePublished 2026-11-13 23:07:01), dibaca 14 November 2026. Menyebut hal yang sama: pembukaan Launching Charming Events of Palembang 2027 di Kampung Wisata Kapitan Kelurahan 7 Ulu pada Jumat 13 November 2026, kegiatan tiga hari 13-15 November 2026 dengan pertunjukan seni budaya khas Palembang, barongsai, fashion show, dan bazar kuliner.",
+      "observed_at": "2026-11-14T08:12:00+07:00"
+    },
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+      "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+      "evidence": "Dibaca 14 November 2026 pukul 08:09 WIB. Kolom pertama tabel adalah Sat, 14 Nov. Seluruh kecamatan Kota Palembang diprakirakan hujan ringan hari ini dengan suhu 26-33 derajat Celsius, termasuk Ilir Timur Satu dan Seberang Ulu Satu, sehingga syuting di lorong beratap kampung wisata tetap masuk akal.",
+      "observed_at": "2026-11-14T08:09:00+07:00"
+    }
+  ],
+  "historical_fact_sources": [],
+  "source_note": "Tanggal, lokasi, dan isi acara dari dua artikel berbeda (Tribun Palembang 14 Nov 07.30 WIB, Sumeks 13 Nov 23.07 WIB). Artikel tidak menyebut jam acara, harga tiket, jumlah pengunjung, atau daftar stan sehingga video tidak menyebut angka tersebut.",
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "estimated_credits": 12,
+    "verified_from": "Panel komposer Flow flow_1 dipantau 14 November 2026 09.01 WIB: Omni 1.2 Flash, 360p, 9:16, x1; biaya tampil di panel sebelum submit."
+  },
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_5144187e",
+    "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png",
+    "selection_reason": "Busana berstatus active yang belum pernah dipakai (times_used 0) dan punya foto master close-up serta full-body 9:16. Baris wardrobe baru hari ini (outfit_dinda_pagi_20261114) belum punya foto referensi sehingga belum bisa dipakai sebagai acuan visual. Cardigan rajut hangat cocok dengan prakiraan hujan ringan BMKG hari ini."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match face shape, nose, eyebrows, eyes, skin tone and apparent age exactly, do not change her facial structure), image two is her full-body reference for POSTURE and BODY PROPORTION, image three is the new outfit reference for CLOTHING (taupe and khaki striped knit button cardigan with broken-white stripes over cream high-waisted pleated wide-leg palazzo trousers, beige slip-on sandals, structured taupe leather handbag, small gold ring necklace, neat cream beige pashmina hijab). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, filmed on a phone at 24fps with slight natural handheld sway at chest height. Location: the covered lane of Kampung Wisata Kapitan heritage village in 7 Ulu Palembang in overcast late morning after light rain, old two-storey Chinese-style shophouses with faded paint on both sides, strings of small red and white flags overhead, and a row of food bazaar tents with steamed snacks and woks further back, a few soft-blurred visitors in the background. Since frame zero her right hand is already raised pointing at the food stalls behind her and her left hand holds the strap of her taupe leather handbag; both hands stay in frame and nothing appears or disappears mid-take. From 0.0 to 4.0 seconds she looks into the lens and says in Indonesian, \\\"Charming Events of Palembang 2027 sudah dibuka di Kampung Wisata Kapitan.\\\" From 4.0 to 8.5 seconds she turns slightly and sweeps her right hand toward the bazaar tents, saying, \\\"Ada bazar kuliner, barongsai, sampai fashion show, sampai tanggal lima belas.\\\" From 8.5 to the end she faces the lens again with a warm small smile and asks, \\\"Kalian paling mau mampir ke stan apa dulu?\\\" Lips move in sync with her Indonesian speech, natural micro-expressions, no lip-sync drift. Shot on smartphone vlog camera, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores and realistic micro-texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, real street ambience and natural speech audio. Completely clean frame: no baked-in text, no subtitles, no captions, no HUD, no timestamps, no location label, no watermark, no logo, no readable writing on the tents. No other person in focus, no cut, no zoom, no camera movement beyond small handheld drift, keep her face, clothing, hands and background consistent throughout."
+    }
+  ],
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 360p, 9:16, output 1, 3 referensi). Frame mentah wajib bersih dari teks/HUD; subtitle editorial_tiktok dua tingkat dibakar lokal oleh app.media.assemble_character_video setelah upscale Varian 3 Hybrid ke 1080x1920, lalu audio lo-fi akustik 15 persen dengan vokal 100 persen. Tidak ada retry berbayar otomatis."
+}
