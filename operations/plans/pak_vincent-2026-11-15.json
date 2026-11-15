@@ -1,0 +1,99 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "role_tags": [
+    "ladang sawit dan panen TBS (motor langsir, dodos vs egrek, musim trek, pupuk dan perawatan)"
+  ],
+  "role_reason": "Pilar pertama dipakai lewat sub-tema pupuk dan perawatan yang belum pernah muncul di lima versi terakhir (11 Nov motor langsir, 12 Nov bekal dan stamina, 13 Nov tangkai panjang di timbangan RAM, 13 Nov revisi r2, 14 Nov karet vs sawit). Pembuka juga diganti dari pose dua jari, jalan di poros kebun, dan mangkuk getah menjadi ember pupuk yang sudah di tangan sejak 0.0s supaya pola hook tidak berulang.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Demo tangan dekat satu momen di piringan pokok sawit menghasilkan",
+      "opening": "Ember plastik berisi butiran pupuk sudah di tangan kiri sejak 0.0s lalu tangan kanan menebar satu genggam ke tanah piringan",
+      "camera": "Medium shot setinggi mata handheld smartphone sedikit bergoyang, pokok sawit besar di tengah frame dan tanah piringan bersih di bawahnya",
+      "core_action": "Satu kalimat pendek soal pupuk mahal lalu ia menunjuk ke arah pangkal batang sambil bilang jangan ditabur nempel pokok",
+      "closing": "Tangan kanan kembali ke ember, menatap lensa, senyum bersahaja dan angguk kecil",
+      "risk": "Butiran pupuk dan ember wajib terlihat sejak frame pertama agar hook terbukti tanpa caption"
+    },
+    {
+      "id": "B",
+      "format": "Wide statis dari sudut rendah memperlihatkan lingkaran piringan penuh",
+      "opening": "Pak Vincent berjalan mengelilingi piringan sambil menebar pupuk dari ember",
+      "camera": "Wide statis tripod sudut rendah, tubuh penuh dari jarak jauh",
+      "core_action": "Berhenti di tepi piringan lalu bicara sambil menunjuk jarak dari pokok",
+      "closing": "Berdiri diam menatap kamera dengan ember di tangan",
+      "risk": "Wajah kecil pada wide shot membuat konsistensi identitas sulit diperiksa dan gerak berjalan mengelilingi pokok rawan cacat tubuh"
+    },
+    {
+      "id": "C",
+      "format": "Ngobrol duduk di pondok kebun dengan karung pupuk terbuka",
+      "opening": "Duduk sambil memegang gayung pupuk di depan karung",
+      "camera": "Statis tripod medium shot di dalam pondok",
+      "core_action": "Menjelaskan aturan tabur tanpa memperlihatkan piringan dan pokoknya",
+      "closing": "Doa dan senyum hangat",
+      "risk": "Tidak ada bukti visual piringan atau jarak tabur dan pola pembuka duduk mirip vlog 12 November"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Pembuka langsung memperlihatkan tindakan yang dibicarakan yaitu menebar pupuk di piringan sehingga hook 0 sampai 3 detik terbukti secara visual, hanya butuh satu lokasi satu take, dan hanya satu properti inti yang hadir terus sejak 0.0s.",
+    "history_checked": "Lima versi terakhir akun ini dicek lewat tabel content dan publications: 11 Nov motor langsir (terbit), 12 Nov bekal dan stamina (terbit), 13 Nov tangkai panjang di timbangan RAM (terbit), 13 Nov r2 revisi, 14 Nov karet vs sawit (belum terbit). Bank trend_memory untuk pak_vincent masih kosong sehingga riwayat diambil dari operasional."
+  },
+  "title": "Pupuk Mahal Jangan Sampai Terbuang",
+  "hook": "Pupuk sekarang makin mahal jadi sayang kalau ditabur nempel pangkal batang karena yang ngambil bukan akar yang kerja.",
+  "story": "Pak Vincent berdiri di tepi piringan sebuah pokok sawit yang sudah menghasilkan di kebun Riau. Sejak detik 0.0s ember plastik berisi butiran pupuk sudah di tangan kirinya dan tangan kanannya menebar satu genggam pupuk ke tanah piringan. Ia bicara singkat bahwa pupuk sekarang mahal sehingga cara taburnya harus benar, lalu ia menunjuk ke arah pangkal batang dan bilang jangan ditabur nempel pokok, tabur di piringan sekitar satu setengah meter dari pangkal supaya akar serabut yang menyerap. Ia kembali menatap lensa, senyum bersahaja, angguk kecil. Situasi harian di kebun, bukan kejadian baru dalam canon.",
+  "caption": "Pupuk makin mahal jadi sayang kalau ditabur nempel pangkal batang. Di pokok yang sudah menghasilkan lebih baik ditabur di piringan sekitar satu setengah meter dari pangkal. Di kebun kawan-kawan jarak taburnya berapa meter?\n#sawitriau #pemupukansawit #kebunsawit #pekanbaru #petanisawit #pupuksawit",
+  "image_prompt": "Pakai aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah) dan pakvincent_fullbody_turnaround.jpg (postur serta pakaian kebun). Tidak membuat master baru.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 10,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent the exact same Indonesian man shown in the two attached reference photos (three-expression sheet and full-body turnaround). Output exactly ONE man in ONE continuous shot never a collage split screen or reference-sheet layout. Vertical 9:16 10 seconds medium shot waist-up framing at eye level with slight natural handheld sway. Location: the weeded circular ground ring around the base of one mature oil palm tree that is already producing fruit, inside a smallholding in Riau, with reddish-brown soil, a few dry frond pieces at the outer edge and other palm trunks softly out of focus behind him under soft overcast late-afternoon daylight. He wears the vintage royal blue Samsung football jersey dark shorts dark baseball cap and rubber work sandals with lean wiry build sun-tanned weathered skin fine pores smile lines and a thin mustache. PROP CONTINUITY: from 0.0s until the last frame his left hand already holds one small yellow plastic pail filled with pale grey granular fertilizer at hip height and that pail stays clearly visible in frame the entire time with nothing appearing or disappearing mid-take, no sack, no scoop, no other tools entering the shot. At 0.0s his right hand is already tossing one small handful of the pale grey granules down onto the weeded ground ring and the granules land and stay on the soil. He speaks in natural friendly Indonesian with a warm Riau tone one short sentence saying fertilizer is expensive now and warning not to spread it against the base of the trunk. Around the fifth second he stops scattering lifts his right hand and points toward the lower trunk of the palm in front of him while finishing the sentence that it should be spread on the ground ring about one and a half meters from the trunk because the feeding roots are out there. At the eighth second his right hand returns beside the pail he looks straight into the lens with a modest calm smile and a small nod. Shot on a smartphone vlog camera natural clean daylight neutral white balance 5500K true-to-life colors realistic matte human skin with visible fine pores no plastic shine no waxy skin no glass skin no yellow or orange tint no artificial golden glow zero CGI authentic non-AI documentary look. Clean frame with no baked-in text no subtitles no camera information bar no fps or color-temperature readout no location label no timestamps no watermark no logo and no other people in focus.",
+      "dialogue": "Pupuk sekarang makin mahal kawan. Jangan tabur nempel pangkal batang, tabur di piringan sekitar satu setengah meter dari pokok.",
+      "dialogue_start_seconds": 0.5,
+      "dialogue_read_seconds": 7.5,
+      "action_end_seconds": 9.5
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://babel.brmp.pertanian.go.id/berita/penerapan-standar-pemupukan-kelapa-sawit-elaeis-guineensis-jacq",
+      "title": "Penerapan Standar Pemupukan Kelapa Sawit (Elaeis guineensis Jacq) - BRMP Babel, Kementerian Pertanian",
+      "evidence": "Panduan budidaya Kementan menyebut pada tanaman menghasilkan pemupukan dilakukan pada jarak 1,5 meter dari pohon dengan cara ditebar (broadcast) dan pocket, serta biaya pemupukan sekitar 30 persen dari total biaya produksi sehingga cara aplikasi menentukan efisiensi.",
+      "observed_at": "2026-11-15T16:25:00+07:00"
+    },
+    {
+      "url": "https://news.majalahhortus.com/produktivitas-sawit-rakyat-rendah-riau-dorong-pekebun-naikkan-standar-budidaya/",
+      "title": "Produktivitas Sawit Rakyat Rendah, Riau Dorong Pekebun Naikkan Standar Budidaya (Majalah Hortus)",
+      "evidence": "Kadisbun Riau Supriadi dan Ketua Tim Kerja Ditjen Perkebunan Tulus Tri Margono menyatakan produktivitas sawit rakyat baru sekitar 3,3 ton per hektare per tahun padahal potensinya 5 sampai 6 ton, dan salah satu kuncinya adalah cara serta waktu aplikasi pupuk yang tepat agar biaya efisien.",
+      "observed_at": "2026-11-15T16:25:00+07:00"
+    },
+    {
+      "url": "https://jambiindependent.disway.id/metronews/read/711925/pupuk-impor-lokal-sama-sama-mahal-petani-sawit-kurangi-pemupukan-produktivitas-terancam",
+      "title": "Pupuk Impor & Lokal Sama-sama Mahal: Petani Sawit Kurangi Pemupukan (Jambi Independent)",
+      "evidence": "Sekretaris Apkasindo Riau Djono Albar Burhan menyatakan harga pupuk naik tidak mengikuti logika pasar sehingga sebagian petani mengurangi pemupukan karena keterbatasan biaya, padahal pupuk penting untuk menjaga produksi.",
+      "observed_at": "2026-11-15T16:25:00+07:00"
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video TIDAK menyebut harga atau angka tonase apa pun. Sumber hanya dipakai sebagai konteks di brief: jarak tabur 1,5 meter pada tanaman menghasilkan (Kementan/BRMP Babel), produktivitas rakyat 3,3 ton per hektare versus potensi 5 sampai 6 ton (Ditjenbun via Majalah Hortus), dan tekanan harga pupuk yang membuat petani mengurangi pemupukan (Apkasindo Riau)."
+}
