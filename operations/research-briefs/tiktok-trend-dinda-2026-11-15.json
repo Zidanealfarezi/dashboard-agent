@@ -1,0 +1,190 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-15",
+ "character_id": "dinda",
+ "slot": "morning",
+ "collected_at": "2026-11-15T08:05:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Riset slot pagi 15 November 2026 pukul 08:00-08:20 WIB. Halaman yang benar-benar dibaca: lagitren.id/tiktok (daftar TikTok viral hari ini, ditandai 'diperbarui 15 Nov, 07.17 WIB'), prakiraan cuaca BMKG per kecamatan Kota Palembang (kolom Sun, 15 Nov), artikel ANTARA Sumsel tentang Pasar Sekanak dijadikan destinasi wisata kuliner (Rabu 11 Nov 16:05 WIB), artikel AKURAT.CO Sumsel tentang konsep revitalisasi Pasar Sekanak (11 Nov 20:00 WIB), halaman detikSumbagsel tentang revitalisasi Pasar Sekanak (hanya judul dan deskripsi halaman yang terbaca, isi artikel dimuat lewat JavaScript), artikel ANTARA Sumsel tentang Lomba Permainan Tradisional bingen (Jumat 13 Nov 19:51 WIB), dan artikel ANTARA Sumsel tentang Charming Events of Palembang 2027 (Sabtu 14 Nov 23:12 WIB). Temuan: daftar tren TikTok hari ini masih didominasi politik (#haripahlawan, #pakjokowi, #jokowidodo, #ijazahjokowi, #roysuryo) dan esports (#stormarena, #ffesportsid, #ffwsgf2026); tidak ada satu pun tagar kuliner atau tagar Palembang. Berbeda dari kemarin, halaman lagitren.id hari ini tidak lagi menampilkan jumlah video di daftar hashtag (kolom keterangannya kosong), jadi peringkat saja yang dicatat, bukan angka video. BMKG memprakirakan hujan petir hari ini di 17 dari 18 kecamatan Kota Palembang dengan suhu 24-34 derajat Celsius. Catatan keputusan: hari ini adalah hari terakhir Charming Events of Palembang 2027 (13-15 November), tetapi topik itu sudah dipakai untuk slot 14 November, jadi sengaja tidak diajukan lagi sebagai kandidat agar feed tidak mengulang acara yang sama dua hari berturut-turut. Topik harga beras dan cabai juga tidak diajukan lagi karena sudah dipakai 12 dan 13 November.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 15 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 15 November 2026 · diperbarui 15 Nov, 07.17 WIB', dibaca 15 November 2026 pukul 08:02 WIB. Sepuluh video lagi viral: #haripahlawan 6,4 jt, #livefest2026 26,9 rb, #10november 7,7 jt, #pakjokowi 22,4 jt, #jokowidodo 22,4 jt, #ijazahjokowi 22,4 jt, #stormarena 6,1 jt, #haripahlawanindonesia 877,9 rb, #roysuryo 10,0 jt, #soj1stanniversary 297,8 rb. Daftar 20 hashtag tren hari ini berurutan: #haripahlawan, #livefest2026, #10november, #pakjokowi, #jokowidodo, #ijazahjokowi, #stormarena, #haripahlawanindonesia, #roysuryo, #soj1stanniversary, #ffesportsid, #ffwsgf2026, #bambamxswordofjustice, #jokowi, #swordofjustice, #jokowidodopresidenkita, #hariayah, #ijazah, #dahlia, #pahlawan. Kolom keterangan di tiap baris hashtag kosong pada pembacaan hari ini, jadi jumlah video per hashtag tidak dicatat. Tidak ada satu pun tagar kuliner, tagar jalan-jalan, atau tagar lokal Palembang di daftar ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:02:00+07:00",
+   "metrics": {
+    "hashtags_listed": 20,
+    "top_trend_rank_1": "#haripahlawan",
+    "culinary_tags_in_list": 0,
+    "palembang_tags_in_list": 0,
+    "per_hashtag_video_counts_available": false
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 15 November 2026 pukul 08:04 WIB. Kolom pertama tabel adalah Sun, 15 Nov. Dari 18 kecamatan yang tercantum, 17 diprakirakan 'Hujan Petir' hari ini (Ilir Barat Dua, Seberang Ulu Satu, Seberang Ulu Dua, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, Sukarami, Sako, Kemuning, Kalidoni, Bukitkecil, Gandus, Kertapati, Plaju, Alang-alang Lebar, Jakabaring, Ilir Timur Tiga) dengan suhu 24-34 derajat Celsius dan kelembapan 71-98 persen; hanya Sematangborang yang diprakirakan 'Hujan Ringan' 24-33 derajat Celsius. Kolom berikutnya (Mon, 16 Nov) berisi campuran Hujan Ringan dan Hujan Petir. Ini prakiraan resmi BMKG, bukan asumsi.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:04:00+07:00",
+   "metrics": {
+    "forecast_date": "2026-11-15",
+    "kecamatan_total": 18,
+    "kecamatan_hujan_petir": 17,
+    "kecamatan_hujan_ringan": 1,
+    "temperature_range_c": "24-34",
+    "humidity_range_percent": "71-98"
+   }
+  },
+  {
+   "url": "https://sumsel.antaranews.com/berita/828151/pemkot-palembang-jadikan-pasar-sekanak-destinasi-wisata-kuliner",
+   "title": "Pemkot Palembang jadikan Pasar Sekanak destinasi wisata kuliner - ANTARA News Sumatera Selatan",
+   "evidence": "Terbit Rabu 11 November 2026 pukul 16:05 WIB, dibaca 15 November 2026. Pemerintah Kota Palembang mulai menjadikan kawasan Pasar Sekanak sebagai destinasi wisata kuliner sekaligus pusat oleh-oleh terpadu. Direktur Utama Perumda Pasar Palembang Jaya Dedi Siswoyo menyebut langkah itu untuk menghidupkan kembali kawasan perdagangan bersejarah di tepi Sungai Musi. Berdasarkan pembahasan awal, bangunan Pasar Sekanak dikembangkan menjadi dua lantai: lantai satu untuk kios lebih besar yang menjual produk kerajinan dan makanan khas Palembang, lantai dua menjadi food court atau pusat kuliner. Rencana ini sudah tercantum dalam Peraturan Wali Kota Palembang 2017, kini dipercepat bersama Baperrida, dan proses revitalisasi fisik rencananya dilaksanakan Bappenas dengan tahap awal FGD, pemetaan dan pengukuran lahan, serta penyusunan rancangan arsitektur. Dedi berharap pengerjaan fisik pasar dapat dimulai pada 2027. Artikel tidak menyebut nilai anggaran, luas bangunan, atau jumlah kios.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:10:00+07:00",
+   "published_at": "2026-11-11T16:05:00+07:00",
+   "metrics": {
+    "location": "Pasar Sekanak, tepi Sungai Musi, Palembang",
+    "planned_floors": 2,
+    "floor_1": "kios kerajinan dan makanan khas Palembang",
+    "floor_2": "food court / pusat kuliner",
+    "physical_work_start_target": 2027,
+    "executing_agency_planned": "Bappenas"
+   }
+  },
+  {
+   "url": "https://sumsel.akurat.co/sumsel/906058/pasar-sekanak-palembang-bakal-disulap-jadi-pusat-oleh-oleh-dan-kuliner-ini-konsepnya",
+   "title": "Pasar Sekanak Palembang Bakal Disulap Jadi Pusat Oleh-oleh dan Kuliner, Ini Konsepnya - AKURAT.CO Sumsel",
+   "evidence": "Terbit 11 November 2026 pukul 20:00 WIB (meta datePublished 2026-11-11T20:00:00+07:00), dibaca 15 November 2026. Menyebut hal yang sama secara independen: kawasan Pasar Sekanak disiapkan menjadi destinasi wisata baru yang menggabungkan pusat oleh-oleh dan wisata kuliner khas daerah; pasar bersejarah di tepian Sungai Musi itu direncanakan menjadi bangunan dua lantai; lantai pertama untuk kios produk kerajinan dan makanan khas Palembang, lantai dua menjadi pusat kuliner atau food court. Disebut juga konsep ini sudah tercantum dalam Peraturan Wali Kota Palembang 2017, dipercepat bersama Baperrida, revitalisasi fisik direncanakan melibatkan Bappenas, tahap awal berupa FGD, pemetaan dan pengukuran lahan, serta penyusunan rancangan arsitektur, dan pengerjaan fisik bisa dimulai 2027. Artikel menyebut pengembangan ini diharapkan membuka peluang ekonomi bagi pedagang dan UMKM lokal.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:12:00+07:00",
+   "published_at": "2026-11-11T20:00:00+07:00",
+   "metrics": {
+    "planned_floors": 2,
+    "floor_1": "kios kerajinan dan makanan khas Palembang",
+    "floor_2": "pusat kuliner / food court",
+    "physical_work_start_target": 2027
+   }
+  },
+  {
+   "url": "https://www.detik.com/sumbagsel/berita/d-8748096/pasar-sekanak-palembang-direvitalisasi-2027-disulap-jadi-pusat-kuliner",
+   "title": "Pasar Sekanak Palembang Direvitalisasi 2027, Disulap Jadi Pusat Kuliner - detikSumbagsel",
+   "evidence": "Dibaca 15 November 2026 pukul 08:14 WIB. Yang terbaca dari halaman: judul 'Pasar Sekanak Palembang Direvitalisasi 2027, Disulap Jadi Pusat Kuliner' dan deskripsi halaman 'Revitalisasi Pasar Sekanak di Palembang akan menjadikannya pusat oleh-oleh dan kuliner. Proyek ini diharapkan selesai pada 2027 sebagai daya tarik wisata.' Isi paragraf artikel dimuat lewat JavaScript sehingga tidak terbaca, dan tanggal terbit tidak terlihat di metadata halaman saat dibaca. Halaman ini dicatat sebagai konfirmasi pihak ketiga atas judul rencana, bukan sebagai sumber angka.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:14:00+07:00",
+   "metrics": {
+    "body_paragraphs_read": 0,
+    "published_date_visible": false
+   }
+  },
+  {
+   "url": "https://sumsel.antaranews.com/berita/828299/kurangi-kecanduan-gadget-pemkot-palembang-hidupkan-kembali-permainan-tradisional-bingen",
+   "title": "Kurangi kecanduan gadget, Pemkot Palembang hidupkan kembali permainan tradisional bingen - ANTARA News Sumatera Selatan",
+   "evidence": "Terbit Jumat 13 November 2026 pukul 19:51 WIB, dibaca 15 November 2026. Pemkot Palembang menggelar Lomba Permainan Tradisional 2026 bertajuk 'Pesona Budaya Sehat Permainan Tradisional Palembang Bingen' pada Jumat 13 November 2026, diikuti ratusan peserta anak dan remaja Kota Palembang. Asisten Bidang Pemerintahan dan Kesejahteraan Rakyat Sekda Kota Palembang Kgs Sulaiman Amin membuka acara dan menyebut permainan tradisional seperti Bentengan dan Pantak Lele mengandung nilai sejarah, sosial, pendidikan, dan pembentukan karakter. Tujuan acara disebut untuk mengurangi kecanduan gawai anak. Artikel tidak menyebut lokasi acara, pemenang lomba, atau jumlah penonton.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:16:00+07:00",
+   "published_at": "2026-11-13T19:51:00+07:00",
+   "metrics": {
+    "event_date": "2026-11-13",
+    "event_name": "Lomba Permainan Tradisional 2026 - Pesona Budaya Sehat Permainan Tradisional Palembang Bingen",
+    "participants": "ratusan anak dan remaja"
+   }
+  },
+  {
+   "url": "https://sumsel.antaranews.com/berita/828387/pemkot-luncurkan-charming-event-of-palembang-tarik-kunjungan-wisatawan",
+   "title": "Pemkot luncurkan Charming Event of Palembang tarik kunjungan wisatawan - ANTARA News Sumatera Selatan",
+   "evidence": "Terbit Sabtu 14 November 2026 pukul 23:12 WIB, dibaca 15 November 2026. Wali Kota Palembang Ratu Dewa menyebut kegiatan Charming Events of Palembang 2027 dipusatkan di Kampung Wisata Kapitan, Kelurahan 7 Ulu, pada 13-15 November 2026 dengan pertunjukan seni budaya khas Palembang, barongsai, peragaan busana, bazar dan kuliner. Ia menekankan perlunya publikasi dan promosi pariwisata, jaminan keamanan dan kenyamanan wisatawan, ketersediaan infrastruktur, serta dampak bagi UMKM. Tanggal 15 November 2026 adalah hari terakhir acara ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-15T08:18:00+07:00",
+   "published_at": "2026-11-14T23:12:00+07:00",
+   "metrics": {
+    "event": "Charming Events of Palembang 2027",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-15",
+    "last_day": "2026-11-15"
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "A",
+   "title": "Pasar Sekanak Bakal Jadi Pusat Oleh-oleh dan Food Court Dua Lantai Mulai 2027",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Pasar Sekanak di tepi Sungai Musi mau diubah jadi pusat oleh-oleh di lantai satu dan food court di lantai dua, pengerjaan fisiknya dijadwalkan mulai 2027.",
+   "shots": [
+    "Shot 1 (9s): Dinda berdiri di depan kawasan Pasar Sekanak dekat tepi Sungai Musi, menyebut Pemkot Palembang menyiapkan pasar bersejarah ini jadi destinasi wisata kuliner sekaligus pusat oleh-oleh terpadu, dengan rencana bangunan dua lantai: lantai satu kios kerajinan dan makanan khas Palembang, lantai dua food court.",
+    "Shot 2 (9s): Dinda berjalan pelan menyusuri depan pasar, menyebut rencana ini sudah tercantum di Peraturan Wali Kota Palembang 2017 dan pengerjaan fisiknya dijadwalkan mulai 2027, lalu bertanya makanan khas apa yang wajib ada di food court-nya nanti."
+   ],
+   "sound": "Ambience jalan dan kendaraan tepi Sungai Musi dengan musik akustik ringan",
+   "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+   "caption": "Pasar Sekanak di tepi Sungai Musi mau diubah jadi pusat oleh-oleh di lantai satu dan food court di lantai dua, pengerjaan fisiknya dijadwalkan mulai 2027. Kalau nanti jadi, makanan khas apa yang wajib ada di sana? #pasarsekanak #palembang #kulinertradisional #wisatapalembang #oleholehkhas",
+   "sources": [
+    "https://sumsel.antaranews.com/berita/828151/pemkot-palembang-jadikan-pasar-sekanak-destinasi-wisata-kuliner",
+    "https://sumsel.akurat.co/sumsel/906058/pasar-sekanak-palembang-bakal-disulap-jadi-pusat-oleh-oleh-dan-kuliner-ini-konsepnya",
+    "https://www.detik.com/sumbagsel/berita/d-8748096/pasar-sekanak-palembang-direvitalisasi-2027-disulap-jadi-pusat-kuliner",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 7.0,
+    "local_relevance": 9.5,
+    "format_fit": 8.5,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.5
+   },
+   "why": "Topiknya belum pernah dipakai Dinda dan langsung menyentuh dua pilar utamanya sekaligus, kuliner khas dan jalan-jalan di kawasan bersejarah tepi Sungai Musi. Buktinya kuat: ANTARA Sumsel (11 November 16:05 WIB) dan AKURAT.CO Sumsel (11 November 20:00 WIB) memuat rincian yang sama soal dua lantai, fungsi tiap lantai, Perwali 2017, dan target pengerjaan fisik 2027, ditambah judul detikSumbagsel yang menyebut revitalisasi 2027. Lokasinya bisa didatangi langsung hari ini, jadi Dinda tidak perlu menunggu acara dan bisa merekam versi pasar sebelum berubah. Momentum tidak setinggi berita hari ini karena pengumumannya 11 November, dan daftar tren TikTok pagi ini kosong dari tagar kuliner serta tagar Palembang, jadi ceruk lokal ini masih terbuka.",
+   "claim_note": "Angka dan rincian yang dipakai hanya yang tertulis di ANTARA dan AKURAT: dua lantai, fungsi lantai, Perwali 2017, pengerjaan fisik direncanakan mulai 2027. Tidak ada anggaran, luas, jumlah kios, atau tanggal pasti mulai yang disebut, jadi caption tidak mengarang angka tersebut. Rencana bisa berubah karena pengerjaan masih tahap perencanaan teknis."
+  },
+  {
+   "code": "B",
+   "title": "Pemkot Palembang Hidupkan Lagi Bingen lewat Lomba Permainan Tradisional",
+   "pillar": "Lifestyle",
+   "hook": "Pemkot Palembang menggelar lomba permainan tradisional bertajuk Pesona Budaya Sehat Permainan Tradisional Palembang Bingen, diikuti ratusan anak dan remaja.",
+   "shots": [
+    "Shot 1 (9s): Dinda duduk di teras sambil memegang ponsel, menyebut Pemkot Palembang menggelar Lomba Permainan Tradisional 2026 bertajuk Pesona Budaya Sehat Permainan Tradisional Palembang Bingen pada Jumat 13 November dan diikuti ratusan anak serta remaja.",
+    "Shot 2 (9s): Dinda meletakkan ponsel dan berdiri siap main, menyebut permainan seperti Bentengan dan Pantak Lele disebut mengandung nilai kerja sama dan kejujuran, lalu bertanya permainan tradisional apa yang paling sering dimainkan penonton waktu kecil."
+   ],
+   "sound": "Suara anak-anak bermain di halaman dengan musik ringan tanpa vokal",
+   "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+   "caption": "Pemkot Palembang menggelar lomba permainan tradisional bingen pada 13 November dan diikuti ratusan anak serta remaja. Waktu kecil kalian paling sering main apa, bingen atau bentengan? #permainantradisional #bingen #palembang #budayapalembang #lifestyle",
+   "sources": [
+    "https://sumsel.antaranews.com/berita/828299/kurangi-kecanduan-gadget-pemkot-palembang-hidupkan-kembali-permainan-tradisional-bingen",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 6.5,
+    "local_relevance": 9.0,
+    "format_fit": 9.0,
+    "evidence_strength": 7.5,
+    "risk_safety": 9.0
+   },
+   "why": "Formatnya paling cocok untuk video pendek karena Dinda bisa langsung memeragakan permainannya, dan topik budaya lokal begini jarang muncul di daftar tren TikTok yang pagi ini penuh politik dan esports. Kelemahannya, acaranya sudah lewat Jumat 13 November dan hanya satu media yang membacakannya, serta temanya bersinggungan dengan topik lomba permainan tradisional Museum Negeri Sumsel yang sudah pernah dipakai untuk slot 10 November.",
+   "claim_note": "Nama acara, tanggal 13 November 2026, dan 'ratusan peserta' diambil langsung dari ANTARA. Lokasi acara dan pemenang lomba tidak disebut di artikel, jadi tidak dicantumkan."
+  },
+  {
+   "code": "C",
+   "title": "Hujan Petir di 17 Kecamatan Palembang Hari Ini, Rencana Makan Harus Diubah",
+   "pillar": "Daily Vlog Palembang",
+   "hook": "BMKG memprakirakan hujan petir di 17 dari 18 kecamatan Kota Palembang hari ini, jadi rencana jajan di luar sebaiknya disiapkan ulang.",
+   "shots": [
+    "Shot 1 (9s): Dinda berdiri di dekat jendela sambil melihat langit, menyebut BMKG memprakirakan hujan petir hari ini di 17 dari 18 kecamatan Kota Palembang dengan suhu 24 sampai 34 derajat Celsius, hanya Sematangborang yang diprakirakan hujan ringan.",
+    "Shot 2 (9s): Dinda menyiapkan payung dan memilih tempat makan yang beratap, lalu bertanya ke penonton rencana akhir pekannya tetap jalan atau dipindah ke dalam rumah."
+   ],
+   "sound": "Suara hujan dan guntur jauh dengan musik lo-fi pelan",
+   "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+   "caption": "BMKG memprakirakan hujan petir hari ini di 17 dari 18 kecamatan Kota Palembang, suhunya 24 sampai 34 derajat. Rencana jajan kalian tetap jalan atau pindah ke tempat yang beratap? #cuacapalembang #bmkg #palembang #hujan #dailyvlog",
+   "sources": [
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 8.0,
+    "local_relevance": 9.5,
+    "format_fit": 6.5,
+    "evidence_strength": 8.5,
+    "risk_safety": 8.5
+   },
+   "why": "Paling segar karena prakiraan berlaku hari ini dan sumbernya resmi BMKG per kecamatan. Tetapi isinya layanan informasi cuaca saja, tanpa cerita atau rasa kuliner khas yang jadi ciri feed Dinda, jadi lebih cocok jadi cadangan daripada topik utama.",
+   "claim_note": "Angka 17 dari 18 kecamatan, suhu 24-34 derajat, dan kelembapan 71-98 persen adalah prakiraan BMKG untuk hari ini, bukan hasil pengamatan. Prakiraan bisa berubah sepanjang hari."
+  }
+ ]
+}
