@@ -1,0 +1,61 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "tips dan trik tukang dan kerja bangunan praktis"
+  ],
+  "title": "Siram Bata Merah Sampai Jenuh Sebelum Pasang",
+  "hook": "Bata merah yang dipasang kering langsung menghisap air adukan sampai semennya garing dan ikatan dinding gampang rontok.",
+  "story": "Bang Ray berjongkok di samping tumpukan bata merah di halaman rumah setengah jadi di Banda Aceh. Sejak frame pertama tangan kanannya sudah memegang selang air dan air sudah mengalir membasahi puncak tumpukan bata. Ia mengarahkan selang menyusuri tumpukan sampai bata berubah warna gelap jenuh, menjelaskan bahwa bata kering menyerap air adukan terlalu cepat sehingga semen kehilangan daya rekat, lalu menutup dengan ajakan menyimpan video dan pertanyaan memilih siram atau rendam. Hanya selang dan tumpukan bata yang ada di frame sejak 0.0s sampai akhir.",
+  "caption": "Bata merah kering yang langsung dipasang menghisap air adukan sampai semennya garing dan ikatan dinding gampang rontok. Basahi dulu sampai jenuh baru pasang, Rakan biasanya siram atau rendam?\n#tipskonstruksi #pasangbata #batamerah #renovasirumah #bandaaceh",
+  "image_prompt": "Pakai aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah), bangray_fullbody_turnaround.jpg (postur dan pakaian kerja), bangray_profile_avatar.jpg. Tidak membuat master baru.",
+  "role_reason": "Tiga konsep disiapkan: (A) siram tumpukan bata merah dengan selang, kamera statis rendah setinggi lutut, dua properti saja yang hadir sejak 0.0s; (B) close-up dinding bawah yang catnya mengelupas karena air tanah naik, tangan menyentuh plint, tanpa alat; (C) pegang satu bata merah di kanan dan satu hebel di kiri untuk perbandingan, kamera setinggi dada. Dipilih A karena lima paket terakhir akun ini berturut membahas kuda-kuda atap 13 November, takaran air cor 12 November, lem pipa PVC 11 November, plester retak 10 November, dan keramik kopong 10 November, sementara teknik membasahi bata belum pernah dipakai; konsep A juga paling mudah dijaga kontinuitasnya karena hanya butuh selang dan tumpukan bata yang keduanya sudah terlihat sejak frame pertama, dan sudut kamera rendah dekat lantai berbeda dari shot dada 14 November yang belum tayang.",
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://ppid.unsoed.ac.id/pbj/doc/mipa2023/II.3.%20Spesifikasi%20Teknis-Pemb%20Gd%20Pend%20Fak%20MIPA2023.pdf",
+      "title": "Metode Pelaksanaan Pekerjaan - PPID Unsoed",
+      "evidence": "Spesifikasi menyebut sebelum dipasang batu bata terlebih dahulu direndam di dalam air sebentar, dan permukaan yang akan dipasang juga harus basah, agar adukan dapat merekat.",
+      "observed_at": "2026-11-15T13:58:00+07:00"
+    },
+    {
+      "url": "https://www.builder.id/bata-merah",
+      "title": "Bata Merah: Cara Memilih Berkualitas, Standar SNI, Harga 2027",
+      "evidence": "Bata yang terlalu kering menyerap air dari mortar terlalu cepat sehingga melemahkan ikatan pasangan; disarankan disemprot air 30 sampai 60 menit sebelum dipasang agar pori terisi tapi permukaan kering.",
+      "observed_at": "2026-11-15T13:59:00+07:00"
+    },
+    {
+      "url": "https://ppid.purbalinggakab.go.id/wp-content/uploads/2023/09/RKS-BANDINGAN-REV.pdf",
+      "title": "Syarat Teknis Pekerjaan - PPID Purbalingga",
+      "evidence": "Pasal pekerjaan pasangan menyebut batu bata sebelum dipasang harus direndam air terlebih dahulu sampai jenuh dan bersih dari kotoran.",
+      "observed_at": "2026-11-15T14:00:00+07:00"
+    }
+  ],
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "estimated_credits_displayed": 20,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of Bang Ray, the exact same Indonesian man shown in the attached personal character reference and two attached master images: image one is his three-expression portrait for FACE IDENTITY (match his face shape, nose, eyebrows, hairline, skin tone and apparent age exactly; do not age him; do not change his facial structure), image two is his full-body turnaround for POSTURE and OUTFIT (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki canvas work trousers, black field watch on his left wrist, dark brown leather work boots). Output exactly one man, never a collage, split screen, grid or reference-sheet layout. Vertical 9:16, one continuous shot, 15 seconds, camera static at knee height about fifty centimeters above the ground, one and a half meters away, slightly to his left, framing a waist-high stack of red clay bricks in the lower half of the frame and him crouching beside it. Location is the open yard of a half-finished house in Banda Aceh at midday: bare red brick stack on a wooden pallet, unfinished grey concrete wall behind him, no decoration. Since frame zero his right hand already holds a green garden hose and water is already flowing out of it onto the top of the brick stack; the hose and the brick stack are the only props and both stay in frame unchanged from 0.0s to the end. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps, slight natural handheld micro-shake, clean audio of his voice with the sound of running water. No on-screen text, no captions, no subtitles, no watermark, no logo. First three seconds he looks at the camera and says in Indonesian, \"Bata kering langsung dipasang? Ini yang bikin dinding gampang rontok, Rakan.\" while the water keeps running over the top bricks. From second four to second ten he moves the hose in slow overlapping arcs down the side of the stack so the bricks darken and turn wet, and says in Indonesian, \"Bata kering hisap air adukan terlalu cepat, semennya garing sebelum sempat nempel.\" From second eleven to the end he lifts the hose slightly, keeps the water running, looks back at the camera and says in Indonesian, \"Basahi sampai jenuh dulu baru pasang. Kalian biasa siram atau rendam dulu?\" His hand, the hose and the whole brick stack stay fully visible and consistent to the last frame; his shirt, hair and the lighting do not change."
+    }
+  ],
+  "identity_lock": "3 references: Flow personal character chip + three-expression portrait (face) + fullbody turnaround (posture and outfit); face must match portrait exactly"
+}
