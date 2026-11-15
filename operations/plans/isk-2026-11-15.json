@@ -1,0 +1,60 @@
+{
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "title": "Kereta Sorong Five Star Penuh Batu di Jalan Becek Tetap Lurus",
+  "hook": "Gerobak murah penuh batu rodanya langsung goyang",
+  "story": "Pekerja proyek mendorong Kereta Sorong Five Star yang baknya penuh batu pecah dan pasir basah melewati tanah becek sisa hujan. Kamera rendah statis di sisi depan menangkap ban angin yang tetap menggigit lumpur tanpa selip dan bak plat baja merah yang tetap lurus, lalu ia berhenti dan bicara ke kamera bahwa bak Five Star tidak penyok dan rodanya tidak goyang.",
+  "image_prompt": "Pakai dua foto referensi produk resmi characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg dan characters/isk/assets/brand/kereta_sorong_five_star_top.jpg (bak plat baja press merah glossy, rangka pipa merah dengan bemper lengkung, stiker putih FIVE STAR di handle kiri, grip karet hitam, satu ban angin tebal berulir). Tidak membuat gambar master baru dan tidak memakai master wajah manusia baru.",
+  "role_tags": [
+    "kereta sorong five star",
+    "uji ketahanan material",
+    "edukasi toko bangunan dan tukang proyek"
+  ],
+  "role_reason": "Rotasi empat pilar produk: Kawat Duri 13 Nov, Kawat Licin 12 Nov, Kereta Sorong 11 Nov, Paku Cap Keris 14 Nov, sehingga hari ini kembali ke Kereta Sorong Five Star dengan skenario uji beban di tanah becek yang belum dipakai dan tanpa tema timbangan 25 kg.",
+  "creative": {
+    "character": "Pekerja proyek Indonesia pria 35 tahun, kemeja navy lengan pendek berdebu, celana kerja abu gelap, tanpa topi",
+    "background": "Area proyek tanah becek sisa hujan dengan genangan tipis dan dinding bata merah belum diplester",
+    "action": "Mendorong kereta sorong berisi penuh batu pecah dan pasir basah melewati lumpur lalu berhenti dan menepuk bak baja yang tetap lurus",
+    "selection_reason": "Konsep kamera rendah statis 45 cm dipilih karena lima video ISK terakhir memakai kamera dada bergerak, makro produk, dan sudut tiga perempat berdiri; sudut roda menyentuh lumpur belum dipakai dan langsung memperlihatkan ban menggigit tanah becek serta bak baja yang tidak penyok.",
+    "dialogue": "Gerobak murah penuh batu rodanya langsung goyang. Five Star bak baja tebal tetap lurus walau jalan becek. Simpan video ini.",
+    "dialogue_start_seconds": 2.5,
+    "dialogue_read_seconds": 6.5,
+    "action_end_seconds": 9.0
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [4, 6, 8, 10],
+    "estimated_credits_displayed": 10,
+    "verified_from": "Sesi Flow flow_2 15 Nov 2026 menampilkan Video 360p 10 dtk crop_9_16 x1"
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Photorealistic live-action smartphone vlog video of one Indonesian construction worker, a man about 35 years old, in a dusty dark navy short-sleeve work shirt and dark grey work trousers, no hat, pushing the exact wheelbarrow from the two attached official product photos: bright glossy red pressed-steel tray, red tubular steel frame with rounded front bumper loop, black rubber grips on both handles, a small white FIVE STAR sticker on the left handle, and a single pneumatic tyre with visible tread. Output exactly one man and exactly one wheelbarrow in a single unbroken continuous take, never a collage, split screen or reference-sheet layout. Vertical 9:16, 10 seconds, camera locked on a low tripod only 45 centimetres above the ground at a three-quarter front-left angle about two metres away, lens tilted slightly up so the loaded tray, the tyre and the man's face are all visible at once, the camera itself never moves and never zooms or pans. Rain-damp construction site in the background: wet packed earth with a shallow muddy rut, a low unfinished red brick wall, grey overcast sky, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps. PROP CONTINUITY RULE: at frame 0.0s the red wheelbarrow is already fully in frame with its tray already overflowing with wet grey split stones and damp sand, the muddy rut is already under the tyre, and the brick wall is already behind; only these named props are visible from 0.0s to 10.0s and no object, tool, person or animal may appear, grow, float or disappear at any moment; the tray and frame stay perfectly rigid and undeformed and the tyre stays round and fully inflated. BEATS: from 0.0s to 2.5s the man grips both black rubber handles and pushes the heavily loaded wheelbarrow toward the camera through the muddy rut, the tyre pressing into the wet mud without slipping and the red tray staying perfectly level; from 2.5s to 4.5s he stops about one metre from the lens and looks at the camera speaking Indonesian with accurate lip-sync, \"Gerobak murah penuh batu rodanya langsung goyang\"; from 4.5s to 7.0s he keeps one hand on the handle and speaks, \"Five Star bak baja tebal tetap lurus walau jalan becek\"; from 7.0s to 9.0s he taps the rigid red steel tray rim twice with his free hand and says, \"Simpan video ini\"; from 9.0s to 10.0s he holds still looking at the camera while the loaded wheelbarrow stays motionless and the tray stays level. Audio: wet mud squelch, tyre rolling on damp ground, light wind, clear close Indonesian male voice. No on-screen text, no captions, no watermark, no logo overlay other than the product label already printed on the wheelbarrow."
+    }
+  ],
+  "caption": "Kereta Sorong Five Star dari PT Intan Suar Kartika tetap lurus dan tidak penyok walau baknya penuh batu di jalan becek. Mau harga distributor? Chat WhatsApp wa.me/62819889350.\n#keretasorongfivestar #alatproyek #tokobangunan #intansuarkartika",
+  "trend_sources": [
+    {
+      "url": "https://metrotvnews.com/read/bVDC6l9G-bmkg-sebagian-besar-wilayah-indonesa-bakal-hujan-ringan-sedang",
+      "title": "BMKG: Sebagian Besar Wilayah Indonesia bakal Hujan Ringan-Sedang",
+      "observed_at": "2026-11-15T10:01:00+07:00",
+      "evidence": "Dibaca 15 November 2026 pukul 10.01 WIB. BMKG memprakirakan hujan ringan sampai sedang di Medan dan sebagian besar Sumatra pada Minggu 15 November 2026, dengan Sumatra Utara masuk wilayah siaga hujan lebat. Alasan praktis menguji kereta sorong di tanah becek saat musim hujan, karena proyek dan kebun tetap jalan walau jalur licin."
+    },
+    {
+      "url": "https://endless.app/radar/tiktok/indonesia",
+      "title": "TikTok trends in Indonesia today - Endless",
+      "observed_at": "2026-11-15T10:02:00+07:00",
+      "evidence": "Dibaca 15 November 2026 pukul 10.02 WIB, data diperbarui 15 November 2026 12:47 UTC. Tren TikTok Indonesia 24 jam didominasi konten game, parfum, drama pendek, dan kopi instan; tagar teratas #capcut, #akunbaru, #ai. Tidak ada tagar material bangunan yang sedang naik, jadi video ISK diposisikan sebagai edukasi praktis niche dengan hook masalah lapangan, bukan pengejaran tagar viral."
+    }
+  ],
+  "new_biography_facts": [],
+  "promotional": false
+}
