@@ -2,19 +2,19 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-14 20:51:56 WIB",
+    "timestamp_wib": "2026-11-16 13:57:31 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      3.88,
-      3.65,
-      3.04
+      7.21,
+      6.02,
+      6.21
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
-    "disk_free_gb": 60.9,
+    "disk_free_gb": 52.5,
     "disk_total_gb": 228.3,
-    "disk_used_percent": 73.3
+    "disk_used_percent": 77.0
   },
   "services": [
     {
@@ -22,7 +22,7 @@
       "name": "Hermes Gateway",
       "type": "launchd daemon",
       "label": "ai.hermes.gateway",
-      "pid": 1004,
+      "pid": 92822,
       "status": "online",
       "port": null,
       "badge_color": "emerald",
@@ -56,7 +56,7 @@
       "name": "Telegram ACC Watcher",
       "type": "polling daemon",
       "label": "scripts/telegram_review_watcher.py",
-      "pid": 1334,
+      "pid": 39416,
       "status": "online",
       "port": null,
       "badge_color": "emerald",
@@ -78,7 +78,7 @@
       "name": "Dashboard Web Server",
       "type": "http server",
       "label": "app/dashboard_server.py",
-      "pid": 22107,
+      "pid": 39550,
       "status": "online",
       "port": 8080,
       "badge_color": "emerald",
