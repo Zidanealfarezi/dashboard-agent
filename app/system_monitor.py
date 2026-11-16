@@ -543,21 +543,33 @@ def get_pipeline_tasks_status(conn: sqlite3.Connection, target_date: str = None)
                 headline_status = f"Menunggu Riset & Perencanaan Jadwal ({talent['slot_time']})"
                 status_tag = "standby"
         else:
-            # Historical / recent status
-            if pub_dict and pub_dict.get("state") == "confirmed":
+            # Slot hari ini belum dibuat / belum mulai produksi
+            prod_time = win.get("production_time_wib") or ("14:00" if cid == "bang_ray" else "16:30")
+            pub_time = win.get("publish_time_wib") or talent["slot_time"]
+            
+            if win.get("is_past_cutoff"):
                 for s in stages:
-                    s["status"] = "done"
-                active_step = 5
-                progress_percent = 100
-                headline_status = f"Publikasi Terakhir Selesai ({pub_dict.get('platform_post_id', '-')})"
-                status_tag = "published"
-                slot_state = "published"
-            else:
-                stages[0]["status"] = "done"
-                active_step = 2
-                progress_percent = 30
-                headline_status = "Menunggu inisialisasi slot jadwal baru"
+                    s["status"] = "waiting"
+                active_step = 1
+                progress_percent = 0
+                headline_status = f"Slot hari ini terlewati (Cutoff {win.get('cutoff_time_wib', '-')} WIB)"
                 status_tag = "standby"
+                slot_state = "needs_plan"
+            elif win.get("is_production_due"):
+                stages[0]["status"] = "active"
+                active_step = 1
+                progress_percent = 25
+                headline_status = f"Waktu Produksi Tiba ({prod_time} WIB) - Menyiapkan Naskah & Riset"
+                status_tag = "running"
+                slot_state = "needs_plan"
+            else:
+                for s in stages:
+                    s["status"] = "waiting"
+                active_step = 1
+                progress_percent = 15
+                headline_status = f"Menunggu Jadwal Produksi Jam {prod_time} WIB (Tayang {pub_time})"
+                status_tag = "standby"
+                slot_state = "needs_plan"
 
         pipeline_items.append({
             "character_id": cid,
