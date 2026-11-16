@@ -1,0 +1,66 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": ["kuliner", "lifestyle", "daily vlog Palembang"],
+  "title": "Hari Ayah Masih Ramai di TikTok: Jajan Pempek Bareng Ayah Versi Palembang",
+  "hook": "Lima tagar Hari Ayah masih ada di 20 besar tren TikTok pagi ini walau perayaannya sudah lewat, jadi momennya pas untuk bahas alasan paling gampang ngajak ayah keluar rumah di Palembang.",
+  "story": "Dinda duduk di bangku panjang warung pempek di Palembang pada pagi hari, satu piring pempek dan satu gelas teh sudah ada di atas meja sejak frame pertama. Ia menyebut tagar Hari Ayah masih ramai di TikTok hari ini meski perayaannya sudah lewat empat hari, dan banyak kontennya justru soal momen sederhana bareng ayah. Ia lalu bilang kalau di Palembang alasan paling gampang mengajak ayah keluar rumah adalah cari pempek atau tekwan, menyuap satu kapal selam, dan menutup dengan pertanyaan makanan apa yang jadi tradisi bareng ayah di rumah penonton. Cerita ini belum canon.",
+  "caption": "Lima tagar Hari Ayah masih nangkring di 20 besar tren TikTok pagi ini padahal perayaannya sudah lewat sejak 12 November. Di Palembang alasan paling gampang ngajak ayah keluar rumah ya cari pempek atau tekwan. Makanan apa yang jadi tradisi bareng ayah di rumah kalian?\n#pempek #palembang #kulinerpalembang #jajanpalembang #hariayah",
+  "image_prompt": "Vertical 9:16 smartphone vlog frame, sumber 360p. Dinda Kemala, perempuan Indonesia modest 165 cm, pashmina hijab rapi warna cream, kemeja linen oversized cream dipadukan kulot coklat high-waisted, kalung cincin emas kecil, duduk di bangku panjang warung pempek Palembang dengan piring pempek dan gelas teh di meja kayu, latar warung beratap seng dan jalan kampung, cahaya pagi mendung netral 5500K, pori-pori kulit terlihat, tanpa plastic atau waxy skin, tanpa teks di frame.",
+  "role_reason": "Ini topik kuliner dan lifestyle Palembang yang paling kuat hari ini: lima dari dua puluh tagar tren TikTok pagi 16 November 2026 adalah Hari Ayah (#hariayah dan #selamathariayah masing-masing 8,4 juta video menurut lagitren.id 07.17 WIB) sehingga momentumnya tertinggi, sementara jembatan lokalnya makanan khas Palembang yang jadi pilar utama akun ini dan belum dipakai pada 14 rencana sebelumnya (pempek dan tekwan baru muncul sebagai sebutan harga cuko pada 12 November). Kandidat skor tertinggi pagi ini (opt_dinda_A, drainase Lorok Pakjo) sengaja tidak dipakai karena itu berita insiden anak enam tahun, di luar pilar kuliner/lifestyle dan berisiko mengeksploitasi korban. Satu klip 12 detik dipilih karena aturan satu permintaan generasi per konten dan batas durasi maksimal 20 detik.",
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 16 November 2026 · Lagi Tren",
+      "evidence": "Halaman bertanda 'Hari ini · 16 November 2026 · diperbarui 16 Nov, 07.17 WIB', dibaca 16 November 2026 pukul 08:01 WIB. Lima tagar Hari Ayah masuk 20 besar: #hariayah 8,4 juta, #selamathariayah 8,4 juta, #hariayahnasional 4,0 juta, #happyfathersday 4,0 juta, #fathersday. Tiga di antaranya juga masuk sepuluh video teratas. Tidak ada satu pun tagar kuliner atau tagar lokal Palembang di daftar.",
+      "observed_at": "2026-11-16T08:01:00+07:00"
+    },
+    {
+      "url": "https://lagitren.id/tiktok/hariayah",
+      "title": "#hariayah — kenapa viral? | Lagi Tren",
+      "evidence": "Dibaca 16 November 2026 pukul 08:03 WIB, halaman bertanda 'Diperbarui 16 Nov, 07.17 WIB'. Penjelasan halaman: #hariayah viral karena memperingati Hari Ayah Nasional yang jatuh pada 12 November; kontennya berisi ucapan personal sampai pembahasan peran ayah dalam keluarga. Ini mengonfirmasi tagar masih berjalan empat hari setelah tanggal perayaannya, bukan perayaan hari ini.",
+      "observed_at": "2026-11-16T08:03:00+07:00"
+    },
+    {
+      "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+      "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+      "evidence": "Dibaca 16 November 2026 pukul 08:02 WIB. Kolom pertama tabel adalah Mon, 16 Nov: 12 dari 18 kecamatan Kota Palembang diprakirakan Hujan Petir dan 6 Hujan Ringan, suhu 25-35 derajat Celsius. Karena itu adegan ditempatkan di warung beratap, bukan di ruang terbuka.",
+      "observed_at": "2026-11-16T08:02:00+07:00"
+    }
+  ],
+  "historical_fact_sources": [],
+  "source_note": "Angka 8,4 juta video dan posisi lima tagar Hari Ayah di 20 besar adalah tangkapan halaman lagitren.id 16 November 2026 pukul 07.17 WIB. Tanggal Hari Ayah Nasional 12 November diambil dari halaman penjelas lagitren. Tidak ada klaim bahwa hari ini Hari Ayah, tidak ada angka penjualan warung, dan tidak ada harga pempek yang disebut karena tidak ada sumbernya.",
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "estimated_credits": 14,
+    "verified_from": "scripts/sync_flow_status.js --character dinda --navigate-home --ensure-360p pada 16 November 2026 09.01 WIB: flow_1 tersambung, saldo 323 kredit, pill 'Video · 360p · 12s crop_9_16 x1'. Model dan biaya dicocokkan ulang di panel komposer sebelum submit."
+  },
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "selection_reason": "Busana berstatus active yang belum dipakai hari ini dan sudah paling lama istirahat di antara outfit aktif yang punya foto: pemakaian terakhir 13 November 2026, sementara outfit mocha dipakai 15 November dan striped taupe 14 November. Kemeja linen cream dengan kulot coklat high-waisted cocok untuk adegan duduk di warung pempek pada pagi mendung. Baris wardrobe baru hari ini (outfit_dinda_pagi_20261116, Pastel Taupe Knit Cardigan) berstatus incomplete tanpa foto close-up maupun full-body sehingga belum bisa dipakai sebagai acuan visual."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+  ],
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match face shape, nose, eyebrows, eyes, skin tone and apparent age exactly, do not change her facial structure), image two is her full-body reference for POSTURE and BODY PROPORTION, image three is the outfit reference for CLOTHING (cream oversized linen shirt over a chocolate brown high-waisted wide-leg palazzo, small gold ring necklace, neat cream pashmina hijab). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, filmed on a phone at 24fps with slight natural handheld sway at chest height. Location: seated on a long wooden bench at a small Palembang pempek warung in the morning, a plate of pempek and a glass of iced tea already on the wooden table in front of her from frame zero, corrugated metal roof and small village street softly blurred behind her, overcast daylight outside, one or two distant blurred figures far in the background. Both her hands stay in frame and nothing appears or disappears mid-take. From 0.0 to 3.5 seconds she looks into the lens and says in Indonesian, \"Tagar Hari Ayah masih ramai di TikTok sampai hari ini.\" From 3.5 to 8.0 seconds she gestures toward the plate of pempek on the table and says, \"Kalau di Palembang paling gampang ngajak ayah jajan pempek atau tekwan.\" From 8.0 to the end she picks up one piece of pempek, smiles and asks, \"Makanan apa yang jadi tradisi bareng ayah di rumah kalian?\" Lips move in sync with her Indonesian speech, natural micro-expressions, no lip-sync drift. Shot on smartphone vlog camera, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, real warung ambience and natural speech audio. Completely clean frame: no on-screen text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo overlay, no readable writing on packaging or signage. No other prop, person or object appears or disappears mid-shot, no cut, no zoom, no camera movement beyond small handheld drift."
+    }
+  ],
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 360p, 9:16, output 1, 3 referensi gambar: face sheet, body reference, outfit). Frame mentah wajib bersih dari teks/HUD; subtitle editorial_tiktok dua tingkat tanpa koma dibakar lokal oleh app.media.assemble_character_video setelah upscale Varian 3 Hybrid ke 1080x1920, lalu audio lo-fi akustik 15 persen dengan vokal 100 persen. Tidak ada retry berbayar otomatis."
+}
