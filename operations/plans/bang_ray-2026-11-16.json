@@ -1,0 +1,61 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)"
+  ],
+  "title": "Siar Muai Lima Milimeter di Tepi Keramik Biar Lantai Tidak Meledak",
+  "hook": "Keramik lantai bisa meledak dan terangkat sendiri bukan karena keramiknya jelek, tapi karena dipasang mentok dinding tanpa siar muai.",
+  "story": "Bang Ray berjongkok di lantai ruang tamu rumah setengah jadi di Banda Aceh. Sejak frame pertama tangan kanannya sudah memegang potongan tile spacer plastik putih dan menahan barisan keramik terakhir yang berhenti di kaki dinding. Ia memasukkan spacer ke celah sempit antara keramik dan dinding, menekan barisan itu sampai celahnya terlihat rata, menjelaskan bahwa tukang senior selalu menyisakan lima milimeter di tepi lalu menutupnya dengan plint karena keramik memuai saat panas, lalu menutup dengan mengadu dua kubu cara pasang nat. Hanya barisan keramik dan tile spacer yang ada di frame sejak 0.0s sampai akhir.",
+  "caption": "Keramik lantai bisa meledak dan terangkat sendiri kalau dipasang mentok dinding tanpa siar muai. Tukang senior selalu sisakan lima milimeter di tepi lalu ditutup plint, Rakan sendiri kubu nat rapat atau kubu siar lebar?\n#tipskonstruksi #keramiklantai #siarmuai #renovasirumah #bandaaceh",
+  "image_prompt": "Pakai aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah), bangray_fullbody_turnaround.jpg (postur dan pakaian kerja), bangray_profile_avatar.jpg. Tidak membuat master baru.",
+  "role_reason": "Tiga konsep disiapkan: (A) kamera rendah setinggi dua belas sentimeter di lantai, tangan memasukkan tile spacer di celah keramik terakhir dengan kaki dinding, dua properti saja hadir sejak 0.0s; (B) overhead tegak lurus dari atas menyorot sudut keramik yang sudah terangkat dan retak, tangan menekan permukaannya, tanpa alat; (C) berjalan pelan menyusuri lantai sambil menunjuk garis nat dengan gagang obeng, kamera mengikuti dari belakang. Dipilih A karena lima paket terakhir akun ini berurutan membahas bata siram vs rendam 15 November, kamprotan plester kolom 14 November, jarak kuda-kuda baja ringan 13 November, takaran air cor 12 November, dan lem pipa PVC 11 November, sementara risiko keramik popping akibat tanpa siar muai belum pernah dipakai; A juga satu-satunya konsep yang bisa menampilkan bukti visual aturan tukang senior di dalam frame sejak detik nol dan paling mudah dijaga kontinuitasnya. Sudut kamera rendah dekat lantai berbeda dari shot dada dan lutut pada paket sebelumnya.",
+  "new_biography_facts": [],
+  "promotional": false,
+  "trend_sources": [
+    {
+      "url": "https://www.terraco.com/id/penyebab-keramik-terangkat-popping-di-indonesia",
+      "title": "Penyebab Keramik Terangkat (popping) di Indonesia - Terraco Indonesia",
+      "evidence": "Kegagalan pasang keramik biasanya pada sistem pemasangan; tanpa nat pergerakan (movement joint) di perimeter, sambungan struktur dan bidang luas, tekanan terakumulasi dan memicu retak nat hingga tenting atau tepi keramik terangkat.",
+      "observed_at": "2026-11-16T13:51:00+07:00"
+    },
+    {
+      "url": "https://www.mortarutama.com/tips-trik/penyebab-keramik-meledak-popping-cara-perbaikannya",
+      "title": "Penyebab Keramik Popping dan Cara Memperbaikinya - Mortar Utama",
+      "evidence": "Tidak ada ruang ekspansi antar keramik menjadi penyebab popping: jarak antar keramik terlalu rapat sehingga tekanan pemuaian tidak tersalurkan, keramik saling mendorong lalu terangkat dan meledak.",
+      "observed_at": "2026-11-16T13:53:00+07:00"
+    },
+    {
+      "url": "https://ppid.kemnaker.go.id/upload/MONEV_KIP_2024/2022/Spesifikasi%20Teknis/1.1.3.%20RKS%20Renovasi%20Gedung%20Vokas/RKS%20ARSITEKTUR%20VOKASI.pdf",
+      "title": "RKS Arsitektur Vokasi - PPID Kementerian Ketenagakerjaan",
+      "evidence": "Spesifikasi teknis memasang keramik menetapkan jarak nat 2 sampai 3 mm pada keramik permukaan polished, jadi nat nol milimeter memang melanggar syarat pemasangan.",
+      "observed_at": "2026-11-16T13:55:00+07:00"
+    }
+  ],
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "estimated_credits_displayed": 20,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of Bang Ray, the exact same Indonesian man shown in the attached personal character reference and the two attached master images: image one is his three-expression portrait for FACE IDENTITY (match his face shape, nose, eyebrows, hairline, skin tone and apparent age exactly; do not age him; do not change his facial structure), image two is his full-body turnaround for POSTURE and OUTFIT (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki canvas work trousers, black field watch on his left wrist, dark brown leather work boots). Output exactly one man, never a collage, split screen, grid or reference-sheet layout. Vertical 9:16, one continuous shot, 15 seconds, camera static very low at floor level about twelve centimeters above the ground, tilted slightly down, one meter away, framing the last row of grey sixty-by-sixty centimeter floor tiles where they meet the bottom of a bare concrete wall. Location is the empty living room of a half-finished house in Banda Aceh at midday: bare concrete floor screed on the near side, unpainted grey block wall, thin sunlight from a doorway at frame left, no decoration. Since frame zero his right hand already holds a small white plastic tile spacer and the gap between the final tile row and the wall is already visible; the tile row and the spacer are the only props and both stay in frame unchanged from 0.0s to the end. He pushes the spacer into the narrow gap, presses the last tile row until the gap looks even, runs his fingertip along the joint, looks at the camera, and explains the gap; the tile never lifts, never jumps and never breaks during the shot. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI look, no cinematic lighting, no bokeh fake depth of field, authentic non-AI documentary look, shot on smartphone vlog camera at 24fps with slight natural handheld micro-shake, clean audio of his voice with faint room ambience. No on-screen text, no captions, no subtitles, no watermark, no logo. He speaks in Indonesian: first seconds, \\\"Keramik lantai meledak dan terangkat sendiri itu bukan karena keramiknya jelek\\\"; then, \\\"Dipasang mentok dinding tanpa siar muai, panas sedikit dia naik sendiri\\\"; then, \\\"Tukang senior sisakan lima milimeter di tepi, baru ditutup plint\\\"; then while holding the spacer in the gap, \\\"Ini yang jaga jaraknya tetap rata\\\"; closing, \\\"Sekarang dua kubu, kubu nat rapat dua milimeter atau kubu siar lebar di tepi, Rakan pilih mana\\\". Keep his face, clothing and background consistent throughout."
+    }
+  ],
+  "identity_lock": "3 references: Flow personal character chip + three-expression portrait (face) + fullbody turnaround (posture and outfit); face must match portrait exactly"
+}
