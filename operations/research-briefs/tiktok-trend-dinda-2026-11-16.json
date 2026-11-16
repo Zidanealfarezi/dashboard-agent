@@ -1,0 +1,189 @@
+{
+ "brief_id": "tiktok-trend-dinda-2026-11-16",
+ "character_id": "dinda",
+ "slot": "morning",
+ "collected_at": "2026-11-16T08:04:00+07:00",
+ "collected_by": "hermes-cron-research",
+ "note": "Riset slot pagi 16 November 2026 pukul 08:00-08:05 WIB. Halaman yang benar-benar dibaca: lagitren.id/tiktok (daftar TikTok viral hari ini, ditandai 'diperbarui 16 Nov, 07.17 WIB'), halaman penjelas lagitren.id/tiktok/hariayah (kenapa #hariayah viral), prakiraan cuaca BMKG per kecamatan Kota Palembang 16.71 (kolom Mon, 16 Nov), artikel detikSumbagsel tentang pemuda yang menyelamatkan bocah dari drainase di Lorok Pakjo, halaman tag Palembang sumsel.tribunnews.com (judul dan deskripsi berita hari ini, isi artikel tidak terbaca karena dimuat JavaScript), artikel ANTARA Sumsel tentang operasi pasar murah Disdag Palembang, dan artikel ANTARA Sumsel tentang 1.000 paket sembako Polda Sumsel. Temuan: daftar tren TikTok pagi ini didominasi Hari Ayah (#hariayah 8,4 jt, #selamathariayah 8,4 jt, #hariayahnasional 4,0 jt, #happyfathersday 4,0 jt, #fathersday, lima tagar Hari Ayah di 20 besar) ditambah politik wapres (#wakilpresiden 11,8 jt, #wapres 5,9 jt) dan esports (#stormarena 6,3 jt). Tidak ada satu pun tagar kuliner atau tagar lokal Palembang di daftar, sama seperti kemarin. Berita lokal yang paling bergerak dalam 24 jam: Rizky Farizal (24) menyelamatkan bocah 6 tahun yang terjatuh ke drainase di Jalan Puncak Sekuning, Lorong Swadaya, Kelurahan Lorok Pakjo, Ilir Barat 1, Sabtu 14 November sore; Wali Kota Ratu Dewa menjenguk dan menawarinya kerja di Damkar Palembang Minggu 15 November sore. Catatan keputusan: topik Pasar Sekanak, Charming Events, harga beras, dan harga cabai sengaja tidak diajukan lagi karena sudah dipakai 11-15 November; topik bingen 13 November juga tidak diulang karena mirip topik permainan tradisional 10 November.",
+ "candidates": [
+  {
+   "url": "https://lagitren.id/tiktok",
+   "title": "TikTok Viral Indonesia Hari Ini — 16 November 2026 · Lagi Tren",
+   "evidence": "Halaman bertanda 'Hari ini · 16 November 2026 · diperbarui 16 Nov, 07.17 WIB', dibaca 16 November 2026 pukul 08:01 WIB. Sepuluh video lagi viral: #hariayah 8,4 jt, #haripahlawan 6,9 jt, #hariayahnasional 4,0 jt, #selamathariayah 8,4 jt, #10november 7,5 jt, #wakilpresiden 11,8 jt, #stormarena 6,3 jt, #wapres 5,9 jt, #haripahlawanindonesia 1,4 jt, #happyfathersday 4,0 jt. Daftar 20 hashtag tren hari ini berurutan: #hariayah, #haripahlawan, #hariayahnasional, #selamathariayah, #10november, #wakilpresiden, #stormarena, #wapres, #haripahlawanindonesia, #happyfathersday, #fathersday, #gibranrakabuming, #gibran, #wapresgibran, #pahlawan, #gibranmundur, #neverland, #kirang, #kisinan2, #korbanjanji. Lima tagar Hari Ayah masuk 20 besar dan tiga di antaranya masuk 10 video teratas. Tidak ada satu pun tagar kuliner, tagar jalan-jalan, atau tagar lokal Palembang di daftar ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:01:00+07:00",
+   "metrics": {
+    "hashtags_listed": 20,
+    "top_trend_rank_1": "#hariayah",
+    "hari_ayah_tags_in_top20": 5,
+    "culinary_tags_in_list": 0,
+    "palembang_tags_in_list": 0
+   }
+  },
+  {
+   "url": "https://lagitren.id/tiktok/hariayah",
+   "title": "#hariayah — kenapa viral? | Lagi Tren",
+   "evidence": "Dibaca 16 November 2026 pukul 08:03 WIB, halaman bertanda 'Diperbarui 16 Nov, 07.17 WIB'. Penjelasan halaman: #hariayah sedang viral di TikTok Indonesia karena memperingati Hari Ayah Nasional yang jatuh pada 12 November; lonjakan konten menunjukkan pengguna berbagi momen dan pesan untuk ayah, mulai dari ucapan personal, twibbon digital, sampai pembahasan peran ayah dalam keluarga. Halaman juga mencantumkan empat berita terkait: khutbah Jumat Hari Ayah (NU Online), studi Universitas Negeri Malang soal dampak fatherless, ucapan Presiden Prabowo (Kompas.com), dan 10 twibbon Hari Ayah 12 November 2026 (detikcom). Artinya tagar ini masih berjalan empat hari setelah tanggal perayaannya, bukan perayaan hari ini.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:03:00+07:00",
+   "metrics": {
+    "holiday_date": "2026-11-12",
+    "days_after_holiday": 4,
+    "related_news_links_listed": 4
+   }
+  },
+  {
+   "url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+   "title": "Prakiraan Cuaca Kota Palembang - BMKG",
+   "evidence": "Dibaca 16 November 2026 pukul 08:02 WIB. Kolom pertama tabel adalah Mon, 16 Nov. Dari 18 kecamatan yang tercantum, 12 diprakirakan 'Hujan Petir' hari ini (Ilir Barat Dua, Seberang Ulu Satu, Ilir Barat Satu, Ilir Timur Satu, Ilir Timur Dua, Sukarami, Sako, Kemuning, Bukitkecil, Gandus, Alang-alang Lebar, Ilir Timur Tiga) dan 6 diprakirakan 'Hujan Ringan' (Seberang Ulu Dua, Kalidoni, Kertapati, Plaju, Sematangborang, Jakabaring). Suhu 25-35 derajat Celsius untuk 17 kecamatan dan 25-34 derajat Celsius untuk Sematangborang, kelembapan 77-99 persen. Kolom berikutnya (Tue, 17 Nov) seluruhnya Hujan Ringan 24-33 derajat Celsius. Ini prakiraan resmi BMKG, bukan asumsi atau pengamatan.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:02:00+07:00",
+   "metrics": {
+    "forecast_date": "2026-11-16",
+    "kecamatan_total": 18,
+    "kecamatan_hujan_petir": 12,
+    "kecamatan_hujan_ringan": 6,
+    "temperature_range_c": "25-35",
+    "humidity_range_percent": "77-99"
+   }
+  },
+  {
+   "url": "https://www.detik.com/sumbagsel/berita/d-8754093/aksi-heroik-pemuda-di-palembang-selamatkan-anak-6-tahun-jatuh-ke-drainase",
+   "title": "Aksi Heroik Pemuda di Palembang Selamatkan Anak 6 Tahun Jatuh ke Drainase - detikSumbagsel",
+   "evidence": "Dibaca 16 November 2026 pukul 08:04 WIB. Meta halaman: og:title 'Aksi Heroik Pemuda di Palembang Selamatkan Anak 6 Tahun Jatuh ke Drainase', pubdate 2026-11-15T17-30-00Z, deskripsi 'Rizky, pemuda di Palembang, viral setelah menyelamatkan Kia, bocah enam tahun yang jatuh ke drainase. Aksinya heroik menyentuh banyak hati.' Isi artikel: peristiwa terjadi di Jalan Puncak Sekuning, Lorong Swadaya, Kelurahan Lorok Pakjo, Kecamatan Ilir Barat 1, Palembang, Sabtu (14/11/2026) sore; bocah bernama Kia terpeleset dari pinggir jembatan ke aliran drainase yang deras setelah hujan; Rizky yang hendak berangkat kerja langsung menceburkan diri, mendengar suara tangisan di bawah jembatan, meraba dalam gelap, dan menemukan korban berpegangan pada pipa dengan celah untuk bernapas; butuh dua kali percobaan untuk keluar; korban diperkirakan berada di bawah jembatan kurang lebih tujuh menit. Rizky menyebut ini aksi penyelamatan keempat yang pernah dilakukannya karena ia sendiri pernah hampir terseret arus waktu kecil.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:04:00+07:00",
+   "metrics": {
+    "event_date": "2026-11-14",
+    "location": "Jalan Puncak Sekuning, Lorong Swadaya, Kelurahan Lorok Pakjo, Kecamatan Ilir Barat 1",
+    "victim_age": 6,
+    "rescuer_name": "Rizky",
+    "time_under_bridge": "kurang lebih 7 menit",
+    "evacuation_attempts": 2
+   }
+  },
+  {
+   "url": "https://sumsel.tribunnews.com/tag/palembang",
+   "title": "Berita Palembang Terbaru Hari Ini - Tribun Sumsel (tag Palembang)",
+   "evidence": "Dibaca 16 November 2026 pukul 08:04 WIB, header halaman 'Senin, 16 November 2026'. Yang terbaca hanya judul dan deskripsi karena isi artikel dimuat lewat JavaScript. Tiga entri teratas: 'Detik-detik Menegangkan Pemuda di Palembang Tolong Bocah Jatuh di Drainase, Ditawari Kerja Ratu Dewa' (10 jam lalu, deskripsi: tawaran disampaikan Wali Kota saat mengunjungi Rizky pada Minggu (15/11/2026) sore), 'Sosok Rizky, Selamatkan Bocah Jatuh di Drainase, Ditawari Kerja di Damkar Palembang, Asli Pagar Alam' (12 jam lalu, deskripsi: sehari-hari Rizky bekerja di kedai sate taichan dan tinggal bersama neneknya), dan 'Selamatkan Bocah yang Jatuh di Drainase, Rizky Kini Ditawari Ratu Dewa Kerja di Damkar Palembang' (13 jam lalu). Entri lain di halaman yang sama: 'Info Mati Air PDAM Tirta Musi Palembang Hari Ini Minggu 15 November 2026, Ada Kebocoran Pipa' (21 jam lalu) dan 'Harga Emas Antam di Palembang Stagnan Hari Ini Minggu 15 November 2026, Bertahan Rp2,517 Juta/gram' (22 jam lalu). Halaman ini dipakai sebagai konfirmasi pihak ketiga atas tawaran kerja Damkar, bukan sebagai sumber kutipan.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:04:00+07:00",
+   "metrics": {
+    "body_paragraphs_read": 0,
+    "page_date_header": "2026-11-16",
+    "damkar_job_offer_confirmed": true
+   }
+  },
+  {
+   "url": "https://sumsel.antaranews.com/berita/828311/kendalikan-inflasi-disdag-palembang-gelar-operasi-pasar-murah",
+   "title": "Kendalikan inflasi, Disdag Palembang gelar Operasi Pasar murah - ANTARA News Sumatera Selatan",
+   "evidence": "Terbit Jumat 13 November 2026 pukul 19:54 WIB, dibaca 16 November 2026. Disdag Kota Palembang menggelar operasi pasar murah di dua zona, Jalan Tanjung Barangan dan Tanjung Aur, Kecamatan Ilir Barat I, pada Jumat (13/11). Kepala Bidang Stabilisasi dan Sarana Distribusi Perdagangan Disdag Palembang Elsa Noviani menyebut tujuan kegiatan adalah mengendalikan inflasi daerah sekaligus menjaga stabilitas harga dan ketersediaan bahan pokok; barang disediakan bersama Perum Bulog dan PT Perusahaan Perdagangan Indonesia. Harga yang disebut artikel: beras SPHP kemasan 5 kg Rp57.000, Minyakita Rp15.500 per liter, telur ayam ras Rp23.000 per kg, ditambah tepung terigu, sagu, sayur mayur, dan makanan olahan. Beras SPHP yang disiapkan 2 ton dan Minyakita 1.200 liter. Artikel tidak menyebut jumlah pembeli, tanggal operasi pasar berikutnya, atau harga pasar pembanding.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:05:00+07:00",
+   "published_at": "2026-11-13T19:54:00+07:00",
+   "metrics": {
+    "event_date": "2026-11-13",
+    "beras_sphp_5kg": "Rp57.000",
+    "minyakita_per_liter": "Rp15.500",
+    "telur_ayam_ras_per_kg": "Rp23.000",
+    "beras_sphp_stock": "2 ton",
+    "minyakita_stock": "1.200 liter"
+   }
+  },
+  {
+   "url": "https://sumsel.antaranews.com/berita/828403/polda-sumsel-salurkan-1000-paket-sembako-kepada-warga-palembang",
+   "title": "Polda Sumsel salurkan 1.000 paket sembako kepada warga Palembang - ANTARA News Sumatera Selatan",
+   "evidence": "Terbit Minggu 15 November 2026 pukul 09:19 WIB, dibaca 16 November 2026. Polda Sumsel menyalurkan 1.000 paket sembako di Masjid Al-Hidayah, Jalan Tangga Takat, Kecamatan Seberang Ulu II, Kota Palembang. Kapolda Sumsel Irjen Pol Rony Samtana menyebut bantuan itu sebagai bentuk kepedulian dan upaya meringankan beban pemenuhan kebutuhan pokok warga, sekaligus berdialog menyerap aspirasi soal keamanan dan ketertiban. Kabid Humas Polda Sumsel Kombes Pol Nandang Mu'min Wijaya menyebut kegiatan sosial ini bagian dari komitmen meningkatkan kepercayaan masyarakat. Artikel menyebut hari penyaluran sebagai 'Sabtu' tanpa tanggal eksplisit di badan berita; tanggal terbit halaman adalah Minggu 15 November 2026. Artikel tidak menyebut isi paket atau jumlah penerima per kelurahan.",
+   "verification_status": "source_read",
+   "observed_at": "2026-11-16T08:05:00+07:00",
+   "published_at": "2026-11-15T09:19:00+07:00",
+   "metrics": {
+    "packages": 1000,
+    "location": "Masjid Al-Hidayah, Jalan Tangga Takat, Seberang Ulu II"
+   }
+  }
+ ],
+ "topic_candidates": [
+  {
+   "code": "A",
+   "title": "Drainase Palembang Jadi Sorotan: Bocah 6 Tahun Selamat, Hujan Petir Hari Ini di 12 Kecamatan",
+   "pillar": "Daily Vlog Palembang",
+   "hook": "Hujan petir diprakirakan di 12 dari 18 kecamatan Kota Palembang hari ini, dan kejadian bocah jatuh ke drainase di Lorok Pakjo akhir pekan lalu bikin warga lebih hati-hati.",
+   "shots": [
+    "Shot 1 (9s): Dinda berdiri di pinggir jalan dekat saluran air sambil memakai cardigan taupe, menyebut BMKG memprakirakan hujan petir di 12 dari 18 kecamatan Palembang hari ini dengan suhu 25 sampai 35 derajat Celsius, jadi jalanan bakal licin dan saluran air cepat penuh.",
+    "Shot 2 (9s): Dinda menunjuk saluran air di pinggir jalan dan berjalan menjauh dari bibir saluran, menyebut kejadian di Lorok Pakjo Sabtu sore jadi pengingat untuk menjauhkan anak dari saluran air saat hujan, lalu bertanya apa saja yang biasa disiapkan warga sebelum hujan turun."
+   ],
+   "sound": "Ambience jalan basah dan rintik hujan ringan tanpa vokal",
+   "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+   "caption": "BMKG memprakirakan hujan petir di 12 dari 18 kecamatan Palembang hari ini dengan suhu 25 sampai 35 derajat. Sabtu sore di Lorok Pakjo seorang bocah 6 tahun sempat terbawa arus drainase sebelum diselamatkan warga. Kalau hujan deras begini kalian biasanya tunda jalan keluar atau tetap berangkat? #hujanpalembang #palembang #drainase #wargapalembang #dailyvlog",
+   "sources": [
+    "https://www.detik.com/sumbagsel/berita/d-8754093/aksi-heroik-pemuda-di-palembang-selamatkan-anak-6-tahun-jatuh-ke-drainase",
+    "https://sumsel.tribunnews.com/tag/palembang",
+    "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 9.0,
+    "local_relevance": 10.0,
+    "format_fit": 7.0,
+    "evidence_strength": 9.0,
+    "risk_safety": 7.0
+   },
+   "why": "Ini satu-satunya berita Palembang yang benar-benar meledak dalam 24 jam terakhir: detikSumbagsel memuat kisah penyelamatan lengkap dengan lokasi, kronologi, dan durasi korban di bawah jembatan, sementara Tribun Sumsel menambah informasi bahwa Wali Kota Ratu Dewa menjenguk Rizky Minggu sore dan menawarinya kerja di Damkar Palembang. Digabung dengan prakiraan resmi BMKG yang menaikkan hujan petir ke 12 kecamatan hari ini, topiknya relevan langsung pagi ini dan sangat lokal, sementara daftar tren TikTok nasional pagi ini tidak punya satu pun tagar Palembang sehingga ceruknya kosong. Kelemahannya jelas: topik ini berita, bukan kuliner atau jalan-jalan, jadi tidak sepenuhnya nyambung dengan pilar feed Dinda, dan menyangkut anak enam tahun sehingga videonya harus fokus ke keselamatan serta menjauhkan diri dari mengeksploitasi korban.",
+   "claim_note": "Yang boleh diklaim hanya ini: prakiraan BMKG 12 dari 18 kecamatan hujan petir, suhu 25-35 derajat, kejadian Sabtu 14 November sore di Jalan Puncak Sekuning Lorong Swadaya Lorok Pakjo Ilir Barat 1, korban bocah 6 tahun, dan tawaran kerja Damkar dari Wali Kota Ratu Dewa. Nama korban, wajah, alamat detail, dan nomor apa pun tidak dipakai; jumlah penonton atau klaim 'paling viral' tidak disebut karena tidak ada angkanya."
+  },
+  {
+   "code": "B",
+   "title": "Hari Ayah Masih Ramai di TikTok: Jajan Bareng Ayah Versi Palembang",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Tagar Hari Ayah masih menempati lima posisi di 20 besar tren TikTok pagi ini, jadi momennya pas untuk bahas makanan yang paling sering jadi alasan jajan bareng ayah.",
+   "shots": [
+    "Shot 1 (9s): Dinda duduk di bangku warung pempek, menunjuk piring pempek di depannya sambil menyebut tagar Hari Ayah masih ramai di TikTok hari ini meski perayaannya 12 November, dan banyak kontennya soal momen sederhana bareng ayah.",
+    "Shot 2 (9s): Dinda menyuap kapal selam dan tersenyum, lalu menyebut di Palembang alasan paling gampang mengajak ayah keluar rumah ya cari pempek atau tekwan, dan bertanya makanan apa yang jadi tradisi bareng ayah di rumah penonton."
+   ],
+   "sound": "Musik akustik hangat dengan ambience warung",
+   "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+   "caption": "Lima tagar Hari Ayah masih nangkring di 20 besar tren TikTok hari ini, padahal perayaannya sudah lewat 12 November. Di Palembang alasan paling gampang mengajak ayah keluar rumah ya cari pempek atau tekwan. Makanan apa yang jadi tradisi bareng ayah di rumah kalian? #hariayah #pempek #palembang #kulinerpalembang #makanbareng",
+   "sources": [
+    "https://lagitren.id/tiktok",
+    "https://lagitren.id/tiktok/hariayah"
+   ],
+   "factors": {
+    "momentum": 9.5,
+    "local_relevance": 6.5,
+    "format_fit": 8.5,
+    "evidence_strength": 8.0,
+    "risk_safety": 9.5
+   },
+   "why": "Momentum paling kuat hari ini: #hariayah dan #selamathariayah masing-masing 8,4 juta video, ditambah #hariayahnasional, #happyfathersday, dan #fathersday, jadi lima dari dua puluh tren adalah soal ayah. Formatnya juga paling gampang dieksekusi dalam 20 detik karena cukup satu piring pempek dan satu pertanyaan ke penonton, tanpa risiko menyentuh isu sensitif. Kelemahannya, trennya nasional dan sudah empat hari lewat dari Hari Ayah Nasional 12 November, jadi tidak ada kaitan langsung dengan Palembang selain makanan yang dipakai sebagai jembatan.",
+   "claim_note": "Angka 8,4 juta video dan posisi lima tagar Hari Ayah di 20 besar adalah tangkapan halaman lagitren.id 16 November 2026 pukul 07.17 WIB. Tanggal Hari Ayah Nasional 12 November diambil dari halaman penjelas lagitren. Tidak ada klaim bahwa hari ini Hari Ayah, dan tidak ada data penjualan atau jumlah warung yang disebut."
+  },
+  {
+   "code": "C",
+   "title": "Pasar Murah Disdag Palembang: Beras SPHP Rp57 Ribu per 5 Kg, Minyakita Rp15.500 per Liter",
+   "pillar": "Kuliner Khas Palembang",
+   "hook": "Disdag Palembang sudah buka pasar murah di Tanjung Barangan dan Tanjung Aur dengan beras SPHP Rp57 ribu per 5 kg, Minyakita Rp15.500 per liter, dan telur Rp23 ribu per kg.",
+   "shots": [
+    "Shot 1 (9s): Dinda berdiri memegang karung beras 5 kg, menyebut Disdag Palembang menggelar operasi pasar murah di Jalan Tanjung Barangan dan Tanjung Aur dengan beras SPHP Rp57 ribu per 5 kg serta Minyakita Rp15.500 per liter.",
+    "Shot 2 (9s): Dinda menaruh telur ke keranjang dan menyebut harga telur ayam ras di pasar murah Rp23 ribu per kg, lalu bertanya bahan pokok apa yang paling cepat habis di rumah penonton."
+   ],
+   "sound": "Ambience pasar pagi dengan musik ringan",
+   "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+   "caption": "Disdag Palembang buka pasar murah di Tanjung Barangan dan Tanjung Aur dengan beras SPHP Rp57 ribu per 5 kg, Minyakita Rp15.500 per liter, dan telur Rp23 ribu per kg. Bahan pokok apa yang paling cepat habis di rumah kalian? #pasarmurah #palembang #hargapangan #sembako #kulinerpalembang",
+   "sources": [
+    "https://sumsel.antaranews.com/berita/828311/kendalikan-inflasi-disdag-palembang-gelar-operasi-pasar-murah",
+    "https://sumsel.antaranews.com/berita/828403/polda-sumsel-salurkan-1000-paket-sembako-kepada-warga-palembang",
+    "https://lagitren.id/tiktok"
+   ],
+   "factors": {
+    "momentum": 7.5,
+    "local_relevance": 9.5,
+    "format_fit": 8.5,
+    "evidence_strength": 9.0,
+    "risk_safety": 9.0
+   },
+   "why": "Angkanya paling konkret dan bisa diverifikasi: beras SPHP 5 kg Rp57.000, Minyakita Rp15.500 per liter, telur Rp23.000 per kg, plus stok 2 ton beras dan 1.200 liter Minyakita, dari ANTARA Sumsel 13 November. Ada juga penguat bahwa tema sembako masih hidup di Palembang lewat penyaluran 1.000 paket sembako Polda Sumsel pada 15 November. Tetapi tema harga pangan sudah dipakai untuk slot 12 November (cabai) dan 13 November (beras SPHP), jadi kebaruannya lemah dan berisiko terasa mengulang feed yang sama.",
+   "claim_note": "Semua harga, jumlah stok, dan lokasi diambil persis dari ANTARA Sumsel 13 November 2026. Artikel tidak menyebut jadwal operasi pasar berikutnya, jadi caption tidak boleh mengajak penonton datang pada tanggal tertentu. Tidak ada klaim harga pasar pembanding karena artikel tidak memuatnya."
+  }
+ ]
+}
