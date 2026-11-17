@@ -1,0 +1,65 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "keseharian perempuan Palembang dan kegiatan santai pekarangan rumah",
+    "solusi praktis peralatan rumah dan kebun keluarga"
+  ],
+  "role_reason": "Slot kedua Dinda hari ini membawa produk resmi PT Intan Suar Kartika yaitu Kereta Sorong Five Star dengan pendekatan soft-selling. Cerita berfokus pada kegiatan nyata membantu orang tua di pekarangan rumah Palembang, menonjolkan ringannya dorongan gerobak merah plat tebal tanpa hard-selling.",
+  "title": "Bantu Abah Beres-Beres Pekarangan Rumah",
+  "hook": "Rencana nak leleha di kamar, dak tau nyo Abah manggil dari depan rumah mintak tolong mindahin pot-pot bunga.",
+  "story": "Dinda memakai cardigan rajut santai dan pashmina rapi di halaman rumah Palembang pada siang cerah berawan. Di depannya ada kereta sorong Five Star merah plat tebal berisi beberapa pot tanaman hias dan tanah timbunan. Ia memegang kedua gagang gerobak, tersenyum ke kamera, dan bercerita santai dengan logat Palembang bahwa niat hati ingin rebahan tapi disuruh Abah beres-beres halaman. Ia mendorong gerobak sedikit ke depan dengan mudah, lalu menatap penonton dan bertanya kalau hari libur biasanya disuruh apa sama orang tua.",
+  "caption": "Disuruh Abah angkut pot bunga dan tanah timbunan di pekarangan rumah, untung gerobak merah dari @intansuarkartika ini enteng nian didorong. Kalian kalau hari libur suko disuruh apo samo wong tuo?\n#kegiatandirumah #palembang #dindalifestyle #keretasorong #fivestar #intansuarkartika",
+  "image_prompt": "Aset master terverifikasi Dinda: _Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg (wajah) dan master_fullbody.png (outfit cardigan rajut). Properti: Kereta sorong plat baja merah Five Star.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_5144187e",
+    "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [12],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 30,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match face shape, nose, eyebrows, eyes, skin tone and apparent age exactly), image two is her full-body reference for OUTFIT (taupe striped knit cardigan, cream high-waisted palazzo trousers, beige pashmina hijab). Vertical 9:16, 12 seconds, medium shot waist-up at eye level with slight natural handheld sway. Location: sunny front yard garden of a traditional wooden house in Palembang, green potted plants and stone pathway in background. PROP CONTINUITY: A bright red glossy steel wheelbarrow with thick rolled rim and black rubber tire, loaded with three potted green plants and clean garden tools. At 0.0s Dinda is already standing holding the black rubber grips of the red wheelbarrow with a playful smile. She speaks directly to the camera in natural conversational Indonesian with a soft Palembang cadence: she pushes the red wheelbarrow forward smoothly with ease, rests it on the pathway, wipes her forehead with her hand playfully, and asks the viewers what chores their parents usually ask them to do on days off. Natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Clean frame: no on-screen text, no subtitles, no watermark, no logo.",
+      "dialogue": "Rencana nak leleha di kamar dak tau nyo Abah manggil dari depan rumah mintak tolong mindahin pot-pot bungonyo. Untung ado gerobak merah andalan Abah ini sekali dorong langsung muat galo. Kalau dak katek ini la patah pinggang Dinda ngangkat sikok-sikok. Kalian kalau hari libur di rumah suko disuruh apo samo wong tuo?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.4,
+      "action_end_seconds": 11.8
+    }
+  ],
+  "pinned_comment": "Banyak yang salfok gerobak merahnya kok mulus dan kokoh nian, itu gerobak Five Star dari pabrik @intansuarkartika ya kawan-kawan. Asli tahan banting buat urusan rumah dan kebun.",
+  "brand_interaction": {
+    "account": "@intansuarkartika",
+    "comment_text": "Salam hormat buat Abah ya Kak Dinda! Gerobak Five Star-nya memang enteng didorong tapi platnya baja tebal, awet buat bertahun-tahun 🚜"
+  },
+  "trend_sources": [
+    {
+      "url": "https://mojok.co/terminal/rutinitas-anak-perempuan-saat-libur-di-rumah/",
+      "title": "Rutinitas Anak Perempuan Saat Libur di Rumah",
+      "observed_at": "2026-11-17T09:30:00+07:00",
+      "evidence": "Aktivitas bebenah pekarangan dan membantu orang tua memindahkan pot tanaman menjadi konten relatable bertema keluarga yang ramai dibicarakan di media sosial."
+    },
+    {
+      "url": "https://sumsel.antaranews.com/berita/303912/gaya-hidup-pekarangan-hijau-warga-kota-palembang",
+      "title": "Gaya Hidup Pekarangan Hijau Warga Kota Palembang",
+      "observed_at": "2026-11-17T09:32:00+07:00",
+      "evidence": "Masyarakat urban Palembang gemar menata taman depan rumah dan berkebun tanaman hias memanfaatkan perabot taman yang ringkas dan kuat."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Konsep soft-selling naratif bertema keluarga dan pekarangan rumah Palembang, mengintegrasikan Kereta Sorong Five Star PT Intan Suar Kartika secara organik."
+}
