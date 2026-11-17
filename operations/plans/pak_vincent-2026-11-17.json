@@ -1,0 +1,65 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "perjuangan motor langsir 400 kg melibas jalur lumpur poros tanah merah dan solidaritas pekerja kebun Riau",
+    "solusi praktis mandor dan toko bangunan (pagar kebun tahan karat, kereta sorong medan berat)"
+  ],
+  "role_reason": "Slot kedua Pak Vincent hari ini membawa produk resmi PT Intan Suar Kartika yaitu Kereta Sorong Five Star dengan pendekatan soft-selling. Cerita berfokus pada pengalaman nyata melangsir pupuk di jalur tanah becek merah kebun sawit Riau, menonjolkan kestabilan rangka dan as roda gerobak plat tebal tanpa hard-selling.",
+  "title": "Langsir Pupuk di Jalur Tanah Becek Kebun Sawit",
+  "hook": "Langsir pupuk di jalan becek macam ini kalau sorongannya kaleng-kaleng bisa patah as roda di tengah jalan.",
+  "story": "Pak Vincent berdiri di tepi jalan poros tanah merah basah kebun sawit Riau sambil memegang dua gagang karet hitam kereta sorong Five Star plat baja merah tebal berisi dua karung pupuk. Ia bicara ramah dan bersahaja khas Riau menceritakan betapa pentingnya gerobak kokoh saat musim hujan agar tidak oleng di lumpur. Ia mengangkat sedikit gagang untuk memperlihatkan keseimbangan gerobak lalu bertanya santai ke kawan-kawan pekebun biasa langsir pakai apa di kebun masing-masing.",
+  "caption": "Langsir karung di jalan tanah basah macam ini kalau gerobaknya gak kokoh bisa oleng kawan. Untung gerobak merah Five Star dari @intansuarkartika ini as rodanya mantap diajak kerja keras. Kawan-kawan di kebun biasa langsir pakai apa?\n#kebunsawit #langsirpupuk #petanisawit #riau #keretasorong #intansuarkartika",
+  "image_prompt": "Aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah) dan pakvincent_fullbody_turnaround.jpg (postur dan jersey bola biru Chelsea). Properti: Kereta sorong plat baja merah Five Star.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [15],
+    "duration_chosen_seconds": 15,
+    "estimated_credits_displayed": 60,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of Pak Vincent, the exact same Indonesian man shown in all attached reference images: image one is the character reference sheet for FACE IDENTITY (match face shape, nose, eyebrows, eyes, skin tone, thin mustache, weathered skin with fine pores, lean wiry build, apparent age 35, calm modest expression), image two is his full-body turnaround for OUTFIT (vintage royal blue Samsung Chelsea football jersey, dark shorts, dark baseball cap, rubber work sandals). Output exactly ONE man in ONE continuous shot, never a collage or split screen. Vertical 9:16, 15 seconds, medium shot waist-up at eye level with very slight natural handheld sway. Location: wet reddish-brown mud road beside an oil palm plantation in Riau under soft natural overcast daylight, palm tree trunks softly blurred in background. PROP CONTINUITY: A heavy-duty bright red glossy steel wheelbarrow with thick rolled rim, black rubber handlebar grips, and a thick black tractor-tread tire. Two brown burlap sacks are resting inside the red tray. From 0.0s until the final frame Pak Vincent stands holding the black rubber grips of the red wheelbarrow. At 0.0s he is already smiling warmly at the camera. He speaks in natural friendly Indonesian with a warm Riau tone: he lifts the wheelbarrow slightly to show its solid balance in the wet mud road, then sets it down steadily, wipes his brow with the back of his forearm while keeping one hand on the handle, looks straight into the lens with a modest smile and asks kawan-kawan how they haul fertilizer in their blocks. Shot on smartphone vlog camera, natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Clean frame: no on-screen text, no subtitles, no watermark, no logo.",
+      "dialogue": "Langsir pupuk di jalan becek macam ini kalau sorongannya kaleng-kaleng bisa patah as roda di tengah jalan. Untung gerobak merah Five Star ini rangkanya padat diajak banting di lumpur pun tetap tegak. Kawan-kawan di kebun biasa langsir pakai apa?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 12.8,
+      "action_end_seconds": 14.8
+    }
+  ],
+  "pinned_comment": "Banyak kawan-kawan pekebun yang nanya gerobak merahnya tahan karat atau gak, itu gerobak Five Star plat tebal dari pabrik @intansuarkartika kawan-kawan, mantap betul buat jalur lumpur.",
+  "brand_interaction": {
+    "account": "@intansuarkartika",
+    "comment_text": "Semangat terus langsirnya Pak Vincent! As roda dan ban Five Star memang kita rancang khusus buat jalur tanah merah Sumatera 💪"
+  },
+  "trend_sources": [
+    {
+      "url": "https://sawitindonesia.com/tantangan-melangsir-tbs-dan-pupuk-di-musim-hujan/",
+      "title": "Tantangan Melangsir TBS dan Pupuk di Musim Hujan",
+      "observed_at": "2026-11-17T09:30:00+07:00",
+      "evidence": "Jalur tanah poros kebun sawit saat curah hujan tinggi menjadi licin dan bergelombang, memerlukan angkutan langsir yang kokoh dan tidak mudah oleng."
+    },
+    {
+      "url": "https://riau.antaranews.com/berita/348212/infrastruktur-jalan-kebun-sawit-riau-menghadapi-musim-penghujan",
+      "title": "Infrastruktur Jalan Kebun Sawit Riau Menghadapi Musim Penghujan",
+      "observed_at": "2026-11-17T09:32:00+07:00",
+      "evidence": "Petani kelapa sawit swadaya di Riau mengandalkan alat angkut dorong manual dan gerobak plat kokoh untuk memobilisasi pupuk saat jalan poros tergenang air."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Konsep soft-selling naratif bertema langsir kebun sawit, mengintegrasikan Kereta Sorong Five Star PT Intan Suar Kartika secara organik."
+}
