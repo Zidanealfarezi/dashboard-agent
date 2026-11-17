@@ -1,0 +1,65 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "efisiensi biaya kebun dan pupuk mahal (jarak tabur piringan 1.5 meter, pemupukan musim trek, perawatan piringan)",
+    "solusi praktis mandor dan toko bangunan (pagar kebun tahan karat, kereta sorong medan berat)"
+  ],
+  "role_reason": "Slot ketiga Pak Vincent hari ini membawa produk resmi PT Intan Suar Kartika yaitu Kawat Duri Diamond dengan pendekatan soft-selling. Cerita berfokus pada ketenangan pekebun sawit saat beristirahat ngopi di pondok kebun setelah tanaman sawit muda aman dipagar dari gangguan hewan ternak dan babi hutan tanpa hard-selling.",
+  "title": "Ngopi Tenang di Pondok Kebun Sawit yang Terpagar Rapi",
+  "hook": "Duduk santai dulu kawan-kawan ngopi tipis-tipis, kemarin sempat pusing tanaman muda sering diinjak sapi liar.",
+  "story": "Pak Vincent duduk di bangku kayu depan pondok kebun sawit Riau sambil memegang cangkir kopi seng jadul. Di latar belakang beberapa meter di belakangnya terlihat pagar kawat duri Diamond lilitan rapi galvanis mengkilap membatasi pekarangan kebun sawit muda dengan semak belukar. Pak Vincent tersenyum hangat, menyeruput kopi, dan bercerita ramah bahwa sejak pagar kawat duri dipasang, kebunnya aman dan tidur pun jadi tenang. Di akhir video ia mengacungkan jempol bersahaja dan mendoakan kesehatan kawan-kawan sesama petani sawit.",
+  "caption": "Duduk santai dulu kawan ngopi tipis-tipis di pondok. Alhamdulillah kebun sawit muda sekarang aman dari sapi liar semenjak dipagar kawat duri dari @intansuarkartika ini. Sehat selalu ya kawan-kawan.\n#petanisawit #kebunsawit #riau #kawatduri #pagarkebun #intansuarkartika",
+  "image_prompt": "Aset master terverifikasi Pak Vincent: pakvincent_three_expression_sheet.jpg (wajah) dan pakvincent_fullbody_turnaround.jpg (jersey bola biru Chelsea dan topi gelap). Properti: Cangkir kopi seng dan pagar kawat duri galvanis Diamond.",
+  "outfit": {
+    "wardrobe_id": "outfit_pakvincent_chelsea_sawit",
+    "name": "Vintage Blue Samsung Chelsea Jersey & Dark Shorts",
+    "category": "plantation_workwear",
+    "source": "character_profile (Pak Vincent signature outfit)"
+  },
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [15],
+    "duration_chosen_seconds": 15,
+    "estimated_credits_displayed": 60,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same Indonesian oil palm plantation farmer shown in all attached reference images: image one is the character reference sheet for FACE IDENTITY (match face shape, nose, eyebrows, eyes, skin tone, thin mustache, weathered skin with fine pores, lean wiry build, apparent age 35, calm modest expression), image two is his full-body turnaround for OUTFIT (royal blue vintage sports jersey with white lettering, dark shorts, dark baseball cap, rubber work sandals). Output exactly ONE man in ONE continuous shot, never a collage or split screen. Vertical 9:16, 15 seconds, medium shot waist-up at eye level with slight natural handheld sway. Location: simple wooden porch bench of a small plantation hut beside an oil palm grove in Riau under soft late-afternoon natural overcast daylight. PROP CONTINUITY: A vintage speckled enamel coffee mug held in his right hand. About three meters behind him, a clean boundary fence with wooden fence posts and tight strands of silver galvanized barbed wire is clearly visible running across the background. From 0.0s until the final frame he sits comfortably on the rustic wooden bench holding the warm enamel mug. At 0.0s he is smiling warmly into the camera, takes a gentle sip from the mug, lowers it to chest height, and speaks in friendly Indonesian with a warm Riau cadence about how peaceful it is when young palm seedlings are safe from stray livestock thanks to the sturdy barbed wire fence. At second 12 he gives a modest two-finger peace sign with his left hand while holding the mug in his right, smiling warmly. Shot on smartphone vlog camera, natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Clean frame: no on-screen text, no subtitles, no watermark, no logo.",
+      "dialogue": "Duduk santai dulu kawan-kawan ngopi tipis-tipis. Kemarin sempat pusing tanaman muda sering diinjak sapi liar yang lepas dari kampung sebelah. Untung tempo hari sempat kita kelilingi pakai kawat duri lilitan rapat ini. Sekarang aman sapi lewat cuma mandang-mandang aja dari parit. Kalau kebun aman tidur pun kita tenang.",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 12.8,
+      "action_end_seconds": 14.8
+    }
+  ],
+  "pinned_comment": "Kawan-kawan pekebun yang nanya kawat duri galvanis anti karat yang kita pasang di pagar ini, itu kawat duri Diamond dari pabrik @intansuarkartika ya kawan-kawan, lilitannya rapi dan gak gampang kendur.",
+  "brand_interaction": {
+    "account": "@intansuarkartika",
+    "comment_text": "Alhamdulillah ikut senang kebunnya aman Pak Vincent! Lapisan galvanis tebal kawat duri Diamond memang kita buat tahan cuaca lembap kebun sawit ☕"
+  },
+  "trend_sources": [
+    {
+      "url": "https://sawitplus.co/berita/tips-pengamanan-tanaman-kelapa-sawit-muda-tbm-dari-hama-ternak",
+      "title": "Tips Pengamanan Tanaman Kelapa Sawit Muda (TBM) dari Hama Ternak",
+      "observed_at": "2026-11-17T09:30:00+07:00",
+      "evidence": "Fase Tanaman Belum Menghasilkan (TBM) sangat rentan terhadap gangguan ternak sapi dan babi liar, sehingga pemagaran perimeter dengan kawat duri galvanis menjadi investasi proteksi utama petani."
+    },
+    {
+      "url": "https://riaupos.jawapos.com/pertanian/14/09/2023/solusi-pagar-kebun-sawit-petani-swadaya.html",
+      "title": "Solusi Pagar Kebun Sawit Petani Swadaya - Riau Pos",
+      "observed_at": "2026-11-17T09:32:00+07:00",
+      "evidence": "Kawat duri galvanis tahan karat menjadi pilihan favorit pekebun Riau untuk membatasi parit kebun dan jalan poros desa agar aman jangka panjang."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Konsep soft-selling naratif bertema waktu santai pekebun sawit, mengintegrasikan Kawat Duri Diamond PT Intan Suar Kartika secara organik."
+}
