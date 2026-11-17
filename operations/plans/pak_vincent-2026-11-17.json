@@ -21,12 +21,12 @@
   },
   "flow": {
     "model": "Omni 1.2 Flash",
-    "resolution": "720p",
+    "resolution": "360p",
     "aspect_ratio": "9:16",
     "outputs": 1,
     "duration_options_seconds": [15],
     "duration_chosen_seconds": 15,
-    "estimated_credits_displayed": 60,
+    "estimated_credits_displayed": 20,
     "references_attached": 3
   },
   "shots": [
