@@ -1,0 +1,79 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "perdebatan sekte kuliner dan tradisi lokal Palembang (hirup cuko mangkok vs sendok, kuah kental vs pedas)"
+  ],
+  "role_reason": "Topik perdebatan sekte kuliner terpilih hari ini (skor 9,74) dan sudah terverifikasi empat sumber berbeda: mojok.co menulis wong Palembang memakai mangkok seukuran satu pempek lalu meminum cuko lewat bibir mangkok sementara orang di luar Palembang menghirup dari piring, Wikipedia bahasa Indonesia menyebut cara baku mangkuk kecil lalu diseruput atau ngirup, ANTARA Sumsel mencatat istilah ngirop cuko, dan detikFood justru mencontohkan gaya disiram di piring. Ini pilar pertama profil Dinda dan belum pernah dipakai pada rencana 16-17 November sebelumnya (pempek baru muncul sebagai sebutan harga cuko pada 12 November dan sebagai konteks Hari Ayah pada 16 November). Format dua kubu hanya butuh satu mangkok, satu piring, dan satu sendok sehingga muat dalam satu klip 12 detik tanpa properti tambahan, dan pertanyaan tim mangkok vs tim sendok memancing komentar.",
+  "title": "Debat Wong Kito: Cuko Dihirup dari Mangkok atau Disiram Pakai Sendok?",
+  "hook": "Wong Palembang ni dak pernah makan pempek pakai sendok, cukonya dihirup langsung dari mangkok.",
+  "story": "Dinda duduk di bangku panjang warung pempek Palembang pada pagi mendung. Sejak frame pertama satu mangkok kecil berisi cuko, satu piring berisi potongan pempek, dan satu sendok sudah ada di meja kayu di depannya. Ia membuka dengan kalimat tegas bahwa wong Palembang tidak makan pempek pakai sendok, lalu mencelup satu potongan pempek ke mangkok dan menyeruput cuko langsung dari bibir mangkok sambil mengangguk. Setelah itu ia mengangkat sendok dan menjelaskan bahwa di luar Palembang orang biasa menuang cuko ke piring lalu menyuap dengan sendok. Ia menutup dengan meletakkan sendok kembali ke meja dan bertanya penonton masuk tim mangkok atau tim sendok. Adegan harian di warung, belum canon.",
+  "caption": "Wong Palembang mah cukonya dihirup langsung dari mangkok, bukan disiram di piring pakai sendok. Kalian tim mangkok atau tim sendok?\n#pempek #cukopempek #kulinerpalembang #palembang #debatkulinerviral",
+  "image_prompt": "Vertical 9:16 frame sumber 360p. Dinda Kemala, perempuan Indonesia modest 165 cm, pashmina krem beige rapi, cardigan rajut kancing motif garis taupe-khaki dengan dalaman broken white, celana palazzo krem high-waisted berpleats, kalung cincin emas kecil, duduk di bangku panjang warung pempek Palembang, satu mangkok kecil cuko, satu piring pempek, dan satu sendok di meja kayu, latar warung beratap seng dan jalan kampung, cahaya pagi mendung netral 5500K, pori-pori kulit terlihat, tanpa plastic atau waxy skin, tanpa teks di frame.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_5144187e",
+    "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png",
+    "selection_reason": "Auto-Stylist memilih busana aktif yang belum dipakai hari ini dan paling lama istirahat: pemakaian terakhir 14 November 2026, sementara cream linen dipakai 16 November dan mocha linen 15 November. Busana ini punya dua foto master 9:16 (close-up dan full-body) sehingga bisa dipasang sebagai referensi outfit di komposer Flow. Baris wardrobe baru hari ini (outfit_dinda_pagi_20261117 Mocha Earth-Tone Oversized Linen & Ivory Culottes dan outfit_dinda_malam_20261117 Charcoal Blazer) masih berstatus incomplete tanpa foto close-up maupun full-body sehingga belum bisa dipakai sebagai acuan visual."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [3, 4, 6, 7, 8, 10, 12, 14, 15, 16, 18, 20],
+    "estimated_credits_displayed": 14,
+    "verified_from": "scripts/sync_flow_status.js --character dinda --navigate-home --ensure-360p pada 17 November 2026 09.00 WIB: flow_1 tersambung, saldo 309 kredit, pill 'Video · 360p · 12s crop_9_16 x1'. Model dan biaya dicocokkan ulang di panel komposer sebelum submit."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match face shape, nose, eyebrows, eyes, skin tone and apparent age exactly, do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION, image three is the outfit reference for CLOTHING (taupe and khaki striped knit button cardigan over a broken-white inner top, cream high-waisted pleated wide-leg palazzo, neat cream-beige pashmina hijab, small gold ring necklace). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, filmed on a phone at 24fps with slight natural handheld sway at chest height about one metre away, three-quarter angle. Location: seated on a long wooden bench at a small Palembang pempek warung on an overcast morning, corrugated metal roof and a small village street softly blurred behind her, one or two distant blurred figures far in the background. PROP CONTINUITY RULE: from frame 0.0s one small dark-brown cuko bowl, one white plate holding four pieces of pempek, and one metal spoon already rest on the wooden table in front of her, and only these three props plus the bench and table appear from 0.0s to 12.0s; nothing appears, grows, floats or disappears mid-take; the spoon stays on the table until she lifts it and it returns to the table before the last frame. BEATS: from 0.0s to 3.0s she looks straight into the lens and says in Indonesian, \"Wong Palembang ni dak pernah makan pempek pakai sendok\"; from 3.0s to 6.5s she dips one piece of pempek into the dark cuko in the bowl, sips the cuko directly from the rim of the bowl and nods, saying, \"Cuko dihirup langsung dari mangkok\"; from 6.5s to 9.5s she lifts the spoon with her right hand and holds it up beside her face, saying, \"Kalau di luar Palembang biasanya disiram di piring pakai sendok\"; from 9.5s to 12.0s she places the spoon back on the table beside the plate, looks into the lens with a small confident smile and asks, \"Kalian tim mangkok atau tim sendok?\". Lips move in sync with her Indonesian speech, natural micro-expressions, no lip-sync drift. Shot on smartphone vlog camera, natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, real warung ambience and natural speech audio. Completely clean frame: no on-screen text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo, no readable writing on packaging or signage. No cut, no zoom and no camera movement beyond small handheld drift.",
+      "dialogue": "Wong Palembang ni dak pernah makan pempek pakai sendok. Cuko dihirup langsung dari mangkok. Kalau di luar Palembang biasanya disiram di piring pakai sendok. Kalian tim mangkok atau tim sendok?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.6,
+      "action_end_seconds": 11.8
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://mojok.co/terminal/4-kebiasaan-makan-pempek-yang-perlu-diubah-agar-nikmatnya-paripurna/",
+      "title": "4 Kebiasaan Makan Pempek yang Perlu Diubah agar Nikmatnya Paripurna — Mojok",
+      "observed_at": "2026-11-17T08:12:00+07:00",
+      "evidence": "Terbit 10 Februari 2022, dibaca 17 November 2026 pukul 08.12 WIB. Artikel menulis wong asli Palembang memakai mangkuk seukuran kira-kira satu pempek sedang untuk wadah cuko dan cuko diminum melewati bibir mangkuk setiap kali menyuap, sementara orang di luar Palembang terbiasa menghirup cuko dari wadah piring sehingga cuko tumpah. Artikel juga menyorot kebiasaan makan pempek pakai sendok dan garpu sebagai kebiasaan yang perlu diubah kecuali untuk pempek lenggang, kapal selam, atau lenjer besar."
+    },
+    {
+      "url": "https://id.wikipedia.org/wiki/Pempek",
+      "title": "Pempek - Wikipedia bahasa Indonesia",
+      "observed_at": "2026-11-17T08:14:00+07:00",
+      "evidence": "Dibaca 17 November 2026 pukul 08.14 WIB. Entri menyebut cara memakan pempek adalah memakai mangkuk kecil sebagai tempat cuko lalu pempek dicocolkan dan cuko diseruput, yang oleh masyarakat Palembang disebut ngirup. Disebut juga pelengkap potongan mentimun, mi kuning, dan cabai bubuk."
+    },
+    {
+      "url": "https://sumsel.antaranews.com/berita/303866/sedapnya-pempek-buatan-wong-palembang",
+      "title": "Sedapnya pempek buatan 'wong' Palembang - ANTARA News Sumatera Selatan",
+      "observed_at": "2026-11-17T08:15:00+07:00",
+      "evidence": "Terbit 15 Juni 2016 pukul 15.16 WIB, dibaca 17 November 2026 pukul 08.15 WIB. Artikel menulis warga Palembang sering menyebut istilah ngirop cuko dan menjelaskan cuko dibuat dari air gula merah dididihkan lalu dibumbui bawang putih, garam, air asam, dan cabai hijau."
+    },
+    {
+      "url": "https://food.detik.com/warung-makan/d-2319214/pempek-cek-lin-nikmatnya-pempek-adaan-disiram-kuah-cuko-gurih",
+      "title": "Pempek Cek Lin: Nikmatnya Pempek Adaan Disiram Kuah Cuko Gurih - detikFood",
+      "observed_at": "2026-11-17T08:16:00+07:00",
+      "evidence": "Terbit 30 Juli 2013, dibaca 17 November 2026 pukul 08.16 WIB. Artikel ini contoh jelas gaya tuang atau siram: seporsi pempek disajikan di atas piring lalu disiram cuko coklat gelap dan disuap bersama kuahnya, tanpa mangkuk cuko terpisah. Ini dasar kubu kedua dalam perdebatan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Semua klaim cara makan diambil dari mojok.co, Wikipedia bahasa Indonesia, ANTARA Sumsel, dan detikFood. Tidak ada angka penonton, survei, harga, atau nama merek warung yang disebut di video maupun caption karena tidak diperlukan dan tidak lengkap sumbernya.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 360p, 9:16, output 1, 3 referensi gambar: face sheet, body reference, outfit fullbody). Frame mentah wajib bersih dari teks/HUD; upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 lalu subtitle editorial_tiktok dua tingkat tanpa koma dibakar lokal oleh app.media.assemble_character_video, musik lo-fi akustik 15 persen dengan vokal 100 persen, tanpa outro brand. Tidak ada retry berbayar otomatis."
+}
