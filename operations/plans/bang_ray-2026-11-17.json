@@ -15,18 +15,18 @@
   "image_prompt": "Aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah) dan bangray_fullbody_turnaround.jpg (kemeja kerja navy). Properti: Kotak kardus cokelat Paku Cap Keris SNI dan balok kayu.",
   "flow": {
     "model": "Omni 1.2 Flash",
-    "resolution": "720p",
+    "resolution": "360p",
     "aspect_ratio": "9:16",
     "outputs": 1,
     "duration_options_seconds": [15],
     "duration_chosen_seconds": 15,
-    "estimated_credits_displayed": 30,
+    "estimated_credits_displayed": 20,
     "references_attached": 3
   },
   "shots": [
     {
       "seconds": 15,
-      "prompt": "Authentic handheld smartphone vlog video of Bang Ray, the exact same Indonesian man shown in all attached reference images: image one is the three-expression portrait for FACE IDENTITY (match face shape, nose, eyebrows, skin tone, apparent age 26, calm confident expression), image two is his full-body turnaround for OUTFIT (navy short-sleeve work shirt over white undershirt, khaki work pants, black field watch). Vertical 9:16, 15 seconds, medium shot waist-up at eye level with very slight handheld sway. Location: woodworking workshop in Banda Aceh, wooden workbench and tools in background. PROP CONTINUITY: A thick raw wood timber block, a steel claw hammer, and a brown kraft cardboard box printed with dark green typography PAKU EXPORT QUALITY CAP KERIS sitting on the workbench from 0.0s to the end. Bang Ray holds one steel nail in his left fingers and a hammer in his right hand. He speaks directly to the camera in natural Indonesian with a warm Banda Aceh accent: he demonstrates tapping the tip of the nail lightly with the hammer face, explains that blunting the point prevents wood fibers from splitting, and drives the straight steel nail firmly into the timber block in two clean strikes without bending. He looks into the camera with a confident smile and asks viewers what tricks they use on hard wood. Natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Clean frame: no on-screen text, no subtitles, no watermark, no logo.",
+      "prompt": "Authentic handheld smartphone vlog video of the 26-year-old Indonesian man shown in all attached reference images. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, medium shot waist-up at eye level with very slight handheld sway. Location: woodworking workshop in Banda Aceh, wooden workbench and tools in background. He wears the navy short-sleeve work shirt over white undershirt, khaki work pants, black field watch, athletic build, light tanned skin with fine natural pores, calm confident expression. PROP CONTINUITY: A thick raw wood timber block, a steel claw hammer, and a brown kraft cardboard box printed with dark green typography PAKU EXPORT QUALITY CAP KERIS sitting on the workbench from 0.0s to the end. He holds one steel nail in his left fingers and a hammer in his right hand. He speaks directly to the camera in natural Indonesian with a warm Banda Aceh accent: he demonstrates tapping the tip of the nail lightly with the hammer face, explains that blunting the point prevents wood fibers from splitting, and drives the straight steel nail firmly into the timber block in two clean strikes without bending. He looks into the camera with a confident smile and small nod. Natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Clean frame: no on-screen text, no subtitles, no watermark, no logo.",
       "dialogue": "Biar kayu balok gak retak kuncinya ujung paku tumpulkan sedikit pakai martil rakan. Satu lagi jangan pakai paku banci yang gampang meliuk pakai paku baja yang batangnya padat biar sekali getok langsung masuk. Rakan sendiri kalau maku kayu keras punya trik apa?",
       "dialogue_start_seconds": 0.3,
       "dialogue_read_seconds": 12.6,
