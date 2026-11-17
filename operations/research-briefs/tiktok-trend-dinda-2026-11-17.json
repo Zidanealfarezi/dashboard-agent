@@ -1,0 +1,245 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-17",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-17T08:25:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 17 November 2026, 08:00-08:25 WIB. Sesuai perintah kerja, riset TIDAK menyentuh prakiraan cuaca BMKG, rilis dinas, atau statistik inflasi. Fokus khusus: (1) debat sekte kuliner Palembang soal cuko dihirup dari mangkok vs disiram/sendok, (2) hidden gem lorong pempek seribuan vs harga toko oleh-oleh, (3) kontras harga pempek seribuan dengan penutup adu dua kubu. Halaman yang benar-benar dibaca: lagitren.id/tiktok (diperbarui 17 Nov 07.19 WIB), mojok.co soal empat kebiasaan makan pempek, entri Wikipedia bahasa Indonesia 'Pempek', ANTARA Sumsel tentang 'ngirop cuko', detikSumbagsel '4 Tempat Pempek Harga Rp 1.000', detikFood Pempek Cek Lin (gaya disiram), detikSumbagsel soal harga pempek 26 Ilir jelang Lebaran 2026, TribunStyle daftar pempek oleh-oleh, dua artikel Tribun Sumsel soal pempek tumpah Pasar 16 Ilir (April dan Juli 2026), dan RRI tentang Kampung Kapitan 7 Ulu. Temuan tren nasional hari ini: #ujangzhafran 19,2 juta di puncak, lalu #10november 7,8 jt, #wakilpresiden dan #haripahlawan 7,3 jt, #putritanjung 7,3 jt, #gibranrakabuming 7,1 jt, #hariayah 4,1 jt. Nol tagar kuliner dan nol tagar Palembang di 20 besar, sama seperti dua hari terakhir, jadi ceruk kuliner lokal tetap kosong dan harus diisi dari riset lokal, bukan dari daftar tren. Catatan keputusan: topik drainase (16 Nov), Pasar Sekanak (15 Nov), Charming Events (14 Nov), beras SPHP (13 Nov), cabai/cuko (12 Nov), burgo (11 Nov) tidak diulang. Tiga baris trend_memory bertanggal 16 Nov 12:54 (id trend_9691fd4151, trend_b59ee970a1, trend_4627ffd4a7) memakai tema yang sama tetapi buktinya hanya satu baris teks tanpa URL, jadi ketiganya dicatat sebagai near_duplicate dan digantikan kandidat bersumber di brief ini.",
+  "candidates": [
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 17 November 2026 · Lagi Tren",
+      "evidence": "Halaman bertanda 'Hari ini · 17 November 2026 · diperbarui 17 Nov, 07.19 WIB', dibaca 17 November 2026 pukul 08:06 WIB. Sepuluh video lagi viral: #ujangzhafran 19,2 jt, #10november 7,8 jt, #wakilpresiden 7,3 jt, #haripahlawan 7,3 jt, #putritanjung 7,3 jt, #gibranrakabuming 7,1 jt, #hariayah 4,1 jt, #hariayahnasional 4,1 jt, #selamathariayah 4,1 jt, #wapres 2,5 jt. Daftar 20 hashtag tren: #hariayah, #wakilpresiden, #hariayahnasional, #selamathariayah, #ujangzhafran, #wapres, #haripahlawan, #haripahlawanindonesia, #10november, #gibranrakabuming, #happyfathersday, #gibran, #fathersday, #putritanjung, #jamnaspacitan, #wapresgibran, #cawapres, #gunungrinjani, #3726mdpl, #gibranmundur. Nol tagar kuliner, nol tagar pempek, nol tagar Palembang di daftar ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:06:00+07:00",
+      "metrics": {
+        "hashtags_listed": 20,
+        "top_trend_rank_1": "#ujangzhafran 19,2 jt",
+        "culinary_tags_in_list": 0,
+        "palembang_tags_in_list": 0
+      }
+    },
+    {
+      "url": "https://mojok.co/terminal/4-kebiasaan-makan-pempek-yang-perlu-diubah-agar-nikmatnya-paripurna/",
+      "title": "4 Kebiasaan Makan Pempek yang Perlu Diubah agar Nikmatnya Paripurna — Mojok",
+      "evidence": "Terbit 10 Februari 2022, penulis Suzan Lesmana, dibaca 17 November 2026 pukul 08:12 WIB. Poin pertama artikel: 'kebiasaan wong asli Palembang, mereka menggunakan mangkuk seukuran kira-kira satu pempek sedang untuk wadah kuah cuko. Nah, tiap satu suap potongan pempek masuk ke mulut, cuko akan langsung diminum melewati bibir mangkuk.' Artikel menyebut pembeda tegas: 'orang-orang di luar Palembang yang terbiasa menghirup cuko dari wadah piring misalnya. Akibatnya cuko malah tumpah mengingat cekungan piring tak seperti mangkuk.' Poin ketiga artikel secara khusus menyorot 'Makan pempek pakai sendok dan garpu': garpu untuk mengambil potongan, 'sendok biasanya digunakan untuk menampung potongan kecil pempek yang dibalur dengan cuko', dan penulis menyebut sendok-garpu seharusnya hanya dipakai untuk pempek lenggang, kapal selam, atau lenjer besar yang memang perlu dipotong. Artikel juga menyinggung kebiasaan memotong pempek kecil-kecil dan mencampur ebi serta timun ke cuko terlalu awal.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:12:00+07:00",
+      "published_at": "2022-02-10T10:00:43+07:00",
+      "metrics": {
+        "habit_points": 4,
+        "mangkuk_vs_piring": true,
+        "sendok_garpu_dibahas": true
+      }
+    },
+    {
+      "url": "https://id.wikipedia.org/wiki/Pempek",
+      "title": "Pempek - Wikipedia bahasa Indonesia",
+      "evidence": "Dibaca 17 November 2026 pukul 08:14 WIB. Kalimat kunci: 'Cara memakan pempek adalah dengan menggunakan mangkuk kecil sebagai tempat cukonya lalu pempek dicocolkan. Cuko kemudian diseruput (masyarakat Palembang menyebutnya ngirup) untuk menambah rasa.' Pelengkap yang disebut: potongan dadu mentimun segar, mi kuning, dan cabai bubuk. Entri juga menjelaskan cuko dari air dididihkan plus gula merah, ebi, cabai rawit tumbuk, bawang putih, dan garam, serta menyebut bahwa cuko masyarakat asli Palembang dibuat pedas sedangkan cuko manis muncul karena pendatang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:14:00+07:00",
+      "metrics": {
+        "metode_baku": "mangkuk kecil, dicocol, diseruput/ngirup",
+        "penyebutan_ngirup": true
+      }
+    },
+    {
+      "url": "https://sumsel.antaranews.com/berita/303866/sedapnya-pempek-buatan-wong-palembang",
+      "title": "Sedapnya pempek buatan 'wong' Palembang - ANTARA News Sumatera Selatan",
+      "evidence": "Terbit Rabu 15 Juni 2016 pukul 15:16 WIB, dibaca 17 November 2026 pukul 08:15 WIB. Kalimat kunci: 'Warga Palembang sering mengatakan dengan istilah `ngirop cuko`.' Artikel menyebut cuko dibuat dari air gula merah dididihkan lalu dibumbui bawang putih, garam, air asam, dan cabai hijau, dan bahwa gula merah harus dari Lubuklinggau agar rasanya pas. Data harga saat itu: pempek keriting, adaan, kulit, lenjer, pistel, telok, dan dos dijual Rp1.000 per buah, sedangkan lenggang dan kapal selam Rp6.000 per buah. Disebut juga harga ikan gabus sudah menembus Rp50 ribu per kg sehingga pedagang beralih ke ikan kakap atau parang-parang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:15:00+07:00",
+      "published_at": "2016-06-15T15:16:00+07:00",
+      "metrics": {
+        "istilah": "ngirop cuko",
+        "harga_pempek_kecil_2016": "Rp1.000 per buah",
+        "harga_lenggang_kapal_selam_2016": "Rp6.000 per buah",
+        "ikan_gabus_2016": "di atas Rp50.000 per kg"
+      }
+    },
+    {
+      "url": "https://food.detik.com/warung-makan/d-2319214/pempek-cek-lin-nikmatnya-pempek-adaan-disiram-kuah-cuko-gurih",
+      "title": "Pempek Cek Lin: Nikmatnya Pempek Adaan Disiram Kuah Cuko Gurih - detikFood",
+      "evidence": "Terbit 30 Juli 2013, dibaca 17 November 2026 pukul 08:16 WIB. Artikel ini contoh jelas gaya 'tuang/disiram' yang jadi kebiasaan orang luar Palembang: 'Seporsi pempek komplit yang hangatpun siap diangkat dan disajikan di atas piring... Makin sedap saat disiram cuko yang coklat gelap', dan 'disuap bersama kuah cuko yang enak'. Harga yang tercatat saat itu: pempek kapal selam besar Rp11.000, adaan Rp5.000, kulit Rp5.000. Tidak ada mangkuk cuko terpisah dalam penyajian yang ditulis artikel ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:16:00+07:00",
+      "published_at": "2013-07-30T23:12:34+07:00",
+      "metrics": {
+        "gaya_penyajian": "disiram di piring",
+        "harga_kapal_selam_besar_2013": "Rp11.000",
+        "harga_adaan_2013": "Rp5.000"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-7235726/4-tempat-pempek-harga-rp-1-000-di-palembang-ini-lokasinya",
+      "title": "4 Tempat Pempek Harga Rp 1.000 di Palembang, Ini Lokasinya - detikSumbagsel",
+      "evidence": "Terbit Senin 11 Maret 2024 pukul 23:01 WIB, penulis Welly Jasrial Tanjung, dibaca 17 November 2026 pukul 08:18 WIB. Empat lokasi: (1) Kampung Pempek 26 Ilir, Jalan Mujahidin, Kelurahan Talang Semut, Kecamatan Bukit Kecil, buka 07.00-23.00, 'pempek di sini dijual dengan harga Rp 1.000 per pcs'; (2) Kampung Pempek Tanggo Rajo Cindo 7 Ulu, disebut 'bisa dikatakan Hidden Gems' karena untuk masuk 'harus melewati jalan dan lorong kecil dengan rumah padat penduduk', harga Rp 1.000 per buah, pempek di sini biasa diambil pedagang Pasar 16 Ilir, Plaju, Kertapati, dan Ogan Ilir; (3) Pempek Sentosa Plaju, Jalan Sentosa, harga Rp1.000-Rp2.000; (4) satu lokasi lain yang juga seribuan. Artikel juga mencatat perilaku pembeli: 'Mereka duduk, lalu mengambil mangkuk cuko dan meminta cuko kepada pedagang.'",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:18:00+07:00",
+      "published_at": "2024-03-11T23:01:00+07:00",
+      "metrics": {
+        "tempat_daftar": 4,
+        "harga_26_ilir": "Rp1.000 per pcs",
+        "harga_tanggo_rajo": "Rp1.000 per buah",
+        "harga_sentosa_plaju": "Rp1.000-Rp2.000"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/bisnis/d-8395989/pesanan-pempek-palembang-banjir-jelang-lebaran",
+      "title": "Pesanan Pempek Palembang 'Banjir' Jelang Lebaran - detikSumbagsel",
+      "evidence": "Terbit Jumat 13 Maret 2026 pukul 03:00 WIB, penulis Muhammad Alyuda Tri Utama, dibaca 17 November 2026 pukul 08:19 WIB. Narasumber Cek Juro, pelaku usaha Pempek Cek Ida 26 di Sentra Kampung Pempek 26 Ilir. Harga yang disebut: 'Sekarang masih Rp 1.200 kalau beli lepas. Tapi mulai tanggal 14 Maret biasanya naik menjadi Rp 1.500. Kalau sudah mendekati Lebaran, H-1 bisa sampai Rp 2.000.' Rincian menu: pempek kecil lenjer dan kulit sekitar Rp1.200 per buah, pempek kapal selam sekitar Rp12.000, pempek lenggang sekitar Rp15.000, otak-otak atau pempek panggang sekitar Rp3.000. Disebut juga permintaan dari Bandung, Jambi, Bogor, Jabodetabek, Pagar Alam, Lahat, Lubuklinggau, dan Baturaja.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:19:00+07:00",
+      "published_at": "2026-03-13T03:00:00+07:00",
+      "metrics": {
+        "harga_kecil_lepas": "Rp1.200",
+        "harga_kecil_h1_lebaran": "Rp2.000",
+        "kapal_selam": "Rp12.000",
+        "lenggang": "Rp15.000",
+        "otak_otak": "Rp3.000"
+      }
+    },
+    {
+      "url": "https://style.tribunnews.com/life/370600/liburan-ke-palembang-sumatera-selatan-ini-5-pempek-favorit-untuk-oleh-oleh",
+      "title": "Liburan ke Palembang, Sumatera Selatan? Ini 5 Pempek Favorit untuk Oleh-oleh - TribunStyle",
+      "evidence": "Tayang Senin 11 Mei 2026 pukul 13:26 WIB, editor Tim TribunStyle, dibaca 17 November 2026 pukul 08:21 WIB. Untuk Pempek Nony 168 di Jalan Jenderal Sudirman No.952, 20 Ilir D.III, Ilir Timur I: 'Harga satuannya mulai dari Rp 4.950 hingga Rp 49.500, sementara paket oleh-oleh dijual mulai Rp 165.000 sampai Rp 550.000.' Pempek Lala 26 Ilir, Jalan Mujahidin 26 Ilir No.23: 'Harga paket berkisar Rp 65.000 hingga Rp 320.000.' Pempek Candy, Jalan Jenderal Sudirman No.149/8: 'Harga paket pempek mulai dari Rp 110.000 hingga Rp 550.000.' Halaman ini daftar oleh-oleh wisatawan, bukan daftar harga warung makan di tempat.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:21:00+07:00",
+      "published_at": "2026-05-11T13:26:00+07:00",
+      "metrics": {
+        "nony_168_satuan": "Rp4.950-Rp49.500",
+        "nony_168_paket": "Rp165.000-Rp550.000",
+        "lala_26_ilir_paket": "Rp65.000-Rp320.000",
+        "candy_paket": "Rp110.000-Rp550.000"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari",
+      "title": "Sensasi Pempek Tumpah di Pasar 16 Ilir Palembang, Laris Manis hingga Cuan Rp1 Juta Sehari - Tribun Sumsel",
+      "evidence": "Terbit Rabu 22 April 2026, laporan wartawan Sripoku.com (Angga), dibaca 17 November 2026 pukul 08:22 WIB. Konsep lesehan, pempek disajikan prasmanan di meja kayu beralas daun pisang 'seolah-olah ditumpahkan'. Narasumber Mega, penjual pempek tumpah: 'Terkadang masih habis 1.000-2.000 buah pempek. Kalau weekend, alhamdulillah keuntungan bisa mencapai Rp1 juta per hari.' Soal harga: 'Semuanya masih di harga seribu rupiah untuk satu pempek.' Jenis yang paling dicari: pempek kerupuk (kriting), adaan, dan tahu. Pengunjung dari Jakarta juga disebut datang karena penasaran.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:22:00+07:00",
+      "published_at": "2026-04-22T00:00:00+07:00",
+      "metrics": {
+        "harga_satuan": "Rp1.000",
+        "penjualan_per_hari": "1.000-2.000 buah",
+        "laba_weekend": "Rp1 juta per hari"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1025138/imbas-komentar-negatif-soal-pempek-tumpah-pedagang-di-pasar-16-palembang-terpaksa-tutup-sementara",
+      "title": "Imbas Komentar Negatif Soal Pempek Tumpah, Pedagang di Pasar 16 Palembang Terpaksa Tutup Sementara - Tribun Sumsel",
+      "evidence": "Terbit Jumat 31 Juli 2026, laporan wartawan Sripoku.com (Angga), dibaca 17 November 2026 pukul 08:23 WIB. Video pempek tumpah Pasar 16 Ilir viral lalu memicu komentar negatif; sejumlah penjual menghentikan aktivitas sementara karena pembeli turun drastis. Mega: 'Biasanya bisa habis 100 sampai 200 pempek sehari, sekarang cuma sekitar 50 pempek yang terjual. Sisanya menumpuk seperti gunung.' Pedagang lain, Mardi, membantah komentar yang menyebut pempeknya bau atau berlendir: 'Kami menjual pempek yang masih hangat, jadi tidak mungkin seperti itu.' Artikel juga memuat harapan pedagang agar Dinas Pariwisata Pemkot Palembang memberi pembinaan kebersihan dan penataan area. Artikel TIDAK menyebut harga naik dan tidak menyebut ada korban sakit.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:23:00+07:00",
+      "published_at": "2026-07-31T00:00:00+07:00",
+      "metrics": {
+        "penjualan_normal": "100-200 pempek per hari",
+        "penjualan_setelah_viral": "sekitar 50 pempek per hari",
+        "pedagang_tutup_sementara": true,
+        "bantahan_pedagang": true
+      }
+    },
+    {
+      "url": "https://rri.co.id/palembang/kuliner/2099431/pempek-kampung-kapitan-7-ulu-palembang",
+      "title": "Pempek Kampung Kapitan 7 Ulu Palembang - RRI.co.id",
+      "evidence": "Terbit 11 Januari 2026 pukul 21:17 WIB, oleh Matrasit, editor Agrani Sihombing, dibaca 17 November 2026 pukul 08:24 WIB. Kampung Kapitan 7 Ulu disebut destinasi kuliner baru: pengunjung melihat langsung ibu-ibu mencampur adonan, membentuk lenjer dan kapal selam secara terbuka, lalu menyantap di lokasi dengan cuko khas. Pengunjung Raihan menilai 'cita rasa ikan kuat, tekstur kenyal, dan cukonya pedas namun seimbang', dan menyebut pengalaman melihat proses produksi tidak ditemui di tempat pempek lain.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-17T08:24:00+07:00",
+      "published_at": "2026-01-11T21:17:00+07:00",
+      "metrics": {
+        "lokasi": "Kampung Kapitan, 7 Ulu, Seberang Ulu I",
+        "aktivitas": "lihat proses produksi lalu makan di lokasi"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Debat Wong Kito: Cuko Dihirup dari Mangkok atau Disiram Pakai Sendok?",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Wong Palembang nggak pernah makan pempek pakai sendok, cukonya dihirup langsung dari mangkok.",
+      "shots": [
+        "Shot 1 (9s): Dinda duduk di bangku warung pempek, satu mangkok kecil cuko di depan, ia mencelup pempek lalu menyeruput cuko langsung dari bibir mangkok dan mengangguk puas.",
+        "Shot 2 (9s): Dinda menaruh mangkok, mengambil piring dan sendok, menuang cuko ke piring lalu menyuap dengan sendok sambil nyengir, lalu menunjuk kamera dan bertanya penonton masuk tim mangkok atau tim sendok."
+      ],
+      "sound": "Suara asli warung pempek, tanpa musik, biar suara hirupan cuko yang kedengaran",
+      "outfit": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+      "caption": "Wong Palembang mah cukonya dihirup langsung dari mangkok, bukan disiram di piring pakai sendok. Kalian tim mangkok atau tim sendok nih? #pempek #cukopempek #kulinerpalembang #palembang #debatkulinerviral",
+      "sources": [
+        "https://mojok.co/terminal/4-kebiasaan-makan-pempek-yang-perlu-diubah-agar-nikmatnya-paripurna/",
+        "https://id.wikipedia.org/wiki/Pempek",
+        "https://sumsel.antaranews.com/berita/303866/sedapnya-pempek-buatan-wong-palembang",
+        "https://food.detik.com/warung-makan/d-2319214/pempek-cek-lin-nikmatnya-pempek-adaan-disiram-kuah-cuko-gurih"
+      ],
+      "factors": {
+        "momentum": 7.0,
+        "local_relevance": 10.0,
+        "format_fit": 9.5,
+        "evidence_strength": 9.0,
+        "risk_safety": 9.5
+      },
+      "why": "Debatnya benar-benar terdokumentasi, bukan karangan: mojok.co (10 Feb 2022) menulis wong Palembang memakai mangkok seukuran satu pempek dan meminum cuko langsung dari bibir mangkok, sementara orang luar Palembang menghirup dari piring; Wikipedia bahasa Indonesia menyebut cara baku mangkuk kecil lalu diseruput atau ngirup; ANTARA Sumsel mencatat istilah ngirop cuko; dan detikFood justru mencontohkan gaya disiram di piring. Format dua kubu ini paling pas untuk 20 detik karena cuma butuh satu mangkok dan satu sendok, tanpa biaya produksi tambahan, dan pertanyaan tim mangkok vs tim sendok memancing komentar yang menaikkan jangkauan.",
+      "near_duplicate_ids": ["trend_9691fd4151"],
+      "claim_note": "Semua klaim soal cara makan diambil dari mojok.co, Wikipedia bahasa Indonesia, ANTARA Sumsel, dan detikFood seperti dikutip di brief. Jangan mengklaim ada angka penonton atau survei; tidak ada data itu. Jangan menyebut merek warung tertentu."
+    },
+    {
+      "code": "B",
+      "title": "Pempek Seribuan di Lorong vs Harga Satuan Toko Oleh-oleh Mulai Rp4.950",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek di lorong Kampung Pempek masih Rp1.000 sebiji, tapi di toko oleh-oleh pusat kota harga satuannya mulai Rp4.950.",
+      "shots": [
+        "Shot 1 (9s): Dinda berjalan masuk lorong sempit Kampung Pempek, kamera menyorot meja panjang berisi pempek yang berjejer, ia mengambil dua biji pempek dan menyerahkan uang seribuan ke pedagang.",
+        "Shot 2 (9s): Dinda duduk di bangku kayu memegang mangkok cuko, menyebut toko oleh-oleh di Jalan Sudirman menjual satuan mulai Rp4.950 sampai Rp49.500, lalu bertanya penonton lebih pilih tim lorong seribuan atau tim toko yang rapi buat dibawa pulang."
+      ],
+      "sound": "Ambience pasar dan lorong, tanpa musik, fokus suara pedagang",
+      "outfit": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+      "caption": "Pempek di lorong Kampung Pempek masih Rp1.000 sebiji, sementara di toko oleh-oleh pusat kota harga satuannya mulai Rp4.950. Kalian tim lorong seribuan atau tim toko biar aman dibawa pulang? #pempek #pempekseribuan #hiddengem #palembang #kulinerpalembang",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-7235726/4-tempat-pempek-harga-rp-1-000-di-palembang-ini-lokasinya",
+        "https://www.detik.com/sumbagsel/bisnis/d-8395989/pesanan-pempek-palembang-banjir-jelang-lebaran",
+        "https://style.tribunnews.com/life/370600/liburan-ke-palembang-sumatera-selatan-ini-5-pempek-favorit-untuk-oleh-oleh",
+        "https://rri.co.id/palembang/kuliner/2099431/pempek-kampung-kapitan-7-ulu-palembang",
+        "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari"
+      ],
+      "factors": {
+        "momentum": 7.5,
+        "local_relevance": 10.0,
+        "format_fit": 9.0,
+        "evidence_strength": 9.5,
+        "risk_safety": 8.0
+      },
+      "why": "Kontras harganya paling tajam dan semuanya bersumber jelas: detikSumbagsel mencatat Rp1.000 per pcs di 26 Ilir dan menyebut Kampung Pempek Tanggo Rajo 7 Ulu sebagai hidden gems yang harus dilewati lewat lorong kecil, harga pempek kecil di 26 Ilir masih Rp1.200 pada Maret 2026, pempek tumpah Pasar 16 Ilir juga masih seribuan, sementara TribunStyle mencatat harga satuan di toko oleh-oleh Jalan Sudirman mulai Rp4.950 sampai Rp49.500. Selisih hampir lima kali untuk satu biji adalah bahan perdebatan yang wajar, dan penutup dua kubu membuat penonton memilih sisi.",
+      "near_duplicate_ids": ["trend_b59ee970a1"],
+      "claim_note": "Harga Rp1.000 berasal dari detikSumbagsel (26 Ilir, Tanggo Rajo, Sentosa Plaju) dan Tribun Sumsel (pempek tumpah Pasar 16). Harga Rp1.200 dan Rp4.950-Rp49.500 adalah harga satuan yang disebut masing-masing artikel, bukan hasil hitung sendiri. Jangan menyebut toko oleh-oleh sebagai penipu; sebut saja harga satuan dan paketnya. Jangan klaim kualitas mana yang lebih baik karena tidak ada uji rasa."
+    },
+    {
+      "code": "C",
+      "title": "Pempek Tumpah Pasar 16: Dari Cuan Rp1 Juta Sehari Sampai Lapak Tutup",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek tumpah Pasar 16 Ilir sempat laris sampai Rp1 juta sehari, lalu kena komentar negatif dan sebagian pedagang tutup sementara.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan deretan meja panjang pempek tumpah di Pasar 16 Ilir, menyebut satu biji tetap Rp1.000 dan penjual bisa menghabiskan 1.000 sampai 2.000 biji sehari.",
+        "Shot 2 (9s): Dinda duduk di bangku kecil, menyebut setelah video viral dan komentar negatif penjualan turun dari 100-200 biji jadi sekitar 50 biji, pedagang membantah pempeknya bau, lalu bertanya penonton masih mau jajan di sini atau pilih tempat lain."
+      ],
+      "sound": "Ambience pasar, tanpa musik, suara pedagang memanggil pembeli",
+      "outfit": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+      "caption": "Pempek tumpah Pasar 16 Ilir sempat laris sampai Rp1 juta sehari, lalu kena komentar negatif dan sebagian pedagang memilih tutup sementara. Kalian masih mau jajan di sini atau pilih tempat lain? #pempektumpah #palembang #kulinerpalembang #pasar16ilir #jajananpalembang",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari",
+        "https://sumsel.tribunnews.com/palembang/1025138/imbas-komentar-negatif-soal-pempek-tumpah-pedagang-di-pasar-16-palembang-terpaksa-tutup-sementara",
+        "https://www.detik.com/sumbagsel/kuliner/d-7235726/4-tempat-pempek-harga-rp-1-000-di-palembang-ini-lokasinya"
+      ],
+      "factors": {
+        "momentum": 7.5,
+        "local_relevance": 10.0,
+        "format_fit": 8.0,
+        "evidence_strength": 9.0,
+        "risk_safety": 6.5
+      },
+      "why": "Ceritanya punya dua sisi yang enak ditonton: April 2026 pempek tumpah masih laris 1.000-2.000 biji sehari dengan cuan Rp1 juta saat akhir pekan, lalu Juli 2026 video viral memicu komentar negatif sampai penjualan Mega turun jadi sekitar 50 biji dan sebagian lapak tutup. Risikonya paling tinggi di antara tiga kandidat karena menyentuh kebersihan dan bisa dianggap menyerang pedagang kecil, jadi videonya wajib menyebut bantahan pedagang bahwa pempek dijual hangat dan tidak boleh menampilkan tuduhan sebagai fakta.",
+      "near_duplicate_ids": ["trend_4627ffd4a7"],
+      "claim_note": "Angka Rp1 juta sehari, 1.000-2.000 biji, dan penurunan ke 50 biji berasal dari dua artikel Tribun Sumsel (22 April 2026 dan 31 Juli 2026). Artikel tidak menyebut ada korban sakit dan tidak menyebut harga naik. Kalimat bantahan pedagang wajib ikut disebut agar tidak jadi pencemaran nama baik."
+    }
+  ]
+}
