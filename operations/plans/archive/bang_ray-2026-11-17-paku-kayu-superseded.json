@@ -1,0 +1,59 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "role_tags": [
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "keseharian praktisi bangunan Banda Aceh dan edukasi renovasi rumah hemat tanpa tipu-tipu"
+  ],
+  "role_reason": "Slot Bang Ray hari ini membawa produk resmi PT Intan Suar Kartika yaitu Paku Cap Keris (SNI 0194-78) dengan pendekatan soft-selling. Cerita berfokus pada edukasi teknis memaku kayu balok keras agar tidak pecah, menonjolkan batang baja lurus paku tanpa hard-selling.",
+  "title": "Trik Paku Kayu Balok Keras Biar Gak Pecah",
+  "hook": "Banyak yang nanya ke Ray kenapa kalau kita maku kayu balok keras kayunya malah retak atau pakunya meliuk.",
+  "story": "Bang Ray berdiri di meja kerja bengkel kayunya di Banda Aceh dengan kemeja navy dan celana kerja khaki. Di meja kerja kayu di samping balok kayu keras dan martil, terlihat terbuka kotak kardus cokelat Paku Cap Keris bertuliskan hijau tua. Bang Ray memegang satu paku baja, memperlihatkan ujungnya ke kamera, menjelaskan trik menumpulkan ujung paku sedikit dengan ketokan martil agar serat kayu terdorong bukan dibelah, lalu mengetoknya tegak lurus ke balok. Di akhir video ia tersenyum dan bertanya penonton punya trik apa saat memaku kayu keras.",
+  "caption": "Trik sederhana maku kayu balok keras biar gak pecah dan gak bikin kerja dua kali. Paku bajanya dari @intansuarkartika rakan. Rakan sendiri biasa pakai trik apa kalau ketemu kayu keras?\n#tipsbangunan #pertukangan #tukangkayu #aceh #pakucapkeris #intansuarkartika",
+  "image_prompt": "Aset master terverifikasi Bang Ray: bangray_three_expression_sheet.jpg (wajah) dan bangray_fullbody_turnaround.jpg (kemeja kerja navy). Properti: Kotak kardus cokelat Paku Cap Keris SNI dan balok kayu.",
+  "flow": {
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [15],
+    "duration_chosen_seconds": 15,
+    "estimated_credits_displayed": 20,
+    "references_attached": 3
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the 26-year-old Indonesian man shown in all attached reference images. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, medium shot waist-up at eye level with very slight handheld sway. Location: woodworking workshop in Banda Aceh, wooden workbench and tools in background. He wears the navy short-sleeve work shirt over white undershirt, khaki work pants, black field watch, athletic build, light tanned skin with fine natural pores, calm confident expression. PROP CONTINUITY: A thick raw wood timber block, a steel claw hammer, and a brown kraft cardboard box printed with dark green typography PAKU EXPORT QUALITY CAP KERIS sitting on the workbench from 0.0s to the end. He holds one steel nail in his left fingers and a hammer in his right hand. He speaks directly to the camera in natural Indonesian with a warm Banda Aceh accent: he demonstrates tapping the tip of the nail lightly with the hammer face, explains that blunting the point prevents wood fibers from splitting, and drives the straight steel nail firmly into the timber block in two clean strikes without bending. He looks into the camera with a confident smile and small nod. Natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Clean frame: no on-screen text, no subtitles, no watermark, no logo.",
+      "dialogue": "Biar kayu balok gak retak kuncinya ujung paku tumpulkan sedikit pakai martil rakan. Satu lagi jangan pakai paku banci yang gampang meliuk pakai paku baja yang batangnya padat biar sekali getok langsung masuk. Rakan sendiri kalau maku kayu keras punya trik apa?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 12.6,
+      "action_end_seconds": 14.8
+    }
+  ],
+  "pinned_comment": "Yang dari tadi nanya beli paku baja yang gak gampang bengkok di mana, itu Paku Cap Keris SNI produksinya @intansuarkartika ya kawan-kawan. Asli mutu ekspor buat tukang dan toko bangunan.",
+  "brand_interaction": {
+    "account": "@intansuarkartika",
+    "comment_text": "Mantap ilmunya Bang Ray! Tukang yang paham mutu pasti tau bedanya paku tempa baja SNI sama paku banci 👍"
+  },
+  "trend_sources": [
+    {
+      "url": "https://properti.kompas.com/read/2022/04/18/143000621/cara-memaku-kayu-keras-tanpa-membuatnya-retak",
+      "title": "Cara Memaku Kayu Keras Tanpa Membuatnya Retak - Kompas",
+      "observed_at": "2026-11-17T09:30:00+07:00",
+      "evidence": "Trik menumpulkan ujung paku dan memilih paku baja berkualitas tinggi mencegah kayu belah saat paku didorong masuk ke serat kayu keras."
+    },
+    {
+      "url": "https://www.arsitur.com/2021/08/standar-paku-konstruksi-sni-0194-78.html",
+      "title": "Standar Paku Konstruksi SNI 0194-78 - Arsitur",
+      "observed_at": "2026-11-17T09:32:00+07:00",
+      "evidence": "Paku konstruksi kawat baja SNI memiliki ketahanan puntir dan kelurusan batang yang melindungi material kayu dari keretakan saat pembebanan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Konsep soft-selling edukasi pertukangan kayu, mengintegrasikan Paku Cap Keris PT Intan Suar Kartika secara organik."
+}

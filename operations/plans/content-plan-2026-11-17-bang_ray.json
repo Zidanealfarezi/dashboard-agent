@@ -1,0 +1,85 @@
+{
+  "plan_date": "2026-11-17",
+  "status": "draft_awaiting_owner_acc",
+  "slots": [
+    {
+      "character_id": "bang_ray",
+      "kind": "video",
+      "duration_seconds": 15,
+      "final_duration_seconds": 15,
+      "title": "Sambungan Besi Sloof di Tengah Bentang Bikin Dinding Retak Rambat",
+      "hook": "Dinding retak rambat dari bawah itu bukan gara-gara plester, tapi sambungan besi sloof yang diiket pendek di tengah bentang.",
+      "story": "Bang Ray jongkok di tepi galian sloof rumah setengah jadi di Banda Aceh, dua potong besi beton sudah di tangannya sejak frame pertama. Ia memperlihatkan sambungan pendek dua sentimeter yang salah, lalu menggeser besi sampai lewatan panjang, mengikat dua kali dengan kawat bendrat dan menekan ikatan sampai rapat. Penutupnya ia mengadu dua kubu cara sambung besi ke penonton: las atau ikat kawat. Cerita ini belum canon.",
+      "caption": "Dinding retak rambat dari bawah sering bukan gara-gara plester tapi sambungan besi sloof yang diiket pendek di tengah bentang. Tukang senior minta lewatan empat puluh kali diameter dan iketan di luar tengah bentang, Rakan di sana kubu las atau kubu ikat kawat?\n#tipskonstruksi #sloof #tukangproyek #renovasirumah #bandaaceh",
+      "hashtags": [
+        "#tipskonstruksi",
+        "#sloof",
+        "#tukangproyek",
+        "#renovasirumah",
+        "#bandaaceh"
+      ],
+      "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah dan FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta pakaian kerja navy. Properti: dua batang besi beton 10 mm dan satu gulung kawat bendrat di papan bekisting sloof.",
+      "role_tags": [
+        "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+        "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+        "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+      ],
+      "role_reason": "Tiga konsep disiapkan: (1) kamera handheld rendah di tepi galian sloof, Bang Ray memperlihatkan sambungan besi pendek lalu menggeser ke lewatan panjang dan mengikat dengan kawat bendrat, (2) close-up makro top-down hanya tangan dan dua batang besi di papan bekisting, (3) POV berjalan menyusuri baris galian sambil menunjuk tiap sambungan lalu berjongkok mengikat satu titik. Konsep 1 dipilih karena identitas wajah tetap terbaca, satu aksi utama muat dalam 15 detik native, dan pembuka berupa risiko fatal struktur (dinding retak rambat dari sloof) berbeda dari lima video terakhir yang semuanya membahas keramik lantai (16 Nov), bata kering (15 Nov), plester kolom beton (14 Nov) dan jarak kuda-kuda atap (13 Nov). Konsep 2 membuang wajah sehingga identitas Flow tidak terkunci, konsep 3 butuh gerak kamera yang bertabrakan dengan aksi tangan. Penutup adu dua kubu las versus ikat kawat memancing komentar tanpa mengklaim hasil uji atau angka yang belum terbukti.",
+      "flow": {
+        "account_id": "flow_3",
+        "model": "Omni 1.2 Flash",
+        "resolution": "360p",
+        "aspect_ratio": "9:16",
+        "outputs": 1,
+        "duration_seconds": 15,
+        "duration_options_seconds": [
+          3,
+          15
+        ],
+        "estimated_credits_displayed": 20,
+        "references_attached": 2,
+        "verified_from": "Sinkronisasi CDP flow_3 17 November 2026 14.01 WIB: saldo 976 kredit, setelan komposer Video 360p 15 dtk crop_9_16 x1; biaya 15 detik 360p sebelumnya 20 kredit pada job bang_ray-2026-11-16."
+      },
+      "shots": [
+        {
+          "seconds": 15,
+          "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in both attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), and the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores). Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at knee height in a three-quarter side angle about one metre away with very slight natural handheld sway. Location: a shaded foundation trench of a half-built house in Banda Aceh, wooden sloof formwork boards and a sand pile behind him, morning daylight coming from the open side. PROP CONTINUITY: exactly three objects exist in frame from 0.0s to the last frame, one pair of 10 mm deformed steel rebar bars held in his hands and one coil of galvanised tie wire sitting on the formwork board beside his right knee; no pliers, no hammer, no gloves, no other tool, no extra rebar and no other person may appear, fall, float or vanish at any moment, and the two bars stay the same two bars for the whole take. BEATS: at 0.0s he already holds both rebar bars with only a short 2 cm overlap and speaks Indonesian with accurate lip sync, \"Dinding retak rambat dari bawah itu bukan salah plester.\"; from 3.4s he slides the upper bar out to a long overlap of about 40 cm, wraps the tie wire twice around both bars, twists the wire ends tight with his fingers and taps the tied joint once with his knuckles while saying, \"Tukang senior sambung besi sloof lewatan empat puluh kali diameter bukan di tengah bentang.\"; from 9.8s he lifts the tied joint slightly toward the lens, looks into the camera and asks, \"Rakan kubu las atau kubu ikat kawat? Simpan video ini.\"; the last 0.5s holds on the tied joint between his fingers. Ambient only: light wind, distant hammering far away, two metallic clinks of rebar on wood, no music. Shot on smartphone vlog camera at 24 fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores and real micro-texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero logo. Keep his face, clothing, watch, both bars, the wire coil and the background consistent in every frame.",
+          "dialogue": "Dinding retak rambat dari bawah itu bukan salah plester. Tukang senior sambung besi sloof lewatan empat puluh kali diameter bukan di tengah bentang. Rakan kubu las atau kubu ikat kawat? Simpan video ini.",
+          "dialogue_start_seconds": 0.3,
+          "dialogue_read_seconds": 13.0,
+          "action_end_seconds": 14.4
+        }
+      ],
+      "references": [
+        "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+        "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg"
+      ],
+      "trend_sources": [
+        {
+          "url": "https://www.tiktok.com/@mandorabuild/video/7532368854237105415",
+          "title": "Sambungan Besi Balok & Sloof: Jangan di Tengah Bentangan",
+          "observed_at": "2026-11-17T13:58:00+07:00",
+          "evidence": "Dibaca 17 November 2026 pukul 13.58 WIB dari hasil pencarian: video mandor menyebut bila sambungan tulangan diletakkan di titik tengah bentang, kekuatan struktur berkurang dan berpotensi memicu retak atau kegagalan sambungan."
+        },
+        {
+          "url": "https://www.instagram.com/reel/DezGdMku9ka/",
+          "title": "Overlap 40D adalah rule of thumb, bukan angka universal SNI",
+          "observed_at": "2026-11-17T13:59:00+07:00",
+          "evidence": "Dibaca 17 November 2026 pukul 13.59 WIB dari hasil pencarian: lewatan 40 kali diameter disebut patokan rule of thumb lapangan, sedangkan panjang sambungan tarik sebenarnya mengikuti panjang penyaluran dan kelas sambungan pada SNI 2847:2019, jadi video tidak mengklaim angka itu sebagai kewajiban mutlak."
+        },
+        {
+          "url": "https://www.facebook.com/perwira.kreasindo.9/videos/5-kesalahan-besar-pengerjaan-sloof-tie-beamdinding-rumah-retak-rambut-sampai-ret/4452353288426887/",
+          "title": "5 Kesalahan Besar Pengerjaan Sloof & Tie Beam Dinding Rumah Retak Rambut",
+          "observed_at": "2026-11-17T13:59:00+07:00",
+          "evidence": "Dibaca 17 November 2026 pukul 13.59 WIB dari hasil pencarian: disebut kesalahan pengerjaan sloof berujung dinding retak rambut sampai retak lebar, dan kolom butuh angkur 40d atau dowel dari sloof sehingga kolom dan sloof wajib monolit bukan sekadar menempel."
+        }
+      ],
+      "historical_fact_sources": [],
+      "new_biography_facts": [],
+      "promotional": false,
+      "source_note": "Rotasi lima video terakhir bang_ray: keramik tanpa siar muai (16 Nov), bata kering tanpa disiram (15 Nov), plester di atas kolom beton (14 Nov), jarak kuda-kuda atap (13 Nov). Topik sloof dipilih agar hook risiko struktur tidak mengulang tema empat hari terakhir. Angka lewatan 40 kali diameter disajikan sebagai patokan tukang senior, bukan klaim kewajiban SNI mutlak.",
+      "id": "bang_ray-2026-11-17",
+      "day": "2026-11-17"
+    }
+  ]
+}
