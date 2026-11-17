@@ -1,0 +1,101 @@
+{
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 16.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "kawat licin diamond",
+    "tulangan besi cor",
+    "edukasi material bangunan"
+  ],
+  "role_reason": "Rotasi pilar keempat: tiga video terakhir memakai Kawat Duri Diamond (16 Nov), Kereta Sorong Five Star (15 Nov), dan Paku Cap Keris (14 Nov). Kawat Licin Diamond terakhir dipakai 12 Nov (ikat tulangan satu putaran), jadi pilar ini paling lama tidak tampil. Formatnya uji ketahanan fisik berupa tes lentur kawat, bukan pengulangan tema ikat tulangan biasa.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Tes lentur dekat satu meja kerja (close-up tangan dan tang)",
+      "opening": "Sejak 0.0s tangan bersarung sudah memegang potongan kawat licin dan tang catut di atas meja kerja kayu",
+      "camera": "Medium close-up handheld smartphone setinggi dada, sedikit menunduk ke meja kerja, goyangan natural",
+      "core_action": "Kawat ditekuk bolak-balik tiga kali dengan tang lalu dililit dua putaran ke persilangan besi tulangan dan ditarik kencang tanpa putus",
+      "closing": "Menunjuk lilitan yang rapat lalu menatap lensa dan bicara satu kalimat penutup",
+      "risk": "Gulungan kawat dan besi tulangan wajib sudah terlihat di frame sejak detik pertama agar kontinuitas properti terbukti"
+    },
+    {
+      "id": "B",
+      "format": "Uji beban gantung (medium shot agak rendah)",
+      "opening": "Dua batang besi beton yang baru diikat satu simpul diangkat dari meja kerja",
+      "camera": "Medium shot statis dari sudut agak rendah, tripod, fokus ke simpul kawat",
+      "core_action": "Beban besi digoyang tiga kali untuk membuktikan simpul tidak melorot lalu diturunkan kembali",
+      "closing": "Tangan melepas simpul dan memperlihatkan kawat yang tidak berubah bentuk",
+      "risk": "Gerak mengangkat benda berat rawan cacat AI dan wajah pekerja keluar frame sehingga identitas sulit diperiksa"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi membandingkan dua gulungan kawat di meja",
+      "opening": "Dua gulungan kawat diletakkan berdampingan lalu keduanya ditekuk bersamaan",
+      "camera": "Top-down statis dari atas meja kerja",
+      "core_action": "Menunjukkan kawat murah getas patah lebih dulu dibanding kawat galvanis licin yang tetap utuh",
+      "closing": "Jari menunjuk gulungan kawat yang utuh, lalu kamera menatap wajah singkat",
+      "risk": "Tema membandingkan kawat abal-abal mirip pilar trik toko nakal dan butuh dua produk berbeda dalam satu frame sehingga rawan kontinuitas"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Pembuka langsung memperlihatkan kawat yang sedang ditekuk sehingga hook terbukti tanpa caption, hanya butuh satu lokasi satu take, dan aksi tes lentur berbeda dari video kawat duri di kebun maupun video ikat tulangan 12 November.",
+    "history_checked": "Riwayat operasional: 16 Nov Kawat Duri Diamond pagar kebun cabai (terverifikasi tayang), 15 Nov Kereta Sorong Five Star jalan becek (state unknown), 14 Nov Paku Cap Keris balok kayu keras (belum tayang), 13 Nov Kawat Duri Diamond ditarik kencang (terverifikasi tayang), 12 Nov Kawat Licin Diamond ikat tulangan satu putaran. Hanya lima slot terakhir yang tersedia sebagai riwayat."
+  },
+  "title": "Tes Lentur Kawat Licin Diamond Tetap Ulet Sampai Cor",
+  "hook": "Kawat ikat murah sering getas baru diputar dua kali langsung patah",
+  "story": "Pekerja bangunan berdiri di meja kerja kayu di bengkel sederhana. Sejak detik 0.0s tangan kirinya sudah memegang potongan Kawat Licin Diamond dan tangan kanannya memegang tang catut, sementara gulungan kawat galvanis licin dan dua batang besi tulangan sudah ada di meja. Ia menekuk kawat bolak-balik tiga kali dengan tang tanpa kawat patah, lalu melilitkannya dua putaran ke persilangan besi tulangan dan menariknya kencang. Di akhir ia menunjuk lilitan yang rapat, menatap kamera, dan mengajak menyimpan video sebagai acuan belanja material.",
+  "caption": "Kawat ikat getas bikin ikatan tulangan lepas waktu cor. Kawat Licin Diamond tetap ulet walau ditekuk bolak balik, spesifikasi dan kemitraan distributor tinggal kirim pesan ke DM.\n#kawatlicindiamond #kawatbendrat #besicor #tulanganbeton #materialbangunan",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kawat_licin_diamond_reference.jpg (gulungan kawat baja galvanis licin mengkilap, lilitan rapi anti karat). Tidak membuat master wajah baru; pekerja bangunan digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "creative": {
+    "character": "Pekerja pembesian Indonesia pria 40-an, kemeja kerja lengan panjang navy berdebu, celana kerja gelap, sarung tangan kain abu-abu",
+    "background": "Meja kerja kayu di bengkel pembesian sederhana dengan cahaya siang alami dari samping, dinding beton polos",
+    "action": "Menekuk Kawat Licin Diamond bolak-balik tiga kali dengan tang catut lalu melilit dua putaran ke persilangan besi tulangan dan menariknya kencang tanpa putus",
+    "selection_reason": "Uji lentur adalah bukti paling langsung bahwa kawat galvanis licin ulet, bukan getas, dan bisa diperiksa dari frame awal sampai akhir",
+    "dialogue": "Kawat ikat murah sering getas, baru diputar dua kali langsung patah. Kawat Licin Diamond kita tekuk bolak balik tetap ulet dan ikatan tulangan kuat sampai cor. Simpan video ini buat acuan beli.",
+    "dialogue_start_seconds": 0.3,
+    "dialogue_read_seconds": 9.7,
+    "action_end_seconds": 11.6
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 14,
+    "references_attached": 1,
+    "verified_from": "Sesi Flow flow_2 hari ini 10.01 WIB menampilkan Video 360p 12 dtk crop_9_16 x1, saldo 760 kredit"
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 12 seconds, one continuous shot, shot on smartphone vlog camera at 24fps with a slight natural handheld sway, camera at chest height angled slightly down toward a wooden workbench in a plain naturally lit rebar workshop in Medan. An Indonesian male construction worker, about 40 years old, in a dusty navy long-sleeve work shirt, dark work trousers and grey cotton work gloves, stands behind the bench; only his torso, arms and gloved hands are needed in frame. The attached reference image is the official product photo of Kawat Licin Diamond: a tightly wound roll of smooth glossy galvanized steel wire. Already visible at 0.0s and staying in frame until the last frame: one such glossy galvanized wire roll resting on the bench at the left edge, one steel pliers gripped in his right gloved hand, and two short straight strands of the same smooth galvanized wire laid on the bench in front of him, plus two 10 mm rebar bars crossed and resting on the bench in the lower right. Those are the only props; no other tool, wire, person, animal or material may appear, fall, float, grow or disappear at any moment, and the wire roll label must not change shape. BEATS: from 0.0s to 3.2s he lifts one short strand with his left hand and bends it into a hook with the pliers while speaking Indonesian with accurate lip sync, \"Kawat ikat murah sering getas, baru diputar dua kali langsung patah.\"; the wire curves smoothly and shows no crack. From 3.2s to 7.4s he bends the same strand back and forth three times with the pliers, thirty degrees each way, and the wire stays smooth, bright and unbroken while he says, \"Kawat Licin Diamond kita tekuk bolak balik tetap ulet dan ikatan tulangan kuat sampai cor.\" From 7.4s to 10.8s he wraps the same wire twice around the crossing point of the two rebar bars and pulls it tight with the pliers until the twist is compact and firm, then releases. From 10.8s to 11.6s he points his left index finger at the tight twist, looks straight into the lens, nods once and says, \"Simpan video ini buat acuan beli.\"; the final 0.4s holds cleanly on the tight wire knot beside the glossy wire roll. Ambient workshop sound only: quiet room tone, light metallic wire creak as it bends, two crisp pliers clicks on the final twist, no music. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame with no baked-in text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo overlay. Keep his hands, gloves, shirt, the pliers, the wire roll, the strands and the rebar consistent in every frame."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://journals.itb.ac.id/index.php/jts/article/view/12917/pdf_46",
+      "title": "Analisis Sisa Material (Waste) pada Proyek Pembangunan Gedung Bertingkat, Jurnal Teknik Sipil ITB",
+      "observed_at": "2026-11-17T09:58:00+07:00",
+      "evidence": "Studi ini mencatat kawat bendrat sebagai salah satu dari sembilan material yang berpotensi menyisakan waste (rata rata 2,30 persen) dan menyebut penggunaan material berkualitas rendah serta metode pemasangan yang kurang tepat sebagai faktor pemborosan."
+    },
+    {
+      "url": "https://repository.its.ac.id/117270",
+      "title": "Analisis Waste pada Pekerjaan Pembesian (Repositori Institut Teknologi Sepuluh Nopember)",
+      "observed_at": "2026-11-17T09:58:00+07:00",
+      "evidence": "Penelitian pekerjaan pembesian menemukan waste terbesar adalah waiting 26 poin, unnecessary motion 24 poin, dan defects 17 poin dari 58 aktivitas, yang sejalan dengan keluhan lapangan bahwa kawat ikat getas memperlambat dan menggagalkan ikatan tulangan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga atau angka penjualan. Kedua sumber dipakai sebagai konteks masalah pekerjaan pembesian, bukan klaim uji laboratorium. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM."
+}
