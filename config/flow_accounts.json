@@ -155,6 +155,6 @@
     }
   ],
   "pooled_balance": false,
-  "default_flow_resolution": "360p",
+  "default_flow_resolution": "720p",
   "generation_permission": true
 }
