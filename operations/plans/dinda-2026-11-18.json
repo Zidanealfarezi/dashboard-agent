@@ -32,7 +32,7 @@
     "outputs": 1,
     "duration_seconds": 12,
     "duration_options_seconds": [3, 4, 6, 7, 8, 10, 12, 14, 15, 16, 18, 20],
-    "estimated_credits_displayed": 14,
+    "estimated_credits_displayed": 42,
     "verified_from": "scripts/sync_flow_status.js --character dinda --navigate-home --ensure-360p pada 18 November 2026 09.01 WIB: flow_1 tersambung, saldo 309 kredit, pill 'Video · 360p · 12s crop_9_16 x1'. Model dan biaya dicocokkan ulang di panel komposer sebelum submit."
   },
   "shots": [
