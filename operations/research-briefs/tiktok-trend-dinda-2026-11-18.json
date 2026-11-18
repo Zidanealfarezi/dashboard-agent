@@ -1,0 +1,153 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-18",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-18T08:20:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 18 November 2026, 08:00-08:20 WIB. Sesuai perintah kerja, riset TIDAK menyentuh prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi. Fokus wajib dipenuhi: (1) perdebatan sekte kuliner Palembang, (2) hidden gem lorong pempek murah vs harga tempat wisata/oleh-oleh, (3) kontras harga yang ditutup adu dua kubu. Halaman yang benar-benar dibaca hari ini: Tribun Sumsel 2 November 2026 soal lonjakan harga sagu dan cabai rawit yang membebani perajin pempek, Tribun Sumsel 13 November 2026 soal Pempek Cek Tung (harga satuan kecil Rp1.500 dan kapal selam Rp10.000), Tribun Sumsel 31 Juli 2026 soal pedagang pempek tumpah Pasar 16 Ilir yang tutup sementara, RMOL Sumsel 30 Juli 2026 soal polemik higienitas pempek tumpah dan bantahan pedagang, serta Tribun Sumsel 22 April 2026 soal omzet pempek tumpah. Catatan keterbatasan: halaman lagitren.id/tiktok hari ini hanya mengembalikan teks kerangka (daftar hashtag dirender lewat JavaScript), jadi tidak ada angka tren nasional yang bisa dikutip dan sengaja tidak dikarang. Momentum hari ini bertumpu pada bukti berita lokal bertanggal, bukan daftar tagar. Catatan keputusan: topik cuko mangkok vs sendok (17 Nov), drainase (16 Nov), Pasar Sekanak (15 Nov), Charming Events (14 Nov), beras SPHP (13 Nov) tidak diulang. Tiga baris trend_memory bertanggal 16 Nov 12:54 (trend_9691fd4151, trend_b59ee970a1, trend_4627ffd4a7) dan tiga kandidat 17 Nov (opt_dinda_A/B/C_1794877482) memakai tema serumpun tetapi belum pernah diproduksi; kandidat hari ini sengaja mengambil sudut baru berupa tenggat kenaikan harga awal Desember 2026 dan dicatat sebagai near_duplicate agar penalti kebaruan tetap jujur.",
+  "candidates": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+      "title": "Harga Sagu dan Cabai Rawit Melonjak, Bikin Produsen Pempek di Palembang Kelimpungan - Tribun Sumsel",
+      "evidence": "Terbit 2 November 2026 (foto bertanggal Senin 2/11/2026), dibaca 18 November 2026 pukul 08:12 WIB. Aminah, pemilik Pempek Cek Minah 7 Ulu sekaligus Ketua Paguyuban Kampung Kreatif Pempek Tanggo Rajo Cindo, menyebut harga sagu berubah dalam hitungan hari: sagu merek Dua Putri kemasan 50 kilogram kini Rp560 ribu padahal sebelumnya sekitar Rp450 ribu per karung, sedangkan sagu merek Dua Anak ukuran 50 kilogram dijual sekitar Rp980 ribu. Kenaikan juga terjadi pada cabai rawit untuk cuko, dan menurut informasi distributor kenaikan dikaitkan kondisi kemarau yang memengaruhi pasokan. Aminah mengaku belum menaikkan harga dan pempek ukuran kecil masih Rp1.000 per butir, tetapi mempertimbangkan penyesuaian harga mulai awal Desember 2026 dengan alasan biaya produksi dan upah karyawan. Perajin juga disebut meluncurkan varian ukuran jumbo untuk menekan pembengkakan modal.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-18T08:12:00+07:00",
+      "published_at": "2026-11-02T00:00:00+07:00",
+      "metrics": {
+        "sagu_dua_putri_50kg_sekarang": "Rp560.000",
+        "sagu_dua_putri_50kg_sebelumnya": "Rp450.000",
+        "sagu_dua_anak_50kg": "Rp980.000",
+        "harga_pempek_kecil": "Rp1.000 per butir",
+        "rencana_penyesuaian_harga": "awal Desember 2026"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari",
+      "title": "Kisah Owner Pempek Cek Tung, Berawal Promosikan di WA dan Grup FB Kini Produksi 1.000 Pempek Sehari - Tribun Sumsel",
+      "evidence": "Tayang Jumat 13 November 2026 pukul 16:38 WIB, dibaca 18 November 2026 pukul 08:14 WIB. Dewi Trisna, pemilik Pempek Cek Tung, memproduksi sampai 1.000 buah pempek campur per hari setelah lima tahun, dari sebelumnya sekitar 100 buah per hari. Bahan yang dipakai ikan kakap super dan produk dikemas frozen sehingga pembeli datang dari luar Sumatera Selatan. Daftar harga yang disebut: pempek kecil Rp1.500 per buah, pempek lenjer besar dan kapal selam masing-masing Rp10.000 per buah, tekwan Rp60.000 per kilogram lengkap bumbu, model tahu Rp55.000 per 10 buah, model isi telur dan bakso ayam masing-masing Rp65.000.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-18T08:14:00+07:00",
+      "published_at": "2026-11-13T16:38:00+07:00",
+      "metrics": {
+        "harga_pempek_kecil": "Rp1.500 per buah",
+        "harga_kapal_selam": "Rp10.000 per buah",
+        "harga_tekwan": "Rp60.000 per kg",
+        "produksi_harian": "1.000 buah",
+        "pengiriman": "frozen ke luar Sumsel"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1025138/imbas-komentar-negatif-soal-pempek-tumpah-pedagang-di-pasar-16-palembang-terpaksa-tutup-sementara",
+      "title": "Imbas Komentar Negatif Soal Pempek Tumpah, Pedagang di Pasar 16 Palembang Terpaksa Tutup Sementara - Tribun Sumsel",
+      "evidence": "Terbit Jumat 31 Juli 2026, dibaca 18 November 2026 pukul 08:16 WIB. Video pempek tumpah Pasar 16 Ilir viral dan memicu komentar negatif; sejumlah penjual menghentikan aktivitas sementara karena pembeli menurun drastis. Pedagang Mega: biasanya habis 100 sampai 200 pempek sehari, sekarang hanya sekitar 50 pempek terjual dan sisanya menumpuk. Pedagang Mardi membantah komentar yang menyebut pempek bau atau berlendir: kami menjual pempek yang masih hangat. Artikel menyebut harapan pedagang agar Dinas Pariwisata memberi pembinaan kebersihan dan penataan area, dan tidak menyebut ada korban sakit maupun kenaikan harga.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-18T08:16:00+07:00",
+      "published_at": "2026-07-31T00:00:00+07:00",
+      "metrics": {
+        "penjualan_normal": "100-200 pempek per hari",
+        "penjualan_setelah_viral": "sekitar 50 pempek per hari",
+        "pedagang_tutup_sementara": true
+      }
+    },
+    {
+      "url": "https://www.rmolsumsel.id/viral-di-medsos-pedagang-dan-pemprov-sumsel-minta-pempek-tumpah-pasar-16-ilir-tak-digeneralisasi",
+      "title": "Viral di Medsos, Pedagang dan Pemprov Sumsel Minta Pempek Tumpah Pasar 16 Ilir Tak Digeneralisasi - RMOL Sumsel",
+      "evidence": "Terbit 30 Juli 2026 pukul 18:24 WIB, penulis Dudi Oskandar, dibaca 18 November 2026 pukul 08:17 WIB. Polemik berawal dari unggahan Threads yang menyebut pempek di kawasan itu beraroma tidak sedap dan kurang higienis; salah satu unggahan dari akun @lailadimyati mengimbau warga tidak lagi merekomendasikan Pempek Tumpah Pasar 16 Ilir kepada wisatawan luar daerah. Kemas Khoirul Mukhlis dari TGUPP Sumsel meminta tidak menggeneralisasi seluruh pedagang dan menilai kualitas pempek sangat dipengaruhi waktu penyajian. Pedagang Iyut membantah: tidak semua pedagang seperti itu, produk dan pembuatnya berbeda-beda, kami menjual pempek dengan bersih. Artikel ini murni soal kebersihan dan tidak memuat angka penjualan.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-18T08:17:00+07:00",
+      "published_at": "2026-07-30T18:24:00+07:00",
+      "metrics": {
+        "platform_kritik": "Threads",
+        "akun_pemicu": "@lailadimyati",
+        "respons_pemerintah": "TGUPP Sumsel, minta tidak digeneralisasi",
+        "bantahan_pedagang": true
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Pempek Seribuan Cuma Bertahan Sampai November: Desember Sagu Naik Rp110 Ribu per Karung",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek seribuan di Palembang ini kayaknya cuma bertahan sampai akhir November, karena sagu lima puluh kilo sudah naik dari Rp450 ribu ke Rp560 ribu.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan meja panjang pempek kecil di warung lorong, memegang selembar uang seribuan lalu menunjuk jejeran pempek, sambil menyebut harga sagu 50 kilogram naik dari Rp450 ribu jadi Rp560 ribu.",
+        "Shot 2 (9s): Dinda menaruh satu kapal selam Rp10.000 di samping sepuluh pempek kecil seribuan dan menghitung dengan jari, lalu menoleh ke kamera dan bertanya penonton tetap di warung seribuan atau pindah ke pempek pabrikan kalau Desember benar naik."
+      ],
+      "sound": "Suara asli warung, tanpa musik, fokus suara pedagang menyebut harga",
+      "outfit": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+      "caption": "Pemilik warung pempek di 7 Ulu bilang harga seribuan masih bertahan sampai akhir November, padahal sagu 50 kilo sudah naik dari Rp450 ribu ke Rp560 ribu dan penyesuaian harga dipertimbangkan awal Desember. Kalau benar naik, kalian tetap setia di warung lorong atau pindah ke pempek pabrikan? #pempek #pempekseribuan #hargapangan #kulinerpalembang #palembang",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+        "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari"
+      ],
+      "factors": {
+        "pain_point_intensity": 9.0,
+        "actionable_solution": 8.5,
+        "local_relevance": 9.5,
+        "momentum": 8.0,
+        "evidence_strength": 9.0,
+        "risk_safety": 8.5
+      },
+      "why": "Sudut paling tajam dan paling baru: harga sagu 50 kilogram naik Rp110 ribu per karung dan penyesuaian harga pempek dipertimbangkan mulai awal Desember 2026, jadi ada tenggat nyata. Kelemahannya dua. Pertama, kebaruannya kena penalti karena dua topik serumpun sudah ada di bank memori (lorong seribuan vs tempat viral, dan seribuan lorong vs toko oleh-oleh), sehingga sudutnya harus diakui sebagai lanjutan, bukan ide segar. Kedua, kenaikan harga Desember masih berupa rencana pemilik warung, bukan kepastian, jadi video berisiko kedaluwarsa bila harga ternyata tidak naik.",
+      "near_duplicate_ids": ["trend_b59ee970a1", "opt_dinda_B_1794877482"],
+      "claim_note": "Angka Rp450 ribu ke Rp560 ribu, Rp980 ribu untuk merek Dua Anak, dan rencana penyesuaian awal Desember berasal dari Tribun Sumsel 2 November 2026 dan harus disebut sebagai rencana, bukan kepastian. Harga Rp10.000 kapal selam dan Rp1.500 pempek kecil berasal dari Tribun Sumsel 13 November 2026 soal Pempek Cek Tung. Jangan menyebut warung mana pun sebagai penipu, jangan mengarang kenaikan harga yang belum terjadi, dan jangan memakai data PIHPS nasional sebagai harga Palembang."
+    },
+    {
+      "code": "B",
+      "title": "Hidden Gem Lorong 7 Ulu: Seribuan Sebiji dan Adonan Dibentuk di Depan Mata",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek di lorong 7 Ulu ini masih seribuan sebiji dan adonannya dibentuk langsung di depan kita, bukan di dapur tertutup.",
+      "shots": [
+        "Shot 1 (9s): Dinda berjalan masuk lorong menuju kedai pempek, kamera menyorot ibu-ibu membentuk lenjer di meja terbuka, lalu Dinda menerima satu pempek kecil dan menyerahkan uang seribuan.",
+        "Shot 2 (9s): Dinda mencicipi pempek dengan cuko di bangku kayu, menyebut pempek kecil di penjual frozen sekarang Rp1.500 dan kapal selam Rp10.000, lalu bertanya penonton pilih hidden gem lorong atau tempat rapi yang harganya lebih tinggi."
+      ],
+      "sound": "Ambience lorong dan dapur terbuka, tanpa musik",
+      "outfit": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+      "caption": "Di lorong 7 Ulu pempek kecil masih Rp1.000 sebiji dan adonannya dibentuk di depan pembeli, sementara penjual frozen sekarang memasang Rp1.500 untuk ukuran kecil dan Rp10.000 untuk kapal selam. Kalian tim lorong yang murah atau tim tempat rapi yang lebih mahal? #pempek #hiddengem #kulinerpalembang #palembang #jajananmurah",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+        "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari"
+      ],
+      "factors": {
+        "pain_point_intensity": 6.5,
+        "actionable_solution": 7.0,
+        "local_relevance": 9.5,
+        "momentum": 7.0,
+        "evidence_strength": 8.5,
+        "risk_safety": 8.0
+      },
+      "why": "Kandidat ini paling pas dengan perintah kerja hari ini karena memuat ketiga unsur sekaligus: hidden gem lorong 7 Ulu, kontras harga seribuan melawan Rp1.500 dan Rp10.000 di penjual frozen, dan penutup adu dua kubu tim lorong versus tim tempat rapi. Buktinya dua artikel bertanggal 2 dan 13 November 2026, tidak ada klaim yang perlu ditahan, dan tidak ada tuduhan terhadap pihak lain sehingga risikonya paling rendah. Kalau menang, ini menang karena kecocokan tema dan keamanan klaim, bukan karena momentum berita terkuat.",
+      "near_duplicate_ids": ["trend_b59ee970a1", "opt_dinda_B_1794877482"],
+      "claim_note": "Harga Rp1.000 per butir untuk pempek kecil di kedai 7 Ulu dan harga pembanding Rp1.500 serta Rp10.000 diambil dari dua artikel Tribun Sumsel bertanggal 2 dan 13 November 2026. Jangan mengklaim rasa lebih enak karena tidak ada uji rasa, dan jangan menuduh tempat mahal sebagai jebakan turis."
+    },
+    {
+      "code": "C",
+      "title": "Satu Komentar di Threads Bikin Lapak Pempek Tumpah Tutup: Siapa yang Salah?",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Satu komentar di Threads bikin lapak pempek tumpah Pasar 16 Ilir tutup sementara, padahal satu bijinya cuma seribu.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan deretan meja pempek tumpah Pasar 16 Ilir, menyebut satu biji Rp1.000 dan penjual biasanya habis 100 sampai 200 biji sehari.",
+        "Shot 2 (9s): Dinda duduk di bangku kecil, menyebut setelah komentar negatif di Threads penjualan turun jadi sekitar 50 biji dan sebagian lapak tutup, lalu bertanya penonton masuk tim kritik membangun atau tim jangan pukul rata pedagang kecil."
+      ],
+      "sound": "Ambience pasar, tanpa musik",
+      "outfit": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+      "caption": "Satu unggahan di Threads soal kebersihan bikin sebagian lapak pempek tumpah Pasar 16 Ilir tutup sementara, dan penjualan pedagang turun dari 100-200 biji jadi sekitar 50 biji sehari. Kalian tim kritik membangun atau tim jangan pukul rata pedagang kecil? #pempektumpah #palembang #kulinerpalembang #pasar16ilir #jajananpalembang",
+      "sources": [
+        "https://www.rmolsumsel.id/viral-di-medsos-pedagang-dan-pemprov-sumsel-minta-pempek-tumpah-pasar-16-ilir-tak-digeneralisasi",
+        "https://sumsel.tribunnews.com/palembang/1025138/imbas-komentar-negatif-soal-pempek-tumpah-pedagang-di-pasar-16-palembang-terpaksa-tutup-sementara"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.0,
+        "actionable_solution": 6.0,
+        "local_relevance": 9.0,
+        "momentum": 6.5,
+        "evidence_strength": 8.5,
+        "risk_safety": 6.0
+      },
+      "why": "Perdebatannya paling tajam dan paling lokal, tetapi peristiwanya sudah berumur tiga bulan dan solusinya tipis karena video ini tidak bisa menawarkan jalan keluar. Risiko pencemaran nama baik juga paling tinggi: kalau bantahan pedagang tidak disebut, video bisa dibaca sebagai tuduhan bahwa pempeknya memang tidak layak makan.",
+      "near_duplicate_ids": ["trend_4627ffd4a7", "opt_dinda_C_1794877482"],
+      "claim_note": "Angka penurunan 100-200 biji menjadi sekitar 50 biji berasal dari Tribun Sumsel 31 Juli 2026. Kritik kebersihan berasal dari unggahan Threads seperti dilaporkan RMOL Sumsel 30 Juli 2026 dan wajib disandingkan dengan bantahan pedagang serta pernyataan TGUPP. Jangan menyebut ada korban sakit, jangan menyebut nama akun sebagai sasaran, dan jangan menyebut merek lapak."
+    }
+  ]
+}
