@@ -58,7 +58,7 @@
       "id": "flow_2",
       "reported_monthly_credits": 1000,
       "balance_verified": true,
-      "verified_balance": 1036,
+      "verified_balance": 1050,
       "assigned_character": "isk",
       "target_resolution": "720p",
       "project_url": "https://flow.google.com/project/33b10f02-20fa-4df2-87c3-ca4696d342c6",
@@ -68,9 +68,9 @@
       "email": "coralgaming88@gmail.com",
       "chrome_profile_label": "Coral Gaming (FLOW)",
       "subscription_tier_observed": "PRO",
-      "balance_verified_at": "2026-11-18T10:37:49+07:00",
+      "balance_verified_at": "2026-11-18T10:56:19+07:00",
       "project_title": "intansuarkartika",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-18T10:37:49+07:00: 1036 kredit Google Flow (intansuarkartika)."
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-18T10:56:19+07:00: 1050 kredit Google Flow (intansuarkartika)."
     },
     {
       "id": "flow_3",
@@ -86,10 +86,10 @@
       "email": "pemuda112200@gmail.com",
       "chrome_profile_label": "Pemuda (FLOW)",
       "subscription_tier_observed": "PRO",
-      "balance_verified_at": "2026-11-18T10:37:49+07:00",
+      "balance_verified_at": "2026-11-18T10:56:19+07:00",
       "credits_reset_label_as_displayed": "3 Des pukul 20.43",
       "project_title": "bang_ray",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-18T10:37:49+07:00: 976 kredit Google Flow (bang_ray).",
+      "balance_source": "Sinkronisasi CDP otomatis 2026-11-18T10:56:19+07:00: 976 kredit Google Flow (bang_ray).",
       "observed_generation_settings": {
         "model_family": "Omni 1.2 Flash",
         "mode": "video",
