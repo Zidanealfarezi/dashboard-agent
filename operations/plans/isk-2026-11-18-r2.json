@@ -1,0 +1,113 @@
+{
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 16.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "paku cap keris",
+    "standar mutu manufaktur dan ekspor PT Intan Suar Kartika Medan",
+    "edukasi material bangunan"
+  ],
+  "role_reason": "Rotasi pilar: pilar Paku Cap Keris paling lama tidak tayang terverifikasi (17 Nov Kawat Licin Diamond, 16 Nov Kawat Duri Diamond). Formatnya uji ketahanan fisik sesuai standar slot hari ini, dengan sudut kamera rendah sejajar balok dan dua paku berturut-turut agar berbeda dari close-up satu paku 14 November.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji pukul dua paku di balok merbau keras, kamera rendah sejajar balok",
+      "opening": "Sejak 0.0s kardus Paku Cap Keris berdiri di ujung kanan balok, palu di tangan kanan dan satu paku sudah dipegang tegak di tangan kiri",
+      "camera": "Smartphone handheld setinggi lutut, sedikit menengadah ke balok di atas kuda-kuda kayu, goyangan natural",
+      "core_action": "Paku pertama dipukul lima kali sampai kepala rata tanpa kayu pecah lalu paku kedua di sebelahnya juga rata dan lurus",
+      "closing": "Jari menunjuk label kardus lalu menatap lensa dan bicara satu kalimat penutup",
+      "risk": "Dua paku dan kardus wajib sudah terlihat sejak detik 0.0s dan tidak boleh hilang atau bergeser bentuk"
+    },
+    {
+      "id": "B",
+      "format": "Uji cabut paku dengan claw hammer setelah dipukul rata",
+      "opening": "Paku yang sudah tertanam rata dicengkeram claw hammer di depan kamera",
+      "camera": "Medium close-up handheld setinggi dada",
+      "core_action": "Paku dicabut utuh lalu ditunjukkan batangnya tetap lurus",
+      "closing": "Paku diangkat di depan label kardus",
+      "risk": "Gerak mencabut benda kecil rawan cacat AI dan paku bisa berubah bentuk atau hilang di tengah klip"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi membandingkan paku kiloan dan paku Cap Keris di dua balok",
+      "opening": "Dua balok berdampingan dengan dua paku berbeda sudah terpasang",
+      "camera": "Top-down statis dari atas meja kerja",
+      "core_action": "Tukang memukul kedua paku bergantian sampai satu bengkok",
+      "closing": "Jari menunjuk paku yang tetap lurus",
+      "risk": "Dua produk dalam satu frame mirip tema trik toko nakal dan rawan kontinuitas serta klaim merek lain"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Pembuka langsung memperlihatkan kardus produk dan paku yang siap dipukul sehingga hook terbukti tanpa caption, hanya satu lokasi satu take, dan hasilnya diperiksa jelas dari frame awal sampai akhir: dua kepala paku rata dan batang tetap tegak.",
+    "history_checked": "Riwayat operasional terverifikasi: 17 Nov Kawat Licin Diamond tes lentur (tayang), 16 Nov Kawat Duri Diamond pagar kebun (tayang), 15 Nov Kereta Sorong Five Star jalan becek (state unknown), 14 Nov Paku Cap Keris balok kayu keras (tidak tayang), 13 Nov Kawat Duri Diamond ditarik kencang (tayang). Lima slot terakhir yang tersedia dipakai sebagai riwayat."
+  },
+  "title": "Paku Cap Keris Dipukul Rata di Balok Kayu Keras Tetap Tegak",
+  "hook": "Paku murah baru tiga palu sudah bengkok dan kerjaan kayu harus diulang",
+  "story": "Tukang kayu berdiri di belakang kuda-kuda kayu di halaman bengkel sederhana pada siang terang. Sejak detik 0.0s kardus Paku Cap Keris sudah berdiri di ujung kanan balok merbau keras, palu besi di tangan kanan dan satu paku sudah dipegang tegak di tangan kiri. Ia memukul paku pertama lima kali sampai kepala rata tanpa kayu pecah, lalu memukul paku kedua di sebelahnya sampai rata juga. Di akhir ia menunjuk label kardus, menatap kamera, dan mengajak menyimpan video sebagai acuan beli.",
+  "caption": "Paku murah bengkok di pukulan ketiga bikin kerjaan kayu harus diulang dari awal. Dipukul ke balok kayu keras Paku Cap Keris tetap lurus sampai kepala rata, ukuran yang pas buat proyek kamu bisa tanya lewat DM.\n#pakucapkeris #kayukeras #tukangkayu #materialbangunan #proyekkonstruksi",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/paku_cap_keris_box_reference.jpg (kardus kraft horizontal bertuliskan PAKU EXPORT QUALITY dengan tipografi hijau tua, ilustrasi keris, dan cap CAP KERIS). Tidak membuat master wajah baru; tukang kayu digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "creative": {
+    "character": "Tukang kayu Indonesia pria 35 tahun, kemeja kerja olive berdebu dengan lengan digulung sampai siku, celana kerja gelap, sarung tangan kulit kerja abu-abu lusuh",
+    "background": "Halaman bengkel kayu semi terbuka di Medan, kuda-kuda kayu rendah, dinding beton polos dan tumpukan balok di latar belakang yang tidak tajam, cahaya siang alami dari samping",
+    "action": "Memukul dua Paku Cap Keris berturut-turut ke balok merbau keras sampai kedua kepala paku rata tanpa kayu pecah dan tanpa paku bengkok",
+    "selection_reason": "Uji pukul langsung adalah bukti paling mudah diperiksa bahwa paku tidak bengkok di kayu keras, dan sudut kamera rendah membuat posisi kepala paku terlihat jelas sepanjang klip",
+    "dialogue": "Kerja kayu keras jangan asal pilih paku. Paku murah baru tiga palu sudah bengkok. Paku Cap Keris dipukul lurus sampai kepala rata batangnya tetap tegak. Simpan video ini buat acuan beli.",
+    "dialogue_start_seconds": 0.3,
+    "dialogue_read_seconds": 9.0,
+    "action_end_seconds": 11.6
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 42,
+    "references_attached": 1,
+    "verified_from": "Sesi Flow flow_2 18 Nov 10.03 WIB menampilkan Video 360p 12 dtk crop_9_16 x1 dan saldo 760 kredit; biaya 14 kredit mengikuti job 12 dtk 360p flow_2 yang sama pada 17 Nov"
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 12 seconds, one continuous shot, shot on smartphone vlog camera at 24fps with a slight natural handheld sway, camera low near knee height behind a low wooden sawhorse in a semi-open carpentry yard in Medan, angled slightly upward toward a hardwood beam with a plain concrete wall and stacked timber in soft background shadow. An Indonesian male carpenter about 35 years old, in a dusty olive work shirt with sleeves rolled to the elbow, dark work trousers and worn grey leather work gloves, stands behind the sawhorse; only his torso, arms and gloved hands are needed in frame. The attached reference image is the official product photo of Paku Cap Keris: a brown kraft cardboard box printed PAKU EXPORT QUALITY with dark green typography and a keris illustration. Already visible at 0.0s and staying in frame until the last frame: that same kraft box standing upright at the right end of the beam with its printed label facing the camera, one dark merbau hardwood beam 10 by 10 centimetres laid across the sawhorse, one steel claw hammer gripped in his right gloved hand, one nail held upright between the thumb and index finger of his left gloved hand on the beam, and three loose nails of the same type lying on the beam beside the box. Those are the only props; no other tool, nail, wood, person, animal or material may appear, fall, float, grow or disappear at any moment, and the box label must keep the same shape and colours. BEATS: from 0.0s to 3.0s he holds the first nail upright on the beam and speaks Indonesian with accurate lip sync, \\\"Kerja kayu keras jangan asal pilih paku. Paku murah baru tiga palu sudah bengkok.\\\" From 3.0s to 5.6s he drives that nail with five firm straight hammer blows, the nail sinks smoothly and vertically into the hardwood until the head sits flush, the beam does not split and the nail does not bend, tilt or wobble. From 5.6s to 8.4s he sets the second nail a hand-width to the left and drives it with five more firm straight blows until its head is flush too, still speaking, \\\"Paku Cap Keris dipukul lurus sampai kepala rata batangnya tetap tegak.\\\"; both nail heads stay flush and both shanks stay straight. From 8.4s to 10.4s he lowers the hammer to his side, presses two gloved fingertips on the two flush heads in turn and nods once, saying, \\\"Simpan video ini buat acuan beli.\\\" From 10.4s to 11.6s he points his free index finger at the printed box label and looks into the lens; the final 0.4s holds cleanly on the box and the beam with both flush nails. Ambient workshop sound only: light yard room tone, five crisp metallic hammer strikes per nail, one soft wooden thud as the hammer rests, no music, no voiceover other than his spoken lines. Natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame with no baked-in text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo overlay other than the product label printed on the box. Keep his hands, gloves, shirt, the hammer, the beam, the nails and the box consistent in every frame."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://materialbahanbangunan.com/2021/03/19/memilih-paku-dan-kawat-berkualitas/",
+      "title": "Memilih Paku dan Kawat Berkualitas, Toko Bangunan Depok",
+      "observed_at": "2026-11-18T10:04:00+07:00",
+      "evidence": "Artikel ini menyebut paku yang kurang berkualitas bengkok setelah tiga kali palu sehingga pukulan keempat patah dan pekerjaan harus diulang, lalu menyarankan uji sederhana: palu beberapa merek paku di sebatang kayu yang agak keras untuk melihat mana yang tetap lurus."
+    },
+    {
+      "url": "https://www.megabaja.co.id/cara-memasang-paku-di-kayu-keras-dengan-mudah-tanpa-retak/",
+      "title": "Cara Memasang Paku di Kayu Keras dengan Mudah Tanpa Retak, Mega Baja",
+      "observed_at": "2026-11-18T10:04:00+07:00",
+      "evidence": "Artikel ini menyatakan paku berbahan baja keras tidak mudah bengkok atau patah saat dipasang, dan risiko paku bengkok maupun patah meningkat bila material paku tidak memenuhi standar saat memaku kayu keras."
+    },
+    {
+      "url": "https://jasatukang.co.id/tips-memilih-paku-untuk-material-kayu/",
+      "title": "Tips Memilih Paku untuk Material Kayu, Jasa Tukang",
+      "observed_at": "2026-11-18T10:04:00+07:00",
+      "evidence": "Panduan ini menulis kayu keras membutuhkan paku yang lebih tebal agar tidak mudah bengkok dan paku sebaiknya dipasang tegak lurus terhadap permukaan kayu agar tekanan tersebar merata."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, atau laboratorium. Ketiga sumber dipakai sebagai konteks masalah paku bengkok di kayu keras, bukan klaim uji resmi. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM."
+}
