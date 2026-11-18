@@ -1,0 +1,69 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Potongan Timbangan RAM PKS Akibat Tangkai TBS Kelapa Sawit Kepanjangan",
+  "hook": "Potongan timbangan RAM sampai tiga persen cuma gara-gara tangkai TBS lewat lima senti itu rugi bersih jutaan per truk.",
+  "story": "Pak Vincent berdiri di tepi jalan poros tanah kebun sawit Riau dengan latar pelepah sawit di pagi hari. Memakai jersey vintage biru Samsung Chelsea dan topi baseball gelap. Di tangannya terlihat tandan buah segar (TBS) kelapa sawit dengan tangkai pendek yang sudah dipangkas rapi bentuk mangkok/cangkir. Ia bicara ramah dan lugas khas Riau mengingatkan kawan-kawan pekebun agar memotong tangkai TBS mepet ke pangkal buah saat panen agar tidak terkena potongan penalti timbangan di RAM atau PKS.",
+  "caption": "Potongan timbangan RAM sampai tiga persen cuma gara-gara tangkai TBS lewat lima senti itu rugi jutaan per truk kawan. Pangkas tangkai mepet bentuk cangkir sebelum masuk bak langsir biar timbangan bersih diterima full, kawan-kawan di RAM langganan kena potongan berapa persen?\n#kebunsawit #panensawit #petanisawit #timbangansawit #tbs #riau",
+  "hashtags": [
+    "#kebunsawit",
+    "#panensawit",
+    "#petanisawit",
+    "#timbangansawit",
+    "#tbs",
+    "#riau"
+  ],
+  "image_prompt": "Aset master terverifikasi Pak Vincent: Pak Vincent Karakter, pakvincent_three_expression_sheet.jpg (wajah) dan pakvincent_fullbody_turnaround.jpg (postur dan jersey biru Chelsea). Properti: tandan buah segar (TBS) sawit dengan tangkai terpotong pendek rapi.",
+  "role_tags": [
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)",
+    "efisiensi biaya kebun dan pupuk mahal (jarak tabur piringan 1.5 meter, pemupukan musim trek, perawatan piringan)",
+    "perjuangan motor langsir 400 kg melibas jalur lumpur poros tanah merah dan solidaritas pekerja kebun Riau"
+  ],
+  "role_reason": "Topik potongan timbangan RAM PKS adalah titik sakit finansial nomor satu petani sawit swadaya di Riau. Peringatan tangkai buah panjang (gagang bendera) yang dipotong mepet adalah tips praktis berdampak langsung pada kantong petani.",
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [10],
+    "estimated_credits_displayed": 35,
+    "references_attached": 3,
+    "verified_from": "Sesi Flow flow_5 port 9334: Video 720p 10 dtk crop_9_16 x1 dengan saldo 906 kredit"
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of the 35-year-old Indonesian man shown in all attached reference images: Pak Vincent character and expression sheet fix his FACE IDENTITY (match face shape, nose, eyes, thin mustache, hairline and apparent age exactly), and full-body turnaround fixes POSTURE and CLOTHING (vintage royal blue sports jersey with white sponsor text, dark shorts, dark baseball cap, rubber work sandals, lean wiry sun-tanned build 168 cm, weathered matte skin with fine pores). Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 10 seconds, one continuous take, camera static at chest height in a natural handheld vlog angle. Location: sunny morning beside an oil palm plantation in Riau with dirt road and green palm fronds softly blurred in background. PROP CONTINUITY: he holds a freshly harvested oil palm fresh fruit bunch (TBS) with a neatly trimmed short stalk (V-cut stalk under 2 cm) resting on a clean wooden log beside him; from 0.0s to the final frame he points with his right hand to the short stalk, explaining with friendly and earnest Indonesian lip sync: \"Tangkai TBS kepanjangan itu dipotong tiga persen di timbangan RAM kawan. Pangkas mepet bentuk cangkir biar hasil panen gak terbuang sia-sia.\" His expression is warm, sincere, and brotherly, nodding slightly as he talks directly into the camera lens. Ambient outdoor plantation sound: distant rustling palm leaves and gentle breeze, no music, no artificial voiceover. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores and real micro-texture, no plastic shine, no waxy skin, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero logo.",
+      "dialogue": "Tangkai TBS kepanjangan itu dipotong tiga persen di timbangan RAM kawan. Pangkas mepet bentuk cangkir biar hasil panen gak terbuang sia-sia.",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 9.0,
+      "action_end_seconds": 9.8
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sawitindonesia.com/kriteria-grading-tbs-di-pabrik-kelapa-sawit/",
+      "title": "Kriteria Grading TBS di Pabrik Kelapa Sawit",
+      "observed_at": "2026-11-18T10:00:00+07:00",
+      "evidence": "Tangkai TBS sawit melebihi 2.5 hingga 5 cm dikategorikan tangkai panjang (gagang bendera) dan dikenakan penalti potongan timbangan 1-3 persen dari total tonase truk."
+    },
+    {
+      "url": "https://distan.riau.go.id/penetapan-harga-tbs-kelapa-sawit-provinsi-riau",
+      "title": "Pedoman Tata Niaga dan Kualitas TBS Kelapa Sawit Pekebun Riau",
+      "observed_at": "2026-11-18T10:02:00+07:00",
+      "evidence": "Pemotongan gagang buah sawit berbentuk cangkir atau mepet pangkal memaksimalkan rendemen CPO dan menghindarkan petani swadaya dari potongan berat di loading ramp RAM."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Edukasi praktis petani kelapa sawit Riau mengenai teknik pemotongan tangkai TBS saat panen untuk mencegah penalti potongan timbangan RAM PKS."
+}
