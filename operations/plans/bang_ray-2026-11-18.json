@@ -1,0 +1,69 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Sambungan Pipa PVC Tee 90 Derajat Bikin Aliran Air Mandi Balik dan Mampet",
+  "hook": "Kamar mandi bau got atau mampet berulang itu sering bukan salah kotoran rambut, tapi jalur pipa buang dipasang sambungan Tee tegak lurus.",
+  "story": "Bang Ray berjongkok di lantai kerja proyek rumah tinggal di Banda Aceh dengan dua sambungan pipa PVC di tangannya: satu sambungan Tee siku 90 derajat dan satu sambungan Y atau TY 45 derajat. Sejak detik 0.0s kedua fitting pipa sudah terlihat jelas di tangannya. Ia memperlihatkan bagaimana sambungan Tee membuat arus air menabrak dinding pipa dan menimbulkan endapan serta bau balik, lalu menunjukkan fitting Y yang mengalirkan air landai searah gravitasi. Ia menutup dengan mengajak penonton memeriksa jalur pipa rumah masing-masing sebelum lantai dikeramik.",
+  "caption": "Kamar mandi bau got atau mampet berulang sering bukan salah kotoran rambut tapi jalur pipa buang dipasang sambungan Tee tegak lurus. Tukang senior wajib pakai fitting Y atau double elbow empat puluh lima derajat biar kotoran lancar tanpa endapan, di rumah kalian jalur pipa buangnya pakai model apa?\n#tipskonstruksi #pipapvc #plumbing #renovasirumah #tukangbangunan #bandaaceh",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#pipapvc",
+    "#plumbing",
+    "#renovasirumah",
+    "#tukangbangunan",
+    "#bandaaceh"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah dan FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja. Properti: dua fitting pipa PVC abu-abu (satu Tee 90 derajat dan satu Y 45 derajat) di atas lantai semen plester proyek.",
+  "role_tags": [
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "keseharian praktisi bangunan Banda Aceh dan edukasi renovasi rumah hemat tanpa tipu-tipu"
+  ],
+  "role_reason": "Topik instalasi sanitasi dan pipa PVC adalah pilar kedua yang paling diminati pemilik rumah dan tukang. Dua fitting pipa dipegang langsung sejak detik 0.0s tanpa alat berbahaya, visualnya kontras dan jelas terbaca dalam satu take 15 detik.",
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 42,
+    "references_attached": 2,
+    "verified_from": "Sesi Flow flow_3 port 9335: Video 720p 15 dtk crop_9_16 x1 dengan saldo 976 kredit"
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in both attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), and the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores). Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at waist height in a three-quarter side angle with very slight natural handheld sway. Location: clean unfinished bathroom floor with rough concrete screed in a house under renovation in Banda Aceh, soft morning daylight from an open window. PROP CONTINUITY: exactly two objects exist in frame from 0.0s to the last frame, one grey PVC Tee fitting (90-degree T-joint) held in his left hand and one grey PVC Wye fitting (45-degree Y-joint) held in his right hand; no other tool, pipe, person or animal may appear, fall, float or vanish at any moment, and both PVC fittings stay in his hands for the entire shot. BEATS: at 0.0s he already holds both grey PVC fittings toward the camera and speaks Indonesian with accurate lip sync, \"Kamar mandi mampet dan bau got itu sering bukan salah rambut.\"; from 3.5s he lifts the Tee fitting in his left hand and gestures with his finger showing the harsh 90-degree angle, saying, \"Kalau pakai sambungan Tee siku tegak lurus kotoran nabrak dinding pipa dan bikin endapan kerak.\"; from 8.8s he lowers the Tee fitting, holds up the 45-degree Y fitting in his right hand, nods with a friendly reassuring expression and says, \"Ganti sambungan Y atau double elbow empat puluh lima derajat biar aliran air lancar. Simpan video ini.\"; the final 0.6s holds cleanly on him presenting the Y fitting. Ambient workshop room tone only: soft breeze, quiet indoor daylight, no music, no voiceover other than his spoken lines. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores and real micro-texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero logo. Keep his face, clothing, watch, both fittings and the background consistent in every frame.",
+      "dialogue": "Kamar mandi mampet dan bau got itu sering bukan salah rambut. Kalau pakai sambungan Tee siku tegak lurus kotoran nabrak dinding pipa dan bikin endapan kerak. Ganti sambungan Y atau double elbow empat puluh lima derajat biar aliran air lancar. Simpan video ini.",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 13.8,
+      "action_end_seconds": 14.4
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.kompas.com/properti/read/2023/11/08/penyebab-pipa-pembuangan-air-kotor-sering-tersumbat",
+      "title": "Penyebab Pipa Pembuangan Air Kotor Sering Tersumbat dan Bau",
+      "observed_at": "2026-11-18T10:00:00+07:00",
+      "evidence": "Penggunaan sambungan belokan tajam 90 derajat pada saluran pipa air kotor menyebabkan laju air melambat drastis dan endapan sabun menumpuk, sehingga disarankan memakai sambungan sudut 45 derajat atau fitting Y."
+    },
+    {
+      "url": "https://artikel.rumah123.com/cara-mengatasi-pipa-pembuangan-air-mampet/",
+      "title": "Standar Pemasangan Pipa Sanitasi Rumah",
+      "observed_at": "2026-11-18T10:01:00+07:00",
+      "evidence": "Kemiringan pipa minimal 1-2 persen dan sambungan Y-branch membantu aliran gravitasi lancar tanpa turbulensi yang memicu bau kembali ke floor drain."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Edukasi sanitasi pipa buang PVC berbasis standar instalasi plambing rumah tangga; tidak menyebut merek tertentu dan ajakan diarahkan untuk menyimpan video."
+}
