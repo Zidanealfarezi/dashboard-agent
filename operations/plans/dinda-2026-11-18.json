@@ -1,0 +1,67 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "hidden gem vs jebakan turis (lorong pempek murah asli wong kito, perbandingan rasa dan harga)"
+  ],
+  "role_reason": "Topik terpilih dari bank tren hari ini (sel_dinda_2026-11-18_morning, skor 9,9, decided_by pm_autonomous) adalah hidden gem lorong pempek murah melawan harga tempat rapi. Ini pilar kedua profil Dinda dan yang paling pas dengan perintah kerja hari ini karena memuat tiga unsur sekaligus: hidden gem lorong 7 Ulu, kontras harga seribuan melawan Rp1.500 dan Rp10.000 di penjual frozen, dan penutup adu dua kubu tim lorong versus tim tempat rapi. Bukti berasal dari dua artikel Tribun Sumsel bertanggal 2 dan 13 November 2026 yang sama-sama menyebut angka harga eksplisit, sehingga klaim harga bisa dipertanggungjawabkan tanpa tuduhan terhadap pihak mana pun. Format dua kubu hanya butuh satu pempek kecil di tangan dan satu meja adonan di latar, jadi muat dalam satu klip 12 detik tanpa properti tambahan. Momentum dinilai 7,0 secara jujur karena beritanya bukan hari ini; kemenangan kandidat ini berasal dari kecocokan tema dan keamanan klaim, bukan dari lonjakan berita.",
+  "title": "Hidden Gem Lorong 7 Ulu: Pempek Seribuan Dibentuk di Depan Mata",
+  "hook": "Pempek di lorong tujuh Ulu ni masih seribuan sebiji, padahal sagu lima puluh kilo sudah naik.",
+  "story": "Dinda berdiri di mulut lorong 7 Ulu, Palembang, pagi dengan cahaya mendung netral. Sejak frame pertama ia sudah memegang satu pempek kecil goreng di antara ibu jari dan telunjuk, memperlihatkannya ke kamera, lalu menyebut bahwa di lorong ini pempek kecil masih seribu rupiah sebiji. Ia menoleh sedikit ke belakang, dan di meja kayu terbuka terlihat tangan seorang ibu sedang membentuk lenjer dari adonan, jadi pembeli melihat langsung prosesnya. Setelah itu ia mengangkat dua jari dan menyebut pembanding harga di penjual frozen: ukuran kecil seribu lima ratus, kapal selam sepuluh ribu. Ia menutup dengan menoleh penuh ke lensa dan bertanya penonton masuk tim lorong yang murah atau tim tempat rapi yang lebih mahal. Adegan harian di lorong, belum canon.",
+  "caption": "Di lorong 7 Ulu pempek kecil masih Rp1.000 sebiji dan adonannya dibentuk langsung di depan pembeli, sementara penjual frozen sudah pasang Rp1.500 untuk ukuran kecil dan Rp10.000 untuk kapal selam. Kalian tim lorong yang murah atau tim tempat rapi yang lebih mahal?\n#pempek #hiddengem #kulinerpalembang #palembang #jajananmurah",
+  "image_prompt": "Vertical 9:16 frame sumber 360p. Dinda Kemala, perempuan Indonesia modest 165 cm, pashmina jersey coklat tua terlipat rapi, kemeja linen krem oversize terbuka dengan dalaman coklat tua dimasukkan ke celana, palazzo wide-leg pleated coklat tua high-waisted, kalung liontin bulat emas kecil, sepatu sneakers putih bersih, berdiri di mulut lorong kampung 7 Ulu Palembang, memegang satu pempek kecil goreng di tangan kanan, latar meja kayu tempat adonan pempek dibentuk, atap seng dan dinding cat pudar, cahaya pagi mendung netral 5500K, pori-pori kulit terlihat, tanpa plastic atau waxy skin, tanpa teks di frame.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "selection_reason": "Auto-Stylist memilih satu busana aktif dari character_wardrobe yang belum dipakai hari ini dan paling lama istirahat: pemakaian terakhir 16 November 2026, sementara striped taupe cardigan dipakai 17 November dan mocha linen 15 November. Busana ini punya dua foto master 9:16 (close-up dan full-body) sehingga bisa dipasang sebagai chip referensi outfit di komposer Flow. Baris wardrobe baru hari ini (outfit_dinda_pagi_20261118 Mocha Earth-Tone Linen dan outfit_dinda_malam_20261118 Chocolate Chunky Knit) masih berstatus incomplete tanpa close-up maupun full-body, jadi belum bisa menjadi acuan visual. Warna krem dan coklat tua netral, cocok dengan latar lorong dan tidak menabrak warna cuko."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [3, 4, 6, 7, 8, 10, 12, 14, 15, 16, 18, 20],
+    "estimated_credits_displayed": 14,
+    "verified_from": "scripts/sync_flow_status.js --character dinda --navigate-home --ensure-360p pada 18 November 2026 09.01 WIB: flow_1 tersambung, saldo 309 kredit, pill 'Video · 360p · 12s crop_9_16 x1'. Model dan biaya dicocokkan ulang di panel komposer sebelum submit."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION, image three is the outfit reference for CLOTHING (light cream oversized linen button-up shirt open over a tucked-in chocolate brown inner top, chocolate brown high-waisted pleated wide-leg palazzo trousers, neat chocolate brown jersey pashmina, small gold round pendant necklace, clean white sneakers). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, filmed on a phone at 24fps with slight natural handheld sway at chest height about one and a half metres away, three-quarter angle. Location: the mouth of a narrow village alley in 7 Ulu Palembang on an overcast morning, faded painted walls, corrugated metal roof edge, a parked motorbike softly blurred behind her, one older woman's hands working dough at a low wooden table a few metres behind her right shoulder. PROP CONTINUITY RULE: from frame 0.0s one single small fried pempek sits pinched between her right thumb and index finger, and that one pempek stays in her hand or is set down only at the very end; the low wooden table behind her already holds a tray of raw pale pempek dough pieces from frame 0.0s; nothing appears, grows, floats, multiplies or disappears mid-take. BEATS: from 0.0s to 3.2s she holds the small pempek up to the lens at chest height and says in Indonesian, \\\"Pempek di lorong tujuh Ulu ni masih seribuan sebiji\\\"; from 3.2s to 6.4s she turns her shoulders slightly so the open table behind her is visible while the older woman's hands keep forming a lenjer, and she says, \\\"Adonannya dibentuk di depan kita\\\"; from 6.4s to 9.6s she faces the lens again and lifts her left hand with two fingers raised, saying, \\\"Di penjual frozen yang kecil seribu lima ratus, kapal selam sepuluh ribu\\\"; from 9.6s to 12.0s she lowers her hand, looks straight into the lens with a small challenging smile and asks, \\\"Kalian tim lorong atau tim tempat rapi?\\\". Lips move in sync with her Indonesian speech, natural micro-expressions, no lip-sync drift. Shot on smartphone vlog camera, natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, real alley ambience and natural speech audio. Completely clean frame: no on-screen text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo, no readable writing on packaging, signage or banners. No cut, no zoom and no camera movement beyond small handheld drift.",
+      "dialogue": "Pempek di lorong tujuh Ulu ni masih seribuan sebiji. Adonannya dibentuk di depan kita. Di penjual frozen yang kecil seribu lima ratus, kapal selam sepuluh ribu. Kalian tim lorong atau tim tempat rapi?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.9,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+      "title": "Harga Sagu dan Cabai Rawit Melonjak, Bikin Produsen Pempek di Palembang Kelimpungan - Tribun Sumsel",
+      "observed_at": "2026-11-18T08:12:00+07:00",
+      "evidence": "Terbit 2 November 2026, dibaca 18 November 2026 pukul 08.12 WIB. Aminah, pemilik Pempek Cek Minah 7 Ulu sekaligus Ketua Paguyuban Kampung Kreatif Pempek Tanggo Rajo Cindo, menyebut sagu merek Dua Putri kemasan 50 kilogram kini Rp560 ribu dari sebelumnya sekitar Rp450 ribu, sementara sagu Dua Anak 50 kilogram dijual sekitar Rp980 ribu. Aminah mengaku belum menaikkan harga dan pempek ukuran kecil masih Rp1.000 per butir, tetapi mempertimbangkan penyesuaian harga mulai awal Desember 2026 karena biaya produksi dan upah karyawan."
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari",
+      "title": "Kisah Owner Pempek Cek Tung, Berawal Promosikan di WA dan Grup FB Kini Produksi 1.000 Pempek Sehari - Tribun Sumsel",
+      "observed_at": "2026-11-18T08:14:00+07:00",
+      "evidence": "Tayang Jumat 13 November 2026 pukul 16.38 WIB, dibaca 18 November 2026 pukul 08.14 WIB. Dewi Trisna, pemilik Pempek Cek Tung, memproduksi sampai 1.000 buah pempek campur per hari dan mengemas produknya frozen sehingga pembeli datang dari luar Sumatera Selatan. Daftar harga yang disebut: pempek kecil Rp1.500 per buah, pempek lenjer besar dan kapal selam masing-masing Rp10.000 per buah, tekwan Rp60.000 per kilogram lengkap bumbu."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Angka Rp1.000 per butir untuk pempek kecil di kedai lorong 7 Ulu berasal dari Tribun Sumsel 2 November 2026 (Pempek Cek Minah 7 Ulu). Angka pembanding Rp1.500 untuk ukuran kecil dan Rp10.000 untuk kapal selam berasal dari Tribun Sumsel 13 November 2026 soal Pempek Cek Tung yang menjual frozen. Tidak ada uji rasa, jadi video tidak mengklaim rasa lebih enak; tidak ada tuduhan bahwa tempat mahal adalah jebakan turis. Kenaikan sagu disebut sebagai latar, bukan alasan resmi harga hari ini.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 360p, 9:16, output 1, 3 referensi gambar: face sheet, body reference, outfit fullbody). Frame mentah wajib bersih dari teks/HUD; upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 lalu subtitle editorial_tiktok dua tingkat tanpa koma dibakar lokal oleh app.media.assemble_character_video, musik lo-fi akustik 15 persen dengan vokal 100 persen, tanpa outro brand. Tidak ada retry berbayar otomatis."
+}
