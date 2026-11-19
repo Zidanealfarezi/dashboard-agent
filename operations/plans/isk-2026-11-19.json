@@ -1,0 +1,105 @@
+{
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 16.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "solusi praktis mandor dan toko bangunan (pagar kebun tahan karat, kereta sorong medan berat)"
+  ],
+  "role_reason": "Rotasi pilar: 18 November memakai Paku Cap Keris, 17 November Kawat Licin Diamond, 16 November Kawat Duri Diamond, sehingga pilar yang paling lama tidak tampil adalah Kereta Sorong Five Star (15 November). Formatnya uji ketahanan fisik berbeda dari 15 November yang memakai jalan becek datar: kali ini muatan batu belah dilewatkan jalan bergelombang (kerikil dan paving rusak) dengan kamera rendah di ketinggian roda.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji beban berjalan di jalan bergelombang, kamera rendah sejajar roda (handheld)",
+      "opening": "Sejak 0.0s bak merah Five Star yang penuh batu belah dan ban angin sudah terlihat penuh di frame, pekerja sudah memegang handle",
+      "camera": "Handheld smartphone rendah setinggi roda, sedikit menengadah, kamera bergerak mundur mendahului gerobak",
+      "core_action": "Pekerja mendorong gerobak bermuatan batu melewati kerikil dan paving rusak, ban tetap menapak dan bak tidak melengkung, lalu berhenti dan menekan bibir bak dua kali",
+      "closing": "Menekan bibir bak dengan sarung tangan lalu menatap lensa dan bicara satu kalimat penutup",
+      "risk": "Batu di bak wajib terlihat sejak detik pertama dan jumlahnya tidak boleh berubah agar kontinuitas properti terbukti"
+    },
+    {
+      "id": "B",
+      "format": "Uji jatuh (drop test) gerobak bermuatan dari ketinggian lutut, tripod statis",
+      "opening": "Gerobak penuh batu sudah terangkat sedikit dari tanah sejak 0.0s",
+      "camera": "Medium statis tripod dari samping, fokus ke bak dan roda",
+      "core_action": "Gerobak dijatuhkan ke lantai beton lalu diperiksa bak dan as rodanya",
+      "closing": "Tangan menunjuk bak yang tidak penyok",
+      "risk": "Gerak menjatuhkan benda berat rawan cacat fisika AI dan batu bisa terlempar keluar frame sehingga kontinuitas sulit dijaga"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi membandingkan dua gerobak di halaman toko",
+      "opening": "Dua gerobak berdampingan sejak 0.0s, satu bermuatan batu",
+      "camera": "Wide statis dari depan",
+      "core_action": "Menunjukkan gerobak murah melengkung dan Five Star tetap lurus",
+      "closing": "Menunjuk gerobak Five Star lalu bicara ke kamera",
+      "risk": "Butuh dua produk berbeda dalam satu frame dan menyiratkan uji banding yang tidak pernah dilakukan, melanggar aturan anti klaim tak terbukti"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Pembuka langsung memperlihatkan produk resmi bermuatan penuh di detik 0.0s sehingga hook terbukti tanpa caption, hanya butuh satu lokasi satu take, dan sudut kamera rendah sejajar roda berbeda dari wide setinggi dada 15 November.",
+    "history_checked": "Riwayat operasional ISK: 18 Nov Paku Cap Keris balok kayu keras (tayang versi r2), 17 Nov Kawat Licin Diamond tes lentur tulangan (tayang), 16 Nov Kawat Duri Diamond pagar kebun cabai (tayang), 15 Nov Kereta Sorong Five Star muatan batu di jalan becek (state unknown), 14 Nov Paku Cap Keris. Lima slot terakhir tersedia sebagai riwayat; tidak ada data views per video di sumber lokal."
+  },
+  "title": "Uji Beban Kereta Sorong Five Star di Jalan Bergelombang",
+  "hook": "Gerobak murah baru muat batu sedikit rodanya langsung goyang",
+  "story": "Pekerja bangunan mendorong Kereta Sorong Five Star yang baknya penuh batu belah melewati jalur kerikil dan paving rusak di halaman material. Sejak detik 0.0s bak merah, ban angin, dan tumpukan batu sudah terlihat. Ia berjalan menuju kamera, berhenti, menekan bibir bak dua kali untuk menunjukkan platnya tidak melengkung, lalu menatap lensa dan mengajak menyimpan video sebagai acuan beli.",
+  "caption": "Gerobak murah sering goyang asnya begitu bak penuh batu. Kereta Sorong Five Star pakai bak plat baja tebal jadi rangkanya tetap kaku lewat jalan bergelombang, tanya spek lengkapnya tinggal kirim pesan ke DM.\n#keretasorongfivestar #alatproyek #materialbangunan #intansuarkartika",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg (bak plat baja merah glossy, rangka pipa merah, stiker putih FIVE STAR di handle kiri, ban angin berulir). Tidak membuat master wajah baru; pekerja digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "creative": {
+    "character": "Pekerja bangunan Indonesia pria 35 tahun, kemeja kerja navy berdebu, celana kerja gelap, sarung tangan kain abu-abu, sepatu kerja cokelat",
+    "background": "Halaman gudang material bangunan di Medan dengan jalur kerikil dan paving rusak, tumpukan bata di tepi kiri, pagi terang berawan",
+    "action": "Mendorong kereta sorong bermuatan batu belah melewati jalan bergelombang lalu berhenti dan menekan bibir bak dua kali",
+    "selection_reason": "Uji beban berjalan di permukaan bergelombang membuktikan kekakuan rangka dan tapak ban sekaligus, bisa diperiksa dari frame awal sampai akhir, dan berbeda dari tema jalan becek 15 November.",
+    "dialogue": "Gerobak murah muat batu sedikit rodanya sudah goyang. Five Star bak plat baja tebal, lewat jalan bergelombang rangkanya tetap kaku. Simpan video ini buat acuan beli.",
+    "dialogue_start_seconds": 0.6,
+    "dialogue_read_seconds": 9.7,
+    "action_end_seconds": 11.0
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 42,
+    "references_attached": 1,
+    "verified_from": "scripts/sync_flow_status.js --character isk --navigate-home --ensure-720p pada 19 November 2026 10.01 WIB: flow_2 tersambung, saldo 1008 kredit, pill 'Video · 720p · 12 dtk crop_9_16 x1'."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 12 seconds, one continuous take, shot on a smartphone vlog camera at 24fps held low near the ground at wheel height and angled slightly upward, with a gentle natural handheld sway, the camera moving backward ahead of the cart so the pneumatic tyre, the red tray and the worker stay in frame. Location: a building-material yard in Medan with a bumpy track of loose gravel and broken paving running toward the camera, a stack of red bricks at the left edge and blurred sand piles behind, bright overcast morning light. The wheelbarrow is exactly the product in the single attached official reference photo: bright glossy red pressed-steel tray, red tubular frame with a curved front bumper, white FIVE STAR sticker on the left handle, black rubber grips and a thick treaded pneumatic tyre. An Indonesian male construction worker about 35 years old in a dusty navy long-sleeve work shirt, dark work trousers, grey cotton work gloves and brown work shoes pushes it toward the lens at walking pace; his torso, gloved hands, legs and face are in frame. PROP CONTINUITY RULE: from 0.0s to 12.0s the loaded wheelbarrow with grey broken stones heaped level with the tray rim, the bumpy gravel track and the brick stack at the left edge are already on screen and stay on screen; no other cart, tool, person, animal or material may appear, grow, float, fall or disappear at any moment, the stones in the tray must not change count or spill, and the tray must stay rigid and straight. BEATS: from 0.0s to 3.0s he walks forward pushing the loaded cart while speaking Indonesian with accurate lip sync, \"Gerobak murah muat batu sedikit rodanya sudah goyang\"; the tyre rolls over loose gravel, the cart does not wobble sideways. From 3.0s to 7.4s he keeps pushing over the broken paving, the tray does not flex, the frame stays aligned and both handles stay level while he says, \"Five Star bak plat baja tebal, lewat jalan bergelombang rangkanya tetap kaku\". From 7.4s to 10.4s he stops, lowers the cart onto its legs, presses the tray rim twice with a gloved hand, turns his head to the lens and says, \"Simpan video ini buat acuan beli\". From 10.4s to 12.0s he holds still with his hand on the rim and the loaded tray fully in frame. Ambient yard sound only: crunch of gravel under the tyre, soft metallic ring of the steel tray, distant construction clatter, no music. Natural clean daylight neutral white balance 5500K, true-to-life colours, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame with no baked-in text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo overlay other than the printed FIVE STAR sticker already on the product."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://hupchongshardware.com.my/showproducts/productid/6843135",
+      "title": "Wheelbarrow / Construction Cart (Kereta Sorong) - Hup Chongs Hardware",
+      "observed_at": "2026-11-19T09:58:00+07:00",
+      "evidence": "Halaman produk ini menyebut bak plat baja press tanpa sambungan agar tidak bocor dan tidak pecah saat menerima beban kejut, beban kerja 100 sampai 140 kg, serta ban angin yang lebih menyerap guncangan di medan lunak. Dipakai sebagai dasar klaim bahwa kekakuan bak dan ban angin menentukan ketahanan gerobak di jalan bergelombang, bukan sebagai klaim angka resmi Five Star."
+    },
+    {
+      "url": "https://www.hasston.com/gerobak-sorong-alat-sederhana-yang-jadi-andalan-di-setiap-proyek/",
+      "title": "Gerobak Sorong: Alat Sederhana yang Jadi Andalan di Setiap Proyek - Hasston",
+      "observed_at": "2026-11-19T09:59:00+07:00",
+      "evidence": "Artikel ini menulis gerobak sorong bak besi dengan material tebal punya kapasitas beban sampai 220 kg dan lebih tahan lama, serta mengingatkan tekanan angin ban harus dijaga supaya gerobak stabil dan material tidak tumpah saat dipindahkan."
+    },
+    {
+      "url": "https://willmachinery.com/id/produk/heavy-duty-metal-wheelbarrow-150kg",
+      "title": "Gerobak Dorong Logam Tugas Berat 150kg 100L Roda Pneumatik - Will Machinery",
+      "observed_at": "2026-11-19T10:00:00+07:00",
+      "evidence": "Spesifikasi produk ini mencantumkan kapasitas beban 150 kg dengan baki baja tugas berat dan roda pneumatik 4.00-8, dipakai sebagai pembanding umum bahwa gerobak proyek kelas ini memang dirancang memikul muatan batu dan kerikil, bukan untuk muatan ringan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, atau uji laboratorium. Sumber dipakai sebagai konteks beban dan medan gerobak sorong. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM."
+}
