@@ -90,7 +90,7 @@
         "evidence_strength": 8.8,
         "risk_safety": 8.5
       },
-      "why": "Ini satu-satunya sudut hari ini yang buktinya terbit kemarin malam (18 November 2026 pukul 23:40 WIB), jadi momentumnya paling segar. Perdebatannya genuine dan sangat lokal: satu pelaku usaha resmi menyebut warga Palembang butuh dilayani pramusaji, sementara bukti lapangan justru menunjukkan pempek prasmanan yang diambil sendiri masih habis 1.000-2.000 biji sehari di harga seribuan. Video bisa memberi penonton cara memilih tanpa memaksa satu kubu menang, dan kontras harganya nyata (Rp1.000 per biji melawan standar Rp30.000 per orang di tempat berpramusaji), ditambah tenggat rencana kenaikan harga awal Desember akibat sagu naik. Kelemahannya: topik ini masih serumpun dengan topik pempek seribuan yang sudah diproduksi 18 November, sehingga kebaruannya kena penalti.",
+      "why": "Ini satu-satunya sudut hari ini yang buktinya terbit kemarin malam (18 November 2026 pukul 23:40 WIB), jadi momentumnya paling segar. Perdebatannya genuine dan sangat lokal: satu pelaku usaha resmi menyebut warga Palembang butuh dilayani pramusaji, sementara bukti lapangan justru menunjukkan pempek prasmanan yang diambil sendiri masih habis 1.000-2.000 biji sehari di harga seribuan. Video bisa memberi penonton cara memilih tanpa memaksa satu kubu menang, dan kontras harganya nyata (Rp1.000 per biji di meja prasmanan melawan tempat makan berpramusaji yang harus dibayar lebih), ditambah tenggat rencana kenaikan harga awal Desember akibat sagu naik. Kelemahannya: topik ini masih serumpun dengan topik pempek seribuan yang sudah diproduksi 18 November, sehingga kebaruannya kena penalti.",
       "near_duplicate_ids": ["opt_dinda_B_1794963816", "trend_b59ee970a1"],
       "claim_note": "Angka 1.000-2.000 biji per hari, laba akhir pekan hingga Rp1 juta, harga seribu rupiah, dan konsep ambil sendiri berasal dari Tribun Sumsel 22 April 2026 (pedagang Mega). Angka pertumbuhan pasar 30 persen dan pernyataan soal konsumen Palembang yang ingin dilayani berasal dari detikcom 18 November 2026 (Samuel Jozephus Remiasa, Haraku Ramen) dan harus disebut sebagai penilaian satu pelaku usaha, bukan survei resmi. Harga sagu Rp560 ribu dan rencana kenaikan awal Desember berasal dari Tribun Sumsel 2 November 2026 dan wajib disebut sebagai rencana, bukan kepastian. Jangan menyebut warung atau tempat mana pun sebagai penipu, jangan mengarang survei, dan jangan memakai angka PIHPS nasional sebagai harga Palembang."
     },
@@ -139,13 +139,13 @@
       ],
       "factors": {
         "pain_point_intensity": 9.0,
-        "actionable_solution": 7.0,
+        "actionable_solution": 5.5,
         "local_relevance": 9.5,
         "momentum": 7.5,
         "evidence_strength": 8.0,
         "risk_safety": 7.5
       },
-      "why": "Titik sakit finansialnya paling keras dan angkanya paling konkret, tetapi sudutnya hampir sama dengan topik yang sudah diproduksi 18 November soal pempek seribuan dan kenaikan sagu, jadi kebaruannya paling rendah di antara tiga kandidat. Solusi untuk penonton juga lemah karena keputusan ukuran jumbo ada di tangan perajin, bukan pembeli.",
+      "why": "Titik sakit finansialnya paling keras dan angkanya paling konkret, tetapi sudutnya hampir sama dengan topik yang sudah diproduksi 18 November soal pempek seribuan dan kenaikan sagu, jadi kebaruannya paling rendah di antara tiga kandidat. Solusi untuk penonton hampir tidak ada karena keputusan ukuran jumbo dan harga ada di tangan perajin, bukan pembeli, sehingga video hanya bisa bercerita tanpa memberi tindakan.",
       "near_duplicate_ids": ["opt_dinda_A_1794963816", "trend_b59ee970a1"]
     }
   ]
