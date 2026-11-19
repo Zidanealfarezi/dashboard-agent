@@ -2,13 +2,13 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-19 09:54:20 WIB",
+    "timestamp_wib": "2026-11-19 10:01:37 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      4.72,
-      5.41,
-      5.42
+      6.23,
+      6.11,
+      5.76
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
@@ -67,7 +67,7 @@
       "name": "Auto-Sync Vercel Daemon",
       "type": "sync daemon",
       "label": "scripts/auto_sync_vercel.py",
-      "pid": 12543,
+      "pid": 38510,
       "status": "online",
       "port": null,
       "badge_color": "emerald",
@@ -78,7 +78,7 @@
       "name": "Dashboard Web Server",
       "type": "http server",
       "label": "app/dashboard_server.py",
-      "pid": 38395,
+      "pid": 38510,
       "status": "online",
       "port": 8080,
       "badge_color": "emerald",
