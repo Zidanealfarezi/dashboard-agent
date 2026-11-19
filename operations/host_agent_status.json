@@ -2,17 +2,17 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-19 14:37:51 WIB",
+    "timestamp_wib": "2026-11-19 16:01:37 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      5.89,
-      5.13,
-      4.74
+      5.44,
+      4.49,
+      4.25
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
-    "disk_free_gb": 29.5,
+    "disk_free_gb": 29.4,
     "disk_total_gb": 228.3,
     "disk_used_percent": 87.1
   },
