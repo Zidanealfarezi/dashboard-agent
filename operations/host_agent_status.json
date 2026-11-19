@@ -2,19 +2,19 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-18 14:30:35 WIB",
+    "timestamp_wib": "2026-11-19 09:08:28 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      7.37,
-      7.9,
-      7.14
+      6.75,
+      6.9,
+      6.5
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
-    "disk_free_gb": 28.7,
+    "disk_free_gb": 32.8,
     "disk_total_gb": 228.3,
-    "disk_used_percent": 87.4
+    "disk_used_percent": 85.6
   },
   "services": [
     {
@@ -33,11 +33,11 @@
       "name": "Agent Chrome CDP",
       "type": "browser automation",
       "label": "local.ai-influencer.dinda-chrome",
-      "pid": null,
-      "status": "offline",
+      "pid": 1059,
+      "status": "online",
       "port": 9333,
-      "browser_info": "Chrome 152.0",
-      "badge_color": "rose",
+      "browser_info": "Chrome/152.0.7977.76",
+      "badge_color": "emerald",
       "details": "Endpoint remote debugging Google Flow & TikTok Studio"
     },
     {
@@ -56,7 +56,7 @@
       "name": "Telegram ACC Watcher",
       "type": "polling daemon",
       "label": "scripts/telegram_review_watcher.py",
-      "pid": 39416,
+      "pid": 33302,
       "status": "online",
       "port": null,
       "badge_color": "emerald",
@@ -78,7 +78,7 @@
       "name": "Dashboard Web Server",
       "type": "http server",
       "label": "app/dashboard_server.py",
-      "pid": 16825,
+      "pid": 35303,
       "status": "online",
       "port": 8080,
       "badge_color": "emerald",
