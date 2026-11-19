@@ -1,0 +1,76 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Adukan Beton Kelewat Encer Bikin Kolom Keropos dan Plesteran Rontok",
+  "hook": "Adukan beton yang encer dan menetes dari sendok semen itu tanda airnya kebanyakan, dan kolom yang dicor begitu bisa keropos sampai plesteran di atasnya rontok.",
+  "story": "Bang Ray berjongkok di lantai kerja proyek rumah tinggal di Banda Aceh, di samping ember hitam berisi adukan beton dan satu kolom beton berbekisting kayu di belakangnya. Sejak detik 0.0s ia sudah mengangkat sendok semen dengan adukan yang menetes encer ke lantai. Ia memasukkan sendok ke ember, mengambil segenggam adukan, lalu menggenggamnya sampai adukan melorot lewat sela jari untuk menunjukkan campuran itu kelewat basah. Ia menutup dengan menunjuk kolom berbekisting dan mengadu dua kubu cara kerja tukang: kubu adukan encer biar cepat rata melawan kubu adukan kental sesuai takaran.",
+  "caption": "Adukan beton kelewat encer bikin kolom keropos dan plesteran gampang rontok. Tukang senior pegang adukan yang bisa digenggam dengan air maksimal setengah berat semen, Rakan di sana kubu encer atau kubu kental?\n#tipskonstruksi #adukanbeton #betoncor #renovasirumah #tukangbangunan #bandaaceh",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#adukanbeton",
+    "#betoncor",
+    "#renovasirumah",
+    "#tukangbangunan",
+    "#bandaaceh"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah dan FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja. Properti: ember hitam berisi adukan beton basah dan satu sendok semen besi, di lantai semen kasar proyek dengan kolom beton berbekisting kayu di latar belakang.",
+  "role_tags": [
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (takaran air adukan beton, plesteran, sambungan)",
+    "kesalahan fatal struktur bangunan (kolom keropos, plesteran rontok, beton retak)",
+    "keseharian praktisi bangunan Banda Aceh dan edukasi renovasi rumah hemat tanpa tipu-tipu"
+  ],
+  "role_reason": "Takaran air adukan adalah kesalahan paling sering di proyek rumah dan efeknya struktural: kolom keropos lalu plesteran rontok. Visual ember dan sendok semen sederhana, jelas terbaca dalam satu take 15 detik, dan berbeda dari lima video terakhir yang membahas pipa PVC, besi sloof, keramik, bata, dan plester kolom.",
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 42,
+    "references_attached": 3,
+    "verified_from": "Sesi Flow flow_3 port 9335: Video 720p 15 dtk crop_9_16 x1 dengan saldo 986 kredit (sinkron 19 Nov 2026 14.00 WIB)"
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at chest height in a three-quarter front angle with very slight natural handheld sway. Location: unfinished house renovation floor in Banda Aceh, rough grey concrete screed, a freshly cast concrete column wrapped in wooden formwork standing in the background, soft morning daylight from an open doorway. PROP CONTINUITY: exactly two core objects stay in frame from 0.0s to the last frame, one black rubber bucket of wet grey concrete mix sitting on the floor at his right knee and one steel finishing trowel in his hands; no other tool, bag, person or animal may appear, fall, float or vanish at any moment. BEATS: at 0.0s he already holds the steel trowel up at chest height with thin watery grey mix dripping off its edge onto the floor and speaks Indonesian with accurate lip sync, \"Adukan encer begini bikin kolom keropos dan plesteran nanti rontok.\"; from 4.2s he lowers the trowel into the bucket, lifts a handful of mix with his left hand and squeezes it so the lump slumps and runs slowly through his fingers, saying, \"Tukang senior pegang adukan harus bisa digenggam. Air maksimal setengah berat semen.\"; from 10.0s he wipes his left hand on his trousers, picks the trowel up again and points it toward the wooden column formwork behind him, saying, \"Rakan di sana kubu adukan encer biar cepat rata atau kubu kental sesuai takaran?\"; the final 0.5s holds cleanly on him with the trowel in hand and a friendly challenging expression. Ambient renovation room tone only: light breeze, distant birds, faint trowel scrape on concrete, no music, no voiceover other than his spoken lines. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores and real micro-texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero logo. Keep his face, clothing, watch, bucket, trowel and the background consistent in every frame.",
+      "dialogue": "Adukan encer begini bikin kolom keropos dan plesteran nanti rontok. Tukang senior pegang adukan harus bisa digenggam. Air maksimal setengah berat semen. Rakan di sana kubu adukan encer biar cepat rata atau kubu kental sesuai takaran?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 14.2,
+      "action_end_seconds": 14.5
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sijack.ciptakarya.pu.go.id/api/cms/media/materi-teknis/2025/07/20250708-113023-webs-686c9edfa1636.pdf",
+      "title": "Pengendalian Mutu Beton dan Baja Tulangan pada Konstruksi Keciptakaryaan (Kementerian PUPR)",
+      "observed_at": "2026-11-19T13:50:00+07:00",
+      "evidence": "Materi teknis Direktorat Jenderal Cipta Karya memuat dua penyebab umum mutu beton turun: penambahan air yang berlebihan saat pengecoran agar mudah dikerjakan, dan beton keropos (honeycomb) akibat pemadatan yang kurang atau berlebihan."
+    },
+    {
+      "url": "https://journal.umy.ac.id/index.php/st/article/download/4921/3732",
+      "title": "Pengaruh Faktor Air Semen terhadap Kuat Tekan Beton",
+      "observed_at": "2026-11-19T13:52:00+07:00",
+      "evidence": "Apabila faktor air semen terlalu banyak, campuran beton menjadi terlalu encer dan kuat tekannya menurun; nilai faktor air semen yang semakin tinggi menurunkan mutu beton."
+    },
+    {
+      "url": "https://ejournal.unsrat.ac.id/index.php/jss/article/view/6798/6322",
+      "title": "Pengaruh Jumlah Semen dan Faktor Air Semen terhadap Kuat Tekan Beton",
+      "observed_at": "2026-11-19T13:53:00+07:00",
+      "evidence": "Rujukan Abrams dalam jurnal ini menyatakan penambahan air hingga nilai faktor air semen melebihi 0,6 menurunkan kekuatan beton; pembatasan air adukan adalah praktik baku untuk menjaga mutu."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Edukasi takaran air adukan beton berbasis materi teknis PUPR dan jurnal teknik sipil; angka setengah berat semen adalah batas faktor air semen yang lazim dipakai, bukan klaim produk atau jaminan hasil."
+}
