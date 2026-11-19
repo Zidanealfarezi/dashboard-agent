@@ -1,0 +1,74 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "perdebatan sekte kuliner dan tradisi lokal Palembang (hirup cuko mangkok vs sendok, kuah kental vs pedas)",
+    "hidden gem vs jebakan turis (lorong pempek murah asli wong kito, perbandingan rasa dan harga)"
+  ],
+  "role_reason": "Topik terpilih dari bank tren hari ini (sel_dinda_2026-11-19_morning, trend opt_dinda_A_1795050316, skor 8,51, decided_by pm_autonomous) adalah adu dua kubu antara pempek prasmanan yang diambil sendiri dengan gaya makan yang serba dilayani pramusaji. Ini pilar pertama profil Dinda sekaligus pilar kedua karena inti perdebatannya adalah cara wong Palembang menikmati kuliner murah, bukan berita harga. Buktinya tiga sumber terbaca hari ini: pernyataan Assistant Manager Brand Marketing Haraku Ramen soal pasar Palembang yang menuntut pelayanan pramusaji, liputan pempek tumpah Pasar 16 Ilir yang menyebut 1.000 sampai 2.000 biji habis per hari di harga seribuan, dan artikel Tribun soal rencana penyesuaian harga awal Desember akibat sagu naik. Format satu klip 12 detik cukup: satu pempek kecil di tangan, meja panjang berlapis daun pisang di latar, lalu pertanyaan penutup dua kubu. Kelemahan yang diakui: topik masih serumpun pempek seribuan yang tayang 18 November, jadi sudut yang dipakai hari ini sengaja digeser dari hidden gem lorong ke perdebatan cara pelayanan.",
+  "title": "Pempek Prasmanan Seribuan: Tim Dilayani atau Tim Ambil Sendiri?",
+  "hook": "Katanya wong Palembang maunya dilayani pramusaji, tapi pempek prasmanan yang kita ambil sendiri tetap habis dua ribu biji sehari.",
+  "story": "Dinda berdiri di samping meja panjang berlapis daun pisang di kawasan pempek tumpah Pasar 16 Ilir, Palembang, pagi dengan cahaya netral. Sejak frame pertama ia sudah memegang satu pempek adaan kecil, memperlihatkannya ke kamera, lalu membuka dengan klaim bahwa pasar Palembang katanya lebih suka dilayani pramusaji. Ia menoleh setengah badan ke meja di belakangnya, tempat pengunjung mengambil sendiri pempek dari tumpukan, dan menyebut meja ini tetap habis seribu sampai dua ribu biji sehari. Ia mengangkat dua jari untuk menegaskan harga seribuan sebiji, lalu menutup dengan menoleh penuh ke lensa dan bertanya penonton masuk tim dilayani atau tim ambil sendiri yang penting cepat dan murah. Adegan pasar harian, belum canon.",
+  "caption": "Katanya wong Palembang lebih suka dilayani pramusaji, tapi pempek prasmanan di Pasar 16 Ilir yang diambil sendiri tetap habis seribu sampai dua ribu biji sehari dengan harga seribuan. Kalian tim dilayani atau tim ambil sendiri?\n#pempek #kulinerpalembang #palembang #hiddengem #jajananmurah",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm, hijab voal segi empat beige lembut terlipat rapi, kemeja linen mocha oversize terbuka dengan dalaman putih bersih, celana lurus pleated ivory, kalung emas kecil, memegang satu pempek adaan kecil goreng di tangan kanan, berdiri di samping meja kayu panjang berlapis daun pisang berisi tumpukan pempek di kawasan pempek tumpah Pasar 16 Ilir Palembang, pengunjung lain blur di latar, cahaya pagi pasar netral 5500K, pori-pori kulit terlihat, tanpa plastic atau waxy skin, tanpa teks di frame.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261110",
+    "name": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg",
+    "selection_reason": "Auto-Stylist memilih satu busana aktif dari character_wardrobe yang belum dipakai hari ini dan paling lama istirahat di antara busana yang punya foto master lengkap: mocha linen terakhir dipakai 15 November 2026, sedangkan cream linen dipakai 16 November dan striped taupe cardigan 17 November. Busana ini punya dua foto master 9:16 (close-up dan full-body) dan chip fullbody-nya sudah terpasang di pustaka aset Flow sebagai dinda_ootd_20261115_mocha_linen_fullbody.jpg, jadi bisa langsung menjadi referensi pakaian tanpa unggah baru. Dua baris wardrobe hari ini (outfit_dinda_pagi_20261119 Pastel Taupe Knit Cardigan dan outfit_dinda_malam_20261119 Charcoal Blazer) masih berstatus incomplete tanpa close-up maupun full-body sehingga belum bisa dipakai sebagai acuan visual. Warna mocha dan ivory tetap netral di latar meja kayu dan tidak menabrak warna cuko."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "verified_from": "scripts/sync_flow_status.js --character dinda --navigate-home --ensure-720p pada 19 November 2026 09.02 WIB: flow_1 tersambung, saldo 323 kredit, pill 'Video · 720p · 12s crop_9_16 x1'. Model dan biaya dicocokkan ulang di panel komposer sebelum submit."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION, image three is the outfit reference for CLOTHING (warm mocha oversized linen button-up shirt open over a clean white inner top, ivory pleated straight trousers, soft beige square voal hijab folded neatly, small gold pendant necklace). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, filmed on a phone at 24fps with slight natural handheld sway at chest height about one and a half metres away, three-quarter angle. Location: a busy morning pempek prasmanan stall in Pasar 16 Ilir Palembang, a long wooden table covered with banana leaves holding piles of small fried pempek, other diners seated on low benches softly blurred behind her, clean neutral overcast market daylight. PROP CONTINUITY RULE: from frame 0.0s one single small fried pempek sits pinched between her right thumb and index finger, and that one pempek stays in her hand for the whole take; the long table behind her already holds the full pile of pempek from frame 0.0s; nothing appears, grows, floats, multiplies or disappears mid-take. BEATS: from 0.0s to 3.2s she holds the small pempek up to the lens at chest height and says in Indonesian, \\\"Katanya wong Palembang maunya dilayani pramusaji\\\"; from 3.2s to 6.6s she turns her shoulders half towards the long table so the open self-service pile of pempek is visible behind her while a diner's hand reaches in, and she says, \\\"Tapi pempek prasmanan ini tetap habis dua ribu biji sehari\\\"; from 6.6s to 9.4s she faces the lens again and lifts her left hand with two fingers raised, saying, \\\"Seribuan sebiji\\\"; from 9.4s to 12.0s she lowers her hand, looks straight into the lens with a small challenging smile and asks, \\\"Kalian tim dilayani atau tim ambil sendiri?\\\". Lips move in sync with her Indonesian speech, natural micro-expressions, no lip-sync drift. Shot on smartphone vlog camera, natural clean daylight, neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, real market ambience and natural speech audio. Completely clean frame: no on-screen text, no subtitles, no captions, no HUD, no timestamps, no watermark, no logo, no readable writing on packaging, signage, price boards or banners. No cut, no zoom and no camera movement beyond small handheld drift.",
+      "dialogue": "Katanya wong Palembang maunya dilayani pramusaji. Tapi pempek prasmanan ini tetap habis dua ribu biji sehari. Seribuan sebiji. Kalian tim dilayani atau tim ambil sendiri?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.9,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8759180/pasar-kuliner-palembang-tumbuh-karakter-konsumen-cenderung-ingin-dilayani",
+      "title": "Pasar Kuliner Palembang Tumbuh, Karakter Konsumen Cenderung Ingin Dilayani - detikcom Sumbagsel",
+      "observed_at": "2026-11-19T08:10:00+07:00",
+      "evidence": "Terbit Rabu 18 November 2026 pukul 23:40 WIB, dibaca 19 November 2026 pukul 08.10 WIB. Assistant Manager Brand Marketing Haraku Ramen Samuel Jozephus Remiasa menyebut pasar Palembang memilih makan di luar untuk quality time sehingga menuntut pelayanan pramusaji, berbeda dengan Jakarta yang mengejar waktu dan memilih self service, karena itu outlet Haraku Ramen di Palembang Square Mall tidak memakai sistem self service. Ia menyebut pasar Sumatera Selatan khususnya Palembang menguat dibanding Sulawesi bahkan Jawa dengan pertumbuhan rata-rata 30 persen, dan segmen yang dibidik didominasi milenial hingga generasi Z."
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari",
+      "title": "Sensasi Pempek Tumpah di Pasar 16 Ilir Palembang, Laris Manis hingga Cuan Rp1 Juta Sehari - Tribun Sumsel",
+      "observed_at": "2026-11-19T08:12:00+07:00",
+      "evidence": "Terbit 22 April 2026 pukul 14:41 WIB, dibaca ulang 19 November 2026 pukul 08.12 WIB. Pempek tumpah di Pasar 16 Ilir disajikan prasmanan di atas meja kayu berlapis daun pisang dengan konsep lesehan dan pengunjung mengambil sendiri pempek yang diinginkan mulai dari adaan, tahu, lenjer, kriting, telok sampai kulit. Pedagang Mega menyebut kadang masih habis 1.000-2.000 buah pempek per hari, pada akhir pekan keuntungan bisa mencapai Rp1 juta per hari, dan semua pempek masih di harga seribu rupiah per buah. Pembeli datang bukan hanya dari Palembang tetapi juga dari luar daerah."
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+      "title": "Harga Sagu dan Cabai Rawit Melonjak, Bikin Produsen Pempek di Palembang Kelimpungan - Tribun Sumsel",
+      "observed_at": "2026-11-19T08:14:00+07:00",
+      "evidence": "Terbit 2 November 2026 pukul 16:42 WIB, dibaca ulang 19 November 2026 pukul 08.14 WIB. Aminah, pemilik Pempek Cek Minah 7 Ulu dan Ketua Paguyuban Kampung Kreatif Pempek Tanggo Rajo Cindo, menyebut sagu merek Dua Putri kemasan 50 kilogram kini Rp560 ribu dari sebelumnya sekitar Rp450 ribu per karung. Ia belum menaikkan harga dan pempek ukuran kecil masih Rp1.000 per butir, tetapi mempertimbangkan penyesuaian harga mulai awal Desember 2026."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Harga seribu rupiah per biji dan angka 1.000-2.000 biji per hari berasal dari Tribun Sumsel 22 April 2026 tentang pempek tumpah Pasar 16 Ilir, bukan dari survei baru. Klaim bahwa pasar Palembang cenderung ingin dilayani adalah pernyataan satu pelaku usaha makanan di detikcom 18 November 2026, jadi video menyebutnya sebagai 'katanya' dan tidak menggeneralisasi semua warga. Video tidak menyebut kenaikan harga sagu sebagai alasan resmi harga hari ini dan tidak mengklaim rasa lebih enak; tidak ada tuduhan terhadap pedagang atau merek mana pun.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1, 3 referensi gambar: face sheet, body reference, chip outfit mocha linen). Frame mentah wajib bersih dari teks/HUD; upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 lalu subtitle editorial_tiktok dua tingkat tanpa koma dibakar lokal oleh app.media.assemble_character_video, musik lo-fi akustik 15 persen dengan vokal 100 persen, tanpa outro brand. Tidak ada retry berbayar otomatis."
+}
