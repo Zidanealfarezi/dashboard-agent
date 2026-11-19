@@ -1,0 +1,152 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-19",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-19T08:18:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 19 November 2026, 08:00-08:18 WIB. Sesuai perintah kerja, riset TIDAK menyentuh prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi. Fokus wajib: (1) perdebatan sekte kuliner Palembang, (2) hidden gem lorong pempek murah vs harga tempat wisata, (3) kontras harga yang ditutup adu dua kubu. Sudut hari ini diambil dari berita paling segar: detikcom Sumbagsel 18 November 2026 pukul 23:40 WIB soal karakter konsumen Palembang yang dinilai lebih suka dilayani pramusaji ketimbang sistem self service seperti di Jakarta. Sudut itu disandingkan dengan bukti lapangan Tribun Sumsel 22 April 2026 bahwa pempek tumpah Pasar 16 Ilir justru memakai konsep prasmanan tempat pembeli mengambil sendiri dengan harga seribuan dan tetap habis 1.000-2.000 biji sehari. Kontras harga memakai Tribun Sumsel 2 November 2026 (sagu 50 kilogram naik dari Rp450 ribu ke Rp560 ribu, pempek kecil masih Rp1.000, penyesuaian harga dipertimbangkan awal Desember) dan rencana penataan Pasar Pempek 26 Ilir dari detikcom 25 April 2026. Catatan keterbatasan: halaman lagitren.id/tiktok hari ini hanya mengembalikan daftar tagar non-kuliner (selamathariayah, putritanjung, gibran), jadi tidak ada angka tren nasional kuliner yang bisa dikutip dan sengaja tidak dikarang. Catatan anti-ulang: cuko mangkok vs sendok (17 Nov), hidden gem lorong 7 Ulu seribuan (18 Nov), Pasar Sekanak (15 Nov), Charming Events (14 Nov), beras SPHP (13 Nov) tidak dipakai lagi sebagai sudut utama. Tiga kandidat hari ini tetap bertema pempek karena itu pilar karakter, tetapi sudutnya bergeser ke pelayanan (dilayani vs ambil sendiri), penataan pasar, dan strategi ukuran jumbo; kandidat yang serumpun dengan topik yang sudah diproduksi dicatat di near_duplicate_ids supaya penalti kebaruan tetap jujur.",
+  "candidates": [
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8759180/pasar-kuliner-palembang-tumbuh-karakter-konsumen-cenderung-ingin-dilayani",
+      "title": "Pasar Kuliner Palembang Tumbuh, Karakter Konsumen Cenderung Ingin Dilayani - detikcom Sumbagsel",
+      "evidence": "Terbit Rabu 18 November 2026 pukul 23:40 WIB, dibaca 19 November 2026 pukul 08:10 WIB. Assistant Manager Brand Marketing Haraku Ramen, Samuel Jozephus Remiasa, mengatakan pasar Palembang memilih makan di luar untuk quality time sehingga menuntut pelayanan pramusaji, berbeda dengan Jakarta yang mengejar waktu dan memilih konsep self service. Karena itu outlet Haraku Ramen di Palembang Square Mall tidak memakai sistem self service seperti sejumlah outlet mereka di Jakarta. Samuel menyebut pasar Sumatera Selatan khususnya Palembang menguat dibanding Sulawesi bahkan Jawa dengan pertumbuhan rata-rata 30 persen, dan segmen konsumen yang dibidik didominasi milenial hingga generasi Z. Artikel juga menyebut masukan konsumen dipakai untuk menyesuaikan produk dan kualitas pelayanan.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-19T08:10:00+07:00",
+      "published_at": "2026-11-18T23:40:59+07:00",
+      "metrics": {
+        "pertumbuhan_pasar_sumsel": "rata-rata 30 persen",
+        "konsep_outlet_palembang": "tanpa self service, pakai pramusaji",
+        "pembanding": "Jakarta cenderung self service dan mengejar kepraktisan",
+        "segmen": "milenial dan generasi Z"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari",
+      "title": "Sensasi Pempek Tumpah di Pasar 16 Ilir Palembang, Laris Manis hingga Cuan Rp1 Juta Sehari - Tribun Sumsel",
+      "evidence": "Terbit Rabu 22 April 2026 pukul 14:41 WIB, dibaca 19 November 2026 pukul 08:12 WIB. Pempek tumpah di Pasar 16 Ilir disajikan prasmanan di atas meja kayu berlapis daun pisang dengan konsep lesehan, dan pengunjung dapat mengambil sendiri pempek yang diinginkan mulai dari adaan, tahu, lenjer, kriting, telok, sampai kulit. Pedagang bernama Mega menyebut kadang masih habis 1.000-2.000 buah pempek per hari dan pada akhir pekan keuntungan bisa mencapai Rp1 juta per hari, dengan semua pempek masih di harga seribu rupiah per buah. Artikel menyebut pembeli datang bukan hanya dari Palembang tetapi juga dari luar daerah, dan salah satu pengunjung asal Jakarta sengaja mencoba konsep lesehan ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-19T08:12:00+07:00",
+      "published_at": "2026-04-22T14:41:25+07:00",
+      "metrics": {
+        "harga_per_buah": "Rp1.000",
+        "penjualan_harian": "1.000-2.000 buah",
+        "laba_akhir_pekan": "hingga Rp1 juta per hari",
+        "cara_ambil": "pembeli mengambil sendiri (prasmanan)",
+        "tempat_duduk": "lesehan bangku kecil"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+      "title": "Harga Sagu dan Cabai Rawit Melonjak, Bikin Produsen Pempek di Palembang Kelimpungan - Tribun Sumsel",
+      "evidence": "Terbit Senin 2 November 2026 pukul 16:42 WIB, dibaca ulang 19 November 2026 pukul 08:14 WIB. Aminah, pemilik Pempek Cek Minah 7 Ulu dan Ketua Paguyuban Kampung Kreatif Pempek Tanggo Rajo Cindo, menyebut harga sagu berubah dalam hitungan hari: sagu merek Dua Putri kemasan 50 kilogram kini Rp560 ribu dari sebelumnya sekitar Rp450 ribu per karung, sementara merek Dua Anak 50 kilogram sekitar Rp980 ribu. Cabai rawit untuk cuko juga naik dan pasokan sempat sulit dicari. Aminah belum menaikkan harga, pempek ukuran kecil masih Rp1.000 per butir, tetapi mempertimbangkan penyesuaian harga mulai awal Desember 2026 karena biaya produksi dan upah karyawan. Perajin juga disebut meluncurkan varian ukuran jumbo untuk menekan pembengkakan modal.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-19T08:14:00+07:00",
+      "published_at": "2026-11-02T16:42:54+07:00",
+      "metrics": {
+        "sagu_dua_putri_50kg": "Rp560.000 (sebelumnya Rp450.000)",
+        "sagu_dua_anak_50kg": "Rp980.000",
+        "harga_pempek_kecil": "Rp1.000 per butir",
+        "rencana_kenaikan": "awal Desember 2026 (baru rencana)"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8459821/revitalisasi-pasar-pempek-26-ilir-target-jadi-destinasi-kuliner-modern",
+      "title": "Revitalisasi Pasar Pempek 26 Ilir Target Jadi Destinasi Kuliner Modern - detikcom Sumbagsel",
+      "evidence": "Terbit Sabtu 25 April 2026 pukul 08:31 WIB, dibaca 19 November 2026 pukul 08:16 WIB. Pemkot Palembang berkolaborasi dengan Bank Indonesia menata kawasan Pasar 26 Ilir atau Pasar Sentral Kampung Pempek, dengan prioritas perbaikan infrastruktur, kebersihan, dan kenyamanan. Asisten II Setda Kota Palembang Isnaini Madani menyebut rencana itu mencakup pembenahan tampilan depan kawasan, pembangunan gerbang masuk ikonik, peningkatan jalur pedestrian, dan penataan Tempat Pembuangan Sampah sementara agar lebih higienis. Ia menyatakan Pasar 26 Ilir sudah viral sebagai destinasi kuliner dan tantangannya menaikkan kualitas agar mampu bersaing dengan destinasi modern lain: kalau tidak berbenah, kawasan ini bisa tertinggal. Program ini juga terkait inisiatif Bank Indonesia soal kawasan Kuliner Halal Aman dan Sehat.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-19T08:16:00+07:00",
+      "published_at": "2026-04-25T08:31:57+07:00",
+      "metrics": {
+        "lokasi": "Pasar 26 Ilir / Pasar Sentral Kampung Pempek",
+        "mitra": "Pemkot Palembang dan Bank Indonesia",
+        "rencana_fisik": "gerbang ikonik, pedestrian, TPS higienis",
+        "status": "tahap koordinasi teknis per April 2026"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Dilayani Pramusaji atau Ambil Sendiri: Pempek Prasmanan Seribuan Masih Habis 2.000 Biji Sehari",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Katanya orang Palembang maunya dilayani pramusaji, tapi pempek prasmanan yang kita ambil sendiri masih habis sampai dua ribu biji sehari dengan harga seribuan.",
+      "shots": [
+        "Shot 1 (9s): Dinda duduk di bangku kayu lesehan pempek tumpah Pasar 16 Ilir, kamera menyorot meja panjang berlapis daun pisang penuh pempek adaan, tahu, dan lenjer, lalu Dinda mengambil sendiri dua biji dan menyerahkan uang seribuan ke pedagang.",
+        "Shot 2 (9s): Dinda menyebut pemilik brand ramen bilang konsumen Palembang lebih suka dilayani pramusaji ketimbang self service seperti di Jakarta, lalu menunjuk antrean pembeli di depannya dan bertanya penonton masuk tim dilayani atau tim ambil sendiri yang penting cepat dan murah."
+      ],
+      "sound": "Ambience pasar dan lesehan, tanpa musik, fokus suara pedagang menawarkan pempek",
+      "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+      "caption": "Pemilik brand ramen bilang konsumen Palembang lebih suka dilayani pramusaji, beda dengan Jakarta yang maunya cepat dan ambil sendiri. Tapi pempek tumpah di Pasar 16 Ilir yang serba ambil sendiri tetap habis 1.000 sampai 2.000 biji sehari dengan harga seribuan, jadi kalian tim dilayani atau tim ambil sendiri?",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8759180/pasar-kuliner-palembang-tumbuh-karakter-konsumen-cenderung-ingin-dilayani",
+        "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari",
+        "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.0,
+        "actionable_solution": 8.5,
+        "local_relevance": 9.5,
+        "momentum": 8.5,
+        "evidence_strength": 8.8,
+        "risk_safety": 8.5
+      },
+      "why": "Ini satu-satunya sudut hari ini yang buktinya terbit kemarin malam (18 November 2026 pukul 23:40 WIB), jadi momentumnya paling segar. Perdebatannya genuine dan sangat lokal: satu pelaku usaha resmi menyebut warga Palembang butuh dilayani pramusaji, sementara bukti lapangan justru menunjukkan pempek prasmanan yang diambil sendiri masih habis 1.000-2.000 biji sehari di harga seribuan. Video bisa memberi penonton cara memilih tanpa memaksa satu kubu menang, dan kontras harganya nyata (Rp1.000 per biji melawan standar Rp30.000 per orang di tempat berpramusaji), ditambah tenggat rencana kenaikan harga awal Desember akibat sagu naik. Kelemahannya: topik ini masih serumpun dengan topik pempek seribuan yang sudah diproduksi 18 November, sehingga kebaruannya kena penalti.",
+      "near_duplicate_ids": ["opt_dinda_B_1794963816", "trend_b59ee970a1"],
+      "claim_note": "Angka 1.000-2.000 biji per hari, laba akhir pekan hingga Rp1 juta, harga seribu rupiah, dan konsep ambil sendiri berasal dari Tribun Sumsel 22 April 2026 (pedagang Mega). Angka pertumbuhan pasar 30 persen dan pernyataan soal konsumen Palembang yang ingin dilayani berasal dari detikcom 18 November 2026 (Samuel Jozephus Remiasa, Haraku Ramen) dan harus disebut sebagai penilaian satu pelaku usaha, bukan survei resmi. Harga sagu Rp560 ribu dan rencana kenaikan awal Desember berasal dari Tribun Sumsel 2 November 2026 dan wajib disebut sebagai rencana, bukan kepastian. Jangan menyebut warung atau tempat mana pun sebagai penipu, jangan mengarang survei, dan jangan memakai angka PIHPS nasional sebagai harga Palembang."
+    },
+    {
+      "code": "B",
+      "title": "Pasar Pempek 26 Ilir Mau Disulap Jadi Destinasi Modern: Seribuan Masih Kebeli?",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pasar Pempek 26 Ilir mau dibikin lebih modern dengan gerbang ikonik dan pedestrian, sementara pedagangnya masih mikirin harga sagu yang naik.",
+      "shots": [
+        "Shot 1 (8s): Dinda berjalan masuk kawasan Pasar 26 Ilir melewati lorong pedagang pempek, kamera menyorot papan nama dan kondisi pedestrian, sambil menyebut rencana gerbang ikonik dan penataan kawasan.",
+        "Shot 2 (8s): Dinda duduk di bangku pedagang, menyebut sagu 50 kilogram naik dari Rp450 ribu ke Rp560 ribu dan penyesuaian harga dipertimbangkan awal Desember, lalu bertanya penonton pilih pasar dirapikan atau harga seribuan yang dijaga."
+      ],
+      "sound": "Ambience pasar pempek, tanpa musik",
+      "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+      "caption": "Pasar Pempek 26 Ilir masuk rencana penataan jadi destinasi kuliner modern dengan gerbang ikonik dan pedestrian yang lebih nyaman. Pertanyaannya, kalau kawasan makin rapi, harga seribuan masih bisa bertahan atau kalian rela bayar lebih buat tempat yang nyaman?",
+      "sources": [
+        "https://www.detik.com/sumbagsel/berita/d-8459821/revitalisasi-pasar-pempek-26-ilir-target-jadi-destinasi-kuliner-modern",
+        "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan"
+      ],
+      "factors": {
+        "pain_point_intensity": 7.5,
+        "actionable_solution": 7.0,
+        "local_relevance": 9.5,
+        "momentum": 7.0,
+        "evidence_strength": 8.0,
+        "risk_safety": 8.0
+      },
+      "why": "Temanya paling khas Palembang dan pasangan buktinya masuk akal: rencana penataan kawasan dari Pemkot plus tekanan harga sagu yang masih berjalan. Tetapi rencana penataan itu terbit April 2026 dan masih tahap koordinasi teknis, jadi momentumnya lemah dan tidak ada angka baru yang bikin penonton berhenti scroll. Solusi yang bisa ditawarkan ke penonton juga tipis karena mereka bukan pihak yang memutuskan penataan pasar.",
+      "near_duplicate_ids": ["opt_dinda_B_1794877482"]
+    },
+    {
+      "code": "C",
+      "title": "Sagu Naik Rp110 Ribu per Karung, Perajin Banting Setir ke Pempek Jumbo",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Sagu lima puluh kilo naik dari Rp450 ribu ke Rp560 ribu, dan perajin pempek sekarang bikin ukuran jumbo biar modal nggak jebol.",
+      "shots": [
+        "Shot 1 (9s): Dinda memegang pempek lenjer ukuran biasa di satu tangan dan pempek jumbo di tangan lain, menimbang keduanya sambil menyebut selisih harga sagu Rp110 ribu per karung.",
+        "Shot 2 (9s): Dinda memotong pempek jumbo dan menunjukkan isinya, lalu bertanya penonton pilih pempek jumbo yang lebih mahal atau tetap beli yang kecil seribuan sampai Desember."
+      ],
+      "sound": "Suara asli warung, tanpa musik",
+      "outfit": "Pastel Taupe Knit Cardigan & Wide Leg Pants",
+      "caption": "Perajin pempek di Palembang sekarang meluncurkan varian jumbo karena sagu 50 kilogram naik dari Rp450 ribu ke Rp560 ribu per karung. Kalau ukurannya dibesarkan tapi harganya ikut naik, kalian tetap pilih yang jumbo atau balik ke pempek kecil seribuan?",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+        "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari"
+      ],
+      "factors": {
+        "pain_point_intensity": 9.0,
+        "actionable_solution": 7.0,
+        "local_relevance": 9.5,
+        "momentum": 7.5,
+        "evidence_strength": 8.0,
+        "risk_safety": 7.5
+      },
+      "why": "Titik sakit finansialnya paling keras dan angkanya paling konkret, tetapi sudutnya hampir sama dengan topik yang sudah diproduksi 18 November soal pempek seribuan dan kenaikan sagu, jadi kebaruannya paling rendah di antara tiga kandidat. Solusi untuk penonton juga lemah karena keputusan ukuran jumbo ada di tangan perajin, bukan pembeli.",
+      "near_duplicate_ids": ["opt_dinda_A_1794963816", "trend_b59ee970a1"]
+    }
+  ]
+}
