@@ -156,7 +156,7 @@
         "momentum": 7.4,
         "evidence_strength": 8.2
       },
-      "why": "Kontras harga paling mudah dipahami penonton dan tetap relevan karena harga seribuan di emperan masih tercatat resmi Rp1.000 per butir. Kelemahannya, sudut ini serumpun dengan kandidat kontras harga 17 November sehingga sengaja ditandai near_duplicate_ids, dan angka resto yang dipakai adalah kisaran harga menu, bukan harga per butir, jadi klaimnya harus ditulis hati-hati."
+      "why": "Skor tertinggi hari ini (8,84) dan paling pas dengan prioritas kerja: kontras harga yang ditutup adu dua kubu. Bukti harganya kuat dan bisa dicek: Kompas.id mencatat pempek tumpah serba Rp1.000 per butir ukuran kecil dan Rp2.500 ukuran besar, sementara kisaran harga menu resto pempek Palembang versi artikel GoPay 5 November 2026 mulai Rp5.000 (Pempek Lala) sampai belasan ribu (Pempek Candy mulai Rp18.000). Kebaruannya jujur di bawah 7 karena sudut kontras harga pernah muncul 17 November, tetapi kandidat itu tidak pernah diproduksi sehingga penaltinya cuma 1,5 poin lewat near_duplicate_ids. Kandidat A yang lebih segar secara berita justru turun ke 6,46 karena teksnya menyebut Polda Sumsel sehingga kena penalti berita rilis dinas, dan isinya memang kebijakan penataan pasar, bukan debat kuliner yang diminta. Kandidat C kalah bukti karena hanya satu artikel resep tanpa angka harga."
     },
     {
       "code": "C",
