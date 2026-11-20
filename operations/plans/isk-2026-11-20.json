@@ -1,0 +1,105 @@
+{
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 16.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "membongkar trik toko nakal dan material banci (kawat galvanis abal-abal, timbangan paku kurang)"
+  ],
+  "role_reason": "Rotasi pilar: 19 November Kereta Sorong Five Star, 18 November Paku Cap Keris, 17 November Kawat Licin Diamond, 16 November Kawat Duri Diamond. Empat hari terakhir sudah memutar tiga pilar lain, jadi pilar yang paling lama tidak tampil adalah Kawat Duri Diamond (16 November). Karena itu hari ini kembali ke Kawat Duri Diamond dengan sudut yang belum dipakai: uji tarik di pagar jadi, bukan pemasangan pagar kebun cabai seperti 16 November.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji tarik (pull test) kawat duri terpasang, kamera handheld setinggi dada, satu take",
+      "opening": "Sejak 0.0s pagar kawat duri tiga baris sudah terpasang di antara dua tiang kayu dan satu roll Diamond bersegel tergeletak di pangkal tiang kiri",
+      "camera": "Handheld smartphone setinggi dada, sedikit menyudut ke pagar, goyangan natural, kamera mundur setengah langkah di akhir",
+      "core_action": "Pekerja mencengkeram kawat baris tengah lalu menariknya kuat ke arah badan, kawat tetap tegang dan duri tidak kendor, lalu ia mengusap duri dengan sarung tangan untuk menunjukkan tidak ada serbuk karat",
+      "closing": "Ia menunjuk roll Diamond di pangkal tiang lalu bicara satu kalimat penutup ke lensa",
+      "risk": "Roll kawat dan tiga baris kawat wajib terlihat utuh dari frame pertama sampai terakhir agar kontinuitas properti terbukti"
+    },
+    {
+      "id": "B",
+      "format": "Makro top-down dua tangan memutar kawat dengan tang, tanpa wajah",
+      "opening": "Dua tangan berdebu memegang kawat duri di atas meja kayu sejak 0.0s",
+      "camera": "Statis top-down dekat, fokus makro ke lilitan duri",
+      "core_action": "Kawat ditarik dan dipelintir dengan tang untuk menunjukkan duri tidak lepas",
+      "closing": "Tangan meletakkan roll Diamond di sebelah kawat yang sudah dililit",
+      "risk": "Wajah hilang dari frame sehingga identitas dan konteks lapangan tidak terbaca, dan gerak tangan makro rawan cacat jari pada model video"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi membandingkan dua gulung kawat di halaman toko, wide statis",
+      "opening": "Dua roll kawat berdampingan sejak 0.0s, satu berlabel Diamond",
+      "camera": "Wide statis dari depan, setinggi pinggang",
+      "core_action": "Menunjukkan roll murah berkarat dan roll Diamond masih mengkilap",
+      "closing": "Menunjuk label Diamond lalu bicara ke kamera",
+      "risk": "Menampilkan produk pesaing dan menyiratkan uji banding yang tidak benar-benar dilakukan, melanggar aturan anti klaim tak terbukti"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Uji tarik membuktikan klaim kawat tetap tegang dan duri tidak kendor secara kasat mata dalam satu take, wajah dan seragam kerja tetap terbaca sehingga konteks ISK jelas, dan sudut kamera handheld setinggi dada berbeda dari wide pagar kebun 16 November. Membandingkan dua produk di konsep C akan menampilkan merek lain tanpa uji sah, sedangkan konsep B membuang identitas dan rawan cacat anatomi tangan.",
+    "history_checked": "Riwayat operasional ISK lima slot terakhir: 19 Nov Kereta Sorong Five Star uji beban jalan bergelombang (published), 18 Nov Paku Cap Keris balok kayu keras (published), 17 Nov Kawat Licin Diamond tes lentur tulangan (published), 16 Nov Kawat Duri Diamond pagar kebun cabai (published), 15 Nov Kereta Sorong Five Star muatan batu (unknown). Tidak ada data views per video di sumber lokal."
+  },
+  "title": "Uji Tarik Kawat Duri Diamond di Pagar Kebun",
+  "hook": "Kawat duri murah lapisan galvanisnya tipis jadi baru satu musim hujan sudah berkarat",
+  "story": "Di batas kebun, tiga baris Kawat Duri Diamond sudah terpasang di antara dua tiang kayu dan satu roll bersegel tergeletak di pangkal tiang. Pekerja mencengkeram kawat baris tengah dan menariknya kuat ke arah badan; kawat tetap tegang, duri tidak kendor dan tidak ada serbuk karat saat diusap sarung tangan. Ia lalu menunjuk roll Diamond dan meminta penonton menyimpan video sebelum belanja kawat batas kebun.",
+  "caption": "Kawat duri murah lapisan galvanisnya tipis jadi baru satu musim hujan sudah berkarat. Diamond durinya rapat dan kawat tetap tegang waktu ditarik kencang, spek lengkapnya tanya lewat DM.\n#kawatduridiamond #pagarkebun #kebunsawit #materialbangunan",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kawat_duri_diamond_reference.jpg: roll silinder kawat galvanis berkilau dengan lilitan rapi dan label oval bertuliskan BARBED IRON WIRE bercap merah logo roda gigi dan DIAMOND. Tidak membuat master wajah baru; pekerja digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "creative": {
+    "character": "Pekerja kebun Indonesia pria 38 tahun, kemeja kerja lengan panjang biru pudar berdebu, celana kerja gelap, sarung tangan kain abu-abu, topi lapangan cokelat, kulit sawo matang terbakar matahari",
+    "background": "Batas kebun kelapa sawit di Sumatra Utara dengan dua tiang kayu keras dan tiga baris kawat duri terpasang, tanah berumput, pohon sawit berbaris di belakang, cahaya pagi terang berawan",
+    "action": "Menarik kawat baris tengah sekuat tenaga ke arah badan, mengusap duri dengan sarung tangan, lalu menunjuk roll Diamond di pangkal tiang",
+    "selection_reason": "Satu aksi tarik yang bisa diperiksa frame awal sampai akhir, produk resmi terlihat sejak detik nol, dan tidak butuh alat tambahan yang bisa muncul-hilang di tengah take.",
+    "dialogue": "Kawat murah lapisan galvanisnya tipis, baru satu musim hujan sudah berkarat. Diamond durinya rapat, ditarik kencang tetap tegang. Simpan dulu sebelum beli.",
+    "dialogue_start_seconds": 0.6,
+    "dialogue_read_seconds": 9.6,
+    "action_end_seconds": 11.0
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 42,
+    "references_attached": 1,
+    "verified_from": "scripts/sync_flow_status.js --character isk --navigate-home --ensure-720p pada 20 November 2026 10.01 WIB: flow_2 tersambung, saldo 1016 kredit, pill 'Video · 720p · 12 dtk crop_9_16 x1'. Biaya 12 detik 720p mengacu tampilan 42 kredit pada job ISK 19 November dan diverifikasi ulang di panel Flow sebelum Generate."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 12 seconds, one continuous take, shot on a smartphone vlog camera at 24 fps held at chest height with a gentle natural handheld sway and a slight three-quarter angle toward the fence. Location: a palm-oil plantation boundary in North Sumatra with dry grass, red earth and rows of oil palms blurred behind, bright overcast morning light from the open sky. The fence has exactly three horizontal strands of the product in the single attached official reference photo: galvanised barbed wire with tight four-point barbs and a glossy zinc finish, strung between two dark hardwood posts about four metres apart. One sealed roll of the same barbed wire with its oval BARBED IRON WIRE label, red gear cap logo and DIAMOND emblem leans upright against the base of the left post. An Indonesian male farm worker about 38 years old in a faded dusty blue long-sleeve work shirt, dark work trousers, grey cotton work gloves and a brown field cap stands at the fence; his face, gloved hands and torso stay in frame the whole take. PROP CONTINUITY RULE: from 0.0s to 12.0s exactly three strands of barbed wire and the one labelled roll at the base of the left post are already visible and remain visible; no pliers, hammer, machete, bucket, vehicle, animal, extra person or extra wire roll may appear, move in, fall or disappear at any instant, the barb spacing must not change and no barb may detach. BEATS: at 0.0s he already grips the middle strand with both gloved hands and pulls it hard toward his chest, the strand stays taut and does not sag or snap, while he speaks Indonesian with accurate lip sync, \"Kawat murah lapisan galvanisnya tipis, baru satu musim hujan sudah berkarat\". From 3.6s he eases the pull, runs his gloved thumb and forefinger slowly along the barbs and turns the strand slightly toward the lens, the zinc surface stays bright with no rust dust, as he says, \"Diamond durinya rapat, ditarik kencang tetap tegang\". From 8.0s he lets go, steps back half a pace, points at the labelled roll at the base of the left post and looks into the lens saying, \"Simpan dulu sebelum beli\". From 10.8s to 12.0s he holds still with the taut middle strand and the labelled roll both fully in frame. Ambient only: light wind in the palms, faint birds, dry grass rustle, no music. Shot on smartphone vlog camera, natural clean daylight neutral white balance 5500K, true-to-life colours, realistic matte human skin with visible fine pores and real micro-texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero added logo beyond the printed label already on the product roll."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://leeter.cn/news/barbed-wire-standards-astm-a121-coating-class",
+      "title": "Barbed wire standards: ASTM A121 and the Class 1 vs Class 3 coating that decides field life",
+      "observed_at": "2026-11-20T10:01:00+07:00",
+      "evidence": "Dibaca 20 November 2026 pukul 10.04 WIB dari hasil pencarian: standar ASTM A121 membedakan kelas lapisan seng kawat duri, Class 1 sekitar 0.28 oz/ft2 dengan umur lapangan 2 sampai 12 tahun, Class 3 sekitar 0.80 oz/ft2 dengan umur 13 sampai 30 tahun, dan kawat yang hanya ditulis galvanized tanpa kelas hampir selalu kelas paling tipis. Ini dasar klaim bahwa lapisan galvanis tipis menentukan cepat atau lambatnya karat."
+    },
+    {
+      "url": "https://brazosridgefence.com/blog/class-3-galvanized-wire",
+      "title": "Class 1 vs Class 3 Galvanized Fence Wire: Which Lasts Longer",
+      "observed_at": "2026-11-20T10:02:00+07:00",
+      "evidence": "Dibaca 20 November 2026 pukul 10.05 WIB dari hasil pencarian: kawat impor tanpa label kelas sering di bawah 0.25 oz/ft2 dan mulai berkarat dalam 3 sampai 6 tahun, sedangkan Class 1 bisa 8 sampai 10 tahun di iklim lembap. Dipakai sebagai konteks mengapa kawat berlapis tipis cepat berkarat di kebun, bukan sebagai angka resmi produk lokal."
+    },
+    {
+      "url": "https://www.bangunsaranamakmur.com/kawat-duri-surabaya/",
+      "title": "Kawat Duri Surabaya",
+      "observed_at": "2026-11-20T10:02:30+07:00",
+      "evidence": "Dibaca 20 November 2026 pukul 10.06 WIB dari hasil pencarian: spesifikasi kawat duri galvanis yang beredar di pasaran Indonesia menyebut diameter kawat 2.1 mm (BWG 14), jarak antar duri 10 cm, panjang roll sekitar 100 meter dan berat sekitar 10 kg. Dipakai sebagai pembanding umum kerapatan duri, bukan spesifikasi resmi Diamond."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, uji laboratorium, atau merek pesaing. Sumber hanya dipakai untuk konteks lapisan galvanis dan kerapatan duri. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM. Klaim ketahanan dibatasi pada apa yang benar-benar terlihat di klip."
+}
