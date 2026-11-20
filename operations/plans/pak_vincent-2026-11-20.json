@@ -1,0 +1,67 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Bibit Sawit Palsu Lebih Bikin Rugi daripada Ribut Dodos vs Egrek",
+  "hook": "Kawan sibuk ribut dodos lawan egrek, padahal yang bikin hilang puluhan juta itu bibit palsu tanpa sertifikat yang baru ketahuan setelah tiga tahun ditanam.",
+  "story": "Pak Vincent berdiri di tepi jalan poros kebun sawit Riau sambil mengangkat polybag bibit sawit kecil ke arah kamera. Sebuah egrek tua bersandar di batang sawit sebelah kiri sejak frame pertama. Ia bicara ramah khas Riau: ribut soal dodos dan egrek tidak ada habisnya, tetapi yang benar-benar menguras modal adalah bibit murah tanpa sertifikat resmi yang dijual bebas, karena baru ketahuan setelah tiga tahun tanam. Penutupnya mengajak kawan pekebun mengecek asal bibit sebelum beli.",
+  "caption": "Kawan sibuk ribut dodos lawan egrek padahal yang paling bikin tekor itu bibit palsu wak. Bibit murah tanpa sertifikat baru ketahuan buahnya kecil setelah tiga tahun ditanam, jadi cek asal bibitnya dulu sebelum beli. Kawan-kawan biasa beli bibit di kios mana?\n#kebunsawit #bibitsawit #petanisawit #kecambahsawit #panensawit #tbs",
+  "hashtags": [
+    "#kebunsawit",
+    "#bibitsawit",
+    "#petanisawit",
+    "#kecambahsawit",
+    "#panensawit",
+    "#tbs"
+  ],
+  "image_prompt": "Aset master terverifikasi Pak Vincent: Pak Vincent Karakter (wajah). Pakaian kerja: kaos katun kerja biru tua polos tanpa logo/brand. Properti: satu polybag bibit sawit kecil dan satu egrek tua bersandar di batang sawit.",
+  "role_tags": [
+    "ancaman kerugian puluhan juta petani swadaya (waspada kecambah bibit sawit palsu, jamur ganoderma busuk pangkal batang)",
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)"
+  ],
+  "role_reason": "Bibit palsu belum pernah dibahas di lima video terakhir Pak Vincent dan menyentuh kerugian modal jangka panjang, sementara perdebatan dodos vs egrek dipakai sebagai pembuka yang memancing komentar tanpa mengulang tema timbangan RAM 18 November.",
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [10],
+    "estimated_credits_displayed": 35,
+    "references_attached": 1,
+    "verified_from": "Sesi Flow flow_5 port 9334: Video 720p 10 dtk crop_9_16 x1 dengan saldo 906 kredit"
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone documentary vlog video of the 35-year-old Indonesian palm plantation worker shown in the attached reference image. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 10 seconds, one continuous take, medium shot waist-up at eye level with very slight natural handheld sway. Location: a dirt path at the edge of a local palm oil plantation in Riau with green oil palm fronds softly blurred in background. He wears a plain generic navy-blue long-sleeve cotton work shirt without any logos or graphics, dark shorts, dark baseball cap and rubber work sandals, lean wiry sun-tanned build 168 cm, weathered matte skin with fine pores, thin mustache, calm friendly expression. PROP CONTINUITY: from 0.0s until the final frame he holds one small oil palm seedling in a black polybag at chest height in his right hand, while one harvesting egrek with a long pole leans against the palm trunk at the left edge of the frame; no other tool, other person or new object enters or leaves the frame. At 0.0s he is already speaking and lifting the polybag slightly toward the camera, then he shakes his head slightly, raises one finger to warn, and closes with a short nod and a modest smile at the camera, speaking in natural friendly Indonesian with a warm expression, looking directly into the camera lens. Ambient plantation sound: distant rustling palm leaves and gentle breeze, no music, no artificial voiceover. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero logo.",
+      "dialogue": "Yang bikin rugi puluhan juta itu bukan dodos lawan egrek wak, tapi bibit palsu. Bibit murah tanpa sertifikat, tanam tiga tahun baru tahu buahnya kecil. Cek asalnya dulu kawan.",
+      "dialogue_start_seconds": 0.2,
+      "dialogue_read_seconds": 9.0,
+      "action_end_seconds": 9.8
+    }
+  ],
+  "references": [
+    "characters/pak_vincent/identity/Pak Vincent Karakter"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://karantinaindonesia.go.id/bengkulu/berita/barantin-gagalkan-peredaran-75992-bibit-sawit-ilegal-karding-negara-tak-boleh-kalah",
+      "title": "Barantin Gagalkan Peredaran 75.992 Bibit Sawit Ilegal",
+      "observed_at": "2026-11-19T16:28:00+07:00",
+      "evidence": "Barantin menggagalkan peredaran 75.992 bibit sawit ilegal; pemeriksaan awal menemukan kejanggalan pada kemasan dan sertifikat yang mengatasnamakan Pusat Penelitian Kelapa Sawit (PPKS)."
+    },
+    {
+      "url": "https://disbun.kaltimprov.go.id/artikel/awas-bibit-palsu-merugikan-petani",
+      "title": "Awas, Bibit Palsu Merugikan Petani",
+      "observed_at": "2026-11-19T16:30:00+07:00",
+      "evidence": "Dinas Perkebunan menyebut bibit sawit palsu merugikan petani; PPKS tidak mengeluarkan sertifikat dan bibit unggul hanya dihasilkan produsen resmi yang terdaftar di Kementerian Pertanian."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Edukasi praktis petani kelapa sawit Riau mengenai kewaspadaan terhadap bibit kelapa sawit palsu tanpa sertifikat resmi PPKS."
+}
