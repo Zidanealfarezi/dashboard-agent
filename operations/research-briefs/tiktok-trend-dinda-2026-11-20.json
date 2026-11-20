@@ -1,0 +1,186 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-20",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-20T08:22:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 20 November 2026 pukul 08:00-08:22 WIB. Sesuai perintah kerja, riset ini TIDAK menyentuh prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi. Prioritas riset: perdebatan sekte kuliner Palembang, hidden gem lorong pempek murah vs harga tempat wisata, dan kontras harga yang ditutup adu dua kubu. Sudut utama hari ini diambil dari berita paling segar dan paling berdampak ke kantong pembeli seribuan: penataan tiga pasar besar Palembang (Pasar 16 Ilir, Lemabang, Kuto) yang masuk tahap pendataan 564 PKL Pasar 16 Ilir. Sumber utama: SuaraSumsel.id 17 November 2026 19.58 WIB (angka 564 PKL, 1.223 kios dengan sekitar 700 terisi, 158 PKL depan pasar sudah pernah ditawari pindah, opsi Taman Nusa Indah, Pasar Soak Bato, Pasar Gubah, Pasar 10 Ulu), RRI Palembang 18 November 2026 14.50 WIB (pernyataan Ratu Dewa soal Taman Nusa Indah sebagai aset pemprov dan tim khusus di bawah Asisten Pemerintahan), serta Tribun Sumsel 19 November 2026 16.59 WIB (pedagang dan juru parkir resah, kutipan pedagang Dwi di Lemabang). Kontras harga memakai Kompas.id 28 Februari 2025 (pempek tumpah serba Rp1.000 per butir ukuran kecil, ukuran besar Rp2.500, dan jalur viralnya lewat TikTok) yang disandingkan dengan kisaran harga menu resto pempek Palembang di artikel GoPay 5 November 2026 (Pempek Lala mulai Rp5.000 sampai menu Rp200.000, Pempek Candy Rp18.000-Rp650.000). Catatan keterbatasan riset tren TikTok: halaman lagitren.id/tiktok pada 20 November 2026 pukul 07.17 WIB hanya memuat tagar non-kuliner (thegrandherofiesta, fairytail, dilanmilea, putritanjung, cawapres, hari ayah), dan halaman #musteatinmycity tertulis sudah tidak aktif sejak 7 November 2026, jadi tidak ada angka tren kuliner nasional yang bisa dikutip dan sengaja tidak dikarang. Catatan anti-ulang: cuko mangkok vs sendok (17 Nov), hidden gem lorong 7 Ulu seribuan (18 Nov), pempek prasmanan seribuan dilayani vs ambil sendiri (19 Nov), serta kandidat tutupnya lapak pempek tumpah imbas komentar negatif (sudah ada di bank 17 dan 18 Nov) tidak dipakai lagi sebagai sudut utama. Kandidat B sengaja diberi near_duplicate_ids ke opt_dinda_B_1794877482 karena masih serumpun kontras harga, supaya penalti kebaruan tetap jujur.",
+  "candidates": [
+    {
+      "url": "https://sumsel.suara.com/read/2026/11/17/195853/564-pkl-pasar-16-ilir-palembang-terancam-dipindahkan-ini-lokasi-relokasi-yang-disiapkan",
+      "title": "564 PKL Pasar 16 Ilir Palembang Terancam Dipindahkan, Ini Lokasi Relokasi yang Disiapkan - SuaraSumsel.id",
+      "evidence": "Terbit Selasa 17 November 2026 pukul 19.58 WIB, dibaca 20 November 2026 pukul 08:12 WIB. Sebanyak 564 pedagang kaki lima di kawasan Pasar 16 Ilir masuk pendataan untuk ditata dan direlokasi, tersebar dari badan jalan depan gedung pasar, emperan bagian dalam, sampai lorong-lorong pasar. Wakapolda Sumsel Brigjen Pol Irwansyah menyebut pedagang di dalam pasar yang tidak punya surat atau sertifikat kepemilikan tempat berjualan juga masuk perhatian. Wali Kota Palembang Ratu Dewa menyebut opsi relokasi antara lain kawasan Taman Nusa Indah yang statusnya aset Pemerintah Provinsi Sumsel sehingga perlu izin, plus alternatif Pasar Soak Bato, Pasar Gubah, dan Pasar 10 Ulu yang dikelola Perumda Pasar Palembang Jaya. Artikel juga mencatat ada 1.223 kios di gedung Pasar 16 Ilir dan sekitar 700 sudah terisi, serta Dirut Perumda Pasar Palembang Jaya Dedi Siswoyo menyebut 158 PKL yang berjualan di tepi jalan depan pasar sebelumnya sudah pernah ditawari pindah.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:12:00+07:00",
+      "published_at": "2026-11-17T19:58:53+07:00",
+      "metrics": {
+        "pkl_didata": "564 pedagang di kawasan Pasar 16 Ilir",
+        "kios_gedung": "1.223 kios, sekitar 700 terisi",
+        "pkl_sudah_ditawari": "158 PKL tepi jalan depan pasar",
+        "opsi_relokasi": "Taman Nusa Indah (aset pemprov), Pasar Soak Bato, Pasar Gubah, Pasar 10 Ulu"
+      }
+    },
+    {
+      "url": "https://rri.co.id/palembang/regional/2905874/parkir-liar-dan-pkl-bikin-macet-tiga-pasar-besar-di-palembang-bakal-ditertibkan",
+      "title": "Parkir Liar dan PKL Bikin Macet, Tiga Pasar Besar di Palembang Bakal Ditertibkan - RRI Palembang",
+      "evidence": "Terbit Rabu 18 November 2026 pukul 14.50 WIB, dibaca 20 November 2026 pukul 08:15 WIB. Rapat koordinasi tindak lanjut penertiban PKL dan parkir liar digelar Selasa 17 November 2026 di Ruang Rapat Parameswara Setda Kota Palembang, melibatkan Polda Sumsel, Polrestabes Palembang, dan Pemkot Palembang. Wali Kota Ratu Dewa menyatakan penataan bukan semata mengatasi kemacetan tetapi mengembalikan fungsi kawasan pasar agar tertib, bersih, aman, dan nyaman, dan menyebut Taman Nusa Indah sebagai salah satu opsi meski berstatus aset Pemerintah Provinsi. Relokasi masih perlu dimatangkan tim khusus di bawah koordinasi Asisten Pemerintahan dan Kesejahteraan Rakyat, dan pendekatan persuasif tetap diutamakan. Pasar 16 Ilir, Pasar Lemabang, dan Pasar Kuto menjadi sasaran penertiban.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:15:00+07:00",
+      "published_at": "2026-11-18T14:50:00+07:00",
+      "metrics": {
+        "lokasi_rapat": "Ruang Rapat Parameswara, Setda Kota Palembang",
+        "tanggal_rapat": "17 November 2026",
+        "pasar_sasaran": "Pasar 16 Ilir, Pasar Lemabang, Pasar Kuto",
+        "pendekatan": "persuasif, menunggu tim khusus"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1036041/rencana-penertiban-3-pasar-di-palembang-resahkan-pedagang-dan-juru-parkir-kami-hanya-cari-makan",
+      "title": "Rencana Penertiban 3 Pasar di Palembang Resahkan Pedagang dan Juru Parkir : Kami Hanya Cari Makan - Tribun Sumsel",
+      "evidence": "Terbit Kamis 19 November 2026 pukul 16.59 WIB, dibaca 20 November 2026 pukul 08:17 WIB. Rencana penertiban PKL dan parkir liar di Pasar 16 Ilir, Pasar Lemabang, dan Pasar Kuto membuat pedagang dan juru parkir gelisah. Pedagang bernama Dwi yang berjualan di kawasan Lemabang berharap tetap bisa berjualan seperti biasa karena menurutnya pembeli lebih nyaman dengan kondisi sekarang, dan menyatakan penertiban tidak menyelesaikan masalah bila tidak ada solusi yang berarti serta justru memberatkan PKL. Dwi mengaku sudah ada informasi penertiban tetapi waktunya belum diketahui pasti. Perumda Pasar Palembang Jaya menyebut penataan masih tahap sosialisasi dan lokasi relokasi sudah disiapkan, sementara Wali Kota Ratu Dewa dan Wakapolda Sumsel memastikan pendekatan persuasif.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:17:00+07:00",
+      "published_at": "2026-11-19T16:59:21+07:00",
+      "metrics": {
+        "kutipan_pedagang": "Kita berharap tetap bisa berjualan seperti biasa karena masyarakat yang membeli lebih nyaman seperti ini",
+        "status_penataan": "masih tahap sosialisasi per 19 November 2026",
+        "waktu_penertiban": "belum ditentukan"
+      }
+    },
+    {
+      "url": "https://www.kompas.id/artikel/pempek-tumpah-mengangkat-kasta-pempek-jelata",
+      "title": "Pempek Tumpah Mengangkat Kasta Pempek \"Jelata\" - Kompas.id",
+      "evidence": "Terbit Jumat 28 Februari 2025 pukul 07.00 WIB, dibaca ulang 20 November 2026 pukul 08:19 WIB (bagian yang terbaca tanpa langganan: pembuka sampai kutipan pembeli Bandung). Pempek tumpah disebut semula dipandang pempek kelas dua, lalu menjadi magnet baru wisata kuliner Palembang setelah viral, termasuk lewat TikTok, dengan penikmat dari turis domestik, mancanegara, selebriti, sampai tokoh politik. Harga yang dikutip artikel: serba Rp1.000 per butir untuk ukuran kecil dan Rp2.500 per butir untuk pempek ukuran besar. Artikel menyebut dua wisatawan Bandung, Ildan (28) dan Ramadhan (31), menjadikan pempek tumpah destinasi kuliner pertama begitu tiba di Palembang karena melihat konten media sosial.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:19:00+07:00",
+      "published_at": "2025-02-28T07:00:01+07:00",
+      "metrics": {
+        "harga_kecil": "Rp1.000 per butir",
+        "harga_besar": "Rp2.500 per butir",
+        "jalur_viral": "media sosial terutama TikTok",
+        "catatan": "hanya bagian awal artikel yang terbaca tanpa langganan"
+      }
+    },
+    {
+      "url": "https://gopay.co.id/blog/restoran-pempek-di-palembang",
+      "title": "10 Pilihan Restoran Pempek di Palembang Paling Autentik - GoPay Blog",
+      "evidence": "Terbit 5 November 2026, dibaca 20 November 2026 pukul 08:20 WIB. Artikel rekomendasi ini mencantumkan kisaran harga menu per resto, bukan harga per butir: Pempek Candy Rp18.000-Rp650.000, Pempek Lala Rp5.000-Rp200.000, Sentral Kampung Pempek Rp10.000-Rp500.000-an, Pempek Nony 168 Sudirman Rp5.000-Rp400.000, Pempek Beringin Dempo Rp8.000-Rp600.000, Pempek Edy Rp1.500-Rp350.000, dan Pempek Ek Dempo 103 Rp8.800-Rp1,32 juta. Teks menyebut Pempek Lala menjual satu butir pempek mulai Rp5.000 dan Pempek Ek Dempo 103 memakai ikan belida sehingga harganya lebih mahal. Angka ini dipakai hanya sebagai pembanding kisaran harga resto, bukan harga per butir pempek emperan.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:20:00+07:00",
+      "published_at": "2026-11-05T09:00:00+07:00",
+      "metrics": {
+        "pempek_lala": "satu butir mulai Rp5.000, menu Rp5.000-Rp200.000",
+        "pempek_candy": "menu Rp18.000-Rp650.000",
+        "sentral_kampung_pempek": "menu Rp10.000-Rp500.000-an",
+        "ek_dempo_103": "menu Rp8.800-Rp1,32 juta, pakai ikan belida"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8751759/apem-bekuwa-khas-palembang-yang-punya-cerita-unik-simak-resepnya",
+      "title": "Apem Bekuwa Khas Palembang yang Punya Cerita Unik, Simak Resepnya! - detikSumbagsel",
+      "evidence": "Terbit Sabtu 14 November 2026 pukul 07.00 WIB, dibaca 20 November 2026 pukul 08:21 WIB. Apem bekuwa digambarkan mirip serabi Jawa Barat tetapi di Palembang disajikan dengan kuah kental manis. Kudapan ini hanya dibuat untuk kepentingan acara keagamaan seperti peringatan tujuh hari atau 40 hari orang meninggal bagi masyarakat muslim Palembang, sehingga tidak selalu ada di jajanan pasar. Artikel menyebut apem bekuwa dibuat masyarakat lapisan bawah dan disebut makanan pinggiran, disajikan sebagai makanan pembuka sebelum sajian utama. Rujukan artikel adalah buku Ensiklopedi Makanan Tradisional Indonesia (Sumatera) karya Harun Nur Rasyid.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:21:00+07:00",
+      "published_at": "2026-11-14T07:00:01+07:00",
+      "metrics": {
+        "kapan_ada": "hanya saat acara 7 hari atau 40 hari",
+        "bentuk": "mirip serabi, disajikan dengan kuah kental manis",
+        "posisi_sosial": "disebut makanan pinggiran masyarakat lapisan bawah"
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini - 20 November 2026 - Lagi Tren",
+      "evidence": "Diperbarui Jumat 20 November 2026 pukul 07.17 WIB, dibaca 20 November 2026 pukul 08:08 WIB. Sepuluh video viral hari ini didominasi tagar non-kuliner: thegrandherofiesta 791,9 ribu, fairytail 1,8 juta, dilanmilea 12,2 juta, putritanjung 5,2 juta, cawapres 3,4 juta, wapres 6,1 juta, gofarhilman 3,9 juta, jamnaspacitan 6,0 juta, mma2026 4,1 juta, promoguncang1212 1,2 juta. Daftar 20 hashtag tren juga tidak memuat satu pun tagar kuliner, dan halaman #musteatinmycity tertulis sudah tidak aktif sejak 7 November 2026. Karena itu brief ini tidak mengutip angka tren kuliner nasional apa pun.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-20T08:08:00+07:00",
+      "published_at": "2026-11-20T07:17:00+07:00",
+      "metrics": {
+        "tagar_kuliner_hari_ini": "tidak ada di 10 video viral maupun 20 hashtag tren",
+        "musteatinmycity": "tidak aktif sejak 7 November 2026",
+        "tagar_teratas": "dilanmilea 12,2 juta; wapres 6,1 juta; jamnaspacitan 6,0 juta"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Pempek Seribuan di Emperan Mau Dipindah: 564 PKL Pasar 16 Ilir Sedang Didata",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Kalian yang biasa sarapan pempek seribuan di emperan Pasar 16 Ilir, siap-siap: 564 pedagang di kawasan itu sedang didata untuk dipindah.",
+      "shots": [
+        "Shot 1 (9s): Dinda duduk lesehan di lapak pempek tumpah emperan Pasar 16 Ilir, kamera menyorot meja panjang berlapis daun pisang penuh pempek seribuan, lalu Dinda menyerahkan uang seribuan dan menikmati satu biji sambil menyebut angka 564 pedagang yang sedang didata untuk direlokasi.",
+        "Shot 2 (9s): Dinda berdiri di depan gedung Pasar 16 Ilir sambil menunjuk badan jalan yang dipakai lapak dan lorong pasar yang sempit, lalu menyebut opsi relokasi Taman Nusa Indah dan kios kosong di dalam gedung, ditutup pertanyaan ke penonton masuk tim pedagang yang tetap di emperan atau tim warga yang mau pasar tertib."
+      ],
+      "sound": "Ambience pasar pagi dan suara pedagang menawarkan pempek, tanpa musik",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Pemkot Palembang dan Polda Sumsel mulai mendata 564 pedagang kaki lima di kawasan Pasar 16 Ilir untuk ditata dan direlokasi, padahal di emperan itu juga yang jual pempek seribuan paling dicari warga dan turis. Kalau lapaknya dipindah, kalian tim pedagang yang tetap jualan di tempat ramai atau tim warga yang mau badan jalan pasar tertib? #palembang #kulinerpalembang #pempektumpah #pasar16ilir #infopalembang #wongkito",
+      "sources": [
+        "https://sumsel.suara.com/read/2026/11/17/195853/564-pkl-pasar-16-ilir-palembang-terancam-dipindahkan-ini-lokasi-relokasi-yang-disiapkan",
+        "https://rri.co.id/palembang/regional/2905874/parkir-liar-dan-pkl-bikin-macet-tiga-pasar-besar-di-palembang-bakal-ditertibkan",
+        "https://sumsel.tribunnews.com/palembang/1036041/rencana-penertiban-3-pasar-di-palembang-resahkan-pedagang-dan-juru-parkir-kami-hanya-cari-makan",
+        "https://www.kompas.id/artikel/pempek-tumpah-mengangkat-kasta-pempek-jelata"
+      ],
+      "factors": {
+        "pain_point_intensity": 9.3,
+        "actionable_solution": 8.7,
+        "local_relevance": 9.8,
+        "momentum": 9.2,
+        "evidence_strength": 9.3
+      },
+      "why": "Satu-satunya sudut yang benar-benar baru di bank ide dan masih panas tiga hari terakhir: pendataan 564 PKL Pasar 16 Ilir (17 November), pernyataan Wali Kota soal opsi Taman Nusa Indah dan tim khusus (18 November), dan keluhan pedagang Lemabang (19 November). Keresahannya konkret untuk penonton Palembang yang bergantung pada pempek seribuan, solusinya juga konkret karena ada 1.223 kios di dalam gedung dengan sekitar 700 terisi, sehingga penonton tahu pilihan ruang jualan yang tersedia, bukan cuma berita penertiban. Ditutup adu dua kubu: pedagang yang hidup dari keramaian emperan versus warga yang mengeluh macet dan parkir liar."
+    },
+    {
+      "code": "B",
+      "title": "Seribuan di Emperan vs Rp5.000 Sampai Rp18.000 di Resto: Bedanya di Mana?",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek yang sama sama-sama dari ikan, tapi di emperan seribuan dan di resto menu bisa mulai lima ribu sampai delapan belas ribu.",
+      "shots": [
+        "Shot 1 (9s): Dinda memegang dua piring, satu berisi tiga pempek kecil seribuan dari lapak emperan dan satu berisi satu pempek kapal selam dari resto, lalu menyebut selisih harganya langsung ke kamera.",
+        "Shot 2 (9s): Dinda membandingkan rasa dan porsi sambil menyebut resto memakai ikan belida dan cukonya lebih kental, lalu bertanya ke penonton mending seribuan banyak atau satu biji yang lebih mewah."
+      ],
+      "sound": "Beat ringan untuk format perbandingan harga, volume rendah supaya suara Dinda jelas",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Pempek di emperan Pasar 16 Ilir masih serba seribuan per butir, sementara kisaran harga menu resto pempek di Palembang mulai lima ribu sampai belasan ribu per porsi. Bedanya bukan cuma harga, tapi juga jenis ikan dan kekentalan cukonya. Kalian tim borong seribuan atau tim satu biji yang mahal? #palembang #kulinerpalembang #pempek #hargapempek #kulinerviral #wongkito",
+      "sources": [
+        "https://www.kompas.id/artikel/pempek-tumpah-mengangkat-kasta-pempek-jelata",
+        "https://gopay.co.id/blog/restoran-pempek-di-palembang"
+      ],
+      "near_duplicate_ids": [
+        "opt_dinda_B_1794877482"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.4,
+        "actionable_solution": 7.6,
+        "local_relevance": 9.5,
+        "momentum": 7.4,
+        "evidence_strength": 8.2
+      },
+      "why": "Kontras harga paling mudah dipahami penonton dan tetap relevan karena harga seribuan di emperan masih tercatat resmi Rp1.000 per butir. Kelemahannya, sudut ini serumpun dengan kandidat kontras harga 17 November sehingga sengaja ditandai near_duplicate_ids, dan angka resto yang dipakai adalah kisaran harga menu, bukan harga per butir, jadi klaimnya harus ditulis hati-hati."
+    },
+    {
+      "code": "C",
+      "title": "Apem Bekuwa: Kue yang Cuma Muncul Saat Acara, Jarang Dicari Turis",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Turis datang ke Palembang cuma cari pempek, padahal ada kue yang cuma muncul saat acara tujuh atau empat puluh hari dan jarang orang luar tahu.",
+      "shots": [
+        "Shot 1 (9s): Dinda duduk di dapur rumah warga Palembang sambil melihat apem bekuwa yang baru matang, kamera menyorot bentuknya yang mirip serabi dan kuah kental manis di mangkuk kecil.",
+        "Shot 2 (9s): Dinda mencicipi apem bekuwa lalu menjelaskan kue ini hanya dibuat untuk acara tujuh hari atau empat puluh hari, bukan jajanan harian, dan bertanya ke penonton apakah masih ada yang pernah makan kue ini."
+      ],
+      "sound": "Ambience dapur rumah dan suara wajan, tanpa musik",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Apem bekuwa bentuknya mirip serabi tapi disajikan dengan kuah kental manis, dan di Palembang kue ini cuma dibuat saat acara tujuh hari atau empat puluh hari. Bukan jajanan pasar harian, jadi banyak orang Palembang sendiri yang belum pernah coba. Kalian pernah makan apem bekuwa? #palembang #kuepalembang #apembekuwa #kulinerpalembang #kulinerlangka #wongkito",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8751759/apem-bekuwa-khas-palembang-yang-punya-cerita-unik-simak-resepnya"
+      ],
+      "factors": {
+        "pain_point_intensity": 5.8,
+        "actionable_solution": 5.6,
+        "local_relevance": 9.0,
+        "momentum": 6.2,
+        "evidence_strength": 7.0
+      },
+      "why": "Sudut paling segar dari sisi kebaruan karena belum ada di bank ide dan menyentuh tradisi yang jarang dibahas. Tetapi buktinya cuma satu artikel resep 14 November 2026 tanpa angka harga atau jumlah penjual, dan kue ini tidak punya titik sakit finansial, jadi skornya wajar lebih rendah daripada dua kandidat lain."
+    }
+  ]
+}
