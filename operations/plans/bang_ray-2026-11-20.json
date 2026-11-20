@@ -1,0 +1,76 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Rangka Atap Tanpa Ikatan Angin Bikin Atap Melintir dan Lepas Kena Angin",
+  "hook": "Atap rumah melintir lalu lepas kena angin itu bukan gara-gara gentengnya ringan, tapi rangka atapnya dipasang tanpa ikatan angin.",
+  "story": "Bang Ray berdiri di bawah rangka atap rumah setengah jadi di Banda Aceh. Sejak detik 0.0s dua potong kanal C75 baja ringan sudah ada di tangannya, satu di kiri dan satu di kanan, sementara di belakangnya tampak bentang rangka atap tanpa bracing. Ia memperlihatkan dua potong kanal itu terpisah di depan bentang kosong, lalu menyatukan keduanya jadi silang X dan menekan titik persilangannya untuk menunjukkan ikatan angin yang mengunci kuda-kuda. Ia menutup dengan mengadu dua kubu cara kerja tukang: kubu bracing silang penuh di tiap ujung melawan kubu ikat angin cuma di satu ujung. Hanya dua potong kanal C75 itu properti yang hadir dari awal sampai akhir.",
+  "caption": "Atap melintir lalu lepas kena angin itu bukan gara-gara gentengnya ringan tapi rangka atapnya tanpa ikatan angin. Tukang senior pasang bracing silang di tiap ujung, Rakan di sana kubu silang penuh atau cuma ikat angin di ujung?\n#tipskonstruksi #bajaringan #rangkaatap #renovasirumah #tukangbangunan #bandaaceh",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#bajaringan",
+    "#rangkaatap",
+    "#renovasirumah",
+    "#tukangbangunan",
+    "#bandaaceh"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah dan FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja. Properti: dua potong kanal C75 baja ringan pendek dipegang di tangan kanan dan kiri, latar bentang rangka atap baja ringan rumah setengah jadi.",
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Tiga konsep disiapkan: (1) kamera setinggi pinggang tiga perempat depan di bawah rangka atap, Bang Ray memegang dua kanal C75 lalu menyatukannya jadi silang X di depan bentang kosong, (2) kamera menengadah dari lantai ke rangka atap sementara ia menunjuk titik tanpa bracing dengan satu kanal, (3) kamera mengikuti dari belakang saat ia berjalan menyusuri baris kuda-kuda lalu berhenti dan menyilangkan dua kanal. Konsep 1 dipilih karena risiko struktur yang diangkat belum dipakai dalam lima video terakhir (19 Nov adukan beton encer, 18 Nov pipa PVC Tee, 17 Nov sambungan besi sloof, 16 Nov siar muai keramik, 15 Nov siram bata), identitas wajah tetap besar di frame, dua properti terkunci sejak detik 0.0s, dan gerakan menyilangkan kanal terbaca jelas dalam satu take 15 detik. Konsep 2 membuang wajah dan membuat kontinuitas properti sulit, konsep 3 butuh gerak kamera yang bertabrakan dengan aksi tangan. Penutup adu dua kubu silang penuh versus ikat angin di satu ujung memancing komentar tanpa mengklaim hasil uji atau angka yang belum terbukti.",
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 60,
+    "references_attached": 3,
+    "verified_from": "Sesi Flow flow_3 port 9335: Video 720p 15 dtk crop_9_16 x1 dengan saldo 976 kredit (sinkron CDP 20 Nov 2026 14.00 WIB); harga 15 dtk 720p pada panel setelan dibaca sebelum reserve."
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at hip height in a three-quarter front angle with very slight natural handheld sway. Location: the unfinished roof structure of a house under construction in Banda Aceh, bare light-steel roof trusses and purlins standing behind him in an empty frame bay, open gable at frame left letting in soft morning sky light, no workers and no scaffolding in view. PROP CONTINUITY: exactly two objects exist in frame from 0.0s to the last frame, one short light-steel C75 channel offcut held in his left hand and one identical C75 channel offcut held in his right hand; no other tool, ladder, hammer, coil, person or animal may appear, fall, float or vanish at any moment, and both C75 offcuts stay in his hands for the entire shot. BEATS: at 0.0s he already holds the two C75 offcuts apart at chest height in front of the empty truss bay and speaks Indonesian with accurate lip sync, \"Atap melintir lalu lepas kena angin itu bukan gara-gara gentengnya ringan.\"; from 4.6s he brings the two offcuts together and locks them into a clean diagonal X in front of the empty frame bay, saying, \"Rangka tanpa ikatan angin gampang goyang lalu miring sendiri.\"; from 9.6s he holds the X steady with both hands, taps the crossing point twice with his thumb and asks, \"Tukang senior pasang bracing silang di tiap ujung. Rakan kubu silang penuh atau cuma di ujung?\"; the final 0.6s holds cleanly on the X bracing with a slight friendly nod. Ambient only: light morning breeze, occasional distant hammering, no music, no voiceover other than his spoken lines. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores and real micro-texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero captions, zero HUD, zero timestamps, zero watermark, zero logo. Keep his face, clothing, watch, both C75 offcuts and the background consistent in every frame.",
+      "dialogue": "Atap melintir lalu lepas kena angin itu bukan gara-gara gentengnya ringan. Rangka tanpa ikatan angin gampang goyang lalu miring sendiri. Tukang senior pasang bracing silang di tiap ujung. Rakan kubu silang penuh atau cuma di ujung?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 13.6,
+      "action_end_seconds": 14.2
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://simpk.pu.go.id/dist/regpub/Katalog_BajaRingan_2018.pdf",
+      "title": "Katalog Baja Ringan 2018 (Kementerian PUPR)",
+      "observed_at": "2026-11-20T14:00:00+07:00",
+      "evidence": "Dibaca 20 November 2026 pukul 14.00 WIB dari hasil pencarian: katalog Kementerian PUPR memuat tahap pemasangan rangka atap baja ringan termasuk memasang ikatan angin dan sagrod, serta menyebut pengangkatan rafter harus seimbang agar batang rafter tidak melintir."
+    },
+    {
+      "url": "https://id.onduline.com/id/konsumen/planning/semua-kategori/artikel/blog/hendak-pasang-atap-rumah-perhatikan-dulu-hal-penting-ini",
+      "title": "Hendak Pasang Atap Rumah? Perhatikan Dulu Hal Penting Ini (Onduline Indonesia)",
+      "observed_at": "2026-11-20T14:00:00+07:00",
+      "evidence": "Dibaca 20 November 2026 pukul 14.00 WIB dari hasil pencarian: bracing atau pengaku berguna mengikat kuda-kuda yang satu dengan kuda-kuda lainnya, posisinya melintang atau memanjang menyesuaikan panjang atap, dan biasanya memakai truss atau kanal C mirip kuda-kuda."
+    },
+    {
+      "url": "https://www.99.co/id/panduan/jarak-kuda-kuda-baja-ringan",
+      "title": "Jarak Kuda Kuda Baja Ringan Berdasarkan Jenis Atap (99.co)",
+      "observed_at": "2026-11-20T14:00:00+07:00",
+      "evidence": "Dibaca 20 November 2026 pukul 14.00 WIB dari hasil pencarian: jarak kuda-kuda terlalu renggang membuat kuda-kuda tidak mampu menopang beban atap terutama saat angin kencang sehingga atap bisa melengkung, ambruk atau roboh, dengan jarak maksimal sekitar 1 sampai 1,2 meter untuk atap spandek dan genteng metal."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Edukasi risiko struktur atap baja ringan tanpa ikatan angin, berbasis katalog Kementerian PUPR dan panduan pemasangan atap. Tidak menyebut merek, tidak mengklaim angka hasil uji, dan penutup berupa adu dua kubu metode tanpa jaminan hasil."
+}
