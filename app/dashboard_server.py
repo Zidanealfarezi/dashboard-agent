@@ -170,6 +170,56 @@ class DashboardHandler(BaseHTTPRequestHandler):
                 except Exception:
                     counts[t] = 0
 
+            # Dynamic production metrics
+            try:
+                cur.execute("SELECT COUNT(*) FROM publications WHERE state = 'confirmed' AND confirmed_at >= datetime('now', '-7 days')")
+                weekly_prod = cur.fetchone()[0]
+            except Exception:
+                weekly_prod = 0
+
+            try:
+                cur.execute("SELECT COUNT(*) FROM publications WHERE state = 'confirmed' AND confirmed_at >= datetime('now', 'start of month')")
+                monthly_prod = cur.fetchone()[0]
+            except Exception:
+                monthly_prod = 0
+
+            try:
+                cur.execute("SELECT COUNT(*) FROM publications WHERE state = 'confirmed'")
+                total_confirmed_pubs = cur.fetchone()[0]
+            except Exception:
+                total_confirmed_pubs = counts.get("publications", 0)
+
+            # Dynamic approvals metrics
+            try:
+                cur.execute("SELECT COUNT(*) FROM approvals WHERE decision = 'approved'")
+                approved_acc = cur.fetchone()[0]
+                total_acc = counts.get("approvals", 0)
+                acc_rate = round((approved_acc / total_acc * 100), 1) if total_acc > 0 else 100.0
+            except Exception:
+                approved_acc = counts.get("approvals", 0)
+                total_acc = approved_acc
+                acc_rate = 100.0
+
+            # Dynamic latest confirmed publication
+            latest_publication = None
+            try:
+                latest_pub_row = cur.execute("""
+                    SELECT p.id as pub_id, p.platform_post_id, p.post_url, p.confirmed_at,
+                           ch.id as character_id, ch.name as character_name, ch.account,
+                           v.media_path, v.caption
+                    FROM publications p
+                    JOIN versions v ON p.version_id = v.id
+                    JOIN content c ON v.content_id = c.id
+                    JOIN characters ch ON c.character_id = ch.id
+                    WHERE p.state = 'confirmed'
+                    ORDER BY p.confirmed_at DESC
+                    LIMIT 1
+                """).fetchone()
+                if latest_pub_row:
+                    latest_publication = dict(latest_pub_row)
+            except Exception:
+                latest_publication = None
+
             flow_cfg = load_json(CONFIG_DIR / "flow_accounts.json") or {}
             flow_accounts = flow_cfg.get("accounts", [])
             total_credits = sum((acc.get("verified_balance") or acc.get("reported_monthly_credits") or 0) for acc in flow_accounts)
@@ -210,7 +260,18 @@ class DashboardHandler(BaseHTTPRequestHandler):
                 'recent_publications': [dict(r) for r in recent_pubs],
                 'recent_approvals': [dict(r) for r in recent_acc],
                 'schedules': project_cfg.get('publication_schedules', {}),
-                'agents_status': agents_status
+                'agents_status': agents_status,
+                'production_stats': {
+                    'weekly': weekly_prod,
+                    'monthly': monthly_prod,
+                    'total': total_confirmed_pubs
+                },
+                'acc_stats': {
+                    'approved': approved_acc,
+                    'total': total_acc,
+                    'rate': acc_rate
+                },
+                'latest_publication': latest_publication
             })
 
     def handle_api_agents_status(self):
@@ -592,26 +653,31 @@ class DashboardHandler(BaseHTTPRequestHandler):
     <div class="max-w-6xl w-full mx-auto px-8 -mt-14 z-20">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
         
-        <!-- CARD 1: MINT GREEN (CREATOR IDENTITY) -->
+        <!-- CARD 1: MINT GREEN (CREATOR IDENTITY / LATEST PUBLISHED VIDEO) -->
         <div class="mint-wave-bg rounded-2xl p-5 text-slate-800 shadow-md flex flex-col justify-between border border-[#b8f5d0] min-h-[145px]">
           <div class="flex items-center justify-between">
-            <div class="w-8 h-8 rounded-lg bg-emerald-800 text-emerald-100 flex items-center justify-center font-black text-xs">
-              PV
+            <div id="hero-creator-initials" class="w-8 h-8 rounded-lg bg-emerald-800 text-emerald-100 flex items-center justify-center font-black text-xs">
+              IK
             </div>
-            <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-800/10 text-emerald-800">BARU LIVE HARI INI</span>
+            <span id="hero-latest-badge" class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-800/10 text-emerald-800">PUBLIKASI TERAKHIR</span>
           </div>
           <div>
-            <p class="text-[11px] font-bold text-emerald-800 uppercase tracking-wider font-mono">TIKTOK DEBUT VIDEO</p>
-            <h3 class="text-base font-extrabold text-slate-900 tracking-tight font-mono">7706823640918019349</h3>
+            <p class="text-[11px] font-bold text-emerald-800 uppercase tracking-wider font-mono">TIKTOK PUBLISHED VIDEO</p>
+            <h3 id="hero-latest-post-id" class="text-base font-extrabold text-slate-900 tracking-tight font-mono">
+              <a id="hero-latest-link" href="https://www.tiktok.com/@intansuarkartika/video/7709808850983013633" target="_blank" class="hover:underline flex items-center space-x-1.5">
+                <span id="hero-latest-id-text">7709808850983013633</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 text-emerald-700"></i>
+              </a>
+            </h3>
           </div>
           <div class="flex items-center justify-between text-xs border-t border-emerald-800/10 pt-2 text-emerald-900">
             <div>
               <span class="block text-[9px] uppercase font-bold text-emerald-800/70">Creator Name</span>
-              <span class="font-bold">Pak Vincent (@pakvincent.riau)</span>
+              <span id="hero-latest-creator-name" class="font-bold">PT Intan Suar Kartika (@intansuarkartika)</span>
             </div>
             <div class="text-right">
-              <span class="block text-[9px] uppercase font-bold text-emerald-800/70">Durasi</span>
-              <span class="font-bold">08.04s (1080P)</span>
+              <span class="block text-[9px] uppercase font-bold text-emerald-800/70">Waktu &bull; Status</span>
+              <span id="hero-latest-time" class="font-bold">19 Nov, 16:18 WIB</span>
             </div>
           </div>
         </div>
@@ -627,12 +693,12 @@ class DashboardHandler(BaseHTTPRequestHandler):
               <i data-lucide="check-check" class="w-6 h-6 stroke-[2.5]"></i>
             </div>
             <div>
-              <span class="text-2xl font-black text-white leading-none">100%</span>
-              <p class="text-[11px] text-white/90 font-medium mt-0.5">Semua video lolos otorisasi</p>
+              <span id="hero-acc-rate" class="text-2xl font-black text-white leading-none">86.7%</span>
+              <p class="text-[11px] text-white/90 font-medium mt-0.5">Otorisasi Owner Telegram</p>
             </div>
           </div>
           <div class="flex items-center justify-between text-xs border-t border-white/20 pt-2 text-white/90">
-            <span>Total Otorisasi: <strong class="text-white">16 ACC</strong></span>
+            <span>Total Otorisasi: <strong id="hero-total-acc" class="text-white">60 Keputusan (52 ACC)</strong></span>
             <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded-full font-bold">Strict 0% Emoji</span>
           </div>
         </div>
@@ -641,15 +707,15 @@ class DashboardHandler(BaseHTTPRequestHandler):
         <div class="bg-gradient-to-br from-[#00d5dc] to-[#25e2e8] rounded-2xl p-5 text-slate-900 shadow-md flex flex-col justify-between border border-[#00c5cc] min-h-[145px]">
           <div class="flex items-center justify-between">
             <span class="text-xs font-bold text-slate-800">Total Working Flow Balance</span>
-            <span class="text-[10px] px-2 py-0.5 rounded-md bg-slate-900/10 font-bold uppercase">5 Akun Pro</span>
+            <span id="hero-flow-accounts-badge" class="text-[10px] px-2 py-0.5 rounded-md bg-slate-900/10 font-bold uppercase">5 Akun Pro</span>
           </div>
           <div>
-            <h2 id="hero-total-credits" class="text-2xl font-black text-slate-950 tracking-tight">2,772 <span class="text-sm font-semibold">KREDIT</span></h2>
-            <p class="text-[11px] text-slate-800 font-medium">Resolusi Baku 360p &bull; Varian 3 M4 Upscale</p>
+            <h2 id="hero-total-credits" class="text-2xl font-black text-slate-950 tracking-tight">3,883 <span class="text-sm font-semibold">KREDIT</span></h2>
+            <p class="text-[11px] text-slate-800 font-medium">Resolusi Baku 720p &bull; Varian 3 M4 Upscale</p>
           </div>
           <div class="flex items-center justify-between text-xs border-t border-slate-900/10 pt-2">
             <span class="text-[11px] text-slate-800">Kapasitas Produksi:</span>
-            <span class="font-bold text-slate-950">~115 Video Baru</span>
+            <span id="hero-flow-capacity" class="font-bold text-slate-950">~161 Video Baru</span>
           </div>
         </div>
 
@@ -665,13 +731,13 @@ class DashboardHandler(BaseHTTPRequestHandler):
           <div>
             <p class="text-xs text-slate-500 font-medium">Produksi Mingguan</p>
             <div class="flex items-baseline space-x-2 mt-1">
-              <span class="text-xl font-extrabold text-slate-900">15 Video</span>
-              <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-1.5 py-0.5 rounded-md">+100% ↗</span>
+              <span id="micro-weekly-prod" class="text-xl font-extrabold text-slate-900">24 Video</span>
+              <span id="micro-weekly-badge" class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-1.5 py-0.5 rounded-md">+100% ↗</span>
             </div>
-            <p class="text-[10px] text-slate-400 mt-0.5">Bulan Berjalan</p>
+            <p id="micro-weekly-sub" class="text-[10px] text-slate-400 mt-0.5">38 Video Bulan Berjalan</p>
           </div>
           <!-- Bar visual representation -->
-          <div class="flex items-end space-x-1.5 h-12">
+          <div class="flex items-end space-x-1.5 h-12" id="micro-weekly-bars">
             <div class="w-2.5 h-4 bg-slate-100 rounded-t-sm"></div>
             <div class="w-2.5 h-6 bg-slate-200 rounded-t-sm"></div>
             <div class="w-2.5 h-10 bg-gradient-to-t from-orange-500 to-orange-400 rounded-t-sm bar-glow-coral"></div>
@@ -685,13 +751,13 @@ class DashboardHandler(BaseHTTPRequestHandler):
           <div>
             <p class="text-xs text-slate-500 font-medium">Bank Riset Tren</p>
             <div class="flex items-baseline space-x-2 mt-1">
-              <span class="text-xl font-extrabold text-slate-900">68 Topik</span>
-              <span class="text-[10px] font-bold text-purple-600 bg-purple-50 px-1.5 py-0.5 rounded-md">Active ↗</span>
+              <span id="micro-trend-count" class="text-xl font-extrabold text-slate-900">124 Topik</span>
+              <span id="micro-trend-badge" class="text-[10px] font-bold text-purple-600 bg-purple-50 px-1.5 py-0.5 rounded-md">Active ↗</span>
             </div>
-            <p class="text-[10px] text-slate-400 mt-0.5">Riau, Palembang, Aceh</p>
+            <p id="micro-trend-sub" class="text-[10px] text-slate-400 mt-0.5">Riau, Palembang, Aceh</p>
           </div>
           <!-- Bar visual representation -->
-          <div class="flex items-end space-x-1.5 h-12">
+          <div class="flex items-end space-x-1.5 h-12" id="micro-trend-bars">
             <div class="w-2.5 h-5 bg-slate-100 rounded-t-sm"></div>
             <div class="w-2.5 h-7 bg-purple-200 rounded-t-sm"></div>
             <div class="w-2.5 h-5 bg-purple-300 rounded-t-sm"></div>
@@ -705,13 +771,13 @@ class DashboardHandler(BaseHTTPRequestHandler):
           <div>
             <p class="text-xs text-slate-500 font-medium">Cadangan Flow Kredit</p>
             <div class="flex items-baseline space-x-2 mt-1">
-              <span class="text-xl font-extrabold text-slate-900">5 Akun Pro</span>
-              <span class="text-[10px] font-bold text-cyan-600 bg-cyan-50 px-1.5 py-0.5 rounded-md">Healthy</span>
+              <span id="micro-flow-accounts" class="text-xl font-extrabold text-slate-900">5 Akun Pro</span>
+              <span id="micro-flow-badge" class="text-[10px] font-bold text-cyan-600 bg-cyan-50 px-1.5 py-0.5 rounded-md">Healthy</span>
             </div>
-            <p class="text-[10px] text-slate-400 mt-0.5">Semua Profil Terisolasi</p>
+            <p id="micro-flow-sub" class="text-[10px] text-slate-400 mt-0.5">Semua Profil Terisolasi</p>
           </div>
           <!-- Bar visual representation -->
-          <div class="flex items-end space-x-1.5 h-12">
+          <div class="flex items-end space-x-1.5 h-12" id="micro-flow-bars">
             <div class="w-2.5 h-6 bg-slate-100 rounded-t-sm"></div>
             <div class="w-2.5 h-8 bg-cyan-200 rounded-t-sm"></div>
             <div class="w-2.5 h-10 bg-gradient-to-t from-cyan-500 to-cyan-400 rounded-t-sm bar-glow-cyan"></div>
@@ -803,43 +869,43 @@ class DashboardHandler(BaseHTTPRequestHandler):
                 <span class="text-[11px] text-purple-600 font-bold bg-purple-50 px-2.5 py-1 rounded-full">Slot Rutin</span>
               </div>
 
-              <div class="space-y-3.5 text-xs">
+              <div class="space-y-3.5 text-xs" id="overview-daily-schedule-list">
                 <!-- Schedule item 1: Dinda -->
-                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100">
+                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-xs transition-all">
                   <div class="flex items-center space-x-3">
                     <div class="w-9 h-9 rounded-xl bg-purple-600 text-white flex items-center justify-center font-bold text-xs shadow-sm">
                       DK
                     </div>
                     <div>
                       <h4 class="font-bold text-slate-900">Dinda Kemala</h4>
-                      <p class="text-[11px] text-slate-500">Palembang &bull; Vlog Burgo</p>
+                      <p class="text-[11px] text-slate-500">Palembang &bull; Kuliner & UMKM</p>
                     </div>
                   </div>
                   <div class="text-right">
                     <span class="font-bold text-slate-900 block">11:30 WIB</span>
-                    <span class="text-[10px] text-emerald-600 font-semibold">Live Done</span>
+                    <span class="text-[10px] text-amber-600 font-semibold bg-amber-50 px-2 py-0.5 rounded-full animate-pulse">Render Flow</span>
                   </div>
                 </div>
 
                 <!-- Schedule item 2: ISK -->
-                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100">
+                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-xs transition-all">
                   <div class="flex items-center space-x-3">
                     <div class="w-9 h-9 rounded-xl bg-rose-500 text-white flex items-center justify-center font-bold text-xs shadow-sm">
                       IK
                     </div>
                     <div>
                       <h4 class="font-bold text-slate-900">PT Intan Suar Kartika</h4>
-                      <p class="text-[11px] text-slate-500">Proyek &bull; Safety Officer</p>
+                      <p class="text-[11px] text-slate-500">Proyek &bull; Engineering & K3</p>
                     </div>
                   </div>
                   <div class="text-right">
                     <span class="font-bold text-slate-900 block">13:00 WIB</span>
-                    <span class="text-[10px] text-emerald-600 font-semibold">Live Done</span>
+                    <span class="text-[10px] text-slate-500 font-semibold bg-slate-100 px-2 py-0.5 rounded-full">Slot Standby</span>
                   </div>
                 </div>
 
                 <!-- Schedule item 3: Bang Ray -->
-                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100">
+                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-xs transition-all">
                   <div class="flex items-center space-x-3">
                     <div class="w-9 h-9 rounded-xl bg-blue-500 text-white flex items-center justify-center font-bold text-xs shadow-sm">
                       BR
@@ -851,24 +917,24 @@ class DashboardHandler(BaseHTTPRequestHandler):
                   </div>
                   <div class="text-right">
                     <span class="font-bold text-slate-900 block">16:00 WIB</span>
-                    <span class="text-[10px] text-emerald-600 font-semibold">Live Done</span>
+                    <span class="text-[10px] text-slate-500 font-semibold bg-slate-100 px-2 py-0.5 rounded-full">Slot Standby</span>
                   </div>
                 </div>
 
                 <!-- Schedule item 4: Pak Vincent -->
-                <div class="flex items-center justify-between p-3 rounded-2xl bg-amber-50/60 border border-amber-100">
+                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-xs transition-all">
                   <div class="flex items-center space-x-3">
                     <div class="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold text-xs shadow-sm">
                       PV
                     </div>
                     <div>
                       <h4 class="font-bold text-slate-900">Pak Vincent</h4>
-                      <p class="text-[11px] text-slate-500">Riau &bull; Kebun Sawit</p>
+                      <p class="text-[11px] text-slate-500">Riau &bull; Sawit & Perkebunan</p>
                     </div>
                   </div>
                   <div class="text-right">
                     <span class="font-bold text-slate-900 block">18:00 WIB</span>
-                    <span class="text-[10px] text-emerald-600 font-semibold">Live Done</span>
+                    <span class="text-[10px] text-slate-500 font-semibold bg-slate-100 px-2 py-0.5 rounded-full">Slot Standby</span>
                   </div>
                 </div>
               </div>
@@ -876,15 +942,38 @@ class DashboardHandler(BaseHTTPRequestHandler):
 
             <!-- Flow Accounts Mini Summary -->
             <div class="pt-4 border-t border-slate-100">
-              <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Akun Google Flow</span>
-              <div class="grid grid-cols-2 gap-2 text-xs">
-                <div class="p-2 bg-slate-50 rounded-xl">
-                  <span class="text-[10px] text-slate-500 block">flow_3 (Bang Ray)</span>
-                  <span class="font-bold text-purple-700 font-mono">1,026 Kredit</span>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">Akun Google Flow</span>
+                <span class="text-[10px] font-bold text-purple-600 bg-purple-50 px-2 py-0.5 rounded-md">5 Profil Terhubung</span>
+              </div>
+              <div class="grid grid-cols-2 gap-2 text-xs" id="overview-flow-accounts-list">
+                <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100 flex flex-col justify-between">
+                  <span class="text-[10px] text-slate-500 font-medium truncate block">flow_1 (dinda)</span>
+                  <div class="flex items-baseline justify-between mt-1">
+                    <span class="font-bold text-purple-700 font-mono text-xs">323</span>
+                    <span class="text-[9px] text-slate-400">Kredit</span>
+                  </div>
                 </div>
-                <div class="p-2 bg-slate-50 rounded-xl">
-                  <span class="text-[10px] text-slate-500 block">flow_2 (ISK)</span>
-                  <span class="font-bold text-purple-700 font-mono">710 Kredit</span>
+                <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100 flex flex-col justify-between">
+                  <span class="text-[10px] text-slate-500 font-medium truncate block">flow_2 (isk)</span>
+                  <div class="flex items-baseline justify-between mt-1">
+                    <span class="font-bold text-purple-700 font-mono text-xs">1,008</span>
+                    <span class="text-[9px] text-slate-400">Kredit</span>
+                  </div>
+                </div>
+                <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100 flex flex-col justify-between">
+                  <span class="text-[10px] text-slate-500 font-medium truncate block">flow_3 (bang_ray)</span>
+                  <div class="flex items-baseline justify-between mt-1">
+                    <span class="font-bold text-purple-700 font-mono text-xs">926</span>
+                    <span class="text-[9px] text-slate-400">Kredit</span>
+                  </div>
+                </div>
+                <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100 flex flex-col justify-between">
+                  <span class="text-[10px] text-slate-500 font-medium truncate block">flow_5 (pak_vincent)</span>
+                  <div class="flex items-baseline justify-between mt-1">
+                    <span class="font-bold text-purple-700 font-mono text-xs">906</span>
+                    <span class="text-[9px] text-slate-400">Kredit</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1310,8 +1399,83 @@ class DashboardHandler(BaseHTTPRequestHandler):
         const res = await fetch('/api/overview');
         const data = await res.json();
 
-        // Hero credits
-        document.getElementById('hero-total-credits').innerHTML = `${Number(data.total_credits).toLocaleString()} <span class="text-sm font-semibold">KREDIT</span>`;
+        // 1. Hero Card 3: Working Flow Credits & Capacity
+        if (data.total_credits !== undefined) {
+          const heroCreditsEl = document.getElementById('hero-total-credits');
+          if (heroCreditsEl) {
+            heroCreditsEl.innerHTML = `${Number(data.total_credits).toLocaleString()} <span class="text-sm font-semibold">KREDIT</span>`;
+          }
+          const capEl = document.getElementById('hero-flow-capacity');
+          if (capEl) {
+            const cap = Math.floor(Number(data.total_credits) / 24);
+            capEl.innerText = `~${cap} Video Baru`;
+          }
+        }
+
+        // 2. Hero Card 1: Latest Published Video
+        if (data.latest_publication) {
+          const lp = data.latest_publication;
+          const initialsEl = document.getElementById('hero-creator-initials');
+          const idTextEl = document.getElementById('hero-latest-id-text');
+          const linkEl = document.getElementById('hero-latest-link');
+          const nameEl = document.getElementById('hero-latest-creator-name');
+          const timeEl = document.getElementById('hero-latest-time');
+          
+          if (initialsEl) {
+            const initials = (lp.character_name || lp.character_id || 'AI').split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+            initialsEl.innerText = initials;
+          }
+          if (idTextEl) idTextEl.innerText = lp.platform_post_id || lp.pub_id || '-';
+          if (linkEl && lp.post_url) {
+            linkEl.href = lp.post_url;
+          }
+          if (nameEl) nameEl.innerText = `${lp.character_name || lp.character_id} (${lp.account || ''})`;
+          if (timeEl && lp.confirmed_at) {
+            const dt = new Date(lp.confirmed_at);
+            timeEl.innerText = dt.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) + ' WIB';
+          }
+        }
+
+        // 3. Hero Card 2: Approval Rate
+        if (data.acc_stats) {
+          const rateEl = document.getElementById('hero-acc-rate');
+          const totalEl = document.getElementById('hero-total-acc');
+          if (rateEl) rateEl.innerText = `${data.acc_stats.rate}%`;
+          if (totalEl) totalEl.innerText = `${data.acc_stats.total} Keputusan (${data.acc_stats.approved} ACC)`;
+        }
+
+        // 4. Micro Charts
+        // Micro Chart 1: Produksi Mingguan
+        const weeklyEl = document.getElementById('micro-weekly-prod');
+        const weeklySubEl = document.getElementById('micro-weekly-sub');
+        if (weeklyEl && data.production_stats) {
+          weeklyEl.innerText = `${data.production_stats.weekly} Video`;
+          if (weeklySubEl) weeklySubEl.innerText = `${data.production_stats.monthly} Video Bulan Berjalan`;
+        }
+
+        // Micro Chart 2: Bank Riset Tren
+        const trendEl = document.getElementById('micro-trend-count');
+        const trendSubEl = document.getElementById('micro-trend-sub');
+        if (trendEl) {
+          const count = data.counts?.trend_memory || data.trend_count || 124;
+          trendEl.innerText = `${count} Topik`;
+          if (trendSubEl) trendSubEl.innerText = 'Riau, Palembang, Aceh';
+        }
+
+        // Micro Chart 3: Cadangan Flow Kredit
+        const flowAccountsEl = document.getElementById('micro-flow-accounts');
+        const flowAccountsBadge = document.getElementById('hero-flow-accounts-badge');
+        if (flowAccountsEl && data.flow_accounts) {
+          const accCount = data.flow_accounts.length;
+          flowAccountsEl.innerText = `${accCount} Akun Pro`;
+          if (flowAccountsBadge) flowAccountsBadge.innerText = `${accCount} Akun Pro`;
+        }
+
+        // 5. Right Column Dynamic Widgets
+        renderDailySchedule(data);
+        renderFlowAccountsSummary(data.flow_accounts);
+
+        // 6. Navigation badge
         document.getElementById('badge-nav-pubs').innerText = data.counts.publications || 0;
 
         // Render agents status in overview if available
@@ -1357,6 +1521,72 @@ class DashboardHandler(BaseHTTPRequestHandler):
       } catch (e) {
         console.error("Failed to load overview:", e);
       }
+    }
+
+    function renderDailySchedule(data) {
+      const container = document.getElementById('overview-daily-schedule-list');
+      if (!container) return;
+
+      const tasks = data.agents_status?.pipeline_tasks;
+      if (tasks && tasks.length > 0) {
+        const bgColors = {
+          'dinda': 'bg-purple-600',
+          'isk': 'bg-rose-500',
+          'bang_ray': 'bg-blue-500',
+          'pak_vincent': 'bg-emerald-600'
+        };
+        container.innerHTML = tasks.map(t => {
+          const initials = (t.character_name || 'AI').split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+          const bgClass = bgColors[t.character_id] || 'bg-purple-600';
+          
+          let statusBadge = '';
+          if (t.progress_percent === 100 || t.slot_state === 'published') {
+            statusBadge = '<span class="text-[10px] text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-full">Live Done</span>';
+          } else if (t.status_tag === 'running') {
+            statusBadge = '<span class="text-[10px] text-amber-600 font-semibold bg-amber-50 px-2 py-0.5 rounded-full animate-pulse">Render Flow</span>';
+          } else if (t.status_tag === 'review') {
+            statusBadge = '<span class="text-[10px] text-purple-600 font-semibold bg-purple-50 px-2 py-0.5 rounded-full">Awaiting ACC</span>';
+          } else {
+            statusBadge = '<span class="text-[10px] text-slate-500 font-semibold bg-slate-100 px-2 py-0.5 rounded-full">Slot Standby</span>';
+          }
+
+          return `
+            <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-xs transition-all">
+              <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 rounded-xl ${bgClass} text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                  ${initials}
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900">${escapeHtml(t.character_name)}</h4>
+                  <p class="text-[11px] text-slate-500">${escapeHtml(t.niche || 'Kreator AI')}</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="font-bold text-slate-900 block">${t.slot_time || '-'}</span>
+                ${statusBadge}
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    function renderFlowAccountsSummary(accounts) {
+      const container = document.getElementById('overview-flow-accounts-list');
+      if (!container || !accounts) return;
+      container.innerHTML = accounts.map(acc => {
+        const bal = acc.verified_balance ?? acc.reported_monthly_credits ?? 0;
+        const charName = acc.assigned_character || acc.display_name || acc.id;
+        return `
+          <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100 hover:bg-white hover:border-purple-200 transition-all flex flex-col justify-between">
+            <span class="text-[10px] text-slate-500 font-medium truncate block" title="${escapeHtml(acc.id)} (${escapeHtml(charName)})">${acc.id} (${charName})</span>
+            <div class="flex items-baseline justify-between mt-1">
+              <span class="font-bold text-purple-700 font-mono text-xs">${Number(bal).toLocaleString()}</span>
+              <span class="text-[9px] text-slate-400">Kredit</span>
+            </div>
+          </div>
+        `;
+      }).join('');
     }
 
     function renderOverviewAgents(data) {
