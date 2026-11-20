@@ -1,0 +1,73 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "hidden gem vs jebakan turis (lorong pempek murah asli wong kito, perbandingan rasa dan harga)"
+  ],
+  "role_reason": "Topik diambil dari bank tren hari ini (brief tiktok-trend-dinda-2026-11-20, kandidat B, skor 8.84 tertinggi) yaitu kontras harga pempek seribuan di emperan Pasar 16 Ilir versus kisaran harga menu resto pempek Palembang, ditutup adu dua kubu. Ini pilar kedua profil Dinda (hidden gem vs jebakan turis: perbandingan rasa dan harga) dan paling pas dengan perintah kerja slot pagi: perdebatan kuliner dengan hook 0-3 detik bertensi tinggi dan penutup polaritas dua kubu. Catatan divergensi yang harus tercatat: baris trend_selections hari ini (opt_dinda_C_1795136910, Apem Bekuwa, 6.82) TIDAK diubah dan tetap seperti pilihan PM, tetapi kandidat C hanya punya satu artikel resep tanpa angka harga dan tanpa titik sakit finansial sehingga tidak memenuhi standar hook tensi tinggi plus penutup dua kubu yang diminta untuk slot ini. Eksekutor memakai kandidat B dari brief yang sama karena skornya lebih tinggi (8.84), buktinya dua sumber harga terbaca ulang hari ini, dan bentuknya memang adu dua kubu. Bukti harga yang dipakai: Tribun Sumsel 22 April 2026 (pedagang Mega, semua pempek masih seribu rupiah satu biji, kadang habis 1.000-2.000 buah sehari di Pasar 16 Ilir), Kompas.id 28 Februari 2025 (serba Rp1.000 per butir ukuran kecil dan Rp2.500 ukuran besar di emperan Pasar 16 Ilir), dan GoPay Blog 5 November 2026 (kisaran harga menu resto: Pempek Lala Rp5.000-Rp200.000, Pempek Candy Rp18.000-Rp650.000). Video sengaja hanya menyebut 'kisaran menunya mulai lima ribu' dan tidak menyamakan harga menu resto dengan harga per butir. Durasi 12 detik satu klip, total final 12 detik sehingga masih di bawah batas 20 detik untuk Dinda.",
+  "title": "Pempek Seribuan di Emperan vs Menu Resto Mulai Lima Ribu: Kalian Tim Mana?",
+  "hook": "Pempek yang di emperan masih seribuan sebiji, tapi di resto kisaran menunya sudah mulai lima ribu. Bedanya di mana?",
+  "story": "Dinda berdiri di deretan lapak pempek tumpah Pasar 16 Ilir, Palembang, pagi dengan cahaya netral. Sejak frame pertama ia memegang satu pempek kecil di tangan kanan dan sebuah piring kecil berisi satu kapal selam besar sudah ada di meja di depannya. Ia membuka dengan fakta harga emperan seribuan sebiji, lalu menoleh setengah badan ke meja kayu berlapis daun pisang di belakangnya tempat pempek ditumpuk prasmanan dan pedagang menambah tumpukan, sambil menyebut kisaran harga menu resto mulai lima ribu. Ia mengangkat piring kecil berisi kapal selam itu ke samping pempek kecil di tangannya dan menjelaskan bedanya di ikan dan kuah. Penutup: ia menoleh penuh ke lensa dan bertanya penonton masuk tim borong seribuan atau tim satu biji yang mahal. Adegan pasar harian, belum canon.",
+  "caption": "Di emperan Pasar 16 Ilir pempek masih seribuan sebiji, sementara kisaran harga menu resto pempek di Palembang mulai lima ribu dan ada yang mulai delapan belas ribu. Bedanya bukan cuma harga tapi juga ikan dan kuahnya. Kalian tim borong seribuan atau tim satu biji yang mahal?\n#pempek #kulinerpalembang #palembang #hiddengem #jajananmurah",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm, hijab voal segi empat beige lembut terlipat rapi, kemeja linen cream oversize terbuka dengan dalaman putih bersih, kulot coklat high-waisted, kalung emas kecil, memegang satu pempek adaan kecil goreng di tangan kanan, piring kecil berisi satu pempek kapal selam besar di meja kayu berlapis daun pisang, latar deretan lapak pempek tumpah Pasar 16 Ilir Palembang dengan pengunjung blur, cahaya pagi netral 5500K, pori-pori kulit terlihat, tanpa plastic atau waxy skin, tanpa teks di frame.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "selection_reason": "Auto-Stylist memilih satu busana aktif dari character_wardrobe yang belum dipakai hari ini dan paling lama istirahat di antara busana yang punya foto master lengkap: cream linen dengan kulot coklat high-waisted terakhir dipakai 16 November 2026, sedangkan striped taupe cardigan dipakai 17 November dan mocha linen dipakai 19 November. Busana ini punya dua foto master 9:16 (close-up dan full-body) dan chip fullbody-nya sudah terpasang di pustaka aset Flow sebagai dinda_ootd_20261116_cream_linen_choco_fullbody.jpg sehingga bisa langsung jadi referensi pakaian tanpa unggah baru. Dua baris wardrobe hari ini (outfit_dinda_pagi_20261120 Olive Trench Vest & Off-White Straight Trousers dan outfit_dinda_malam_20261120 Charcoal Blazer) tetap berstatus incomplete tanpa close-up maupun full-body sehingga belum bisa dipakai sebagai acuan visual; keduanya dicatat sebagai rencana busana hari ini, bukan referensi render. Warna cream dan coklat netral di latar meja kayu dan tidak menabrak warna cuko."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "verified_from": "scripts/sync_flow_status.js --character dinda --navigate-home --ensure-720p pada 20 November 2026 09.02 WIB: flow_1 tersambung, saldo 323 kredit, pill 'Video · 720p · 12s crop_9_16 x1'. Model dan biaya dicocokkan ulang di panel komposer sebelum submit."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION, image three is the outfit reference for CLOTHING (cream oversized linen button-up shirt open over a clean white inner top, chocolate brown high-waisted wide-leg palazzo trousers, soft beige square voal hijab folded neatly, small gold pendant necklace). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, shot on smartphone vlog camera at 24fps with slight natural handheld sway at chest height about one and a half metres away, three-quarter angle. Location: the busy morning pempek tumpah row at Pasar 16 Ilir Palembang, a long wooden table covered with banana leaves holding piles of small fried pempek, low wooden benches, other diners and a vendor softly blurred behind her, natural clean daylight neutral white balance 5500K, true-to-life colors, no yellow or orange tint. SKIN: realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no artificial golden glow, zero CGI, authentic non-AI documentary look. PROP CONTINUITY RULE: from frame 0.0s one single small fried pempek sits pinched between her right thumb and index finger and stays in that hand for the whole take, and a small white plate holding one large kapal selam pempek already rests on the table in front of her at frame 0.0s, and the long table behind her already holds the full pile of pempek from frame 0.0s; nothing appears, grows, floats, multiplies or disappears mid-take. BEATS: from 0.0s to 3.4s she holds the small pempek up at chest height and says in Indonesian, \"Di emperan pempek masih seribuan sebiji\"; from 3.4s to 7.2s she turns her shoulders half towards the long table so the open piles of pempek are visible behind her while a vendor's hand drops another handful onto the banana leaf and she says, \"Di resto kisaran menunya mulai lima ribu\"; from 7.2s to 9.8s she lifts the small white plate with the large kapal selam pempek into frame beside the small one and says, \"Ikannya beda dan kuahnya juga beda\"; from 9.8s to 11.8s she leans slightly towards the lens and asks, \"Kalian tim borong seribuan atau tim satu biji yang mahal?\". Lip-sync in Indonesian with a warm conversational Palembang tone, natural blinking, steady head and hands, no on-screen text, no captions, no subtitles, no watermark, no logo, no signage text.",
+      "dialogue": "Di emperan pempek masih seribuan sebiji. Di resto kisaran menunya mulai lima ribu. Ikannya beda dan kuahnya juga beda. Kalian tim borong seribuan atau tim satu biji yang mahal?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.9,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1014501/sensasi-pempek-tumpah-di-pasar-16-ilir-palembang-laris-manis-hingga-cuan-rp1-juta-sehari",
+      "title": "Sensasi Pempek Tumpah di Pasar 16 Ilir Palembang, Laris Manis hingga Cuan Rp1 Juta Sehari - Tribun Sumsel",
+      "observed_at": "2026-11-20T09:04:00+07:00",
+      "evidence": "Terbit 22 April 2026 pukul 14:41 WIB, dibaca ulang 20 November 2026 pukul 09.04 WIB. Pedagang bernama Mega menyebut pempek tumpah di Pasar 16 Ilir kadang masih habis 1.000-2.000 buah per hari dan semua pempeknya masih di harga seribu rupiah untuk satu pempek. Konsep lesehan prasmanan di atas meja kayu berlapis daun pisang, pengunjung mengambil sendiri, pembeli datang dari dalam dan luar Palembang."
+    },
+    {
+      "url": "https://www.kompas.id/artikel/pempek-tumpah-mengangkat-kasta-pempek-jelata",
+      "title": "Pempek Tumpah Mengangkat Kasta Pempek \"Jelata\" - Kompas.id",
+      "observed_at": "2026-11-20T09:02:00+07:00",
+      "evidence": "Terbit 28 Februari 2025 pukul 07.00 WIB, dibaca ulang 20 November 2026 pukul 09.02 WIB (bagian yang terbaca tanpa langganan). Pempek emperan Pasar 16 Ilir disebut serba Rp1.000 per butir untuk ukuran kecil dan Rp2.500 per butir untuk pempek ukuran besar, dan penikmatnya meluas dari turis domestik, mancanegara, selebriti sampai tokoh politik setelah viral di media sosial."
+    },
+    {
+      "url": "https://gopay.co.id/blog/restoran-pempek-di-palembang",
+      "title": "Nikmati Cuko Kental Ikan, Kunjungi 10 Restoran Pempek di Palembang yang Terkenal - GoPay Blog",
+      "observed_at": "2026-11-20T09:03:00+07:00",
+      "evidence": "Terbit 5 November 2026, dibaca ulang 20 November 2026 pukul 09.03 WIB. Artikel mencantumkan kisaran harga menu per resto, bukan harga per butir: Pempek Lala Rp5.000-Rp200.000, Pempek Candy Rp18.000-Rp650.000, Pempek Edy Rp1.500-Rp350.000. Teks juga menyebut Pempek Candy memakai ikan tenggiri dan Pempek Ek Dempo 103 memakai ikan belida sehingga lebih mahal."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Angka seribu rupiah per biji berasal dari Tribun Sumsel 22 April 2026 (kutipan pedagang Mega) dan Kompas.id 28 Februari 2025 (Rp1.000 kecil, Rp2.500 besar), bukan survei harga hari ini. Kisaran lima ribu sampai delapan belas ribu pada caption adalah batas bawah kisaran MENU resto di artikel GoPay 5 November 2026 (Pempek Lala mulai Rp5.000, Pempek Candy mulai Rp18.000), bukan harga per butir, dan video hanya menyebut 'kisaran menunya mulai lima ribu'. Klaim bedanya di ikan dan kuah didasarkan pada varian bahan yang disebut artikel (tenggiri dan belida) dan bukan penilaian rasa; tidak ada tuduhan terhadap pedagang atau merek mana pun dan tidak ada klaim harga emperan hari ini di luar sumber tertanggal.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1, 3 referensi gambar: face sheet, body reference, chip outfit cream linen). Frame mentah wajib bersih dari teks/HUD; lalu dirakit app.media.assemble_character_video dengan upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x, texture_preserve 0.45) ke 1080x1920, subtitle editorial_tiktok dua tingkat bebas koma, dan musik lo-fi akustik 15 persen dengan vokal 100 persen, tanpa outro brand, nama final dnd_201126_v1.mp4. Tidak ada retry berbayar otomatis."
+}
