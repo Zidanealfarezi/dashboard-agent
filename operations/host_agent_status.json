@@ -2,13 +2,13 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-20 15:28:09 WIB",
+    "timestamp_wib": "2026-11-20 16:01:23 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      5.21,
-      5.9,
-      6.04
+      4.14,
+      4.0,
+      4.24
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
@@ -89,7 +89,7 @@
       "name": "Flexible Pipeline Reconciler",
       "type": "reconciler daemon",
       "label": "scripts/run_flexible_reconciler.py",
-      "pid": 17355,
+      "pid": 85262,
       "status": "online",
       "port": null,
       "badge_color": "emerald",
