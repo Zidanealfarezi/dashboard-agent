@@ -2,11 +2,11 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-20 11:57:56 WIB",
+    "timestamp_wib": "2026-11-20 11:58:39 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      5.89,
+      5.55,
       5.12,
       5.01
     ],
