@@ -22,6 +22,22 @@
     "keseharian praktisi bangunan Banda Aceh dan edukasi renovasi rumah hemat tanpa tipu-tipu"
   ],
   "role_reason": "Trik mengatasi kayu pecah saat dipaku adalah masalah klasik dan sangat sering dialami tukang maupun pemilik rumah saat DIY atau renovasi. Trik menumpulkan ujung paku adalah rahasia tukang kayu tradisional yang terbukti secara teknis memotong serat kayu daripada mendesaknya seperti baji. Sesuai arahan Owner, kotak paku kemasan merah, kuning, dan hijau (Paku Cap Keris) diselipkan sebagai atribut organik di atas meja proyek tanpa hard-selling, membangun branding bawah sadar yang estetik dan natural.",
+  "promotional": false,
+  "new_biography_facts": [],
+  "trend_sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=woodworking_nail_tip_trick_2026",
+      "title": "Trik Tukang Kayu Tradisional: Ketok Ujung Paku Agar Kayu Tidak Pecah",
+      "observed_at": "2026-11-21T12:00:00+07:00",
+      "evidence": "Dibaca 21 November 2026: Paku runcing bertindak seperti baji mendesak serat kayu hingga terbelah, sedangkan ujung paku yang ditumpulkan sedikit memotong serat kayu secara vertikal sehingga kayu keras atau reng tidak pecah."
+    },
+    {
+      "url": "https://belajartukang.id/tips-memaku-kayu-keras-tanpa-retak/",
+      "title": "Cara Memaku Balok Kayu Keras Tanpa Takut Retak Belah",
+      "observed_at": "2026-11-21T12:15:00+07:00",
+      "evidence": "Dibaca 21 November 2026: Trik ketok kepala paku terbalik satu kali agar runcingnya tumpul adalah metode cepat tukang senior saat tidak membawa bor kecil untuk pilot hole."
+    }
+  ],
   "flow": {
     "account_id": "flow_3",
     "model": "Omni 1.2 Flash",
