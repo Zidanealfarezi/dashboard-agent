@@ -1,0 +1,68 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Trik Rahasia Paku Balok Kayu Biar Gak Pecah dan Gak Belah",
+  "hook": "Lagi enak paku balok kayu tiba-tiba kayunya belah dua? Kuncinya bukan di tenaga tapi di ujung paku.",
+  "story": "Bang Ray berdiri di area meja kerja kayu proyek rumah setengah jadi di Banda Aceh. Di atas meja kerja tepat di sampingnya, tersusun tumpukan rapi kotak-kotak paku kemasan merah, kuning, dan hijau (Paku Cap Keris) sebagai atribut kerja tukang yang rapi sejak detik 0.0s hingga akhir. Bang Ray memegang sebatang balok kayu dan paku dengan palu kecil, lalu memperagakan trik tukang cerdik dengan gaya jenaka dan santai: mengetok ujung lancip paku sekali agar tumpul sedikit, lalu memakukannya ke balok kayu dengan mulus tanpa kayu pecah atau retak sedikit pun. Ia menutup dengan senyum khas Banda Aceh sambil mengajak diskusi penonton.",
+  "caption": "Lagi enak paku balok kayu tiba-tiba kayunya belah dua bikin kerjaan berantakan. Trik tukang cerdik ketok ujung paku biar tumpul sedikit jadi serat kayunya terpotong bukan membelah. Rakan di sana sudah tahu trik ini atau biasa main hajar aja?\n#tipstukang #bangunan #kayu #tukangkayu #renovasirumah #bandaaceh",
+  "hashtags": [
+    "#tipstukang",
+    "#bangunan",
+    "#kayu",
+    "#tukangkayu",
+    "#renovasirumah",
+    "#bandaaceh"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah, FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja, dan FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg. Properti atribut meja: tumpukan rapi kotak-kotak paku baru berwarna merah, kuning, dan hijau di atas meja kerja kayu.",
+  "role_tags": [
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)",
+    "keseharian praktisi bangunan Banda Aceh dan edukasi renovasi rumah hemat tanpa tipu-tipu"
+  ],
+  "role_reason": "Trik mengatasi kayu pecah saat dipaku adalah masalah klasik dan sangat sering dialami tukang maupun pemilik rumah saat DIY atau renovasi. Trik menumpulkan ujung paku adalah rahasia tukang kayu tradisional yang terbukti secara teknis memotong serat kayu daripada mendesaknya seperti baji. Sesuai arahan Owner, kotak paku kemasan merah, kuning, dan hijau (Paku Cap Keris) diselipkan sebagai atribut organik di atas meja proyek tanpa hard-selling, membangun branding bawah sadar yang estetik dan natural.",
+  "promotional": false,
+  "new_biography_facts": [],
+  "trend_sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=woodworking_nail_tip_trick_2026",
+      "title": "Trik Tukang Kayu Tradisional: Ketok Ujung Paku Agar Kayu Tidak Pecah",
+      "observed_at": "2026-11-21T12:00:00+07:00",
+      "evidence": "Dibaca 21 November 2026: Paku runcing bertindak seperti baji mendesak serat kayu hingga terbelah, sedangkan ujung paku yang ditumpulkan sedikit memotong serat kayu secara vertikal sehingga kayu keras atau reng tidak pecah."
+    },
+    {
+      "url": "https://belajartukang.id/tips-memaku-kayu-keras-tanpa-retak/",
+      "title": "Cara Memaku Balok Kayu Keras Tanpa Takut Retak Belah",
+      "observed_at": "2026-11-21T12:15:00+07:00",
+      "evidence": "Dibaca 21 November 2026: Trik ketok kepala paku terbalik satu kali agar runcingnya tumpul adalah metode cepat tukang senior saat tidak membawa bor kecil untuk pilot hole."
+    }
+  ],
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 60,
+    "references_attached": 3,
+    "verified_from": "Sesi Flow flow_3 port 9335: Video 720p 15 dtk crop_9_16 x1"
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at waist-chest height in a three-quarter front angle with very slight natural handheld sway. Location: a shaded carpentry workbench corner of a house renovation project in Banda Aceh, red brick walls and wooden scaffolding behind him, soft natural daylight from the side. PROP CONTINUITY: exactly four objects exist in frame from 0.0s to the last frame: one neat stack of sealed rectangular cardboard nail boxes with vibrant red, bright yellow and green packaging sitting on the wooden workbench beside him, one wooden timber block held in his hands, one steel nail, and one claw hammer resting on the table; no other tool, box, person or animal may appear, move in or vanish at any moment. BEATS: at 0.0s he stands behind the workbench with the neat red, yellow and green nail boxes clearly resting on the table, holds the timber block and says in friendly relaxed Indonesian with natural Acehnese humor, \"Lagi enak paku balok kayu eh kayunya malah belah dua?\"; from 4.5s he flips the nail, taps the sharp tip once gently with the hammer to blunt it slightly, and smiles jenaka while explaining, \"Jangan emosi dulu rakan, ujung paku ditumpulkan sedikit biar memotong serat kayu bukan membelah.\"; from 9.5s he drives the nail smoothly into the timber with two clean confident hammer taps, lifts the intact uncracked wood toward the camera with a proud grin and asks, \"Kayu aman gak retak kan? Rakan biasanya pakai trik ini atau main hajar aja?\"; the final 0.5s holds on his cheerful smile. Ambient only: natural workshop room tone, two distinct crisp hammer taps on steel and wood, no music. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero watermarks. Keep his face, clothing, watch, timber, hammer, and the red, yellow, green nail boxes on the table completely consistent throughout every frame.",
+      "dialogue": "Lagi enak paku balok kayu eh kayunya malah belah dua? Jangan emosi dulu rakan, ujung paku ditumpulkan sedikit biar memotong serat kayu bukan membelah. Kayu aman gak retak kan? Rakan biasanya pakai trik ini atau main hajar aja?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 13.8,
+      "action_end_seconds": 14.5
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg"
+  ]
+}

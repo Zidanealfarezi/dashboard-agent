@@ -1,0 +1,66 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Bata Kering Bikin Plesteran Rontok: Aturan Tukang Senior Siram vs Rendam",
+  "hook": "Plesteran dinding rontok sampai bata kelihatan itu bukan karena semen kurang, tapi bata merahnya dipasang kering tanpa disiram. Aturan baku tukang senior: bata wajib disiram sampai jenuh sebelum dipasang.",
+  "story": "Bang Ray berdiri di samping dinding bata merah setengah jadi sebuah rumah renovasi di Banda Aceh. Sejak detik 0.0s ia sudah memegang satu bata merah di tangan kanannya dan ember air biru berisi gayung berada di lantai dekat kakinya, dua properti itu hadir terus sampai frame terakhir. Ia membuka dengan gejala di lapangan yang bikin mandor pusing, menjelaskan aturan tukang senior dengan gaya jenaka santai khas Banda Aceh, menuangkan air ke bata sampai jenuh, lalu menutup dengan adu dua kubu metode pasang bata.",
+  "caption": "Dinding plesteran rontok sampai bata kelihatan itu bukan karena semen kurang tapi bata dipasang kering jadi adukannya disedot. Aturan tukang senior: bata wajib disiram sampai jenuh dulu, rakan di sana tim siram gayung atau tim rendam kolam?\n#tipsbangunan #plesteran #batamerah #tukangbangunan #bandaaceh #renovasirumah",
+  "hashtags": ["#tipsbangunan", "#plesteran", "#batamerah", "#tukangbangunan", "#bandaaceh", "#renovasirumah"],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah, FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja, dan FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg. Lokasi: dinding bata merah setengah jadi pada renovasi rumah di Banda Aceh, ember air biru dengan gayung di lantai dekat kaki Bang Ray.",
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Plesteran rontok sampai bata terbuka adalah kerusakan dinding yang paling sering dikeluhkan pemilik rumah dan paling sering luput dicegah karena bata dipasang kering. Penutup adu dua kubu siram gayung versus rendam kolam memancing debat komentar tanpa mengklaim hasil yang belum terbukti dan tetap mengangkat resiko kerusakan struktur di 3 detik pertama.",
+  "promotional": false,
+  "new_biography_facts": [],
+  "trend_sources": [
+    {
+      "url": "https://intisumberbajasakti.com/bata-merah-basah-sebelum-dipasang-perlukah-direndam-terlebih-dahulu",
+      "title": "Bata Merah Basah Sebelum Dipasang: Perlu Direndam Terlebih Dahulu?",
+      "observed_at": "2026-11-21T13:50:00+07:00",
+      "evidence": "Dibaca 21 November 2026: perendaman atau pembasahan bata bertujuan mengurangi kemampuan bata menyerap air dari adukan sehingga ikatan mortar tidak kering sebelum matang."
+    },
+    {
+      "url": "https://ecomortar.co.id/blog/kesalahan-pasang-bata-ringan/",
+      "title": "Kesalahan Saat Memasang Bata: Plester Rentan Mengelupas",
+      "observed_at": "2026-11-21T13:55:00+07:00",
+      "evidence": "Dibaca 21 November 2026: plester yang diaplikasikan pada substrat yang tidak stabil saat curing tidak membentuk ikatan stabil sehingga rentan mengelupas atau rontok."
+    }
+  ],
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 60,
+    "references_attached": 3,
+    "verified_from": "Sesi Flow flow_3 port 9335: Video 720p 15 dtk crop_9_16 x1 (sinkron 14.02 WIB, saldo 876 kredit)"
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at waist-chest height in a three-quarter front angle with very slight natural handheld sway. Location: a shaded half-finished red brick wall of a house renovation in Banda Aceh, mortar joints visible, wooden scaffolding and bare ground behind him, soft natural daylight from the side. PROP CONTINUITY: exactly two objects exist in frame from 0.0s to the last frame: one single red clay brick held in his right hand, and one blue plastic water bucket with a plastic dipper resting on the ground beside his right foot; no other tool, brick, bucket, person or animal may appear, move in or vanish at any moment. BEATS: at 0.0s he already holds the red brick up at chest height with the bucket visible at his feet and says in friendly relaxed Indonesian with natural Acehnese humor, \"Dinding plesteran rontok sampai bata kelihatan itu bukan karena semen kurang rakan.\"; from 4.0s he leans down, scoops water with the dipper from the bucket and pours it slowly over the brick in his hand while explaining, \"Batanya dipasang kering jadi adukan disedot. Aturan tukang senior, bata wajib disiram sampai jenuh.\"; from 9.5s he holds the wet brick toward the camera, grins jenaka and asks, \"Dua kubu, siram gayung cepat atau rendam kolam sepuluh menit. Rakan tim mana?\"; the final 0.5s holds on his cheerful smile. Ambient only: natural outdoor room tone, water splashing onto clay brick, faint distant worksite sounds, no music. Shot on smartphone vlog camera at 24fps, natural clean daylight neutral white balance 5500K, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, zero CGI, authentic non-AI documentary look. Completely clean frame: zero on-screen text, zero subtitles, zero watermarks. Keep his face, clothing, watch and the red brick and blue bucket completely consistent throughout every frame.",
+      "dialogue": "Dinding plesteran rontok sampai bata kelihatan itu bukan karena semen kurang rakan. Batanya dipasang kering jadi adukan disedot. Aturan tukang senior, bata wajib disiram sampai jenuh. Dua kubu, siram gayung cepat atau rendam kolam sepuluh menit. Rakan tim mana?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 13.6,
+      "action_end_seconds": 14.5
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg"
+  ],
+  "revision_note": "v2 menggantikan v1 yang ditolak Owner. Hook 0-3s kini mengangkat resiko plesteran rontok akibat bata kering plus aturan baku tukang senior, penutup mengadu dua kubu metode bata siram gayung vs rendam kolam."
+}
