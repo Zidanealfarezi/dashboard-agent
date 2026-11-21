@@ -1,0 +1,161 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-21",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-21T08:25:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 21 November 2026 pukul 08:00-08:25 WIB. Sesuai perintah kerja, riset ini TIDAK menyentuh prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi. Tema wajib (debat sekte cuko mangkok vs sendok, hidden gem lorong 7 Ulu, pempek prasmanan dilayani vs ambil sendiri) sudah diproduksi dan terbit pada 17, 18, dan 19 November 2026 (ketiganya berstatus published di daily_slots), jadi prioritas hari ini diarahkan ke varian kontras harga yang belum pernah dipakai: struktur harga per butir dari satu dapur rumahan (Rp1.500 pempek kecil vs Rp10.000 kapal selam) yang dijual lewat grup WA dan Facebook lalu dikemas frozen untuk luar Sumsel, ditutup adu dua kubu sesuai format wajib. Sumber utama: Tribun Sumsel 13 November 2026 pukul 16.38 WIB (Pempek Cek Tung, 1.000 pempek campur sehari, pempek kecil Rp1.500 per buah, lenjer besar dan kapal selam Rp10.000 per buah, tekwan Rp60.000 per kg, model tahu Rp55.000 per 10 buah, ikan kakap super, dikemas frozen dan menjangkau kota di luar Sumsel), Kompas.com 20 November 2026 pukul 08.47 WIB (panduan kuliner Palembang di bawah Rp100.000 untuk libur akhir tahun: Mie Celor 26 Ilir Rp5.500-Rp81.400, Martabak HAR Sudirman Rp17.000-Rp85.000, Es Kacang Mamat Rp18.000 per porsi, Pempek Beringin menyediakan pempek panggang), RRI Palembang 20 November 2026 pukul 21.23 WIB (pempek panggang dibakar di atas bara, dibelah lalu diisi ebi, cabai, dan kecap manis, pembeli di Jalan Mayor Ruslan), dan Tribun Sumsel 2 November 2026 pukul 16.42 WIB (sagu Dua Putri 50 kg naik dari Rp450 ribu ke Rp560 ribu, Dua Anak 50 kg Rp980 ribu, Pempek Minah 7 Ulu masih jual pempek kecil Rp1.000 per butir dan mempertimbangkan penyesuaian harga awal Desember 2026). Catatan keterbatasan riset TikTok: halaman lagitren.id/tiktok pada 21 November 2026 pukul 01.17 WIB kembali hanya memuat tagar non-kuliner (thegrandherofiesta, fairytale, dilanmilea, putritanjung, cawapres, wapres, hari ayah), jadi tidak ada angka tren kuliner nasional yang bisa dikutip dan sengaja tidak dikarang. Satu sudut segar lain, detikSumbagsel 18 November 2026 pukul 23.40 WIB tentang Haraku Ramen Palembang Square yang menolak sistem self service karena konsumen Palembang ingin dilayani, sudah dibaca tetapi tidak dijadikan kandidat karena temanya menabrak topik 19 November (dilayani pramusaji vs ambil sendiri). Anti-ulang: cuko mangkok vs sendok (17 Nov), hidden gem lorong 7 Ulu seribuan (18 Nov), pempek prasmanan dilayani vs ambil sendiri (19 Nov), apem bekuwa (20 Nov), dan sagu naik Rp110 ribu per karung (kandidat 18 dan 19 Nov) tidak dipakai sebagai sudut utama; kandidat C tetap diberi near_duplicate_ids ke opt_dinda_B_1794963816 supaya penalti kebaruan kontras harga emperan tetap terlihat jujur.",
+  "candidates": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari",
+      "title": "Kisah Owner Pempek Cek Tung, Berawal Promosikan di WA dan Grup FB Kini Produksi 1.000 Pempek Sehari - Tribun Sumsel",
+      "evidence": "Terbit Jumat 13 November 2026 pukul 16.38 WIB, dibaca 21 November 2026 pukul 08:12 WIB. Dewi Trisna pemilik Pempek Cek Tungmemulai usaha lima tahun lalu dengan promosi lewat WhatsApp dan grup Facebook Palembang, dari sekitar 100 buah per hari kini memproduksi 1.000 buah pempek campur per hari dengan bantuan dua karyawan. Harga yang dikutip: pempek kecil Rp1.500 per buah, pempek lenjer besar dan kapal selam masing-masing Rp10.000 per buah, tekwan Rp60.000 per kilogram lengkap bumbu jamur kuping dan soun, model tahu Rp55.000 per 10 buah, model isi telur Rp65.000 per 10 buah, bakso ayam Rp65.000. Produk memakai ikan kakap super dan dikemas frozen sehingga menjangkau kota di luar Sumatera Selatan.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-21T08:12:00+07:00",
+      "published_at": "2026-11-13T16:38:55+07:00",
+      "metrics": {
+        "harga_pempek_kecil": "Rp1.500 per buah",
+        "harga_lenjer_besar_dan_kapal_selam": "Rp10.000 per buah",
+        "produksi_harian": "1.000 buah pempek campur per hari",
+        "jalur_jualan": "grup WhatsApp dan grup Facebook, lalu dikemas frozen",
+        "bahan": "ikan kakap super",
+        "jangkauan": "kota di luar Sumatera Selatan"
+      }
+    },
+    {
+      "url": "https://kompas.com/food/read/2026/11/20/084713175/5-kuliner-palembang-di-bawah-rp-100000-untuk-libur-akhir-tahun",
+      "title": "5 Kuliner Palembang di Bawah Rp 100.000 untuk Libur Akhir Tahun - Kompas.com",
+      "evidence": "Terbit Jumat 20 November 2026 pukul 08.47 WIB, dibaca 21 November 2026 pukul 08:16 WIB. Artikel panduan libur Natal dan tahun baru menyebut kisaran harga menu, bukan harga per butir: Mie Celor 26 Ilir H. M. Syafei Z. di Jalan Merdeka 54 dengan menu Rp5.500 sampai Rp81.400, Martabak HAR Sudirman di Jalan Jenderal Sudirman 597A dengan menu Rp17.000 sampai Rp85.000, dan Es Kacang Mamat Lapangan Hatta Rp18.000 per porsi. Pempek Beringin disebut menyediakan pempek lenjer, keriting, cerewet, pistel, keju, lenggang, kapal selam, adaan, kulit, sampai pempek panggang, buka 07.00-19.00 WIB. Artikel menutup dengan catatan bahwa harga bisa berubah sewaktu-waktu.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-21T08:16:00+07:00",
+      "published_at": "2026-11-20T08:47:13+07:00",
+      "metrics": {
+        "mie_celor_26_ilir": "menu Rp5.500-Rp81.400",
+        "martabak_har_sudirman": "menu Rp17.000-Rp85.000",
+        "es_kacang_mamat": "Rp18.000 per porsi",
+        "pempek_beringin": "menyediakan pempek panggang, buka 07.00-19.00 WIB"
+      }
+    },
+    {
+      "url": "https://rri.co.id/palembang/kuliner/2910076/pempek-panggang-kuliner-khas-palembang-dengan-aroma-menggoda",
+      "title": "Pempek Panggang, Kuliner Khas Palembang dengan Aroma Menggoda - RRI Palembang",
+      "evidence": "Terbit Jumat 20 November 2026 pukul 21.23 WIB, dibaca 21 November 2026 pukul 08:19 WIB. Pempek panggang dibakar di atas bara api sehingga bagian luar sedikit kering dan bagian dalam tetap kenyal, berbeda dari pempek yang digoreng atau direbus. Setelah matang bagian tengahnya dibelah lalu diisi campuran ebi, cabai, dan kecap manis sehingga rasanya gurih, manis, dan sedikit pedas. Pembeli bernama Ifan di kawasan Jalan Mayor Ruslan Palembang mengaku menyukai aromanya yang khas dan isian pedasnya. Artikel juga mengutip data Warisan Budaya Indonesia Kemendikbud bahwa pempek ditetapkan sebagai warisan budaya takbenda pada 2014.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-21T08:19:00+07:00",
+      "published_at": "2026-11-20T21:23:00+07:00",
+      "metrics": {
+        "cara_masak": "dibakar di atas bara api",
+        "isian": "ebi, cabai, kecap manis",
+        "lokasi_kutipan": "Jalan Mayor Ruslan, Palembang",
+        "status_budaya": "pempek warisan budaya takbenda 2014"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan",
+      "title": "Harga Sagu dan Cabai Rawit Melonjak, Bikin Produsen Pempek di Palembang Kelimpungan - Tribun Sumsel",
+      "evidence": "Terbit Senin 2 November 2026 pukul 16.42 WIB, dibaca 21 November 2026 pukul 08:21 WIB. Aminah pemilik Pempek Cek Minah 7 Ulu sekaligus Ketua Paguyuban Kampung Kreatif Pempek Tanggo Rajo Cindo menyebut harga sagu berubah dalam hitungan hari: merek Dua Putri kemasan 50 kg kini Rp560 ribu dari sebelumnya sekitar Rp450 ribu, sementara Dua Anak 50 kg sekitar Rp980 ribu. Kenaikan juga terjadi pada cabai rawit untuk cuko. Meski bahan naik, pempek ukuran kecil masih dijual Rp1.000 per butir, dan ia mempertimbangkan penyesuaian harga mulai awal Desember 2026 dengan alasan biaya produksi dan upah karyawan.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-21T08:21:00+07:00",
+      "published_at": "2026-11-02T16:42:54+07:00",
+      "metrics": {
+        "sagu_dua_putri_50kg": "Rp560 ribu, sebelumnya sekitar Rp450 ribu",
+        "sagu_dua_anak_50kg": "sekitar Rp980 ribu",
+        "harga_pempek_kecil": "tetap Rp1.000 per butir",
+        "rencana_penyesuaian": "awal Desember 2026"
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini - 21 November 2026 - Lagi Tren",
+      "evidence": "Diperbarui Sabtu 21 November 2026 pukul 01.17 WIB, dibaca 21 November 2026 pukul 08:08 WIB. Sepuluh video viral hari ini memuat thegrandherofiesta 854,9 ribu, fairytail 1,8 juta, dilanmilea 4,6 juta, putritanjung 5,2 juta, cawapres 3,4 juta, wapres 6,3 juta, gofarhilman 4,0 juta, jamnaspacitan 5,8 juta, mma2026 3,8 juta, dan promoguncang1212 1,2 juta. Daftar 20 hashtag tren juga tidak memuat satu pun tagar kuliner; urutan teratas masih thegrandherofiesta sampai promoguncang1212 plus selamathariayah dan hariayah. Karena itu brief ini tidak mengutip angka tren kuliner nasional apa pun.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-21T08:08:00+07:00",
+      "published_at": "2026-11-21T01:17:00+07:00",
+      "metrics": {
+        "tagar_kuliner_hari_ini": "tidak ada di 10 video viral maupun 20 hashtag tren",
+        "tagar_teratas": "wapres 6,3 juta; jamnaspacitan 5,8 juta; putritanjung 5,2 juta",
+        "catatan": "halaman ini sempat hanya menyajikan skeleton pada beberapa pagi, hari ini daftar tagar terbaca penuh"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Pempek Kecil Rp1.500 vs Kapal Selam Rp10.000 dari Dapur yang Sama",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek dari dapur yang sama bisa beda harga sampai hampir tujuh kali lipat, dan yang bikin mahal bukan cuma ikannya.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di dapur rumahan pempek yang ramai di Palembang, mengangkat dua pempek sekaligus, satu pempek kecil dan satu kapal selam besar, lalu menyebut harganya Rp1.500 per buah versus Rp10.000 per buah dari dapur yang sama.",
+        "Shot 2 (9s): Dinda menunjukkan tumpukan pempek yang baru dikemas frozen dan siap dikirim keluar kota, menyebut satu dapur ini bisa keluar 1.000 biji sehari lewat grup WA dan Facebook, lalu menutup dengan adu dua kubu: kalian tim stok frozen di freezer atau tim wajib makan hangat langsung dari wajan."
+      ],
+      "sound": "Ambience dapur rumahan dan suara minyak goreng, tanpa musik",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Pempek dari dapur yang sama bisa beda harga sampai hampir tujuh kali lipat, yang kecil Rp1.500 per buah dan kapal selam Rp10.000 per buah. Bedanya di ukuran dan isi, bukan cuma di ikannya. Kalian tim stok frozen di freezer atau tim wajib makan hangat dari wajan? #palembang #pempek #hargapempek #kulinerpalembang #pempekfrozen #wongkito",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari",
+        "https://kompas.com/food/read/2026/11/20/084713175/5-kuliner-palembang-di-bawah-rp-100000-untuk-libur-akhir-tahun"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.4,
+        "actionable_solution": 8.2,
+        "local_relevance": 9.6,
+        "momentum": 7.6,
+        "evidence_strength": 8.8
+      },
+      "why": "Kontras harga paling konkret yang belum pernah dipakai: satu dapur rumahan menjual pempek kecil Rp1.500 per buah dan kapal selam Rp10.000 per buah, jadi penonton bisa langsung menghitung sendiri uang belanjanya, bukan cuma melihat kisaran menu resto seperti kandidat hari-hari sebelumnya. Solusinya juga praktis karena artikelnya menyebut isi paket lain (tekwan Rp60.000 per kg, model tahu Rp55.000 per 10 buah) dan cara jualannya lewat grup WA serta Facebook dengan kemasan frozen untuk luar Sumsel, sehingga penonton tahu pilihan mana yang masuk freezer dan mana yang harus dimakan hari itu. Kebaruannya jujur tinggi karena jalur jualan grup WA dan Facebook belum pernah jadi sudut utama, walau angka seribuan sudah sering muncul di bank ide."
+    },
+    {
+      "code": "B",
+      "title": "Pempek Panggang Dibakar di Atas Bara, Bukan Digoreng",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek yang satu ini tidak digoreng dan tidak direbus, tapi dibakar di atas bara sampai luarnya kering.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan pembakaran pempek panggang, kamera menyorot bara api dan asap, lalu ia menyebut pempek ini dibakar bukan digoreng sehingga luarnya kering dan dalamnya tetap kenyal.",
+        "Shot 2 (9s): Dinda menerima satu pempek panggang yang sudah dibelah dan diisi campuran ebi, cabai, dan kecap manis, menggigitnya, lalu bertanya ke penonton tim pempek goreng atau tim pempek panggang."
+      ],
+      "sound": "Suara bara dan asap ambience warung, volume rendah",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Pempek panggang dibakar di atas bara, lalu bagian tengahnya dibelah dan diisi campuran ebi, cabai, dan kecap manis. Luarnya kering, dalamnya tetap kenyal, dan aromanya beda dari pempek goreng. Kalian tim pempek goreng atau tim pempek panggang? #palembang #pempekpanggang #kulinerpalembang #jajananpalembang #streetfoodpalembang #wongkito",
+      "sources": [
+        "https://rri.co.id/palembang/kuliner/2910076/pempek-panggang-kuliner-khas-palembang-dengan-aroma-menggoda",
+        "https://kompas.com/food/read/2026/11/20/084713175/5-kuliner-palembang-di-bawah-rp-100000-untuk-libur-akhir-tahun"
+      ],
+      "factors": {
+        "pain_point_intensity": 5.4,
+        "actionable_solution": 5.6,
+        "local_relevance": 9.3,
+        "momentum": 8.4,
+        "evidence_strength": 7.4
+      },
+      "why": "Sumber paling segar hari ini (RRI 20 November 2026 pukul 21.23 WIB) dan sudutnya belum pernah dipakai, tetapi isinya cuma deskripsi rasa dan satu kutipan pembeli tanpa angka harga atau jumlah penjual. Tidak ada titik sakit finansial, jadi skornya wajar kalah dari kandidat yang punya hitungan uang jelas."
+    },
+    {
+      "code": "C",
+      "title": "Panduan Libur Akhir Tahun Rp5.500 Sampai Rp85.000, di Lorong Masih Seribuan",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Menjelang libur akhir tahun muncul panduan kuliner Palembang dengan menu mulai Rp5.500, padahal di lorong pempek masih ada yang seribuan per butir.",
+      "shots": [
+        "Shot 1 (9s): Dinda membuka ponsel menunjuk panduan kuliner libur akhir tahun, menyebut kisaran menu Rp5.500 sampai Rp85.000 di sejumlah tempat makan, lalu meletakkan ponsel dan mengangkat satu pempek seribuan dari lapak lorong.",
+        "Shot 2 (9s): Dinda membandingkan dua piring, satu dari resto dengan menu puluhan ribu dan satu berisi lima pempek seribuan, lalu menutup dengan pertanyaan tim mana yang dipilih untuk liburan akhir tahun."
+      ],
+      "sound": "Beat ringan untuk format perbandingan harga, volume rendah supaya suara Dinda jelas",
+      "outfit": "Olive Trench Vest & Off-White Straight Trousers",
+      "caption": "Panduan kuliner Palembang untuk libur akhir tahun menyebut kisaran menu Rp5.500 sampai Rp85.000, sementara di lorong pempek masih ada yang jual seribuan per butir dan pempek kecil di 7 Ulu tetap Rp1.000 walau sagu naik. Kalian tim sekali duduk di resto atau tim keliling lorong cari seribuan? #palembang #kulinerpalembang #hargakuliner #liburakhirtahun #pempek #wongkito",
+      "sources": [
+        "https://kompas.com/food/read/2026/11/20/084713175/5-kuliner-palembang-di-bawah-rp-100000-untuk-libur-akhir-tahun",
+        "https://sumsel.tribunnews.com/palembang/1034237/harga-sagu-dan-cabai-rawit-melonjak-bikin-produsen-pempek-di-palembang-kelimpungan"
+      ],
+      "near_duplicate_ids": [
+        "opt_dinda_B_1794963816"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.2,
+        "actionable_solution": 7.8,
+        "local_relevance": 9.4,
+        "momentum": 8.0,
+        "evidence_strength": 8.5
+      },
+      "why": "Bahannya segar (Kompas 20 November 2026) dan angkanya bisa dicek, tetapi sudutnya masih serumpun kontras harga emperan versus resto yang sudah terbit 18 November, jadi kandidat ini diberi near_duplicate_ids ke opt_dinda_B_1794963816 dan penaltinya dihitung terbuka. Kalah juga dari kandidat A karena panduan itu memakai kisaran menu, bukan harga per butir, sehingga penonton tidak bisa langsung menghitung uang belanja."
+    }
+  ]
+}
