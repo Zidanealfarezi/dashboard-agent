@@ -1,0 +1,68 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "keseharian cewek Palembang & serba-serbi kota (naik LRT Sumsel, dialek/istilah gaul Palembang sehari-hari, eksplorasi biaya jajan harian)",
+    "harga jajan pempek harian Palembang"
+  ],
+  "role_reason": "Topik mengevaluasi biaya jajan harian wong kito: satu dapur pempek rumahan di Palembang menjual pempek kecil Rp1.500 per buah dan kapal selam Rp10.000 per buah, jadi penonton bisa menghitung sendiri uang belanjanya. Sesuai pilar eksplorasi biaya jajan harian dan formula penutup polaritas dua kubu (tim stok frozen di freezer vs tim wajib makan hangat langsung dari wajan). Prompt bebas kata pemicu HUD kamera dan menegaskan frame mentah bersih tanpa teks.",
+  "title": "Pempek Kecil Rp1.500 vs Kapal Selam Rp10.000 dari Dapur yang Sama",
+  "hook": "Pempek dari dapur yang sama bisa beda harga sampai hampir tujuh kali lipat, dan yang bikin mahal bukan cuma ikannya.",
+  "story": "Dinda berdiri di dapur rumahan pempek yang ramai di Palembang pada pagi hari dengan cahaya alami netral. Sejak detik pertama dua pempek sudah ada di tangannya: satu pempek kecil dan satu kapal selam besar. Dinda membuka dengan kontras harga dari dapur yang sama, menyebut angka per buah, lalu menutup dengan pertanyaan dua kubu: tim stok frozen di freezer atau tim wajib makan hangat langsung dari wajan.",
+  "caption": "Pempek dari dapur yang sama bisa beda harga sampai tujuh kali lipat loh, yang kecil seribu lima ratus dan kapal selam sepuluh ribu. Kito tim stok frozen di freezer atau tim wajib makan hangat langsung dari wajan?\n#kulinerpalembang #pempek #palembang #jajananpalembang #hargajajan #wongkito",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm, hijab voal segi empat beige lembut terlipat rapi, kardigan rajut bergaris warna taupe dengan dalaman putih bersih, kulot krem high-waisted, kalung emas kecil, berdiri di dapur rumahan pempek Palembang yang ramai dengan nampan pempek di meja kerja kayu dan wajan minyak di latar belakang, memegang satu pempek kecil dan satu kapal selam besar, cahaya pagi alami netral, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame bersih tanpa teks atau HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_5144187e",
+    "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png",
+    "selection_reason": "Auto-Stylist memilih busana aktif yang belum dipakai hari ini dan paling lama tidak tampil (terakhir 17 November 2026): kardigan rajut bergaris taupe dengan kulot krem. Referensinya diunggah hari ini ke library Flow sebagai dinda_ootd_20261121_striped_taupe_fullbody.jpg sehingga chip outfit yang dipasang benar-benar baru. Warna netral hangat cocok dengan suasana dapur rumahan pempek tanpa membuat warna kulit jadi kuning."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "verified_from": "Sinkronisasi live Google Flow flow_1 21 November 2026 09:01 WIB (saldo 247 kredit, pill Video 720p 12s crop_9_16 x1)."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (natural proportional feminine Indonesian woman silhouette, modest bust contour and gentle chest curves under her clothing, never flat like a board), image three is the outfit reference for CLOTHING (taupe striped knit cardigan worn open over a clean white inner top, cream high-waisted wide-leg palazzo trousers, soft beige square voal hijab folded neatly, small gold pendant necklace). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, 12 seconds, shot on smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away, three-quarter angle. Location: a busy home-based pempek kitchen in Palembang in the morning, wooden work table with trays of freshly steamed pempek behind her and a deep pan of oil further back, plain tiled wall, true-to-life colors, no yellow or orange tint, natural clean daylight neutral white balance. SKIN: realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no artificial golden glow, zero CGI, authentic non-AI documentary look. PROP CONTINUITY RULE: from frame 0.0s she already holds one small pale pempek in her left hand and one large kapal selam pempek in her right hand, both clearly visible above waist height; nothing appears, floats, multiplies or disappears mid-take. BEATS: from 0.0s to 3.0s she lifts both pempek slightly toward the lens with a playful surprised smile and says in Indonesian, \\\"Harga pempek dari dapur yang sama bisa beda tujuh kali lipat\\\"; from 3.0s to 7.4s she raises the small pempek first then the large one and says, \\\"Yang kecil seribu lima ratus, kapal selam sepuluh ribu\\\"; from 7.4s to 11.7s she leans a little closer to the lens and asks, \\\"Kalian tim stok frozen atau tim makan hangat dari wajan?\\\". Lip-sync in Indonesian with a warm conversational Palembang tone, natural blinking, steady head and hands. Completely clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text, no captions, no subtitles, no watermark, no logo.",
+      "dialogue": "Harga pempek dari dapur yang sama bisa beda tujuh kali lipat. Yang kecil seribu lima ratus, kapal selam sepuluh ribu. Kalian tim stok frozen atau tim makan hangat dari wajan?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.9,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1035460/kisah-owner-pempek-cek-tung-berawal-promosikan-di-wa-dan-grup-fb-kini-produksi-1000-pempek-sehari",
+      "title": "Kisah Owner Pempek Cek Tung, Berawal Promosikan di WA dan Grup FB Kini Produksi 1.000 Pempek Sehari - Tribun Sumsel",
+      "observed_at": "2026-11-21T08:12:00+07:00",
+      "evidence": "Terbit Jumat 13 November 2026 pukul 16.38 WIB, dibaca 21 November 2026 pukul 08:12 WIB. Dewi Trisna pemilik Pempek Cek Tung memulai usaha lima tahun lalu dengan promosi lewat WhatsApp dan grup Facebook Palembang, dari sekitar 100 buah per hari kini memproduksi 1.000 buah pempek campur per hari dengan bantuan dua karyawan. Harga yang dikutip: pempek kecil Rp1.500 per buah, pempek lenjer besar dan kapal selam masing-masing Rp10.000 per buah, tekwan Rp60.000 per kilogram, model tahu Rp55.000 per 10 buah. Produk memakai ikan kakap super dan dikemas frozen sehingga menjangkau kota di luar Sumatera Selatan."
+    },
+    {
+      "url": "https://kompas.com/food/read/2026/11/20/084713175/5-kuliner-palembang-di-bawah-rp-100000-untuk-libur-akhir-tahun",
+      "title": "5 Kuliner Palembang di Bawah Rp 100.000 untuk Libur Akhir Tahun - Kompas.com",
+      "observed_at": "2026-11-21T08:16:00+07:00",
+      "evidence": "Terbit Jumat 20 November 2026 pukul 08.47 WIB, dibaca 21 November 2026 pukul 08:16 WIB. Artikel panduan menyebut kisaran harga menu, bukan harga per butir: Mie Celor 26 Ilir H. M. Syafei Z. di Jalan Merdeka 54 dengan menu Rp5.500 sampai Rp81.400, Martabak HAR Sudirman dengan menu Rp17.000 sampai Rp85.000, dan Es Kacang Mamat Rp18.000 per porsi. Pempek Beringin disebut menyediakan pempek lenjer, keriting, cerewet, pistel, keju, lenggang, kapal selam, adaan, kulit, sampai pempek panggang, buka 07.00-19.00 WIB."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Fakta harga per butir (pempek kecil Rp1.500, kapal selam Rp10.000) berasal dari wawancara owner Pempek Cek Tung di Tribun Sumsel 13 November 2026. Sumber Kompas dipakai hanya sebagai konteks kisaran harga menu kuliner Palembang, bukan harga per butir. Bukan promosi komersial warung mana pun.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1, tiga referensi gambar: face sheet, body reference, chip outfit striped taupe baru). Frame mentah diproteksi 100 persen bebas teks, HUD, atau viewfinder overlay; lalu dirakit app.media.assemble_character_video dengan upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x, texture_preserve 0.45) ke 1080x1920, subtitle editorial_tiktok dua tingkat bebas koma, dan musik lo-fi akustik 15 persen dengan vokal 100 persen, tanpa outro brand, nama final dnd_211126_v1.mp4."
+}
