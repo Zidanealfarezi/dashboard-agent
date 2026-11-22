@@ -1,0 +1,154 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-22",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-22T08:20:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 22 November 2026 pukul 08:00-08:20 WIB. Perintah kerja dipatuhi: riset ini TIDAK menyentuh prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi. Aturan variasi tema juga dipatuhi lebih ketat dari batas minimum: ketiga kandidat hari ini NOL dari keluarga pempek/cuko/tekwan, karena lima hari berturut-turut (17-21 November) slot pagi Dinda sudah berisi cuko mangkok vs sendok, hidden gem lorong 7 Ulu, pempek prasmanan, apem bekuwa, dan kontras harga pempek satu dapur. Hari ini ketiga kandidat diambil dari pilar lain yang semuanya punya artikel bertanggal yang benar-benar dibaca: keseharian/transportasi Palembang (detikSumbagsel 21 November 2026 pukul 12.00 WIB plus Sumeks.co 20 November 2026 pukul 18.56 WIB tentang uji coba satu arah AKBP Cek Agus sampai Dr M Isa mulai 30 November 2026 beserta tiga trayek angkot yang terdampak), wisata lokal (detikSumbagsel 21 November 2026 pukul 09.00 WIB tentang lima curug di Lahat dan Pagar Alam, lengkap ketinggian 100 meter Curug Embun, 80 meter Curug Maung, dan Air Terjun 7 Kenangan sekitar 30 menit dari pusat Kota Pagar Alam), dan kuliner non-pempek (Tribun Sumsel 20 November 2026 pukul 19.44 WIB tentang Rumah Makan Sri Melayu di Jalan Demang Lebar Daun yang genap 25 tahun pada 2026, dirintis Ismail Umar Yusuf dari modal dua lembar baju, dengan alasan awal membuka usaha pindang karena sulitnya mencari tempat makan pindang di Palembang). Catatan keterbatasan riset TikTok: lagitren.id/tiktok pada 22 November 2026 pukul 08:04 WIB masih memakai daftar yang diperbarui 21 November 2026 pukul 01.17 WIB, isinya thegrandherofiesta 854,9 ribu, fairytail 1,8 juta, dilanmilea 4,6 juta, putritanjung 5,2 juta, cawapres 3,4 juta, wapres 6,3 juta, gofarhilman 4,0 juta, jamnaspacitan 5,8 juta, mma2026 3,8 juta, dan promoguncang1212 1,2 juta, tanpa satu pun tagar kuliner atau Palembang, sementara halaman tagar /tiktok/palembang mengembalikan 404. Karena itu brief ini tidak mengutip angka tren kuliner nasional apa pun dan momentum dinilai dari kesegaran berita lokal, bukan dari angka views TikTok. Satu bahan lain yang dibaca tetapi tidak dijadikan kandidat: detikSumbagsel 21 November 2026 pukul 21.30 WIB tentang SERU Sriwijaya 2026 di Palembang Indah Mall 20-22 November (27 UMKM wastra, 14 UMKM makanan-minuman, 133 barista, kopi specialty), karena rilisnya berpusat pada capaian institusi pembina sehingga lebih dekat ke rilis seremonial daripada keresahan penonton. Anti-ulang: seluruh topik pempek/cuko/tekwan 17-21 November tidak dipakai, dan tidak ada kandidat hari ini yang perlu diberi near_duplicate_ids.",
+  "candidates": [
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8762617/rekayasa-lalu-lintas-di-jalan-m-isa-palembang-mulai-30-november-2026",
+      "title": "Rekayasa Lalu Lintas di Jalan M Isa Palembang Mulai 30 November 2026 - detikSumbagsel",
+      "evidence": "Terbit Sabtu 21 November 2026 pukul 12.00 WIB, dibaca 22 November 2026 pukul 08:11 WIB. Satlantas Polrestabes Palembang bersama Dishub Palembang akan menguji coba sistem satu arah dari Simpang Underpass Patal-Pusri sampai Simpang Dolog di kawasan Jalan Dr M Isa, Perintis Kemerdekaan, mulai Senin 30 November 2026. Skema baru: kendaraan dari arah Simpang Patal boleh melaju ke Simpang Dolog, sedangkan pengendara dari Simpang Dolog atau Jalan Dr M Isa tidak bisa lagi melintas menuju Simpang Patal. Kasat Lantas AKBP Heryanto Panusunan menyebut sosialisasi sudah dilakukan lewat media sosial, spanduk, dan koordinasi instansi, serta mengimbau pengendara tidak melawan arus. Tiga trayek angkutan kota yang melintasi kawasan ikut terdampak: Ampera-Lemabang, Pasar Kuto-Kenten Laut, dan Pasar Kuto-Sako. Tujuan rekayasa ini mengurai kepadatan di kawasan Jalan AKBP Cek Agus hingga Jalan Dr M Isa.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-22T08:11:00+07:00",
+      "published_at": "2026-11-21T12:00:55+07:00",
+      "metrics": {
+        "mulai_uji_coba": "Senin 30 November 2026",
+        "ruas": "Simpang Underpass Patal-Pusri sampai Simpang Dolog (Jalan Dr M Isa, Perintis Kemerdekaan)",
+        "arah_berlaku": "Patal ke Dolog boleh, Dolog ke Patal tidak bisa",
+        "trayek_angkot_terdampak": "Ampera-Lemabang, Pasar Kuto-Kenten Laut, Pasar Kuto-Sako"
+      }
+    },
+    {
+      "url": "https://sumeks.disway.id/headline/read/801920/ujicoba-satu-arah-di-jalan-akbp-cek-agus-hingga-dr-m-isa-palembang-mulai-30-november-berikut-rutenya",
+      "title": "Ujicoba Satu Arah di Jalan AKBP Cek Agus Hingga Dr M Isa Palembang Mulai 30 November, Berikut Rutenya - Sumeks.co",
+      "evidence": "Terbit Jumat 20 November 2026 pukul 18.56 WIB, dibaca 22 November 2026 pukul 08:14 WIB. Mengonfirmasi skema yang sama dari sumber kedua: satu arah berlaku dari Jalan AKBP Cek Agus (Simpang Underpass Patal Pusri) sampai Jalan Dr M Isa di Simpang Dolog Perintis Kemerdekaan mulai Senin 30 November 2026, kendaraan dari Simpang Patal bisa langsung ke Simpang Dolog tetapi dari Simpang Dolog tidak bisa menuju Simpang Patal. AKBP Heryanto Panusunan menyatakan sosialisasi lewat media sosial dan spanduk, dan meminta masyarakat memahami pola pergerakan kendaraan yang baru agar tidak kebingungan. Dishub Palembang mencatat tiga rute angkot yang melintasi kawasan uji coba: Ampera-Lemabang, Pasar Kuto-Kenten Laut, dan Pasar Kuto-Sako.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-22T08:14:00+07:00",
+      "published_at": "2026-11-20T18:56:00+07:00",
+      "metrics": {
+        "konfirmasi_tanggal": "Senin 30 November 2026",
+        "jumlah_trayek_terdampak": "3 trayek angkot",
+        "sosialisasi": "media sosial, spanduk, koordinasi instansi"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/wisata/d-8761348/5-rekomendasi-air-terjun-di-lahat-dan-pagar-alam-untuk-liburan",
+      "title": "5 Rekomendasi Air Terjun di Lahat dan Pagar Alam untuk Liburan - detikSumbagsel",
+      "evidence": "Terbit Sabtu 21 November 2026 pukul 09.00 WIB, dibaca 22 November 2026 pukul 08:17 WIB. Lima curug: Curug Embun di Dusun Pematangbango, Desa Curup Jare, Pagar Alam Utara, tinggi 100 meter dengan butiran embun di bebatuan, pintu masuk di pinggir jalan tetapi anak tangganya licin karena lumut; Curug Penumpahan di Desa Dempo Rejo, Pagar Alam Selatan, sekitar 20 menit berkendara dari pusat kota lalu 10 menit jalan kaki; Curug Maung di Desa Rinduhati, Gumay Ulu, Lahat, tinggi sekitar 80 meter; Curug Haman di Desa Simpur, Gumay Ulu, Lahat, dengan aliran tidak terlalu deras; Air Terjun 7 Kenangan di kaki Gunung Dempo, Pagar Alam Utara, sekitar 30 menit dari pusat kota, melewati jalan menanjak dan kebun kopi warga, dan punya kolam alami untuk berenang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-22T08:17:00+07:00",
+      "published_at": "2026-11-21T09:00:01+07:00",
+      "metrics": {
+        "jumlah_curug": "5 destinasi",
+        "tinggi_curug_embun": "100 meter",
+        "tinggi_curug_maung": "sekitar 80 meter",
+        "akses_7_kenangan": "sekitar 30 menit dari pusat Kota Pagar Alam"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1036176/sudah-25-tahun-bertahan-kisah-ismail-umar-sukses-bangun-rumah-makan-sri-melayu-palembang",
+      "title": "Sudah 25 Tahun Bertahan, Kisah Ismail Umar Sukses Bangun Rumah Makan Sri Melayu Palembang - Tribun Sumsel",
+      "evidence": "Terbit Jumat 20 November 2026 pukul 19.44 WIB, dibaca 22 November 2026 pukul 08:19 WIB. Ismail Umar Yusuf merintis Rumah Makan Sri Melayu di Jalan Demang Lebar Daun, tepat di sebelah Istana Gubernur Sumatera Selatan, sejak 2001 atau sekitar 25 tahun lalu. Ia memulai usaha dengan modal hanya dua lembar baju, lalu berkembang ke pelelangan dan pemasokan ikan di Sumsel sebelum membuka rumah makan. Nama Sri Melayu terinspirasi rumah makan bernama sama di Malaysia. Ide membuka usaha pindang muncul karena saat itu sulit mencari tempat makan pindang di Palembang.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-22T08:19:00+07:00",
+      "published_at": "2026-11-20T19:44:10+07:00",
+      "metrics": {
+        "berdiri_sejak": "2001, sekitar 25 tahun",
+        "lokasi": "Jalan Demang Lebar Daun, sebelah Istana Gubernur Sumsel",
+        "modal_awal": "dua lembar baju",
+        "alasan_awal": "sulit mencari tempat makan pindang di Palembang"
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini - 22 November 2026 - Lagi Tren",
+      "evidence": "Halaman dibuka 22 November 2026 pukul 08:04 WIB dan masih menampilkan daftar yang diperbarui 21 November 2026 pukul 01.17 WIB. Sepuluh video viral memuat thegrandherofiesta 854,9 ribu, fairytail 1,8 juta, dilanmilea 4,6 juta, putritanjung 5,2 juta, cawapres 3,4 juta, wapres 6,3 juta, gofarhilman 4,0 juta, jamnaspacitan 5,8 juta, mma2026 3,8 juta, dan promoguncang1212 1,2 juta. Dua puluh hashtag tren juga tidak memuat tagar kuliner, Palembang, maupun OOTD; urutan teratas masih thegrandherofiesta sampai promoguncang1212 ditambah wakilpresiden, selamathariayah, dan jamnaspacitanxix. Halaman tagar lagitren.id/tiktok/palembang mengembalikan HTTP 404. Karena itu tidak ada angka tren kuliner nasional yang dikutip di brief ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-22T08:04:00+07:00",
+      "published_at": "2026-11-21T01:17:00+07:00",
+      "metrics": {
+        "tagar_kuliner_hari_ini": "tidak ada di 10 video viral maupun 20 hashtag tren",
+        "tagar_teratas": "wapres 6,3 juta; jamnaspacitan 5,8 juta; putritanjung 5,2 juta",
+        "pembaruan_halaman": "masih 21 November 2026 pukul 01.17 WIB",
+        "halaman_tagar_palembang": "HTTP 404"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Satu Arah M Isa Mulai 30 November: dari Dolog Tak Bisa Lagi ke Patal",
+      "pillar": "Keseharian & Transportasi Palembang",
+      "hook": "Mulai 30 November Jalan Dr M Isa berubah jadi satu arah, dan yang biasa lewat dari Simpang Dolog harus cari jalan lain.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di trotoar dekat Simpang Dolog, menunjuk ke arah Simpang Patal yang sekarang tidak bisa dilewati dari sini, lalu menyebut uji coba satu arah mulai Senin 30 November 2026 dari Underpass Patal-Pusri sampai Simpang Dolog.",
+        "Shot 2 (9s): Dinda menyebut tiga trayek angkot yang ikut berubah jalurnya yaitu Ampera-Lemabang, Pasar Kuto-Kenten Laut, dan Pasar Kuto-Sako, mengingatkan cek rambu dan jangan lawan arus, lalu menutup dengan pertanyaan ke penonton: kalian tim muter lewat Cek Agus atau tim ganti angkot."
+      ],
+      "sound": "Ambience jalan raya Palembang, suara kendaraan lewat, tanpa musik",
+      "outfit": "Olive Tailored Vest & Fitted Inner with Off-White Straight Trousers",
+      "caption": "Mulai Senin 30 November 2026 Jalan Dr M Isa jadi satu arah dari Underpass Patal-Pusri sampai Simpang Dolog, jadi dari arah Dolog tidak bisa lagi langsung ke Patal. Tiga trayek angkot ikut berubah: Ampera-Lemabang, Pasar Kuto-Kenten Laut, dan Pasar Kuto-Sako, cek rambu dulu biar tidak kecele nunggu di jalur lama. Kalian tim muter lewat Cek Agus atau tim ganti angkot? #palembang #lalulintaspalembang #jalansatuarah #drmsa #angkotpalembang #infopalembang #wongkito",
+      "sources": [
+        "https://www.detik.com/sumbagsel/berita/d-8762617/rekayasa-lalu-lintas-di-jalan-m-isa-palembang-mulai-30-november-2026",
+        "https://sumeks.disway.id/headline/read/801920/ujicoba-satu-arah-di-jalan-akbp-cek-agus-hingga-dr-m-isa-palembang-mulai-30-november-berikut-rutenya"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.7,
+        "actionable_solution": 9.3,
+        "local_relevance": 9.7,
+        "momentum": 8.5,
+        "evidence_strength": 9.0
+      },
+      "why": "Ini satu-satunya kandidat hari ini yang punya tenggat nyata: sembilan hari lagi aturannya berlaku, dan yang kena bukan cuma pengendara mobil tapi penumpang angkot karena tiga trayek berubah jalur. Titik sakitnya konkret dan bisa dicek sendiri (dari Dolog tidak bisa ke Patal lagi, tidak ada jalan balik di ruas itu), solusinya juga langsung dipakai (hapal arah yang boleh, cek rambu, jangan lawan arus, sesuaikan jalur angkot). Kekuatan buktinya paling tinggi di antara ketiga kandidat karena dua media berbeda, detikSumbagsel 21 November dan Sumeks.co 20 November, menyebut tanggal, ruas, arah, dan daftar trayek yang sama, jadi tidak ada angka yang perlu dikarang."
+    },
+    {
+      "code": "B",
+      "title": "Lima Curug di Lahat & Pagar Alam, dari Embun 100 Meter sampai 7 Kenangan",
+      "pillar": "Wisata Lokal Sumsel",
+      "hook": "Liburan akhir tahun tidak harus ke luar Sumsel, ada lima curug di Lahat dan Pagar Alam yang bisa dijangkau dalam sehari.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di jalan menanjak menuju kawasan Gunung Dempo, menyebut lima curug pilihan dari Lahat sampai Pagar Alam, mulai Curug Embun yang tingginya 100 meter sampai Curug Maung yang sekitar 80 meter.",
+        "Shot 2 (9s): Dinda menyebut Air Terjun 7 Kenangan cuma sekitar 30 menit dari pusat Kota Pagar Alam dengan kolam alami untuk berenang, mengingatkan tangga Curug Embun licin karena lumut, lalu bertanya ke penonton mau pilih curug dekat kota atau yang harus trekking dulu."
+      ],
+      "sound": "Ambience air jatuh dan hutan, volume rendah",
+      "outfit": "Olive Tailored Vest & Fitted Inner with Off-White Straight Trousers",
+      "caption": "Lima curug di Lahat dan Pagar Alam bisa jadi tujuan liburan akhir pekan tanpa keluar Sumsel, dari Curug Embun yang tingginya 100 meter sampai Air Terjun 7 Kenangan yang sekitar 30 menit dari pusat kota. Tangga Curug Embun licin karena lumut, jadi pakai alas kaki yang tidak licin dan jangan memaksakan turun kalau lagi hujan. Kalian pilih curug dekat kota atau yang harus trekking dulu? #palembang #pagaralam #lahat #airterjun #wisatasumsel #liburakhirtahun #wongkito",
+      "sources": [
+        "https://www.detik.com/sumbagsel/wisata/d-8761348/5-rekomendasi-air-terjun-di-lahat-dan-pagar-alam-untuk-liburan"
+      ],
+      "factors": {
+        "pain_point_intensity": 6.5,
+        "actionable_solution": 7.6,
+        "local_relevance": 9.2,
+        "momentum": 7.9,
+        "evidence_strength": 8.0
+      },
+      "why": "Bahannya segar (detikSumbagsel 21 November 2026 pukul 09.00 WIB) dan relevan untuk akhir pekan, tetapi titik sakitnya lebih tipis: bukan soal uang atau rugi, hanya soal akses dan keselamatan (tangga Curug Embun licin karena lumut, 7 Kenangan harus jalan menanjak). Solusinya juga masih berupa tips umum, bukan angka atau jadwal yang bisa langsung dipakai, sehingga skornya wajar di bawah kandidat lalu lintas yang punya tanggal dan daftar trayek."
+    },
+    {
+      "code": "C",
+      "title": "25 Tahun Rumah Makan Sri Melayu: Pindang dari Modal Dua Lembar Baju",
+      "pillar": "Kuliner Non-Pempek",
+      "hook": "Rumah makan pindang di sebelah Istana Gubernur ini sudah 25 tahun bertahan, padahal pemiliknya mulai dari modal dua lembar baju.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan Rumah Makan Sri Melayu di Jalan Demang Lebar Daun, menyebut rumah makan ini buka sejak 2001 dan tahun ini genap 25 tahun, dirintis Ismail Umar Yusuf yang sebelumnya berjualan ikan.",
+        "Shot 2 (9s): Dinda masuk ke ruang makan dan menyebut alasannya dulu membuka usaha pindang karena di Palembang saat itu sulit mencari tempat makan pindang, lalu menutup dengan pertanyaan tim pindang kuah bening atau pindang bumbu kuning."
+      ],
+      "sound": "Ambience ruang makan dan peralatan piring, tanpa musik",
+      "outfit": "Olive Tailored Vest & Fitted Inner with Off-White Straight Trousers",
+      "caption": "Rumah Makan Sri Melayu di Jalan Demang Lebar Daun sudah 25 tahun jualan pindang, dirintis dari modal dua lembar baju sebelum pemiliknya jadi agen ikan di Sumsel. Dulu di Palembang justru susah cari tempat makan pindang, sekarang warungnya jadi langganan di seberang Istana Gubernur. Kalian lebih suka pindang kuah bening atau pindang bumbu kuning? #palembang #pindangpalembang #kulinerpalembang #srimelayu #wisatakuliner #wongkito",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1036176/sudah-25-tahun-bertahan-kisah-ismail-umar-sukses-bangun-rumah-makan-sri-melayu-palembang"
+      ],
+      "factors": {
+        "pain_point_intensity": 6.0,
+        "actionable_solution": 6.2,
+        "local_relevance": 9.0,
+        "momentum": 6.6,
+        "evidence_strength": 8.2
+      },
+      "why": "Ceritanya kuat dan jelas bukan pempek, jadi kandidat ini menang di kebaruan dan relevansi lokal. Tetapi isinya lebih banyak kisah perjalanan usaha daripada masalah yang dirasakan penonton hari ini: tidak ada harga menu, tidak ada jumlah porsi, dan tidak ada hal yang bisa langsung dicoba, sehingga skornya berhenti di 8,01 dan kalah dari kandidat lalu lintas. Satu-satunya keresahan yang benar-benar tertulis di artikel adalah susahnya mencari pindang di Palembang pada masa itu, dan itu sudah selesai dua dekade lalu."
+    }
+  ]
+}
