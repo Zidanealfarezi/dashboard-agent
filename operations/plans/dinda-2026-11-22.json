@@ -1,0 +1,72 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "kuliner otentik Palembang non-pempek (mie celor 26 ilir, celimpungan kuah kuning, laksan pedas gurih, burgo, ragit, es kacang merah mamat, pindang patin/pegagan)"
+  ],
+  "role_reason": "PM mengunci kandidat A brief pagi 22 November 2026 (uji coba satu arah Jalan Dr M Isa) tetapi PM sendiri mencatat topik itu bukan pilar kuliner Dinda dan slot pagi 17-21 November sudah berisi lima topik pempek/cuko berurutan. Instruksi produksi hari ini meminta satu topik perdebatan sekte kuliner Palembang dengan penutup polaritas dua kubu, jadi eksekutor memilih kandidat C yang on-pilar: 25 tahun Rumah Makan Sri Melayu dengan pindang dari modal dua lembar baju, ditutup pertanyaan dua kubu kuah kuning lawan kuah bening. Bukan pempek, jadi rotasi tema tetap terjaga, dan seluruh fakta diambil dari artikel Tribun Sumsel 20 November 2026 yang benar-benar dibaca. Baris trend_selections milik PM tidak diubah; divergensi ini dicatat di sini agar tetap auditabel.",
+  "title": "25 Tahun Rumah Makan Sri Melayu: Pindang dari Modal Dua Lembar Baju",
+  "hook": "Modalnya cuma dua lembar baju, tapi warung pindang di sebelah Istana Gubernur Palembang ini sudah bertahan dua puluh lima tahun.",
+  "story": "Dinda berdiri di halaman depan warung pindang sederhana di Palembang pada pagi hari dengan cahaya alami netral. Sejak detik pertama ia mengangkat dua jari dan menyebut modal awal pemiliknya hanya dua lembar baju. Ia lalu menoleh sedikit ke warung di belakangnya dan menyebut warung pindang itu sudah dua puluh lima tahun berdiri di sebelah Istana Gubernur. Di meja kayu di sampingnya ada dua mangkuk kuah, satu kuah kuning berempah dan satu kuah bening. Penutupnya pertanyaan dua kubu: tim kuah kuning atau tim kuah bening.",
+  "caption": "Warung pindang di sebelah Istana Gubernur ini sudah 25 tahun berdiri, padahal mulainya cuma dari modal dua lembar baju. Kalian tim pindang kuah kuning atau tim kuah bening?\n#kulinerpalembang #pindangpalembang #srimelayu #palembang #wongkito #kulinerlegend",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (tidak kurus, siluet feminin seimbang), hijab voal segi empat krem lembut terlipat rapi, kemeja linen krem terbuka dengan dalaman fitted putih yang pas di badan, kulot coklat tua high-waisted, kalung emas kecil, berdiri di halaman depan warung pindang sederhana Palembang dengan fasad kayu polos tanpa papan nama, meja kayu rendah di sampingnya berisi dua mangkuk putih berisi kuah kuning dan kuah bening, cahaya pagi alami netral, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame bersih tanpa teks atau HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "selection_reason": "Auto-Stylist memilih satu baris character_wardrobe berstatus active yang belum dipakai hari ini dan paling lama tidak tampil di antara tiga busana aktif (terakhir 16 November 2026): kemeja linen krem oversized dengan kulot coklat tua. Chip referensi busana ini sudah ada di library Flow flow_1 dengan nama dinda_ootd_20261116_cream_linen_choco_fullbody.jpg sehingga tidak perlu unggah ulang. Warna krem dan coklat netral hangat cocok dengan suasana warung pindang kayu dan tidak membuat warna kulit jadi kuning. Dua baris baru hari ini (outfit_dinda_pagi_20261122 dan outfit_dinda_malam_20261122) masih status incomplete tanpa foto sehingga belum bisa dipakai sebagai referensi gambar."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+    ],
+    "verified_from": "Sinkronisasi live Google Flow flow_1 22 November 2026 09:01 WIB: saldo 213 kredit, pill Video 720p 12s crop_9_16 x1 (--ensure-720p ok, tidak ada perpindahan ke 360p)."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in all three attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (she has a natural, healthy and proportional feminine Indonesian woman silhouette, not skinny and not thin, with a natural feminine bust contour and balanced upper body curves under her clothing, not flat-chested and never flat like a board), image three is the outfit reference for CLOTHING (light cream oversized linen button-up shirt worn open over a fitted white inner top showing a natural feminine bust contour, chocolate brown high-waisted wide-leg palazzo trousers, soft beige square voal hijab folded neatly, small gold pendant necklace). Output exactly one woman, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, twelve seconds, shot on smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away, three-quarter angle. Location: the small front yard of a modest pindang fish soup warung in Palembang in the morning, plain wooden facade and simple whitewashed walls with absolutely no signage, lettering or branding anywhere, a low wooden table beside her holding two white ceramic bowls of fish soup, one with bright yellow spiced broth and one with clear broth, true-to-life colors, no yellow or orange tint, natural clean daylight neutral white balance. SKIN: realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no artificial golden glow, zero CGI, authentic non-AI documentary look. CONTINUITY RULE: from frame 0.0s until the final frame the same two white bowls stay on the wooden table beside her and no other person, motorbike or object enters, moves through or leaves the frame; nothing appears, floats, multiplies or disappears mid-take. BEATS: from 0.0s to 3.2s she raises two fingers beside her face with a playful disbelieving smile and says in Indonesian, \\\"Modalnya cuma dua lembar baju\\\"; from 3.2s to 8.4s she turns slightly toward the warung behind her, sweeping one open hand toward it, and says, \\\"Sekarang warung pindang ini sudah dua puluh lima tahun di sebelah Istana Gubernur\\\"; from 8.4s to 11.7s she faces the lens again, tilts her head a little, and asks, \\\"Kalian tim kuah kuning atau tim kuah bening?\\\". Lip-sync in Indonesian with a warm conversational Palembang tone, natural blinking, steady head and hands. Completely clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text, no captions, no subtitles, no watermark, no logo.",
+      "dialogue": "Modalnya cuma dua lembar baju. Sekarang warung pindang ini sudah dua puluh lima tahun di sebelah Istana Gubernur. Kalian tim kuah kuning atau tim kuah bening?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 10.8,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1036176/sudah-25-tahun-bertahan-kisah-ismail-umar-sukses-bangun-rumah-makan-sri-melayu-palembang",
+      "title": "Sudah 25 Tahun Bertahan, Kisah Ismail Umar Sukses Bangun Rumah Makan Sri Melayu Palembang",
+      "observed_at": "2026-11-22T09:01:00+07:00",
+      "evidence": "Terbit Jumat 20 November 2026 pukul 19.44 WIB, dibaca 22 November 2026 pukul 09.01 WIB. Ismail Umar Yusuf merintis Rumah Makan Sri Melayu di Jalan Demang Lebar Daun, tepat di sebelah Istana Gubernur Sumatera Selatan, sejak 2001 atau sekitar 25 tahun lalu. Ia memulai usaha dengan modal hanya dua lembar baju karena berasal dari keluarga sederhana, lalu berkembang menjadi agen ikan besar di Sumatera Selatan sebelum membuka rumah makan pada 2001. Nama Sri Melayu terinspirasi rumah makan bernama sama di Malaysia, dan ide membuka usaha pindang muncul karena sulitnya mencari tempat makan pindang di Palembang kala itu. Artikel tidak menyebut harga menu maupun jumlah porsi."
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8747246/resep-pindang-patin-sederhana-asli-palembang-gurih-segar-mudah-dibuat",
+      "title": "Resep Pindang Patin Sederhana Asli Palembang: Gurih Segar-Mudah Dibuat",
+      "observed_at": "2026-11-22T09:02:00+07:00",
+      "evidence": "Terbit 11 November 2026 pukul 14.00 WIB, dibaca 22 November 2026 pukul 09.02 WIB. Artikel menjelaskan pindang patin khas Palembang diolah dengan rempah kunyit, asam kandis atau belimbing wuluh, terasi, kemangi, serai, jahe, dan lengkuas, sehingga kuahnya berwarna kuning, asam, dan pedas; bila pengolahan salah rasa pindang bisa berbau seperti tanah. Dipakai hanya sebagai konteks ciri kuah kuning pindang Palembang, bukan klaim harga."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Semua fakta cerita (tahun 2001, 25 tahun, modal dua lembar baju, agen ikan, lokasi Jalan Demang Lebar Daun sebelah Istana Gubernur, nama dari rumah makan di Malaysia, alasan membuka pindang) berasal dari Tribun Sumsel 20 November 2026. Sumber detik hanya dipakai untuk ciri bumbu kuah kuning pindang patin Palembang. Tidak ada harga menu yang dikarang karena artikel tidak menyebutkannya. Bukan promosi warung mana pun.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1, tiga referensi gambar: face sheet, body reference, chip outfit cream linen coklat). Frame mentah diproteksi 100 persen bebas teks, HUD, atau viewfinder overlay dan fasad warung sengaja tanpa papan nama; lalu dirakit app.media.assemble_character_video dengan upscale Varian 3 Hybrid Foto-Realistik (upscayl-lite-4x, texture_preserve 0.45) ke 1080x1920, subtitle editorial_tiktok dua tingkat bebas koma, dan musik lo-fi akustik 15 persen dengan vokal 100 persen, tanpa outro brand, nama final dnd_221126_v1.mp4."
+}
