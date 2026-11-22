@@ -1,0 +1,86 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "efisiensi biaya kebun dan pupuk mahal (jarak tabur piringan 1.5 meter, pemupukan musim trek, perawatan piringan)",
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)"
+  ],
+  "role_reason": "Dipilih konsep kamera rendah setinggi lutut yang mengikuti tangan menabur pupuk di piringan, bukan talking head setinggi dada seperti empat slot sebelumnya. Piringan dan jarak tabur hanya bisa dipahami kalau tanahnya terlihat dekat, jadi kamera rendah adalah cara paling jujur memperlihatkan jarak satu setengah meter dari pangkal batang. Perdebatan dodos lawan egrek dipakai di hook dan penutup sebagai pemancing komentar tanpa menggeser pesan finansial pupuk.",
+  "title": "Pupuk Mahal Ditabur Nempel Pangkal Batang",
+  "hook": "Ribut dodos lawan egrek belum habis wak padahal pupuk mahal ini yang lebih cepat bikin tekor.",
+  "story": "Kamera rendah setinggi lutut dekat tanah pada piringan kelapa sawit pagi hari. Pak Vincent sudah berjongkok sejak frame pertama dengan kaleng kecil pupuk di tangan kanan, butiran abu-abu putih jatuh ke tepi luar piringan. Kereta sorong merah berkarung pupuk terbuka berdiri di jalur tanah belakang frame kanan sepanjang klip. Ia menyebut perdebatan dodos lawan egrek sebagai pembuka, lalu menunjuk celah antara pangkal batang dan butiran pupuk yang jatuh, menjelaskan pupuk yang menempel pangkal bikin akar muda luka dan hanyut kena hujan. Penutupnya ia menatap kamera dan bertanya kawan tim dodos atau tim egrek.",
+  "caption": "Ribut dodos lawan egrek belum habis wak padahal pupuk mahal ini yang lebih cepat bikin tekor. Pupuk yang ditabur nempel pangkal batang malah hanyut kena hujan jadi lebih baik ditabur di piringan sekitar satu setengah meter dari batang, kawan tim dodos atau tim egrek dan biasa tabur berapa meter?\n#kebunsawit #pupuksawit #petanisawit #pekebunriau #dodosvsegrek #tbs",
+  "hashtags": [
+    "#kebunsawit",
+    "#pupuksawit",
+    "#petanisawit",
+    "#pekebunriau",
+    "#dodosvsegrek",
+    "#tbs"
+  ],
+  "image_prompt": "Aset master terverifikasi Pak Vincent: FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg untuk wajah dan FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg untuk postur serta busana kerja biru tua polos tanpa logo. Properti: satu kereta sorong merah dengan tulisan FIVE STAR pada sisi bak mengacu characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg berisi satu karung pupuk terbuka, berdiri di jalur tanah antara piringan sawit. Pak Vincent berjongkok di tepi piringan dengan kaleng kecil berisi butiran pupuk di tangan kanan.",
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "duration_credit_verified": true,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+      "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+      "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+    ],
+    "verified_from": "Sinkronisasi live CDP flow_5 port 9334 22 November 2026 16:31 WIB: saldo 901 kredit, pill 'Video 720p 10 dtk crop_9_16 x1' (durasi dinaikkan ke 12 dtk sebelum Generate)."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same man shown in the attached identity references: the three-expression sheet fixes his FACE IDENTITY (match face shape, cheekbones, thin mustache, eyebrows, eyes, hairline, weathered sun-tanned Riau skin and apparent age exactly; do not change his identity), the full-body turnaround fixes his POSTURE and CLOTHING (lean wiry 168 cm / 58 kg build, plain navy-blue cotton long-sleeve work shirt with no logo or graphic, dark casual work trousers, plain dark baseball cap, rubber work sandals), and the attached character reference confirms the same person. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 12 seconds, one continuous take. Camera stays very low, about knee height and close to the ground, in a three-quarter front angle with slight natural handheld sway, so the bare soil of the palm circle fills the lower half of the frame and the palm trunk base sits at frame left. Location: a dirt track between planted oil palms on a smallholding near Pekanbaru, Riau, soft morning light, green fronds and one palm trunk behind him. PROP CONTINUITY RULE: from 0.0s until the last frame the red steel wheelbarrow from the attached reference stands on the dirt track in the background at frame right, three-quarter angle, so the small stencil FIVE STAR on the outward tray side stays readable, with one open fertilizer sack resting in its tray the whole time; the same small rusted tin cup stays in his right hand from 0.0s to the last frame; no other tool, bucket, sack, person or animal may appear, move into frame or vanish at any moment. BEATS: at 0.0s he is already crouched by the ring, tilting the tin cup so a short stream of grey-white fertilizer granules falls onto the bare soil at the outer edge of the ring, and he says in warm relaxed Indonesian with natural Riau smallholder tone, \"Ribut dodos lawan egrek belum habis wak padahal pupuk mahal ini yang lebih cepat bikin tekor.\"; from 4.2s he lifts the cup slightly, points with his free left hand from the palm trunk base toward the fallen granules showing the empty gap between them, shaking his head with a wry smile, and says, \"Ditabur nempel pangkal akar muda luka pupuk hanyut duit hilang.\"; from 8.0s he looks straight into the lens, grins modestly and asks, \"Tabur di piringan satu setengah meter dari batang, kawan tim dodos atau tim egrek?\"; the final 0.6s holds on his friendly grin with the cup still in hand. Lip-sync in Indonesian with a warm conversational Riau tone, natural blinking and small head movement, no exaggerated gestures. Ambient only: natural plantation morning room tone, faint distant birds, no music. Shot on smartphone vlog camera at ground level, natural clean daylight with neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores and sun texture, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI look, authentic non-AI documentary footage. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, zero on-screen text, zero subtitles, zero watermarks. Keep his face, cap, shirt, the tin cup, the wheelbarrow and the soil ring completely consistent in every frame.",
+      "dialogue": "Ribut dodos lawan egrek belum habis wak padahal pupuk mahal ini yang lebih cepat bikin tekor. Ditabur nempel pangkal akar muda luka pupuk hanyut duit hilang. Tabur di piringan satu setengah meter dari batang, kawan tim dodos atau tim egrek?",
+      "dialogue_start_seconds": 0.2,
+      "dialogue_read_seconds": 10.8,
+      "action_end_seconds": 11.2
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.kompas.id/artikel/harga-sawit-anjlok-harga-pupuk-meroket-ekonomi-daerah-sentra-sawit-terpuruk",
+      "title": "Harga Sawit Anjlok dan Harga Pupuk Meroket, Ekonomi Daerah Sentra Sawit Terpuruk",
+      "observed_at": "2026-11-22T16:30:00+07:00",
+      "evidence": "Hasil pencarian ulang 22 November 2026 16.38 WIB memuat ringkasan artikel: harga TBS sawit turun dari Rp 3.300 menjadi Rp 2.300 dalam dua pekan, sementara harga pupuk NPK meroket dari Rp 400.000 menjadi sekitar Rp 900.000. Selisih harga pupuk inilah beban biaya yang dipakai di hook dan caption."
+    },
+    {
+      "url": "https://babel.brmp.pertanian.go.id/berita/penerapan-standar-pemupukan-kelapa-sawit-elaeis-guineensis-jacq",
+      "title": "Penerapan Standar Pemupukan Kelapa Sawit (Elaeis guineensis Jacq)",
+      "observed_at": "2026-11-22T16:31:00+07:00",
+      "evidence": "Dibaca 22 November 2026: pada tanaman menghasilkan pemupukan dilakukan pada jarak 1,5 m dari pohon dengan cara ditebar (broadcast) atau pocket, dan biaya pemupukan mencapai 30 persen dari total biaya produksi. Dasar klaim jarak tabur satu setengah meter di dialog."
+    },
+    {
+      "url": "https://journal.ipb.ac.id/bulagron/article/download/25845/16829",
+      "title": "Manajemen Pemupukan Kelapa Sawit di Kebun Sei Sagu Riau (Buletin Agronomi IPB)",
+      "observed_at": "2026-11-22T16:32:00+07:00",
+      "evidence": "Dibaca 22 November 2026: pemberian pupuk secara rutin dan merata di piringan berdiameter 1,5 m merangsang akar menyerap hara, dengan penempatan pada jarak 1 m dari pangkal batang ke arah luar piringan untuk tanaman menghasilkan. Dasar teknis bahwa pupuk tidak ditebar menempel pangkal batang."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Harga TBS dan pupuk dari artikel Kompas.id yang diverifikasi ulang lewat pencarian 22 November 2026. Jarak tabur 1,5 meter dari standar pemupukan BRMP Kementan dan Buletin Agronomi IPB. Bukan promosi merek pupuk maupun produk apa pun; kereta sorong bertulisan FIVE STAR hanya properti kerja latar sesuai aturan Pak Vincent 21 November 2026 dan tidak disebut di dialog maupun caption.",
+  "production_note": "Satu permintaan generasi 12 detik di Flow flow_5 (Omni 1.2 Flash, 720p native, 9:16, output 1, 4 chip: karakter Pak Vincent, dua master foto, dan satu foto produk kereta sorong FIVE STAR). Frame mentah wajib bebas teks AI, lalu dirakit python3 -m app.media --character pak_vincent (upscale Varian 3 Hybrid Foto-Realistik, subtitle editorial_tiktok dua tingkat bebas koma) menjadi characters/pak_vincent/content/pak_vincent-2026-11-22/vin_221126_v1.mp4."
+}
