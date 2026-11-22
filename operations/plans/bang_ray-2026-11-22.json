@@ -1,0 +1,75 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Dak Retak karena Perancah Dibongkar Cepat: Aturan Tukang Senior 14 Hari",
+  "hook": "Dak beton retak rambut sampai melendut itu bukan karena besinya kurang rakan, tapi perancah penyangganya keburu dibongkar sebelum beton cukup umur. Aturan baku tukang senior: penyangga dak baru boleh dilepas setelah beton lewat empat belas hari.",
+  "story": "Bang Ray berdiri di bawah dak beton setengah jadi sebuah renovasi rumah di Banda Aceh. Sejak detik 0.0s ia sudah memegang collar pin satu perancah baja yang menopang papan plywood, dan tumpukan kardus paku tersegel bergaris merah kuning hijau dengan tulisan fisik CAP KERIS tampak utuh di sudut belakang frame. Ia membuka dengan gejala lapangan yang bikin pemilik rumah panik, menjelaskan aturan tukang senior soal umur bongkar perancah dengan gaya jenaka santai khas Banda Aceh, mengetuk papan penopang sambil menahan gagang perancah, lalu menutup dengan adu dua kubu waktu bongkar.",
+  "caption": "Dak beton retak lalu melendut itu bukan karena besinya kurang tapi perancahnya keburu dibongkar sebelum beton matang. Aturan tukang senior penyangga dak baru dibuka lewat empat belas hari rakan di sana tim bongkar cepat atau tim tunggu penuh?\n#tipskonstruksi #dakbeton #perancah #tukangproyek #bandaaceh #renovasirumah",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#dakbeton",
+    "#perancah",
+    "#tukangproyek",
+    "#bandaaceh",
+    "#renovasirumah"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah, FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja, dan FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg. Lokasi: kolong dak beton setengah jadi pada renovasi rumah di Banda Aceh, satu perancah baja dengan papan plywood penopang, tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan CAP KERIS di sudut belakang frame.",
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)"
+  ],
+  "role_reason": "Dak beton yang retak dan melendut akibat perancah dibongkar terlalu cepat adalah kerusakan struktur yang mahal dan sering diabaikan karena tukang ingin cepat pindah kerja. Hook tiga detik pertama langsung mengangkat resiko fatal itu plus aturan baku tukang senior soal umur bongkar, lalu penutup mengadu dua kubu waktu bongkar perancah supaya memancing debat komentar tanpa mengklaim hasil yang belum terbukti.",
+  "promotional": false,
+  "new_biography_facts": [],
+  "trend_sources": [
+    {
+      "url": "https://ojs.unikom.ac.id/index.php/crane/article/download/17854/5367/62260",
+      "title": "Hubungan Umur Beton dan Kekuatan Tekan terhadap Waktu Aman Pembongkaran Bekisting (CRANE 6(2), 2025)",
+      "observed_at": "2026-11-22T13:38:00+07:00",
+      "evidence": "Dibaca 22 November 2026: rekomendasi waktu bongkar mengikuti SNI 2847:2019 dan ACI 347, pelat dengan penyangga pada umur 7 hari, balok atau pelat bentang sedang 14 hari, dan seluruh elemen baru aman dibongkar setelah 21 sampai 28 hari ketika beton mendekati kekuatan penuh."
+    },
+    {
+      "url": "https://www.pinhome.id/blog/cara-agar-dak-beton-tidak-retak-atau-melengkung",
+      "title": "7 Cara agar Tiang Penyangga Cor Dak Beton Tidak Retak",
+      "observed_at": "2026-11-22T13:42:00+07:00",
+      "evidence": "Dibaca 22 November 2026: pembongkaran bekisting dak yang terlalu awal membuat pelat retak atau melengkung, dan penyangga sebaiknya dibiarkan sampai beton mengeras sempurna sekitar 28 hari kecuali memakai bahan tambahan percepat pengerasan."
+    }
+  ],
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 60,
+    "references_attached": 4,
+    "verified_from": "Sesi Flow flow_3 port 9335: Video 720p 15 dtk crop_9_16 x1 (sinkron 14.01 WIB, saldo 866 kredit)"
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at waist-chest height in a three-quarter front angle with very slight natural handheld sway. Location: the shaded under-side of a half-finished concrete roof slab in a house renovation in Banda Aceh, with one steel adjustable support post standing upright on a plywood base board in front of him; in the background corner behind his shoulder a tidy stack of sealed kraft cardboard nail boxes with red, yellow and green stripe bands and the physical printed words PAKU CAP KERIS on the visible box side stays fully readable inside that corner from the first frame to the last, without any close-up of the packaging. PROP CONTINUITY: exactly two working objects exist in the action area from 0.0s to the last frame: the one steel adjustable support post with its metal collar pin, and the one plywood board resting on it; no other tool, ladder, bucket, brick, person or animal may appear, move in or vanish at any moment, and the nail boxes stay untouched in the background corner. BEATS: at 0.0s he already grips the steel collar pin of the support post with his right hand and says in friendly relaxed Indonesian with natural Acehnese humor, \"Dak beton retak lalu melendut itu bukan karena besinya kurang rakan.\"; from 4.5s he taps the plywood board twice with his knuckles and explains, \"Perancahnya keburu dibongkar beton belum matang sudah lepas topangan.\"; from 9.0s he holds the post steady, grins jenaka and asks, \"Aturan tukang senior penyangga dak baru dibuka lewat empat belas hari. Rakan tim bongkar cepat atau tim tunggu penuh?\"; the final 0.5s holds on his cheerful smile. Ambient only: natural outdoor room tone with faint worksite sounds, no music. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, zero on-screen text, zero subtitles, zero watermarks. Keep his face, clothing, watch, the support post and the plywood board completely consistent in every frame.",
+      "dialogue": "Dak beton retak lalu melendut itu bukan karena besinya kurang rakan. Perancahnya keburu dibongkar beton belum matang sudah lepas topangan. Aturan tukang senior penyangga dak baru dibuka lewat empat belas hari. Rakan tim bongkar cepat atau tim tunggu penuh?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 13.6,
+      "action_end_seconds": 14.5
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "revision_note": "Paket harian 22 November 2026: hook 0-3s mengangkat resiko dak retak dan melendut akibat perancah dibongkar terlalu cepat plus aturan baku tukang senior, penutup mengadu dua kubu waktu bongkar. Properti kardus PAKU CAP KERIS wajib terlihat utuh di sudut belakang frame."
+}

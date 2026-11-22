@@ -1,0 +1,51 @@
+{
+  "plan_date": "2026-11-22",
+  "status": "active",
+  "slots": [
+    {
+      "id": "bang_ray-2026-11-22",
+      "day": "2026-11-22",
+      "character_id": "bang_ray",
+      "kind": "video",
+      "duration_seconds": 15,
+      "title": "Dak Retak karena Perancah Dibongkar Cepat: Aturan Tukang Senior 14 Hari",
+      "hook": "Dak beton retak rambut sampai melendut itu bukan karena besinya kurang rakan, tapi perancah penyangganya keburu dibongkar sebelum beton cukup umur.",
+      "story": "Bang Ray di kolong dak beton setengah jadi Banda Aceh memegang collar pin perancah baja sejak detik 0.0s, menjelaskan aturan umur bongkar perancah dan mengadu dua kubu waktu bongkar.",
+      "caption": "Dak beton retak lalu melendut itu bukan karena besinya kurang tapi perancahnya keburu dibongkar sebelum beton matang. Aturan tukang senior penyangga dak baru dibuka lewat empat belas hari rakan di sana tim bongkar cepat atau tim tunggu penuh?\n#tipskonstruksi #dakbeton #perancah #tukangproyek #bandaaceh #renovasirumah",
+      "hashtags": [
+        "#tipskonstruksi",
+        "#dakbeton",
+        "#perancah",
+        "#tukangproyek",
+        "#bandaaceh",
+        "#renovasirumah"
+      ],
+      "shots": [
+        {
+          "seconds": 15,
+          "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera static at waist-chest height in a three-quarter front angle with very slight natural handheld sway. Location: the shaded under-side of a half-finished concrete roof slab in a house renovation in Banda Aceh, with one steel adjustable support post standing upright on a plywood base board in front of him; in the background corner behind his shoulder a tidy stack of sealed kraft cardboard nail boxes with red, yellow and green stripe bands and the physical printed words PAKU CAP KERIS on the visible box side stays fully readable inside that corner from the first frame to the last, without any close-up of the packaging. PROP CONTINUITY: exactly two working objects exist in the action area from 0.0s to the last frame: the one steel adjustable support post with its metal collar pin, and the one plywood board resting on it; no other tool, ladder, bucket, brick, person or animal may appear, move in or vanish at any moment, and the nail boxes stay untouched in the background corner. BEATS: at 0.0s he already grips the steel collar pin of the support post with his right hand and says in friendly relaxed Indonesian with natural Acehnese humor, \"Dak beton retak lalu melendut itu bukan karena besinya kurang rakan.\"; from 4.5s he taps the plywood board twice with his knuckles and explains, \"Perancahnya keburu dibongkar beton belum matang sudah lepas topangan.\"; from 9.0s he holds the post steady, grins jenaka and asks, \"Aturan tukang senior penyangga dak baru dibuka lewat empat belas hari. Rakan tim bongkar cepat atau tim tunggu penuh?\"; the final 0.5s holds on his cheerful smile. Ambient only: natural outdoor room tone with faint worksite sounds, no music. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, zero on-screen text, zero subtitles, zero watermarks. Keep his face, clothing, watch, the support post and the plywood board completely consistent in every frame.",
+          "dialogue": "Dak beton retak lalu melendut itu bukan karena besinya kurang rakan. Perancahnya keburu dibongkar beton belum matang sudah lepas topangan. Aturan tukang senior penyangga dak baru dibuka lewat empat belas hari. Rakan tim bongkar cepat atau tim tunggu penuh?",
+          "dialogue_start_seconds": 0.3,
+          "dialogue_read_seconds": 13.6,
+          "action_end_seconds": 14.5
+        }
+      ],
+      "new_biography_facts": [],
+      "promotional": false,
+      "trend_sources": [
+        {
+          "url": "https://ojs.unikom.ac.id/index.php/crane/article/download/17854/5367/62260",
+          "title": "Waktu aman pembongkaran bekisting",
+          "observed_at": "2026-11-22T13:38:00+07:00",
+          "evidence": "SNI 2847:2019 dan ACI 347: pelat dengan penyangga 7 hari, bentang sedang 14 hari, seluruh elemen 21 sampai 28 hari."
+        },
+        {
+          "url": "https://www.pinhome.id/blog/cara-agar-dak-beton-tidak-retak-atau-melengkung",
+          "title": "Penyangga cor dak tidak retak",
+          "observed_at": "2026-11-22T13:42:00+07:00",
+          "evidence": "Bongkar bekisting terlalu awal membuat pelat retak atau melengkung."
+        }
+      ]
+    }
+  ]
+}
