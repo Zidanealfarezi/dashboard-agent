@@ -2,17 +2,17 @@
   "environment": "local_mac_mini",
   "is_cloud": false,
   "host_metrics": {
-    "timestamp_wib": "2026-11-23 10:30:53 WIB",
+    "timestamp_wib": "2026-11-23 10:38:36 WIB",
     "platform": "Darwin arm64 (macOS-26.6.2-arm64-arm-64bit)",
     "chip": "Apple M4 / Darwin 26.6.2",
     "cpu_load_1m_5m_15m": [
-      5.02,
-      3.89,
-      3.99
+      4.19,
+      4.12,
+      4.07
     ],
     "ram_summary": "16.0 GB Unified Memory",
     "ram_total_gb": 16.0,
-    "disk_free_gb": 24.6,
+    "disk_free_gb": 24.5,
     "disk_total_gb": 228.3,
     "disk_used_percent": 89.2
   },
@@ -56,7 +56,7 @@
       "name": "Telegram ACC Watcher",
       "type": "polling daemon",
       "label": "scripts/telegram_review_watcher.py",
-      "pid": 3632,
+      "pid": 4189,
       "status": "online",
       "port": null,
       "badge_color": "emerald",
