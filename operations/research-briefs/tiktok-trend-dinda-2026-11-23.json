@@ -1,0 +1,142 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-23",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-23T08:05:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 23 November 2026 pukul 08:05-08:35 WIB. Perintah kerja dipatuhi: TIDAK ada prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi di brief ini. Aturan variasi tema juga dipatuhi: hanya SATU dari tiga kandidat yang berasal dari keluarga pempek/tekwan (kandidat B, kuah tekwan), dua kandidat lain dari pilar berbeda yaitu kuliner non-pempek (kandidat A, pindang patin vs pindang tulang) dan event/UMKM Palembang dengan sudut wastra-busana (kandidat C, Semarak UMKM Seru Sriwijaya 2026). Alasannya: slot pagi Dinda lima hari terakhir (17-22 November) sudah memakai cuko mangkok vs sendok, hidden gem lorong 7 Ulu, pempek prasmanan, apem bekuwa, kontras harga pempek satu dapur, dan lalu lintas satu arah M Isa. Hari ini pindang dipilih karena pindang sama sekali belum pernah jadi topik terpilih, padahal artikelnya segar (detikSumbagsel, 22 November 2026 pukul 10.00 WIB) dan isinya punya bahan kontras yang jelas: kunyit-nanas-kemangi untuk patin, jahe-lengkuas-daun salam untuk tulang. Catatan keterbatasan tren TikTok: lagitren.id/tiktok pada 23 November 2026 pukul 08:07 WIB SUDAH diperbarui pagi ini pukul 07.00 WIB, jadi angka yang dikutip adalah angka hari ini, bukan angka kemarin. Isinya tetap tidak memuat satu pun tagar kuliner, Palembang, atau OOTD: gtavi 14,6 juta, gta6 6,5 juta, ujungkulon 5,3 juta, badakjawa 5,3 juta, harianak 3,8 juta, harianaknasional 2,9 juta, mamaawards 2,7 juta, mlbbcardbrawl 2,7 juta, mlbbnewmode 2,0 juta, onthellifestreetbike 1,7 juta, dan lima tagar lain (mama2026, dilanmilea, magicchessgogo, mamaawards2026, gofarhilman) tanpa angka views. Karena itu brief ini TIDAK mengutip angka tren kuliner nasional apa pun.",
+  "candidates": [
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8762815/perbedaan-bumbu-cita-rasa-pindang-patin-dan-pindang-tulang-khas-sumsel",
+      "title": "Perbedaan Bumbu-Cita Rasa Pindang Patin dan Pindang Tulang Khas Sumsel - detikSumbagsel",
+      "evidence": "Terbit Minggu 22 November 2026 pukul 10.00 WIB (penulis Marshanda), dibaca 23 November 2026 pukul 08:12 WIB. Artikel menyebut pindang sebagai makanan khas Palembang berbahan tulang sapi atau ikan patin yang masih bersumsum dan berdaging, lalu mendaftar tujuh jenis pindang Sumsel: Pindang Pegagan (Ogan Ilir dan OKI), Pindang Meranjat (Desa Meranjat, Indralaya Selatan, Ogan Ilir), Pindang Musi Rawas yang kuning keemasan karena kunyit jauh lebih banyak, pindang tempoyak dari fermentasi durian, pindang tulang dari iga sapi yang dimasak perlahan, pindang serani di Pagar Alam dan Lahat dengan bumbu diiris dan kuah bening agak kekuningan, serta pindang salai dari ikan diasapi. Perbedaan bumbu: pindang patin memakai kunyit, cabai, bawang merah, bawang putih plus nanas, tomat, dan daun kemangi sehingga kuahnya kuning kemerahan dan lebih encer dengan rasa asam pedas gurih sedikit manis; pindang tulang memakai jahe, lengkuas, bawang, dan daun salam, kadang ditambah kecap, sehingga kuahnya cokelat kemerahan, lebih pekat karena lemak dan sumsum, dengan daging iga lebih kenyal.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-23T08:12:00+07:00",
+      "published_at": "2026-11-22T10:00:00+07:00",
+      "metrics": {
+        "jumlah_jenis_pindang_sumsel": "7 jenis",
+        "bumbu_pindang_patin": "kunyit, cabai, bawang merah, bawang putih, nanas, tomat, kemangi",
+        "warna_kuah_patin": "kuning kemerahan, lebih encer",
+        "bumbu_pindang_tulang": "jahe, lengkuas, bawang, daun salam, kadang kecap",
+        "warna_kuah_tulang": "cokelat kemerahan, lebih pekat karena lemak dan sumsum"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8764958/cara-bikin-kuah-tekwan-palembang-asli-dijamin-gurih-dan-nikmat",
+      "title": "Cara Bikin Kuah Tekwan Palembang Asli, Dijamin Gurih dan Nikmat - detikSumbagsel",
+      "evidence": "Terbit Senin 23 November 2026 pukul 07.00 WIB (penulis Melati Putri Arsika), dibaca 23 November 2026 pukul 08:16 WIB. Artikel menyebut tekwan paling cocok disantap saat musim hujan, mengutip buku Makanan tradisional Indonesia: Seri 2 (2017) karya Eni Harmayani dkk bahwa tekwan berasal dari bahasa Palembang 'bekotek samo kawan' yang berarti berbincang bersama teman. Disebut pula kuah adalah penentu enak atau tidaknya tekwan. Resep kuah bening yang dirinci: 1 sdt merica bubuk, 2 sdm minyak sayur, 2 sdt gula, 4 siung bawang putih cincang, 1 sdm kaldu bubuk, 100 gram udang kupas cincang, 2 sdm garam, 1,5 liter kaldu udang, 150 gram bengkuang iris halus, 50 gram soun, 1 sdm ebi tumbuk kasar, dan 5 buah jamur kuping.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-23T08:16:00+07:00",
+      "published_at": "2026-11-23T07:00:00+07:00",
+      "metrics": {
+        "asal_nama_tekwan": "bekotek samo kawan, berbincang bersama teman",
+        "kaldu_dasar": "1,5 liter kaldu udang",
+        "jumlah_bahan_kuah_bening": "12 bahan"
+      }
+    },
+    {
+      "url": "https://rri.co.id/palembang/ekonomi/umkm/2916383/transaksi-seru-sriwijaya-2026-tembus-rp103-miliar-dalam-tiga-hari",
+      "title": "Transaksi Seru Sriwijaya 2026 Tembus Rp10,3 Miliar dalam Tiga Hari - RRI.co.id",
+      "evidence": "Halaman dibaca 23 November 2026 pukul 08:21 WIB. Judul dan isi menyebut perputaran uang ajang Semarak UMKM (Seru) Sriwijaya 2026 menembus Rp10,3 miliar sejak rangkaian pra-acara sampai penutupan di Palembang Indah Mall pada Minggu 22 November 2026. Kunjungan mencapai 67.922 orang selama tiga hari, 622 peserta ikut lokakarya, gelar wicara, dan kompetisi kopi maupun wastra. Layanan konsultasi bisnis mengamankan komitmen pembiayaan perbankan Rp7,2 miliar, dan 221 UMKM memakai fasilitas pengurusan NIB dan sertifikasi halal langsung. Sebanyak 27 pelaku usaha sektor wastra, busana siap pakai, dan aksesori ikut menampilkan produk, ditambah 12 UMKM kuliner khas daerah. Kepala Perwakilan BI Sumsel Bambang Pramono menyebut ajang ini muara pendampingan sepanjang tahun dan mendorong digitalisasi pembayaran lewat QRIS. Waktu terbit artikel tidak tercantum di halaman; yang tercantum adalah tanggal penutupan acara 22 November 2026, jadi tanggal di brief ini mengacu ke tanggal peristiwa.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-23T08:21:00+07:00",
+      "published_at": "2026-11-22",
+      "metrics": {
+        "transaksi": "Rp10,3 miliar dalam tiga hari",
+        "kunjungan": "67.922 orang",
+        "peserta": "622 peserta",
+        "komitmen_pembiayaan": "Rp7,2 miliar",
+        "umkm_urus_nib_halal": "221 UMKM",
+        "pelaku_wastra_busana": "27 pelaku usaha"
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini - 23 November 2026 - Lagi Tren",
+      "evidence": "Halaman dibuka 23 November 2026 pukul 08:07 WIB dan sudah diperbarui pagi itu pukul 07.00 WIB. Sepuluh video viral: gtavi 14,6 juta, gta6 6,5 juta, ujungkulon 5,3 juta, badakjawa 5,3 juta, harianak 3,8 juta, harianaknasional 2,9 juta, mamaawards 2,7 juta, mlbbcardbrawl 2,7 juta, mlbbnewmode 2,0 juta, onthellifestreetbike 1,7 juta. Lima belas hashtag tren: mlbbnewmode, mlbbcardbrawl, gtavi, onthellifestreetbike, harianak, harianaknasional, ujungkulon, gta6, mamaawards, badakjawa, mama2026, dilanmilea, magicchessgogo, mamaawards2026, gofarhilman. Tidak ada satu pun tagar kuliner, Palembang, atau OOTD di daftar itu, sehingga brief ini tidak mengutip angka tren kuliner nasional.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-23T08:07:00+07:00",
+      "published_at": "2026-11-23T07:00:00+07:00",
+      "metrics": {
+        "tagar_kuliner_hari_ini": "tidak ada di 10 video viral maupun 15 hashtag tren",
+        "tagar_teratas": "gtavi 14,6 juta; gta6 6,5 juta; ujungkulon 5,3 juta",
+        "pembaruan_halaman": "23 November 2026 pukul 07.00 WIB",
+        "jumlah_hashtag_dengan_angka": "10 dari 15"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Pindang Patin Vs Pindang Tulang: Kuah Kuning Encer atau Cokelat Pekat",
+      "pillar": "Kuliner Non-Pempek",
+      "hook": "Sama-sama pindang, tapi yang satu kuahnya kuning encer dan yang satu cokelat pekat. Salah pesan, lidah langsung kecele.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan warung pindang Palembang, menyebut pindang patin pakai kunyit, cabai, bawang, plus nanas dan kemangi sehingga kuahnya kuning kemerahan dan lebih encer, lalu menyebut pindang tulang pakai jahe, lengkuas, dan daun salam sehingga kuahnya cokelat kemerahan dan lebih pekat karena lemak dan sumsum iga.",
+        "Shot 2 (9s): Dinda menyebut Sumsel punya tujuh jenis pindang dari Pegagan, Meranjat, Musi Rawas yang kuning keemasan, sampai serani di Pagar Alam yang kuahnya bening, mengingatkan cara paling cepat membedakan adalah lihat warna kuah dan baunya, lalu menutup dengan pertanyaan: kalian tim pindang patin atau tim pindang tulang."
+      ],
+      "sound": "Ambience warung dan sendok piring, tanpa musik",
+      "outfit": "Open Mocha Linen & Fitted White Inner with Ivory Culottes",
+      "caption": "Pindang patin dan pindang tulang itu dua kuah yang beda jauh: patin pakai kunyit, nanas, dan kemangi jadi kuahnya kuning encer dan segar, sementara tulang pakai jahe, lengkuas, dan daun salam jadi kuahnya cokelat pekat berkaldu. Bedakan dari warna kuahnya dulu biar tidak kecele saat pesan. Kalian tim pindang patin atau tim pindang tulang? #palembang #pindangpalembang #pindangpatin #pindangtulang #kulinerpalembang #wongkito",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8762815/perbedaan-bumbu-cita-rasa-pindang-patin-dan-pindang-tulang-khas-sumsel"
+      ],
+      "factors": {
+        "pain_point_intensity": 7.2,
+        "actionable_solution": 8.8,
+        "local_relevance": 9.6,
+        "momentum": 7.4,
+        "evidence_strength": 8.7
+      },
+      "why": "Kandidat ini menang karena titik sakitnya nyata dan sering dialami: dua-duanya bernama pindang, harganya mirip, tapi kuahnya bertolak belakang, jadi orang yang memesan tanpa tahu bedanya bisa kecele karena mengharap kuah bening segar tetapi dapat kuah berlemak pekat. Solusinya bukan tips abstrak: artikel merinci bumbu pembeda (kunyit, nanas, kemangi untuk patin melawan jahe, lengkuas, daun salam untuk tulang) dan warna kuahnya (kuning kemerahan encer melawan cokelat kemerahan pekat), jadi penonton bisa memilih dalam tiga detik di depan warung. Relevansi lokalnya paling tinggi di antara ketiga kandidat karena pindang adalah khazanah Sumsel dengan tujuh jenis yang disebut namanya (Pegagan, Meranjat, Musi Rawas, tempoyak, tulang, serani, salai), dan ini pilar kuliner non-pempek sehingga tidak menambah kelelahan tema pempek setelah lima hari slot pagi berturut-turut. Bukti berasal dari artikel bertanggal 22 November 2026 yang benar-benar dibaca, bukan dari potongan snippet. Kekurangannya hanya momentum: terbit kemarin pukul 10.00 WIB, bukan pagi ini, sehingga angkanya di bawah kandidat tekwan yang terbit 07.00 WIB hari ini. Perlu dicatat apa adanya: setelah boost kata kunci, A dan B dua-duanya menyentuh batas atas 9,90, jadi kemenangan A bukan karena skornya lebih tinggi di layar, melainkan karena skor dasarnya sebelum boost memang lebih tinggi (8,37 berbanding 8,16) dan karena pilar kuliner non-pempek lebih dibutuhkan hari ini setelah lima hari slot pagi berturut-turut memakai keluarga pempek."
+    },
+    {
+      "code": "B",
+      "title": "Kuah Tekwan Ngaldu: Takaran Bumbu Bening Kaldu Udang",
+      "pillar": "Kuliner Khas Palembang (keluarga pempek/tekwan)",
+      "hook": "Kuah tekwan yang gurih itu ternyata cuma soal takaran, dan ini rincian bumbunya.",
+      "shots": [
+        "Shot 1 (9s): Dinda menyebut tekwan berasal dari bahasa Palembang beketek samo kawan yang artinya ngobrol bareng teman, lalu menyebut kuah adalah penentu enak atau tidaknya tekwan, dengan kaldu udang 1,5 liter, bawang putih, merica, dan ebi sebagai dasarnya.",
+        "Shot 2 (9s): Dinda menyebut bengkuang iris, soun, dan jamur kuping masuk terakhir supaya tidak lembek, mengingatkan garam dan gula ditakar dulu sebelum kaldu menyusut, lalu bertanya ke penonton kuah tekwan versi rumah siapa yang paling ngaldu."
+      ],
+      "sound": "Ambience dapur dan air mendidih, volume rendah",
+      "outfit": "Open Mocha Linen & Fitted White Inner with Ivory Culottes",
+      "caption": "Kuah tekwan yang gurih itu dasarnya kaldu udang, bawang putih, merica, dan ebi, dan takarannya bisa diikuti di rumah tanpa perlu bumbu instan. Nama tekwan sendiri dari beketek samo kawan, jadi paling pas dimakan sambil ngobrol sore hari. Kuah tekwan versi rumah kalian pakai apa lagi? #palembang #tekwan #kuah #kulinerpalembang #masakanrumahan #wongkito",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8764958/cara-bikin-kuah-tekwan-palembang-asli-dijamin-gurih-dan-nikmat"
+      ],
+      "factors": {
+        "pain_point_intensity": 5.4,
+        "actionable_solution": 8.9,
+        "local_relevance": 9.2,
+        "momentum": 9.2,
+        "evidence_strength": 8.2
+      },
+      "why": "Bahannya paling segar hari ini (detikSumbagsel, 23 November 2026 pukul 07.00 WIB) dan solusinya paling rinci karena seluruh takaran kuah bening ditulis lengkap sampai gram dan liter. Tetapi titik sakitnya paling tipis: tidak ada uang yang hilang dan tidak ada keputusan berisiko, hanya soal kuah yang kurang gurih, jadi skornya kalah dari kandidat pindang yang punya konsekuensi salah pesan. Tekwan juga masih keluarga pempek/tekwan, dan itu sudah dipakai berkali-kali di slot pagi pekan lalu. Skor dasarnya sebelum boost 8,16, sedikit di bawah kandidat pindang (8,37), dan kedua kandidat sama-sama menyentuh batas atas 9,90 setelah boost kata kunci, sehingga B kalah pada tie-break."
+    },
+    {
+      "code": "C",
+      "title": "Tiga Hari Seru Sriwijaya: 67.922 Pengunjung dan Rp10,3 Miliar",
+      "pillar": "Event & UMKM Palembang",
+      "hook": "Tiga hari di Palembang Indah Mall, 67.922 orang datang dan uang berputar Rp10,3 miliar, dan yang paling diburu justru stan wastra dan kuliner.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di area pameran Palembang Indah Mall selepas acara, menyebut Semarak UMKM Seru Sriwijaya 2026 ditutup Minggu 22 November 2026 dengan transaksi Rp10,3 miliar dan 67.922 kunjungan selama tiga hari.",
+        "Shot 2 (9s): Dinda menyebut 27 pelaku usaha wastra, busana siap pakai, dan aksesori ikut tampil bersama 12 UMKM kuliner, lalu menyebut 221 UMKM mengurus NIB dan sertifikasi halal langsung di lokasi dan bertanya penonton lebih tertarik stan busana atau stan kuliner."
+      ],
+      "sound": "Ambience hall pameran dan keramaian, tanpa musik",
+      "outfit": "Open Mocha Linen & Fitted White Inner with Ivory Culottes",
+      "caption": "Seru Sriwijaya 2026 ditutup Minggu 22 November di Palembang Indah Mall dengan transaksi Rp10,3 miliar dan 67.922 kunjungan selama tiga hari. Dari 622 peserta, 27 di antaranya pelaku wastra dan busana siap pakai, dan 221 UMKM langsung mengurus NIB serta sertifikasi halal di lokasi. Kalian paling sering mampir ke stan busana atau stan kuliner? #palembang #serusriwijaya #umkm #palembangindahmall #wastra #wongkito",
+      "sources": [
+        "https://rri.co.id/palembang/ekonomi/umkm/2916383/transaksi-seru-sriwijaya-2026-tembus-rp103-miliar-dalam-tiga-hari"
+      ],
+      "factors": {
+        "pain_point_intensity": 4.8,
+        "actionable_solution": 6.0,
+        "local_relevance": 9.4,
+        "momentum": 8.2,
+        "evidence_strength": 8.8
+      },
+      "why": "Angkanya paling kuat dan paling mudah diverifikasi (Rp10,3 miliar, 67.922 kunjungan, 622 peserta, 221 UMKM urus NIB dan halal), dan sudut wastra memberi warna busana yang jarang muncul. Tetapi acaranya sudah tutup Minggu 22 November, jadi tidak ada lagi yang bisa dilakukan penonton setelah menonton: tidak ada tanggal, tidak ada lokasi yang masih buka, tidak ada harga. Itu membuat titik sakit dan solusinya lemah untuk format TikTok 18 detik, sehingga skornya wajar di bawah kandidat pindang yang bisa langsung dipakai saat memesan hari ini."
+    }
+  ]
+}
