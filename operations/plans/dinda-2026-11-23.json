@@ -1,0 +1,89 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "keseharian cewek Palembang & serba-serbi kota (naik LRT Sumsel, dialek/istilah gaul Palembang sehari-hari, eksplorasi biaya jajan harian)"
+  ],
+  "role_reason": "Pengguna secara khusus mengarahkan bahwa untuk video hari ini (23 November 2026), Dinda Kemala menampilkan latar belakang tumpukan kardus PAKU CAP KERIS seperti Bang Ray. Konsep yang diangkat adalah keseharian cewek Palembang menghadapi puncak musim hujan: mengecek atap dan talang air rumah sebelum angin kencang datang, dengan lokasi di teras toko kelontong/material lokal Palembang yang rapi di mana tumpukan kardus tersegel PAKU CAP KERIS terlihat utuh di sudut latar belakang tanpa ada promosi hard-sell.",
+  "title": "Hujan Deras di Palembang: Cek Atap dan Talang Air Biar Nggak Banjir di Rumah",
+  "hook": "Wong kito di Palembang, musim hujan lagi lebat-lebatnya nih, jangan sampai nunggu atap bocor baru sibuk cari ember!",
+  "story": "Dinda berdiri di teras depan toko material kelontong lokal Palembang yang bersih dan teduh di pagi hari. Di sudut belakang bahunya tampak tumpukan rapi kardus paku tersegel dengan garis merah, kuning, hijau serta tulisan fisik PAKU CAP KERIS yang terlihat utuh di sudut latar belakang. Sejak detik pertama, Dinda menyapa akrab warga Palembang mengingatkan hujan deras disertai angin beberapa hari ini. Ia mengingatkan pentingnya mengecek talang air dan sambungan atap seng sebelum air meluap ke plafon, lalu menutup dengan senyuman hangat bertanya apakah atap rumah penonton sudah aman atau sudah ada yang siap-siap ember.",
+  "caption": "Palembang lagi sering diguyur hujan lebat nih wong kito. Mumpung pagi masih cerah, coba sempatkan cek talang air sama atap seng rumah biar nggak kelabakan pas badai datang. Di rumah kalian atapnya sudah aman atau sudah ada yang mulai siapin ember?\n#palembang #infopalembang #musimhujan #wongkito #seputarpalembang #keseharianpalembang",
+  "hashtags": [
+    "#palembang",
+    "#infopalembang",
+    "#musimhujan",
+    "#wongkito",
+    "#seputarpalembang",
+    "#keseharianpalembang"
+  ],
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), hijab voal segi empat krem lembut terlipat rapi, kemeja linen krem terbuka dengan dalaman fitted putih yang pas di badan, kulot coklat tua high-waisted, kalung emas kecil, berdiri di teras toko kelontong material lokal di Palembang; di sudut belakang frame terdapat tumpukan kardus paku tersegel dengan garis merah kuning hijau bertulisan PAKU CAP KERIS yang terbaca utuh, cahaya pagi alami netral, pori-pori kulit realistis, tanpa teks mengganggu atau HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "selection_reason": "Kemeja linen krem santai dengan kulot coklat tua dan hijab voal krem, chip referensi sudah tersedia di library Flow flow_1."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+      "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+    ],
+    "verified_from": "Sinkronisasi live Google Flow flow_1 port 9333: saldo 179 kredit, pill Video 720p 12s crop_9_16 x1."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (she has a natural, healthy and proportional feminine Indonesian woman silhouette, not skinny and not thin, with a natural feminine bust contour and balanced upper body curves under her clothing, not flat-chested and never flat like a board), image three is the outfit reference for CLOTHING (light cream oversized linen button-up shirt worn open over a fitted white inner top showing a natural feminine bust contour, chocolate brown high-waisted wide-leg palazzo trousers, soft beige square voal hijab folded neatly, small gold pendant necklace), and image four is the product prop reference. Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, twelve seconds, shot on smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle. Location: a covered open-air porch of a neighborhood hardware store in Palembang in the bright morning daylight, clean tiled floor; in the background corner behind her left shoulder a tidy stack of sealed kraft cardboard nail boxes with red, yellow and green stripe bands and the physical printed words PAKU CAP KERIS on the visible box side stays clearly readable inside that corner from the first frame to the last, without any close-up of the packaging. True-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, zero CGI, authentic non-AI documentary look. BEATS: from 0.0s to 3.8s she faces the camera with a warm, friendly smile, gestures lightly with one hand, and says in Indonesian, \"Wong kito di Palembang musim hujan lagi lebat-lebatnya nih\"; from 3.8s to 8.0s she tilts her head engagingly and continues, \"Mumpung pagi cerah sempatkan cek talang air sama atap rumah ya\"; from 8.0s to 12.0s she smiles cheerfully and asks, \"Di rumah kalian atap aman atau sudah ada yang siap-siap ember?\". Lip-sync in Indonesian with a warm conversational Palembang tempo, natural blinking, steady head and hands. Completely clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text, no captions, no subtitles, no watermark, no logo.",
+      "dialogue": "Wong kito di Palembang musim hujan lagi lebat-lebatnya nih. Mumpung pagi cerah sempatkan cek talang air sama atap rumah ya. Di rumah kalian atap aman atau sudah ada yang siap-siap ember?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 11.2,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sumsel.tribunnews.com/2026/11/22/peringatan-dini-cuaca-sumsel-hujan-lebat-disertai-angin-kencang-di-palembang",
+      "title": "Peringatan Dini Cuaca Sumsel: Potensi Hujan Lebat di Palembang November 2026",
+      "observed_at": "2026-11-23T08:00:00+07:00",
+      "evidence": "BMKG Stasiun Meteorologi SMB II Palembang merilis imbauan waspada hujan lebat disertai petir dan angin kencang berdurasi singkat di wilayah Palembang."
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8763102/waspada-cuaca-ekstrem-di-palembang-warga-diimbau-antisipasi-atap-dan-pohon-tumbang",
+      "title": "Waspada Cuaca Ekstrem di Palembang: Warga Diimbau Antisipasi Atap Bocor dan Pohon Tumbang",
+      "observed_at": "2026-11-23T08:15:00+07:00",
+      "evidence": "BPBD Kota Palembang mengimbau warga memeriksa kelayakan atap rumah dan saluran air guna mengantisipasi genangan serta kerusakan akibat angin kencang selama musim hujan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Fakta cuaca diverifikasi dari peringatan BMKG SMB II Palembang November 2026.",
+  "production_note": "Generasi 12 detik di Google Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1) dengan 4 chip bahan termasuk tumpukan kardus PAKU CAP KERIS. Upscale Hybrid Foto-Realistik ke 1080x1920, subtitle editorial_tiktok dua tingkat bebas koma, lo-fi akustik 15 persen.",
+  "revision_note": "Paket harian 23 November 2026 sesuai instruksi khusus Owner: Dinda Kemala menampilkan background properti tumpukan kardus PAKU CAP KERIS dengan garis merah, kuning, dan hijau di sudut belakang frame seperti Bang Ray, tanpa penyebutan merek di dialog atau caption."
+}
