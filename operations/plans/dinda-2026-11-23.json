@@ -4,40 +4,38 @@
   "duration_seconds": 12,
   "final_duration_seconds": 12,
   "role_tags": [
-    "keseharian cewek Palembang & serba-serbi kota (naik LRT Sumsel, dialek/istilah gaul Palembang sehari-hari, eksplorasi biaya jajan harian)"
+    "kuliner otentik Palembang non-pempek (mie celor 26 ilir, celimpungan kuah kuning, laksan pedas gurih, burgo, ragit, es kacang merah mamat, pindang patin/pegagan)"
   ],
-  "role_reason": "Pengguna secara khusus mengarahkan bahwa untuk video hari ini (23 November 2026), Dinda Kemala menampilkan latar belakang tumpukan kardus PAKU CAP KERIS seperti Bang Ray. Konsep yang diangkat adalah keseharian cewek Palembang menghadapi puncak musim hujan: mengecek atap dan talang air rumah sebelum angin kencang datang, dengan lokasi di teras toko kelontong/material lokal Palembang yang rapi di mana tumpukan kardus tersegel PAKU CAP KERIS terlihat utuh di sudut latar belakang tanpa ada promosi hard-sell.",
-  "title": "Hujan Deras di Palembang: Cek Atap dan Talang Air Biar Nggak Banjir di Rumah",
-  "hook": "Wong kito di Palembang, musim hujan lagi lebat-lebatnya nih, jangan sampai nunggu atap bocor baru sibuk cari ember!",
-  "story": "Dinda berdiri di teras depan toko material kelontong lokal Palembang yang bersih dan teduh di pagi hari. Di sudut belakang bahunya tampak tumpukan rapi kardus paku tersegel dengan garis merah, kuning, hijau serta tulisan fisik PAKU CAP KERIS yang terlihat utuh di sudut latar belakang. Sejak detik pertama, Dinda menyapa akrab warga Palembang mengingatkan hujan deras disertai angin beberapa hari ini. Ia mengingatkan pentingnya mengecek talang air dan sambungan atap seng sebelum air meluap ke plafon, lalu menutup dengan senyuman hangat bertanya apakah atap rumah penonton sudah aman atau sudah ada yang siap-siap ember.",
-  "caption": "Palembang lagi sering diguyur hujan lebat nih wong kito. Mumpung pagi masih cerah, coba sempatkan cek talang air sama atap seng rumah biar nggak kelabakan pas badai datang. Di rumah kalian atapnya sudah aman atau sudah ada yang mulai siapin ember?\n#palembang #infopalembang #musimhujan #wongkito #seputarpalembang #keseharianpalembang",
+  "role_reason": "Topik diambil apa adanya dari baris trend_selections hari ini (slot morning, id sel_dinda_2026-11-23_morning, trend_id opt_dinda_A_1795395864, decided_by pm_autonomous, skor 9.9): Pindang Patin Vs Pindang Tulang. Tidak ada pemilihan atau penggantian topik oleh eksekutor. Topik ini masuk pilar kuliner otentik Palembang non-pempek sehingga tetap menyegarkan tema setelah lima hari berturut-turut slot pagi memakai keluarga pempek. Pindang patin melawan pindang tulang dipilih karena titik sakitnya praktis: dua-duanya bernama pindang dan harganyo mirip, tetapi kuahnya bertolak belakang (kuning kemerahan encer melawan cokelat kemerahan pekat), jadi penonton bisa memilih dalam hitungan detik di depan warung.",
+  "title": "Pindang Patin Vs Pindang Tulang: Kuah Kuning Encer atau Cokelat Pekat",
+  "hook": "Wong kito Palembang, pesan pindang jangan asal sebut dulu ya, kuahnyo beda jauh!",
+  "story": "Dinda duduk santai di meja warung pindang sederhana di Palembang pada pagi hari. Di depannya tersedia dua mangkuk: sebelah kiri pindang patin dengan kuah kuning kemerahan yang lebih encer dan irisan nanas, tomat serta daun kemangi di permukaan; sebelah kanan pindang tulang dengan kuah cokelat kemerahan yang lebih pekat dan iga sapi. Sejak detik pertama ia menyapa penonton dengan senyum akrab lalu membandingkan dua kuah itu dengan satu kalimat pendek masing-masing: patin segar karena kunyit dan nanas, tulang gurih berlemak karena jahe, lengkuas, dan kaldu iga. Video ditutup dengan pertanyaan ringan: penonton tim kuah bening atau tim kuah pekat.",
+  "caption": "Pindang patin kuahnyo kuning encer seger karena kunyit dan nanas, pindang tulang kuahnyo coklat pekat berlemak dari kaldu iga. Kalau kau duduk di warung, biasanyo pesan yang mano?\n#pindangpalembang #kulinersumsel #infopalembang #wongkito #kulinernonpempek #kulinerpalembang",
   "hashtags": [
-    "#palembang",
+    "#pindangpalembang",
+    "#kulinersumsel",
     "#infopalembang",
-    "#musimhujan",
     "#wongkito",
-    "#seputarpalembang",
-    "#keseharianpalembang"
+    "#kulinernonpempek",
+    "#kulinerpalembang"
   ],
-  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), hijab voal segi empat krem lembut terlipat rapi, kemeja linen krem terbuka dengan dalaman fitted putih yang pas di badan, kulot coklat tua high-waisted, kalung emas kecil, berdiri di teras toko kelontong material lokal di Palembang; di sudut belakang frame terdapat tumpukan kardus paku tersegel dengan garis merah kuning hijau bertulisan PAKU CAP KERIS yang terbaca utuh, cahaya pagi alami netral, pori-pori kulit realistis, tanpa teks mengganggu atau HUD kamera.",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), hijab voal segi empat krem lembut terlipat rapi, kemeja linen mocha oversized terbuka dengan dalaman putih bersih yang pas di badan, kulot ivory pleated, kalung emas kecil, duduk di meja kayu warung pindang sederhana di Palembang pada pagi hari; di atas meja dua mangkuk keramik berisi pindang patin berkuah kuning kemerahan encer dan pindang tulang berkuah cokelat kemerahan pekat, cahaya pagi alami dengan white balance netral tanpa cast kuning atau oranye, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame mentah bersih tanpa teks, subtitle, maupun HUD kamera.",
   "wardrobe": {
-    "outfit_id": "outfit_dinda_pagi_20261111",
-    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
-    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
-    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
-    "selection_reason": "Kemeja linen krem santai dengan kulot coklat tua dan hijab voal krem, chip referensi sudah tersedia di library Flow flow_1."
+    "outfit_id": "outfit_dinda_pagi_20261110",
+    "name": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg",
+    "selection_reason": "Dipilih Auto-Stylist dari character_wardrobe (status active, closeup + fullbody lengkap) sebagai busana yang paling lama tidak dipakai: last_used_at 19 November 2026, times_used 3, dan belum dipakai hari ini. Chip referensi sudah tersedia di library Flow flow_1 dengan nama dinda_ootd_20261115_mocha_linen_fullbody.jpg sehingga tidak perlu unggah aset baru."
   },
   "references": [
     "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
     "FOTO_KARAKTER/Dinda/dinda.jpg",
-    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
-    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
   ],
   "flow_ingredients": [
     "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
     "FOTO_KARAKTER/Dinda/dinda.jpg",
-    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
-    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
   ],
   "flow": {
     "account_id": "flow_1",
@@ -51,39 +49,38 @@
     "flow_ingredients": [
       "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
       "FOTO_KARAKTER/Dinda/dinda.jpg",
-      "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
-      "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+      "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
     ],
-    "verified_from": "Sinkronisasi live Google Flow flow_1 port 9333: saldo 179 kredit, pill Video 720p 12s crop_9_16 x1."
+    "verified_from": "Sinkronisasi live Google Flow flow_1 port 9333 pukul 09:01 WIB: saldo 179 kredit, pill Video 720p 12s crop_9_16 x1."
   },
   "shots": [
     {
       "seconds": 12,
-      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and do not change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (she has a natural, healthy and proportional feminine Indonesian woman silhouette, not skinny and not thin, with a natural feminine bust contour and balanced upper body curves under her clothing, not flat-chested and never flat like a board), image three is the outfit reference for CLOTHING (light cream oversized linen button-up shirt worn open over a fitted white inner top showing a natural feminine bust contour, chocolate brown high-waisted wide-leg palazzo trousers, soft beige square voal hijab folded neatly, small gold pendant necklace), and image four is the product prop reference. Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, one continuous shot, twelve seconds, shot on smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle. Location: a covered open-air porch of a neighborhood hardware store in Palembang in the bright morning daylight, clean tiled floor; in the background corner behind her left shoulder a tidy stack of sealed kraft cardboard nail boxes with red, yellow and green stripe bands and the physical printed words PAKU CAP KERIS on the visible box side stays clearly readable inside that corner from the first frame to the last, without any close-up of the packaging. True-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, zero CGI, authentic non-AI documentary look. BEATS: from 0.0s to 3.8s she faces the camera with a warm, friendly smile, gestures lightly with one hand, and says in Indonesian, \"Wong kito di Palembang musim hujan lagi lebat-lebatnya nih\"; from 3.8s to 8.0s she tilts her head engagingly and continues, \"Mumpung pagi cerah sempatkan cek talang air sama atap rumah ya\"; from 8.0s to 12.0s she smiles cheerfully and asks, \"Di rumah kalian atap aman atau sudah ada yang siap-siap ember?\". Lip-sync in Indonesian with a warm conversational Palembang tempo, natural blinking, steady head and hands. Completely clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text, no captions, no subtitles, no watermark, no logo.",
-      "dialogue": "Wong kito di Palembang musim hujan lagi lebat-lebatnya nih. Mumpung pagi cerah sempatkan cek talang air sama atap rumah ya. Di rumah kalian atap aman atau sudah ada yang siap-siap ember?",
-      "dialogue_start_seconds": 0.3,
-      "dialogue_read_seconds": 11.2,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and never change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (natural healthy and proportional feminine Indonesian silhouette, not skinny, with a natural feminine bust contour under her clothing), image three is the outfit reference for CLOTHING (warm mocha oversized linen button-up shirt worn open over a clean white inner top, ivory pleated straight trousers, soft beige square voal hijab folded neatly, small gold pendant necklace). Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16 frame, one continuous shot, twelve seconds, shot on a smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle. Location: a simple open-air pindang warung in Palembang in the morning, a clean wooden table in front of her; on the table two ceramic bowls of pindang, the left bowl holds thinner reddish yellow broth with a pale fish fillet plus slices of pineapple tomato and basil leaves on the surface, the right bowl holds a thicker dark reddish brown broth with a beef rib bone and a piece of meat, both bowls stay visible in frame from the first frame to the last, with a softly out of focus background of a modest bamboo wall and a few plastic chairs, no signage and no menu boards in frame. True-to-life colors with neutral daylight white balance and no yellow or orange color cast, realistic matte human skin with visible fine pores and natural micro texture, absolutely no waxy plastic or glossy shiny skin, zero CGI, authentic non-AI documentary look, absolutely no on-screen text, no viewfinder overlay, no camera HUD, no timestamp, no subtitles, no watermark. BEATS: from 0.0s to 3.6s she looks straight into the lens with a warm friendly smile and asks the viewer about ordering pindang while opening one palm toward the bowl on her left; from 3.6s to 8.6s she turns her open palm toward the bowl on her right and back while comparing the two broths in one quick line with lively natural eyebrows; from 8.6s to 12.0s she leans slightly closer with an amused teasing expression for the closing question and holds a soft smile until the last frame. Natural lip movement matching the spoken Indonesian Palembang dialogue, small natural head tilts, normal blinking, hijab edge moving slightly in the breeze, no exaggerated gestures, no dancing, no walking.",
+      "dialogue": "Wong kito Palembang nih. Kalau pesan pindang jangan asal sebut ya. Pindang patin kuahnyo kuning encer seger. Pindang tulang kuahnyo coklat pekat berlemak. Kalau kau tim yang mano?",
+      "dialogue_start_seconds": 0.4,
+      "dialogue_read_seconds": 11.1,
       "action_end_seconds": 11.9
     }
   ],
   "trend_sources": [
     {
-      "url": "https://sumsel.tribunnews.com/2026/11/22/peringatan-dini-cuaca-sumsel-hujan-lebat-disertai-angin-kencang-di-palembang",
-      "title": "Peringatan Dini Cuaca Sumsel: Potensi Hujan Lebat di Palembang November 2026",
-      "observed_at": "2026-11-23T08:00:00+07:00",
-      "evidence": "BMKG Stasiun Meteorologi SMB II Palembang merilis imbauan waspada hujan lebat disertai petir dan angin kencang berdurasi singkat di wilayah Palembang."
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8762815/perbedaan-bumbu-cita-rasa-pindang-patin-dan-pindang-tulang-khas-sumsel",
+      "title": "Perbedaan Bumbu-Cita Rasa Pindang Patin dan Pindang Tulang Khas Sumsel (detikSumbagsel, 22 Nov 2026 10.00 WIB)",
+      "observed_at": "2026-11-23T09:02:00+07:00",
+      "evidence": "Artikel bertanggal 22 November 2026 ini dibaca penuh: pindang patin memakai kunyit, cabai, bawang merah, bawang putih plus nanas, tomat, dan daun kemangi sehingga kuahnya kuning kemerahan dan lebih encer; pindang tulang memakai jahe, lengkuas, bawang, dan daun salam, kadang ditambah kecap, dimasak bersama iga sapi sehingga kuahnya cokelat kemerahan, lebih pekat karena lemak dan sumsum. Rasa patin lebih segar (asam, pedas, gurih, sedikit manis), tulang lebih dominan kaldu sapi dengan daging iga yang kenyal. Artikel juga menyebut tujuh jenis pindang di Sumsel termasuk Pegagan, Meranjat, Musi Rawas, tempoyak, tulang, serani, dan salai."
     },
     {
-      "url": "https://www.detik.com/sumbagsel/berita/d-8763102/waspada-cuaca-ekstrem-di-palembang-warga-diimbau-antisipasi-atap-dan-pohon-tumbang",
-      "title": "Waspada Cuaca Ekstrem di Palembang: Warga Diimbau Antisipasi Atap Bocor dan Pohon Tumbang",
-      "observed_at": "2026-11-23T08:15:00+07:00",
-      "evidence": "BPBD Kota Palembang mengimbau warga memeriksa kelayakan atap rumah dan saluran air guna mengantisipasi genangan serta kerusakan akibat angin kencang selama musim hujan."
+      "url": "https://palembangpedia.com/entri/pindang-patin-palembang/",
+      "title": "Pindang Patin Palembang: Sejarah, Ciri Kuah, dan Jenisnya (entri referensi Palembangpedia)",
+      "observed_at": "2026-11-23T09:02:00+07:00",
+      "evidence": "Entri referensi dibaca langsung: kata pindang di Sumatera Selatan merujuk pada teknik merebus (mindang) tanpa santan dengan kuah encer, sehingga pindang tidak punya satu resep baku; irisan nanas menambah rasa asam dan manis; warna kuah bisa bening kekuningan sampai cokelat gelap tergantung bumbu dan ada tidaknya kecap. Disebut juga pindang tulang memakai tulang iga sapi dengan rasa asam, pedas, gurih, dan kuah menjadi lebih gelap bila diberi kecap. Halaman ini tidak memuat tanggal terbit yang bisa dipakai sebagai momentum, jadi dipakai sebagai rujukan latar, bukan bukti tren terbaru."
     }
   ],
   "historical_fact_sources": [],
   "new_biography_facts": [],
   "promotional": false,
-  "source_note": "Fakta cuaca diverifikasi dari peringatan BMKG SMB II Palembang November 2026.",
-  "production_note": "Generasi 12 detik di Google Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1) dengan 4 chip bahan termasuk tumpukan kardus PAKU CAP KERIS. Upscale Hybrid Foto-Realistik ke 1080x1920, subtitle editorial_tiktok dua tingkat bebas koma, lo-fi akustik 15 persen.",
-  "revision_note": "Paket harian 23 November 2026 sesuai instruksi khusus Owner: Dinda Kemala menampilkan background properti tumpukan kardus PAKU CAP KERIS dengan garis merah, kuning, dan hijau di sudut belakang frame seperti Bang Ray, tanpa penyebutan merek di dialog atau caption."
+  "source_note": "Bukti tren utama adalah artikel detikSumbagsel bertanggal 22 November 2026 (dibaca penuh, termasuk <meta> datePublished 2026-11-22T10:00:35+07:00). Entri Palembangpedia dibaca sebagai rujukan latar dan secara eksplisit tidak diklaim sebagai terbit hari ini.",
+  "production_note": "Generasi 12 detik di Google Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1) dengan tiga chip bahan: face sheet, dinda.jpg, dan chip outfit mocha linen. Setelah itu rakit lewat app.media.assemble_character_video: upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 (upscayl-lite-4x, texture preserve 0.45, micro grain), hardsub editorial_tiktok dua tingkat bebas tanda koma, dan mixing lo-fi akustik 15 persen dengan vokal 100 persen.",
+  "revision_note": "Menggantikan draf plan 23 November yang dibuat pukul 08.58 WIB sebelum reserve. Draf itu memakai topik BMKG cuaca (di luar pemilihan PM dan di luar tema riset yang diizinkan) dan memasang properti PAKU CAP KERIS yang aturannya hanya berlaku untuk Bang Ray. Draf dibatalkan sebelum reservasi sehingga tidak ada kredit terpakai. Plan ini memakai baris trend_selections slot morning apa adanya."
 }
