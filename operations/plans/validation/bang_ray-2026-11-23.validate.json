@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "plan_date": "2026-11-23",
+  "status": "active",
+  "prepared_by": "ai-influencer-pm",
+  "source_file": "operations/plans/bang_ray-2026-11-23.json",
+  "slots": [
+    {
+      "id": "bang_ray-2026-11-23",
+      "day": "2026-11-23",
+      "character_id": "bang_ray",
+      "kind": "video",
+      "duration_seconds": 15,
+      "final_duration_seconds": 15,
+      "title": "Kanopi Beton Ambruk karena Angkur Cuma Ditempel: Aturan 10 Kali Diameter Besi",
+      "hook": "Kanopi beton roboh itu bukan karena besinya kecil rakan tapi karena angkur tulangannya cuma ditempel di permukaan dinding. Aturan baku tukang senior: angkur wajib masuk kolom sepuluh kali diameter besi, jadi besi sepuluh mili harus masuk sepuluh senti.",
+      "story": "Bang Ray berjalan dua langkah menyusuri dinding rumah setengah jadi di Banda Aceh sambil memegang satu batang besi tulangan ulir sepuluh mili di tangan kanan, kamera mengikuti dari samping setinggi dada. Sejak detik 0.0s besi itu sudah ada di tangannya dan tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan fisik CAP KERIS terlihat utuh di sudut belakang frame. Ia membuka dengan kejadian nyata kanopi beton ambruk karena angkur lepas, menjelaskan aturan tukang senior sepuluh kali diameter besi dengan gaya jenaka santai khas Banda Aceh, mengetuk ujung besi ke tepi kolom beton sebagai peraga, lalu menutup dengan adu dua kubu cara pasang angkur.",
+      "caption": "Kanopi beton roboh itu bukan karena besinya kecil tapi karena angkurnya cuma ditempel di permukaan dinding. Aturan tukang senior angkur wajib masuk kolom sepuluh kali diameter besi rakan di sana tim angkur tanam waktu cor atau tim bor belakangan?\n#tipskonstruksi #kanopibeton #angkur #tukangproyek #bandaaceh #renovasirumah",
+      "hashtags": [
+        "#tipskonstruksi",
+        "#kanopibeton",
+        "#angkur",
+        "#tukangproyek",
+        "#bandaaceh",
+        "#renovasirumah"
+      ],
+      "shots": [
+        {
+          "seconds": 15,
+          "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, camera held at chest height about one and a half meters to his left side, slowly tracking sideways with him as he walks two steps then stops beside a raw grey concrete column, with very slight natural handheld sway. Location: an unfinished one-storey house extension in Banda Aceh at midday, bare grey plaster wall and one unfinished concrete column beside him; in the background corner behind his shoulder a tidy stack of sealed kraft cardboard nail boxes with red, yellow and green stripe bands and the physical printed words PAKU CAP KERIS on the visible box side stays fully readable inside that corner from the first frame to the last, without any close-up of the packaging. PROP CONTINUITY: exactly two working objects exist in the action area from 0.0s to the last frame: the one single ribbed steel rebar bar of about ten millimetres diameter gripped in his right hand, and the one unfinished concrete column beside him; no other tool, hammer, drill, bucket, ladder, brick, person or animal may appear, move in or vanish at any moment, and the nail boxes stay untouched in the background corner. BEATS: at 0.0s he is already walking with the rebar in his right hand and says in friendly relaxed Indonesian with natural Acehnese humor, \\\"Kanopi beton roboh itu bukan karena besinya kecil. Angkurnya yang cuma ditempel di permukaan dinding.\\\"; from 4.0s he stops beside the column, lifts the rebar and taps its end twice against the grey concrete surface and says, \\\"Aturan tukang senior angkur wajib masuk kolom sepuluh kali diameter besi. Besi sepuluh mili berarti masuk sepuluh senti.\\\"; from 9.5s he holds the rebar upright beside the column, looks back to the camera with a joke-free friendly grin and asks, \\\"Rakan tim angkur tanam waktu cor atau tim bor belakangan?\\\"; the final half second holds on his calm face. Ambient only: natural outdoor worksite room tone with faint distant neighbourhood sounds, no music. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, zero on-screen text, zero subtitles, zero watermarks. Keep his face, clothing, watch, the rebar and the concrete column completely consistent in every frame.",
+          "dialogue": "Kanopi beton roboh itu bukan karena besinya kecil. Angkurnya yang cuma ditempel di permukaan dinding. Aturan tukang senior angkur wajib masuk kolom sepuluh kali diameter besi. Besi sepuluh mili berarti masuk sepuluh senti. Rakan tim angkur tanam waktu cor atau tim bor belakangan?",
+          "dialogue_start_seconds": 0.3,
+          "dialogue_read_seconds": 13.8,
+          "action_end_seconds": 14.6
+        }
+      ],
+      "new_biography_facts": [],
+      "promotional": false,
+      "trend_sources": [
+        {
+          "url": "https://www.detik.com/jateng/berita/d-8132456/penyedia-jasa-disebut-janji-tanggung-jawab-perbaiki-kpt-brebes-yang-ambruk",
+          "title": "Penyedia Jasa Disebut Janji Tanggung Jawab Perbaiki KPT Brebes yang Ambruk (detikJateng, 26 September 2025)",
+          "observed_at": "2026-11-23T14:05:00+07:00",
+          "evidence": "Dibaca 23 November 2026: teras dan kanopi drop zone KPT Brebes ambruk setelah dua angkur di sisi selatan lepas karena terbebani air hujan, sehingga posisi sisi itu turun dan akhirnya runtuh. Perbaikan tanpa balok penahan di bawahnya disebut murni kelalaian pelaksana."
+        },
+        {
+          "url": "https://journal.untar.ac.id/index.php/jmts/article/download/30805/20102",
+          "title": "Pengaruh Kedalaman Pengangkuran terhadap Kuat Tarik Angkur Adhesif pada Jarak Tepi Kritis (Jurnal Mitra Teknik Sipil, 2025)",
+          "observed_at": "2026-11-23T14:07:00+07:00",
+          "evidence": "Dibaca 23 November 2026: kapasitas tarik angkur sangat dipengaruhi kedalaman penanaman dan jarak tepi beton, dan aturan praktis yang umum dipakai di lapangan adalah kedalaman tanam angkur sepuluh kali diameter batang (10db)."
+        },
+        {
+          "url": "https://ejurnal.poliban.ac.id/index.php/intekna/article/download/93/82",
+          "title": "Kegagalan Struktur dan Penanganannya (Jurnal INTEKNA Politeknik Negeri Banjarmasin)",
+          "observed_at": "2026-11-23T14:09:00+07:00",
+          "evidence": "Dibaca 23 November 2026: pada pemeriksaan kerusakan bangunan, angkur kolom ke dinding berjarak satu meter dinilai terlalu jauh karena seharusnya maksimal sekitar 40 cm, sehingga dinding kurang kaku dan simpangan bangunan membesar saat dibebani."
+        }
+      ]
+    }
+  ]
+}
