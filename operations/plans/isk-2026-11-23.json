@@ -1,0 +1,117 @@
+{
+  "id": "isk-2026-11-23",
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 16.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "solusi praktis mandor dan toko bangunan (pagar kebun tahan karat, kereta sorong medan berat)"
+  ],
+  "role_reason": "Rotasi pilar wajib: 22 November Paku Cap Keris, 21 November Kawat Licin Diamond, 20 November Kawat Duri Diamond, 19 November Kereta Sorong Five Star. Hari ini (23 November) kembali ke pilar Kereta Sorong Five Star dengan formula Hook Detik 0-3 baru: Drop/Stress-Test benturan keras beban semen langsung ke bak gerobak di detik 0.0s.",
+  "title": "Tes Banting Semen 50 Kg, Plat Kereta Sorong Five Star Tetap Kokoh",
+  "hook": "Gerobak murah dilempar semen langsung penyok rangkanya",
+  "story": "Sejak detik 0.0s di area proyek bangunan, satu karung semen 50 kg dijatuhkan dari atas dada langsung ke dalam bak merah Kereta Sorong Five Star dengan debu mengepul dan suara benturan mantap. Bak plat baja tebal Five Star tidak penyok dan rangkanya tidak bengkok. Mandor berpengalaman menepuk bibir bak gerobak dengan sarung tangan kerja, lalu menatap kamera dengan tenang dan berwibawa menyampaikan bahwa Kereta Sorong Five Star dari PT Intan Suar Kartika tahan banting di medan kerja berat.",
+  "caption": "Gerobak murah dilempar muatan semen langsung melengkung rangkanya, kerja proyek jadi kacau. Kereta Sorong Five Star dari PT Intan Suar Kartika bak plat baja tebal tahan banting, spek lengkap silakan kirim pesan ke DM.\n#keretasorongfivestar #alatproyek #materialbangunan #kontraktor #intansuarkartika",
+  "hashtags": [
+    "#keretasorongfivestar",
+    "#alatproyek",
+    "#materialbangunan",
+    "#kontraktor",
+    "#intansuarkartika"
+  ],
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg: bak plat baja merah glossy tebal, rangka pipa merah tubular kokoh, stiker putih FIVE STAR di handle kiri, ban angin pneumatic berulir tebal. Tidak membuat master wajah baru; pekerja digambarkan mandor profesional berkulit sawo matang dengan pakaian kerja proyek.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Drop/Impact test satu take di halaman proyek konstruksi dengan kamera setinggi dada",
+      "opening": "Sejak detik 0.0s karung semen jatuh berdebum ke dalam bak merah Kereta Sorong Five Star dengan debu tipis mengepul",
+      "camera": "Handheld smartphone setinggi dada, sudut miring tiga perempat ke arah bak gerobak, goyangan lembut natural",
+      "core_action": "Beban semen jatuh menghantam bak, plat baja tebal menahan tanpa penyok, mandor menepuk bibir bak dua kali dan memeriksa as roda",
+      "closing": "Mandor menatap lensa dengan tenang dan menaruh tangan di atas bibir bak gerobak",
+      "risk": "Bak merah Five Star dan karung semen wajib konsisten dari frame awal sampai akhir tanpa perubahan bentuk"
+    },
+    {
+      "id": "B",
+      "format": "Wide statis di jalur tanah becek berlumpur",
+      "opening": "Pekerja berdiri di samping gerobak kosong di pinggir parit",
+      "camera": "Statis wide setinggi pinggang",
+      "core_action": "Mendorong gerobak melintasi lumpur",
+      "closing": "Berhenti dan menunjuk ban yang kotor",
+      "risk": "Kurang memberikan efek pattern interrupt dramatis pada detik 0-3 sehingga retensi penonton rawan drop"
+    },
+    {
+      "id": "C",
+      "format": "Review katalog di lorong toko bahan bangunan",
+      "opening": "Dua gerobak dipajang berdampingan",
+      "camera": "Medium pan dari kiri ke kanan",
+      "core_action": "Membandingkan ketebalan plat gerobak biasa vs Five Star",
+      "closing": "Menunjuk stiker Five Star",
+      "risk": "Menampilkan merk komparasi tanpa uji fisik langsung berisiko melanggar etika periklanan dan engagement rendah"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Konsep A menerapkan formula Hook Detik 0-3 baru: aksi fisik benturan (drop-test) langsung terjadi di detik 0.0s sehingga memutus scroll penonton TikTok (pattern interrupt), membuktikan kekuatan plat baja Kereta Sorong Five Star secara visual tanpa klaim verbal berlebihan.",
+    "history_checked": "Riwayat operasional ISK: 22 Nov Paku Cap Keris balok kayu keras (published), 21 Nov Kawat Licin Diamond tes ulet (published), 20 Nov Kawat Duri Diamond tarik pagar (published), 19 Nov Kereta Sorong Five Star jalan bergelombang (published). Hari ini giliran rotasi Kereta Sorong Five Star."
+  },
+  "creative": {
+    "character": "Mandor konstruksi Indonesia pria 42 tahun, kemeja kerja abu-abu tua berdebu, celana kerja gelap, sarung tangan kain cokelat, helm proyek kuning berdebu, kulit sawo matang, ekspresi tenang dan berwibawa",
+    "background": "Halaman proyek pembangunan gedung di Medan, tumpukan pasir dan batu bata merah di latar belakang, cahaya siang terang alami sedikit berawan",
+    "action": "Karung semen dijatuhkan ke dalam bak merah Kereta Sorong Five Star, mandor memeriksa bibir bak yang tetap kokoh tanpa penyok, menepuk plat baja tebal, lalu menatap lensa dengan tenang",
+    "selection_reason": "Formula Hook detik 0-3 dengan pattern interrupt aksi benturan nyata di detik pertama, membuktikan daya tahan plat baja press tanpa sambungan dan rangka pipa tebal dalam satu continuous take",
+    "dialogue": "Gerobak murah dilempar semen langsung penyok rangkanya. Kereta Sorong Five Star PT Intan Suar Kartika tahan banting.",
+    "dialogue_start_seconds": 0.5,
+    "dialogue_read_seconds": 10.0,
+    "action_end_seconds": 11.2
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 42,
+    "references_attached": 1,
+    "verified_from": "Panel Google Flow flow_2 pada 23 November 2026: saldo aktif, pill komposer 'Video · 720p · 12 dtk crop_9_16 x1'"
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 12 seconds, one continuous take, shot on a smartphone vlog camera at chest height with gentle natural handheld camera sway, authentic construction documentary look, natural neutral daylight 5500K, realistic matte human skin with visible fine pores, zero CGI, authentic non-AI documentary footage, clean frame without camera HUD, no REC icon, no viewfinder brackets, no on-screen text or captions of any kind. Location: an active building construction site yard in Medan, stacks of red bricks and gravel in the background, bright natural daylight. The wheelbarrow is exactly the product in the single attached official reference photo: bright glossy red pressed-steel tray, red tubular steel frame, white FIVE STAR sticker on the left handle, thick treaded pneumatic tyre. An Indonesian construction foreman about 42 years old in a dusty grey work shirt, dark work trousers, brown cotton work gloves and a yellow safety helmet stands beside the wheelbarrow. PROP CONTINUITY RULE: from 0.0s to 12.0s exactly one glossy red Kereta Sorong Five Star wheelbarrow, one heavy sack of cement in the tray, and the foreman are present; no extra carts, tools, people, or vehicles appear, shift, float, or disappear, and the red tray and FIVE STAR branding must remain consistent throughout. BEATS: at 0.0s in the very first frame, a heavy sack of cement drops into the red wheelbarrow tray with a firm thud and a tiny puff of grey dust, the red steel tray stays rigid and does not dent or buckle, while the foreman looks at it and speaks in calm authoritative Indonesian with accurate lip sync, \"Gerobak murah dilempar semen langsung penyok rangkanya\". From 3.5s to 7.0s he firmly taps the rim of the red steel tray twice with his gloved hand to prove its solid thickness, then grips the sturdy red handles to show the frame is perfectly straight. From 7.0s to 10.5s he turns his head to face the lens, resting his gloved hand calmly on the front rim, and says with steady pride, \"Kereta Sorong Five Star PT Intan Suar Kartika tahan banting\". From 10.5s to 12.0s he holds a confident nod while the red cart with the FIVE STAR logo remains clearly visible in frame. Calm authoritative mandor tempo, natural pauses between sentences, ambient construction site sound with dull metallic thuds and distant breeze, no music.",
+      "dialogue": "Gerobak murah dilempar semen langsung penyok rangkanya. Kereta Sorong Five Star PT Intan Suar Kartika tahan banting.",
+      "dialogue_start_seconds": 0.5,
+      "dialogue_read_seconds": 10.0,
+      "action_end_seconds": 11.2
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.hasston.com/gerobak-sorong-alat-sederhana-yang-jadi-andalan-di-setiap-proyek/",
+      "title": "Gerobak Sorong: Alat Sederhana yang Jadi Andalan di Setiap Proyek - Hasston",
+      "observed_at": "2026-11-23T09:48:00+07:00",
+      "evidence": "Dibaca 23 November 2026: bak besi dengan plat tebal mampu menahan beban impak material cor dan semen hingga di atas 200 kg tanpa melengkung, berbeda dari gerobak plat tipis yang cepat penyok dan merugikan mandor."
+    },
+    {
+      "url": "https://hupchongshardware.com.my/showproducts/productid/6843135",
+      "title": "Wheelbarrow / Construction Cart (Kereta Sorong) - Hup Chongs Hardware",
+      "observed_at": "2026-11-23T09:49:00+07:00",
+      "evidence": "Spesifikasi konstruksi menekankan bak plat baja press tanpa sambungan las untuk mencegah kebocoran dan retak saat menerima beban jatuh material berat, dipadukan ban angin untuk meredam hentakan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga atau angka lab. Menyoroti masalah nyata rangka gerobak proyek yang bengkok jika memakai plat tipis. CTA diarahkan halus ke DM tanpa nomor kontak WhatsApp."
+}
