@@ -1,0 +1,93 @@
+{
+  "plan_date": "2026-11-23",
+  "status": "draft_awaiting_owner_acc",
+  "slots": [
+    {
+      "id": "pak_vincent-2026-11-23",
+      "day": "2026-11-23",
+      "character_id": "pak_vincent",
+      "kind": "video",
+      "duration_seconds": 12,
+      "final_duration_seconds": 12,
+      "role_tags": [
+        "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)"
+      ],
+      "role_reason": "Tiga konsep dibandingkan dengan lima slot terakhir (17-22 Nov: langsir pupuk, timbangan tangkai panjang, bibit palsu, rehat panas, pupuk piringan semua memakai kamera diam setinggi dada atau lutut). A: kamera berjalan mundur di depan Pak Vincent yang mendorong kereta sarat janjang sambil bicara, hook finansial sortir buah mentah. B: kamera dari belakang bahu saat ia menyortir tumpukan janjang di TPH. C: statis dada, mengetuk janjang dengan buku jari lalu menunjuk. Dipilih A karena gerak kamera dan tubuh penuh belum dipakai lima slot terakhir, potongan sortir tujuh persen langsung terlihat sebagai beban finansial, dan kereta FIVE STAR tetap terbaca pada sisi bak tanpa mendominasi cerita.",
+      "title": "Sortir Janjang Mentah Sebelum Masuk Bak",
+      "hook": "Tim dodos lawan tim egrek masih ribut wak, padahal janjang mentah ikut masuk bak yang bikin potongan timbangan dalam.",
+      "story": "Kamera berjalan mundur di depan Pak Vincent pada jalur tanah antara pohon sawit pagi hari. Sejak frame pertama ia sudah mendorong kereta sorong merah FIVE STAR yang baknya berisi tiga janjang sawit, satu janjang pucat keras menonjol di atas tumpukan. Ia membuka dengan perdebatan dodos lawan egrek, lalu melirik janjang pucat itu dan menjelaskan bahwa buah mentah yang ikut masuk bak jadi potongan sortir di RAM. Penutupnya ia menatap kamera, menggeleng ringan sambil tersenyum kecut, menyebut truk sepuluh ton dipotong tujuh persen dan mengajak sortir dulu sebelum langsir.",
+      "caption": "Ribut dodos lawan egrek boleh panjang wak tapi yang paling nguras duit itu janjang mentah ikut masuk bak. Truk sepuluh ton kena potong tujuh persen berarti tujuh ratus kilo hilang, jadi sortir dulu sebelum langsir. Kawan biasa kena potongan berapa persen di RAM langganan?\n#kebunsawit #tbs #timbangansawit #sortirtbs #dodosvsegrek #petanisawit",
+      "hashtags": [
+        "#kebunsawit",
+        "#tbs",
+        "#timbangansawit",
+        "#sortirtbs",
+        "#dodosvsegrek",
+        "#petanisawit"
+      ],
+      "image_prompt": "Identitas memakai entitas Personal Flow Character 'Pak Vincent' untuk wajah dan postur. Pakaian kerja: kaos katun lengan panjang biru tua polos tanpa logo, celana kerja gelap, topi baseball cap polos gelap, sandal karet. Properti: satu kereta sorong merah bertulisan FIVE STAR pada sisi bak mengacu characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg berisi tiga janjang sawit dengan satu janjang pucat keras di atasnya, didorong di jalur tanah antara pohon sawit.",
+      "flow": {
+        "account_id": "flow_5",
+        "model": "Omni 1.2 Flash",
+        "resolution": "720p",
+        "aspect_ratio": "9:16",
+        "outputs": 1,
+        "duration_seconds": 12,
+        "duration_options_seconds": [
+          4,
+          8,
+          10,
+          12,
+          15
+        ],
+        "estimated_credits_displayed": 42,
+        "duration_credit_verified": true,
+        "references_attached": 2,
+        "flow_ingredients": [
+          "Flow Character: Pak Vincent",
+          "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+        ],
+        "identity_chip_policy": "Chip foto master mentah pernah ditolak filter tokoh berpengaruh tanpa biaya (19 dan 22 Nov). Pakai entitas Personal Flow Character Pak Vincent plus foto kereta FIVE STAR seperti slot 20-22 November yang lolos.",
+        "verified_from": "Sinkronisasi live CDP flow_5 port 9334 23 November 2026 16.31 WIB: saldo 781 kredit, pill 'Video 720p 12 dtk crop_9_16 x1' setelah --ensure-720p."
+      },
+      "shots": [
+        {
+          "seconds": 12,
+          "prompt": "Authentic handheld smartphone documentary vlog of Pak Vincent, using the attached personal Flow Character for his face and body: one lean wiry Indonesian plantation worker of about 35, sun-tanned matte skin, thin mustache, warm eyes, wearing a plain navy-blue long-sleeve cotton work shirt with no logo or graphic, dark work trousers, a plain dark baseball cap and rubber work sandals. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 12 seconds, one continuous take. The camera walks backwards in front of him at chest height in a three-quarter front angle, keeping him centred with a slight natural handheld sway, on a dirt track between planted oil palms on a smallholding near Pekanbaru, Riau, in soft neutral overcast daylight; green fronds and palm trunks fill the background and the bare track stays under his sandals. PROP CONTINUITY: from 0.0s to the last frame he pushes one red steel wheelbarrow matching the attached wheelbarrow reference, both hands on the handles, its tray carrying three fresh orange-red oil palm fruit bunches, and one paler hard unripe bunch sits on top of the load in plain view; the wheelbarrow stays between him and the camera at a believable scale with its black tyre rolling on the dirt, and the small physical stencil reading exactly FIVE STAR stays legible on the outward tray side at frame right. No other tool, sack, basket, person, motorcycle or animal may appear, move into frame or vanish at any moment. BEATS: at 0.0s he is already walking toward the lens pushing the loaded wheelbarrow and says in warm relaxed Indonesian with a Riau smallholder tone, \\\"Tim dodos lawan tim egrek masih ribut wak.\\\"; from 3.6s he glances down at the pale hard bunch on top of the load and tips his chin toward it without stopping, saying, \\\"Padahal yang bikin potongan timbangan dalam itu janjang mentah ikut masuk bak.\\\"; from 8.4s he looks straight into the lens, shakes his head slightly with a wry smile and says, \\\"Truk sepuluh ton dipotong tujuh persen, tujuh ratus kilo hilang. Sortir dulu sebelum masuk bak.\\\"; the final 0.5s holds on his plain smile as he keeps walking. Lip-sync in Indonesian with a warm conversational Riau tone, natural blinking, calm steady pace, no exaggerated gestures. Ambient only: sandals on dirt, wheelbarrow tyre rolling, faint distant birds, no music. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI look, authentic non-AI documentary look. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, zero on-screen text, zero subtitles, zero watermarks. Keep his face, cap, shirt, the three bunches, the wheelbarrow and the dirt track completely consistent in every frame.",
+          "dialogue": "Tim dodos lawan tim egrek masih ribut wak. Padahal yang bikin potongan timbangan dalam itu janjang mentah ikut masuk bak. Truk sepuluh ton dipotong tujuh persen, tujuh ratus kilo hilang. Sortir dulu sebelum masuk bak.",
+          "dialogue_start_seconds": 0.2,
+          "dialogue_read_seconds": 11.0,
+          "action_end_seconds": 11.4
+        }
+      ],
+      "references": [
+        "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+        "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+        "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+      ],
+      "flow_ingredients": [
+        "Flow Character: Pak Vincent",
+        "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+      ],
+      "trend_sources": [
+        {
+          "url": "https://sumbar.antaranews.com/berita/764327/potongan-sortasi-tbs-sawit-capai-tujuh-persen-apkasindo-dharmasraya-minta-pabrik-tinjau-ulang",
+          "title": "Potongan sortasi TBS sawit capai tujuh persen, Apkasindo Dharmasraya minta pabrik tinjau ulang",
+          "observed_at": "2026-11-23T16:34:00+07:00",
+          "evidence": "Dibaca 23 November 2026 16.34 WIB: Apkasindo Dharmasraya menyebut pemotongan sortasi TBS mencapai tujuh persen per ton, di atas Permentan 1,5 persen untuk petani mitra dan maksimal lima persen untuk swadaya; contoh satu truk sepuluh ton berarti 700 kilo sawit hilang. Dasar angka tujuh persen dan tujuh ratus kilo di dialog serta caption."
+        },
+        {
+          "url": "https://saranaprimalestari.com/2025/id/news/perbandingan-egrek-dan-dodos-dalam-panen-sawit",
+          "title": "Perbandingan Egrek dan Dodos dalam Panen Sawit",
+          "observed_at": "2026-11-23T16:35:00+07:00",
+          "evidence": "Dibaca 23 November 2026 16.35 WIB: dodos dipakai mendorong ke atas untuk pohon rendah sekitar dua sampai lima meter dan lebih presisi, egrek ditarik ke bawah untuk pohon tinggi; keduanya sama-sama alat sah sesuai tinggi pohon. Dasar hook bahwa perdebatan alat tidak mengubah masalah sortir buah."
+        }
+      ],
+      "historical_fact_sources": [],
+      "new_biography_facts": [],
+      "promotional": false,
+      "source_note": "Angka potongan sortasi dan contoh 700 kilo per truk sepuluh ton dari Antara Sumbar (Apkasindo Dharmasraya). Perbandingan dodos dan egrek dari artikel alat panen. Kereta sorong FIVE STAR hanya properti kerja latar sesuai aturan Pak Vincent 21 November 2026, tidak disebut di dialog maupun caption.",
+      "production_note": "Satu klip 12 detik 720p native Omni 1.2 Flash, 9:16, output 1, chip Flow Character Pak Vincent + foto kereta FIVE STAR. Setelah unduh, rakit python3 -m app.media --character pak_vincent (upscale Varian 3, subtitle editorial_tiktok bebas koma) menjadi characters/pak_vincent/content/pak_vincent-2026-11-23/vin_231126_v1.mp4."
+    }
+  ]
+}
