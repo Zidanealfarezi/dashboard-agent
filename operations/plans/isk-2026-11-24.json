@@ -1,0 +1,124 @@
+{
+  "id": "isk-2026-11-24",
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 16.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "membongkar trik toko nakal dan material banci (kawat galvanis abal-abal, timbangan paku kurang)"
+  ],
+  "role_reason": "Rotasi pilar wajib: 23 November Kereta Sorong Five Star, 22 November Paku Cap Keris, 21 November Kawat Licin Diamond, 20 November Kawat Duri Diamond. Hari ini (24 November) kembali ke pilar Kawat Duri Diamond dengan format berbeda dari 20 November: bukan uji tarik di pagar kebun, melainkan edukasi trik toko nakal kawat galvanis lapis tipis plus aksi pukul fisik ke bibir palet sebagai pattern interrupt di detik 0.0s.",
+  "title": "Kawat Galvanis Lapis Tipis Cepat Berkarat, Ini Bedanya",
+  "hook": "Kawat galvanis lapis tipis dipukul sekali ke palet langsung rusak lapisannya",
+  "story": "Sejak detik 0.0s di gudang material, mandor mengangkat satu untaian kawat duri galvanis dan memukulkannya dua kali ke bibir palet kayu. Kawat tidak patah dan lapisan seng tidak mengelupas. Ia mengangkat untaian itu ke samping label krem roll Kawat Duri Diamond, memutar pergelangan pelan supaya lapisan seng tebal dan jarak duri yang rapat terlihat jelas, lalu menatap lensa dan menyebut PT Intan Suar Kartika dengan tenang.",
+  "caption": "Kawat galvanis lapis tipis cepat berkarat, pagar kebun jadi cepat bobol. Kawat Duri Diamond dari PT Intan Suar Kartika lapisan sengnya tebal dan durinya rapat jadi tetap utuh di kebun. Mau tanya ukuran BWG yang pas? Kirim pesan ke DM.\n#kawatduridiamond #pagarkebun #kebunsawit #materialbangunan #intansuarkartika",
+  "hashtags": [
+    "#kawatduridiamond",
+    "#pagarkebun",
+    "#kebunsawit",
+    "#materialbangunan",
+    "#intansuarkartika"
+  ],
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kawat_duri_diamond_reference.jpg: roll silinder kawat duri galvanis berkilau, duri empat titik rapat, label krem bulat di depan dengan pita merah tercetak dan cap merah bulat. Tidak membuat master wajah baru; pekerja digambarkan mandor berpengalaman berkulit sawo matang dengan pakaian kerja proyek.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji pukul fisik satu take di gudang material, kamera handheld setinggi dada",
+      "opening": "Sejak detik 0.0s untaian kawat duri sudah diangkat dan dipukulkan dua kali ke bibir palet kayu",
+      "camera": "Handheld smartphone setinggi dada, jarak sedang dekat, goyangan kecil natural, kamera pelan mendekat",
+      "core_action": "Kawat tidak patah, lapisan seng tidak mengelupas, mandor mengangkat untaian ke samping label roll dan memutar pergelangan pelan",
+      "closing": "Mandor menurunkan tangan dan menatap lensa dengan tenang",
+      "risk": "Roll kawat, label krem, untaian, palet, dan mandor wajib konsisten dari frame awal sampai akhir tanpa perubahan bentuk"
+    },
+    {
+      "id": "B",
+      "format": "Komparasi dua roll berdampingan di lorong toko, kamera statis wide",
+      "opening": "Dua roll kawat terpajang rapi di rak, belum ada aksi",
+      "camera": "Statis wide setinggi pinggang",
+      "core_action": "Mandor mengerok permukaan kawat dengan bilah pisau untuk menunjukkan lapisan tipis",
+      "closing": "Menunjuk label roll",
+      "risk": "Pembuka tanpa aksi fisik membuat detik 0-3 lemah dan mengerok lapisan produk lain rawan klaim menyesatkan"
+    },
+    {
+      "id": "C",
+      "format": "POV pagar kebun, jalan menuju tiang lalu menegangkan kawat",
+      "opening": "Berjalan pelan menyusuri pagar kebun, belum ada produk di frame",
+      "camera": "POV handheld berjalan",
+      "core_action": "Menegangkan kawat dengan alat tarik",
+      "closing": "Berdiri memandang pagar",
+      "risk": "Terlalu mirip video uji tarik di pagar kebun 20 November dan produk tidak tampil di 3 detik pertama"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Aksi fisik pukulan ke bibir palet terjadi di frame pertama sehingga memutus scroll, sekaligus membongkar trik toko nakal soal lapisan galvanis tipis tanpa menyebut merek lain. Aksen gerak dan framing berbeda dari 21 November (pilinan tang) dan 23 November (drop test gerobak).",
+    "history_checked": "Riwayat operasional ISK: 23 Nov Kereta Sorong Five Star drop test semen (published), 22 Nov Paku Cap Keris dipukul balok keras (published), 21 Nov Kawat Licin Diamond dipilin tang (published), 20 Nov Kawat Duri Diamond uji tarik di pagar kebun (published), 19 Nov Kereta Sorong Five Star jalan bergelombang (published). Rotasi hari ini kembali ke Kawat Duri Diamond dengan format edukasi trik lapisan galvanis."
+  },
+  "creative": {
+    "character": "Mandor konstruksi Indonesia pria 42 tahun, kemeja kerja abu-abu tua berdebu dengan lengan digulung, celana kerja gelap, sarung tangan kain cokelat, helm proyek kuning berdebu, kulit sawo matang, ekspresi tenang dan berwibawa",
+    "background": "Gudang material dan halaman stok toko bangunan di Medan, tumpukan palet kayu dan karung material di latar belakang, cahaya siang alami sedikit berawan",
+    "action": "Untaian kawat duri dipukulkan dua kali ke bibir palet kayu tanpa patah, mandor mengangkat untaian ke samping label roll Kawat Duri Diamond dan memutar pergelangan pelan agar lapisan seng tebal terlihat, lalu menatap lensa dan berbicara tenang",
+    "selection_reason": "Aksi benturan fisik langsung di detik 0.0s membuktikan lapisan galvanis tidak getas dan tidak mengelupas, sekaligus memenuhi tema edukasi membongkar trik toko nakal pada kawat galvanis lapis tipis",
+    "dialogue": "Kawat galvanis lapis tipis cepat berkarat. Kawat Duri Diamond PT Intan Suar Kartika tetap utuh.",
+    "dialogue_start_seconds": 0.8,
+    "dialogue_read_seconds": 9.5,
+    "action_end_seconds": 11.2
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "duration_chosen_seconds": 12,
+    "estimated_credits_displayed": 42,
+    "references_attached": 1,
+    "verified_from": "Pill komposer Google Flow flow_2 pada 24 November 2026 10:01 WIB: saldo 802, 'Video · 720p · 12 dtk crop_9_16 x1'"
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 12 seconds, one continuous take, shot on smartphone vlog camera at chest height with gentle natural handheld sway, authentic documentary footage look, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Location: a hardware stock yard beside stacked wooden pallets in Medan, plain grey concrete floor, blurred sacks of building material in the background, ordinary slightly overcast mid-morning daylight. The wire coil is exactly the product in the single attached official reference photo: a tight cylindrical coil of bright shiny galvanized barbed wire with four-point barbs, tied with a round cream-coloured card label on the front printed with red bands and a red circular stamp. Person: an Indonesian construction foreman about 42 years old, dusty dark grey work shirt with rolled sleeves, dark work trousers, brown cotton work gloves, dusty yellow safety helmet, tanned skin, calm composed face. PROP CONTINUITY RULE: from 0.0s to 12.0s exactly two product objects are present, the single coil of galvanized barbed wire with its cream label resting on the wooden pallet and one loose cut strand of the same barbed wire held in the foreman's gloved hand, together with the pallet and the foreman; the coil, label, strand, pallet and man never duplicate, reshape, float, vanish or appear from nowhere. BEATS: at 0.0s, in the very first frame, the foreman is already raising the loose barbed wire strand and striking it sharply twice against the edge of the wooden pallet, the strand stays straight and does not snap while the grey zinc coating shows no flaking, and he says in calm unhurried Indonesian with accurate lip sync, \"Kawat galvanis lapis tipis cepat berkarat\". From 4.0s to 7.5s he lifts the intact strand beside the cream label of the coil and slowly turns his wrist so the camera can see the thick even zinc coating and the tight even barb spacing, keeping the gesture small and steady. From 8.5s to 11.0s he lowers his hand, faces the lens squarely and finishes calmly, \"Kawat Duri Diamond PT Intan Suar Kartika tetap utuh\", then holds still. Ambient yard sounds only, no music. Smooth natural motion, stable hands, consistent lighting, no flicker, no morphing.",
+      "dialogue": "Kawat galvanis lapis tipis cepat berkarat. Kawat Duri Diamond PT Intan Suar Kartika tetap utuh.",
+      "dialogue_start_seconds": 0.8,
+      "dialogue_read_seconds": 9.5,
+      "action_end_seconds": 11.2
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg"
+  ],
+  "flow_ingredients": [
+    "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://bevananda.com/product/beva-barb/beva-barb",
+      "title": "BEVA Barb - Kawat Duri Galvanis SNI 07-0107-1987 | PT Bevananda Mustika",
+      "observed_at": "2026-11-24T10:01:00+07:00",
+      "evidence": "Dibaca 24 November 2026: lapisan galvanis standar 40-70 gr/m2 sedangkan heavy galvanized 260-300 gr/m2, dan lapisan yang lebih tebal memberi perlindungan karat jauh lebih lama. Dasar klaim bahwa beda ketebalan lapisan seng menentukan umur pakai kawat duri di luar ruangan."
+    },
+    {
+      "url": "https://indobs.com/jenis-kawat-galvanis-berdasarkan-ukuran-diameter/",
+      "title": "Jenis Kawat Galvanis Berdasarkan Ukuran Diameter - Indo Bangun Sejahtera",
+      "observed_at": "2026-11-24T10:02:00+07:00",
+      "evidence": "Dibaca 24 November 2026: hot dip galvanis menghasilkan lapisan seng lebih tebal untuk pemakaian outdoor seperti pagar kebun, sedangkan electroplating lapisannya tipis dan cepat berkarat di cuaca luar. Dasar tema edukasi trik kawat galvanis lapis tipis."
+    }
+  ],
+  "historical_fact_sources": [],
+  "owner_note_applications": {
+    "3d7471f00e114b5e8b2eba5769a52278": "Merek tepat tanpa angka: prompt hanya menyebut label krem berpita merah dan cap merah bulat, dialog 'Kawat Duri Diamond PT Intan Suar Kartika' utuh. Tidak ada bahan melayang: roll menapak di palet dan untaian dipegang sarung tangan dari 0.0s sampai akhir, tanpa objek mengambang atau berpindah sendiri."
+  },
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, tidak menyebut merek pesaing, tidak menaruh nomor WhatsApp. CTA halus diarahkan ke DM. Klaim teknis hanya soal perbedaan ketebalan lapisan seng dan daya tahan karat sesuai dua sumber di atas."
+}
