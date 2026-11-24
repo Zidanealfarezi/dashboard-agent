@@ -1,0 +1,85 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "hidden gem kuliner & tradisi lokal (kebiasaan makan wong kito, pasar bingen, kuliner malam, dengan aturan anti-stagnan: pempek maksimal 1x per 10 hari)"
+  ],
+  "role_reason": "Topik diambil apa adanya dari baris trend_selections hari ini (slot morning, id sel_dinda_2026-11-24_morning, trend_id opt_dinda_A_1795482292, decided_by pm_autonomous, skor 8.97): Songket Set Rp2 Juta sampai Rp7 Juta. Eksekutor tidak memilih atau mengganti topik. Topik ini masuk pilar tradisi lokal Palembang (wastra dan sentra tenun Tuan Kentang), sehingga role_tags memakai pilar keempat profil apa adanya. Catatan jujur untuk audit: profil Dinda belum punya pilar busana/OOTD tersendiri, dan ini satu-satunya bagian yang perlu diputuskan Owner setelah kartu ACC dibaca. Tidak ada properti paku cap keris di rencana ini karena characters/dinda/profile.json hari ini tidak memuat recurring_visual_prop.",
+  "title": "Songket Set Rp2 Juta sampai Rp7 Juta: Bedakan yang Mahal dan yang Biasa",
+  "hook": "Sama-sama songket Palembang tapi harganyo bisa beda tigo kali lipat.",
+  "story": "Dinda berdiri di depan meja kayu sebuah galeri kain modest di Palembang pada pagi hari. Di atas meja ada tiga helai songket terlipat dengan tingkat kerumitan motif berbeda: paling kiri tenun sederhana dengan pinggiran polos, tengah dengan motif benang emas yang rapat, dan kanan dengan motif paling rumit serta pinggiran paling lebar. Di belakangnya rak kayu berisi lipatan kain songket dan jumputan warna marun, emas, dan hijau tua. Ia menyapa penonton lalu menyebut rentang harga satu set kain rok dan selendang Rp2 juta sampai Rp7 juta, menjelaskan bahwa pembedanya adalah kerumitan motif dan mutu benang, lalu menyebut kain tajung non-sutra Rp250 ribu sampai Rp350 ribu sebagai pilihan bila anggaran masih kecil. Video ditutup dengan pertanyaan ringan: tim songket atau tim jumputan.",
+  "caption": "Songket Palembang satu set kain rok dan selendang itu Rp2 juta sampai Rp7 juta, dan yang bikin beda bukan cuma motif tapi mutu benang serta bahan bakunya. Kalau anggaran masih kecil, tajung non-sutra Rp250 ribu sampai Rp350 ribu sudah cukup buat harian. Kalian lebih pilih songket atau jumputan buat acara?\n#palembang #songketpalembang #wastra #kainpalembang #ootdhijab #wongkito",
+  "hashtags": [
+    "#palembang",
+    "#songketpalembang",
+    "#wastra",
+    "#kainpalembang",
+    "#ootdhijab",
+    "#wongkito"
+  ],
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), hijab pashmina voal beige lembut terlipat rapi, kardigan rajut garis taupe dan khaki dikenakan terbuka di atas dalaman krem pas badan yang memperlihatkan kontur feminin alami, kulot palazzo krem pleated high-waisted, kalung emas kecil, berdiri di depan meja kayu sebuah galeri kain modest di Palembang pada pagi hari; di atas meja tiga helai songket terlipat dengan motif makin rumit dari kiri ke kanan dan rak kayu berisi lipatan kain songket serta jumputan marun emas hijau tua di belakangnya; cahaya pagi alami dengan white balance netral tanpa cast kuning atau oranye, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame mentah bersih tanpa teks tambahan, subtitle, maupun HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_5144187e",
+    "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png",
+    "selection_reason": "Auto-Stylist memilih dari character_wardrobe satu-satunya kandidat yang paling lama tidak dipakai: status active, closeup dan fullbody lengkap, last_used_at 21 November 2026, times_used 3, dan belum dipakai hari ini. Dua busana active lain dipakai 22 dan 23 November. Chip referensi outfit ini sudah ada di library Flow flow_1 sebagai dinda_ootd_20261121_striped_taupe_fullbody.jpg sehingga tidak perlu unggah aset baru. Palet taupe dan krem netral tidak bentrok dengan kain songket marun dan emas di latar."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+    ],
+    "verified_from": "Sinkronisasi live Google Flow flow_1 port 9333 pukul 09:01 WIB: saldo 179 kredit, pill Video 720p 12s crop_9_16 x1."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and never change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (natural healthy and proportional feminine Indonesian silhouette, not skinny, with a natural feminine bust contour under her clothing), and image three is the outfit reference for CLOTHING (taupe and khaki striped knit cardigan with buttons worn open over a fitted cream inner top, cream high-waisted wide-leg pleated palazzo trousers, soft beige pashmina voal hijab folded neatly, small gold pendant necklace). Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16 frame, one continuous shot, twelve seconds, shot on a smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle. Location: a small modest woven-cloth gallery in Palembang in the morning, wooden shelves stacked with folded songket and jumputan cloth in deep maroon gold and dark green behind her, a clean wooden table in front of her holding three folded songket pieces side by side, the left piece a simple weave with a plain border, the middle piece a denser gold supplementary-weft motif, the right piece the most intricate gold motif with the widest border, all three pieces stay visible on the table from the first frame to the last. True-to-life colors with neutral daylight white balance and no yellow or orange color cast, realistic matte human skin with visible fine pores and natural micro texture, absolutely no waxy plastic or glossy shiny skin, zero CGI, authentic non-AI documentary look, absolutely no on-screen text, no viewfinder overlay, no camera HUD, no timestamp, no subtitles, no watermark. BEATS: from 0.0s to 3.4s she looks straight into the lens with a warm friendly smile and opens one palm to the three folded pieces while asking about songket prices; from 3.4s to 8.4s she taps the middle piece then the right piece with light natural finger movement while explaining that the intricate motif and the thread quality are what raise the price; from 8.4s to 12.0s she gestures once toward the shelf behind her for the cheaper everyday cloth option and leans slightly closer with an amused teasing expression for the closing question, holding a soft smile until the last frame. Natural lip movement matching the spoken Indonesian Palembang dialogue, small natural head tilts, normal blinking, hijab edge moving slightly, no exaggerated gestures, no dancing, no walking.",
+      "dialogue": "Sama-sama songket Palembang harganyo bisa beda tigo kali lipat. Satu set Rp2 juta sampai Rp7 juta. Yang bikin beda motif dan benang. Budget ketek pilih tajung Rp250 ribu. Kau tim songket atau jumputan?",
+      "dialogue_start_seconds": 0.4,
+      "dialogue_read_seconds": 11.2,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://wongkito.co/read/foto-cerita-kilau-songket-palembang-yang-bertahan-di-tengah-sepinya-pesanan",
+      "title": "Foto Cerita: Kilau Songket Palembang yang Bertahan di Tengah Sepinya Pesanan (WongKito.co, 9 Nov 2026 10.02 WIB)",
+      "observed_at": "2026-11-24T09:02:00+07:00",
+      "evidence": "Artikel bertanggal 9 November 2026 ini dibaca penuh lewat brief riset PM: Songket Harapan Baru di Jalan Kirangga Wirasantika No 879 B, Kelurahan 30 Ilir, Ilir Barat II, Palembang, tujuh pengrajin aktif menenun paruh waktu, kain dibuat sebagai stok karena pesanan sepi. Rentang harga yang ditulis: aksesori rumah tangga taplak meja dan sarung bantal Rp50 ribu sampai Rp150 ribu, kain utama sampai Rp2,3 juta, satu set songket kain rok dan selendang Rp2 juta sampai Rp7 juta. Pembedanya kerumitan motif, kualitas benang, dan bahan baku. Satu pesanan sekitar satu minggu karena ditenun manual dengan alat tenun tradisional. Griya Kain Tuan Kentang disebut galeri pemasaran perajin yang dibangun 2017 lewat kerja sama Pemkot Palembang dan Bank Indonesia."
+    },
+    {
+      "url": "https://sumsel.idntimes.com/news/sumatra-selatan/40-tahun-lebih-menenun-udin-abdullah-jaga-pakem-kain-tajung-sambil-kejar-tren-anak-muda-00-gbttw-4sn84n",
+      "title": "40 Tahun Lebih Menenun, Udin Abdullah Jaga Pakem Kain Tajung Sambil Kejar Tren Anak Muda (IDN Times Sumsel, 22 Okt 2026 11.43 WIB)",
+      "observed_at": "2026-11-24T09:02:30+07:00",
+      "evidence": "Artikel ini dibaca penuh lewat brief riset PM: Udin Abdullah, 66 tahun, pengrajin kain tajung di kawasan Tuan Kentang Palembang, generasi keempat, usaha sejak 1982. Harga kain tajung Rp250 ribu sampai Rp350 ribu untuk non-sutra dan lebih dari Rp1 juta untuk sutra. Masalah yang disebut terbuka: pembeli setia makin menua dan promosi daring belum menyasar milenial serta Gen Z. Bagian ini menjadi dasar kalimat penutup soal pilihan tajung Rp250 ribu untuk anggaran kecil."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Dua sumber diambil apa adanya dari brief riset PM hari ini (operations/research-briefs/tiktok-trend-dinda-2026-11-24.json) dengan verification_status source_read. Artikel wongkito terbit 9 November 2026 dan IDN Times 22 Oktober 2026, jadi momentumnya tidak diklaim baru; yang dipakai adalah rentang harga dan pembeda kualitas yang tetap relevan.",
+  "production_note": "Generasi 12 detik di Google Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1) dengan tiga chip bahan: face sheet, dinda.jpg, dan chip outfit striped taupe. Setelah itu rakit lewat app.media.assemble_character_video: upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 (upscayl-lite-4x, texture preserve 0.45, micro grain), hardsub editorial_tiktok dua tingkat bebas tanda koma, dan mixing lo-fi akustik 15 persen dengan vokal 100 persen. QA final wajib memeriksa kebersihan frame mentah dan kesesuaian dialog dengan fakta harga."
+}
