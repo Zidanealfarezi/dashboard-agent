@@ -1,0 +1,173 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-24",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-24T08:20:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 24 November 2026 pukul 08.05-08.45 WIB. Perintah kerja dipatuhi: TIDAK ada prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi sebagai bahan topik di brief ini. Aturan variasi tema juga dipatuhi: hanya SATU dari tiga kandidat yang berasal dari keluarga pempek/cuko/tekwan (kandidat B, pempek dos), satu kandidat dari pilar busana/OOTD (kandidat A, harga dan pembeda songket serta tajung Palembang), dan satu kandidat dari pilar keseharian/ekonomi kota (kandidat C, usulan UMK 2027). Alasannya: enam slot pagi terakhir (18-23 November) semuanya berputar di kuliner Palembang (hidden gem lorong 7 Ulu, pempek prasmanan, apem bekuwa, kontras harga pempek, lalu lintas M Isa, pindang patin vs tulang), jadi hari ini pilar busana dan ekonomi kota diangkat agar tidak monoton. Kandidat A dipilih sebagai bahan utama karena Dinda baru saja mendapat set busana pagi hari ini dari generator wardrobe, sehingga topik wastra langsung nyambung dengan penampilan, dan artikel wongkito.co 9 November 2026 yang dibaca memuat rentang harga yang sangat konkret. Catatan keterbatasan tren TikTok: lagitren.id/tiktok dibuka 24 November 2026 pukul 08.07 WIB dan sudah diperbarui pagi itu pukul 07.00 WIB. Daftar 10 video viral: gtavi 6,8 juta, harianaksedunia 1,2 juta, onthellife 1,9 juta, harianak 2,1 juta, mamaawards 7,7 juta, gta6 6,1 juta, harianaknasional 933,3 ribu, onthellifestreetbike 1,9 juta, cbrembol33_nganjuk 660,7 ribu, mama2026 7,7 juta. Daftar 15 hashtag tren: gtavi, harianaksedunia, onthellife, harianak, mamaawards, gta6, harianaknasional, onthellifestreetbike, cbrembol33_nganjuk, mama2026, sulianto, badakjawa, magicchessgogo, mamaawards2026, belajarbarengsuli. Tidak ada satu pun tagar kuliner, Palembang, wastra, atau OOTD di daftar itu, jadi brief ini tidak mengutip angka tren kuliner atau busana nasional apa pun.",
+  "candidates": [
+    {
+      "url": "https://wongkito.co/read/foto-cerita-kilau-songket-palembang-yang-bertahan-di-tengah-sepinya-pesanan",
+      "title": "Foto Cerita: Kilau Songket Palembang yang Bertahan di Tengah Sepinya Pesanan - WongKito.co",
+      "evidence": "Terbit Senin 9 November 2026 pukul 10.02 WIB (penulis magang Nur Izzati Kharisma), dibaca 24 November 2026 pukul 08.24 WIB. Artikel menyebut Songket Harapan Baru di Jalan Kirangga Wirasantika No 879 B RT 019, Kelurahan 30 Ilir, Kecamatan Ilir Barat II, Palembang, dikelola sampai generasi kedua dan menjadi mitra binaan Pusri, dengan tujuh pengrajin yang masih aktif menenun secara paruh waktu. Pengrajin kini lebih banyak mengerjakan tenun dari rumah karena belum ada pesanan baru, sehingga kain dibuat sebagai stok tanpa tenggat. Rentang harga yang ditulis: aksesori rumah tangga seperti taplak meja dan sarung bantal sekitar Rp50 ribu sampai Rp150 ribu, kain utama sampai Rp2,3 juta, sedangkan songket dijual Rp2 juta sampai Rp7 juta untuk satu set kain rok dan selendang. Perbedaan harga ditentukan tingkat kerumitan motif, kualitas benang, dan bahan baku. Satu pesanan songket bisa memakan waktu sekitar satu minggu karena seluruhnya ditenun manual dengan alat tenun tradisional. Griya Kain Tuan Kentang di Jalan Aiptu A. Wahab, Kelurahan Tuan Kentang, Seberang Ulu I, disebut sebagai galeri pemasaran hasil perajin lokal yang dibangun 2017 lewat kerja sama Pemkot Palembang dan Bank Indonesia. Promosi usaha masih mengandalkan mulut ke mulut.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-24T08:24:00+07:00",
+      "published_at": "2026-11-09T10:02:00+07:00",
+      "metrics": {
+        "harga_set_songket": "Rp2 juta - Rp7 juta per set kain rok dan selendang",
+        "harga_aksesori": "Rp50 ribu - Rp150 ribu",
+        "harga_kain_utama": "sampai Rp2,3 juta",
+        "pengrajin_aktif": "7 orang paruh waktu",
+        "lama_satu_pesanan": "sekitar 1 minggu tenun manual",
+        "penentu_harga": "kerumitan motif, kualitas benang, bahan baku"
+      }
+    },
+    {
+      "url": "https://sumsel.idntimes.com/news/sumatra-selatan/40-tahun-lebih-menenun-udin-abdullah-jaga-pakem-kain-tajung-sambil-kejar-tren-anak-muda-00-gbttw-4sn84n",
+      "title": "40 Tahun Lebih Menenun, Udin Abdullah Jaga Pakem Kain Tajung Sambil Kejar Tren Anak Muda - IDN Times Sumsel",
+      "evidence": "Terbit Kamis 22 Oktober 2026 pukul 11.43 WIB (penulis Hafidz Trijatnika), dibaca 24 November 2026 pukul 08.31 WIB. Artikel mewawancarai Udin Abdullah, 66 tahun, pengrajin kain tajung di kawasan Tuan Kentang, Palembang, generasi keempat keluarga pengrajin yang membuka usaha sejak 1982. Ia memproduksi tajung dan blongsong sebagai produk unggulan selain jumputan, dan benangnya masih dibuat sendiri. Harga kain tajung Rp250 ribu sampai Rp350 ribu untuk non-sutra, dan lebih dari Rp1 juta untuk sutra, tergantung bahan baku. Masalah yang disebut terbuka: pembeli setia makin menua, sehingga Udin mulai membidik segmen milenial dan Gen Z lewat produk fashion, tetapi ia mengaku belum punya strategi khusus dan promosi daringnya masih umum. Udin menyebut perlu sentuhan desainer untuk mengikuti warna yang sedang digemari. Kolaborasi yang sudah berjalan sebatas kombinasi warna dan penambahan motif bunga, sementara motif jumputan dan blongsong tetap jadi tulang punggung.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-24T08:31:00+07:00",
+      "published_at": "2026-10-22T11:43:00+07:00",
+      "metrics": {
+        "harga_tajung_non_sutra": "Rp250 ribu - Rp350 ribu",
+        "harga_tajung_sutra": "lebih dari Rp1 juta",
+        "usia_pengrajin": "66 tahun, generasi keempat, usaha sejak 1982",
+        "masalah": "pembeli setia menua, promosi daring belum menyasar milenial dan Gen Z"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8766458/resep-pempek-dos-palembang-tekstur-kenyal-tanpa-ikan-lengkap-tips",
+      "title": "Resep Pempek Dos Palembang Tekstur Kenyal Tanpa Ikan Lengkap Tips - detikSumbagsel",
+      "evidence": "Terbit Selasa 24 November 2026 pukul 08.00 WIB, dibaca 24 November 2026 pukul 08.18 WIB. Artikel menyebut pempek dos dibuat sebagai pilihan praktis dan ekonomis ketika stok ikan giling habis, dan tetap disantap dengan cuko kental pedas. Dua metode disediakan: adonan yang direbus sebelum digoreng dan adonan yang langsung digoreng. Tips yang dirinci: perbandingan tepung terigu dan tapioka menentukan tekstur karena terigu mengikat dan tapioka memberi kenyal, menguleni terlalu lama membuat pempek keras setelah matang, air panas membantu terigu matang sebagian agar adonan lembut dan tidak lengket, telur dimasukkan saat adonan hangat bukan panas supaya tidak matang lebih dulu, adonan dimasukkan setelah air benar-benar mendidih dan direbus sampai mengapung, serta pempek rebus disimpan 2-3 hari di kulkas atau sampai satu minggu di freezer dalam wadah tertutup.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-24T08:18:00+07:00",
+      "published_at": "2026-11-24T08:00:00+07:00",
+      "metrics": {
+        "metode": "2 cara, rebus lalu goreng dan langsung goreng",
+        "penentu_tekstur": "perbandingan terigu dan tapioka",
+        "suhu_telur": "dimasukkan saat adonan hangat, bukan panas",
+        "daya_simpan": "2-3 hari kulkas, sampai 1 minggu freezer"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1036416/daftar-7-kotakabupaten-di-sumsel-sepakati-usulan-umk-2027-palembang-tertinggi-capai-rp-4487593",
+      "title": "Daftar 7 Kota/Kabupaten di Sumsel Sepakati Usulan UMK 2027, Palembang Tertinggi, Capai Rp 4.487.593 - TribunSumsel.com",
+      "evidence": "Terbit Senin 23 November 2026 pukul 20.15 WIB (penulis Linda Trisnawati), dibaca 24 November 2026 pukul 08.27 WIB. Artikel menyebut tujuh kabupaten/kota sudah menyepakati usulan UMK 2027, sementara empat daerah lain yaitu Muratara, OKI, Prabumulih, dan PALI masih membahas. Rincian usulan: Kota Palembang naik 7,03 persen menjadi Rp4.487.593, Muara Enim naik 6,89 persen menjadi Rp4.466.085, Musi Banyuasin naik 7,15 persen menjadi Rp4.327.846, Lahat naik 7,08 persen menjadi Rp4.327.407, Musi Rawas naik 6,85 persen menjadi Rp4.326.186, OKU Timur naik 6,67 persen menjadi Rp4.260.000, dan Banyuasin naik 6,87 persen menjadi Rp4.249.677. Anggota Dewan Pengupahan Sumsel unsur serikat pekerja Cecep Wahyudin menyebut angka ini masih usulan yang akan direkomendasikan ke bupati atau wali kota, lalu dibahas di Dewan Pengupahan Provinsi dan disampaikan ke Gubernur untuk ditetapkan lewat SK. Artikel juga menyebut pembahasan mempertimbangkan pertumbuhan ekonomi daerah, tingkat inflasi, dan kebutuhan hidup layak.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-24T08:27:00+07:00",
+      "published_at": "2026-11-23T20:15:00+07:00",
+      "metrics": {
+        "umk_palembang": "Rp4.487.593 naik 7,03 persen",
+        "umk_banyuasin": "Rp4.249.677 naik 6,87 persen",
+        "umk_muara_enim": "Rp4.466.085 naik 6,89 persen",
+        "daerah_sudah_sepakat": "7 dari 11 dewan pengupahan",
+        "daerah_belum": "Muratara, OKI, Prabumulih, PALI",
+        "status_angka": "usulan, belum SK gubernur"
+      }
+    },
+    {
+      "url": "https://www.antaranews.com/berita/5865699/pemprov-sumsel-umumkan-ump-2027-naik-menjadi-rp4210059",
+      "title": "Pemprov Sumsel umumkan UMP 2027 naik menjadi Rp4.210.059 - ANTARA News",
+      "evidence": "Terbit Kamis 19 November 2026 pukul 19.40 WIB (pewarta Ahmad Rafli Baiduri), dibaca 24 November 2026 pukul 08.36 WIB. Artikel menyebut UMP Sumsel 2027 ditetapkan Rp4.210.059, naik Rp267.096 atau 6,77 persen dari Rp3.942.963, lewat Keputusan Gubernur Nomor 719/KPTS/Disnakertrans/2026. UMP berlaku bagi pekerja dengan masa kerja kurang dari satu tahun pada perusahaan dengan waktu kerja tujuh sampai delapan jam sehari atau 40 jam seminggu. Usaha mikro dan kecil punya ketentuan khusus dengan upah paling rendah 50 persen dari upah minimum. Gubernur Herman Deru menyebut pengusaha dilarang membayar di bawah upah minimum dan dilarang menurunkan upah bagi perusahaan yang sudah membayar lebih tinggi, serta alasan penetapan lebih awal adalah memberi kepastian anggaran keluarga pekerja.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-24T08:36:00+07:00",
+      "published_at": "2026-11-19T19:40:00+07:00",
+      "metrics": {
+        "ump_sumsel_2027": "Rp4.210.059 naik Rp267.096 atau 6,77 persen",
+        "nomor_kepgub": "719/KPTS/Disnakertrans/2026",
+        "usaha_mikro_kecil": "upah paling rendah 50 persen dari upah minimum"
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini - 24 November 2026 - Lagi Tren",
+      "evidence": "Halaman dibuka 24 November 2026 pukul 08.07 WIB dan sudah diperbarui pagi itu pukul 07.00 WIB. Sepuluh video viral: gtavi 6,8 juta, harianaksedunia 1,2 juta, onthellife 1,9 juta, harianak 2,1 juta, mamaawards 7,7 juta, gta6 6,1 juta, harianaknasional 933,3 ribu, onthellifestreetbike 1,9 juta, cbrembol33_nganjuk 660,7 ribu, mama2026 7,7 juta. Lima belas hashtag tren: gtavi, harianaksedunia, onthellife, harianak, mamaawards, gta6, harianaknasional, onthellifestreetbike, cbrembol33_nganjuk, mama2026, sulianto, badakjawa, magicchessgogo, mamaawards2026, belajarbarengsuli. Tidak ada satu pun tagar kuliner, Palembang, wastra, atau OOTD di daftar itu, sehingga brief ini tidak mengutip angka tren kuliner atau busana nasional.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-24T08:07:00+07:00",
+      "published_at": "2026-11-24T07:00:00+07:00",
+      "metrics": {
+        "tagar_kuliner_hari_ini": "tidak ada di 10 video viral maupun 15 hashtag tren",
+        "tagar_teratas": "mamaawards 7,7 juta; mama2026 7,7 juta; gtavi 6,8 juta",
+        "pembaruan_halaman": "24 November 2026 pukul 07.00 WIB",
+        "jumlah_hashtag": "15, sepuluh di antaranya memuat angka views"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Songket Set Rp2 Juta sampai Rp7 Juta: Bedakan yang Mahal dan yang Biasa",
+      "pillar": "Busana & Wastra Lokal (OOTD)",
+      "hook": "Sama-sama songket Palembang, harganya bisa beda tiga kali lipat. Yang bikin beda bukan cuma motifnya.",
+      "shots": [
+        "Shot 1 (9s): Dinda berdiri di depan galeri kain di kawasan Tuan Kentang, menyebut satu set songket kain rok dan selendang dijual Rp2 juta sampai Rp7 juta, kain utama sampai Rp2,3 juta, sedangkan aksesori seperti taplak dan sarung bantal Rp50 ribu sampai Rp150 ribu, lalu menyebut yang menentukan harga adalah kerumitan motif, kualitas benang, dan bahan baku.",
+        "Shot 2 (9s): Dinda menyebut satu pesanan songket butuh sekitar sepekan karena ditenun manual dengan alat tenun tradisional, lalu menyebut kalau anggaran masih kecil, kain tajung non-sutra Rp250 ribu sampai Rp350 ribu dan jumputan bisa jadi pilihan harian sebelum naik ke songket sutra di atas Rp1 juta, lalu bertanya penonton lebih memilih songket atau jumputan untuk acara."
+      ],
+      "sound": "Ambience galeri kain dan gesekan alat tenun, volume rendah, tanpa musik",
+      "outfit": "Pastel Taupe Knit Cardigan with Fitted Inner & Wide Leg Pants",
+      "caption": "Songket Palembang satu set kain rok dan selendang itu Rp2 juta sampai Rp7 juta, dan yang bikin beda bukan cuma motif tapi mutu benang serta bahan bakunya. Kalau anggaran masih kecil, tajung non-sutra Rp250 ribu sampai Rp350 ribu sudah cukup buat harian. Kalian lebih pilih songket atau jumputan buat acara? #palembang #songketpalembang #wastra #kainpalembang #ootdhijab #wongkito",
+      "sources": [
+        "https://wongkito.co/read/foto-cerita-kilau-songket-palembang-yang-bertahan-di-tengah-sepinya-pesanan",
+        "https://sumsel.idntimes.com/news/sumatra-selatan/40-tahun-lebih-menenun-udin-abdullah-jaga-pakem-kain-tajung-sambil-kejar-tren-anak-muda-00-gbttw-4sn84n"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.2,
+        "actionable_solution": 9.0,
+        "local_relevance": 9.6,
+        "momentum": 7.0,
+        "evidence_strength": 8.8
+      },
+      "why": "Titik sakitnya nyata dan mahal: pembeli wastra di Palembang melihat satu set songket Rp2 juta lalu set lain Rp7 juta tanpa tahu apa yang membedakan, dan artikel wongkito.co menyebut perajin justru sedang sepi pesanan karena promosi hanya dari mulut ke mulut. Solusinya konkret karena tiga barang berbeda harganya disebut lengkap dengan rentangnya: aksesori Rp50 ribu sampai Rp150 ribu, kain utama sampai Rp2,3 juta, set songket Rp2 juta sampai Rp7 juta, dengan penentu harga kerumitan motif, mutu benang, dan bahan baku, ditambah jalur alternatif tajung non-sutra Rp250 ribu sampai Rp350 ribu dari artikel IDN Times. Relevansi lokalnya tinggi karena ini sentra Tuan Kentang dan Griya Kain yang dibangun Pemkot bersama Bank Indonesia, dan pilar busana belum pernah dipakai di slot pagi sejak 18 November sehingga menyegarkan enam hari berturut-turut tema kuliner. Bukti berasal dari dua artikel bertanggal yang benar-benar dibaca (9 November 2026 dan 22 Oktober 2026), bukan snippet. Kekurangannya momentum: artikel terbaru berumur dua minggu, jadi faktor momentum saya beri 7,0 dan bukan angka tinggi. Perlu dicatat apa adanya supaya jejak auditnya jujur: skrip menghitung novelty A hanya 4,69 karena judulnya berbagi kata umum dengan topik lama Pempek Kecil Rp1.500 vs Kapal Selam Rp10.000 (pola kontras harga, kata juta, dan rupiah), padahal pilarnya beda dan tidak ada yang berulang. Penalti novelty itu membuat skor dasar A turun ke 7,97, justru di bawah skor B (8,33), dan karena novelty A di bawah 7 maka boost pain plus solusi hanya diberi separuh, +1,0, sehingga A berakhir 8,97. Jadi kemenangan A tidak datang dari skor dasar yang lebih tinggi, melainkan dari boost kata kunci yang memang sah karena A memuat keresahan harga dan cara membedakan, ditambah keunggulan pain 8,2 dan solusi 9,0 atas B yang pain-nya cuma 6,0. Kalau penalti kesamaan teks itu diabaikan, skor dasar A sekitar 8,55 dan tetap di atas B."
+    },
+    {
+      "code": "B",
+      "title": "Pempek Dos Tanpa Ikan: Takaran Terigu dan Tapioka Biar Tetap Kenyal",
+      "pillar": "Kuliner Khas Palembang (keluarga pempek/tekwan)",
+      "hook": "Stok ikan giling habis tapi ingin pempek? Ada versi dos yang cuma pakai terigu, tapioka, dan telur.",
+      "shots": [
+        "Shot 1 (9s): Dinda di dapur menyebut pempek dos dibuat saat stok ikan giling habis dan harga ikan sedang naik, lalu menyebut terigu berfungsi mengikat sementara tapioka memberi kenyal sehingga perbandingan keduanya yang menentukan tekstur, dan air panas dituang ke terigu dulu supaya adonan lembut dan tidak lengket.",
+        "Shot 2 (9s): Dinda menyebut telur dimasukkan saat adonan hangat bukan panas supaya tidak matang lebih dulu, adonan dimasukkan setelah air mendidih dan direbus sampai mengapung, lalu ditiriskan dan didinginkan sebelum digoreng, serta disimpan 2 sampai 3 hari di kulkas, lalu bertanya cuko di rumah penonton pakai gula apa."
+      ],
+      "sound": "Ambience dapur, air mendidih, dan minyak goreng, volume rendah",
+      "outfit": "Pastel Taupe Knit Cardigan with Fitted Inner & Wide Leg Pants",
+      "caption": "Kalau stok ikan giling habis, pempek dos tetap bisa jadi: terigu yang mengikat, tapioka yang bikin kenyal, dan air panas dituang ke terigu dulu biar adonan lembut. Telurnya masuk saat adonan hangat, lalu rebus sampai mengapung sebelum digoreng. Cuko di rumah kalian pakai gula apa? #palembang #pempekdos #pempek #masakanrumahan #kulinerpalembang",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8766458/resep-pempek-dos-palembang-tekstur-kenyal-tanpa-ikan-lengkap-tips"
+      ],
+      "factors": {
+        "pain_point_intensity": 6.0,
+        "actionable_solution": 9.2,
+        "local_relevance": 9.2,
+        "momentum": 9.4,
+        "evidence_strength": 8.4
+      },
+      "why": "Bahannya paling segar hari ini karena terbit 24 November 2026 pukul 08.00 WIB, hanya belasan menit sebelum riset ini, dan tipsnya rinci sampai suhu adonan serta tanda matang berupa pempek yang mengapung. Tetapi titik sakitnya paling ringan di antara tiga kandidat: yang hilang hanya kenikmatan, bukan uang atau keputusan berisiko, jadi faktor pain saya beri 6,0. Pempek dos juga masih keluarga pempek, dan itulah satu-satunya kandidat dari keluarga itu hari ini sesuai batas variasi tema. Skor dasarnya 8,33 (novelty 8,53 karena kata pempek sudah sering muncul di bank topik), dan karena teks B tidak memuat kata keresahan finansial, boost pain tidak aktif sehingga angka akhirnya tetap 8,33 dan berada di posisi kedua, 64 poin di bawah A."
+    },
+    {
+      "code": "C",
+      "title": "UMK Palembang 2027 Rp4,48 Juta: Tertinggi di Sumsel, Selisih Rp238 Ribu dari Banyuasin",
+      "pillar": "Keseharian & Ekonomi Kota",
+      "hook": "Tujuh daerah di Sumsel sudah sepakat angka UMK 2027, Palembang paling tinggi. Tapi angkanya belum final.",
+      "shots": [
+        "Shot 1 (9s): Dinda menyebut usulan UMK Kota Palembang 2027 Rp4.487.593 atau naik 7,03 persen dan menjadi yang tertinggi di Sumsel, disusul Muara Enim Rp4.466.085, sementara Banyuasin paling rendah Rp4.249.677 sehingga selisih Palembang dan Banyuasin sekitar Rp238 ribu.",
+        "Shot 2 (9s): Dinda menegaskan angka ini masih usulan dewan pengupahan daerah dan belum SK gubernur karena empat daerah lain belum sepakat, lalu menyebut UMP Sumsel sendiri Rp4.210.059 dan usaha mikro kecil boleh membayar 50 persen dari upah minimum, lalu bertanya daerah penonton sudah berapa."
+      ],
+      "sound": "Ambience jalan kota dan kendaraan lewat, tanpa musik",
+      "outfit": "Pastel Taupe Knit Cardigan with Fitted Inner & Wide Leg Pants",
+      "caption": "Usulan UMK Palembang 2027 Rp4.487.593 atau naik 7,03 persen, tertinggi di Sumsel, sementara Banyuasin Rp4.249.677 dengan selisih sekitar Rp238 ribu. Angka ini masih usulan dewan pengupahan dan belum SK gubernur. Daerah kalian sudah sepakat berapa? #palembang #umk2027 #umksumsel #upahminimum #infopalembang #wongkito",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1036416/daftar-7-kotakabupaten-di-sumsel-sepakati-usulan-umk-2027-palembang-tertinggi-capai-rp-4487593",
+        "https://www.antaranews.com/berita/5865699/pemprov-sumsel-umumkan-ump-2027-naik-menjadi-rp4210059"
+      ],
+      "factors": {
+        "pain_point_intensity": 7.6,
+        "actionable_solution": 5.8,
+        "local_relevance": 9.7,
+        "momentum": 9.2,
+        "evidence_strength": 9.0
+      },
+      "why": "Angkanya segar (23 November 2026 pukul 20.15 WIB), lengkap untuk tujuh daerah, dan menyangkut uang bulanan banyak orang, jadi relevansi lokal dan momentumnya paling tinggi di antara tiga kandidat. Tetapi solusi yang bisa dilakukan penonton hampir tidak ada: mereka hanya bisa menunggu SK gubernur, sehingga faktor actionable solution saya beri 5,8 dan itu yang menahan skornya di bawah kandidat A. Saya juga mencatat topik ini adalah kebijakan upah, bukan rilis dinas seremonial atau statistik inflasi, karena isi utamanya nominal dan status pembahasan per daerah, bukan angka makro."
+    }
+  ]
+}
