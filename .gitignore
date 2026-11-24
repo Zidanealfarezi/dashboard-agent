@@ -32,3 +32,5 @@ operations/*.log
 operations/*.pid
 output/
 operations/research-raw/
+# Berisi token bot; jangan di-commit atau di-deploy.
+config/video_lab.json
