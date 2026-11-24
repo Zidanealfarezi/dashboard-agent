@@ -1,0 +1,116 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 15,
+  "final_duration_seconds": 15,
+  "title": "Keramik Meledak Terangkat karena Nat Dirapatkan Tanpa Ruang Muai: Aturan Tukang Senior Nat 2-3 Mili",
+  "hook": "Keramik meledak terangkat itu bukan karena keramiknya jelek tapi karena natnya dirapatkan sampai nol sehingga tidak ada ruang muai. Aturan baku tukang senior: nat wajib disisakan dua sampai tiga mili dan keliling ruangan mesti ada sambungan muai.",
+  "story": "Bang Ray berjongkok di lantai ruangan rumah setengah jadi di Banda Aceh, kamera rendah hampir setinggi lantai perlahan mendekat dari sudut tiga perempat. Sejak detik 0.0s satu baris keramik lantai yang terangkat dan melengkung sudah terlihat di depannya, dan di tangan kanannya ia memegang satu keping keramik lepas. Tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan PAKU CAP KERIS terlihat utuh di sudut belakang ruangan. Ia membuka dengan kejadian keramik meledak terangkat, mengetuk tepi keping keramik ke baris yang melengkung sebagai peraga, menjelaskan aturan tukang senior soal lebar nat dua sampai tiga mili dan sambungan muai di keliling ruangan, lalu menutup dengan adu dua kubu cara pasang nat.",
+  "caption": "Keramik meledak terangkat itu bukan karena keramiknya jelek tapi karena natnya dirapatkan sampai nol jadi tidak ada ruang muai. Aturan tukang senior sisakan nat dua sampai tiga mili dan pasang sambungan muai di keliling ruangan. Rakan di sana tim nat rapat biar rapi atau tim nat lega biar aman?\n#tipskonstruksi #keramikmeledak #natkeramik #tukangproyek #bandaaceh #renovasirumah",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#keramikmeledak",
+    "#natkeramik",
+    "#tukangproyek",
+    "#bandaaceh",
+    "#renovasirumah"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah, FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja dan celana khaki, dan FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg. Lokasi: lantai ruangan rumah setengah jadi di Banda Aceh, satu baris keramik lantai terangkat melengkung di depan, satu keping keramik lepas di tangan kanan, tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan PAKU CAP KERIS di sudut belakang ruangan.",
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Keramik lantai yang terangkat lalu meledak adalah kerusakan finishing yang mahal dan sering terjadi di rumah tinggal, bukan teori. Hook tiga detik pertama langsung mengangkat resiko itu plus aturan baku tukang senior soal lebar nat dan ruang muai, lalu penutup mengadu dua kubu cara pasang nat supaya memancing komentar tanpa mengklaim hasil uji atau angka yang belum terbukti.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Tips lapangan 15 detik satu take, kamera rendah hampir setinggi lantai, perlahan mendekat",
+      "opening": "Sejak 0.0s baris keramik terangkat dan keping keramik di tangan kanan sudah terlihat, wajah Bang Ray di frame",
+      "camera": "Low angle kamera di ketinggian lantai tiga perempat, push-in pelan, goyangan handheld kecil",
+      "core_action": "Mengetuk tepi keping keramik ke baris yang melengkung sebagai peraga lalu menunjuk celah nat rapat",
+      "closing": "Menatap lensa dan mengadu dua kubu cara pasang nat",
+      "risk": "Baris keramik terangkat, keping di tangan, dan kardus paku wajib konsisten bentuk dan posisi sampai frame akhir"
+    },
+    {
+      "id": "B",
+      "format": "Media berpaku di dinding, Bang Ray berdiri menunjuk diagram nat dan sambungan muai",
+      "opening": "Diagram dulu, wajah belum jadi fokus utama",
+      "camera": "Statis setinggi dada",
+      "core_action": "Menunjuk garis nat di media",
+      "closing": "Menutup dengan pertanyaan",
+      "risk": "Terlalu mirip pembuka talking head statis 22 dan 23 November serta tidak memperlihatkan kerusakan nyata di detik 0-3"
+    },
+    {
+      "id": "C",
+      "format": "POV tangan menyusuri nat, narasi voice over tanpa wajah",
+      "opening": "Tangan dan lantai saja",
+      "camera": "POV handheld menunduk",
+      "core_action": "Memasukkan penggaris ke celah nat",
+      "closing": "Lensa menoleh ke wajah di akhir",
+      "risk": "Wajah hilang dari 3 detik pertama sehingga hook dan identitas karakter melemah"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Satu-satunya konsep yang menampilkan wajah, kerusakan nyata, dan aturan angka konkret dalam satu frame sejak 0.0s dengan hanya dua properti inti di area aksi (baris keramik terangkat dan satu keping keramik di tangan), sehingga risiko properti muncul atau hilang paling kecil. Sudut kamera rendah hampir setinggi lantai belum dipakai pada empat slot sebelumnya.",
+    "history_checked": "Riwayat operasional Bang Ray lima slot terakhir: 23 Nov kanopi beton ambruk karena angkur ditempel (published, kamera tracking samping), 22 Nov dak retak karena perancah dibongkar cepat (published, take statis di kolong dak), 21 Nov bata kering bikin plesteran rontok siram vs rendam (published), 20 Nov rangka atap melintir tanpa ikatan angin (published), 19 Nov adukan beton encer kolom keropos (published). Semua pembuka talking head dengan satu alat di tangan; hari ini variasi diambil dari sudut kamera rendah lantai dan objek rusak yang sudah ada di lantai, bukan dari menambah properti."
+  },
+  "promotional": false,
+  "new_biography_facts": [],
+  "trend_sources": [
+    {
+      "url": "https://idn.sika.com/in/knowledge-hub/apa-itu-tile-popping-kenali-penyebab-lantai-tiba-tiba-meledak.html",
+      "title": "Apa Itu Tile Popping? Kenali Penyebab Lantai Tiba-Tiba Meledak (Sika Indonesia)",
+      "observed_at": "2026-11-24T13:55:30+07:00",
+      "evidence": "Dibaca 24 November 2026 lewat hasil pencarian: tile popping dijelaskan sebagai lantai keramik yang tiba-tiba terangkat dan meledak, dan penyebab yang dirinci mencakup pilihan perekat yang salah, pemasangan yang tidak rata, serta tidak adanya ruang muai. Dasar tema bahwa kerusakan ini soal cara pasang, bukan mutu keramik."
+    },
+    {
+      "url": "https://www.facebook.com/KemenPU/posts/sahabatpupr-pernah-melihat-keramik-di-lantai-terangkat-bahkan-meledak-hal-ini-di/658871409608994/",
+      "title": "Kementerian PUPR: keramik di lantai terangkat bahkan meledak (akun resmi KemenPU)",
+      "observed_at": "2026-11-24T13:56:20+07:00",
+      "evidence": "Dibaca 24 November 2026 lewat hasil pencarian: penyebab yang disebut adalah tidak adanya expansion joint, perekat lantai yang terlalu kaku, dan nat keramik yang terlalu rapat. Dasar klaim bahwa ruang muai dan lebar nat adalah penyebab utama kejadian di lapangan."
+    },
+    {
+      "url": "https://flooring.gnetindonesia.com/article/jarak-nat-keramik-lantai",
+      "title": "Jarak Nat Keramik Lantai dan Teknik Pengukuran yang Tepat (GNET Indonesia)",
+      "observed_at": "2026-11-24T13:57:10+07:00",
+      "evidence": "Dibaca 24 November 2026 lewat hasil pencarian: lebar nat yang dianjurkan 1-3 mm untuk keramik kecil, 3-5 mm untuk keramik ukuran sedang, dan 3-6 mm untuk keramik di atas 60x60 cm, dengan alasan ruang muai dan susut akibat suhu serta kelembapan. Dasar angka dua sampai tiga mili pada dialog dan caption."
+    }
+  ],
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 15,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 60,
+    "references_attached": 4,
+    "verified_from": "Sinkronisasi live Flow flow_3 port 9335 pukul 14.01 WIB: saldo 726 kredit, pil setelan 'Video · 720p · 10 dtk crop_9_16 x1' dan mode 720p dipastikan aktif."
+  },
+  "shots": [
+    {
+      "seconds": 15,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 15 seconds, one continuous take, shot on smartphone vlog camera at floor level barely half a metre above the floor tiles, tilted slightly up in a three-quarter angle, slowly pushing in towards him with tiny natural handheld sway. Natural clean daylight neutral white balance coming through the open window, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Location: an unfinished empty room of a half-built house in Banda Aceh at midday, bare grey plastered walls with no furniture, ordinary grey cement floor base. PROP CONTINUITY RULE: from 0.0s to the last frame exactly three fixed things exist in the action area, the man, one short row of four large beige floor tiles that are visibly lifted and tented in a curved arch along the grout line in front of him, and one single loose beige floor tile of the same type held in his right hand; no other tile, trowel, bucket, sponge, ruler, wheelbarrow, person or animal may enter, move, duplicate or vanish at any moment. In the far background corner behind his shoulder a neat untouched stack of sealed kraft cardboard nail boxes with red, yellow and green stripe bands and the physical printed words PAKU CAP KERIS stays fully readable inside that corner from the first frame to the last, with no close-up of the packaging. BEATS: at 0.0s he is already crouching beside the lifted tile row with the loose tile in his right hand and speaks straight into the lens in relaxed Banda Aceh Indonesian with accurate lip sync, \"Keramik meledak terangkat itu bukan karena keramiknya jelek\"; from 3.0s to 6.5s he taps the edge of the loose tile twice lightly against the arched lifted row to show the hollow hollow-sounding lift while saying \"Natnya dirapatkan sampai nol jadi tidak ada ruang muai\"; from 7.0s to 10.5s he turns the loose tile slightly to show its plain edge and points with his free hand at the tight grout line between two flat tiles beside the arch while saying \"Aturan tukang senior nat wajib disisakan dua sampai tiga mili\"; from 11.0s to 13.5s he sweeps his free hand along the room edge behind him where the tile meets the wall while saying \"Keliling ruangan mesti ada sambungan muai pakai sealant\"; from 13.5s to 14.6s he faces the lens with an amused challenging smile and asks \"Rakan tim nat rapat biar rapi atau tim nat lega biar aman\" then holds that expression to the last frame. Small natural head tilts, normal blinking, natural finger movement, no exaggerated gestures, no dancing, no standing up, no walking. Ambient room tone only, no music. Smooth natural motion, stable hands, consistent lighting, no flicker, no morphing.",
+      "dialogue": "Keramik meledak terangkat itu bukan karena keramiknya jelek. Natnya dirapatkan sampai nol jadi tidak ada ruang muai. Aturan tukang senior nat wajib disisakan dua sampai tiga mili. Keliling ruangan mesti ada sambungan muai pakai sealant. Rakan tim nat rapat biar rapi atau tim nat lega biar aman?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 14.0,
+      "action_end_seconds": 14.6
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "revision_note": "Paket harian 24 November 2026: hook 0-3s mengangkat resiko keramik lantai meledak terangkat karena nat dirapatkan tanpa ruang muai plus aturan baku tukang senior nat 2-3 mili dan sambungan muai keliling ruangan. Penutup mengadu dua kubu nat rapat vs nat lega. Properti kardus PAKU CAP KERIS wajib terlihat utuh di sudut belakang. Kamera rendah hampir setinggi lantai dengan push-in pelan (beda dari tracking samping 23 November dan take statis 22 November)."
+}
