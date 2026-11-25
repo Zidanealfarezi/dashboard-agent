@@ -75,7 +75,7 @@
     {
       "id": "flow_3",
       "reported_monthly_credits": 1000,
-      "balance_verified": true,
+      "balance_verified": false,
       "verified_balance": 666,
       "assigned_character": "bang_ray",
       "target_resolution": "720p",
@@ -89,7 +89,7 @@
       "balance_verified_at": "2026-11-24T14:13:48+07:00",
       "credits_reset_label_as_displayed": "3 Des pukul 20.43",
       "project_title": "bang_ray",
-      "balance_source": "Sinkronisasi CDP otomatis 2026-11-24T14:13:48+07:00: 666 kredit Google Flow (bang_ray).",
+      "balance_source": "Sinkronisasi CDP 2026-11-25 14:01 dan 14:11 WIB gagal membaca menu kredit (menu kosong). Panel setelan 720p/10 dtk menampilkan 30 kredit, tetapi klik Generate 14:12 WIB ditolak Flow dengan pesan: Poin tidak cukup untuk melakukan tindakan ini. Coba ubah setelan atau upgrade untuk mendapatkan lebih banyak poin. Saldo 666 kredit adalah pembacaan terakhir 2026-11-24 14:13 dan tidak lagi terverifikasi. Butuh verifikasi Owner/operator sebelum percobaan berikutnya.",
       "observed_generation_settings": {
         "model_family": "Omni 1.2 Flash",
         "mode": "video",
@@ -115,7 +115,9 @@
         "three_expression_sheet": "0febfab2-6473-4339-95a2-b7995029fc41",
         "fullbody_turnaround": "af044d75-5da0-4f3d-b54a-83ef496757d8",
         "profile_avatar": "9160e8d1-01dc-4ff6-bfe0-ad09d41d5ced"
-      }
+      },
+      "connection_status": "generation_refused_insufficient_points",
+      "last_refusal_at": "2026-11-25T14:22:00+07:00"
     },
     {
       "id": "flow_4",
