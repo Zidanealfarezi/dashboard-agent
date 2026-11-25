@@ -1,0 +1,79 @@
+{
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)"
+  ],
+  "role_reason": "Tiga konsep dibandingkan dengan enam slot terakhir yang tercatat (17-24 November: langsir pupuk di jalur becek, tangkai panjang kena timbangan, bibit palsu lawan dodos-egrek, rehat panas, pupuk piringan, sortir janjang mentah, brondolan tertinggal). Semua slot itu memakai kamera setinggi dada atau kamera sangat rendah menghadap Pak Vincent yang berdiri diam. Konsep A: kamera setinggi bahu tiga per empat kanan, Pak Vincent berdiri di piringan sambil memegang galah egrek dua tangan dan kereta sorong FIVE STAR bermuatan dua janjang di kiri frame. Konsep B: kamera tracking menyamping saat ia berjalan menyusuri gawangan sambil menenteng egrek. Konsep C: close-up tangan mengangkat janjang mentah dari bak lalu melepas ke tanah. Dipilih A karena sudut bahu dengan alat dipegang dua tangan belum dipakai pada enam slot terakhir, gerakan tangan pada galah memberi aksi fisik sejak frame pertama tanpa kamera bergerak yang berisiko merusak wajah, dan kereta FIVE STAR tetap terbaca sebagai properti kerja. Pembuka memakai angka potongan timbangan 9-12 persen dari laporan KPPU 11 November 2026 dan penutup mengadu egrek lawan dodos, yang memang terlihat di klip.",
+  "title": "Potongan Timbangan 12 Persen: Egrek atau Dodos buat Pokok Tinggi",
+  "hook": "Potongan timbangan sembilan sampai dua belas persen itu nyata wak, KPPU sudah menyelidiki lima pabrik.",
+  "story": "Pak Vincent berdiri di piringan kebun sawit rakyat dekat Pekanbaru pada pagi hari bercahaya netral. Sejak detik pertama ia sudah memegang galah egrek dengan dua tangan dan menepuk pelan gagangnya. Ia membuka dengan angka potongan timbangan sembilan sampai dua belas persen yang sedang diselidiki KPPU, menyebut kerugian petani ratusan miliar setahun, lalu menganggukkan kepala ke arah kereta sorong merah FIVE STAR bermuatan dua janjang di sampingnya. Penutupnya ia mengangkat ujung galah egrek sedikit dan mengadu pilihan untuk pokok tinggi: egrek atau dodos.",
+  "caption": "Potongan timbangan sembilan sampai dua belas persen itu bukan isapan jempol, KPPU sudah menyelidiki lima pabrik. Untuk pokok tinggi di kebun rakan, pilih egrek atau dodos?\n#kebunsawit #tbs #potongantimbangan #dodosegrek #petanisawit #sawitriau",
+  "hashtags": [
+    "#kebunsawit",
+    "#tbs",
+    "#potongantimbangan",
+    "#dodosegrek",
+    "#petanisawit",
+    "#sawitriau"
+  ],
+  "image_prompt": "Identitas memakai entitas Personal Flow Character 'Pak Vincent' untuk wajah dan postur. Pakaian kerja: kaos katun lengan panjang biru tua polos tanpa logo, celana kerja gelap, topi baseball cap polos gelap, sandal karet. Properti: satu galah egrek panjang dengan mata pisau melengkung dipegang dua tangan, dan satu kereta sorong merah bertulisan FIVE STAR pada sisi bak mengacu characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg bermuatan dua janjang sawit, diparkir di kiri frame.",
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "duration_credit_verified": true,
+    "references_attached": 2,
+    "flow_ingredients": [
+      "Flow Character: Pak Vincent",
+      "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+    ],
+    "identity_chip_policy": "Chip foto master mentah ditolak filter tokoh berpengaruh pada 19 dan 22 November tanpa biaya. Entitas Personal Flow Character Pak Vincent dipakai bersama foto acuan kereta FIVE STAR seperti slot 20-24 November yang lolos.",
+    "verified_from": "Sinkronisasi live CDP flow_5 port 9334 25 November 2026 16.32 WIB: saldo 747 kredit, pill 'Video 720p 12 dtk crop_9_16 x1', switched360p false."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone documentary vlog of Pak Vincent, using the attached personal Flow Character for his face and body: one lean wiry Indonesian plantation worker of about 35, sun-tanned matte skin, thin mustache, warm eyes, wearing a plain navy-blue long-sleeve cotton work shirt with no logo or graphic, dark work trousers, a plain dark baseball cap and rubber work sandals. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 12 seconds, one continuous take. Camera held at his shoulder height about one and a half metres away in a three-quarter front angle from his right, with a slight natural handheld sway, standing on the bare soil palm circle of a smallholding of planted oil palms near Pekanbaru, Riau, in soft neutral overcast morning daylight with no yellow or orange tint; palm trunks and green fronds fill the background. PROP CONTINUITY: from 0.0s until the final frame exactly two working objects stay present in frame: the one long aluminium-pole egrek with a curved sickle blade that he holds diagonally across his body with both hands, and one red steel wheelbarrow matching the attached wheelbarrow reference standing parked at frame left with its black tyre on the dirt, its outward tray side showing the small physical stencil reading exactly FIVE STAR, loaded with two orange palm fruit bunches; no other tool, sack, basket, ladder, motorcycle, person or animal may enter, move through or vanish from the frame at any moment. BEATS: at 0.0s he is already holding the egrek pole with both hands and taps the pole once with his right palm while saying in warm relaxed Indonesian with a Riau smallholder tone, \"Potongan timbangan sembilan sampai dua belas persen itu nyata wak.\"; from 3.4s he keeps one hand on the pole and says, \"KPPU sudah selidiki lima pabrik. Rugi petani ratusan miliar setahun.\"; from 7.6s he tips his chin toward the loaded wheelbarrow, lifts the pole slightly and asks with a friendly grin, \"Pokok tinggi pilih egrek atau dodos?\"; the final half second holds on his calm smile to the lens. Ambient only: natural plantation room tone with faint wind in the fronds, no music. Shot on smartphone vlog camera, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no artificial golden glow, zero CGI, authentic non-AI documentary look. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, zero on-screen text, zero subtitles, zero watermarks. Keep his face, cap, clothing, the egrek and the wheelbarrow completely consistent in every frame.",
+      "dialogue": "Potongan timbangan sembilan sampai dua belas persen itu nyata wak. KPPU sudah selidiki lima pabrik. Rugi petani ratusan miliar setahun. Pokok tinggi pilih egrek atau dodos?",
+      "dialogue_start_seconds": 0.2,
+      "dialogue_read_seconds": 10.4,
+      "action_end_seconds": 11.4
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow_ingredients": [
+    "Flow Character: Pak Vincent",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sawitsetara.co/artikel/kppu-dalami-dugaan-kartel-harga-tbs-sawit-swadaya-di-pesisir-selatan-potongan-timbangan-capai-12-persen",
+      "title": "KPPU Dalami Dugaan Kartel Harga TBS Sawit Swadaya di Pesisir Selatan, Potongan Timbangan Capai 12 Persen - SawitSetara",
+      "observed_at": "2026-11-25T16:30:00+07:00",
+      "evidence": "Dibaca 25 November 2026 16.30 WIB, terbit 11 November 2026: KPPU Kanwil I menyelidiki dugaan kartel pembelian TBS sawit swadaya Pesisir Selatan; potongan TBS di Pesisir Selatan 9-12 persen sementara daerah lain di Sumbar 3-5 persen; tiga dari lima PKS terafiliasi PT Incasi Raya; KPPU masih mengumpulkan bukti dan menguji alasan jarak maupun kualitas buah. Dasar angka potongan timbangan sembilan sampai dua belas persen dan penyelidikan lima pabrik."
+    },
+    {
+      "url": "https://kebunsawit.id/artikel/alat-panen-sawit-dodos-dan-egrek/",
+      "title": "Alat panen sawit: dodos, egrek dan alat bantu lainnya - KebunSawit.id",
+      "observed_at": "2026-11-25T16:31:00+07:00",
+      "evidence": "Dibaca 25 November 2026 16.31 WIB, terbit 18 Oktober 2026: dodos adalah pahat bertangkai yang didorong dari bawah untuk pohon rendah, egrek pisau seperti arit di ujung galah panjang yang ditarik dari bawah dan dipakai setelah tandan tidak terjangkau dodos; keterampilan egrek lebih sulit dipelajari, galah aluminium lebih ringan tetapi lebih mahal, dan pohon sangat tinggi menaikkan biaya panen per tandan. Dasar adu egrek lawan dodos untuk pokok tinggi."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Angka potongan timbangan 9-12 persen dan penyelidikan KPPU diambil dari laporan SawitSetara 11 November 2026, bukan dikarang. Klaim rugi ratusan miliar setahun merujuk perkiraan kerugian petani swadaya yang disebut dalam laporan itu, tidak dinaikkan. Perbandingan dodos dan egrek dari KebunSawit.id 18 Oktober 2026. Kereta sorong FIVE STAR hanya properti kerja latar sesuai aturan Pak Vincent 21 November 2026, tidak disebut di dialog maupun caption.",
+  "production_note": "Satu klip 12 detik 720p native Omni 1.2 Flash, 9:16, output 1, chip Flow Character Pak Vincent + foto acuan kereta FIVE STAR. Dialog 25 kata agar empat frasa utuh dalam 12 detik. Setelah unduh, rakit python3 -m app.media --character pak_vincent (upscale Varian 3, subtitle editorial_tiktok bebas koma) menjadi characters/pak_vincent/content/pak_vincent-2026-11-25/vin_251126_v1.mp4."
+}
