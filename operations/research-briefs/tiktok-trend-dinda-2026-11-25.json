@@ -1,0 +1,161 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-25",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-25T08:20:00+07:00",
+  "collected_by": "hermes-cron-research",
+  "note": "Riset slot pagi 25 November 2026 pukul 08.02-08.35 WIB. Perintah kerja dipatuhi: TIDAK ada prakiraan cuaca BMKG, rilis dinas seremonial, atau statistik inflasi sebagai bahan topik. Aturan variasi tema juga dipatuhi: NOL dari tiga kandidat berasal dari keluarga pempek/cuko/tekwan, dan ketiganya dari pilar lain yaitu keseharian/transportasi (kandidat A, tiket kereta Nataru), busana-aksesori plus ekonomi rumah tangga (kandidat B, harga emas perhiasan Palembang), dan kuliner non-pempek (kandidat C, gulo puan). Alasannya: tujuh slot pagi terakhir (18-24 November) berisi kuliner Palembang terus termasuk pindang patin vs tulang, tekwan, pempek prasmanan, apem bekuwa, kontras harga pempek, lalu songket, lalu UMK, jadi hari ini sengaja dipilih tiga pilar yang belum dipakai pekan ini. Catatan keterbatasan tren TikTok: lagitren.id/tiktok dibuka 25 November 2026 pukul 08.05 WIB dan sudah diperbarui 25 Nov pukul 04.00 WIB. Halaman memuat 7 video viral: harianak 2,1 juta, mamaawards 3,0 juta, gta6 4,4 juta, harianaknasional 935,1 ribu, onthellifestreetbike 2,1 juta, cbrembol33_nganjuk 703,7 ribu, mama2026 3,0 juta; serta 15 hashtag tren: gtavi, harianaksedunia, onthellife, harianak, mamaawards, gta6, harianaknasional, onthellifestreetbike, cbrembol33_nganjuk, mama2026, sulianto, badakjawa, magicchessgogo, mamaawards2026, belajarbarengsuli. Tidak satu pun tagar kuliner, Palembang, wastra, atau OOTD di daftar itu, jadi brief ini tidak mengutip angka tren kuliner atau busana nasional apa pun.",
+  "candidates": [
+    {
+      "url": "https://sumsel.antaranews.com/berita/828907/kai-divre-iii-palembang-imbau-warga-pesan-tiket-libur-nataru-lebih-awal",
+      "title": "KAI Divre III Palembang imbau warga pesan tiket libur nataru lebih awal - ANTARA News Sumatera Selatan",
+      "evidence": "Terbit Sabtu 21 November 2026 pukul 22.02 WIB (pewarta Ahmad Rafli Baiduri), dibaca 25 November 2026 pukul 08.14 WIB. Manager Humas KAI Divre III Palembang Aida Suryanti menyebut pemesanan tiket sudah bisa dilakukan H-45 sebelum keberangkatan sehingga periode libur akhir tahun sampai 3 Januari 2027 sudah dapat dipesan. Divre III Palembang melayani tiga kereta: KA Bukit Serelo, KA Rajabasa, dan KA Sindang Marga. Berdasarkan data penjualan hingga 19 November 2026, tiket KA Bukit Serelo dan KA Rajabasa yang berstatus Public Service Obligation (subsidi) untuk keberangkatan 19 Desember 2026 sampai 2 Januari 2027 dengan relasi penuh sudah terjual 100 persen. Alternatif yang disebut: membeli tiket untuk sebagian relasi atau stasiun tujuan yang masih tersedia, dan KA Sindang Marga relasi Kertapati-Lubuk Linggau masih tersedia dua arah. Pemesanan lewat aplikasi Access by KAI, situs resmi KAI, atau mitra resmi. Artikel juga merinci sanksi: penumpang yang sengaja melanjutkan perjalanan melebihi stasiun tujuan dikenakan denda dua kali lipat tarif parsial subkelas terendah, diturunkan di stasiun kesempatan pertama, dan bila denda tak dibayar dalam 1x24 jam maka dilarang naik kereta 90 hari kalender; pelanggaran lebih dari tiga kali dilarang 180 hari kalender.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-25T08:14:00+07:00",
+      "published_at": "2026-11-21T22:02:00+07:00",
+      "metrics": {
+        "kereta_divre3": "Bukit Serelo, Rajabasa, Sindang Marga",
+        "terjual_100_persen": "Bukit Serelo dan Rajabasa, relasi penuh, keberangkatan 19 Desember 2026 - 2 Januari 2027",
+        "data_penjualan_per": "19 November 2026",
+        "batas_pesan": "H-45 sebelum keberangkatan, sampai periode 3 Januari 2027",
+        "masih_tersedia": "KA Sindang Marga Kertapati-Lubuk Linggau dua arah, atau sebagian relasi",
+        "denda_lewat_relasi": "2x tarif parsial subkelas terendah, larangan 90 hari bila tak dibayar"
+      }
+    },
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1036494/dua-hari-naik-rincian-harga-emas-di-palembang-hari-ini-24-november-2026-perhiasan-antam-melonjak",
+      "title": "Dua Hari Naik, Rincian Harga Emas di Palembang Hari ini 24 November 2026, Perhiasan & Antam Melonjak - Tribunsumsel.com",
+      "evidence": "Tayang Selasa 24 November 2026 pukul 15.06 WIB (penulis Hartati, editor Shinta Dwi Anggraini), dibaca 25 November 2026 pukul 08.22 WIB. Hasil pantauan lapangan TribunSumsel di toko emas Palembang: Toko Emas Makmur Jaya Perumnas menjual perhiasan Rp13 juta per suku (6,7 gram), naik Rp100 ribu dari Rp12,9 juta sehari sebelumnya; Toko Mastuti Gold Lemabang naik Rp200 ribu per suku dari Rp12,8 juta; setengah suku di Mastuti Rp6.500.000; Toko Emas Laris menjual cincin Rp13,2 juta per suku naik Rp50 ribu dari Rp13,15 juta, dan gelang serta kalung Rp13,1 juta per suku naik Rp50 ribu dari Rp13,05 juta. Untuk emas murni, harga jual Antam dan Galeri 24 Pegadaian naik Rp10.000 per gram dari Rp2.495.000 menjadi Rp2.505.000 per gram, sementara buyback Logam Mulia naik Rp20.000 per gram dari Rp2.095.000 ke Rp2.115.000 per gram, sehingga selisih harga jual dan buyback Rp390.000 per gram. Penjual Awi menyebut kenaikan dipicu meredanya ekspektasi kenaikan suku bunga The Fed dan investor mencari aman di tengah gejolak saham berbasis kecerdasan buatan. Catatan penting: artikel detikSumbagsel hari yang sama menulis harga Antam Rp2.507.000 per gram dan buyback Rp2.150.000 per gram, jadi angka buyback berbeda Rp35.000 antar dua media, sehingga angka buyback tidak dipakai sebagai klaim keras di topik ini.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-25T08:22:00+07:00",
+      "published_at": "2026-11-24T15:06:00+07:00",
+      "metrics": {
+        "harga_perhiasan_makmur_jaya": "Rp13.000.000 per suku, naik Rp100.000",
+        "harga_perhiasan_mastuti": "naik Rp200.000 per suku dari Rp12.800.000",
+        "harga_setengah_suku": "Rp6.500.000",
+        "cincin_toko_laris": "Rp13.200.000 per suku, naik Rp50.000",
+        "antam_jual": "Rp2.505.000 per gram, naik Rp10.000",
+        "antam_buyback": "Rp2.115.000 per gram, naik Rp20.000 (versi detik: Rp2.150.000)",
+        "selisih_jual_buyback": "Rp390.000 per gram menurut Tribun"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8766973/harga-emas-palembang-naik-buyback-melonjak-cek-rincian-24-november-2026",
+      "title": "Harga Emas Palembang Naik-Buyback Melonjak, Cek Rincian 24 November 2026 - detikSumbagsel",
+      "evidence": "Terbit Selasa 24 November 2026 pukul 11.00 WIB (penulis Melati Putri Arsika), dibaca 25 November 2026 pukul 08.26 WIB. Artikel menyebut harga beli emas Antam naik Rp2.000 per gram dari Rp2.505.000 menjadi Rp2.507.000 per gram, buyback naik Rp15.000 per gram menjadi Rp2.150.000 per gram, serta mencantumkan ketentuan pajak: PPh 22 pembelian 0,25 persen bagi pemilik NPWP/NIK terverifikasi dan 0,5 persen tanpa NPWP, sedangkan buyback di atas Rp10 juta dikenakan PPh 22 1,5 persen (NPWP) atau 3 persen (non-NPWP). Artikel ini dipakai hanya sebagai pembanding, bukan sumber utama topik emas, karena tabel harga per pecahannya tidak konsisten (masih berlabel Selasa 10 November 2026 dan satu baris nominal terpotong), dan angka buyback-nya berbeda dari Tribun pada hari yang sama.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-25T08:26:00+07:00",
+      "published_at": "2026-11-24T11:00:00+07:00",
+      "metrics": {
+        "antam_jual_detik": "Rp2.507.000 per gram, naik Rp2.000",
+        "buyback_detik": "Rp2.150.000 per gram, naik Rp15.000",
+        "pajak_beli": "PPh 22 0,25 persen dengan NPWP, 0,5 persen tanpa NPWP",
+        "catatan": "tabel pecahan berlabel 10 November 2026, tidak dipakai sebagai angka utama"
+      }
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8736767/gulo-puan-kuliner-bangsawan-palembang-sejarah-cara-buat-lokasi",
+      "title": "Gulo Puan Kuliner Bangsawan Palembang: Sejarah, Cara Buat-Lokasi - detikSumbagsel",
+      "evidence": "Terbit Rabu 4 November 2026 pukul 06.00 WIB (penulis Marshanda), dibaca 25 November 2026 pukul 08.30 WIB. Artikel menyebut gulo puan berasal dari Kecamatan Pampangan, Kabupaten OKI, daerah penghasil susu kerbau rawa di Sumsel; kata gulo berarti gula dan puan merujuk susu. Pada masa Kesultanan Palembang Darussalam gulo puan menjadi upeti masyarakat Pampangan kepada Sultan sehingga hanya dinikmati kalangan bangsawan, karena bahan susu kerbau bernilai tinggi dan prosesnya lama. Cara membuat menurut buku Pendidikan Kewirausahaan Berbasis Mulok: Kuliner Wong Kito karya Ida Yulia: susu kerbau dan gula dicampur dengan perbandingan 1:1, dimasak tiga sampai empat jam sambil diaduk tanpa henti sampai menjadi karamel dan mengering, lalu didinginkan. Tanpa pengawet kimia, gulo puan hanya tahan tiga sampai lima hari di ruang terbuka karena kadar airnya tinggi. Lokasi: halaman Masjid Agung Sultan Mahmud Badaruddin II setiap Jumat, dan pada bulan puasa bisa ditemukan setiap hari menjelang berbuka; biasa disantap dengan roti tawar dan kopi atau jadi campuran kue juada lapan jam.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-25T08:30:00+07:00",
+      "published_at": "2026-11-04T06:00:00+07:00",
+      "metrics": {
+        "asal_bahan": "susu kerbau rawa Pampangan, Kabupaten OKI",
+        "perbandingan": "susu kerbau dan gula 1:1",
+        "lama_masak": "3-4 jam diaduk tanpa henti",
+        "daya_simpan": "3-5 hari di ruang terbuka, tanpa pengawet",
+        "lokasi_beli": "halaman Masjid Agung Sultan Mahmud Badaruddin II, tiap Jumat"
+      }
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini — 25 November 2026 · Lagi Tren",
+      "evidence": "Halaman dibuka 25 November 2026 pukul 08.05 WIB dan diperbarui 25 November 2026 pukul 04.00 WIB. Tujuh video viral yang tampil: harianak 2,1 juta, mamaawards 3,0 juta, gta6 4,4 juta, harianaknasional 935,1 ribu, onthellifestreetbike 2,1 juta, cbrembol33_nganjuk 703,7 ribu, mama2026 3,0 juta. Lima belas hashtag tren: gtavi, harianaksedunia, onthellife, harianak, mamaawards, gta6, harianaknasional, onthellifestreetbike, cbrembol33_nganjuk, mama2026, sulianto, badakjawa, magicchessgogo, mamaawards2026, belajarbarengsuli. Tidak ada tagar kuliner, Palembang, wastra, atau OOTD di daftar itu sehingga brief ini tidak mengutip angka tren kategori tersebut.",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-25T08:05:00+07:00",
+      "published_at": "2026-11-25T04:00:00+07:00",
+      "metrics": {
+        "video_viral": "7 video, teratas gta6 4,4 juta",
+        "jumlah_hashtag": "15",
+        "tagar_kuliner_atau_ootd": "tidak ada",
+        "pembaruan": "25 November 2026 pukul 04.00 WIB"
+      }
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Tiket Bukit Serelo dan Rajabasa Habis 100 Persen untuk Nataru, Pesan Dibuka H-45",
+      "pillar": "Keseharian & Transportasi Kota",
+      "hook": "Tiket kereta dari Palembang buat libur Nataru sudah habis seratus persen, tapi masih ado akal kalau kamu belum pesan.",
+      "shots": [
+        "Shot 1 (9s): Dinda di depan stasiun Kertapati menyebut Divre III Palembang cuma melayani tiga kereta yaitu Bukit Serelo, Rajabasa, dan Sindang Marga, lalu menyebut tiket Bukit Serelo dan Rajabasa relasi penuh untuk keberangkatan 19 Desember 2026 sampai 2 Januari 2027 sudah terjual 100 persen berdasarkan data penjualan sampai 19 November 2026.",
+        "Shot 2 (9s): Dinda menyebut pesanan dibuka H-45 sebelum keberangkatan lewat aplikasi Access by KAI atau situs resmi, jadi jadwal sampai 3 Januari 2027 sudah bisa dipesan sekarang, dan kalau relasi penuh masih bisa cari tiket sebagian relasi atau KA Sindang Marga Kertapati-Lubuk Linggau, lalu mengingatkan jangan lanjut melebihi stasiun tujuan karena dendanya dua kali tarif parsial subkelas terendah, lalu bertanya penonton sudah pesan tiket Nataru belum."
+      ],
+      "sound": "Ambience stasiun dan pengumuman kereta samar, volume rendah, tanpa musik",
+      "outfit": "Open Cream Linen Shirt with Fitted Inner & Chocolate Brown Palazzo",
+      "caption": "Tiket Bukit Serelo dan Rajabasa buat keberangkatan 19 Desember sampai 2 Januari sudah habis seratus persen deng. Pesanan dibuka H-45 dan KA Sindang Marga Kertapati-Lubuk Linggau masih ado, coba cek dulu sebelum batal mudik.\n#palembang #liburnataru #keretaapi #kai #infopalembang #kertapati",
+      "sources": [
+        "https://sumsel.antaranews.com/berita/828907/kai-divre-iii-palembang-imbau-warga-pesan-tiket-libur-nataru-lebih-awal"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.7,
+        "actionable_solution": 9.4,
+        "local_relevance": 9.5,
+        "momentum": 8.2,
+        "evidence_strength": 9.3
+      },
+      "why": "Titik sakitnya konkret dan mendesak: dua dari tiga kereta di Divre III Palembang sudah terjual 100 persen untuk relasi penuh pada periode 19 Desember 2026 sampai 2 Januari 2027, jadi penonton yang belum pesan berisiko tidak bisa mudik. Solusinya paling bisa dieksekusi di antara tiga kandidat karena semua langkahnya operasional dan gratis: pesan H-45 lewat Access by KAI atau situs resmi, cari sebagian relasi, atau pindah ke KA Sindang Marga Kertapati-Lubuk Linggau yang masih tersedia, ditambah peringatan denda dua kali tarif parsial bila melewati stasiun tujuan. Relevansi lokal tinggi karena ini stasiun Kertapati dan tiga kereta yang benar-benar dipakai warga Palembang. Skor dasar kandidat ini 8,96 (novelty 8,67, tanpa tumpang tindih topik lama) dan angka itu tidak naik karena teksnya tidak memuat kata keresahan finansial yang memicu boost, jadi hasil akhirnya 8,96 dan berada di posisi kedua. Kelemahannya momentum: artikel terbit 21 November 2026, empat hari sebelum hari ini, jadi faktor momentum saya beri 8,2 bukan angka tertinggi. Saya juga mencatat ini bukan rilis dinas seremonial, karena isinya data penjualan tiket, aturan pemesanan, dan sanksi, bukan seremoni atau imbauan tanpa angka. Topik tidak masuk keluarga pempek, tekwan, atau cuko sehingga variasi tema hari ini terpenuhi."
+    },
+    {
+      "code": "B",
+      "title": "Emas Perhiasan di Palembang Naik Dua Hari, Cincin Rp13,2 Juta per Suku",
+      "pillar": "Busana & Aksesori / Ekonomi Rumah Tangga",
+      "hook": "Harga emas perhiasan di Palembang naik dua hari berturut-turut, dan yang bikin tekor bukan cuma kenaikannya.",
+      "shots": [
+        "Shot 1 (9s): Dinda di depan toko emas menyebut pantauan Selasa 24 November 2026: Toko Emas Makmur Jaya Perumnas menjual perhiasan Rp13 juta per suku naik Rp100 ribu, Mastuti Gold Lemabang naik Rp200 ribu per suku dari Rp12,8 juta, setengah suku Rp6,5 juta, dan cincin di Toko Emas Laris Rp13,2 juta per suku.",
+        "Shot 2 (9s): Dinda menyebut emas batangan Antam di Palembang Rp2.505.000 per gram sedangkan buyback Rp2.115.000 per gram sehingga selisihnya Rp390 ribu per gram menurut pantauan Tribun, lalu menyarankan sebelum beli menanyakan dulu harga buyback dan ongkos cetak toko, karena perhiasan dipakai untuk penampilan sedangkan logam mulia untuk simpanan, lalu bertanya penonton lebih pilih perhiasan atau logam mulia."
+      ],
+      "sound": "Ambience toko dan lilahan gelang emas, volume rendah",
+      "outfit": "Open Cream Linen Shirt with Fitted Inner & Chocolate Brown Palazzo",
+      "caption": "Harga emas perhiasan di Palembang naik dua hari, cincin di Toko Emas Laris sekarang Rp13,2 juta per suku dan setengah suku Rp6,5 juta. Sebelum beli mending tanya dulu harga buyback tokonya, karena selisih jual dan buyback itu yang bikin tekor kalau buru-buru.\n#palembang #hargaemas #emasperhiasan #investasiemas #infopalembang",
+      "sources": [
+        "https://sumsel.tribunnews.com/palembang/1036494/dua-hari-naik-rincian-harga-emas-di-palembang-hari-ini-24-november-2026-perhiasan-antam-melonjak",
+        "https://www.detik.com/sumbagsel/kuliner/d-8766973/harga-emas-palembang-naik-buyback-melonjak-cek-rincian-24-november-2026"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.4,
+        "actionable_solution": 8.6,
+        "local_relevance": 9.4,
+        "momentum": 9.3,
+        "evidence_strength": 7.6
+      },
+      "why": "Ini kandidat paling segar (24 November 2026 pukul 15.06 WIB) dan paling nyambung dengan penampilan karena perhiasan emas memang aksesori busana harian warga Palembang, sementara titik sakitnya soal uang: harga naik dua hari berturut-turut dan selisih jual-beli emas batangan Rp390 ribu per gram. Skor dasarnya 8,61, di bawah kandidat A yang 8,96, tetapi teks kandidat ini memuat keresahan finansial sekaligus kata solusi sehingga boost pain plus solusi +2,0 aktif dan angkanya naik ke batas 9,9; novelty 7,2 masih di atas ambang 7,0 sehingga boost diberikan penuh, meski ada tumpang tindih 0,20 dengan topik songket kemarin karena sama-sama memakai kata harga dan juta. Jadi kemenangan ini datang dari boost formula PAS yang memang sah karena topiknya soal uang dan ada langkah yang bisa dilakukan penonton, bukan dari skor dasar yang lebih tinggi. Yang menahan kandidat ini adalah kekuatan bukti, dan itu saya beri 7,6 karena dua media pada hari yang sama menulis angka buyback berbeda (Tribun Rp2.115.000 per gram, detik Rp2.150.000 per gram), ditambah tabel harga pecahan di artikel detik masih berlabel 10 November 2026. Karena itu topik ini dibangun dari angka perhiasan hasil pantauan lapangan Tribun dan tidak memakai angka buyback sebagai klaim tunggal tanpa atribusi. Kandidat ini juga bukan keluarga pempek dan mengangkat pilar busana-aksesori yang belum dipakai pekan ini."
+    },
+    {
+      "code": "C",
+      "title": "Gulo Puan: Kue Bangsawan Palembang yang Cuma Muncul Jumat di Halaman Masjid Agung",
+      "pillar": "Kuliner Non-Pempek (Warisan)",
+      "hook": "Ada kue Palembang yang dulu cuma boleh dimakan bangsawan, sekarang cuma muncul seminggu sekali.",
+      "shots": [
+        "Shot 1 (9s): Dinda menyebut gulo puan berasal dari Pampangan, Kabupaten OKI, daerah penghasil susu kerbau rawa, dan dulu jadi upeti ke Sultan Palembang sehingga hanya bangsawan yang makan; bahannya cuma susu kerbau dan gula dengan perbandingan 1 banding 1, dimasak tiga sampai empat jam sambil diaduk tanpa henti sampai jadi karamel.",
+        "Shot 2 (9s): Dinda menyebut tanpa pengawet gulo puan cuma tahan tiga sampai lima hari di ruang terbuka, makanya paling enak dibeli secukupnya, dan biasa dicari di halaman Masjid Agung Sultan Mahmud Badaruddin II tiap Jumat atau tiap hari jelang berbuka saat puasa, enak disantap dengan roti tawar dan kopi, lalu bertanya penonton sudah pernah coba gulo puan belum."
+      ],
+      "sound": "Ambience kuali dan adukan kental, volume rendah, tanpa musik",
+      "outfit": "Open Cream Linen Shirt with Fitted Inner & Chocolate Brown Palazzo",
+      "caption": "Gulo puan ini kue bangsawan Palembang dari susu kerbau rawa Pampangan, dimasak tiga sampai empat jam sambil diaduk terus sampai jadi karamel. Sekarang paling gampang dicari Jumat di halaman Masjid Agung, tapi cuma tahan tiga sampai lima hari jadi jangan beli banyak-banyak.\n#palembang #gulopuan #kuepalembang #kulinerpalembang #wongkito",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8736767/gulo-puan-kuliner-bangsawan-palembang-sejarah-cara-buat-lokasi"
+      ],
+      "factors": {
+        "pain_point_intensity": 5.3,
+        "actionable_solution": 8.6,
+        "local_relevance": 9.1,
+        "momentum": 5.8,
+        "evidence_strength": 8.4
+      },
+      "why": "Nilainya ada di cerita: kue upeti bangsawan dari susu kerbau rawa Pampangan yang kini cuma muncul seminggu sekali di halaman Masjid Agung, lengkap dengan takaran 1 banding 1 dan lama masak tiga sampai empat jam. Tetapi titik sakitnya paling ringan di antara tiga kandidat karena yang dirisaukan penonton cuma soal mencari dan daya simpannya, bukan uang atau keputusan berisiko, jadi pain saya beri 5,3. Momentum juga paling lemah karena artikelnya terbit 4 November 2026, tiga minggu lalu, sehingga faktor momentum 5,8. Skor dasarnya 7,43 dan berada di posisi ketiga, tapi tetap dipertahankan sebagai kandidat cadangan karena satu-satunya yang mengangkat kuliner non-pempek hari ini dan bisa dipakai bila dua kandidat lain gagal verifikasi."
+    }
+  ]
+}
