@@ -1,0 +1,84 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "role_tags": [
+    "keseharian cewek Palembang & serba-serbi kota (naik LRT Sumsel, dialek/istilah gaul Palembang sehari-hari, eksplorasi biaya jajan harian)"
+  ],
+  "role_reason": "Topik diambil apa adanya dari baris trend_selections hari ini (slot morning, trend_id opt_dinda_B_1795568686, decided_by pm_autonomous, skor 9.9): Emas Perhiasan di Palembang Naik Dua Hari, Cincin Rp13,2 Juta per Suku. Eksekutor tidak memilih atau mengganti topik. Pilar yang dipakai adalah pilar ketiga profil apa adanya (keseharian cewek Palembang & serba-serbi kota) karena topiknya soal biaya yang dihadapi warga kota: harga perhiasan dan emas batangan di toko emas Palembang. Catatan jujur untuk audit: profil Dinda belum punya pilar busana/ekonomi rumah tangga tersendiri, jadi pemetaan ini adalah pemetaan terdekat, bukan pilar khusus emas; bila Owner ingin topik harga emas rutin, pilar itu perlu ditambahkan ke characters/dinda/profile.json. Tidak ada properti paku cap keris atau kereta FIVE STAR di rencana ini karena aturan itu khusus Bang Ray dan Pak Vincent.",
+  "title": "Emas Perhiasan Palembang Naik Dua Hari: Cincin Rp13,2 Juta per Suku",
+  "hook": "Emas di Palembang naik lagi dua hari berturut-turut dan yang bikin tekor bukan cuma kenaikannya.",
+  "story": "Dinda berdiri di depan meja kaca sebuah toko emas di Palembang pada pagi hari. Di dalam lemari kaca di depannya tersusun gelang, kalung, dan cincin emas kuning di atas alas beludru marun, sementara di meja counter ada satu batang emas kecil dan cincin yang diletakkan di atas nampan. Ia menyapa penonton lalu menyebut pantauan Tribun 24 November 2026: cincin di Toko Emas Laris Rp13,2 juta per suku atau naik Rp50 ribu, dan emas Antam di Palembang Rp2.505.000 per gram. Ia menyarankan sebelum membeli menanyakan dulu harga buyback toko, karena perhiasan dipakai untuk penampilan sedangkan logam mulia untuk simpanan, lalu menutup dengan pertanyaan ringan: pilih perhiasan atau logam mulia.",
+  "caption": "Emas perhiasan di Palembang naik dua hari berturut-turut, cincin di toko emas sekarang Rp13,2 juta per suku dan emas Antam Rp2.505.000 per gram (pantauan Tribun, 24 November 2026). Sebelum beli mending tanya dulu harga buyback tokonya, kalian lebih pilih perhiasan atau logam mulia?\n#palembang #hargaemas #emaspalembang #logammulia #wongkito",
+  "hashtags": [
+    "#palembang",
+    "#hargaemas",
+    "#emaspalembang",
+    "#logammulia",
+    "#wongkito"
+  ],
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), pashmina jersey cokelat susu terlipat rapi, kemeja linen krem dikenakan terbuka di atas dalaman cokelat tua pas badan yang memperlihatkan kontur feminin alami, kulot palazzo cokelat tua high-waisted pleated, kalung liontin emas kecil, berdiri di depan meja kaca counter toko emas di Palembang pada pagi hari; di dalam lemari kaca tersusun gelang kalung dan cincin emas kuning di alas beludru marun, satu batang emas kecil dan sebuah cincin di atas nampan di meja; cahaya pagi alami dengan white balance netral tanpa cast kuning atau oranye, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame mentah bersih tanpa teks tambahan, subtitle, maupun HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261111",
+    "name": "Cream Oversized Linen Shirt & Chocolate Brown Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg",
+    "selection_reason": "Auto-Stylist memilih dari character_wardrobe busana active yang paling lama tidak dipakai dan belum dipakai hari ini: status active, closeup dan fullbody lengkap, last_used_at 22 November 2026, times_used 3. Busana striped taupe dipakai kemarin 24 November (tetap dilewati walau kolom last_used_at-nya belum diperbarui), dan mocha linen dipakai 23 November. Dua baris wardrobe pagi/malam 25 November masih status incomplete tanpa foto, jadi belum bisa dijadikan referensi. Chip referensi outfit ini sudah ada di library Flow flow_1 sebagai dinda_ootd_20261116_cream_linen_choco_fullbody.jpg sehingga tidak perlu unggah aset baru. Palet krem dan cokelat netral tidak bentrok dengan emas kuning di lemari kaca."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "characters/dinda/wardrobe/outfit_dinda_pagi_20261111/fullbody_ootd_916.jpg"
+    ],
+    "verified_from": "Sinkronisasi live Google Flow flow_1 port 9333 pukul 09.01 WIB: saldo 179 kredit, pill Video 720p 12s crop_9_16 x1."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and never change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (natural healthy and proportional feminine Indonesian silhouette, not skinny, with a natural feminine bust contour under her clothing), and image three is the outfit reference for CLOTHING (light cream linen button-up shirt worn open over a fitted tucked-in chocolate brown inner top, chocolate brown high-waisted wide-leg pleated palazzo trousers, chocolate brown jersey pashmina hijab wrapped neatly, small gold round pendant necklace). Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16 frame, one continuous shot, twelve seconds, shot on a smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle. Location: the glass counter of a small gold jewellery shop in Palembang in the morning, inside the glass display case tidy rows of yellow gold bracelets necklaces and rings on deep maroon velvet trays, one small gold bar and one gold ring resting on a tray on the wooden counter in front of her, warm shop interior with a plain wooden wall behind. True-to-life colours with neutral daylight white balance and no yellow or orange colour cast, realistic matte human skin with visible fine pores and natural micro texture, absolutely no waxy plastic or glossy shiny skin, zero CGI, authentic non-AI documentary look, absolutely no on-screen text, no viewfinder overlay, no camera HUD, no timestamp, no subtitles, no watermark. BEATS: from 0.0s to 3.6s she looks straight into the lens with a friendly smile and opens one palm toward the glass case while saying jewellery gold in Palembang has gone up two days in a row; from 3.6s to 7.8s she points once at the ring on the counter tray and once at the small gold bar while giving the ring price per suku and the Antam price per gram; from 7.8s to 12.0s she leans slightly closer with an amused teasing expression and lifts one finger while advising to ask the shop for the buyback price first, then holds a soft smile for the closing question. Natural lip movement matching the spoken Indonesian Palembang dialogue, small natural head tilts, normal blinking, hijab edge moving slightly, no exaggerated gestures, no dancing, no walking.",
+      "dialogue": "Emas perhiasan di Palembang naik dua hari berturut-turut. Cincin di Toko Emas Laris sekarang Rp13,2 juta per suku. Emas Antam Rp2.505.000 per gram. Sebelum beli tanya dulu harga buyback-nya. Kau pilih perhiasan atau logam mulia?",
+      "dialogue_start_seconds": 0.4,
+      "dialogue_read_seconds": 11.2,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://sumsel.tribunnews.com/palembang/1036494/dua-hari-naik-rincian-harga-emas-di-palembang-hari-ini-24-november-2026-perhiasan-antam-melonjak",
+      "title": "Dua Hari Naik, Rincian Harga Emas di Palembang Hari ini 24 November 2026, Perhiasan & Antam Melonjak - Tribunsumsel.com",
+      "observed_at": "2026-11-25T08:22:00+07:00",
+      "evidence": "Tayang Selasa 24 November 2026 pukul 15.06 WIB (penulis Hartati, editor Shinta Dwi Anggraini), dibaca 25 November 2026 pukul 08.22 WIB. Hasil pantauan lapangan TribunSumsel di toko emas Palembang: Toko Emas Makmur Jaya Perumnas menjual perhiasan Rp13 juta per suku (6,7 gram), naik Rp100 ribu dari Rp12,9 juta sehari sebelumnya; Toko Mastuti Gold Lemabang naik Rp200 ribu per suku dari Rp12,8 juta; setengah suku di Mastuti Rp6.500.000; Toko Emas Laris menjual cincin Rp13,2 juta per suku naik Rp50 ribu dari Rp13,15 juta, dan gelang serta kalung Rp13,1 juta per suku naik Rp50 ribu dari Rp13,05 juta. Untuk emas murni, harga jual Antam dan Galeri 24 Pegadaian naik Rp10.000 per gram dari Rp2.495.000 menjadi Rp2.505.000 per gram, sementara buyback Logam Mulia naik Rp20.000 per gram dari Rp2.095.000 ke Rp2.115.000 per gram. Penjual Awi menyebut kenaikan dipicu meredanya ekspektasi kenaikan suku bunga The Fed dan investor mencari aman di tengah gejolak saham berbasis kecerdasan buatan. Angka buyback sengaja tidak dipakai sebagai klaim keras di video karena berbeda dari laporan detikSumbagsel hari yang sama."
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8766973/harga-emas-palembang-naik-buyback-melonjak-cek-rincian-24-november-2026",
+      "title": "Harga Emas Palembang Naik-Buyback Melonjak, Cek Rincian 24 November 2026 - detikSumbagsel",
+      "observed_at": "2026-11-25T08:26:00+07:00",
+      "evidence": "Terbit Selasa 24 November 2026 pukul 11.00 WIB (penulis Melati Putri Arsika), dibaca 25 November 2026 pukul 08.26 WIB. Artikel menyebut harga beli emas Antam naik Rp2.000 per gram dari Rp2.505.000 menjadi Rp2.507.000 per gram, buyback naik Rp15.000 per gram menjadi Rp2.150.000 per gram, serta mencantumkan ketentuan pajak: PPh 22 pembelian 0,25 persen bagi pemilik NPWP/NIK terverifikasi dan 0,5 persen tanpa NPWP, sedangkan buyback di atas Rp10 juta dikenakan PPh 22 1,5 persen (NPWP) atau 3 persen (non-NPWP). Artikel ini dipakai sebagai pembanding arah kenaikan, bukan sumber utama angka, karena tabel harga per pecahannya tidak konsisten (masih berlabel Selasa 10 November 2026 dan satu baris nominal terpotong) dan angka buyback-nya berbeda dari Tribun pada hari yang sama."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Dua sumber diambil apa adanya dari baris trend_memory opt_dinda_B_1795568686 (slot morning pilihan PM). Angka harga di dialog hanya yang konsisten di Tribun: cincin Rp13,2 juta per suku dan Antam Rp2.505.000 per gram. Angka buyback tidak diucapkan karena dua media berbeda Rp35.000 per gram, jadi video hanya menyarankan menanyakan harga buyback.",
+  "production_note": "Generasi 12 detik di Google Flow flow_1 (Omni 1.2 Flash, 720p, 9:16, output 1) dengan tiga chip bahan: face sheet, dinda.jpg, dan chip outfit cream linen choco. Setelah itu rakit lewat app.media.assemble_character_video: upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 (upscayl-lite-4x, texture preserve 0.45, micro grain), hardsub editorial_tiktok dua tingkat bebas tanda koma, dan mixing lo-fi akustik 15 persen dengan vokal 100 persen. Nama final dnd_251126_v1.mp4. QA final wajib memeriksa kebersihan frame mentah, kesesuaian angka harga, dan properti emas yang tetap terlihat di meja."
+}
