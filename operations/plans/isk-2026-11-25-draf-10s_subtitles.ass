@@ -1,0 +1,22 @@
+[Script Info]
+Title: Editorial Two-Tier Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ray_Top,Helvetica Neue,44,&H00FFFFFF,&H000000FF,&H80000000,&H95000000,-1,0,0,0,94,100,-1,0,1,1.6,3,2,60,60,300,1
+Style: Ray_Bot,Times New Roman,126,&H003BFFE8,&H000000FF,&H90000000,&H98000000,0,0,0,0,72,108,-5,0,1,1.4,4,2,60,60,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.50,0:00:02.65,Ray_Top,,0,0,0,,{\pos(540,1502)\blur1.1\t(0,70,\fscx98\fscy104)\t(70,140,\fscx94\fscy100)}KAWAT
+Dialogue: 0,0:00:00.50,0:00:02.65,Ray_Bot,,0,0,0,,{\pos(540,1595)\blur1.4\t(0,70,\fscx76\fscy113)\t(70,140,\fscx72\fscy108)}Licin Diamond
+Dialogue: 1,0:00:02.65,0:00:05.75,Ray_Top,,0,0,0,,{\pos(540,1502)\blur1.1\t(0,70,\fscx98\fscy104)\t(70,140,\fscx94\fscy100)}DARI PT
+Dialogue: 0,0:00:02.65,0:00:05.75,Ray_Bot,,0,0,0,,{\pos(540,1595)\blur1.4\t(0,70,\fscx76\fscy113)\t(70,140,\fscx72\fscy108)}Intan Suar Kartika
+Dialogue: 1,0:00:05.75,0:00:08.50,Ray_Top,,0,0,0,,{\pos(540,1502)\blur1.1\t(0,70,\fscx98\fscy104)\t(70,140,\fscx94\fscy100)}LENTUR BUAT
+Dialogue: 0,0:00:05.75,0:00:08.50,Ray_Bot,,0,0,0,,{\pos(540,1595)\blur1.4\t(0,70,\fscx76\fscy113)\t(70,140,\fscx72\fscy108)}ikat tulangan.

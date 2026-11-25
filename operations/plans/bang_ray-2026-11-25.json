@@ -1,0 +1,116 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Plesteran Rontok Lepas karena Dipasang Sekali Tebal Tanpa Kepalaan: Aturan Senior 10-15 Mili",
+  "hook": "Plesteran rontok lepas dari dinding itu bukan karena semennya kurang tapi karena adukan dipasang sekali tebal tanpa kepalaan. Aturan baku tukang senior tebal plester sepuluh sampai lima belas mili dan lewat dari itu wajib dua lapis. Rakan tim sekali tebal atau tim kepalaan dulu?",
+  "story": "Bang Ray sudah berjongkok di samping dinding rumah setengah jadi di Banda Aceh sejak detik 0.0s, kamera setinggi dada sudut tiga perempat perlahan mendekat. Di depannya satu bidang plesteran besar sudah rompal dan lepas memperlihatkan susunan bata merah, dan satu bongkahan plester kering tergeletak di lantai semen. Tangan kanannya sudah memegang sekop plester berisi adukan segar dan ia mengetuk tepi plesteran yang lepas, mengangkat satu keping tipis yang mau jatuh sebagai peraga, lalu menempelkan bilah sekop datar ke dinding untuk menunjukkan tebal plester satu lapis tanpa patokan. Ia menutup dengan menatap lensa dan mengadu dua kubu cara kerja. Tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan PAKU CAP KERIS berdiri utuh di sudut belakang ruangan.",
+  "caption": "Plesteran rontok lepas dari dinding itu bukan gara-gara semennya kurang tapi karena dipasang sekali tebal tanpa kepalaan. Aturan senior tebal plester sepuluh sampai lima belas mili dan lebih dari itu mesti dua lapis. Rakan di sana tim sekali tebal atau tim kepalaan dulu?\n#tipskonstruksi #plesterandinding #dindingrontok #tukangproyek #bandaaceh #renovasirumah",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#plesterandinding",
+    "#dindingrontok",
+    "#tukangproyek",
+    "#bandaaceh",
+    "#renovasirumah"
+  ],
+  "image_prompt": "Aset master terverifikasi Bang Ray: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah, FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur serta kemeja navy kerja dan celana khaki, dan FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg. Lokasi: dinding rumah setengah jadi di Banda Aceh dengan satu bidang plesteran rompal memperlihatkan bata merah, satu bongkahan plester kering di lantai semen, sekop plester di tangan kanan, tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan PAKU CAP KERIS di sudut belakang ruangan.",
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Plesteran yang rompal dan lepas dari dinding adalah kerusakan finishing paling sering ditemui di rumah tinggal dan biaya perbaikannya mahal. Tiga detik pertama menampilkan kerusakan itu langsung plus aturan baku ketebalan plester tukang senior, lalu penutup mengadu dua kubu cara kerja supaya memancing komentar tanpa mengklaim hasil uji atau angka yang belum terbukti.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Tips lapangan 10 detik satu take, kamera setinggi dada tiga perempat, push-in pelan ke arah dinding yang rompal",
+      "opening": "Sejak 0.0s bidang plesteran rompal, bongkahan plester di lantai, dan sekop berisi adukan di tangan kanan sudah terlihat bersama wajah Bang Ray",
+      "camera": "Medium shot setinggi dada tiga perempat, push-in pelan sekitar setengah meter, goyangan handheld kecil",
+      "core_action": "Mengetuk tepi plesteran lepas, mengangkat satu keping tipis yang mau jatuh, lalu menempelkan bilah sekop datar ke dinding sebagai patokan tebal",
+      "closing": "Menatap lensa dan mengadu dua kubu cara pasang plesteran",
+      "risk": "Bidang plesteran rompal, bongkahan di lantai, dan sekop wajib konsisten bentuk serta posisi sampai frame akhir"
+    },
+    {
+      "id": "B",
+      "format": "Bang Ray berdiri di depan dinding kosong sambil menggambar garis kepalaan pakai kapur",
+      "opening": "Dinding kosong dan kapur, kerusakan plesteran belum terlihat",
+      "camera": "Statis setinggi mata",
+      "core_action": "Menarik garis kapur vertikal sebagai kepalaan",
+      "closing": "Menutup dengan pertanyaan",
+      "risk": "Tidak memperlihatkan kerusakan nyata di detik 0-3 sehingga hook risiko struktur hilang dan mirip pembuka talking head 22-23 November"
+    },
+    {
+      "id": "C",
+      "format": "POV tangan menyusuri permukaan plesteran yang bergelombang, narasi voice over tanpa wajah",
+      "opening": "Hanya tangan dan dinding",
+      "camera": "POV handheld menunduk menyusuri dinding",
+      "core_action": "Mengetuk permukaan plesteran dengan buku jari",
+      "closing": "Lensa menoleh ke wajah di akhir",
+      "risk": "Wajah hilang dari tiga detik pertama sehingga identitas karakter dan hook melemah"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Konsep ini menampilkan wajah, kerusakan plesteran yang nyata, dan angka aturan senior dalam satu frame sejak 0.0s, dengan hanya dua properti genggam di area aksi (sekop plester dan bongkahan plester di lantai) sehingga risiko alat muncul atau hilang paling kecil. Kamera setinggi dada dengan push-in ke dinding belum dipakai pada slot sebelumnya yang memakai kamera rendah hampir setinggi lantai dan take statis.",
+    "history_checked": "Riwayat operasional Bang Ray lima slot terakhir: 24 Nov keramik meledak terangkat karena nat dirapatkan (published, kamera rendah hampir setinggi lantai push-in), 23 Nov kanopi beton ambruk karena angkur ditempel (published, tracking samping), 22 Nov dak retak karena perancah dibongkar cepat (published, take statis di kolong dak), 21 Nov bata kering bikin plesteran rontok siram vs rendam (published, talking head satu alat), 20 Nov rangka atap melintir tanpa ikatan angin (published, talking head). Hari ini kerusakan yang diangkat adalah plesteran rompal dengan angle ketebalan dan kepalaan, bukan pengulangan sebab bata kering 21 November."
+  },
+  "promotional": false,
+  "new_biography_facts": [],
+  "trend_sources": [
+    {
+      "url": "https://www.mortarutama.com/membangun-rumah/ketebalan-plesteran-dinding",
+      "title": "Ketebalan Plesteran Dinding yang Ideal Agar Bangunan Kokoh (Mortar Utama)",
+      "observed_at": "2026-11-25T14:01:20+07:00",
+      "evidence": "Dibaca 25 November 2026 lewat hasil pencarian: ketebalan plester umumnya 10-15 mm dan bila lebih dari itu harus memakai teknik multilayer. Disebutkan plester yang terlalu tebal mudah terlepas karena beban berlebih dan pengeringan tidak merata, dengan risiko retak serta mengelupas. Dasar klaim bahwa plesteran sekali tebal bisa rontok lepas."
+    },
+    {
+      "url": "https://semenmerahputih.com/id/berita/konstruksi/campuran-plester-dinding",
+      "title": "Mengenal Campuran Plesteran Dinding yang Tepat (Semen Merah Putih)",
+      "observed_at": "2026-11-25T14:02:20+07:00",
+      "evidence": "Dibaca 25 November 2026 lewat hasil pencarian: kepalaan plester berfungsi sebagai patokan ketebalan agar dinding tidak bergelombang atau miring dan biasanya dibuat setiap jarak 1 meter. Ketebalan ideal 10-15 mm dengan 10 mm untuk bata ringan, sedangkan plester terlalu tebal membuat dinding mudah retak dan lepas. Dasar angka sepuluh sampai lima belas mili dan istilah kepalaan pada dialog."
+    },
+    {
+      "url": "https://www.kanggo.id/blog/teknik-plester-dinding",
+      "title": "Teknik Plester Dinding: Tahapan dan Risiko yang Sering Terjadi (Kanggo)",
+      "observed_at": "2026-11-25T14:03:20+07:00",
+      "evidence": "Dibaca 25 November 2026 lewat hasil pencarian: tahapan wajib meliputi membersihkan permukaan, membasahi dinding, memasang kepala plester sebagai patokan ketebalan, lalu meratakan dengan jidar, serta larangan mengaplikasikan adukan terlalu tebal dalam satu kali aplikasi. Tanpa patokan, permukaan bergelombang dan retak rambut muncul. Dasar urutan aksi mengetuk, mengangkat keping lepas, lalu menunjukkan patokan tebal."
+    }
+  ],
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [3, 10],
+    "estimated_credits_displayed": 30,
+    "references_attached": 4,
+    "verified_from": "Sinkronisasi live Flow flow_3 port 9335 pukul 14.01 WIB: pil setelan terbaca 'Video · 720p · 10 dtk crop_9_16 x1' dan panel setelan menampilkan 'Pembuatan akan menggunakan 30 kredit' untuk 10 detik 720p."
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Authentic handheld smartphone vlog video of the exact same 26-year-old Indonesian man shown in the attached reference images: the three-expression sheet fixes his FACE IDENTITY (match face shape, nose, eyebrows, eyes, hairline and apparent age exactly, do not change his identity), the full-body turnaround fixes POSTURE and CLOTHING (navy short-sleeve work shirt with two chest pockets over a clean white undershirt, khaki work chino trousers, black field watch on his left wrist, dark brown leather work boots, athletic 173 cm build, natural light-tanned Acehnese skin with visible fine pores), and the profile avatar confirms the same face. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16, 10 seconds, one continuous take, shot on smartphone vlog camera at chest height in a three-quarter angle, small natural handheld sway, one slow push-in of about half a metre towards the damaged wall. Natural clean daylight neutral white balance coming through the open doorway, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Location: one unfinished room of a half-built house in Banda Aceh at midday, bare grey plastered wall with one large ragged patch where the plaster layer has broken off and fallen away exposing the red brick courses underneath, and one single chunk of that fallen dry plaster lying on the grey cement floor beside his left boot. In the back corner of the room stands a stack of sealed kraft cardboard boxes of nails printed with red, yellow and green stripes and the words PAKU CAP KERIS fully visible and legible on the box sides. PROP CONTINUITY RULE: from 0.0s to the last frame exactly two things are handled in the action area, the man and one steel plastering trowel held flat in his right hand; the same trowel stays in his right hand for the whole clip and no hammer, bucket, sponge, ruler, wheelbarrow, second tool or second person ever appears, and nothing vanishes mid-shot; the ragged plaster patch on the wall and the single plaster chunk on the floor keep exactly the same shape and position from the first to the last frame. ACTION: at 0.0s he is already crouched beside the wall, right hand holding the steel trowel with a small fresh ridge of grey mortar on the blade, tapping the loose edge of the broken plaster patch; at 3s he slides the trowel blade under a loose plaster flake and lifts it slightly away, then taps the wall to show the plaster was applied in one thick bulging layer without any guide screed; at 6s he holds the trowel flat against the wall to show the thickness of that single layer; at 8s he turns his eyes straight into the lens and speaks the closing line; at 9.5s he keeps looking at the lens with the trowel still in hand, small confident nod, and the frame holds to the end. He speaks relaxed Banda Aceh Malay in a slightly humorous field-crew tone with natural lip movement in sync with the Indonesian dialogue.",
+      "dialogue": "Plesteran rontok gini bukan karena semennya kurang. Dipasang sekali tebal tanpa kepalaan. Senior bilang tebalnya sepuluh sampai lima belas mili. Lewat itu dua lapis. Tim sekali tebal atau kepalaan dulu?",
+      "dialogue_start_seconds": 0.3,
+      "dialogue_read_seconds": 9.2,
+      "action_end_seconds": 9.7
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "revision_note": "Paket harian 25 November 2026: satu klip utama 10 detik 720p sesuai batas baru Bang Ray. Hook 0-3s mengangkat risiko dinding plesteran rontok dan lepas karena adukan dipasang sekali tebal tanpa kepalaan plus aturan baku tukang senior tebal 10-15 mili. Penutup mengadu dua kubu sekali tebal vs kepalaan dulu. Properti kardus PAKU CAP KERIS wajib terlihat utuh di sudut belakang. Kamera setinggi dada tiga perempat dengan push-in pelan, beda dari kamera rendah 24 November."
+}
