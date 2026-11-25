@@ -1,0 +1,86 @@
+{
+  "id": "isk-2026-11-25",
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "membongkar trik toko nakal dan material banci (kawat galvanis abal-abal, timbangan paku kurang)"
+  ],
+  "role_reason": "Melanjutkan pilar Kawat Licin Diamond dengan satu demonstrasi ikatan tulangan.",
+  "title": "Ikat Tulangan dengan Kawat Licin Diamond",
+  "hook": "Perlihatkan gulungan produk dan proses mengikat tulangan sejak bingkai pertama.",
+  "story": "Detik 0–3 tampilkan gulungan produk dan mandor mulai mengikat. Detik 3–8 mandor menyelesaikan satu ikatan sambil bicara. Detik 8–10 tahan visual hasil.",
+  "caption": "Kawat Licin Diamond lentur untuk mengikat tulangan. Mau tanya ukuran untuk proyekmu? Kirim DM.\n#kawatlicindiamond #kawatbendrat #tulangan #besicor",
+  "hashtags": [
+    "#kawatlicindiamond",
+    "#kawatbendrat",
+    "#tulangan",
+    "#besicor"
+  ],
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kawat_licin_diamond_reference.jpg: roll kawat baja galvanis halus mengkilap, lilitan rapi rapat, permukaan bersih keperakan tanpa serbuk karat. Tidak membuat master wajah baru; pekerja digambarkan mandor berpengalaman berkulit sawo matang dengan pakaian kerja proyek.",
+  "creative": {
+    "character": "Mandor konstruksi Indonesia pria 42 tahun, kemeja kerja abu-abu tua berdebu dengan lengan digulung, celana kerja gelap, sarung tangan kain cokelat, helm proyek kuning berdebu, kulit sawo matang, ekspresi tenang dan berwibawa",
+    "background": "Halaman gudang besi di proyek rumah Medan, tumpukan besi ulir di atas ganjal kayu, lantai semen abu-abu, dinding bata setengah jadi di latar belakang blur, cahaya siang alami sedikit berawan",
+    "action": "Mandor mengikat dua batang tulangan pada meja kerja dengan satu utas kawat. Gulungan Kawat Licin Diamond terlihat di samping tulangan sejak pembuka. Setelah ikatan selesai, kamera menahan hasil.",
+    "selection_reason": "Satu aksi memperlihatkan penggunaan kawat pada tulangan dan menyisakan waktu untuk hasil.",
+    "dialogue": "Kawat Licin Diamond dari PT Intan Suar Kartika lentur buat ikat tulangan.",
+    "dialogue_start_seconds": 0.5,
+    "dialogue_read_seconds": 8,
+    "action_end_seconds": 8.5
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "duration_chosen_seconds": 10
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Mandor mengikat dua batang tulangan pada meja kerja dengan satu utas kawat. Gulungan Kawat Licin Diamond terlihat di samping tulangan sejak pembuka. Setelah ikatan selesai, kamera menahan hasil. Gunakan satu pengambilan 9:16 dengan cahaya siang netral dan gambar bebas teks bawaan. Dialog: \"Kawat Licin Diamond dari PT Intan Suar Kartika lentur buat ikat tulangan.\"",
+      "dialogue": "Kawat Licin Diamond dari PT Intan Suar Kartika lentur buat ikat tulangan.",
+      "dialogue_start_seconds": 0.5,
+      "dialogue_read_seconds": 8,
+      "action_end_seconds": 8.5
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg"
+  ],
+  "flow_ingredients": [
+    "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://perwirasteel.com/blog/cara-memilih-kawat-bendrat/",
+      "title": "Kawat Bendrat yang Bagus Seperti Apa? Ini Cara Memilihnya | Perwira Steel",
+      "observed_at": "2026-11-25T10:03:00+07:00",
+      "evidence": "Dibaca 25 November 2026: kawat bendrat dipakai mengikat rangkaian besi beton sebelum pengecoran dan harus cukup lentur agar mudah dipuntir tanpa mudah putus; ciri kawat kurang baik adalah mudah patah ketika dipuntir, dan kawat yang mudah putus memperlambat pekerjaan."
+    },
+    {
+      "url": "https://www.grasiasentosa.com/kesalahan-yang-sering-terjadi-saat-menggunakan-kawat-bendrat-dalam-proyek/",
+      "title": "Kesalahan yang Sering Terjadi Saat Menggunakan Kawat Bendrat dalam Proyek - PT Grasia Sentosa",
+      "observed_at": "2026-11-25T10:04:00+07:00",
+      "evidence": "Dibaca 25 November 2026: kawat bendrat yang terlalu rapuh atau mudah putus menghambat pekerjaan, membuat proses pengikatan lebih lama dan sering terjadi pengulangan pekerjaan; memutar kawat melewati batas juga membuat kawat mudah putus."
+    }
+  ],
+  "historical_fact_sources": [],
+  "owner_note_applications": {
+    "e383891755e64a1faf2dd06d3f16924d": "Dialog 12 kata dibaca selama 8 detik dengan artikulasi tenang. Gulungan dan utas kawat sudah berada pada meja sejak pembuka. Akhiri pada visual ikatan."
+  },
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Brief riset dari rencana pagi dipertahankan. Caption berfokus pada penggunaan kawat untuk mengikat tulangan dan CTA melalui DM.",
+  "status_note": "Draf naskah 10 detik. Belum ada media final. Pengajuan 12 detik sebelumnya tetap tercatat dan memerlukan rekonsiliasi terpisah."
+}
