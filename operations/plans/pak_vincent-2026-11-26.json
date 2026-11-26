@@ -1,0 +1,76 @@
+{
+  "id": "pak_vincent-2026-11-26",
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Buah Nginep di Bak Kena Potong RAM",
+  "hook": "Ribut dodos lawan egrek belum selesai wak padahal buah yang nginep di bak kena potong RAM",
+  "story": "Di tempat pengumpulan hasil, bak lori sudah penuh janjang TBS. Pak Vincent berdiri di samping bak sambil bicara ramah khas Riau bahwa perdebatan dodos lawan egrek tidak pernah selesai, padahal yang lebih cepat menguras duit adalah buah yang menginap lama di bak: asam lemak bebas naik, rendemen turun, harga kena potong di RAM. Penutupnya menantang penonton memilih kubu alat panen agar komentar ramai.",
+  "role_tags": [
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)",
+    "sudut hari ini: TBS menginap di bak membuat ALB naik dan rendemen turun sehingga harga kena potong"
+  ],
+  "role_reason": "Dari lima video terverifikasi terakhir (22, 21, 20, 18, 17 November) tema potongan RAM PKS belum dibahas sejak 18 November yang membahas tangkai panjang. Sudut hari ini berbeda: bukan tangkai, bukan janjang mentah, tetapi TBS yang menginap di bak sehingga ALB naik dan rendemen turun. Kamera juga diganti menjadi tracking menyamping, bukan statis jongkok seperti 22 November. Perdebatan dodos lawan egrek tetap dipakai sebagai pemancing komentar.",
+  "caption": "Ribut dodos lawan egrek belum habis wak padahal buah yang nginep lama di bak bikin ALB naik dan rendemen turun jadi harga kena potong di RAM. Kawan di kebun biasa kirim buah berapa jam setelah panen?\n#kebunsawit #tbs #potongantimbangan #panensawit #dodosvsegrek #sawitriau",
+  "hashtags": ["#kebunsawit", "#tbs", "#potongantimbangan", "#panensawit", "#dodosvsegrek", "#sawitriau"],
+  "image_prompt": "Identitas memakai entitas Personal Flow Character 'Pak Vincent' untuk wajah dan postur sesuai aturan identitas visual Flow. Pakaian kerja: kaos katun lengan panjang biru tua polos tanpa logo atau grafis, celana kerja gelap, topi baseball cap polos gelap, sandal karet. Properti: satu kereta sorong baja merah bertulisan FIVE STAR pada sisi bak mengacu characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg dengan dua janjang TBS di baknya, satu dodos tua bersandar pada sisi bak lori, latar bak lori berisi janjang TBS di tempat pengumpulan hasil kebun sawit Riau.",
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Create an original 10-second vertical 9:16 handheld smartphone documentary vlog at a fresh fruit collection point (TPH) beside an oil palm smallholding near Pekanbaru, Riau, in soft late-afternoon light. Use the attached personal Flow Character named Pak Vincent for the face and the body: one lean wiry Indonesian plantation worker of about 35 with weathered sun-tanned matte skin and fine visible pores, a thin mustache, warm friendly eyes, a plain navy-blue long-sleeve cotton work shirt with no logo or graphic, dark work trousers, a plain dark baseball cap and rubber work sandals. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. CAMERA: chest-height handheld about 1.5 metres away in a three-quarter front angle, slowly tracking sideways in one smooth continuous move with a little natural sway, keeping the open steel tailgate of the lorry bak in the left third of the frame and the dirt road behind him soft. PROP CONTINUITY: (1) one single red steel wheelbarrow matching the attached wheelbarrow reference stands parked on the dirt at frame right with two fresh orange-red oil palm fruit bunches resting in its tray, framed at a three-quarter angle so the small physical stencil reading exactly FIVE STAR stays legible on the outward tray side, keeping the same position and believable scale with its black tyre and support legs on the dirt from the first frame to the last; (2) one old dodos with a short wooden handle and a chisel-shaped steel blade leans against the side of the lorry bak at frame left from the first frame to the last. No other tool, sack, bucket, second person or animal may appear, enter the frame or disappear at any moment. BEATS: at 0.0s the lorry bak behind him is already loaded with a row of oil palm fresh fruit bunches and he is already talking, half turned toward the load with his chin tilted at it, and he says in Indonesian with a warm relaxed Riau delivery, \\\"Ribut dodos lawan egrek belum selesai wak padahal buah nginep di bak kena potong RAM.\\\"; from 5.2s he turns his upper body to the lens, taps the steel tailgate once with his open palm and says with a wry shake of the head, \\\"Kawan tim dodos atau tim egrek?\\\"; the final 0.8s holds on his calm friendly half smile with his hand still on the tailgate. Natural Indonesian lip-sync, natural blinking, small head movement, no exaggerated gestures, anatomically correct hands with five fingers. Ambient only: dry plantation afternoon room tone with faint distant birds and light breeze in the palm fronds, no music, no voiceover. Smartphone vlog camera at 24fps, natural clean daylight with neutral white balance, true-to-life colours, realistic matte human skin with visible pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI look, authentic documentary footage. Clean frame without camera HUD, no REC icon, no viewfinder brackets, no on-screen text, zero subtitles, zero captions, zero watermark, zero logo. Keep his face, cap, shirt, the leaning dodos, the FIVE STAR wheelbarrow and the loaded lorry bak consistent in every frame.",
+      "dialogue": "Ribut dodos lawan egrek belum selesai wak padahal buah nginep di bak kena potong RAM. Kawan tim dodos atau tim egrek?",
+      "dialogue_start_seconds": 0.2,
+      "dialogue_read_seconds": 8.6,
+      "action_end_seconds": 9.2
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow_ingredients": [
+    "Flow Character: Pak Vincent",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 30,
+    "duration_credit_verified": true,
+    "references_attached": 2,
+    "identity_chip_policy": "Memakai entitas Personal Flow Character Pak Vincent sebagai chip identitas sesuai aturan identitas visual proyek, ditambah satu foto produk kereta sorong FIVE STAR.",
+    "verified_from": "Pembacaan live panel Flow flow_5 (port 9334) 26 November 2026 16.34 WIB: pill 'Video 720p 10 dtk crop_9_16 x1', panel menampilkan 30 kredit, saldo akun 639 kredit dari sinkronisasi 16.31 WIB."
+  },
+  "trend_sources": [
+    {
+      "url": "https://jurnal.unpad.ac.id/teknotan/article/download/62442/pdf",
+      "title": "Pengaruh Kerusakan dan Lama Penyimpanan Tandan Buah Segar (TBS) Terhadap Asam Lemak Bebas (ALB)",
+      "observed_at": "2026-11-26T16:30:30+07:00",
+      "evidence": "Dibaca 26 November 2026: kadar ALB naik sekitar 0,1 persen setiap 24 jam setelah panen dan kenaikan jauh lebih cepat pada buah memar; TBS sebaiknya diproses maksimal 24 jam sejak panen."
+    },
+    {
+      "url": "https://ejournal.unmus.ac.id/index.php/agri/article/download/4358/2311",
+      "title": "Efektivitas Sistem Angkut Bahan Baku Tandan Buah Segar (TBS) Kelapa Sawit Untuk Peningkatan Mutu Buah di Kebun",
+      "observed_at": "2026-11-26T16:31:00+07:00",
+      "evidence": "Dibaca 26 November 2026: pengangkutan TBS maksimal 8 jam setelah panen, lebih dari itu ALB meningkat dan rendemen mengecil; standar mutu ALB CPO maksimal 3,50 persen."
+    },
+    {
+      "url": "https://haisawit.co.id/news/detail/melawan-asam-lemak-bebas-mengapa-tbs-sawit-tak-boleh-menginap-di-tph",
+      "title": "Melawan Asam Lemak Bebas, Mengapa TBS Sawit Tak Boleh Menginap di TPH?",
+      "observed_at": "2026-11-26T16:31:00+07:00",
+      "evidence": "Dibaca 26 November 2026: penundaan pengolahan menaikkan ALB dan menurunkan rendemen minyak sehingga mutu dan nilai TBS turun; brondolan cepat teroksidasi."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Klaim ALB naik dan rendemen turun saat TBS menginap didasarkan pada jurnal Teknotan Unpad 2025, artikel jurnal Unmus tentang sistem angkut TBS, dan edukasi HaiSawit. Kereta sorong bertulisan FIVE STAR hanya properti kerja latar sesuai aturan Pak Vincent 21 November 2026 dan tidak disebut di dialog maupun caption.",
+  "production_note": "Satu klip 10 detik 720p native 9:16 (30 kredit terverifikasi panel Flow). Dialog dua frasa sekitar 21 kata, sesuai batas aman pasca kegagalan 24 dan 25 November yang kehilangan frasa pada naskah empat sampai enam frasa. Frame mentah wajib bebas teks AI, lalu dirakit python3 -m app.media --character pak_vincent (upscale Varian 3 Hybrid Foto-Realistik, subtitle editorial_tiktok dua tingkat bebas koma) menjadi characters/pak_vincent/content/pak_vincent-2026-11-26/vin_261126_v1.mp4."
+}
