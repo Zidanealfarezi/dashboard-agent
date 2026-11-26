@@ -1,0 +1,124 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-26",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-26T08:05:00+07:00",
+  "collected_by": "hermes-cron-ootd-trend",
+  "note": "Riset pagi 26 November 2026. Halaman tren TikTok lagitren.id/tiktok diperbarui 26 Nov 07.14 WIB dan seluruh 10 video viral + 20 hashtag hari ini bertema Hari Guru Nasional, Onthellifestreetbike, Mustahil, Kelir Malam, Ezklip, Motionklip: tidak ada satu pun tag kuliner maupun angka tren nasional untuk makanan, jadi brief ini bersandar pada berita lokal bertanggal yang benar-benar dibaca. Variasi tema dijaga: hanya 1 dari 3 kandidat menyentuh keluarga pempek (kandidat C), dua kandidat lain dari pilar event/lifestyle (A) dan keseharian/transportasi kota (B). Tidak ada ramalan cuaca BMKG, rilis seremonial dinas, atau statistik inflasi.",
+  "candidates": [
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8770027/jadwal-lengkap-kambang-iwak-fest-2026-di-palembang-26-28-november",
+      "title": "Jadwal Lengkap Kambang Iwak Fest 2026 di Palembang 26-28 November (detikSumbagsel)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-26T06:00:13+07:00",
+      "observed_at": "2026-11-26T08:12:00+07:00",
+      "evidence": "Terbit Kamis 26 November 2026 pukul 06.00 WIB (meta pubdate 2026-11-26T06:00:13+07:00), dibaca 26 November 2026 pukul 08.12 WIB, 13 paragraf badan plus 6 butir tips. Kambang Iwak Fest 2026 digelar 26-28 November 2026 di kawasan Kambang Iwak, pelataran depan Rumah Dinas Wali Kota Palembang, bertema 'Satu Festival, Beragam Pesona'. Rangkaian acara: Festival Kuliner Halal Nusantara, Pameran Ekonomi Kreatif Palembang, lomba fashion show, lomba tari kreasi, kompetisi stand up comedy, penampilan wushu dan barongsai, parade drumband, parade budaya, fashion show wastra, dan hiburan musik. Jadwal per hari yang tertulis: Kamis 26 November musik klasik, Sandratari Duta Budaya Sumsel, band Hutan Tropis, Sanggar Awen Collection, Gankz Smokers Band, Tari Kreasi Sanggar Musi; Jumat 27 November Lomba Tari Kreasi Sumatera Selatan pukul 08.00 WIB dan Lomba Fashion Show Wastra Palembang pukul 15.00 WIB; Sabtu 28 November Lomba Stand Up Comedy Competition pukul 08.00 WIB dan Lomba Fashion Show Karnaval pukul 15.30 WIB. Tips yang dimuat: datang lebih awal, periksa jadwal kegiatan, gunakan pakaian yang nyaman, perhatikan lokasi parkir, jaga kebersihan, pantau informasi resmi penyelenggara. Artikel merujuk Instagram Pariwisata Palembang sebagai sumber jadwal; tidak menyebut harga tiket masuk."
+    },
+    {
+      "url": "https://sumsel.antaranews.com/berita/829207/lrt-sumsel-berlakukan-tarif-rp0-peringati-hari-transportasi-sedunia",
+      "title": "LRT Sumsel berlakukan tarif Rp0 peringati Hari Transportasi Sedunia (ANTARA Sumsel)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-26T07:48:00+07:00",
+      "observed_at": "2026-11-26T08:16:00+07:00",
+      "evidence": "Terbit Kamis 26 November 2026 pukul 07.48 WIB (meta datePublished Thu, 26 Nov 2026 08:02:41 +0700), dibaca 26 November 2026 pukul 08.16 WIB. KAI Divre III Palembang bersama BPKARSS memberlakukan tarif khusus Rp0 untuk pengguna LRT Sumatera Selatan pada Kamis 26 November 2026 dalam rangka Hari Transportasi Berkelanjutan Sedunia 2026. Rincian tarif: pembayaran tunai dikenakan Rp0 atau gratis, pengguna Kartu Uang Elektronik (KUE) dikenakan tarif Rp1. Manajer Humas KAI Divre III Palembang Aida Suryanti menyebut program ini untuk mengajak warga beralih ke transportasi publik dan mengurangi kendaraan pribadi, kemacetan, serta emisi. Fasilitas stasiun yang disebut: eskalator, lift dan toilet khusus penyandang disabilitas, ruang kesehatan, ruang menyusui, area bermain anak, stasiun pengisian daya, layanan barang tertinggal, taman baca, ruang kreasi, co-working space, dan stan UMKM lokal. Ajakan resmi: manfaatkan tarif khusus pada 26 November."
+    },
+    {
+      "url": "https://rri.co.id/palembang/ekonomi/umkm/2925681/ojk-dorong-umkm-pempek-sumsel-perluas-pasar-ekspor",
+      "title": "OJK Dorong UMKM Pempek Sumsel Perluas Pasar Ekspor (RRI Palembang)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-25T22:43:00+07:00",
+      "observed_at": "2026-11-26T08:20:00+07:00",
+      "evidence": "Terbit Rabu 25 November 2026 pukul 22.43 WIB (meta datePublished 2026-11-25T22:43:00+07:00), dibaca 26 November 2026 pukul 08.20 WIB, 14 paragraf. Kepala OJK Sumsel Arifin Susanto menyebut produksi pempek sekitar 20 ton per hari, nilai ekspor kerupuk Sumsel Rp180 miliar per tahun, dan ekspor kopi Sumsel 359 ton per tahun. Pempek disebut bukan sekadar produk kuliner tetapi punya potensi ekonomi bagi pertumbuhan usaha masyarakat. Faktor yang disebut untuk UMKM naik kelas: akses pembiayaan lebih mudah, peningkatan kualitas produk, kemasan menarik, perluasan pemasaran, serta literasi dan inklusi keuangan. Disebut juga Gerakan 100.000 Sultan Muda Sumsel untuk kewirausahaan generasi muda. Tidak ada angka harga per butir atau harga per kilo pempek di artikel ini."
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini 26 November 2026 (lagitren.id)",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-26T08:08:00+07:00",
+      "evidence": "Halaman diakses 26 November 2026 pukul 08.08 WIB, tertulis 'diperbarui 26 Nov, 07.14 WIB'. Sepuluh video viral: harigurunasional (4,0 jt), harigurunasional2026 (557,6 rb), onthellifestreetbike (2,4 jt), mustahil (4,8 jt), susanti (2,4 jt), robida7 (3,0 jt), cbnganjuk (430,5 rb), kelirmalam (21,7 jt), ezklip (9,0 jt), motionklip (6,5 jt). Dua puluh hashtag tren hari ini juga tidak memuat tag kuliner, makanan, atau daerah. Halaman tidak menampilkan angka tren nasional untuk topik makanan, jadi brief ini tidak memakai klaim tren nasional kuliner apa pun."
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Kambang Iwak Fest 2026 Mulai Hari Ini: Lomba Fashion Show Wastra Jumat Sore",
+      "pillar": "Lifestyle & Spot Nongkrong Palembang",
+      "hook": "Kambang Iwak Fest 2026 mulai hari ini, dan Jumat sore jam tigo ado lomba fashion show wastra Palembang.",
+      "shots": [
+        "Shot 1 (7s): Dinda berjalan di trotoar tepi Kambang Iwak dengan tas kecil, menyebut festival berlangsung 26 sampai 28 November di pelataran depan Rumah Dinas Wali Kota dan menyebut tema Satu Festival Beragam Pesona.",
+        "Shot 2 (7s): Dinda berdiri dekat pagar danau, menyebut jadwal penting: Lomba Tari Kreasi Sumsel Jumat jam 08.00 WIB, Lomba Fashion Show Wastra Jumat jam 15.00 WIB, lalu Stand Up Comedy dan Fashion Show Karnaval Sabtu jam 15.30 WIB, sambil mengingatkan datang lebih awal dan pakai pakaian nyaman."
+      ],
+      "sound": "Ambience taman kota sore, suara orang lewat samar, tanpa musik",
+      "outfit": "Pastel taupe knit cardigan, inner putih, wide leg pants beige (outfit_dinda_pagi_20261126)",
+      "caption": "Kambang Iwak Fest 2026 jalan 26 sampai 28 November di pelataran depan Rumah Dinas Wali Kota. Jumat sore jam 3 ada lomba fashion show wastra, kalian mau nonton atau ikut turun? #kambangiwakfest #palembang #fashionpalembang #eventpalembang #infopalembang",
+      "sources": [
+        "https://www.detik.com/sumbagsel/berita/d-8770027/jadwal-lengkap-kambang-iwak-fest-2026-di-palembang-26-28-november",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 4.0,
+        "actionable_solution": 9.0,
+        "local_relevance": 10.0,
+        "momentum": 9.5,
+        "evidence_strength": 9.0,
+        "format_fit": 9.5,
+        "risk_safety": 9.5
+      },
+      "why": "Satu-satunya kandidat yang acaranya mulai hari ini dan punya jadwal jam yang jelas per hari (Jumat 15.00 lomba fashion show wastra, Sabtu 15.30 karnaval), jadi nilai aksinya nyata: penonton bisa langsung datang. Tema busana masuk pilar lifestyle Dinda (Kambang Iwak disebut eksplisit di content_pillars) dan lokasinya di ruang publik tanpa tiket masuk menurut artikel. Bukti kuat: artikel detik terbit 26 November 2026 pukul 06.00 WIB dengan 13 paragraf isi dan 6 butir tips. Kelemahan yang diakui: tidak ada angka keramaian atau jumlah pengunjung di artikel, jadi kandidat ini tidak diberi skor pain point tinggi (4.0). Selisih dengan kandidat B sangat tipis, 7,86 lawan 7,85, jadi keputusan ini dimenangkan oleh cakupan: B hanya soal satu hari naik LRT, sedangkan A menyatukan acara yang sedang berjalan tiga hari, jadwal jam yang bisa langsung dipakai, dan pilar busana yang memang jadi lini Dinda."
+    },
+    {
+      "code": "B",
+      "title": "LRT Palembang Gratis Hari Ini: Tunai Rp0, Kartu Uang Elektronik Rp1",
+      "pillar": "Keseharian & Transportasi Kota",
+      "hook": "Hari ini saja, naik LRT Palembang bayar tunai Rp0 dan kalau pakai kartu uang elektronik cuma Rp1.",
+      "shots": [
+        "Shot 1 (7s): Dinda berdiri di depan loket Stasiun LRT Bumi Sriwijaya, menyebut tarif khusus Rp0 berlaku Kamis 26 November 2026 untuk peringatan Hari Transportasi Berkelanjutan Sedunia, bayar tunai gratis.",
+        "Shot 2 (7s): Dinda menempel kartu uang elektronik di gate, menyebut pengguna KUE kena Rp1, lalu menyebut fasilitas stasiun seperti ruang menyusui, taman baca, co-working space, dan stan UMKM, sebelum bertanya mau ke stasiun mana."
+      ],
+      "sound": "Ambience stasiun dan pintu gate LRT, tanpa musik",
+      "outfit": "Pastel taupe knit cardigan, inner putih, wide leg pants beige (outfit_dinda_pagi_20261126)",
+      "caption": "Hari ini LRT Sumsel gratis untuk pembayaran tunai, kalau pakai kartu uang elektronik cuma kena Rp1. Mau naik sampai stasiun mana hari ini? #lrtpalembang #transportasipalembang #palembang #infopalembang #keseharian",
+      "sources": [
+        "https://sumsel.antaranews.com/berita/829207/lrt-sumsel-berlakukan-tarif-rp0-peringati-hari-transportasi-sedunia",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 4.5,
+        "actionable_solution": 9.5,
+        "local_relevance": 9.5,
+        "momentum": 8.5,
+        "evidence_strength": 8.5,
+        "format_fit": 8.5,
+        "risk_safety": 9.5
+      },
+      "why": "Nilainya sangat praktis dan bisa dipakai hari ini juga: tunai Rp0, KUE Rp1, disebut langsung oleh Manajer Humas KAI Divre III. Pilar keseharian dan naik LRT Sumsel memang ada di content_pillars Dinda. Momentum tinggi tetapi sempit karena hanya berlaku 26 November, dan artikelnya rilis 07.48 WIB pagi ini sehingga jam tayang idealnya siang ini. Tidak diberi skor pain point lebih tinggi karena tidak ada angka ongkos normal atau keluhan penumpang di artikel."
+    },
+    {
+      "code": "C",
+      "title": "Pempek Palembang 20 Ton Sehari, Kerupuk Sumsel Ekspor Rp180 Miliar Setahun",
+      "pillar": "Kuliner Khas Palembang",
+      "hook": "Pempek Palembang ternyata diproduksi sekitar 20 ton sehari, dan kerupuk Sumsel sudah diekspor Rp180 miliar setahun.",
+      "shots": [
+        "Shot 1 (7s): Dinda di depan meja pempek, menyebut angka dari OJK Sumsel: produksi pempek sekitar 20 ton per hari dan ekspor kerupuk Sumsel Rp180 miliar per tahun.",
+        "Shot 2 (7s): Dinda menyebut empat hal yang diminta OJK untuk UMKM naik kelas yaitu pembiayaan, kualitas produk, kemasan, dan pemasaran, lalu bertanya pempek favorit penonton."
+      ],
+      "sound": "Ambience warung pempek, tanpa musik",
+      "outfit": "Chocolate brown open knit, inner ivory, cream pleated palazzo (outfit_dinda_malam_20261126)",
+      "caption": "Pempek Palembang produksinya sekitar 20 ton sehari, dan kerupuk Sumsel sudah ekspor Rp180 miliar setahun. Kalian paling suka pempek yang mana? #pempekpalembang #umkmpalembang #kulinerpalembang #infopalembang #sumsel",
+      "sources": [
+        "https://rri.co.id/palembang/ekonomi/umkm/2925681/ojk-dorong-umkm-pempek-sumsel-perluas-pasar-ekspor",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 6.0,
+        "actionable_solution": 7.0,
+        "local_relevance": 9.0,
+        "momentum": 7.0,
+        "evidence_strength": 8.0,
+        "format_fit": 8.0,
+        "risk_safety": 9.0
+      },
+      "why": "Angkanya konkret (20 ton sehari, kerupuk Rp180 miliar setahun, kopi 359 ton) dan itu jarang dibahas di konten Palembang, tetapi ini keluarga tema pempek dan hari ini sudah ada dua kandidat non-pempek yang lebih segar, jadi sengaja ditempatkan sebagai opsi ketiga sesuai aturan maksimal satu kandidat pempek per hari. Sisi solusinya lemah untuk penonton TikTok karena empat faktor OJK bersifat umum, bukan trik yang bisa langsung dipraktikkan."
+    }
+  ]
+}
