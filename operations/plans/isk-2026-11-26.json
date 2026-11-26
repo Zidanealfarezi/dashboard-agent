@@ -1,0 +1,109 @@
+{
+  "id": "isk-2026-11-26",
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "membongkar trik toko nakal dan material banci (kawat galvanis abal-abal, timbangan paku kurang)"
+  ],
+  "role_reason": "Rotasi pilar wajib: 24 November Kawat Duri Diamond, 23 November Kereta Sorong Five Star, 22 November Paku Cap Keris, 21 November Kawat Licin Diamond. Slot 25 November untuk pilar Kawat Licin ditahan karena kredit Flow habis sehingga tidak ada video terbit. Hari ini (26 November) pilar yang paling lama tidak tampil adalah Kawat Licin Diamond (21 November), jadi pilar itu dipakai lagi dengan sudut baru: uji lentur berulang lima kali di satu titik pada besi tulangan, bukan uji pelintir tang 21 November. Tidak ada tema timbangan 25 kg dan tidak ada nomor WhatsApp.",
+  "title": "Kawat Ikat Dilipat Lima Kali Tetap Utuh",
+  "hook": "Kawat ikat dilipat bolak balik di titik yang sama sampai lima kali tanpa patah",
+  "story": "Di area tulangan kolom sebuah rumah, pekerja sudah memelintir ikatan kawat pada persilangan begel dengan tang, sementara satu gulung kawat licin galvanis mengkilap berdiri di dalam keranjang kiri bawah frame. Ia mengencangkan ikatan, lalu melipat ujung kawat bolak balik lima kali tepat di titik yang sama; kawat tetap utuh dan mengkilap tanpa serpihan. Ia menarik ujung kawat kuat ke arah dada, permukaan kawat tetap bersih, lalu ia mengetuk gulungan kawat di keranjang dan menoleh ke lensa. Penutup mengarahkan penonton menanyakan ukuran kawat lewat DM, tanpa nomor WhatsApp.",
+  "caption": "Kawat murah yang getas dipilin sekali langsung patah, ikatan besi cor jadi harus diulang dari awal. Kawat Licin Diamond tetap ulet walau dilipat berkali-kali di titik yang sama, spek lengkapnya tanya lewat DM.\n#kawatlicindiamond #kawatikat #besicor #materialbangunan",
+  "hashtags": "#kawatlicindiamond #kawatikat #besicor #materialbangunan",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kawat_licin_diamond_reference.jpg: gulungan kawat baja galvanis licin yang mengkilap dengan lilitan padat dan rapi, tanpa label cetak. Tidak membuat master wajah baru; pekerja digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji lentur berulang lima kali di satu titik pada tulangan kolom, kamera handheld setinggi dada, satu take",
+      "opening": "Sejak 0.0s pekerja sudah memelintir ikatan kawat dengan tang, gulungan kawat licin mengkilap berdiri di keranjang kiri bawah frame",
+      "camera": "Handheld smartphone setinggi dada, sedikit menyudut ke tulangan, goyangan natural, kamera maju setengah langkah di akhir",
+      "core_action": "Mengencangkan ikatan, lalu melipat ujung kawat bolak balik lima kali di titik yang sama; kawat tetap utuh dan mengkilap, lalu ditarik kuat tanpa putus",
+      "closing": "Mengetuk gulungan kawat di keranjang dan menoleh ke lensa sambil satu kalimat penutup",
+      "risk": "Gulungan kawat, tang dan tulangan wajib terlihat utuh dari frame pertama sampai terakhir agar kontinuitas properti terbukti"
+    },
+    {
+      "id": "B",
+      "format": "Makro top-down dua tangan melipat kawat di atas balok kayu, tanpa wajah",
+      "opening": "Dua tangan berdebu memegang potongan kawat di atas meja kayu sejak 0.0s",
+      "camera": "Statis top-down dekat, fokus makro ke titik lipatan",
+      "core_action": "Kawat dilipat berkali kali sampai salah satu ujung patah",
+      "closing": "Tangan meletakkan gulungan kawat di sebelah potongan yang utuh",
+      "risk": "Wajah hilang dari frame sehingga konteks ISK hilang, dan gerak jari makro rawan cacat anatomi pada model video"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi di depan rak toko membandingkan dua gulung kawat, wide statis",
+      "opening": "Dua gulungan kawat berdampingan sejak 0.0s, satu mengkilap satu kusam",
+      "camera": "Wide statis setinggi pinggang di lorong toko bangunan",
+      "core_action": "Menunjuk lapisan seng kawat murah yang kusam lalu kawat yang mengkilap",
+      "closing": "Menunjuk gulungan mengkilap lalu bicara ke kamera",
+      "risk": "Menampilkan produk pesaing dan menyiratkan uji banding yang tidak benar-benar dilakukan, melanggar aturan anti klaim tak terbukti"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Uji lentur lima kali di satu titik memperlihatkan klaim ulet dan tidak mudah patah secara kasat mata dalam satu take, wajah dan seragam kerja tetap terbaca sehingga konteks ISK jelas, dan geraknya berbeda dari uji pelintir tang 21 November maupun uji tarik pagar 24 November. Gulungan kawat resmi terlihat sejak detik nol sesuai aturan produk di 3 detik pertama.",
+    "history_checked": "Riwayat operasional ISK lima slot terakhir: 25 Nov pilar Kawat Licin direncanakan tetapi ditahan karena kredit Flow 0 sehingga tidak ada media dan tidak ada posting; 24 Nov Kawat Duri Diamond edukasi lapisan galvanis (published); 23 Nov Kereta Sorong Five Star drop test (published); 22 Nov Paku Cap Keris dipukul balok kayu keras (published); 21 Nov Kawat Licin Diamond dipilin tang (published). Tidak ada data views per video di sumber lokal."
+  },
+  "creative": {
+    "character": "Pekerja konstruksi Indonesia pria 38 tahun, kemeja kerja lengan panjang biru pudar berdebu, celana kerja gelap, sarung tangan kain abu-abu, topi lapangan cokelat, kulit sawo matang terbakar matahari",
+    "background": "Area tulangan kolom di proyek rumah Sumatra Utara: dua batang besi ulir vertikal dengan begel persegi, tanah semen abu-abu, tumpukan besi di belakang blur, cahaya siang terang berawan",
+    "action": "Memelintir ikatan kawat dengan tang sampai kencang, melipat ujung kawat bolak balik lima kali di titik yang sama tanpa patah, menarik ujungnya kuat, mengusap permukaan kawat dengan sarung tangan, lalu mengetuk gulungan kawat di keranjang",
+    "selection_reason": "Satu aksi lipat berulang yang bisa diperiksa frame awal sampai akhir, produk resmi terlihat sejak detik nol, dan tidak butuh alat tambahan yang bisa muncul-hilang di tengah take.",
+    "dialogue": "Kawat murah getas dipilin langsung patah. Kawat Licin Diamond PT Intan Suar Kartika tetap ulet.",
+    "dialogue_start_seconds": 0.0,
+    "dialogue_read_seconds": 9.0,
+    "action_end_seconds": 9.7
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 30,
+    "references_attached": 1,
+    "verified_from": "Panel setelan Google Flow flow_2 pada 26 November 2026 10.06-10.08 WIB: pill komposer 'Video · 720p · 10 dtk crop_9_16 x1' dan keterangan 'Pembuatan akan menggunakan 30 kredit'. Menu akun Coral Gaming pukul 10.08 WIB menampilkan 50 kredit Google Flow."
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "dialogue": "Kawat murah getas dipilin langsung patah. Kawat Licin Diamond PT Intan Suar Kartika tetap ulet.",
+      "dialogue_start_seconds": 0.0,
+      "action_end_seconds": 9.7,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 10 seconds, one continuous take, shot on a smartphone vlog camera held at chest height with gentle natural handheld sway and a slight three-quarter angle toward a column rebar cage, real daylight documentary look, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Location: a house construction site in North Sumatra, a column rebar cage of two vertical deformed steel bars with square stirrups, grey cement dust on the ground, a blurred stack of rebar behind, bright overcast midday light from the open sky. On the ground at the lower left of the frame, from the very first frame, one upright coil of the bright galvanised smooth wire from the single attached official reference photo stands inside a black plastic crate, its tight shiny silver coil facing the camera. An Indonesian male construction worker about 38 years old in a faded dusty blue long-sleeve work shirt, dark work trousers, grey cotton work gloves and a brown field cap stands at the cage; his face, gloved hands and torso stay in frame the whole take. PROP CONTINUITY RULE: from 0.0s to 10.0s exactly one shiny wire coil in the crate, one pair of pliers in his right hand, one short tied wire loop on the stirrup crossing and the two vertical bars are the only props; no hammer, machete, bucket, wheelbarrow, vehicle, animal, extra person, extra wire roll or extra tool may appear, move in, fall or disappear at any instant, the wire thickness and coil shape must not change, and no tie may come loose. BEATS: at 0.0s he already grips the pliers and twists the tied wire loop tight around the stirrup crossing in one firm unhurried motion while saying in calm Indonesian with accurate lip sync, \"Kawat murah getas dipilin langsung patah\". From 3.6s he releases the pliers, takes the loose wire tail in both gloved hands and folds it sharply at the same single point back and forth five times; the bright silver wire stays intact, does not snap and does not flake, and he pauses about one second in silence. From 6.6s he pulls the tail hard toward his chest, the wire stays straight and shiny, then he runs his gloved thumb along the wire surface and turns it toward the lens while saying calmly, \"Kawat Licin Diamond PT Intan Suar Kartika tetap ulet\". From 9.0s he looks at the camera, taps the wire coil in the crate with his gloved knuckle and holds a small nod until 10.0s. Calm authoritative mandor tempo around one and a half words per second, natural breathing pause between the two spoken beats, real construction-site ambience with faint clink of steel and distant site noise, no music. Keep his face, clothing, gloves, cap, rebar cage and background consistent throughout every frame."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg"
+  ],
+  "flow_ingredients": [
+    "characters/isk/assets/brand/kawat_licin_diamond_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://perwirasteel.com/blog/cara-memilih-kawat-bendrat",
+      "title": "Kawat Bendrat yang Bagus Seperti Apa? Ini Cara Memilihnya",
+      "observed_at": "2026-11-26T10:03:00+07:00",
+      "evidence": "Dibaca 26 November 2026 pukul 10.03 WIB: kawat bendrat harus cukup lentur agar mudah dipuntir tanpa mudah putus; ciri kawat bermutu adalah tidak mudah patah saat dipuntir, diameter konsisten dan permukaan tanpa cacat. Disebut juga kawat yang mudah patah saat dipuntir memperlambat pekerjaan pengikatan. Dipakai sebagai dasar klaim bahwa ulet saat dipilin adalah syarat mutu nyata di lapangan."
+    },
+    {
+      "url": "https://group.jayasteel.com/p/kawat-bendrat-si-kecil-yang-vital-dalam.html",
+      "title": "Kawat Bendrat: Si Kecil yang Vital dalam Konstruksi",
+      "observed_at": "2026-11-26T10:04:00+07:00",
+      "evidence": "Dibaca 26 November 2026 pukul 10.04 WIB: kawat bendrat dibuat dari baja karbon rendah sehingga mudah dibengkokkan dan dipelintir tanpa gampang putus; jenis galvanis dilapisi seng agar tahan karat di area lembap. Dipakai sebagai konteks mengapa kawat yang getas akan patah saat dipelintir dan mengapa lapisan seng penting untuk pekerjaan luar."
+    }
+  ],
+  "historical_fact_sources": [],
+  "owner_note_applications": {},
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, uji laboratorium, atau merek pesaing. Kedua sumber hanya dipakai untuk konteks bahwa kawat getas mudah patah saat dipilin dan kawat galvanis lebih tahan karat. Klaim ketahanan dibatasi pada apa yang benar-benar terlihat di klip. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM.",
+  "status_note": "Slot 10 detik 720p, outro resmi 4.07 detik dirakit lokal sehingga durasi final 14.07 detik."
+}
