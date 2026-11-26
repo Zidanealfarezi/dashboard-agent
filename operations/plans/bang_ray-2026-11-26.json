@@ -1,0 +1,118 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Bata Kering Bikin Plesteran Rontok: Aturan Tukang Senior Siram Sampai Jenuh",
+  "hook": "Bata dipasang kering bikin plesteran rontok lepas dari dinding, karena bata menyerap air adukan sebelum mortar sempat mengikat. Aturan baku tukang senior: bata disiram atau direndam sampai jenuh lalu ditiriskan sebelum dipasang.",
+  "story": "Bang Ray berdiri di depan dinding bata rumah setengah jadi di Banda Aceh pada pagi yang terang. Sejak detik 0.0s ia sudah memegang satu bata merah kering di tangan kanan dan mengetuknya ke tepi dinding sampai serbuk merah jatuh, sementara tangan kirinya memegang sendok semen dan drum air putih sudah berdiri di kiri bawah frame. Tumpukan kardus paku tersegel bergaris merah, kuning, dan hijau bertulisan CAP KERIS terlihat utuh di sudut kanan belakang. Ia menyebut plesteran yang gampang rontok akibat bata kering, mencelupkan bata yang sama ke drum air, lalu menempelkannya ke bedeng adukan sambil menjelaskan aturan tukang senior: siram bata sampai jenuh sebelum pasang. Penutupnya ia menatap lensa dan mengadu dua kubu cara membasahi bata.",
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Plesteran rontok sampai bata kelihatan adalah kerusakan dinding yang mahal diperbaiki dan sering terjadi di rumah tinggal. Hook tiga detik pertama mengangkat risiko itu sekaligus aturan baku tukang senior soal membasahi bata, lalu penutup mengadu dua kubu metode supaya memancing komentar tanpa mengklaim hasil uji atau angka yang belum terbukti.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Tips lapangan 10 detik satu take, kamera setinggi dada sudut 45 derajat, drum air jadi bingkai depan kiri",
+      "opening": "Sejak 0.0s bata merah kering sudah di tangan kanan dan diketuk ke tepi dinding, serbuk merah jatuh, wajah Bang Ray terlihat",
+      "camera": "Handheld setinggi dada tiga perempat, tanpa push-in, goyangan natural kecil",
+      "core_action": "Mencelupkan bata yang sama ke drum air sampai bergelembung lalu menempelkannya ke bedeng adukan dengan sendok semen di tangan kiri",
+      "closing": "Menatap lensa sambil bertanya tim siram atau tim rendam",
+      "risk": "Bata, sendok semen, drum air, dan kardus paku wajib konsisten bentuk dan posisi sampai frame akhir"
+    },
+    {
+      "id": "B",
+      "format": "Bang Ray mengupas plesteran rontok pakai gagang sendok sampai bata kering di baliknya kelihatan",
+      "opening": "Plesteran dikelupas dari dinding, wajah masuk frame setelah 2 detik",
+      "camera": "Close-up dinding, kamera statis",
+      "core_action": "Mengelupas plesteran dan menunjuk bata kering di baliknya",
+      "closing": "Menoleh ke lensa",
+      "risk": "Aksi mengelupas berisiko memunculkan pecahan dan alat baru di tengah take, dan temanya sudah dipakai slot 25 November yang gagal render"
+    },
+    {
+      "id": "C",
+      "format": "Adu dua ember bata kering vs bata rendam di meja kerja, tanpa aksi pasang",
+      "opening": "Dua ember dan bata di meja, wajah belum fokus",
+      "camera": "Top angle statis ke meja",
+      "core_action": "Meneteskan air ke dua bata sebagai perbandingan",
+      "closing": "Menunjuk salah satu ember",
+      "risk": "Terlalu mirip pembuka meja kerja statis 22 dan 23 November serta tidak memperlihatkan kerusakan dinding nyata di detik 0-3"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Satu-satunya konsep yang memperlihatkan wajah, bata kering, dan drum air dalam satu frame sejak 0.0s dengan hanya dua properti inti di area aksi (bata di tangan kanan dan sendok semen di tangan kiri), jadi risiko properti muncul atau hilang paling kecil. Sudut kamera setinggi dada tanpa push-in belum dipakai slot sebelumnya dan aksi mencelup bata terbaca jelas tanpa caption.",
+    "history_checked": "Riwayat operasional Bang Ray lima slot terakhir: 24 Nov keramik meledak karena nat rapat (published, kamera rendah lantai push-in), 23 Nov kanopi ambruk karena angkur ditempel (published, tracking samping), 22 Nov dak retak karena perancah dibongkar cepat (published, take statis di kolong dak), 21 Nov bata kering bikin plesteran rontok siram vs rendam (slot planned, publikasi gagal, tidak pernah tayang), 20 Nov rangka atap melintir tanpa ikatan angin (published). Slot 25 November plesteran tebal 10-15 mili gagal render karena poin Flow tidak cukup dan tidak pernah dibuat. Tema bata siram vs rendam belum pernah tayang di akun ini, jadi dipakai hari ini dengan sudut kamera dan properti drum air yang berbeda dari slot lain."
+  },
+  "caption": "Bata dipasang kering bikin plesteran gampang rontok. Kawan di sana biasa siram atau rendam dulu?\n#tipskonstruksi #pasangbata #plesteran #tukangbangunan #bandaaceh #renovasirumah",
+  "hashtags": [
+    "#tipskonstruksi",
+    "#pasangbata",
+    "#plesteran",
+    "#tukangbangunan",
+    "#bandaaceh",
+    "#renovasirumah"
+  ],
+  "image_prompt": "Identitas memakai entitas Personal Flow Character 'Bang Ray' plus chip master FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg dan bangray_fullbody_turnaround.jpg. Pakaian kerja: kemeja lengan pendek navy dua saku dada di atas kaus dalam putih, celana kerja khaki, jam lapangan hitam di pergelangan kiri, sepatu bot kulit cokelat tua. Properti: satu bata merah kering di tangan kanan, satu sendok semen di tangan kiri, satu drum air putih di kiri bawah frame, dan tumpukan kardus paku tersegel bergaris merah kuning hijau bertulisan CAP KERIS di sudut kanan belakang mengacu characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png.",
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [3, 15],
+    "estimated_credits_displayed": 30,
+    "references_attached": 4,
+    "verified_from": "Sinkronisasi dan pembacaan live CDP flow_3 port 9335 26 November 2026 14.04 WIB: menu akun Pemuda (pemuda112200@gmail.com) menampilkan 50 kredit Google Flow; pil setelan 'Video · 720p · 10 dtk crop_9_16 x1'."
+  },
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Create an original 10-second vertical 9:16 handheld smartphone documentary vlog on a half-built red brick house site in Banda Aceh, Indonesia, in soft mid-morning light. Use the attached personal Flow Character named Bang Ray for the face and body: one Indonesian man about 30, athletic 173 cm build, warm tan matte skin with visible fine pores, short black hair, neat eyebrows; match the exact same face, same face shape, nose, eyebrows and hairline from the attached three-expression sheet and fullbody turnaround, and do not change identity. Wardrobe: navy short-sleeve work shirt with two buttoned chest pockets over a clean white undershirt, khaki work trousers, black field watch on the left wrist, dark brown leather work boots. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. Camera: handheld smartphone at chest height in a slight three-quarter front angle with gentle natural sway and no push-in, medium shot from waist up, the unfinished brick wall running diagonally behind him. PROP CONTINUITY: from 0.0s he holds one dry red brick in his right hand and one steel masonry trowel in his left hand; a single white plastic water drum stands on the ground at lower frame left; a fresh grey mortar bed sits on the wall course at his waist level; a small stack of sealed kraft cardboard boxes printed with red, yellow and green bands and the physical lettering PAKU CAP KERIS stands in the background at frame right in a three-quarter angle, its printed colours and lettering legible at one corner at believable scale. Only these named props exist in frame from 0.0s to the last frame and none appears, moves into frame or disappears mid-shot. BEATS: at 0.0s he is already tapping the dry brick against the wall edge with a small puff of red dust falling, and says in Indonesian with a relaxed Aceh delivery, \"Bata kering bikin plesteran rontok.\"; at 3.2s he lowers the same brick into the water drum and bubbles rise, then lifts it dripping at 6.0s and says, \"Tukang senior siram bata sampai jenuh.\"; from 7.2s he presses the wet brick onto the mortar bed with a small twist, looks straight into the lens with a friendly grin and asks, \"Rakan tim siram atau tim rendam?\"; the final 0.4s holds on his grin with the trowel still in his left hand. Natural Indonesian lip-sync, normal blinking, small natural head movement, no exaggerated gestures. Lighting and texture: soft neutral daylight from the open side of the wall, neutral white balance, true-to-life colours, realistic matte human skin with visible pores, no plastic shine, no waxy or glass skin, no yellow or orange tint, no artificial golden glow, zero CGI look, authentic documentary smartphone footage. Sound: on-site room tone with distant birds, one soft brick tap and a short water splash, no music, no voiceover. Clean frame: the only lettering visible is the physical printed PAKU CAP KERIS on the sealed cardboard boxes; no on-screen text, no subtitles, no captions, no camera HUD, no watermark, no logo. Keep his face, shirt, watch, trowel, brick, drum and background consistent in every frame.",
+      "dialogue": "Bata kering bikin plesteran rontok. Tukang senior siram bata sampai jenuh. Rakan tim siram atau tim rendam?",
+      "dialogue_start_seconds": 0.2,
+      "dialogue_read_seconds": 9.4,
+      "action_end_seconds": 9.8
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://inarisk.bnpb.go.id/page/1/4.html",
+      "title": "Bangunan Tahan Gempa - InaRISK BNPB",
+      "observed_at": "2026-11-26T14:00:00+07:00",
+      "evidence": "Dibaca 26 November 2026: sebelum batu bata dipasang dilakukan perendaman bata sekitar 5-10 menit, lalu dikeringkan sebelum direkatkan dengan mortar, agar penyerapan bata terhadap air campuran mortar tidak terlalu cepat karena pengeringan terlalu cepat mengakibatkan ikatan kurang kuat."
+    },
+    {
+      "url": "https://www.builder.id/teknik-dan-panduan-pemasangan-tembok-yang-benar/",
+      "title": "Teknik Pemasangan Tembok yang Benar: Bata Merah, Ringan & Batako",
+      "observed_at": "2026-11-26T14:01:00+07:00",
+      "evidence": "Dibaca 26 November 2026: rendam bata merah 15-30 menit sebelum dipasang karena bata kering menyerap air mortar terlalu cepat sehingga mortar mengeras sebelum sempat diratakan dan daya rekat berkurang."
+    },
+    {
+      "url": "https://www.kompas.com/properti/read/2024/09/24/063000921/ini-alasan-bata-merah-harus-direndam-sebelum-dipasang",
+      "title": "Ini Alasan Bata Merah Harus Direndam Sebelum Dipasang - Kompas.com",
+      "observed_at": "2026-11-26T14:02:00+07:00",
+      "evidence": "Dibaca 26 November 2026: Davy Sukamta (HAKI) menyebut bata merah direndam agar jenuh air dan tidak menyerap air semen, tetapi tidak boleh terlalu basah; permukaan harus tidak berair lagi saat dipasang."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Aturan membasahi bata sebelum dipasang dari panduan BNPB, panduan teknis pemasangan tembok, dan pernyataan ahli HAKI di Kompas. Tidak ada klaim hasil uji atau angka baru. Kardus PAKU CAP KERIS hanya properti latar sesuai aturan 22 November 2026 dan tidak disebut di dialog maupun caption.",
+  "revision_note": "Paket harian 26 November 2026: hook 0-3s mengangkat risiko plesteran rontok karena bata dipasang kering plus aturan baku tukang senior siram bata sampai jenuh. Penutup mengadu dua kubu siram vs rendam. Satu klip 10 detik 720p, kamera setinggi dada sudut tiga perempat tanpa push-in (beda dari kamera rendah push-in 24 November dan tracking samping 23 November)."
+}
