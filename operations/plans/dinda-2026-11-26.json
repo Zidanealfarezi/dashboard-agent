@@ -1,0 +1,86 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "slot_id": "dinda-2026-11-26",
+  "title": "Kambang Iwak Fest 2026 Mulai Hari Ini: Jumat Sore Lomba Fashion Show Wastra",
+  "hook": "Kambang Iwak Fest mulai hari ini di Palembang dan Jumat sore jam tigo ado lomba fashion show wastra.",
+  "story": "Dinda berdiri di trotoar tepi Kambang Iwak Palembang pada pagi hari, di belakangnya tampak tenda festival kuliner dan panggung kecil yang sedang disiapkan. Ia menyapa penonton, menyebut Kambang Iwak Fest 2026 digelar 26 sampai 28 November di pelataran depan Rumah Dinas Wali Kota dengan tema Satu Festival Beragam Pesona, lalu menyebut jadwal paling penting: lomba tari kreasi Sumsel Jumat jam 08.00 dan lomba fashion show wastra Palembang Jumat jam 15.00. Ia mengingatkan datang lebih awal dan pakai pakaian nyaman karena acara di ruang terbuka, lalu menutup dengan pertanyaan ringan hari apa penonton mau datang.",
+  "caption": "Kambang Iwak Fest 2026 mulai hari ini sampai 28 November di pelataran Rumah Dinas Wali Kota Palembang. Jumat sore jam 15.00 ada lomba fashion show wastra, kamu mampir hari apa?\n#kambangiwakfest #palembang #fashionshowwastra #eventpalembang #wongkito #kambangiwak",
+  "hashtags": [
+    "#kambangiwakfest",
+    "#palembang",
+    "#fashionshowwastra",
+    "#eventpalembang",
+    "#wongkito",
+    "#kambangiwak"
+  ],
+  "role_tags": [
+    "lifestyle & spot nongkrong anak muda Palembang (senja tepi Musi BKB, lari pagi di Kambang Iwak, kafe aesthetic lokal, thrifting di Pasar BJ/Monpera)"
+  ],
+  "role_reason": "Topik diambil apa adanya dari baris trend_selections hari ini (id sel_dinda_2026-11-26_morning, slot morning, trend_id opt_dinda_A_1795655058, decided_by pm_autonomous, skor 7,86). Eksekutor tidak memilih atau mengganti topik. Pilar yang dipakai adalah pilar kedua profil apa adanya, lifestyle & spot nongkrong anak muda Palembang, karena Kambang Iwak disebut eksplisit di dalam kurung pilar tersebut dan acaranya berlangsung di ruang publik Kambang Iwak. Tidak ada properti paku cap keris atau kereta FIVE STAR di rencana ini karena aturan properti itu khusus Bang Ray dan Pak Vincent.",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), pashmina jersey mocca terlipat rapi, kemeja linen mocha earth-tone dikenakan terbuka di atas dalaman putih pas badan yang memperlihatkan kontur feminin alami, kulot ivory high-waisted, kalung liontin emas kecil, berdiri di trotoar tepi Kambang Iwak Palembang pada pagi hari; di belakangnya tenda festival kuliner warna krem dan panggung kecil beratap terpal, pepohonan rindang, danau tenang di sisi kiri, beberapa pengunjung samar blur di kejauhan; cahaya pagi alami dengan white balance netral tanpa cast kuning atau oranye, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame mentah bersih tanpa teks tambahan, subtitle, maupun HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_pagi_20261110",
+    "name": "Mocha Earth-Tone Oversized Linen & Ivory Culottes",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/closeup_portrait_916.jpg",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg",
+    "selection_reason": "Auto-Stylist memilih dari character_wardrobe busana berstatus active yang paling lama tidak dipakai dan belum dipakai hari ini: status active, closeup dan fullbody lengkap, terakhir dipakai 23 November 2026. Busana striped taupe (outfit_dinda_5144187e) dipakai 24 November dan cream linen choco (outfit_dinda_pagi_20261111) dipakai 25 November sehingga keduanya dilewati walau kolom last_used_at belum seluruhnya diperbarui. Dua baris wardrobe baru hari ini (outfit_dinda_pagi_20261126 dan outfit_dinda_malam_20261126) masih status incomplete tanpa foto sehingga belum bisa dijadikan referensi. Chip referensi outfit mocha linen sudah ada di library Flow flow_1 sebagai dinda_ootd_20261115_mocha_linen_fullbody.jpg sehingga tidak perlu unggah aset baru. Palet mocha dan ivory netral cocok untuk acara pagi di ruang terbuka."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "characters/dinda/wardrobe/outfit_dinda_pagi_20261110/fullbody_ootd_916.jpg"
+    ],
+    "verified_from": "Sinkronisasi live Google Flow flow_1 port 9333 26 November 2026 09.01 WIB: saldo 137 kredit, pill 'Video 720p 12s crop_9_16 x1', switched360p false."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and never change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (natural healthy and proportional feminine Indonesian silhouette, not skinny, with a natural feminine bust contour under her clothing), and image three is the outfit reference for CLOTHING (open mocha earth-tone linen shirt worn over a fitted tucked-in white inner top, ivory wide-leg culottes, mocha jersey pashmina hijab wrapped neatly, small gold round pendant necklace). Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16 frame, one continuous shot, twelve seconds, shot on a smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle from her left. Location: the paved lakeside promenade of Kambang Iwak park in Palembang in the morning, calm green lake water and a low railing at frame left, leafy mature trees behind her, a row of cream festival tents and one small canvas-roofed stage being set up in the soft background and a few distant visitors blurred far away. True-to-life colours with neutral daylight white balance and no yellow or orange colour cast, realistic matte human skin with visible fine pores and natural micro texture, absolutely no waxy plastic or glossy shiny skin, zero CGI, authentic non-AI documentary look, absolutely no on-screen text, no viewfinder overlay, no camera HUD, no timestamp, no subtitles, no watermark. BEATS: from 0.0s she stands relaxed facing the lens with a warm smile and opens one hand toward the festival tents behind her while saying the festival starts today and runs until twenty-eighth November; from 4.0s she taps her palm lightly with one finger and lists the Friday morning dance-creativity contest and the Friday three o'clock wastra fashion show; from 8.0s she leans slightly forward with an amused expression, adjusts the edge of her pashmina once and advises arriving early in comfortable clothes; from 10.4s she holds a soft teasing smile for the closing question about which day the viewer will come. Natural lip movement matching the spoken Indonesian Palembang dialogue, small natural head tilts, normal blinking, no exaggerated gestures, no dancing, no walking, no turning away from the lens.",
+      "dialogue": "Kambang Iwak Fest mulai hari ini sampai dua puluh delapan November. Jumat pagi jam delapan lomba tari kreasi, sore jam tiga lomba fashion show wastra. Datang lebih awal, pakai baju nyaman. Kau mampir hari apo?",
+      "dialogue_start_seconds": 0.4,
+      "dialogue_read_seconds": 11.2,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8770027/jadwal-lengkap-kambang-iwak-fest-2026-di-palembang-26-28-november",
+      "title": "Jadwal Lengkap Kambang Iwak Fest 2026 di Palembang 26-28 November (detikSumbagsel)",
+      "observed_at": "2026-11-26T08:12:00+07:00",
+      "evidence": "Terbit Kamis 26 November 2026 pukul 06.00 WIB (meta pubdate 2026-11-26T06:00:13+07:00), dibaca 26 November 2026 pukul 08.12 WIB, 13 paragraf badan plus 6 butir tips. Kambang Iwak Fest 2026 digelar 26-28 November 2026 di kawasan Kambang Iwak, pelataran depan Rumah Dinas Wali Kota Palembang, bertema 'Satu Festival, Beragam Pesona'. Rangkaian acara: Festival Kuliner Halal Nusantara, Pameran Ekonomi Kreatif Palembang, lomba fashion show, lomba tari kreasi, kompetisi stand up comedy, penampilan wushu dan barongsai, parade drumband, parade budaya, fashion show wastra, dan hiburan musik. Jadwal per hari yang tertulis: Kamis 26 November musik klasik, Sandratari Duta Budaya Sumsel, band Hutan Tropis, Sanggar Awen Collection, Gankz Smokers Band, Tari Kreasi Sanggar Musi; Jumat 27 November Lomba Tari Kreasi Sumatera Selatan pukul 08.00 WIB dan Lomba Fashion Show Wastra Palembang pukul 15.00 WIB; Sabtu 28 November Lomba Stand Up Comedy Competition pukul 08.00 WIB dan Lomba Fashion Show Karnaval pukul 15.30 WIB. Tips yang dimuat: datang lebih awal, periksa jadwal kegiatan, gunakan pakaian yang nyaman, perhatikan lokasi parkir, jaga kebersihan, pantau informasi resmi penyelenggara. Artikel merujuk Instagram Pariwisata Palembang sebagai sumber jadwal; tidak menyebut harga tiket masuk."
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini 26 November 2026 (lagitren.id)",
+      "observed_at": "2026-11-26T08:08:00+07:00",
+      "evidence": "Halaman diakses 26 November 2026 pukul 08.08 WIB, tertulis 'diperbarui 26 Nov, 07.14 WIB'. Sepuluh video viral: harigurunasional (4,0 jt), harigurunasional2026 (557,6 rb), onthellifestreetbike (2,4 jt), mustahil (4,8 jt), susanti (2,4 jt), robida7 (3,0 jt), cbnganjuk (430,5 rb), kelirmalam (21,7 jt), ezklip (9,0 jt), motionklip (6,5 jt). Dua puluh hashtag tren hari ini juga tidak memuat tag kuliner, makanan, atau daerah. Halaman tidak menampilkan angka tren nasional untuk topik makanan, jadi brief ini tidak memakai klaim tren nasional kuliner apa pun. Sumber ini dipakai sebagai konteks tren harian, bukan dasar klaim faktual acara."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Seluruh fakta acara (tanggal 26-28 November 2026, lokasi pelataran depan Rumah Dinas Wali Kota Palembang, tema Satu Festival Beragam Pesona, jadwal tari kreasi Jumat 08.00 dan fashion show wastra Jumat 15.00, plus tips datang lebih awal dan pakai pakaian nyaman) diambil apa adanya dari artikel detikSumbagsel yang terbit pagi ini dan sudah dibaca PM. Tidak ada angka pengunjung, harga tiket, atau klaim keramaian yang ditambahkan karena artikel tidak menyebutkannya. Sumber lagitren.id hanya konteks tren TikTok, tidak dipakai untuk klaim acara.",
+  "production_note": "Satu klip 12 detik 720p native Omni 1.2 Flash, 9:16, output 1, tiga chip bahan: face sheet, dinda.jpg, dan chip outfit mocha linen. Setelah unduh, rakit lewat app.media.assemble_character_video: upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 (upscayl-lite-4x, texture preserve 0.45, micro grain), hardsub editorial_tiktok dua tingkat bebas tanda koma, mixing lo-fi akustik 15 persen dengan vokal 100 persen. Nama final dnd_261126_v1.mp4. QA final wajib memeriksa kebersihan frame mentah, ketepatan angka tanggal dan jam acara, serta konsistensi tenda festival di latar."
+}
