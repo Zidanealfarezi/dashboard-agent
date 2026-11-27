@@ -1,0 +1,111 @@
+{
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Rangka Atap Melintir Kena Angin: Ikatan Angin Silang Wajib",
+  "hook": "Rangka atap yang cuma dipaku tanpa ikatan angin gampang melintir dan ambruk saat angin kencang. Aturan baku tukang senior: pasang ikatan angin menyilang yang mengikat antar kuda-kuda supaya rangka tetap tegak dan sejajar.",
+  "story": "Di rumah setengah jadi di Banda Aceh, deretan tiga kuda-kuda kayu sudah berdiri di atas ringbalk dan satu kuda-kuda di ujung tampak agak melintir keluar garis. Sejak detik nol Bang Ray berdiri di bawah rangka, palu kayu sudah di tangan kanan dan sepotong balok angin kayu sudah di tangan kiri. Ia mengetuk balok angin itu ke titik sambung antar kuda-kuda sambil menyebut risiko rangka melintir kena angin, lalu memasangnya menyilang dan menekan sampai rangka kembali sejajar. Penutup: ia menoleh ke lensa dengan senyum dan mengadu dua kubu cara kerja, tim ikatan angin silang atau tim yang cuma pakai paku cepat.",
+  "caption": "Rangka atap yang cuma dipaku tanpa ikatan angin gampang melintir dan ambruk kena angin kencang. Rakan tim ikatan angin silang atau tim paku cepat?\n#tipskonstruksi #kudakudakayu #ikatanangin #rumahtahanangin #bandaaceh",
+  "hashtags": ["#tipskonstruksi", "#kudakudakayu", "#ikatanangin", "#rumahtahanangin", "#bandaaceh"],
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Pilar pertama profil dipakai apa adanya: kesalahan fatal struktur bangunan, kali ini rangka atap kayu yang melintir karena tidak diikat angin dan bisa ambruk saat angin kencang. Pilar ketiga dipakai untuk penutup yang mengadu dua kubu cara kerja, tim ikatan angin silang melawan tim paku cepat. Topik ini belum dipakai pada slot Bang Ray lima hari terakhir yang bisa diverifikasi, yang membahas bata siram vs rendam (26 November), nat keramik (24 November), angkur kanopi (23 November), dan perancah dak (22 November).",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Bang Ray, pria Aceh 173 cm bertubuh tegap atletis proporsional, kulit sawo matang bertekstur pori nyata, kemeja kerja lengan pendek navy berkancing dua saku dada di atas kaus dalam putih bersih, celana kerja khaki, jam lapangan hitam di pergelangan kiri, sepatu bot kerja cokelat tua, berdiri di bawah deretan tiga kuda-kuda kayu sebuah rumah setengah jadi di Banda Aceh pada siang terang berawan; palu kayu di tangan kanan, sepotong balok angin kayu di tangan kiri, satu kuda-kuda ujung tampak sedikit melintir; di sudut kanan bawah frame tumpukan kardus kraft tersegel bergaris merah kuning hijau dengan tulisan fisik PAKU CAP KERIS terlihat utuh; cahaya siang netral tanpa cast kuning atau oranye, pori kulit realistis, frame mentah bersih tanpa teks tambahan, subtitle, maupun HUD kamera.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Satu take di bawah rangka atap, kamera handheld setinggi bahu menengadah sedikit, tanpa push-in",
+      "opening": "Sejak 0.0s Bang Ray sudah memegang palu kayu di tangan kanan dan balok angin di tangan kiri di bawah deretan kuda-kuda yang satu di antaranya melintir",
+      "camera": "Handheld smartphone setinggi bahu dengan tilt naik sekitar dua puluh derajat ke rangka, goyangan natural, satu langkah kecil menyamping di akhir",
+      "core_action": "Mengetuk dan memasang balok angin menyilang di antara dua kuda-kuda sampai rangka kembali tegak dan sejajar",
+      "closing": "Menoleh ke lensa, mengadu dua kubu cara kerja dengan senyum santai",
+      "risk": "Tiga kuda-kuda, palu, dan balok angin wajib utuh dari frame pertama sampai terakhir; kardus PAKU CAP KERIS hanya di latar dan tidak boleh muncul tiba-tiba"
+    },
+    {
+      "id": "B",
+      "format": "Detail makro sambungan balok angin dan baut di titik pertemuan kuda-kuda, tanpa wajah",
+      "opening": "Dua tangan memegang balok kayu dan baut di titik sambung sejak 0.0s",
+      "camera": "Statis top-down dekat ke sambungan kayu",
+      "core_action": "Mengencangkan baut sambungan balok angin",
+      "closing": "Tangan mengetuk sambungan yang sudah kencang",
+      "risk": "Wajah Bang Ray hilang dari frame sehingga persona dan hook 0-3 detik kehilangan konteks, dan gerak jari makro rawan cacat anatomi"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi berdiri di depan dua model rangka, wide statis",
+      "opening": "Dua rangka kecil berdampingan sejak 0.0s, satu bersilang satu tanpa silang",
+      "camera": "Wide statis setinggi pinggang di halaman proyek",
+      "core_action": "Menunjuk rangka tanpa ikatan lalu rangka dengan ikatan silang",
+      "closing": "Menunjuk rangka bersilang lalu bicara ke kamera",
+      "risk": "Perlu membuat dua model rangka mini sebagai properti baru di luar master, rawan berubah bentuk antar frame dan tidak memperlihatkan risiko struktur nyata"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Satu take di bawah rangka dengan kamera menengadah sedikit memperlihatkan risiko nyata rangka melintir sekaligus aksi pemasangan ikatan angin yang bisa diperiksa frame awal sampai akhir. Sudut kamera berbeda dari slot sebelumnya yang memakai kamera setinggi dada sudut tiga perempat (26 November), kamera rendah push-in (24 November), dan tracking samping (23 November). Hanya dua properti inti di tangan sehingga kontinuitas mudah dijaga.",
+    "history_checked": "Riwayat operasional Bang Ray lima slot terakhir: 26 November bata kering bikin plesteran rontok, adu tim siram vs tim rendam (published); 25 November plesteran sekali tebal tanpa kepalaan direncanakan tetapi tidak diproduksi; 24 November keramik meledak karena nat dirapatkan (published); 23 November kanopi ambruk karena angkur cuma ditempel (published); 22 November dak retak karena perancah dibongkar cepat (published). Tidak ada data views per video di sumber lokal yang bisa dipakai untuk klaim performa."
+  },
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [3, 4, 6, 8, 10, 12, 15],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 30,
+    "references_attached": 4,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+      "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+      "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+      "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+    ],
+    "verified_from": "Sinkronisasi live flow_3 port 9335 27 November 2026 14.01 WIB: pill komposer 'Video · 720p · 10 dtk crop_9_16 x1', switched360p false. Saldo terakhir terverifikasi 13.41 WIB 50 kredit; harga 10 detik 720p 30 kredit sesuai panel akun ini."
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Photorealistic live-action video, vertical 9:16, ten seconds, one continuous take, shot on smartphone vlog camera held at shoulder height with a gentle upward tilt toward a wooden roof truss row, natural handheld sway and one small lateral step at the end, no push-in, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Identity lock: the man is exactly the same person as in the attached reference images, image one is the three-expression face sheet to match his face shape, nose, eyebrows, hairline, skin tone and apparent age exactly and never change his identity, image two is the fullbody turnaround for his posture and work clothing (navy short-sleeve work shirt with two buttoned chest pockets over a clean white undershirt, khaki work trousers, black field watch on the left wrist, dark brown leather work boots); output exactly one man in one continuous shot, never a collage or reference-sheet layout. Location: a half-finished house in Banda Aceh, a row of three wooden roof trusses standing on a concrete ring beam over an empty brick-walled room, one truss at the far right slightly out of line and twisted, bright overcast midday light from the open side. PROP CONTINUITY RULE: from 0.0s to 10.0s the only props are one wooden claw hammer already in his right hand, one short diagonal wooden wind brace already in his left hand, the three trusses above him, and one stack of sealed kraft cardboard boxes printed with red, yellow and green bands and the physical lettering PAKU CAP KERIS resting on the ground at the lower right corner with one corner of the stack fully legible; nothing else enters, and no tool, beam, ladder, bucket, helmet, person or animal may appear, move in, fall or vanish at any instant, and the brace must never change shape or length. BEATS: from 0.4s to 4.0s he already holds the wind brace against the joint between two trusses and taps it twice with the hammer while saying in relaxed Indonesian with an Aceh delivery, \"Rangka atap melintir kena angin, atap bisa ambruk.\"; from 4.0s to 4.6s he presses the brace diagonally into the joint and gives one small satisfied nod as the twisted truss visibly lines back up with the others; from 4.6s to 9.3s he turns his head to the lens with a friendly grin, keeps the hammer in his right hand and says, \"Tukang senior pasang ikatan angin silang, rakan tim silang atau tim paku saja?\"; from 9.3s to 10.0s he holds the grin and taps the brace once. Natural Indonesian lip-sync, normal blinking, small natural head movement, no exaggerated gestures. Sound: on-site room tone with light wind and one distant hammer, no music. The only lettering visible in frame is the physical printed PAKU CAP KERIS on the sealed boxes. Keep his face, shirt, watch, hammer, brace, truss positions and background consistent in every frame.",
+      "dialogue": "Rangka atap melintir kena angin, atap bisa ambruk. Tukang senior pasang ikatan angin silang, rakan tim silang atau tim paku saja?",
+      "dialogue_start_seconds": 0.4,
+      "dialogue_read_seconds": 8.9,
+      "action_end_seconds": 9.8
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_profile_avatar.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://inarisk.bnpb.go.id/page/2/5.html",
+      "title": "Bangunan Tahan Gempa - InaRISK BNPB",
+      "observed_at": "2026-11-27T13:50:00+07:00",
+      "evidence": "Dibaca 27 November 2026 pukul 13.50 WIB: struktur atap terdiri dari kuda-kuda kayu, gunung-gunung atau ampig, dan ikatan angin. Ikatan angin berfungsi sebagai pengikat antar kuda-kuda kayu, antar gunung-gunung atau ampig, atau antara kuda-kuda dengan gunung-gunung agar berdiri tegak, kokoh, dan sejajar. Dipakai sebagai dasar aturan baku bahwa ikatan angin wajib ada supaya rangka tidak bergeser atau melintir."
+    },
+    {
+      "url": "https://tokoatap.id/mengapa-pasang-ikatan-angin-pada-kuda-kuda-sangat-penting/",
+      "title": "Mengapa Pasang Ikatan Angin pada Kuda-Kuda Sangat Penting?",
+      "observed_at": "2026-11-27T13:52:00+07:00",
+      "evidence": "Dibaca 27 November 2026 pukul 13.52 WIB: ikatan angin atau wind bracing berfungsi sebagai pengaku yang menghubungkan beberapa kuda-kuda sehingga rangka tidak mudah bergeser dan menerima gaya horizontal akibat tekanan dan hisapan angin. Pemasangannya dilakukan menyilang di antara kuda-kuda mengikuti gambar kerja, lalu semua sambungan dikencangkan dan diperiksa sebelum penutup atap dipasang; bangunan bentang lebar menerima pengaruh angin lebih besar. Dipakai sebagai konteks mengapa rangka tanpa ikatan melintang bisa melintir saat angin kencang."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Kedua sumber hanya menjelaskan fungsi dan cara pasang ikatan angin pada rangka atap kayu. Video tidak menyebut angka kekuatan, hasil uji, harga, merek pesaing, atau klaim bahwa rumah pasti aman dari angin. Kardus PAKU CAP KERIS hanya properti latar sesuai aturan 22 November 2026 dan tidak disebut di dialog maupun caption.",
+  "revision_note": "Paket harian 27 November 2026: hook 0-3 detik mengangkat risiko fatal rangka atap melintir dan ambruk kena angin plus aturan baku tukang senior soal ikatan angin menyilang. Penutup mengadu dua kubu metode, tim ikatan angin silang vs tim paku cepat. Satu klip 10 detik 720p, kamera handheld setinggi bahu dengan tilt naik dan satu langkah menyamping, berbeda dari sudut kamera slot-slot sebelumnya.",
+  "production_note": "Satu klip 10 detik 720p native Omni 1.2 Flash, 9:16, output 1, empat chip bahan: face sheet, fullbody turnaround, portrait, dan kardus PAKU CAP KERIS. Setelah unduh, rakit lewat python3 -m app.media --character bang_ray: upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920, hardsub editorial_tiktok dua tingkat bebas tanda koma, nama final ray_271126_v1.mp4."
+}
