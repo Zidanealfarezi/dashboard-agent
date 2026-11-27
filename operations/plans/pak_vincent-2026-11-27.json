@@ -1,0 +1,76 @@
+{
+  "id": "pak_vincent-2026-11-27",
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 10,
+  "title": "Bibit Sawit Palsu Rugi Puluhan Juta",
+  "hook": "Bibit sawit palsu baru ketahuan setelah tiga sampai empat tahun, modal pupuk dan tenaga habis tapi buah tidak ada",
+  "story": "Di bedeng bibit dekat kebun, Pak Vincent sudah memegang satu polibag bibit sawit sejak frame pertama. Ia bicara ramah khas Riau bahwa bibit palsu adalah kerugian diam-diam paling mahal: petani baru sadar setelah tiga sampai empat tahun merawat, pupuk dan tenaga habis, tanaman tidak berbuah. Penutupnya ia menepis perdebatan alat panen yang ramai-ramai dibahas, karena masalah bibit lebih dulu menggerus uang. Kereta sorong merah FIVE STAR berdiri sebagai alat kerja di sisi kanan frame dengan sisi luar bak menghadap kamera.",
+  "role_tags": [
+    "ancaman kerugian puluhan juta petani swadaya (waspada kecambah bibit sawit palsu, jamur ganoderma busuk pangkal batang)",
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)"
+  ],
+  "role_reason": "Lima slot terakhir memakai pupuk/piringan (22 Nov), sortir janjang mentah (23 Nov), brondolan tertinggal (24 Nov), potongan timbangan 12 persen (25 Nov), dan TBS menginap di bak/ALB (26 Nov). Pilar bibit sawit palsu belum dipakai sejak awal siklus, jadi hari ini diambil sudut kerugian tiga sampai empat tahun yang baru terasa setelah tanaman produksi. Perdebatan dodos lawan egrek tetap disinggung sebagai penutup agar komentar ramai, tetapi bukan topik utama. Kamera diganti menjadi push-in pelan di bedeng bibit, bukan tracking menyamping di TPH seperti 26 November.",
+  "caption": "Bibit sawit palsu baru ketahuan setelah tiga sampai empat tahun wak, pupuk dan tenaga sudah habis tapi buahnya tidak ada. Kawan di kebun ada yang pernah kena bibit seperti ini?\n#bibitsawit #kebunsawit #petanisawit #sawitriau #bibitpalsu #pekebunsawit",
+  "hashtags": ["#bibitsawit", "#kebunsawit", "#petanisawit", "#sawitriau", "#bibitpalsu", "#pekebunsawit"],
+  "image_prompt": "Identitas memakai entitas Personal Flow Character 'Pak Vincent' untuk wajah dan postur. Pakaian kerja: kaos katun lengan panjang biru tua polos tanpa logo atau grafis, celana kerja gelap, topi baseball cap gelap dengan panel depan kain benar-benar kosong tanpa huruf, sandal karet. Properti: satu kereta sorong baja merah bertulisan FIVE STAR pada sisi luar bak mengacu characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg, berisi beberapa polibag bibit sawit, berdiri di sisi kanan frame dengan sisi luar bak menghadap tiga per empat ke kamera. Latar bedeng bibit sawit beratap paranet di pinggiran Pekanbaru, Riau.",
+  "shots": [
+    {
+      "seconds": 10,
+      "prompt": "Create an original 10-second vertical 9:16 handheld smartphone documentary vlog at a small oil-palm seedling nursery (bedeng bibit) beside a smallholding near Pekanbaru, Riau, in soft morning shade under a worn black shade net. Use the attached personal Flow Character named Pak Vincent for the face and body: one lean wiry Indonesian plantation worker of about 35 with weathered sun-tanned matte skin and fine visible pores, a thin mustache, warm friendly eyes, a plain navy-blue long-sleeve cotton work shirt with no logo, no graphic and no lettering, dark work trousers, rubber work sandals and a plain dark baseball cap whose front panel is completely blank fabric with absolutely no letters, numbers, symbols, embroidery, print or stitched badge anywhere on it. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. CAMERA: chest-height handheld about 2 metres away in a medium three-quarter front shot that pushes slowly and steadily closer to about 1.5 metres in one smooth continuous move with slight natural handheld sway, keeping his eyes in the upper third of the vertical frame. PROP CONTINUITY: (1) one single red steel wheelbarrow matching the attached wheelbarrow reference stands parked on the packed dirt at frame right, holding four black polybag oil-palm seedlings upright in its tray; park it with its OUTWARD tray wall angled three-quarters toward the lens and fully unobstructed so that the small physical paint stencil reading exactly FIVE STAR on that outward red wall is clearly visible and legible from the very first frame to the last, and keep the entire tray and all its edges inside the frame with clear margin from every frame edge; its black tyre and support legs stay planted on the dirt at the same position and the same believable scale for the whole clip; (2) he already holds one black polybag oil-palm seedling at chest height in both hands from the first frame and keeps holding it until he lowers it onto the low wooden bench at 4.6 seconds. No other tool, sack, hose, second person, animal or vehicle may appear, enter the frame or disappear at any moment. BEATS: at 0.0 seconds he is already talking to the lens while lifting the polybag seedling slightly toward the camera with a small tilt of his chin at it; from 0.5 to 4.2 seconds he says in Indonesian with a warm relaxed Riau delivery, \\\"Bibit sawit palsu itu bikin rugi puluhan juta wak,\\\" while his right thumb taps the side of the polybag once at about 2.4 seconds; at 4.6 seconds he sets the polybag down on the bench and briefly taps it flat with his palm, then looks back up; from 5.2 to 9.0 seconds he gives a small dismissive shrug with his left hand and says, \\\"Jangan cuma ribut dodos lawan egrek,\\\"; from 9.0 to 10.0 seconds he holds a calm knowing look at the camera with his hand lowering out of frame. Natural soft daylight under the shade net, quiet plantation ambience, natural lip sync. No added graphics, subtitles, titles, on-screen text, camera HUD or watermarks anywhere in the frame, and no lettering anywhere in the scene except the small physical FIVE STAR stencil on the outward side of the wheelbarrow tray.",
+      "dialogue": "Bibit sawit palsu itu bikin rugi puluhan juta wak. Jangan cuma ribut dodos lawan egrek.",
+      "dialogue_start_seconds": 0.5,
+      "dialogue_read_seconds": 8.5,
+      "action_end_seconds": 9.0
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow_ingredients": [
+    "Flow Character: Pak Vincent",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 10,
+    "duration_options_seconds": [3, 10, 15],
+    "estimated_credits_displayed": 30,
+    "duration_credit_verified": false,
+    "references_attached": 2,
+    "identity_chip_policy": "Memakai entitas Personal Flow Character Pak Vincent sebagai chip identitas, ditambah satu foto produk kereta sorong FIVE STAR.",
+    "verified_from": "Pembacaan live panel Flow flow_5 (port 9334) 27 November 2026 16.31 WIB: settings 'Video · 720p · 10 dtk crop_9_16 x1', saldo akun 539 kredit dari sync_flow_status.js."
+  },
+  "trend_sources": [
+    {
+      "url": "https://karantinaindonesia.go.id/berita/barantin-gagalkan-peredaran-75992-bibit-sawit-ilegal-karding-negara-tak-boleh-kalah",
+      "title": "Barantin Gagalkan Peredaran 75.992 Bibit Sawit Ilegal",
+      "observed_at": "2026-11-27T16:33:00+07:00",
+      "evidence": "Dibaca 27 November 2026: Karantina Lampung menahan 75.992 butir bibit sawit ilegal; kerugian ekonomi diperkirakan Rp3,5 miliar per bulan atau Rp42 miliar per tahun. Petani baru tahu bibit palsu setelah 3-4 tahun merawat sampai masa produksi, hasil panen rendah bahkan tidak berbuah."
+    },
+    {
+      "url": "https://sawitindonesia.com/barantin-cegah-petani-sawit-rugi-rp42-miliar-lantaran-benih-sawit-ilegal",
+      "title": "Barantin Cegah Petani Sawit Rugi Rp42 Miliar Lantaran Benih Sawit Ilegal",
+      "observed_at": "2026-11-27T16:33:30+07:00",
+      "evidence": "Dibaca 27 November 2026: bibit ilegal dijual sekitar Rp1.300 per butir, jauh di bawah harga bibit resmi PPKS sekitar Rp8.300 per butir; paket dipasarkan lewat marketplace dan dokumen mengatasnamakan PPKS."
+    },
+    {
+      "url": "https://sawitindonesia.com/cegah-benih-ilegal-ini-strategi-kementan-perkuat-sertifikasi-benih-kelapa-sawit",
+      "title": "Cegah Benih Ilegal, Ini Strategi Kementan Perkuat Sertifikasi Benih Kelapa Sawit",
+      "observed_at": "2026-11-27T16:34:00+07:00",
+      "evidence": "Dibaca 27 November 2026: Ditjenbun memperketat sertifikasi benih dan mencatat 4.196 SP2BKS terbit sejak Mei 2022 sampai Oktober 2026 dengan 1.044 permohonan ditolak."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Angka kerugian dan masa tunggu 3-4 tahun mengacu rilis Barantin 31 Juli 2026 dan pemberitaan Sawit Indonesia. Kereta sorong FIVE STAR hanya properti kerja latar sesuai aturan Pak Vincent 21 November 2026 dan tidak disebut di dialog maupun caption.",
+  "production_note": "Satu klip 10 detik 720p native 9:16. Dialog dua frasa sekitar 16 kata sesuai batas aman pasca kegagalan 24-26 November; frasa pertama di beat 0.5-4.2 detik, frasa kedua di beat 5.2-9.0 detik. Perbaikan cacat 26 November: topi diwajibkan kosong total tanpa huruf dan sisi luar bak kereta diarahkan tiga per empat ke kamera agar tulisan FIVE STAR terbaca sejak frame pertama. Frame mentah wajib bebas teks AI, lalu dirakit python3 -m app.media --character pak_vincent menjadi characters/pak_vincent/content/pak_vincent-2026-11-27/vin_271126_v1.mp4."
+}
