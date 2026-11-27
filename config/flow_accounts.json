@@ -68,9 +68,10 @@
       "email": "coralgaming88@gmail.com",
       "chrome_profile_label": "Coral Gaming (FLOW)",
       "subscription_tier_observed": "FREE",
-      "balance_verified_at": "2026-11-25T11:54:00+07:00",
+      "balance_verified_at": "2026-11-27T10:02:00+07:00",
       "project_title": "intansuarkartika",
-      "balance_source": "Konfirmasi pengguna dan verifikasi kuota Free Tier: 50 kredit Google Flow aktif (intansuarkartika)."
+      "credits_reset_label_as_displayed": "Kredit diperbarui setiap hari pukul 10.35",
+      "balance_source": "Bacaan live menu akun CDP port 9336 pada 27 November 2026 10.02 WIB: 50 kredit Google Flow (intansuarkartika), keterangan kredit diperbarui setiap hari pukul 10.35. Belum ada generasi hari ini."
     },
     {
       "id": "flow_3",

@@ -1,0 +1,109 @@
+{
+  "id": "isk-2026-11-27",
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "membongkar trik toko nakal dan material banci (kawat galvanis abal-abal, timbangan paku kurang)"
+  ],
+  "role_reason": "Rotasi 4 pilar wajib: 26 November Kawat Licin Diamond, 24 November Kawat Duri Diamond, 23 November Kereta Sorong Five Star, 22 November Paku Cap Keris, 21 November Kawat Licin Diamond. Pilar yang paling lama tidak tampil adalah Kawat Duri Diamond (24 November), jadi hari ini pilar itu dipakai lagi dengan sudut yang berbeda: uji tarik kencang antar dua patok untuk membuktikan duri tetap terkunci dan lapisan seng tidak mengelupas, bukan edukasi lapisan galvanis seperti 24 November. Tidak ada tema timbangan 25 kg dan tidak ada nomor WhatsApp.",
+  "title": "Kawat Duri Ditarik Kencang Duri Tetap Terkunci",
+  "hook": "Kawat duri ditarik kuat dengan tang di antara dua patok, duri tetap terkunci dan lapisan seng tidak mengelupas",
+  "story": "Di batas kebun sawit, dua patok kayu tua sudah berdiri dengan satu helai kawat duri terentang. Sejak detik nol, satu roll Kawat Duri Diamond resmi bersandar di patok kiri dengan label oval dan cap DIAMOND menghadap kamera. Pekerja sudah mencengkeram kawat dengan tang, menariknya kencang ke arah dada sampai kawat lurus dan bergetar, sementara mata duri tetap terkunci rapat di pilinan. Ia mengusap permukaan kawat dengan sarung tangan dan tidak ada serpihan seng yang menempel. Penutup: ia menoleh ke lensa dan menyebut produk serta perusahaan, lalu mengarahkan penonton bertanya ukuran lewat DM tanpa nomor WhatsApp.",
+  "caption": "Kawat duri ditarik kencang di antara dua patok dan mata durinya tetap terkunci rapat tanpa ada serpihan seng yang mengelupas. Mau tahu ukuran yang pas untuk pagar kebun? Tanya lewat DM.\n#kawatduridiamond #pagarkebun #kawaturi #materialbangunan",
+  "hashtags": "#kawatduridiamond #pagarkebun #kawaturi #materialbangunan",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/kawat_duri_diamond_reference.jpg: roll silinder kawat galvanis berkilau dengan lilitan rapi dan label oval bertuliskan BARBED IRON WIRE dengan cap merah logo roda gigi dan simbol DIAMOND. Tidak membuat master wajah baru; pekerja digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji tarik kencang antar dua patok kayu, kamera handheld setinggi dada, satu take",
+      "opening": "Sejak 0.0s pekerja sudah mencengkeram kawat duri dengan tang dan roll produk resmi bersandar di patok kiri",
+      "camera": "Handheld smartphone setinggi dada, sedikit menyudut ke garis pagar, goyangan natural, maju setengah langkah di akhir",
+      "core_action": "Menarik kawat kuat ke arah dada sampai lurus dan bergetar, mata duri tetap terkunci, lalu mengusap permukaan kawat untuk menunjukkan seng tidak mengelupas",
+      "closing": "Menoleh ke lensa, satu kalimat penutup tentang produk dan perusahaan",
+      "risk": "Roll produk, tang, dua patok dan satu helai kawat wajib utuh dari frame pertama sampai terakhir"
+    },
+    {
+      "id": "B",
+      "format": "Makro top-down memilin satu mata duri dengan tang di atas balok kayu, tanpa wajah",
+      "opening": "Dua tangan berdebu memegang potongan kawat berduri di atas balok sejak 0.0s",
+      "camera": "Statis top-down dekat, fokus makro ke pilinan duri",
+      "core_action": "Memilin mata duri bolak balik, memeriksa apakah ada serpihan seng yang lepas",
+      "closing": "Tangan meletakkan potongan kawat di samping roll utuh",
+      "risk": "Wajah hilang dari frame sehingga konteks ISK hilang, dan gerak jari makro rawan cacat anatomi"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi di depan rak toko membandingkan dua gulung kawat duri, wide statis",
+      "opening": "Dua gulungan kawat berdampingan sejak 0.0s, satu mengkilap satu kusam",
+      "camera": "Wide statis setinggi pinggang di lorong toko bangunan",
+      "core_action": "Menunjuk lapisan seng kawat kusam lalu kawat mengkilap",
+      "closing": "Menunjuk gulungan mengkilap lalu bicara ke kamera",
+      "risk": "Menampilkan produk pesaing dan menyiratkan uji banding yang tidak benar-benar dilakukan"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Uji tarik antar dua patok memperlihatkan klaim duri terkunci dan seng tidak mengelupas secara kasat mata dalam satu take, wajah dan produk resmi tetap terbaca sejak detik nol, dan geraknya berbeda dari edukasi lapisan galvanis 24 November, uji pelintir tang 21 November, uji lentur 26 November, drop test kereta sorong 23 November, serta uji pukul paku 22 November.",
+    "history_checked": "Riwayat operasional ISK lima slot terakhir: 26 Nov Kawat Licin Diamond uji lentur lima kali (published, https://www.tiktok.com/@intansuarkartika/video/7712355404969217281); 25 Nov slot Kawat Licin direncanakan tetapi ditahan karena kredit Flow sehingga tidak ada media dan tidak ada posting; 24 Nov Kawat Duri Diamond edukasi lapisan galvanis (published, .../video/7711613614158892294); 23 Nov Kereta Sorong Five Star uji beban (published, .../video/7711242735331609908); 22 Nov Paku Cap Keris dipukul balok keras (published, .../video/7710871393042271540). Tidak ada data views per video di sumber lokal."
+  },
+  "creative": {
+    "character": "Pekerja konstruksi Indonesia pria 38 tahun, kemeja kerja lengan panjang biru pudar berdebu, celana kerja gelap, sarung tangan kain abu-abu, topi lapangan cokelat, kulit sawo matang terbakar matahari",
+    "background": "Batas kebun sawit di Sumatra Utara: dua patok kayu tua berjarak tiga meter, rumput dan tanah merah, pohon sawit blur di belakang, langit siang terang berawan",
+    "action": "Mencengkeram kawat duri dengan tang di patok kanan, menariknya kencang ke arah dada sampai kawat lurus dan bergetar tanpa mata duri lepas, mengusap permukaan kawat dengan sarung tangan untuk menunjukkan tidak ada serpihan seng, lalu menoleh ke lensa",
+    "selection_reason": "Satu aksi tarik yang bisa diperiksa frame awal sampai akhir, produk resmi terlihat sejak detik nol, alat hanya tang dan patok sehingga kontinuitas properti mudah dijaga.",
+    "dialogue": "Ditarik kencang durinya tidak lepas. Kawat Duri Diamond PT Intan Suar Kartika kuat.",
+    "dialogue_start_seconds": 0.0,
+    "dialogue_read_seconds": 9.0,
+    "action_end_seconds": 9.7
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 30,
+    "references_attached": 1,
+    "verified_from": "Panel setelan Google Flow flow_2 pada 27 November 2026 10.01 WIB menunjukkan pill komposer 'Video · 720p · 10 dtk crop_9_16 x1'. Menu akun Coral Gaming pukul 10.09 WIB menampilkan 50 kredit Google Flow dengan keterangan kredit diperbarui setiap hari pukul 10.35."
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "dialogue": "Ditarik kencang durinya tidak lepas. Kawat Duri Diamond PT Intan Suar Kartika kuat.",
+      "dialogue_start_seconds": 0.0,
+      "action_end_seconds": 9.7,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 10 seconds, one continuous take, shot on smartphone vlog camera held at chest height with gentle natural handheld sway and a slight three-quarter angle along a barbed wire fence line, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Location: the edge of a palm oil smallholding in North Sumatra, two weathered wooden fence posts about three metres apart, reddish soil and grass, blurred oil palms behind, bright overcast midday sky. From the very first frame one upright roll of galvanised barbed wire from the single attached official reference photo leans against the left post, its tight shiny silver coil and oval label with the red gear mark and the DIAMOND mark facing the camera. An Indonesian male construction worker about 38 years old in a faded dusty blue long-sleeve work shirt, dark work trousers, grey cotton work gloves and a brown field cap stands at the right post; his face, gloved hands and torso stay in frame the whole take. PROP CONTINUITY RULE: from 0.0s to 10.0s exactly one upright wire roll leaning on the left post, one pair of pliers in his right hand, one barbed wire strand already strung between the two posts and nothing else are the props; no vehicle, animal, bucket, hammer, machete, extra person, extra roll or extra tool may appear, move in, fall or disappear at any instant, the coil shape and wire thickness must not change, and the wire strand must never snap. BEATS: at 0.0s he already grips the wire strand with the pliers and pulls it hard toward his chest, the wire straightens and vibrates while every barb stays locked in its twisted knot; from 3.0s to 6.0s he keeps the wire taut with one hand and runs his gloved palm along it, the galvanised surface matte silver with no flakes sticking to the glove; from 6.0s to 8.0s he gives the strand one more firm pull, the posts stay planted and the barbs do not slip; from 8.0s to 10.0s he looks straight into the lens and says in clear Indonesian: \"Ditarik kencang durinya tidak lepas. Kawat Duri Diamond PT Intan Suar Kartika kuat.\" Natural site ambience only, light wind, distant birds, no music. Keep his face, clothing, cap, gloves, post positions and background consistent in every frame."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg"
+  ],
+  "flow_ingredients": [
+    "characters/isk/assets/brand/kawat_duri_diamond_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://karyautamasteel.com/harga-kawat-duri-batang",
+      "title": "Spesifikasi Kawat Duri Galvanis: Electro vs Hot Dip",
+      "observed_at": "2026-11-27T09:58:00+07:00",
+      "evidence": "Dibaca 27 November 2026 pukul 09.58 WIB: kawat duri galvanis electro memiliki ketebalan zinc sekitar 10 sampai 15 gram per meter persegi, sedangkan hot dip galvanized 40 sampai 60 gram per meter persegi dan bisa lebih dari 200 gram untuk heavy galvanized; kuat tarik 350 sampai 500 N/mm2. Dipakai sebagai dasar bahwa lapisan seng tipis lebih cepat kehilangan perlindungan, dan klaim ketahanan dibatasi pada apa yang terlihat di klip."
+    },
+    {
+      "url": "https://wanzhigalvanized.com/id/how-to-choose-between-galvanized-steel-wire-and-stainless-steel-wire/",
+      "title": "Cara Memilih Antara Kawat Baja Galvanis dan Kawat Baja Tahan Karat",
+      "observed_at": "2026-11-27T10:00:00+07:00",
+      "evidence": "Dibaca 27 November 2026 pukul 10.00 WIB: kawat galvanis dibuat dari baja karbon yang ditarik menjadi kawat lalu digalvanisasi celup panas atau elektro untuk membentuk lapisan seng pelindung di permukaan yang mencegah karat. Dipakai sebagai konteks mengapa kondisi lapisan seng layak diperiksa saat kawat ditarik dan dipakai di luar ruangan."
+    }
+  ],
+  "historical_fact_sources": [],
+  "owner_note_applications": {},
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, uji laboratorium, atau merek pesaing. Sumber hanya dipakai untuk konteks ketebalan lapisan seng dan fungsi galvanisasi. Klaim ketahanan dibatasi pada apa yang benar-benar terlihat di klip. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM.",
+  "status_note": "Slot 10 detik 720p native, outro resmi 4.07 detik dirakit lokal sehingga durasi final 14.07 detik."
+}
