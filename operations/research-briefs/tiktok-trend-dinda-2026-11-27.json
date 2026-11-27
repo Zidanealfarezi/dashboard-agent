@@ -1,0 +1,124 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-27",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-27T08:28:00+07:00",
+  "collected_by": "hermes-cron-ootd-trend",
+  "note": "Riset pagi 27 November 2026. Halaman tren lagitren.id/tiktok diperbarui 27 Nov 07.00 WIB dan sepuluh video viral hari ini semuanya soal Hari Guru (selamathariguru 11,5 jt, happyteachersday 17,4 jt, harigurunasional 9,8 jt, sulianto 5,0 jt) plus dua tag game (mlbbcardbrawl 2,3 jt, mlbbnewmode 618,1 rb); dua puluh hashtag tren juga tidak memuat satu pun tag kuliner atau daerah Palembang, jadi brief ini tidak mengklaim angka tren nasional makanan apa pun dan bersandar pada artikel lokal bertanggal yang benar-benar dibaca. Indeks berita Palembang pagi ini didominasi banjir, genangan, bau gas, dan kriminal, yang masuk larangan (cuaca/seremonial) sehingga sengaja dilewati. Variasi tema dijaga: hanya 1 dari 3 kandidat menyentuh keluarga pempek (kandidat C), kandidat A pilar keseharian/administrasi kota, kandidat B kuliner non-pempek. Tidak ada ramalan cuaca BMKG, rilis seremonial dinas, atau statistik inflasi; angka emas nasional juga tidak dipakai karena topik emas sudah terpakai 25 November.",
+  "candidates": [
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8770392/cara-mengurus-ktp-hilang-atau-rusak-tanpa-biaya-di-palembang",
+      "title": "Cara Mengurus KTP Hilang atau Rusak Tanpa Biaya di Palembang (detikSumbagsel)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-26T23:00:41+07:00",
+      "observed_at": "2026-11-27T08:14:00+07:00",
+      "evidence": "Terbit Kamis 26 November 2026 pukul 23.00 WIB (meta pubdate 2026-11-26T23-00-41Z), penulis Marshanda, dibaca Jumat 27 November 2026 pukul 08.14 WIB, 28 paragraf badan. Isi yang terbaca: KTP hilang atau rusak dapat diganti dengan mengajukan permohonan pencetakan ulang melalui Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) sesuai domisili; pengurusan penggantian KTP-el hilang maupun rusak gratis. Persyaratan mengacu standar pelayanan Disdukcapil Kota Palembang: untuk KTP hilang perlu surat keterangan kehilangan dari kepolisian, untuk KTP rusak cukup KTP-el lama yang rusak. Laman Disdukcapil Kota Palembang menyediakan layanan LAMBIDARO (Layanan Administrasi Kependudukan Berbasis Pendaftaran Online). Tujuh langkah yang tertulis: buka laman LAMBIDARO, login dengan NIK dan kata sandi (registrasi dulu bila belum punya akun), pilih kategori layanan KTP-el lalu jenis permohonan KTP hilang atau KTP rusak, isi formulir (NIK, nama lengkap, nomor KK, alasan penggantian, nomor kontak aktif), unggah foto atau scan KK dan surat kehilangan untuk KTP hilang atau foto KTP rusak, periksa lalu kirim dan simpan bukti atau nomor pendaftaran, pantau verifikasi petugas. Lima tips yang dimuat: cek ulang NIK/nama/KK sebelum kirim, pastikan hasil scan jelas tidak buram, cantumkan nomor WhatsApp dan email aktif, simpan nomor tiket, pantau status berkala. Pengambilan KTP baru di loket Disdukcapil dengan membawa surat keterangan kehilangan asli bagi pemohon KTP hilang. Artikel tidak menyebut biaya, lama proses, atau panjang antrean."
+    },
+    {
+      "url": "https://sumsel.idntimes.com/news/sumatra-selatan/promo-kuliner-palembang-november-2026-ada-haraku-ramen-00-dvg48-j68q6h",
+      "title": "Promo Kuliner Palembang November 2026: Ada Haraku Ramen (IDN Times Sumsel)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-19T07:13:00+07:00",
+      "observed_at": "2026-11-27T08:18:00+07:00",
+      "evidence": "Terbit Kamis 19 November 2026 pukul 07.13 WIB (meta datePublished 2026-11-19T07:13:00+07:00), penulis Feny Maulia Agustin, dibaca Jumat 27 November 2026 pukul 08.18 WIB, 12 paragraf badan. Isi: Haraku Ramen membuka gerai ketiganya di Palembang Square Level 1 dan memberi Vanilla Soft Serve Ice Cream gratis untuk setiap pembelian menu ramen atau Raishi jenis apa pun pada periode 17-29 November 2026. Periode 30 November-6 Desember 2026 setiap pembelian ramen atau Raishi digratiskan Chicken Chashu Classic Ramen. Photobooth gratis dengan minimum pembelian Rp150 ribu berlaku 23 November-6 Desember 2026. Kutipan President Director ISMAYA Group Cendyarani (keterangan pers diterima Rabu 18 November 2026). Menu yang disebut: Tori Paitan Ramen (kaldu ayam), Bara Ramen pedas, Creamy Bara Ramen, dengan topping Chicken Chashu, Spicy Chicken Karaage, Beef Sukiyaki; disebut ramen halal. Artikel tidak memuat harga menu ramen per porsi."
+    },
+    {
+      "url": "https://www.detik.com/sumbagsel/kuliner/d-8765994/11-rekomendasi-kuliner-hangat-khas-palembang-saat-musim-hujan",
+      "title": "11 Rekomendasi Kuliner Hangat Khas Palembang Saat Musim Hujan (detikSumbagsel)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-25T23:00:23+07:00",
+      "observed_at": "2026-11-27T08:21:00+07:00",
+      "evidence": "Terbit Rabu 25 November 2026 pukul 23.00 WIB (meta pubdate 2026-11-25T23-00-23Z), penulis Marshanda, dibaca Jumat 27 November 2026 pukul 08.21 WIB. Daftar resmi artikel: tekwan, model, aneka pindang (patin, baung, tulang, udang, ayam, Meranjat), mi celor, laksan, celimpungan, burgo, lakso, martabak HAR, ragit, pempek panggang dan lenggang panggang. Rincian yang terbaca: tekwan kuah kaldu udang dengan sohun, jamur kuping, bengkuang, bawang goreng; model memakai adonan pempek isi tahu dengan kuah kaldu udang; pindang memakai cabai, bawang, kunyit, serai dan kadang nanas; mi celor kuah santan dan kaldu udang dengan tauge, telur rebus, daun bawang, seledri; laksan dan celimpungan kuah santan kuning; burgo dan lakso dari tepung beras dan sagu. Artikel tidak memuat harga, nama warung, atau alamat."
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini 27 November 2026 (lagitren.id)",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-27T08:10:00+07:00",
+      "evidence": "Halaman diakses Jumat 27 November 2026 pukul 08.10 WIB, tertulis 'diperbarui 27 Nov, 07.00 WIB'. Sepuluh video viral: selamathariguru (11,5 jt), happyteachersday (17,4 jt), mlbbcardbrawl (2,3 jt), mlbbnewmode (618,1 rb), harigurunasional (9,8 jt), harianaksedunia (1,5 jt), harigurunasional2026 (664,8 rb), hariguru25november (3,2 jt), sulianto (5,0 jt), teachersday (17,4 jt). Dua puluh hashtag tren: selamathariguru, happyteachersday, mlbbcardbrawl, mlbbnewmode, harigurunasional, harianaksedunia, harigurunasional2026, hariguru25november, sulianto, teachersday, belajarbarengsuli, hariguru, teacherday, hgn, suli, kacaurus, harianak, 25november, hgn2026, hariguru2026. Tidak ada tag kuliner, makanan, atau daerah Palembang, dan halaman tidak memuat angka tren nasional untuk topik makanan."
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "KTP Hilang atau Rusak di Palembang: Urus Online Lewat LAMBIDARO, Gratis",
+      "pillar": "Keseharian Cewek Palembang & Serba-serbi Kota",
+      "hook": "KTP hilang atau rusak itu gak dipungut biaya, dan sekarang bisa diurus online lewat LAMBIDARO Disdukcapil Palembang.",
+      "shots": [
+        "Shot 1 (7s): Dinda berdiri di depan meja dengan map dokumen, menyebut KTP hilang atau rusak bisa diganti lewat Disdukcapil sesuai domisili dan pengurusannya gratis, lalu membedakan syaratnya: KTP hilang perlu surat keterangan kehilangan dari polisi, KTP rusak cukup bawa KTP lama yang rusak.",
+        "Shot 2 (8s): Dinda memegang ponsel dan menyebut langkah LAMBIDARO: buka laman, login pakai NIK, pilih layanan KTP-el dan jenis permohonan, isi formulir, unggah KK plus surat kehilangan atau foto KTP rusak, kirim lalu simpan nomor pendaftaran, pantau verifikasi dan ambil KTP baru di loket Disdukcapil."
+      ],
+      "sound": "Ambience ruang pelayanan kantor, suara kursi dan langkah samar, tanpa musik",
+      "outfit": "Open mocha linen over fitted white inner, ivory pleated straight trousers (outfit_dinda_pagi_20261127)",
+      "caption": "KTP hilang atau rusak gak usah bayar, cukup daftar online lewat LAMBIDARO Disdukcapil Palembang. Kamu pernah kehilangan KTP dan ngurus ulang sampai berapa lama?",
+      "sources": [
+        "https://www.detik.com/sumbagsel/berita/d-8770392/cara-mengurus-ktp-hilang-atau-rusak-tanpa-biaya-di-palembang",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 8.5,
+        "actionable_solution": 9.5,
+        "local_relevance": 9.5,
+        "momentum": 7.0,
+        "evidence_strength": 8.5,
+        "format_fit": 8.5,
+        "risk_safety": 9.5
+      },
+      "why": "Ini satu-satunya kandidat pagi ini yang keresahannya nyata dan solusinya bisa langsung dipakai penonton: KTP hilang atau rusak menghambat layanan publik, dokumen, dan perbankan, sementara artikelnya memuat tujuh langkah LAMBIDARO yang spesifik untuk Disdukcapil Kota Palembang plus syarat yang berbeda antara KTP hilang (surat kehilangan dari polisi) dan KTP rusak (cukup KTP lama). Bukti kuat: artikel detik terbit 26 November 2026 pukul 23.00 WIB, dibaca utuh 28 paragraf. Skor mentah tanpa boost PAS 8,82 (pain 8,5 x 0,25 + solusi 9,5 x 0,25 + lokal 9,5 x 0,20 + momentum 7,0 x 0,15 + novelty 9,1 x 0,15), lalu boost keresahan plus solusi mengangkatnya ke plafon 9,9. Kekurangan yang diakui: artikel tidak menyebut lama proses maupun biaya di luar pernyataan gratis, jadi momentum diberi 7,0 karena ini utilitas evergreen yang terbit malam, bukan berita yang meledak pagi ini. Runner-up sebenarnya kandidat C (tekwan dan burgo, 8,18) yang naik karena kata 'tim' memicu boost tensi; skor mentahnya 6,66 dan isinya hanya daftar hidangan tanpa harga atau alamat, sedangkan kandidat B (promo Haraku Ramen) 7,32. Keputusan ini menang karena memberi langkah konkret, bukan karena kalah-menang angka semata."
+    },
+    {
+      "code": "B",
+      "title": "Haraku Ramen Palembang Square: Es Krim Gratis Tiap Beli Ramen sampai 29 November",
+      "pillar": "Kuliner Non-Pempek & Spot Nongkrong Palembang",
+      "hook": "Sampai 29 November, tiap beli ramen atau Raishi di Haraku Ramen Palembang Square dapat es krim gratis.",
+      "shots": [
+        "Shot 1 (7s): Dinda duduk di meja restoran dengan semangkuk ramen, menyebut Haraku Ramen membuka gerai ketiga di Palembang Square Level 1 dan promo es krim Vanilla Soft Serve gratis untuk setiap pembelian ramen atau Raishi sampai 29 November 2026.",
+        "Shot 2 (7s): Dinda menyebut promo lanjutan 30 November sampai 6 Desember dapat Chicken Chashu Classic Ramen gratis, dan photobooth gratis untuk transaksi minimal Rp150 ribu sampai 6 Desember, lalu menyebut pilihan Tori Paitan, Bara Ramen, dan Creamy Bara Ramen."
+      ],
+      "sound": "Ambience restoran ramen, sendok mangkuk samar, tanpa musik",
+      "outfit": "Open mocha linen over fitted white inner, ivory pleated straight trousers (outfit_dinda_pagi_20261127)",
+      "caption": "Haraku Ramen di Palembang Square bagi es krim gratis tiap beli ramen sampai 29 November, jadi makan siang bisa lebih hemat. Mau cobain Tori Paitan atau yang pedas dulu?",
+      "sources": [
+        "https://sumsel.idntimes.com/news/sumatra-selatan/promo-kuliner-palembang-november-2026-ada-haraku-ramen-00-dvg48-j68q6h",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 4.0,
+        "actionable_solution": 8.5,
+        "local_relevance": 9.0,
+        "momentum": 7.5,
+        "evidence_strength": 8.0,
+        "format_fit": 8.5,
+        "risk_safety": 9.0
+      },
+      "why": "Paling layak tayang minggu ini karena periodenya masih berjalan: es krim gratis berlaku 17-29 November 2026, jadi penonton bisa langsung datang Jumat sampai Minggu ini. Pilar kuliner non-pempek dan spot nongkrong memang dua pilar utama Dinda. Bukti cukup: artikel IDN Times terbit 19 November 2026 pukul 07.13 WIB dengan kutipan resmi dari ISMAYA Group. Skor mentah 7,9 dan tidak mendapat boost PAS karena tidak ada keresahan finansial nyata di dalamnya (tidak ada harga menu yang bisa dibandingkan, hanya ambang transaksi Rp150 ribu untuk photobooth). Umur artikel delapan hari juga menahan momentum di 7,5."
+    },
+    {
+      "code": "C",
+      "title": "Hujan di Palembang: Tekwan sampai Burgo, Kuah Hangat yang Paling Dicari",
+      "pillar": "Hidden Gem Kuliner & Tradisi Lokal (keluarga pempek)",
+      "hook": "Kalau Palembang lagi hujan, yang dicari bukan pempek, tapi tekwan, laksan, celimpungan, sampai burgo kuah santan.",
+      "shots": [
+        "Shot 1 (7s): Dinda memegang mangkuk tekwan di warung, menyebut tekwan kuah kaldu udang dengan sohun, jamur kuping, dan bengkuang, lalu menyebut model dan aneka pindang patin, baung, tulang, sampai Meranjat.",
+        "Shot 2 (7s): Dinda menyebut mi celor kuah santan kaldu udang, laksan dan celimpungan kuah santan kuning, burgo dan lakso dari tepung beras dan sagu, lalu bertanya penonton tim berkuah atau tim goreng."
+      ],
+      "sound": "Ambience warung beratap seng saat hujan, tanpa musik",
+      "outfit": "Chocolate brown open knit over ivory inner, cream pleated palazzo (outfit_dinda_malam_20261127)",
+      "caption": "Palembang lagi hujan terus, jadi tekwan sampai burgo kuah santan yang paling dicari. Kamu tim berkuah apa tim goreng?",
+      "sources": [
+        "https://www.detik.com/sumbagsel/kuliner/d-8765994/11-rekomendasi-kuliner-hangat-khas-palembang-saat-musim-hujan",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 4.0,
+        "actionable_solution": 6.5,
+        "local_relevance": 8.5,
+        "momentum": 6.0,
+        "evidence_strength": 7.5,
+        "format_fit": 7.5,
+        "risk_safety": 9.0
+      },
+      "why": "Masuk keluarga pempek (tekwan, model, laksan, celimpungan, pempek panggang) sehingga sengaja hanya dipakai sebagai opsi ketiga sesuai aturan maksimal satu kandidat pempek per hari; pilar anti-stagnan Dinda sendiri menetapkan pempek maksimal 1x per 10 hari. Nilainya lemah untuk TikTok: artikel hanya daftar sebelas hidangan tanpa harga, nama warung, atau alamat, jadi penonton tidak dapat langkah yang bisa langsung dipakai (solusi 6,5). Umur artikel dua hari dan tidak ada momentum berita yang menempel, jadi skor mentahnya 6,7."
+    }
+  ]
+}
