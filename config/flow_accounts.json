@@ -58,7 +58,7 @@
       "id": "flow_2",
       "reported_monthly_credits": 1000,
       "balance_verified": true,
-      "verified_balance": 50,
+      "verified_balance": 20,
       "assigned_character": "isk",
       "target_resolution": "720p",
       "project_url": "https://flow.google.com/project/33b10f02-20fa-4df2-87c3-ca4696d342c6",
@@ -68,10 +68,10 @@
       "email": "coralgaming88@gmail.com",
       "chrome_profile_label": "Coral Gaming (FLOW)",
       "subscription_tier_observed": "FREE",
-      "balance_verified_at": "2026-11-27T10:02:00+07:00",
+      "balance_verified_at": "2026-11-27T10:10:00+07:00",
       "project_title": "intansuarkartika",
       "credits_reset_label_as_displayed": "Kredit diperbarui setiap hari pukul 10.35",
-      "balance_source": "Bacaan live menu akun CDP port 9336 pada 27 November 2026 10.02 WIB: 50 kredit Google Flow (intansuarkartika), keterangan kredit diperbarui setiap hari pukul 10.35. Belum ada generasi hari ini."
+      "balance_source": "Bacaan live menu akun CDP port 9336 pada 27 November 2026 10.02 WIB: 50 kredit sebelum render; bacaan ulang 10.10 WIB sesudah render: 20 kredit. Selisih 30 kredit = satu generasi 10 detik 720p (job 598de09b6e50439685fe43e41934fd34)."
     },
     {
       "id": "flow_3",
