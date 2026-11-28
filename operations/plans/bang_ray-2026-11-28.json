@@ -1,0 +1,113 @@
+{
+  "id": "bang_ray-2026-11-28",
+  "character_id": "bang_ray",
+  "kind": "video",
+  "duration_seconds": 10,
+  "role_tags": [
+    "kesalahan fatal struktur bangunan (keramik meledak terangkat, rangka atap baja ringan melintir, dinding retak rontok)",
+    "trik rahasia tukang senior vs kebiasaan salah di proyek (plesteran mortar, takaran air cor beton, sambungan pipa pvc)",
+    "komparasi teknik dan adu solusi tukang (bata merah siram vs rendam, acian kertas sak semen)"
+  ],
+  "role_reason": "Topik hari ini adalah kesalahan fatal yang paling sering dilewatkan di rumah setengah jadi: dinding bata di atas kusen pintu dipasang tanpa balok latei sehingga beban dinding menekan kusen lalu muncul retak miring dan dinding ambles. Pilar pertama (kesalahan fatal struktur) jadi dasar masalah, pilar kedua dipakai untuk aturan tukang senior panjang tumpuan latei, dan pilar ketiga dipakai untuk penutup adu dua kubu metode latei kayu versus latei beton cor. Tidak mengulang rangka atap ikatan angin 27 November, bata siram rendam 26 November, nat keramik 24 November, angkur kanopi 23 November, maupun perancah dak 22 November.",
+  "title": "Latei Kurang Masuk Bikin Dinding Atas Kusen Retak Lalu Ambles",
+  "hook": "Dinding bata di atas kusen pintu retak miring lalu ambles karena lateinya cuma menumpang sedikit di pasangan bata, bukan masuk dua puluh senti ke tiap sisi dinding seperti aturan tukang senior",
+  "story": "Di rumah bata setengah jadi Banda Aceh, Bang Ray berdiri di samping kusen pintu kayu yang sudah terpasang dengan retak miring halus menjalar dari sudut atas kusen ke pasangan bata. Sejak frame pertama ia sudah memegang satu balok latei beton pracetak pendek di tangan kanan dan satu waterpass aluminium di tangan kiri. Ia mengetukkan ujung balok latei ke bata di atas kusen, menelusuri retak dengan telapak tangan, lalu menempelkan waterpass di atas kusen untuk memperlihatkan posisi latei yang seharusnya. Penutup: ia menahan waterpass di dinding, menatap lensa, dan mengadu penonton memilih latei kayu atau latei beton cor. Tumpukan kardus tersegel bergaris merah kuning hijau dengan tulisan CAP KERIS tetap diam di sudut kanan bawah sebagai properti lokasi.",
+  "caption": "Latei yang cuma menumpang sedikit di atas kusen bikin dinding retak miring lalu ambles. Aturan tukang senior latei masuk dua puluh senti ke tiap sisi dinding, rakan di sana tim latei kayu atau tim latei beton cor?\n#tipskonstruksi #lateikusen #retakdinding #tukangbangunan #bandaaceh",
+  "hashtags": "#tipskonstruksi #lateikusen #retakdinding #tukangbangunan #bandaaceh",
+  "image_prompt": "Pakai tiga aset master Bang Ray yang disahkan: FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg untuk wajah, FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg untuk postur dan pakaian kerja, serta characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png untuk tumpukan kardus tersegel bergaris merah kuning hijau dengan tulisan CAP KERIS di sudut kanan bawah. Tidak membuat master wajah baru dan tidak menyebut merek di dialog maupun caption.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Berdiri di samping kusen pintu rumah bata setengah jadi, kamera handheld setinggi dada menyudut sedikit rendah, satu take",
+      "opening": "Sejak 0.0s balok latei beton sudah di tangan kanan dan waterpass di tangan kiri, retak miring di atas kusen terbaca",
+      "camera": "Handheld smartphone setinggi dada, sedikit menyudut rendah dari sisi kiri kusen, goyangan natural",
+      "core_action": "Mengetuk ujung balok latei ke bata di atas kusen lalu menempelkan waterpass di posisi latei seharusnya",
+      "closing": "Menahan waterpass di dinding, menatap lensa dan mengadu latei kayu atau latei beton cor",
+      "risk": "Balok latei dan waterpass wajib utuh di tangan sejak frame pertama sampai akhir"
+    },
+    {
+      "id": "B",
+      "format": "Makro dekat ke retak miring di atas kusen, hanya tangan dan dinding, tanpa wajah",
+      "opening": "Sejak 0.0s hanya jari menelusuri retak di atas kusen",
+      "camera": "Statis sangat dekat ke sudut kusen, fokus ke retak",
+      "core_action": "Menelusuri retak lalu menempelkan balok latei ke sisi atas kusen",
+      "closing": "Tangan menarik balok keluar frame",
+      "risk": "Wajah dan postur hilang sehingga identitas Bang Ray tidak terbaca, gerak jari makro rawan cacat"
+    },
+    {
+      "id": "C",
+      "format": "Wide statis memperlihatkan satu dinding dengan dua kusen, Bang Ray berjalan dari kusen retak ke kusen sehat",
+      "opening": "Dua kusen tampak bersamaan sejak 0.0s",
+      "camera": "Wide statis setinggi pinggang di tengah ruangan",
+      "core_action": "Berjalan sambil menunjuk kusen retak lalu kusen sehat",
+      "closing": "Berhenti di depan kusen sehat dan bicara ke kamera",
+      "risk": "Dua kusen memaksa dua kondisi dinding berbeda dalam satu take, rawan berubah bentuk dan memperbanyak properti"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Satu kusen dengan retak nyata plus balok latei dan waterpass membuat kesalahan struktur terbaca tanpa caption, dua properti di tangan mudah dijaga kontinuitasnya, dan penutup adu latei kayu versus latei beton cor memberi pemicu komentar yang jelas.",
+    "history_checked": "Riwayat operasional Bang Ray lima slot terakhir: 27 Nov rangka atap tanpa ikatan angin (published, https://www.tiktok.com/@teuku.rayyan00); 26 Nov bata kering bikin plesteran rontok (published); 24 Nov nat keramik nol bikin keramik meledak (published); 23 Nov angkur kanopi cuma ditempel (published); 22 Nov perancah dak dibongkar terlalu cepat (published). Tidak ada video latei kusen pada lima slot itu maupun pada 14 sampai 21 November. Data views per video tidak tersedia di sumber lokal."
+  },
+  "creative": {
+    "character": "Bang Ray, pria 26 tahun asal Banda Aceh, kemeja kerja navy lengan pendek dua saku dada di atas kaus dalam putih, celana chino khaki, jam lapangan hitam di pergelangan kiri, sepatu bot kerja kulit cokelat tua, kulit sawo matang matte berpori",
+    "background": "Rumah bata setengah jadi di Banda Aceh: dinding bata merah belum diplester dengan kusen pintu kayu terpasang, retak miring halus dari sudut atas kusen, lantai semen berpasir, cahaya siang mendung terang dari bukaan pintu",
+    "action": "Mengetuk ujung balok latei beton ke bata di atas kusen, menelusuri retak miring dengan telapak tangan, lalu menempelkan waterpass aluminium di posisi latei seharusnya sambil bicara ke kamera",
+    "selection_reason": "Dua properti di tangan sejak frame pertama dan tidak ada pergantian alat, jadi kontinuitas properti bisa diperiksa di frame awal tengah dan akhir.",
+    "dialogue": "Latei kurang masuk bikin dinding atas kusen retak lalu ambles. Rakan di sini tim latei kayu atau tim latei beton cor?",
+    "dialogue_start_seconds": 0.5,
+    "dialogue_read_seconds": 9.0,
+    "action_end_seconds": 9.7
+  },
+  "flow": {
+    "account_id": "flow_3",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [3, 4, 6, 8, 10, 12, 15],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 30,
+    "references_attached": 3,
+    "verified_from": "Pill komposer Google Flow flow_3 pada 28 November 2026 14.02 WIB menampilkan 'Video · 720p · 10 dtk crop_9_16 x1'. Menu akun Pemuda pukul 14.07 WIB menampilkan 50 kredit Google Flow dengan keterangan kredit diperbarui setiap hari pukul 10.26."
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "dialogue": "Latei kurang masuk bikin dinding atas kusen retak lalu ambles. Rakan di sini tim latei kayu atau tim latei beton cor?",
+      "dialogue_start_seconds": 0.5,
+      "action_end_seconds": 9.7,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 10 seconds, one continuous take, shot on smartphone vlog camera held at chest height beside a doorway in a half-built brick house with gentle natural handheld sway and a slight low angle, natural clean overcast daylight, neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Use the attached Bang Ray master references for identity: match the exact same face, same apparent age, same face shape, nose, eyebrows and hairline; do not change his identity, and keep the same 173 cm stocky posture and work clothing from the fullbody turnaround sheet. Location: a half-built red brick house in Banda Aceh, an unplastered brick wall with a pale wooden door frame installed and a faint diagonal hairline crack running from the top corner of the frame up across the brick above it, cement floor with loose sand, one bare doorway letting bright overcast daylight in from the left. He stands at the doorway in a navy short-sleeved work shirt with two chest pockets over a clean white undershirt, khaki chino work trousers, a black field watch on his left wrist and dark brown leather work boots; his face, hands and torso stay in frame the whole take. From the very first frame he already holds one short precast concrete lintel block in his right hand at chest height and one aluminium spirit level in his left hand, and in the bottom right corner of the frame a stack of sealed kraft cardboard cartons with red, yellow and green stripes and the black printed words PAKU CAP KERIS sits on the floor. PROP CONTINUITY RULE: from 0.0s to 10.0s exactly one concrete lintel block in his right hand, one aluminium spirit level in his left hand and the sealed CAP KERIS carton stack in the bottom right corner are the props; no extra tool, trowel, hammer, brick, bucket, ladder, second person or second block may appear, move in, fall or disappear at any instant, the carton stripes and print must not change, and the concrete block must never be swapped or set down out of frame. BEATS: from 0.0s to 0.5s he already holds the concrete block up in front of the brick above the door frame. From 0.5s to 4.0s he lifts the block and taps its end twice lightly against the brick above the door frame while turning his head to the camera and says in clear Indonesian: \"Latei kurang masuk bikin dinding atas kusen retak lalu ambles.\" From 4.0s to 5.0s he slides the flat of his open hand along the diagonal hairline crack above the corner of the frame. From 5.0s to 9.0s he raises the aluminium spirit level and presses it flat against the wall just above the door frame, checks the bubble, and says in clear Indonesian: \"Rakan di sini tim latei kayu atau tim latei beton cor?\" From 9.0s to 10.0s he keeps the level pressed against the wall, looks straight into the lens and gives one small nod while the level and the carton stack stay fully visible in the final frame. Ambient construction site sound, light breeze and distant birds, natural room tone, no music."
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/BangRay/bangray_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/BangRay/bangray_fullbody_turnaround.jpg",
+    "characters/bang_ray/assets/brand/paku_cap_keris_stack_red_yellow_green.png"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://novotest.id/panduan-balok-latei-beton-sni-desain-ketahanan/",
+      "title": "Panduan Lengkap Balok Latei Beton: Jenis, Desain, Perhitungan Sesuai SNI",
+      "observed_at": "2026-11-28T14:02:00+07:00",
+      "evidence": "Dibaca utuh 28 November 2026 pukul 14.02 WIB: balok latei terletak di atas kusen pintu atau jendela untuk menahan beban dinding di atasnya agar beban tidak langsung diterima kusen, dan tanpa latei beban menekan rangka kusen sehingga muncul kerusakan atau kegagalan. Panjang tumpuan minimal di setiap sisi dinding adalah 20 cm, dan kesalahan umum di lapangan adalah balok hanya menumpu 5 sampai 10 cm sehingga berisiko gagal pada tumpuan. Sumber juga menyebut retak geser diagonal sekitar 45 derajat dari sudut bukaan sebagai tanda bahaya paling umum."
+    },
+    {
+      "url": "https://repository.upnjatim.ac.id/10146/2/18035010082%20-%20BAB%202.pdf",
+      "title": "BAB II Tinjauan Pustaka - Balok Lintei/Latei (Repository UPN Veteran Jawa Timur)",
+      "observed_at": "2026-11-28T14:03:00+07:00",
+      "evidence": "Dibaca 28 November 2026 pukul 14.03 WIB pada bagian 2.1.2.3 Pembagian Balok Berdasarkan Fungsinya: balok lintei adalah balok yang dibuat di atas kusen pintu atau jendela yang berfungsi menopang dan mentransfer beban dinding di atasnya menuju ke dinding yang lain sehingga beban tidak ditahan kusen, karena kusen yang menahan beban akan rusak. Dipakai sebagai dasar bahwa latei adalah elemen pemikul, bukan hiasan di atas kusen."
+    }
+  ],
+  "historical_fact_sources": [],
+  "owner_note_applications": {},
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, uji laboratorium, merek pesaing, atau nomor WhatsApp. Angka dua puluh senti hanya muncul di caption sebagai aturan tumpuan latei sesuai sumber, bukan klaim produk. Tulisan CAP KERIS hanya terlihat sebagai properti lokasi dan tidak disebut di dialog maupun caption.",
+  "status_note": "Satu klip utama 10 detik 720p native Omni 1.2 Flash, tanpa outro, total final maksimal 30 detik. Subtitle editorial_tiktok bebas koma dibakar lokal setelah upscale Varian 3."
+}
