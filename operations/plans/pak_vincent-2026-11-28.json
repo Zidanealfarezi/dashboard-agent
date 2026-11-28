@@ -1,0 +1,76 @@
+{
+  "id": "pak_vincent-2026-11-28",
+  "character_id": "pak_vincent",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "title": "Pupuk Mahal Jangan Ditabur Nempel Pokok",
+  "hook": "Pupuk adalah biaya terbesar kebun, tapi banyak yang menaburnya nempel pangkal pokok sampai uangnya terbuang",
+  "story": "Di piringan pokok sawit, Pak Vincent sudah menabur pupuk dari ember sejak frame pertama. Ia mengingatkan bahwa pupuk mahal akan terbuang kalau ditabur nempel pangkal pokok, lalu menunjuk tanah kosong sekitar satu setengah meter dari pangkal sebagai tempat taburan yang benar. Penutupnya ia menyindir ringan perdebatan alat panen dodos lawan egrek yang ramai dibahas, padahal uang kebun lebih dulu habis di pupuk. Kereta sorong merah FIVE STAR berdiri sebagai alat kerja di sisi kiri frame dengan sisi luar bak menghadap tiga perempat ke kamera.",
+  "role_tags": [
+    "efisiensi biaya kebun dan pupuk mahal (jarak tabur piringan 1.5 meter, pemupukan musim trek, perawatan piringan)",
+    "titik sakit finansial panen TBS dan timbangan RAM PKS (potongan tangkai panjang, sortir buah mentah, adu dodos vs egrek)"
+  ],
+  "role_reason": "Lima slot terakhir memakai bibit palsu (27 Nov), TBS menginap di bak (26 Nov), potongan timbangan KPPU (25 Nov), brondolan tertinggal (24 Nov), dan sortir janjang mentah (23 Nov). Pilar efisiensi pupuk belum dipakai sejak 22 November dan hari ini diambil sudut yang berbeda: jarak tabur 1,5 meter dari pangkal pokok, bukan sekadar harga pupuk. Perdebatan dodos lawan egrek tetap muncul sebagai sindiran penutup agar komentar ramai tanpa mengulang topik utama tiga hari terakhir. Kamera hari ini wide rendah dari lutut dan statis, bukan push-in medium seperti 27 November, supaya jarak tabur terlihat nyata di frame.",
+  "caption": "Pupuk mahal paling sering terbuang cuma karena ditabur nempel pangkal pokok wak. Kawan biasa tabur berapa meter dari piringan?\n#pupuksawit #kebunsawit #petanisawit #sawitriau #pekebunsawit #pemupukansawit",
+  "hashtags": ["#pupuksawit", "#kebunsawit", "#petanisawit", "#sawitriau", "#pekebunsawit", "#pemupukansawit"],
+  "image_prompt": "Identitas memakai entitas Personal Flow Character 'Pak Vincent' untuk wajah dan postur. Pakaian kerja: kaos katun lengan panjang biru tua polos tanpa logo atau grafis, celana kerja gelap, topi baseball cap gelap dengan panel depan kain benar-benar kosong tanpa huruf, sandal karet. Properti: satu kereta sorong baja merah bertulisan FIVE STAR pada sisi luar bak mengacu characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg, kosong, berdiri di sisi kiri frame dengan sisi luar bak menghadap tiga perempat ke kamera; satu ember plastik abu-abu berisi butiran pupuk di tangan kiri Pak Vincent. Latar piringan pokok sawit bersih di tanah laterit merah, pinggiran Pekanbaru, Riau, cahaya pagi netral.",
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Create an original 12-second vertical 9:16 handheld smartphone documentary vlog at an oil-palm smallholding near Pekanbaru, Riau, on red laterite soil under soft neutral morning daylight. Use the attached personal Flow Character named Pak Vincent for the face and body: one lean wiry Indonesian plantation worker of about 35 with weathered sun-tanned matte skin and fine visible pores, a thin mustache, warm friendly eyes, a plain navy-blue long-sleeve cotton work shirt with no logo, no graphic and no lettering, dark work trousers, rubber work sandals and a plain dark baseball cap whose front panel is completely blank fabric with absolutely no letters, numbers, symbols, embroidery, print or stitched badge anywhere on it. Output exactly ONE man in ONE continuous shot, never a collage, split screen or reference-sheet layout. CAMERA: low-angle wide handheld shot from about knee height and 2.5 metres away with very slight natural handheld sway and no zoom, holding his whole upper body and the clean weeded soil ring around the palm base inside the vertical frame, with his eyes in the upper third. PROP CONTINUITY: (1) one single red steel wheelbarrow matching the attached wheelbarrow reference stands parked empty on the packed red dirt at frame left, with its OUTWARD tray wall angled three-quarters toward the lens and fully unobstructed so that the small physical paint stencil reading exactly FIVE STAR on that outward red wall is clearly visible and legible from the very first frame to the last, and keep the entire tray and all its edges inside the frame with clear margin from every frame edge; its black tyre and support legs stay planted at the same position and the same believable scale for the whole clip; (2) he already holds one grey plastic fertilizer pail half full of grey-white fertilizer granules in his left hand from the first frame until the last, and broadcasts the granules with his right hand in a wide low arc onto the clean soil ring roughly one and a half metres out from the palm trunk. No other tool, sack, hose, second person, animal or vehicle may appear, enter the frame or disappear at any moment. BEATS: at 0.0 seconds he is already half bent and broadcasting fertilizer from the pail with his right hand while glancing toward the lens; from 0.5 to 4.0 seconds he says in Indonesian with a warm relaxed Riau delivery, \"Pupuk mahal ditabur nempel pokok itu rugi wak,\" and taps the pail once with his right hand at about 2.5 seconds; from 4.2 to 7.8 seconds he straightens up, points with his right index finger at the bare soil gap about one and a half metres from the trunk and says, \"Tabur satu setengah meter dari pangkal pokok\"; from 8.2 to 10.7 seconds he gives a small wry shrug, looks straight at the lens and asks, \"Masih mau ribut dodos lawan egrek?\"; from 10.7 to 12.0 seconds he holds a calm knowing smile with his right hand lowering out of frame. Natural soft daylight with neutral white balance, true-to-life colors, quiet plantation ambience, natural lip sync. Realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no added graphics, subtitles, titles, on-screen text or watermarks anywhere in the frame, and no lettering anywhere in the scene except the small physical FIVE STAR stencil on the outward side of the wheelbarrow tray.",
+      "dialogue": "Pupuk mahal ditabur nempel pokok itu rugi wak. Tabur satu setengah meter dari pangkal pokok. Masih mau ribut dodos lawan egrek?",
+      "dialogue_start_seconds": 0.5,
+      "dialogue_read_seconds": 10.2,
+      "action_end_seconds": 11.0
+    }
+  ],
+  "references": [
+    "FOTO_KARAKTER/PakVincent/pakvincent_three_expression_sheet.jpg",
+    "FOTO_KARAKTER/PakVincent/pakvincent_fullbody_turnaround.jpg",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow_ingredients": [
+    "Flow Character: Pak Vincent",
+    "characters/isk/assets/brand/kereta_sorong_five_star_angle.jpg"
+  ],
+  "flow": {
+    "account_id": "flow_5",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [3, 10, 15],
+    "estimated_credits_displayed": null,
+    "duration_credit_verified": false,
+    "references_attached": 2,
+    "identity_chip_policy": "Memakai entitas Personal Flow Character Pak Vincent sebagai chip identitas, ditambah satu foto produk kereta sorong FIVE STAR.",
+    "verified_from": "Pembacaan live panel Flow flow_5 (port 9334) 28 November 2026 16.31 WIB: settings 'Video · 720p · 3 dtk crop_9_16 x1', saldo akun 419 kredit dari sync_flow_status.js."
+  },
+  "trend_sources": [
+    {
+      "url": "https://babel.brmp.pertanian.go.id/berita/penerapan-standar-pemupukan-kelapa-sawit-elaeis-guineensis-jacq",
+      "title": "Penerapan Standar Pemupukan Kelapa Sawit (Elaeis guineensis Jacq)",
+      "observed_at": "2026-11-28T16:25:00+07:00",
+      "evidence": "Dibaca 28 November 2026, terbit 29 November 2023 di situs Balai Besar Pengkajian dan Pengembangan Teknologi Pertanian Babel. Pada tanaman menghasilkan, pemupukan dilakukan pada jarak 1,5 m dari pohon dengan cara ditebar (broadcast) dan pocket."
+    },
+    {
+      "url": "https://talenta.usu.ac.id/jpt/article/download/3074/2312",
+      "title": "Distribusi Hara dalam Tanah dan Produksi Akar Tanaman Kelapa Sawit pada Metode Pemupukan yang Berbeda",
+      "observed_at": "2026-11-28T16:26:00+07:00",
+      "evidence": "Dibaca 28 November 2026. Pemberian pupuk dengan cara ditabur dilakukan dengan menebar pupuk pada piringan dengan radius 1,5 meter dari titik tanam; akar penyerap hara berada di zona itu sehingga taburan nempel pangkal pokok tidak efisien."
+    },
+    {
+      "url": "https://repository.politanisamarinda.ac.id/id/eprint/1850/1/Abstrak%20Skripsi%20Muliana.pdf",
+      "title": "Analisis Biaya Pemupukan Divisi 1 PT Anugerah Energitama Kalimantan Timur",
+      "observed_at": "2026-11-28T16:27:00+07:00",
+      "evidence": "Dibaca 28 November 2026. Biaya pemupukan tergolong tinggi, kurang lebih 30 persen dari total biaya produksi atau 40 sampai 60 persen dari biaya pemeliharaan, sehingga taburan yang salah langsung membuang uang kebun."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Angka 1,5 meter mengacu pedoman pemupukan tanaman menghasilkan (BBRMP Babel dan jurnal Universitas Sumatera Utara yang mengutip praktik PPKS). Porsi biaya pupuk 30 persen total biaya produksi mengacu abstrak penelitian Politeknik Samarinda. Kereta sorong FIVE STAR hanya properti kerja latar sesuai aturan Pak Vincent 21 November 2026 dan tidak disebut di dialog maupun caption.",
+  "production_note": "Satu klip 12 detik 720p native 9:16. Dialog tiga frasa sekitar 21 kata sesuai batas aman 12 detik: frasa pertama beat 0.5-4.0 detik, frasa kedua 4.2-7.8 detik, frasa ketiga 8.2-10.7 detik, sisakan 1.3 detik hening. Topi wajib kosong total dan sisi luar bak kereta diarahkan tiga perempat ke kamera agar tulisan FIVE STAR terbaca sejak frame pertama. Frame mentah wajib bebas teks AI, lalu dirakit python3 -m app.media --character pak_vincent menjadi characters/pak_vincent/content/pak_vincent-2026-11-28/vin_281126_v1.mp4."
+}
