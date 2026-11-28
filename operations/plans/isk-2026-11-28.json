@@ -1,0 +1,109 @@
+{
+  "id": "isk-2026-11-28",
+  "character_id": "isk",
+  "kind": "video",
+  "duration_seconds": 10,
+  "final_duration_seconds": 14.07,
+  "role_tags": [
+    "uji ketahanan ekstrem material (stress test paku cap keris vs paku kiloan, tes lentur kawat)",
+    "membongkar trik toko nakal dan material banci (kawat galvanis abal-abal, timbangan paku kurang)"
+  ],
+  "role_reason": "Rotasi 4 pilar wajib: 27 November Kawat Duri Diamond, 26 November Kawat Licin Diamond, 24 November Kawat Duri Diamond, 23 November Kereta Sorong Five Star, 22 November Paku Cap Keris. Pilar yang paling lama tidak tampil adalah Paku Cap Keris (22 November), jadi hari ini pilar itu dipakai lagi dengan format Uji Ketahanan Fisik yang berbeda dari 22 November: bukan membandingkan paku murah bengkok, melainkan satu paku dipukul miring ke balok kayu keras sampai kepala rata lalu dicabut dengan catut dan batangnya tetap lurus. Tidak ada tema timbangan 25 kg dan tidak ada nomor WhatsApp di naskah maupun caption.",
+  "title": "Paku Dipukul Miring ke Balok Keras Tetap Lurus",
+  "hook": "Paku dipukul miring ke balok kayu keras sampai kepala rata dan batangnya tetap lurus saat dicabut",
+  "story": "Di meja kerja bengkel kayu, satu kardus Paku Cap Keris sudah terbuka sejak frame pertama di sisi kanan meja dengan garis hijau dan cetakan CAP KERIS menghadap kamera, ditemani tumpukan kecil paku baja bersih. Tukang kayu menusukkan satu paku agak miring ke balok kayu keras, memukul kepalanya sampai rata tanpa batang membengkok, lalu mencabutnya dengan catut dan mengangkat paku itu ke samping kardus untuk memperlihatkan batangnya masih lurus. Penutup: ia meletakkan paku lurus itu di meja sambil mengangguk tenang dan mengarahkan penonton bertanya ukuran lewat DM tanpa nomor WhatsApp.",
+  "caption": "Paku dipukul miring ke balok kayu keras dan batangnya tetap lurus sampai kepala rata. Mau tanya ukuran paku yang pas untuk bekisting? Tanya lewat DM aja.\n#pakucapkeris #pakubaja #tipsbangunan #materialmedan",
+  "hashtags": "#pakucapkeris #pakubaja #tipsbangunan #materialmedan",
+  "image_prompt": "Pakai referensi produk resmi characters/isk/assets/brand/paku_cap_keris_box_reference.jpg: kardus kraft cokelat dengan pita hijau di sisi kiri dan cetakan hitam PAKU EXPORT QUALITY PRODUKSI P.T. INTAN SUAR KARTIKA MEDAN-INDONESIA, tulisan CAP KERIS dengan ilustrasi keris, dan nomor SNI. Tidak membuat master wajah baru; pekerja digambarkan generik tanpa mengklaim identitas karakter lain.",
+  "concept_options": [
+    {
+      "id": "A",
+      "format": "Uji pukul di meja kerja bengkel kayu, kamera handheld setinggi dada menyudut rendah ke balok, satu take",
+      "opening": "Sejak 0.0s kardus Paku Cap Keris terbuka di sisi kanan meja dan palu sudah terangkat di atas paku yang dipasang miring",
+      "camera": "Handheld smartphone setinggi dada, sedikit menyudut rendah di seberang meja, goyangan natural, maju setengah langkah di akhir",
+      "core_action": "Memukul paku miring sampai kepala rata tanpa batang bengkok, lalu mencabutnya dengan catut dan mengangkat paku lurus ke samping kardus",
+      "closing": "Meletakkan paku lurus di meja, satu anggukan tenang dan satu kalimat penutup ke lensa",
+      "risk": "Kardus, palu, balok, catut dan paku wajib utuh dari frame pertama sampai terakhir"
+    },
+    {
+      "id": "B",
+      "format": "Makro statis top-down ke kepala paku di atas balok, hanya tangan, tanpa wajah",
+      "opening": "Sejak 0.0s hanya tangan dan palu yang terlihat di atas balok",
+      "camera": "Statis top-down sangat dekat, fokus makro ke kepala paku",
+      "core_action": "Memukul kepala paku tiga kali lalu memutar balok untuk memperlihatkan batang lurus",
+      "closing": "Tangan meletakkan paku di samping kardus",
+      "risk": "Wajah hilang dari frame sehingga konteks ISK hilang, dan gerak jari makro rawan cacat anatomi"
+    },
+    {
+      "id": "C",
+      "format": "Edukasi di lorong toko membandingkan dua tumpukan paku, wide statis",
+      "opening": "Dua tumpukan paku berdampingan sejak 0.0s, satu bersih satu kusam",
+      "camera": "Wide statis setinggi pinggang di lorong toko bangunan",
+      "core_action": "Menunjuk paku kusam lalu paku bersih sambil menjelaskan ciri paku cacat",
+      "closing": "Menunjuk kardus Paku Cap Keris lalu bicara ke kamera",
+      "risk": "Menampilkan produk pesaing dan menyiratkan uji banding yang tidak benar-benar dilakukan"
+    }
+  ],
+  "concept_selection": {
+    "chosen": "A",
+    "reason": "Uji pukul miring lalu dicabut memperlihatkan klaim batang tetap lurus secara kasat mata dalam satu take, kardus resmi dan wajah pekerja terbaca sejak detik nol, dan aksinya berbeda dari uji pukul paku 22 November, uji tarik kawat duri 27 November, uji lentur kawat licin 26 November, serta drop test kereta sorong 23 November.",
+    "history_checked": "Riwayat operasional ISK lima slot terakhir: 27 Nov Kawat Duri Diamond ditarik kencang (paket ditahan pada QA audio, tidak terbit); 26 Nov Kawat Licin Diamond uji lentur lima kali (published, https://www.tiktok.com/@intansuarkartika/video/7712355404969217281); 25 Nov slot Kawat Licin ditahan karena kredit Flow habis sehingga tidak ada media dan tidak ada posting; 24 Nov Kawat Duri Diamond edukasi lapisan galvanis (published, .../video/7711613614158892294); 23 Nov Kereta Sorong Five Star uji beban semen (published, .../video/7711242735331609908). Tidak ada data views per video di sumber lokal."
+  },
+  "creative": {
+    "character": "Tukang kayu Indonesia pria 45 tahun, kemeja kerja abu-abu pudar berlengan digulung, celana kerja gelap, topi lapangan lusuh, kulit sawo matang, tangan berdebu serbuk kayu",
+    "background": "Bengkel kayu sederhana: meja kerja kayu keras penuh goresan, serbuk kayu, jendela samping dengan cahaya siang mendung terang",
+    "action": "Memasang paku agak miring di balok kayu keras, memukul kepalanya sampai rata tanpa batang bengkok, mencabutnya dengan catut, mengangkat paku lurus ke samping kardus Paku Cap Keris, lalu meletakkannya di meja",
+      "selection_reason": "Satu aksi pukul dan satu aksi cabut yang bisa diperiksa frame awal sampai akhir, produk resmi terlihat sejak detik nol, alat hanya palu dan catut sehingga kontinuitas properti mudah dijaga.",
+    "dialogue": "Paku dipukul miring ke balok keras tetap lurus. Paku Cap Keris PT Intan Suar Kartika kuat.",
+    "dialogue_start_seconds": 0.0,
+    "dialogue_read_seconds": 9.0,
+    "action_end_seconds": 9.7
+  },
+  "flow": {
+    "account_id": "flow_2",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_options_seconds": [4, 6, 8, 10, 12],
+    "duration_chosen_seconds": 10,
+    "estimated_credits_displayed": 30,
+    "references_attached": 1,
+    "verified_from": "Pill komposer Google Flow flow_2 pada 28 November 2026 10.01 WIB: 'Video · 720p · 10 dtk crop_9_16 x1'. Menu akun Coral Gaming pukul 10.02 WIB menampilkan 20 kredit dengan keterangan kredit diperbarui setiap hari pukul 10.35; saldo dibaca ulang setelah pembaruan sebelum reserve."
+  },
+  "shots": [
+    {
+      "seconds": 10,
+      "dialogue": "Paku dipukul miring ke balok keras tetap lurus. Paku Cap Keris PT Intan Suar Kartika kuat.",
+      "dialogue_start_seconds": 0.0,
+      "action_end_seconds": 9.7,
+      "prompt": "Photorealistic live-action video, vertical 9:16, 10 seconds, one continuous take, shot on smartphone vlog camera held at chest height across a carpenter workbench with gentle natural handheld sway and a slight low angle, natural clean daylight neutral white balance, true-to-life colors, realistic matte human skin with visible fine pores, no plastic shine, no waxy skin, no glass skin, no yellow or orange tint, no artificial golden glow, zero CGI, authentic non-AI documentary look, clean frame without camera HUD, no REC icon, no viewfinder brackets, no camera display overlay, no on-screen text or captions of any kind. Location: a simple Indonesian carpentry workshop, one scarred hardwood workbench with sawdust, bright overcast daylight from a side window. From the very first frame one open kraft carton of Paku Cap Keris from the single attached official reference photo stands at the right edge of the bench with its green stripe and black CAP KERIS print facing the camera, and a small pile of clean straight steel nails lies beside it. An Indonesian male carpenter about 45 years old in a faded grey work shirt with rolled sleeves, dark work trousers and a worn field cap stands behind the bench; his face, hands and torso stay in frame the whole take. PROP CONTINUITY RULE: from 0.0s to 10.0s exactly one open nail carton on the right, one wooden-handled hammer in his right hand, one hardwood block in the middle of the bench, one pair of pincers resting near the block and one nail being driven are the props; no extra tool, person, plank, bucket, machine, animal or second carton may appear, move in, fall or disappear at any instant, the carton print and its green stripe must not change, and the hammer must never be swapped. BEATS: from 0.0s to 0.5s he already holds the hammer raised over one nail set at a slight angle in the hardwood block. From 0.5s to 4.8s he strikes the nail head twice with firm controlled blows while turning his head to the camera and says in clear Indonesian: \"Paku dipukul miring ke balok keras tetap lurus.\" From 4.8s to 5.4s he drives the nail flush with two short strikes, the shaft staying perfectly straight. From 5.5s to 9.2s he grips the nail with the pincers, pulls it out and holds it up beside the open carton with its black CAP KERIS print facing camera while saying in clear Indonesian: \"Paku Cap Keris PT Intan Suar Kartika kuat.\" From 9.2s to 9.7s he lowers the straight nail onto the bench and gives one calm nod, the nail still straight and visible in the final frame beside the carton."
+    }
+  ],
+  "references": [
+    "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg"
+  ],
+  "flow_ingredients": [
+    "characters/isk/assets/brand/paku_cap_keris_box_reference.jpg"
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.sesteel.id/id/product/paku-baja/",
+      "title": "Paku Baja - Sino East Steel Indonesia",
+      "observed_at": "2026-11-28T09:58:00+07:00",
+      "evidence": "Dibaca 28 November 2026 pukul 09.58 WIB: paku baja dibuat dari kawat baja karbon rendah lewat penempaan dingin, grade Q195/Q235 dengan hard drawn untuk paku beton, dan kontrol kualitas di setiap tahap menjaga keseragaman diameter, kekuatan tekuk serta ketajaman ujung sehingga mengurangi risiko paku bengkok atau patah di lapangan. Dipakai sebagai dasar bahwa batang paku yang lurus dan kuat tekuk adalah tanda mutu, bukan klaim angka."
+    },
+    {
+      "url": "https://perwirasteel.com/produk/paku-beton/",
+      "title": "Paku Beton - Perwira Steel",
+      "observed_at": "2026-11-28T10:00:00+07:00",
+      "evidence": "Dibaca 28 November 2026 pukul 10.00 WIB: paku untuk material keras dibuat dari baja karbon berkualitas tinggi dengan kekuatan tarik besar sehingga tidak mudah bengkok atau patah saat dipasang, ujung runcing dan kepala kuat membantu penetrasi. Dipakai sebagai konteks mengapa uji pukul sampai kepala rata layak dipakai untuk memeriksa batang paku tetap lurus."
+    }
+  ],
+  "historical_fact_sources": [],
+  "owner_note_applications": {},
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Video tidak menyebut harga, angka penjualan, uji laboratorium, atau merek pesaing. Sumber hanya dipakai untuk konteks mutu batang paku. Klaim ketahanan dibatasi pada apa yang benar-benar terlihat di klip. Tidak ada nomor WhatsApp di caption maupun naskah; ajakan diarahkan halus ke DM. Durasi klip 10 detik 720p native, outro resmi 4.07 detik dirakit lokal sehingga durasi final 14.07 detik.",
+  "status_note": "Slot 10 detik 720p native, outro resmi 4.07 detik dirakit lokal sehingga durasi final 14.07 detik."
+}
