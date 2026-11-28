@@ -1,0 +1,84 @@
+{
+  "character_id": "dinda",
+  "kind": "video",
+  "duration_seconds": 12,
+  "final_duration_seconds": 12,
+  "slot_id": "dinda-2026-11-28",
+  "title": "Sagu Naik Hampir 100 Persen: Warung Pempek Depan Masjid Agung Tahan Harga Rp5.000",
+  "hook": "Sagu lima ratus gram sekarang Rp16 sampai Rp18 ribu, tapi pempek kecil di warung depan Masjid Agung tetap Rp5.000.",
+  "story": "Dinda berdiri di samping warung pempek kecil di pinggir jalan dekat Masjid Agung Palembang pada pagi hari, sambil memegang satu bungkus sagu. Ia menyapa penonton lalu menjelaskan bahwa harga sagu kemasan lima ratus gram naik dari Rp10.500 menjadi Rp16.000 sampai Rp18.000, sehingga keuntungan warung Pempek Mustika di Jalan Cik Agus Kemas tergerus sekitar setengah walaupun omzetnya sama dan harga jual ditahan: pempek kecil Rp5.000, model, lenggang, dan telur besar Rp20.000, lenjer besar Rp25.000. Ia menyebut cara warung itu bertahan, yaitu posting media sosial setiap hari karena gratis, tidak lagi menyewa tempat, sesekali ikut food vlogger, dan membuka pesanan daring, lalu menutup dengan pertanyaan ringan apakah penonton pernah makan di warung yang menahan harga.",
+  "caption": "Sagu 500 gram sekarang Rp16 ribu sampai Rp18 ribu, tapi pempek kecil di warung depan Masjid Agung tetap Rp5.000 supaya pelanggan gak kabur. Di warung langgananmu harganya sudah naik belum?\n#palembang #pempek #kulinerpalembang #umkm",
+  "hashtags": [
+    "#palembang",
+    "#pempek",
+    "#kulinerpalembang",
+    "#umkm"
+  ],
+  "role_tags": [
+    "keseharian cewek Palembang & serba-serbi kota (naik LRT Sumsel, dialek/istilah gaul Palembang sehari-hari, eksplorasi biaya jajan harian)"
+  ],
+  "role_reason": "Topik diambil apa adanya dari baris trend_selections hari ini (id sel_dinda_2026-11-28_morning, slot morning, trend_id opt_dinda_A_1795827877, decided_by pm_autonomous, skor 8,61). Eksekutor tidak memilih, tidak mengganti, dan tidak mengirim opsi A/B/C ke Telegram. Pilar yang dipakai adalah pilar ketiga profil apa adanya: eksplorasi biaya jajan harian warga Palembang, karena inti cerita hari ini adalah harga bahan baku sagu (Rp10.500 menjadi Rp16.000-Rp18.000 per 500 gram) yang membuat warung menahan harga jajan pempek kecil di Rp5.000. Catatan audit jujur: subjeknya warung pempek, sementara pilar pertama profil menulis kuliner otentik non-pempek dan pilar keempat punya aturan anti-stagnan pempek maksimal 1x per 10 hari (video berpusat pempek terakhir 21 November 2026, tujuh hari lalu). Sudut hari ini sengaja dari sisi biaya dapur dan strategi UMKM bertahan, bukan resep atau perdebatan rasa, jadi dipetakan ke pilar biaya jajan harian dan bukan ke pilar kuliner otentik. Brief PM juga menyebut 24 November sebagai tema pempek dos, sedangkan trend_selections 24 November sebenarnya songket; itu dicatat sebagai ketidaktepatan brief, tidak mengubah pilihan topik.",
+  "image_prompt": "Vertical 9:16 frame sumber 720p. Dinda Kemala, perempuan Indonesia modest 165 cm berpostur sehat dan proporsional alami (siluet feminin seimbang, bukan kurus dan bukan dada rata), pashmina jersey taupe terlipat rapi, kardigan rajut bergaris taupe dikenakan terbuka di atas dalaman krem pas badan yang memperlihatkan kontur feminin alami, kulot krem lebar, kalung liontin emas kecil, berdiri di samping warung pempek kecil di pinggir jalan dekat Masjid Agung Palembang pada pagi hari, satu tangan memegang bungkus plastik sagu tanpa cetakan merek, di belakangnya meja kayu warung dengan dandang kukusan stainless dan tumpukan baki bulat kosong, tanpa papan nama atau tulisan apa pun; cahaya pagi alami dari samping dengan white balance netral tanpa cast kuning atau oranye, pori-pori kulit terlihat realistis, tanpa plastic atau waxy skin, frame mentah bersih tanpa teks tambahan, subtitle, maupun HUD kamera.",
+  "wardrobe": {
+    "outfit_id": "outfit_dinda_5144187e",
+    "name": "Striped Taupe Knit Cardigan & Cream Palazzo",
+    "closeup_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_closeup.png",
+    "fullbody_photo_path": "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png",
+    "selection_reason": "Auto-Stylist memilih dari character_wardrobe busana berstatus active yang paling lama tidak dipakai dan belum dipakai hari ini: status active, master close-up dan full-body lengkap (827 KB dan 614 KB, 768x1376), terakhir dipakai 21 November 2026, times_used 3. Busana cream linen choco (outfit_dinda_pagi_20261111) dipakai 22 November dan mocha linen (outfit_dinda_pagi_20261110) dipakai 26 November sehingga keduanya dilewati. Baris wardrobe hari ini (outfit_dinda_pagi_20261128, outfit_dinda_malam_20261128) masih status incomplete tanpa path foto dan tidak ada foldernya di disk, jadi belum bisa dijadikan referensi. Palet taupe dan krem netral cocok untuk adegan pagi di warung pinggir jalan. Chip fullbody busana ini sudah ada di library Flow flow_1 sebagai dinda_ootd_20261121_striped_taupe_fullbody.jpg."
+  },
+  "references": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "flow_ingredients": [
+    "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+    "FOTO_KARAKTER/Dinda/dinda.jpg",
+    "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+  ],
+  "flow": {
+    "account_id": "flow_1",
+    "model": "Omni 1.2 Flash",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "duration_seconds": 12,
+    "duration_options_seconds": [4, 6, 8, 10, 12, 15],
+    "estimated_credits_displayed": 42,
+    "flow_ingredients": [
+      "FOTO_KARAKTER/Dinda/_Kemala_Three-Expression_Reference_Sheet-1.png_ccfbeaff.jpg",
+      "FOTO_KARAKTER/Dinda/dinda.jpg",
+      "characters/dinda/wardrobe/outfit_dinda_5144187e/master_fullbody.png"
+    ],
+    "verified_from": "Sinkronisasi live Google Flow flow_1 28 November 2026 09.01 WIB: saldo 179 kredit, pill 'Video 720p 12s crop_9_16 x1', switched360p false."
+  },
+  "shots": [
+    {
+      "seconds": 12,
+      "prompt": "Authentic handheld smartphone vlog video of Dinda Kemala, the exact same Indonesian woman shown in the attached reference images: image one is the three-expression face sheet for FACE IDENTITY (match her face shape, nose, eyebrows, eyes, skin tone and apparent age exactly and never change her facial structure), image two is her full-body reference photo for POSTURE and BODY PROPORTION (natural healthy and proportional feminine Indonesian silhouette, not skinny, with a natural feminine bust contour under her clothing), and image three is the outfit reference for CLOTHING (open taupe striped knit cardigan worn over a fitted cream inner top, wide cream palazzo trousers, taupe jersey pashmina hijab wrapped neatly, small gold round pendant necklace). Output exactly one woman in one continuous shot, never a collage, split screen or reference-sheet layout. Vertical 9:16 frame, one continuous shot, twelve seconds, shot on a smartphone vlog camera with slight natural handheld sway at chest height about one and a half metres away in a three-quarter angle from her right. Location: a small street-side pempek food stall near Masjid Agung in Palembang in the morning, she stands beside a simple wooden stall table with a stainless steamer pot and a stack of empty round trays, holding a plain unbranded clear plastic bag of sago flour in one hand, warm morning daylight coming from the side, plain wall behind the stall with no signage and no lettering anywhere. True-to-life colours with neutral daylight white balance and no yellow or orange colour cast, realistic matte human skin with visible fine pores and natural micro texture, absolutely no waxy plastic or glossy shiny skin, zero CGI, authentic non-AI documentary look, absolutely no on-screen text, no viewfinder overlay, no camera HUD, no timestamp, no subtitles, no watermark. BEATS: from 0.0s she lifts the bag of sago slightly toward the lens with a friendly smile and says that five hundred grams of sago now costs sixteen to eighteen thousand rupiah; at about 4.0s she lowers the bag and gestures with her free hand toward the empty trays while saying the Pempek Mustika stall in front of Masjid Agung still sells its small pempek at five thousand rupiah; at about 7.5s she nods and says their profit is squeezed by half; at about 9.0s she smiles and says they survive by posting every day because it is free; at about 11.0s she tilts her head slightly and asks whether the viewer has ever eaten at a stall that held its price. Natural conversational Indonesian with a light Palembang accent, calm friendly tone, one continuous take, no cuts.",
+      "dialogue": "Sagu lima ratus gram sekarang Rp16 sampai Rp18 ribu. Warung Pempek Mustika depan Masjid Agung tetap jual pempek kecil Rp5.000, keuntungan tergerus setengah. Mereka bertahan dengan posting tiap hari karena gratis. Kau pernah makan di sana?",
+      "dialogue_start_seconds": 0.4,
+      "dialogue_read_seconds": 11.2,
+      "action_end_seconds": 11.9
+    }
+  ],
+  "trend_sources": [
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8773125/dramatika-lonjakan-harga-bahan-pokok-bagi-pelaku-umkm-palembang",
+      "title": "Dramatika Lonjakan Harga Bahan Pokok bagi Pelaku UMKM Palembang (detikSumbagsel)",
+      "observed_at": "2026-11-28T08:12:00+07:00",
+      "evidence": "Terbit Sabtu 28 November 2026 pukul 08.00 WIB (meta datePublished 2026-11-28T08:00:00+07:00), penulis Welly Jasrial Tanjung dan A Reiza Pahlevi, dibaca Sabtu 28 November 2026 pukul 08.12 WIB, 21 paragraf isi. Subjek: Puput, pengelola warung Pempek Mustika di Jalan Cik Agus Kemas, depan Masjid Agung Palembang, diwawancarai Jumat 27 November 2026. Angka yang terbaca: tepung sagu kemasan 500 gram dulu Rp10.500, kini Rp16.000-Rp18.000 per bungkus; kemasan plastik naik lebih dulu sampai 100 persen; gula, minyak, dan telur ikut naik; kenaikan terasa makin berat dalam tiga bulan terakhir. Dampak: omzet relatif sama tetapi keuntungan tergerus sekitar 50 persen. Harga jual ditahan: pempek kecil Rp5.000, model, lenggang, dan telur besar Rp20.000, lenjer besar Rp25.000. Strategi bertahan: tidak menaikkan harga demi pelanggan, posting media sosial setiap hari karena gratis, tidak lagi menyewa tempat, sesekali menggandeng food vlogger, melayani pesanan daring lewat e-commerce. Harapan Puput: pemerintah lebih memperhatikan UMKM karena sagu naik hampir 100 persen dan tidak hanya satu-dua pedagang yang terdampak. Artikel tidak menyebut merek sagu, pemasok, atau persentase kenaikan harga jual di warung lain."
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini 28 November 2026 (lagitren.id)",
+      "observed_at": "2026-11-28T08:03:00+07:00",
+      "evidence": "Halaman diakses Sabtu 28 November 2026 pukul 08.03 WIB, tertulis 'diperbarui 28 Nov, 07.00 WIB'. Sepuluh video viral: hariguru25november (4,8 jt), harigurunasional2026 (2,5 jt), teacherday (17,5 jt), belajarbarengsuli (2,0 jt), hariguru (17,5 jt), boomclap (47,5 jt), sulianto (5,0 jt), hgn (2,4 jt), kacaurus (20,3 jt), terimakasihguru (3,9 jt). Lima belas hashtag tren: hariguru25november, harigurunasional2026, teacherday, belajarbarengsuli, hariguru, boomclap, sulianto, hgn, kacaurus, terimakasihguru, suli, 25november, hgn2026, hariguru2026, auralys. Tidak ada tag kuliner, makanan, atau daerah Palembang, dan halaman tidak memuat angka tren nasional untuk topik makanan. Sumber ini dipakai sebagai konteks tren harian, bukan dasar klaim faktual harga."
+    }
+  ],
+  "historical_fact_sources": [],
+  "new_biography_facts": [],
+  "promotional": false,
+  "source_note": "Seluruh angka harga (sagu 500 gram Rp10.500 menjadi Rp16.000-Rp18.000, plastik naik sampai 100 persen, keuntungan tergerus sekitar 50 persen, pempek kecil Rp5.000, model/lenggang/telur besar Rp20.000, lenjer besar Rp25.000) dan strategi bertahan (posting media sosial harian, tidak menyewa tempat, food vlogger, pesanan daring) diambil apa adanya dari artikel detikSumbagsel yang terbit 28 November 2026 pukul 08.00 WIB dan sudah dibaca PM. Nama warung Pempek Mustika, alamat Jalan Cik Agus Kemas, dan nama pengelola (Puput) tidak disebut dalam dialog video agar tidak menimbulkan klaim berlebih; yang disebut di dialog hanya lokasi depan Masjid Agung. Sumber lagitren.id hanya konteks tren TikTok dan tidak dipakai untuk klaim harga.",
+  "production_note": "Satu klip 12 detik 720p native Omni 1.2 Flash, 9:16, output 1, tiga chip bahan: face sheet, dinda.jpg, dan chip outfit striped taupe. Setelah unduh, rakit lewat app.media.assemble_character_video: upscale Varian 3 Hybrid Foto-Realistik ke 1080x1920 (upscayl-lite-4x, texture preserve 0.45, micro grain), hardsub editorial_tiktok dua tingkat bebas tanda koma, mixing lo-fi akustik 15 persen dengan vokal 100 persen. Nama final dnd_281126_v1.mp4. QA final wajib memeriksa kebersihan frame mentah, ketepatan angka harga sagu, dan tidak adanya teks atau HUD kamera."
+}
