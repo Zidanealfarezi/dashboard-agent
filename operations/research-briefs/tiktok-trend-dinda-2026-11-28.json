@@ -1,0 +1,127 @@
+{
+  "brief_id": "tiktok-trend-dinda-2026-11-28",
+  "character_id": "dinda",
+  "slot": "morning",
+  "collected_at": "2026-11-28T08:20:00+07:00",
+  "collected_by": "hermes-cron-ootd-trend",
+  "note": "Riset pagi Sabtu 28 November 2026. Halaman lagitren.id/tiktok diperbarui 28 Nov 07.00 WIB dan sepuluh video viral hari ini masih didominasi Hari Guru (hariguru25november 4,8 jt, harigurunasional2026 2,5 jt, teacherday 17,5 jt, hariguru 17,5 jt, hgn 2,4 jt, terimakasihguru 3,9 jt) ditambah tag game dan hiburan (boomclap 47,5 jt, kacaurus 20,3 jt, sulianto 5,0 jt, belajarbarengsuli 2,0 jt); lima belas hashtag tren halaman itu tidak memuat satu pun tag kuliner atau daerah Palembang (satu-satunya tag non-Hari-Guru adalah auralys), jadi brief ini tidak mengklaim angka tren nasional makanan apa pun dan bersandar pada artikel lokal bertanggal yang benar-benar dibaca. Variasi tema dijaga: hanya 1 dari 3 kandidat dari keluarga pempek (kandidat A), kandidat B pilar busana/wastra, kandidat C kuliner non-pempek. Tidak ada ramalan cuaca BMKG, rilis seremonial dinas, atau statistik inflasi BPS; angka harga yang dipakai adalah harga eceran di warung yang disebut namanya, bukan data inflasi nasional.",
+  "candidates": [
+    {
+      "url": "https://www.detik.com/sumbagsel/berita/d-8773125/dramatika-lonjakan-harga-bahan-pokok-bagi-pelaku-umkm-palembang",
+      "title": "Dramatika Lonjakan Harga Bahan Pokok bagi Pelaku UMKM Palembang (detikSumbagsel)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-28T08:00:00+07:00",
+      "observed_at": "2026-11-28T08:12:00+07:00",
+      "evidence": "Terbit Sabtu 28 November 2026 pukul 08.00 WIB (meta datePublished 2026-11-28T08:00:00+07:00), penulis Welly Jasrial Tanjung dan A Reiza Pahlevi, dibaca Sabtu 28 November 2026 pukul 08.12 WIB, 21 paragraf isi. Subjek: Puput, pengelola warung Pempek Mustika di Jalan Cik Agus Kemas, depan Masjid Agung Palembang, diwawancarai Jumat 27 November 2026. Angka yang terbaca: tepung sagu kemasan 500 gram dulu Rp10.500, kini Rp16.000-Rp18.000 per bungkus; kemasan plastik naik lebih dulu sampai 100 persen; gula, minyak, dan telur ikut naik; kenaikan terasa makin berat dalam tiga bulan terakhir. Dampak yang disebut Puput: omzet relatif sama tetapi keuntungan tergerus sekitar 50 persen. Harga jual ditahan: pempek kecil Rp5.000 per buah, model, lenggang, dan telur besar Rp20.000, lenjer besar Rp25.000. Strategi bertahan yang disebut: tidak menaikkan harga demi pelanggan, posting media sosial setiap hari karena gratis, tidak lagi menyewa tempat, sesekali menggandeng food vlogger, dan melayani pesanan daring lewat e-commerce. Harapan Puput: pemerintah lebih memperhatikan UMKM karena sagu naik hampir 100 persen dan tidak hanya satu-dua pedagang yang terdampak. Artikel tidak menyebut merek sagu, pemasok, atau persentase kenaikan harga jual di warung lain."
+    },
+    {
+      "url": "https://rri.co.id/palembang/ekonomi/umkm/2930801/jingga-studio-merangkai-kreativitas-wastra-palembang-menjadi-busana-custom",
+      "title": "Jingga Studio, Merangkai Kreativitas Wastra Palembang Menjadi Busana Custom (RRI Palembang)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-27T13:40:00+07:00",
+      "observed_at": "2026-11-28T08:05:00+07:00",
+      "evidence": "Terbit Jumat 27 November 2026 pukul 13.40 WIB (metadata halaman 2026-11-27T13:40:00+07:00), dibaca Sabtu 28 November 2026 pukul 08.05 WIB, 11 paragraf badan. Subjek: Putri Huswatun Khasanah, pendiri Jingga Studio sejak 2019, berlokasi di Jalan Sematang Borang, Sako, Palembang. Produk yang disebut: busana custom berbahan wastra Palembang hingga kebaya, dirancang sesuai kebutuhan pelanggan. Latar belakang: lulusan arsitektur Universitas Islam Indonesia Yogyakarta yang memilih berwirausaha; ia menyamakan arsitektur dan menjahit sebagai pekerjaan konstruksi dengan material berbeda (bangunan versus kain). Cerita ini dibahas dalam program Teras UMKM Lokak Kito RRI Palembang, Selasa 24 November 2026. Tantangan yang diakui: keraguan lingkungan sekitar karena dianggap 'dari kuliah arsitektur jadi tukang jahit'. Strategi promosi: konsisten memposting setiap hasil karya ke media sosial untuk membangun kepercayaan calon pelanggan. Artikel tidak memuat harga jasa jahit, lama pengerjaan, atau jumlah karyawan."
+    },
+    {
+      "url": "https://rri.co.id/palembang/ekonomi/umkm/2930537/bakso-ummi-titien-pertahankan-kualitas-rasa-di-tengah-kenaikan-harga-bahan-baku",
+      "title": "Bakso Ummi Titien Pertahankan Kualitas Rasa di tengah Kenaikan Harga Bahan Baku (RRI Palembang)",
+      "verification_status": "source_read",
+      "published_at": "2026-11-27T09:35:00+07:00",
+      "observed_at": "2026-11-28T08:06:00+07:00",
+      "evidence": "Terbit Jumat 27 November 2026 pukul 09.35 WIB (metadata halaman 2026-11-27T09:35:00+07:00), dibaca Sabtu 28 November 2026 pukul 08.06 WIB, 12 paragraf badan. Subjek: Ummi Titien, pemilik Bakso Ummi Titien di kawasan Dwikora 2, tepat di belakang Rumah Sakit Bunda Palembang; usaha mandiri berjalan sekitar dua tahun setelah delapan tahun bermitra dengan teman. Konsep: bakso prasmanan, pelanggan memilih sendiri varian, harga mulai Rp1.000 per pentol; bakso dibuat tanpa bahan pengawet dan non-MSG; ciri khas warna pink. Strategi menghadapi kenaikan bahan baku: tidak mengurangi kualitas, menaikkan harga sekitar Rp1.000 setiap tiga tahun sekali, dan menginformasikan penyesuaian itu ke pelanggan lewat media sosial. Artikel tidak menyebut angka omzet, jumlah pelanggan, atau jam buka."
+    },
+    {
+      "url": "https://lagitren.id/tiktok",
+      "title": "TikTok Viral Indonesia Hari Ini 28 November 2026 (lagitren.id)",
+      "verification_status": "source_read",
+      "observed_at": "2026-11-28T08:03:00+07:00",
+      "evidence": "Halaman diakses Sabtu 28 November 2026 pukul 08.03 WIB, tertulis 'diperbarui 28 Nov, 07.00 WIB'. Sepuluh video viral: hariguru25november (4,8 jt), harigurunasional2026 (2,5 jt), teacherday (17,5 jt), belajarbarengsuli (2,0 jt), hariguru (17,5 jt), boomclap (47,5 jt), sulianto (5,0 jt), hgn (2,4 jt), kacaurus (20,3 jt), terimakasihguru (3,9 jt). Lima belas hashtag tren: hariguru25november, harigurunasional2026, teacherday, belajarbarengsuli, hariguru, boomclap, sulianto, hgn, kacaurus, terimakasihguru, suli, 25november, hgn2026, hariguru2026, auralys. Tidak ada tag kuliner, makanan, OOTD, atau daerah Palembang, dan halaman tidak memuat angka tren nasional untuk topik makanan atau fesyen."
+    }
+  ],
+  "topic_candidates": [
+    {
+      "code": "A",
+      "title": "Sagu Naik Hampir 100 Persen: Warung Pempek Depan Masjid Agung Tahan Harga Rp5.000",
+      "pillar": "Kuliner & Hidden Gem Palembang (keluarga pempek)",
+      "hook": "Sagu 500 gram yang dulu Rp10.500 sekarang Rp16.000 sampai Rp18.000, tapi pempek kecil di warung depan Masjid Agung tetap Rp5.000.",
+      "shots": [
+        "Shot 1 (7s): Dinda berdiri di depan warung pempek sambil memegang bungkus sagu, menyebut harga sagu 500 gram naik dari Rp10.500 ke Rp16.000 sampai Rp18.000 dan plastik bahkan naik sampai 100 persen, lalu menyebut pemilik Pempek Mustika di Jalan Cik Agus Kemas mengaku keuntungannya tergerus sekitar 50 persen walau omzet masih sama.",
+        "Shot 2 (8s): Dinda menyebut harga jual yang tetap ditahan yaitu pempek kecil Rp5.000, model lenggang dan telur besar Rp20.000, lenjer besar Rp25.000, lalu menyebut cara warung itu bertahan: posting media sosial tiap hari karena gratis, tidak lagi sewa tempat, sesekali ikut food vlogger, dan buka pesanan online."
+      ],
+      "sound": "Ambience warung pempek pagi, suara minyak dan pembeli samar, tanpa musik",
+      "outfit": "Open Mocha Linen & Fitted White Inner with Ivory Culottes (outfit_dinda_pagi_20261128)",
+      "caption": "Sagu 500 gram sekarang Rp16 ribu sampai Rp18 ribu, dulu cuma Rp10.500, tapi pempek kecil di warung depan Masjid Agung tetap Rp5.000 supaya pelanggan gak kabur. Di warung langgananmu, harga pempek sudah naik belum?",
+      "hashtags": "#palembang #pempek #kulinerpalembang #umkm",
+      "sources": [
+        "https://www.detik.com/sumbagsel/berita/d-8773125/dramatika-lonjakan-harga-bahan-pokok-bagi-pelaku-umkm-palembang",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 9.4,
+        "actionable_solution": 7.4,
+        "local_relevance": 9.5,
+        "momentum": 9.2,
+        "evidence_strength": 9.0,
+        "format_fit": 8.5,
+        "risk_safety": 9.0
+      },
+      "why": "Topik terkuat pagi ini karena keresahannya dua arah dan angkanya konkret: penjual kehilangan sekitar 50 persen keuntungan sementara pembeli melihat pempek tetap Rp5.000, dan artikelnya menyebut harga sagu per bungkus 500 gram (Rp10.500 menjadi Rp16.000-Rp18.000), plastik naik sampai 100 persen, plus daftar harga jual per jenis (pempek kecil Rp5.000, model lenggang telur besar Rp20.000, lenjer besar Rp25.000). Solusinya bukan teori: warung itu bertahan dengan posting media sosial harian yang gratis, tidak menyewa tempat, menggaet food vlogger, dan membuka pesanan online, jadi penonton yang juga jualan bisa meniru langkahnya. Bukti kuat dan segar: detikSumbagsel terbit hari ini pukul 08.00 WIB, dibaca utuh 21 paragraf. Hasil skrip: 8,61 dari pain 9,4 x 0,25 + solusi 7,4 x 0,25 + lokal 9,5 x 0,20 + momentum 9,2 x 0,15 + novelty 7,53 x 0,15. Tidak ada boost kata kunci karena judul, hook, caption, dan shot tidak memuat istilah pemicu, jadi angka ini murni faktor. Novelty tertahan di 7,53 karena keluarga tema pempek sudah dipakai 23 November (pindang patin vs tulang) dan 24 November (pempek dos); sudut hari ini sengaja dipilih dari sisi biaya dapur, bukan resep atau perdebatan rasa, dan ini satu-satunya kandidat pempek hari ini. Runner-up C 8,21, kandidat B 7,62."
+    },
+    {
+      "code": "B",
+      "title": "Wastra Palembang Jadi Busana Custom: Jingga Studio di Sako, dari Arsitektur ke Jarum Jahit",
+      "pillar": "Busana, Wastra & OOTD Palembang",
+      "hook": "Lulusan arsitektur di Sako Palembang menjahit wastra Palembang jadi busana custom sejak 2019, dan dia bilang ilmu bangunannya kepakai di kain.",
+      "shots": [
+        "Shot 1 (7s): Dinda berdiri di depan rak kain wastra, menyebut Jingga Studio di Jalan Sematang Borang Sako Palembang membuat busana custom dari wastra Palembang sampai kebaya sejak 2019, lalu menyebut pendirinya lulusan arsitektur UII Yogyakarta yang memilih jadi penjahit.",
+        "Shot 2 (7s): Dinda menyebut alasan Putri bertahan: arsitektur dan menjahit sama-sama membangun rancangan, cuma materialnya kain, lalu menyebut cara dia dikenal yaitu konsisten memposting setiap hasil karya ke media sosial supaya calon pelanggan percaya."
+      ],
+      "sound": "Ambience ruang jahit, suara mesin jahit pelan, tanpa musik",
+      "outfit": "Open Mocha Linen & Fitted White Inner with Ivory Culottes (outfit_dinda_pagi_20261128)",
+      "caption": "Busana custom dari wastra Palembang ini dijahit perempuan Sako yang kuliahnya arsitektur, katanya sama-sama membangun cuma materialnya kain. Kamu lebih suka wastra Palembang dibuat kebaya atau model harian?",
+      "hashtags": "#wastrapalembang #ootdpalembang #busanamuslim #palembang",
+      "sources": [
+        "https://rri.co.id/palembang/ekonomi/umkm/2930801/jingga-studio-merangkai-kreativitas-wastra-palembang-menjadi-busana-custom",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 5.2,
+        "actionable_solution": 7.8,
+        "local_relevance": 9.4,
+        "momentum": 7.6,
+        "evidence_strength": 8.6,
+        "format_fit": 9.0,
+        "risk_safety": 9.2
+      },
+      "why": "Paling pas untuk pilar busana dan OOTD Dinda: wastra Palembang dipakai sebagai bahan busana harian, bukan cuma songket upacara, dan cerita pendirinya (lulusan arsitektur yang pindah ke jahit) memberi konflik ringan yang enak diceritakan. Bukti cukup kuat dan bertanggal jelas: RRI Palembang terbit 27 November 2026 pukul 13.40 WIB, 11 paragraf dibaca utuh, memuat alamat studio dan tahun berdiri 2019. Skor mentah 7,62 dan tidak mendapat boost penuh karena tidak ada keresahan finansial bagi penonton; kekurangan yang diakui adalah artikel tidak menyebut harga jasa jahit maupun lama pengerjaan, jadi penonton tidak dapat angka belanja."
+    },
+    {
+      "code": "C",
+      "title": "Bakso Prasmanan Rp1.000 per Pentol di Belakang RS Bunda, Non-MSG dan Pilih Sendiri",
+      "pillar": "Kuliner Non-Pempek & Spot Makan Murah Palembang",
+      "hook": "Di belakang RS Bunda Palembang ada bakso prasmanan yang pentolnya mulai seribu rupiah dan pembeli pilih sendiri.",
+      "shots": [
+        "Shot 1 (7s): Dinda berdiri di depan meja prasmanan bakso, menyebut Bakso Ummi Titien di kawasan Dwikora 2 belakang RS Bunda Palembang menyajikan bakso prasmanan dengan pentol mulai Rp1.000 dan pembeli bebas memilih varian sendiri.",
+        "Shot 2 (7s): Dinda menyebut baksonya tanpa pengawet dan non-MSG, lalu menyebut cara pemiliknya menghadapi harga bahan baku naik yaitu menaikkan harga sekitar Rp1.000 tiap tiga tahun dan mengabarkannya ke pelanggan lewat media sosial."
+      ],
+      "sound": "Ambience warung bakso, suara kuah mendidih samar, tanpa musik",
+      "outfit": "Chocolate Brown Open Knit over Ivory Inner, cream pleated palazzo (outfit_dinda_malam_20261128)",
+      "caption": "Bakso prasmanan di belakang RS Bunda ini pentolnya mulai seribu rupiah dan kita bebas pilih sendiri, baksonya juga non-MSG. Biasanya kamu makan bakso berapa pentol sekali duduk?",
+      "hashtags": "#kulinerpalembang #bakso #makamurah #palembang",
+      "sources": [
+        "https://rri.co.id/palembang/ekonomi/umkm/2930537/bakso-ummi-titien-pertahankan-kualitas-rasa-di-tengah-kenaikan-harga-bahan-baku",
+        "https://lagitren.id/tiktok"
+      ],
+      "factors": {
+        "pain_point_intensity": 6.9,
+        "actionable_solution": 8.8,
+        "local_relevance": 9.2,
+        "momentum": 8.0,
+        "evidence_strength": 8.6,
+        "format_fit": 8.6,
+        "risk_safety": 9.0
+      },
+      "why": "Kandidat paling mudah dieksekusi penonton: lokasi jelas (Dwikora 2, belakang RS Bunda), konsep prasmanan, dan harga mulai Rp1.000 per pentol, ditambah info non-MSG tanpa pengawet. Solusi untuk penjual juga nyata, yaitu menaikkan harga sekitar Rp1.000 tiap tiga tahun dan mengumumkannya lewat media sosial. Skor skrip 8,21 (novelty 8,3), di bawah kandidat A karena keresahannya tidak sekeras tekanan biaya sagu dan momentumnya sehari lebih tua (RRI terbit 27 November 2026 pukul 09.35 WIB). Tidak ada boost kata kunci yang terpicu, jadi urutan akhir murni dari faktor."
+    }
+  ]
+}
